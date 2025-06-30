@@ -1,7 +1,9 @@
-
 site_name: 方法论智慧维基
 site_description: '一个致力于系统性地介绍、解释和应用各种强大方法论的知识库。'
 site_author: 'Your Name' # 您可以替换成您的名字
+
+site_url: https://mayunlei.github.io/methodologywiki/
+repo_url: https://github.com/mayunlei/methodologywiki
 
 theme:
   name: material
@@ -29,6 +31,8 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - js/redirect.js
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -56,6 +60,15 @@ plugins:
         en:
           name: English
           build: true
+
+extra:
+  alternate:
+    - name: 中文
+      link: /
+      lang: zh
+    - name: English
+      link: /en/
+      lang: en
 
 nav:
   - '首页': 'zh/index.md'
