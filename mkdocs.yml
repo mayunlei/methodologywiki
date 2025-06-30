@@ -1,0 +1,160 @@
+
+site_name: 方法论智慧维基
+site_description: '一个致力于系统性地介绍、解释和应用各种强大方法论的知识库。'
+site_author: 'Your Name' # 您可以替换成您的名字
+
+theme:
+  name: material
+  language: zh
+  logo: assets/logo.svg # 我们稍后可以添加一个logo
+  favicon: assets/logo.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - i18n:
+      default_language: zh
+      languages:
+        zh:
+          name: 中文
+          build: true
+        en:
+          name: English
+          build: true
+
+nav:
+  - '首页': 'zh/index.md'
+  - '问题解决工具箱':
+    - '问题解决总览': 'zh/problem_solving/Problem-Solving-cn.md'
+    - '鱼骨图': 'zh/problem_solving/Fishbone-Diagram-Tutorial-cn.md'
+    - '五问法': 'zh/problem_solving/Five-Whys-Tutorial-cn.md'
+    - '差距分析': 'zh/problem_solving/Gap-Analysis-Tutorial-cn.md'
+    - '现场走动': 'zh/problem_solving/Gemba-Walk-Tutorial-cn.md'
+    - '逻辑树': 'zh/problem_solving/Logic-Tree-Tutorial-cn.md'
+    - '波特五力模型': 'zh/problem_solving/Porters-Five-Forces-Tutorial-cn.md'
+    - 'SWOT分析': 'zh/problem_solving/SWOT-Analysis-Tutorial-cn.md'
+    - '六顶思考帽': 'zh/problem_solving/Six-Thinking-Hats-Tutorial-cn.md'
+  - '探究与研究':
+    - '基础分野':
+      - '定量研究': 'zh/basic_discipline/Quantitative-Research-Tutorial-cn.md'
+      - '定性研究': 'zh/basic_discipline/Qualitative-Research-Tutorial-cn.md'
+      - '混合方法研究': 'zh/basic_discipline/Mixed-Methods-Research-Tutorial-cn.md'
+    - '科学探究范式':
+      - '实验研究': 'zh/scientific_inquiry_paradigm/Experimental-Research-Tutorial-cn.md'
+      - '描述性研究': 'zh/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-cn.md'
+      - '相关性研究': 'zh/scientific_inquiry_paradigm/Correlational-Research-Tutorial-cn.md'
+    - '时间维度设计':
+      - '纵向研究': 'zh/time_dimension_design/Longitudinal-Research-Tutorial-cn.md'
+      - '横断面研究': 'zh/time_dimension_design/Cross-Sectional-Research-Tutorial-cn.md'
+    - '专门定性方法':
+      - '民族志': 'zh/specialized_qualitative_methods/Ethnography-Tutorial-cn.md'
+      - '案例研究': 'zh/specialized_qualitative_methods/Case-Study-Tutorial-cn.md'
+    - '理论与实践':
+      - '扎根理论': 'zh/theory_and_practice/Grounded-Theory-Tutorial-cn.md'
+      - '行动研究': 'zh/theory_and_practice/Action-Research-Tutorial-cn.md'
+  - '商业战略与管理':
+    - '战略分析':
+      - 'SWOT分析': 'zh/strategic_analysis/SWOT-Analysis-Tutorial-cn.md'
+      - 'PESTEL分析': 'zh/strategic_analysis/PESTEL-Analysis-Tutorial-cn.md'
+      - '波特五力模型': 'zh/strategic_analysis/Porters-Five-Forces-Tutorial-cn.md'
+      - '价值链分析': 'zh/strategic_analysis/Value-Chain-Analysis-Tutorial-cn.md'
+    - '战略执行':
+      - '平衡计分卡': 'zh/strategic_execution/Balanced-Scorecard-Tutorial-cn.md'
+      - '蓝海战略': 'zh/strategic_execution/Blue-Ocean-Strategy-Tutorial-cn.md'
+    - '商业模式':
+      - '商业模式画布': 'zh/business_model/Business-Model-Canvas-Tutorial-cn.md'
+      - '精益画布': 'zh/business_model/Lean-Canvas-Tutorial-cn.md'
+    - '决策制定':
+      - '决策矩阵': 'zh/decision_making/Decision-Matrix-Tutorial-cn.md'
+      - '成本效益分析': 'zh/decision_making/Cost-Benefit-Analysis-Tutorial-cn.md'
+      - '帕累托分析': 'zh/decision_making/Pareto-Analysis-Tutorial-cn.md'
+    - '目标管理':
+      - 'OKR': 'zh/goal_management/OKR-Tutorial-cn.md'
+      - 'SMART原则': 'zh/goal_management/SMART-Goals-Tutorial-cn.md'
+      - 'KPI': 'zh/goal_management/KPI-Tutorial-cn.md'
+    - '质量与运营':
+      - '全面质量管理': 'zh/quality_and_operations/Total-Quality-Management-Tutorial-cn.md'
+      - '六西格玛': 'zh/quality_and_operations/Six-Sigma-Tutorial-cn.md'
+      - '精益运营': 'zh/quality_and_operations/Lean-Operations-Tutorial-cn.md'
+      - '改善 (Kaizen)': 'zh/quality_and_operations/Kaizen-Tutorial-cn.md'
+  - '产品、设计与创新':
+    - '用户研究':
+      - '用户画像': 'zh/user_research/User-Persona-Tutorial-cn.md'
+      - '用户旅程图': 'zh/user_research/User-Journey-Map-Tutorial-cn.md'
+      - '同理心地图': 'zh/user_research/Empathy-Map-Tutorial-cn.md'
+    - '创意构想':
+      - '头脑风暴': 'zh/ideation/Brainstorming-Tutorial-cn.md'
+      - '六顶思考帽': 'zh/ideation/Six-Thinking-Hats-Tutorial-cn.md'
+      - '思维导图': 'zh/ideation/Mind-Mapping-Tutorial-cn.md'
+    - '产品开发':
+      - '敏捷开发': 'zh/product_development/Agile-Tutorial-cn.md'
+      - 'Scrum': 'zh/product_development/Scrum-Tutorial-cn.md'
+      - '看板 (Kanban)': 'zh/product_development/Kanban-Tutorial-cn.md'
+      - '设计思维': 'zh/product_development/Design-Thinking-Tutorial-cn.md'
+    - '测试与验证':
+      - 'A/B测试': 'zh/testing_and_validation/AB-Testing-Tutorial-cn.md'
+      - '可用性测试': 'zh/testing_and_validation/Usability-Testing-Tutorial-cn.md'
+      - 'MVP': 'zh/testing_and_validation/MVP-Tutorial-cn.md'
+  - '思考与解决问题':
+    - '逻辑思维':
+      - '第一性原理': 'zh/logical_thinking/First-Principles-Thinking-Tutorial-cn.md'
+      - '金字塔原理': 'zh/logical_thinking/Pyramid-Principle-Tutorial-cn.md'
+    - '系统思维':
+      - '系统动力学': 'zh/systems_thinking/System-Dynamics-Tutorial-cn.md'
+      - '冰山模型': 'zh/systems_thinking/Iceberg-Model-Tutorial-cn.md'
+    - '根本原因分析':
+      - '5 Whys': 'zh/root_cause_analysis/5-Whys-Tutorial-cn.md'
+      - '鱼骨图': 'zh/root_cause_analysis/Fishbone-Diagram-Tutorial-cn.md'
+  - '沟通与协作':
+    - '会议提效':
+      - 'ORID焦点讨论法': 'zh/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-cn.md'
+    - '反馈技巧':
+      - 'SBI反馈模型': 'zh/feedback_techniques/SBI-Feedback-Model-Tutorial-cn.md'
+    - '团队协作':
+      - 'RACI责任分配矩阵': 'zh/team_collaboration/RACI-Matrix-Tutorial-cn.md'
+  - '个人成长与效率':
+    - '时间管理':
+      - '番茄工作法': 'zh/time_management/Pomodoro-Technique-Tutorial-cn.md'
+      - '艾森豪威尔矩阵': 'zh/time_management/Eisenhower-Matrix-Tutorial-cn.md'
+      - 'GTD': 'zh/time_management/GTD-Tutorial-cn.md'
+    - '学习方法':
+      - '费曼学习法': 'zh/learning_methods/Feynman-Technique-Tutorial-cn.md'
+      - '康奈尔笔记法': 'zh/learning_methods/Cornell-Note-Taking-Tutorial-cn.md'
+    - '习惯养成':
+      - '微习惯': 'zh/habit_formation/Tiny-Habits-Tutorial-cn.md'
+      - '习惯回路': 'zh/habit_formation/The-Habit-Loop-Tutorial-cn.md'
