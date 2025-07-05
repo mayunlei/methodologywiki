@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3861,6 +3861,8 @@
 <p>The core idea of the 5 Whys method is to continuously and iteratively ask "<strong>Why?</strong>" about an existing problem, delving deeper layer by layer, like peeling an onion, until the underlying root cause is found. If this root cause is addressed, it can completely prevent the problem from recurring. It doesn't strictly require asking exactly five times; sometimes the root can be found in three whys, and sometimes it may require more. The essence lies in the <strong>spirit of persistent inquiry, not being satisfied with superficial answers</strong>. It is a powerful thinking tool that shifts a team's focus from "Whose fault is it?" to "Why did it happen?", and from "firefighting" to "fire prevention."</p>
 <h2 id="the-logical-chain-of-5-whys">The Logical Chain of 5 Whys<a class="headerlink" href="#the-logical-chain-of-5-whys" title="Permanent link">&para;</a></h2>
 <p>The 5 Whys process builds a clear cause-and-effect chain from symptom to root cause. The answer to each "Why" forms the subject of the next "Why."</p>
+<p><img alt="The Causal Chain of 5 Whys" src="../5-Whys-Tutorial-en-mermaid.png" /></p>
+<!--
 <pre class="mermaid"><code>graph TD
     subgraph The Causal Chain of 5 Whys
         A(&lt;b&gt;Problem/Symptom&lt;/b&gt;&lt;br/&gt;e.g., Our website crashed) --&gt; B(&lt;b&gt;Why? (Why 1)&lt;/b&gt;&lt;br/&gt;Direct cause);
@@ -3869,6 +3871,8 @@
         D --&gt; E(&lt;b&gt;Why? (Why 4)&lt;/b&gt;&lt;br/&gt;...);
         E --&gt; F(&lt;b&gt;Why? (Why 5)&lt;/b&gt;&lt;br/&gt;&lt;b&gt;Root Cause&lt;/b&gt;&lt;br/&gt;Often points to a flawed&lt;br/&gt;&lt;b&gt;process, system, or standard&lt;/b&gt;);
     end</code></pre>
+-->
+
 <h2 id="how-to-conduct-a-5-whys-analysis">How to Conduct a 5 Whys Analysis<a class="headerlink" href="#how-to-conduct-a-5-whys-analysis" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3927,42 +3931,52 @@
 </li>
 </ol>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: Corrosion of the Stone Walls of the Jefferson Memorial in Washington D.C.</strong>
-*   <strong>Problem</strong>: The stone walls of the memorial were severely corroded.
-*   <strong>Why? (1)</strong> Because cleaners used high-strength detergents too frequently to wash the walls.
-*   <strong>Why? (2)</strong> Because there was a large amount of bird droppings on the walls every day, necessitating frequent cleaning.
-*   <strong>Why? (3)</strong> Because a large number of swallows gathered around the memorial, feeding on spiders that bred there.
-*   <strong>Why? (4)</strong> Because a large number of spiders were attracted by the memorial's lights, they liked to gather in bright places to spin webs at dusk.
-*   <strong>Why? (5)</strong> Because the memorial's lighting system was set to turn on an hour before sunset.
-*   <strong>Root Cause</strong>: Improper setting of the lighting system's turn-on time.
-*   <strong>Solution</strong>: Adjust the memorial's lights to turn on after sunset. This simple, process-oriented change fundamentally solved the stone wall corrosion problem.</p>
-<p><strong>Case 2: A Puddle of Oil on the Factory Floor</strong>
-*   <strong>Problem</strong>: There was a puddle of oil on the factory floor.
-*   <strong>Why? (1)</strong> Because a machine's oil pipe joint was leaking.
-*   <strong>Why? (2)</strong> Because the gasket in that oil pipe joint was old and cracked.
-*   <strong>Why? (3)</strong> Because the company purchased a batch of low-quality, cheap gaskets.
-*   <strong>Why? (4)</strong> Because the company's procurement policy's only requirement was "lowest price wins."
-*   <strong>Why? (5)</strong> Because the procurement department's performance was only linked to how much procurement cost they "saved" for the company, and had nothing to do with the quality and lifespan of spare parts.
-*   <strong>Root Cause</strong>: Unreasonable performance appraisal system for the procurement department.
-*   <strong>Solution</strong>: Revise procurement policies and performance systems to include supplier quality, reliability, and long-term costs in the evaluation system.</p>
-<p><strong>Case 3: A Student Fails a Final Exam</strong>
-*   <strong>Problem</strong>: Xiao Ming failed his math final exam.
-*   <strong>Why? (1)</strong> Because he only started reviewing in the last week before the exam, which was not enough time.
-*   <strong>Why? (2)</strong> Because he didn't understand much of the content taught in class.
-*   <strong>Why? (3)</strong> Because he always played with his phone during class and couldn't concentrate.
-*   <strong>Why? (4)</strong> Because he fundamentally disliked math and had no interest in it.
-*   <strong>Why? (5)</strong> Because in junior high, he was severely criticized by a teacher after failing a math test, which caused a psychological shadow and fear of math.
-*   <strong>Root Cause</strong>: Early negative learning experiences led to psychological barriers.
-*   <strong>Solution</strong>: May require psychological counseling and building self-confidence, and re-establishing his interest in math by starting with more basic knowledge points where he can experience success.</p>
+<p><strong>Case 1: Corrosion of the Stone Walls of the Jefferson Memorial in Washington D.C.</strong></p>
+<ul>
+<li><strong>Problem</strong>: The stone walls of the memorial were severely corroded.</li>
+<li><strong>Why? (1)</strong> Because cleaners used high-strength detergents too frequently to wash the walls.</li>
+<li><strong>Why? (2)</strong> Because there was a large amount of bird droppings on the walls every day, necessitating frequent cleaning.</li>
+<li><strong>Why? (3)</strong> Because a large number of swallows gathered around the memorial, feeding on spiders that bred there.</li>
+<li><strong>Why? (4)</strong> Because a large number of spiders were attracted by the memorial's lights, they liked to gather in bright places to spin webs at dusk.</li>
+<li><strong>Why? (5)</strong> Because the memorial's lighting system was set to turn on an hour before sunset.</li>
+<li><strong>Root Cause</strong>: Improper setting of the lighting system's turn-on time.</li>
+<li><strong>Solution</strong>: Adjust the memorial's lights to turn on after sunset. This simple, process-oriented change fundamentally solved the stone wall corrosion problem.</li>
+</ul>
+<p><strong>Case 2: A Puddle of Oil on the Factory Floor</strong></p>
+<ul>
+<li><strong>Problem</strong>: There was a puddle of oil on the factory floor.</li>
+<li><strong>Why? (1)</strong> Because a machine's oil pipe joint was leaking.</li>
+<li><strong>Why? (2)</strong> Because the gasket in that oil pipe joint was old and cracked.</li>
+<li><strong>Why? (3)</strong> Because the company purchased a batch of low-quality, cheap gaskets.</li>
+<li><strong>Why? (4)</strong> Because the company's procurement policy's only requirement was "lowest price wins."</li>
+<li><strong>Why? (5)</strong> Because the procurement department's performance was only linked to how much procurement cost they "saved" for the company, and had nothing to do with the quality and lifespan of spare parts.</li>
+<li><strong>Root Cause</strong>: Unreasonable performance appraisal system for the procurement department.</li>
+<li><strong>Solution</strong>: Revise procurement policies and performance systems to include supplier quality, reliability, and long-term costs in the evaluation system.</li>
+</ul>
+<p><strong>Case 3: A Student Fails a Final Exam</strong></p>
+<ul>
+<li><strong>Problem</strong>: Xiao Ming failed his math final exam.</li>
+<li><strong>Why? (1)</strong> Because he only started reviewing in the last week before the exam, which was not enough time.</li>
+<li><strong>Why? (2)</strong> Because he didn't understand much of the content taught in class.</li>
+<li><strong>Why? (3)</strong> Because he always played with his phone during class and couldn't concentrate.</li>
+<li><strong>Why? (4)</strong> Because he fundamentally disliked math and had no interest in it.</li>
+<li><strong>Why? (5)</strong> Because in junior high, he was severely criticized by a teacher after failing a math test, which caused a psychological shadow and fear of math.</li>
+<li><strong>Root Cause</strong>: Early negative learning experiences led to psychological barriers.</li>
+<li><strong>Solution</strong>: May require psychological counseling and building self-confidence, and re-establishing his interest in math by starting with more basic knowledge points where he can experience success.</li>
+</ul>
 <h2 id="advantages-and-challenges-of-5-whys">Advantages and Challenges of 5 Whys<a class="headerlink" href="#advantages-and-challenges-of-5-whys" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Simple and Easy to Use</strong>: Does not require complex statistical tools or specialized knowledge; any team can quickly get started.
-*   <strong>Gets to the Root</strong>: Helps teams penetrate the surface symptoms of a problem to find high-leverage solutions that can fundamentally solve the problem.
-*   <strong>Promotes Understanding, Not Blame</strong>: Shifts the focus from "who made the mistake" to "why did the process allow the mistake to happen," helping to build a healthier, issue-focused problem-solving culture.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>May Have Multiple Root Causes</strong>: For complex problems, the root cause may not be singular but an interconnected system. In such cases, the 5 Whys may oversimplify the problem.
-*   <strong>Depends on Participant Knowledge</strong>: The depth of the analysis highly depends on the participating team's understanding of the actual process and situation.
-*   <strong>May Stop Midway</strong>: The team might stop asking "Why?" after finding a seemingly reasonable but not the most fundamental cause.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Simple and Easy to Use</strong>: Does not require complex statistical tools or specialized knowledge; any team can quickly get started.</li>
+<li><strong>Gets to the Root</strong>: Helps teams penetrate the surface symptoms of a problem to find high-leverage solutions that can fundamentally solve the problem.</li>
+<li><strong>Promotes Understanding, Not Blame</strong>: Shifts the focus from "who made the mistake" to "why did the process allow the mistake to happen," helping to build a healthier, issue-focused problem-solving culture.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>May Have Multiple Root Causes</strong>: For complex problems, the root cause may not be singular but an interconnected system. In such cases, the 5 Whys may oversimplify the problem.</li>
+<li><strong>Depends on Participant Knowledge</strong>: The depth of the analysis highly depends on the participating team's understanding of the actual process and situation.</li>
+<li><strong>May Stop Midway</strong>: The team might stop asking "Why?" after finding a seemingly reasonable but not the most fundamental cause.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Fishbone Diagram (Ishikawa Diagram)</strong>: When a problem may be caused by multiple different, parallel reasons from various areas, a fishbone diagram can first be used to systematically brainstorm and organize all possible potential causes. Then, the 5 Whys can be used to deeply investigate the most suspicious causes.</li>

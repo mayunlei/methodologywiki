@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3872,15 +3872,16 @@
 <p>Our brain is inherently an excellent "CPU" for <strong>generating ideas</strong>, but it is an extremely poor "hard drive" for <strong>storing information</strong>. When we try to use our brain to remember all our to-dos, appointments, ideas, and commitments, it becomes occupied with these "unfinished matters," leading to stress, anxiety, and mental clutter, making it impossible to focus on the task at hand. <strong>GTD (Getting Things Done)</strong>, created by productivity guru David Allen, is a globally renowned <strong>personal productivity system and workflow management method</strong>.</p>
 <p>The core philosophy of GTD is to achieve a <strong>"Mind Like Water"</strong> state of stress-free, highly focused, and efficient work by capturing all pending "stuff" from your mind into an <strong>external, trustworthy system</strong>, and then following a clear, rigorous process to <strong>organize and process</strong> it. It is not a simple time management trick, but a complete operating system designed to free your mind and enable you to calmly handle complex work and life.</p>
 <h2 id="the-five-core-steps-of-gtd">The Five Core Steps of GTD<a class="headerlink" href="#the-five-core-steps-of-gtd" title="Permanent link">&para;</a></h2>
-<p>The entire GTD workflow consists of five logically clear and interconnected steps. Mastering these five steps is key to successfully practicing GTD.</p>
+<p><img alt="The Five Core Steps of GTD" src="../GTD-Tutorial-en-mermaid-1.png" /></p>
+<!--
 <pre class="mermaid"><code>graph TD
-    subgraph The Five Core Steps of GTD
-        A(&lt;b&gt;1. Capture/Collect&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Gather all "stuff"&lt;/i&gt;) --&gt; B(&lt;b&gt;2. Process/Clarify&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Clarify the essence of each item one by one&lt;/i&gt;);
-        B --&gt; C(&lt;b&gt;3. Organize&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Put processed results into the correct "buckets"&lt;/i&gt;);
-        C --&gt; D(&lt;b&gt;4. Reflect/Review&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Regularly review and update your system&lt;/i&gt;);
-        D --&gt; E(&lt;b&gt;5. Engage/Do&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Make wise action choices based on context&lt;/i&gt;);
-        E --&gt; A;
-    end</code></pre>
+    A["1 Capture/Collect&lt;br/&gt;Gather all 'stuff'"] --&gt; B["2 Process/Clarify&lt;br/&gt;Clarify the essence of each item one by one"]
+    B --&gt; C["3 Organize&lt;br/&gt;Put processed results into the correct 'buckets'"]
+    C --&gt; D["4 Reflect/Review&lt;br/&gt;Regularly review and update your system"]
+    D --&gt; E["5 Engage/Do&lt;br/&gt;Make wise action choices based on context"]
+    E --&gt; A</code></pre>
+-->
+
 <ol>
 <li>
 <p><strong>Capture</strong>: Immediately move anything that grabs your attention—whether it's a work task, a personal chore, a sudden inspiration, or a future appointment—out of your brain and into your "<strong>Inbox</strong>." The inbox can be physical (like a file tray, a notebook) or digital (like an email inbox, a to-do app). The key is to ensure your inboxes are as few as possible and can be 100% trusted and emptied.</p>
@@ -3920,59 +3921,78 @@
 </li>
 </ol>
 <h3 id="gtd-workflow-processing-diagram">GTD Workflow Processing Diagram<a class="headerlink" href="#gtd-workflow-processing-diagram" title="Permanent link">&para;</a></h3>
+<p><img alt="GTD Workflow Processing Diagram" src="../GTD-Tutorial-en-mermaid-2.png" /></p>
+<!--
 <pre class="mermaid"><code>graph TD
-    A(Inbox) --&gt; B{What is this?};
-    B --&gt; C{Does it require action?};
-    C -- No --&gt; D{Is it junk/reference/future idea?};
-    D -- Junk --&gt; E(Delete);
-    D -- Reference --&gt; F(Archive);
-    D -- Future Idea --&gt; G(Put into "Someday/Maybe" list);
+    A[Inbox] --&gt; B{What is this?}
+    B --&gt; C{Does it require action?}
+    C -- No --&gt; D{Is it junk, reference, or future idea?}
+    D -- Junk --&gt; E[Delete]
+    D -- Reference --&gt; F[Archive]
+    D -- Future Idea --&gt; G[Someday/Maybe list]
+    C -- Yes --&gt; H{What's the next action?}
+    H --&gt; I{Can it be done in 2 minutes?}
+    I -- Yes --&gt; J[Do it now!]
+    I -- No --&gt; K{Should I do it?}
+    K -- No --&gt; L[Delegate&lt;br/&gt;Waiting For list]
+    K -- Yes --&gt; M{Specific date/time?}
+    M -- Yes --&gt; N[Calendar]
+    M -- No --&gt; O[Next Actions list&lt;br/&gt;by context]
+    H -- Multiple actions --&gt; P[Projects List]
+    O --&gt; P</code></pre>
+-->
 
-    C -- Yes --&gt; H{What's the next action?};
-    H --&gt; I{Can it be done in 2 minutes?};
-    I -- Yes --&gt; J(Do it now!);
-    I -- No --&gt; K{Should I do it?};
-    K -- No --&gt; L(Delegate to others, and put into "Waiting For" list);
-    K -- Yes --&gt; M{Is there a specific date/time?};
-    M -- Yes --&gt; N(Put into Calendar);
-    M -- No --&gt; O(Put into "Next Actions" list&lt;br/&gt;Categorize by context);
-    H -- Requires more than one action --&gt; P(Record this outcome in "Projects List");
-    O --&gt; P;</code></pre>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: A Busy Department Manager</strong>
-*   <strong>Capture</strong>: His inbox might include: email inbox, WeChat messages, notes taken during meetings, and sudden ideas that pop into his head.
-*   <strong>Process and Organize</strong>:
-    *   An email "regarding next quarter's budget notification" -&gt; No action needed -&gt; <strong>Archive</strong> to "Company Finance" reference folder.
-    *   An idea "remind subordinate Xiao Zhang to submit weekly report" -&gt; Can be done in 2 minutes -&gt; <strong>Immediately</strong> send a message to Xiao Zhang.
-    *   A task "prepare for annual team building" -&gt; Requires multiple steps -&gt; Add "Team Building" to the "<strong>Projects List</strong>"; put the first action "Communicate with HR to get a list of optional venues" into the "<strong>@Office</strong>" next actions list.
-    *   An appointment "meeting with client next Wednesday at 3 PM" -&gt; <strong>Put into Calendar</strong>.
-*   <strong>Engage</strong>: When he is in the office, has 1 hour of free time, and feels energetic, he can open the "@Office" list and choose to work on "Communicate with HR."</p>
-<p><strong>Case 2: A Freelancer's Project Management</strong>
-*   <strong>Projects List</strong>: Might include "Client A's website design project," "Personal blog redesign," "Learn a new programming language," etc.
-*   <strong>Next Actions List</strong>:
-    *   <strong>@Phone</strong>: Call Client A to confirm feedback on design drafts.
-    *   <strong>@Computer-Design</strong>: Based on feedback, revise the website homepage design.
-    *   <strong>@Computer-Writing</strong>: Write a blog post about "responsive design."
-    *   <strong>@Read/Learn</strong>: Watch the third chapter of the programming course.
-*   <strong>Weekly Review</strong>: On Friday afternoon, he checks the progress of all projects, ensuring each project has at least one "next action," and plans the priorities for the next week.</p>
-<p><strong>Case 3: A Student Managing Academics and Life</strong>
-*   <strong>Inbox</strong>: Notifications from course WeChat groups, homework assigned by teachers, ideas about club activities, a shopping list for daily necessities.
-*   <strong>Projects List</strong>: "Complete History paper," "Prepare for final exams," "Plan freshman welcome party."
-*   <strong>Next Actions List</strong>:
-    *   <strong>@Library</strong>: Borrow three reference books on the paper topic.
-    *   <strong>@Dorm</strong>: Organize math class notes.
-    *   <strong>@Supermarket</strong>: Buy toothpaste and shampoo.
-*   The <strong>GTD system</strong> helps him clearly separate academic tasks from daily chores and ensures that the right things are done at the right time and in the right place.</p>
+<p><strong>Case 1: A Busy Department Manager</strong></p>
+<ul>
+<li><strong>Capture</strong>: His inbox might include: email inbox, WeChat messages, notes taken during meetings, and sudden ideas that pop into his head.</li>
+<li><strong>Process and Organize</strong>:<ul>
+<li>An email "regarding next quarter's budget notification" -&gt; No action needed -&gt; <strong>Archive</strong> to "Company Finance" reference folder.</li>
+<li>An idea "remind subordinate Xiao Zhang to submit weekly report" -&gt; Can be done in 2 minutes -&gt; <strong>Immediately</strong> send a message to Xiao Zhang.</li>
+<li>A task "prepare for annual team building" -&gt; Requires multiple steps -&gt; Add "Team Building" to the "<strong>Projects List</strong>"; put the first action "Communicate with HR to get a list of optional venues" into the "<strong>@Office</strong>" next actions list.</li>
+<li>An appointment "meeting with client next Wednesday at 3 PM" -&gt; <strong>Put into Calendar</strong>.</li>
+</ul>
+</li>
+<li><strong>Engage</strong>: When he is in the office, has 1 hour of free time, and feels energetic, he can open the "@Office" list and choose to work on "Communicate with HR."</li>
+</ul>
+<p><strong>Case 2: A Freelancer's Project Management</strong></p>
+<ul>
+<li><strong>Projects List</strong>: Might include "Client A's website design project," "Personal blog redesign," "Learn a new programming language," etc.</li>
+<li><strong>Next Actions List</strong>:<ul>
+<li><strong>@Phone</strong>: Call Client A to confirm feedback on design drafts.</li>
+<li><strong>@Computer-Design</strong>: Based on feedback, revise the website homepage design.</li>
+<li><strong>@Computer-Writing</strong>: Write a blog post about "responsive design."</li>
+<li><strong>@Read/Learn</strong>: Watch the third chapter of the programming course.</li>
+</ul>
+</li>
+<li><strong>Weekly Review</strong>: On Friday afternoon, he checks the progress of all projects, ensuring each project has at least one "next action," and plans the priorities for the next week.</li>
+</ul>
+<p><strong>Case 3: A Student Managing Academics and Life</strong></p>
+<ul>
+<li><strong>Inbox</strong>: Notifications from course WeChat groups, homework assigned by teachers, ideas about club activities, a shopping list for daily necessities.</li>
+<li><strong>Projects List</strong>: "Complete History paper," "Prepare for final exams," "Plan freshman welcome party."</li>
+<li><strong>Next Actions List</strong>:<ul>
+<li><strong>@Library</strong>: Borrow three reference books on the paper topic.</li>
+<li><strong>@Dorm</strong>: Organize math class notes.</li>
+<li><strong>@Supermarket</strong>: Buy toothpaste and shampoo.</li>
+</ul>
+</li>
+<li>The <strong>GTD system</strong> helps him clearly separate academic tasks from daily chores and ensures that the right things are done at the right time and in the right place.</li>
+</ul>
 <h2 id="advantages-and-challenges-of-gtd">Advantages and Challenges of GTD<a class="headerlink" href="#advantages-and-challenges-of-gtd" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Reduces Mental Stress, Frees Up Brain Bandwidth</strong>: By externalizing all "unfinished matters," it greatly reduces the brain's memory burden and the continuous anxiety caused by "fear of forgetting."
-*   <strong>Enhances Sense of Control and Calmness</strong>: A trustworthy system assures you that everything is under control, allowing you to approach current tasks more calmly and focused.
-*   <strong>Ensures "Important Things" Are Not Missed</strong>: The crucial "Weekly Review" ensures continuous attention and progress on all important projects and long-term goals.
-*   <strong>Highly Adaptable and Flexible</strong>: GTD itself does not pre-set priorities but provides a framework that allows you to dynamically and flexibly choose the most appropriate action based on the current context.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>High Initial Cost of Setting Up the System</strong>: The first time you "capture" and set up the complete list system, it may take several hours or even a full day.
-*   <strong>Requires Strict Self-Discipline and Habit Formation</strong>: The success of GTD highly depends on whether you can develop the core habits of <strong>continuous capturing</strong> and <strong>regular reviewing</strong>. Once the system is no longer trusted and updated, it will quickly collapse.
-*   <strong>Tool Selection Dilemma</strong>: There are many GTD software and tools on the market, and beginners can easily fall into the trap of excessively pursuing the "perfect tool" while neglecting the method itself.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Reduces Mental Stress, Frees Up Brain Bandwidth</strong>: By externalizing all "unfinished matters," it greatly reduces the brain's memory burden and the continuous anxiety caused by "fear of forgetting."</li>
+<li><strong>Enhances Sense of Control and Calmness</strong>: A trustworthy system assures you that everything is under control, allowing you to approach current tasks more calmly and focused.</li>
+<li><strong>Ensures "Important Things" Are Not Missed</strong>: The crucial "Weekly Review" ensures continuous attention and progress on all important projects and long-term goals.</li>
+<li><strong>Highly Adaptable and Flexible</strong>: GTD itself does not pre-set priorities but provides a framework that allows you to dynamically and flexibly choose the most appropriate action based on the current context.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>High Initial Cost of Setting Up the System</strong>: The first time you "capture" and set up the complete list system, it may take several hours or even a full day.</li>
+<li><strong>Requires Strict Self-Discipline and Habit Formation</strong>: The success of GTD highly depends on whether you can develop the core habits of <strong>continuous capturing</strong> and <strong>regular reviewing</strong>. Once the system is no longer trusted and updated, it will quickly collapse.</li>
+<li><strong>Tool Selection Dilemma</strong>: There are many GTD software and tools on the market, and beginners can easily fall into the trap of excessively pursuing the "perfect tool" while neglecting the method itself.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Eisenhower Matrix</strong>: Can be used in the "Engage" step of GTD as an effective thinking model for judging "priority."</li>

@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3887,13 +3887,15 @@
 </ul>
 <h2 id="dmaic-six-sigma-project-roadmap">DMAIC: Six Sigma Project Roadmap<a class="headerlink" href="#dmaic-six-sigma-project-roadmap" title="Permanent link">&para;</a></h2>
 <p>Six Sigma improvement projects strictly follow a five-phase roadmap called <strong>DMAIC</strong>. Each phase has clear objectives and key tools to be used.</p>
+<p><img alt="Six Sigma DMAIC Improvement Cycle" src="../Six-Sigma-Tutorial-en-mermaid.png" /></p>
+<!--
 <pre class="mermaid"><code>graph TD
-    subgraph Six Sigma DMAIC Improvement Cycle
-        A(&lt;b&gt;D - Define&lt;/b&gt;&lt;br/&gt;- Define project goals, scope, and customer needs&lt;br/&gt;- Draw high-level process map (SIPOC)&lt;br/&gt;- Form project team) --&gt; B(&lt;b&gt;M - Measure&lt;/b&gt;&lt;br/&gt;- Measure current process performance baseline&lt;br/&gt;- Collect data, validate measurement system (MSA)&lt;br/&gt;- Calculate current sigma level);
-        B --&gt; C(&lt;b&gt;A - Analyze&lt;/b&gt;&lt;br/&gt;- Analyze data, identify sources of variation&lt;br/&gt;- Use statistical tools to find the&lt;br/&gt;vital few root causes of the problem);
-        C --&gt; D(&lt;b&gt;I - Improve&lt;/b&gt;&lt;br/&gt;- Develop, test, and implement innovative solutions&lt;br/&gt;for root causes&lt;br/&gt;- Use Design of Experiments (DOE) to optimize solutions);
-        D --&gt; E(&lt;b&gt;C - Control&lt;/b&gt;&lt;br/&gt;- Establish monitoring system to ensure&lt;br/&gt;improvement results are sustained long-term&lt;br/&gt;- Standardize new processes and hand over&lt;br/&gt;to process owner);
-    end</code></pre>
+    A["D - Define&lt;br/&gt;- Define project goals, scope, and customer needs&lt;br/&gt;- Draw high-level process map (SIPOC)&lt;br/&gt;- Form project team"] --&gt; B["M - Measure&lt;br/&gt;- Measure current process performance baseline&lt;br/&gt;- Collect data, validate measurement system (MSA)&lt;br/&gt;- Calculate current sigma level"]
+    B --&gt; C["A - Analyze&lt;br/&gt;- Analyze data, identify sources of variation&lt;br/&gt;- Use statistical tools to find the&lt;br/&gt;vital few root causes of the problem"]
+    C --&gt; D["I - Improve&lt;br/&gt;- Develop, test, and implement innovative solutions&lt;br/&gt;for root causes&lt;br/&gt;- Use Design of Experiments (DOE) to optimize solutions"]
+    D --&gt; E["C - Control&lt;br/&gt;- Establish monitoring system to ensure&lt;br/&gt;improvement results are sustained long-term&lt;br/&gt;- Standardize new processes and hand over&lt;br/&gt;to process owner"]</code></pre>
+-->
+
 <h2 id="how-to-implement-a-six-sigma-project">How to Implement a Six Sigma Project<a class="headerlink" href="#how-to-implement-a-six-sigma-project" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3921,30 +3923,42 @@
 <li><strong>Green Belts</strong>: Participate in or lead smaller improvement projects while performing their regular duties. They are the main force for the popularization and application of Six Sigma in the organization.</li>
 </ul>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: General Electric (GE)</strong>
-*   <strong>Scenario</strong>: Under the leadership of Jack Welch, GE was one of the first and most successful companies globally to elevate Six Sigma from a quality tool to a core business strategy.
-*   <strong>Application</strong>: GE applied Six Sigma to every business area, from aircraft engine manufacturing to financial services. For example, in one case, its healthcare division, through a DMAIC project, analyzed the inspection process of CT scanners and successfully reduced the average inspection time per patient by 30%, greatly improving equipment utilization and patient satisfaction. It is reported that Six Sigma saved GE billions of dollars in its initial years.</p>
-<p><strong>Case 2: Optimizing Credit Card Application Process at a Bank</strong>
-*   <strong>Problem</strong>: The average time from customer submitting a credit card application to receiving the card was too long, leading to low customer satisfaction.
-*   <strong>DMAIC Application</strong>:
-    *   <strong>D</strong>: Defined the project goal as "reducing the application cycle from an average of 15 days to 7 days within 6 months."
-    *   <strong>M</strong>: Measured the time spent on each stage (e.g., "data entry," "credit review," "card production," "mailing") for hundreds of applications over the past three months.
-    *   <strong>A</strong>: Data analysis revealed that the "credit review" stage took the longest and had the most variability, being the main bottleneck in the process.
-    *   <strong>I</strong>: The team redesigned the credit review process, introduced an automated preliminary review system, and empowered review personnel.
-    *   <strong>C</strong>: Established a new process monitoring dashboard and updated operating manuals. Ultimately, the average cycle was successfully reduced to 6.5 days.</p>
-<p><strong>Case 3: Reducing Product Defect Rate at a Manufacturing Plant</strong>
-*   <strong>Problem</strong>: The defect rate of parts produced on a certain production line, where dimensions exceeded standards, was as high as 5%.
-*   <strong>DMAIC Application</strong>: The project team through fishbone diagrams and hypothesis testing, analyzed all potential causes (man, machine, material, method, environment) that could lead to dimensional deviations. Finally, through Design of Experiments (DOE), it was found that the interaction between the machine's "cooling temperature" and "cutting speed" parameters was the most critical root cause of dimensional variation. By setting a new, optimized set of parameter combinations, the team successfully reduced the defect rate to below 0.1%.</p>
+<p><strong>Case 1: General Electric (GE)</strong></p>
+<ul>
+<li><strong>Scenario</strong>: Under the leadership of Jack Welch, GE was one of the first and most successful companies globally to elevate Six Sigma from a quality tool to a core business strategy.</li>
+<li><strong>Application</strong>: GE applied Six Sigma to every business area, from aircraft engine manufacturing to financial services. For example, in one case, its healthcare division, through a DMAIC project, analyzed the inspection process of CT scanners and successfully reduced the average inspection time per patient by 30%, greatly improving equipment utilization and patient satisfaction. It is reported that Six Sigma saved GE billions of dollars in its initial years.</li>
+</ul>
+<p><strong>Case 2: Optimizing Credit Card Application Process at a Bank</strong></p>
+<ul>
+<li><strong>Problem</strong>: The average time from customer submitting a credit card application to receiving the card was too long, leading to low customer satisfaction.</li>
+<li><strong>DMAIC Application</strong>:<ul>
+<li><strong>D</strong>: Defined the project goal as "reducing the application cycle from an average of 15 days to 7 days within 6 months."</li>
+<li><strong>M</strong>: Measured the time spent on each stage (e.g., "data entry," "credit review," "card production," "mailing") for hundreds of applications over the past three months.</li>
+<li><strong>A</strong>: Data analysis revealed that the "credit review" stage took the longest and had the most variability, being the main bottleneck in the process.</li>
+<li><strong>I</strong>: The team redesigned the credit review process, introduced an automated preliminary review system, and empowered review personnel.</li>
+<li><strong>C</strong>: Established a new process monitoring dashboard and updated operating manuals. Ultimately, the average cycle was successfully reduced to 6.5 days.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Case 3: Reducing Product Defect Rate at a Manufacturing Plant</strong></p>
+<ul>
+<li><strong>Problem</strong>: The defect rate of parts produced on a certain production line, where dimensions exceeded standards, was as high as 5%.</li>
+<li><strong>DMAIC Application</strong>: The project team through fishbone diagrams and hypothesis testing, analyzed all potential causes (man, machine, material, method, environment) that could lead to dimensional deviations. Finally, through Design of Experiments (DOE), it was found that the interaction between the machine's "cooling temperature" and "cutting speed" parameters was the most critical root cause of dimensional variation. By setting a new, optimized set of parameter combinations, the team successfully reduced the defect rate to below 0.1%.</li>
+</ul>
 <h2 id="advantages-and-challenges-of-six-sigma">Advantages and Challenges of Six Sigma<a class="headerlink" href="#advantages-and-challenges-of-six-sigma" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Results-oriented, significant financial returns</strong>: Each project is linked to clear, quantifiable financial goals.
-*   <strong>Disciplined, clear logic</strong>: The DMAIC framework provides a very structured, repeatable roadmap for solving complex problems.
-*   <strong>Data-driven, strong objectivity</strong>: Emphasizes speaking with data, reducing subjectivity and arbitrariness in decision-making.
-*   <strong>Develops problem-solving skills</strong>: Cultivates a group of professionals (Black Belts, Green Belts) within the organization who understand business, data, and can use scientific tools to solve problems.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>May stifle innovation</strong>: Overemphasis on controlling and optimizing existing processes can sometimes conflict with disruptive innovation that requires exploration and trial-and-error.
-*   <strong>Risk of bureaucracy</strong>: If implemented improperly, it can become a bureaucratic process filled with complex statistical tools and reports, "doing projects" for the sake of "doing projects."
-*   <strong>Requires significant investment</strong>: Successful Six Sigma implementation requires significant upfront investment from the company in training, project resources, and personnel.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Results-oriented, significant financial returns</strong>: Each project is linked to clear, quantifiable financial goals.</li>
+<li><strong>Disciplined, clear logic</strong>: The DMAIC framework provides a very structured, repeatable roadmap for solving complex problems.</li>
+<li><strong>Data-driven, strong objectivity</strong>: Emphasizes speaking with data, reducing subjectivity and arbitrariness in decision-making.</li>
+<li><strong>Develops problem-solving skills</strong>: Cultivates a group of professionals (Black Belts, Green Belts) within the organization who understand business, data, and can use scientific tools to solve problems.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>May stifle innovation</strong>: Overemphasis on controlling and optimizing existing processes can sometimes conflict with disruptive innovation that requires exploration and trial-and-error.</li>
+<li><strong>Risk of bureaucracy</strong>: If implemented improperly, it can become a bureaucratic process filled with complex statistical tools and reports, "doing projects" for the sake of "doing projects."</li>
+<li><strong>Requires significant investment</strong>: Successful Six Sigma implementation requires significant upfront investment from the company in training, project resources, and personnel.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Lean Manufacturing</strong>: The core of Six Sigma is <strong>reducing variation and improving quality</strong>; the core of Lean is <strong>eliminating waste and improving speed</strong>. The two have different focuses but are highly complementary. In practice, they are often combined to form the more powerful <strong>Lean Six Sigma</strong>, aiming to achieve high quality, high efficiency, and low cost simultaneously.</li>

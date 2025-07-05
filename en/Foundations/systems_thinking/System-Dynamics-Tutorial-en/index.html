@@ -724,7 +724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3902,6 +3902,8 @@
 </li>
 </ul>
 <h3 id="basic-diagram-of-system-dynamics-model-causal-loop-diagram">Basic Diagram of System Dynamics Model (Causal Loop Diagram)<a class="headerlink" href="#basic-diagram-of-system-dynamics-model-causal-loop-diagram" title="Permanent link">&para;</a></h3>
+<p><img alt="System Dynamics Model" src="../System-Dynamics-Tutorial-en-mermaid.png" /></p>
+<!--
 <pre class="mermaid"><code>graph TD
     subgraph Reinforcing Loop: Bank Deposit
         A(Bank Deposit) -- Interest Rate --&gt; B(Interest Income);
@@ -3914,6 +3916,8 @@
         D -- - --&gt; C;
         note right of D: Higher fatigue, more coffee consumed;&lt;br/&gt;More coffee consumed, lower fatigue level.&lt;br/&gt;This is a regulating process that tries to&lt;br/&gt;reduce fatigue level to a target level. 
     end</code></pre>
+-->
+
 <h2 id="how-to-conduct-a-system-dynamics-analysis">How to Conduct a System Dynamics Analysis<a class="headerlink" href="#how-to-conduct-a-system-dynamics-analysis" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3938,24 +3942,34 @@
 </li>
 </ol>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: "The Limits to Growth"</strong>
-*   <strong>Scenario</strong>: This is one of the most famous applications of System Dynamics. In the 1970s, the Club of Rome commissioned Jay Forrester's team to build a "World3 model" about the interactions between global population, industrial output, resource consumption, pollution, and food production.
-*   <strong>Application</strong>: The model revealed that, on a finite Earth, the internal feedback loop structure of pursuing unlimited exponential growth would inevitably lead to a "growth overshoot and collapse" of the global system at some point in the 21st century. This research had a profound impact on global environmental protection and sustainable development thinking.</p>
-<p><strong>Case 2: "Bullwhip Effect" in Supply Chain Management</strong>
-*   <strong>Problem</strong>: In a supply chain from retailers to manufacturers, why do small fluctuations in customer demand often get amplified upstream, eventually leading to drastic fluctuations in the manufacturer's production plan?
-*   <strong>System Dynamics Analysis</strong>: By building a System Dynamics model of the supply chain, researchers found that the root cause of this "bullwhip effect" lies in <strong>time delays</strong> (order processing delays, transportation delays) and <strong>feedback structures</strong> (each link places orders upstream based on downstream demand forecasts and amplifies order quantities for safety) in the system. The model clearly showed that the solution is not to make each link try harder to forecast, but to <strong>shorten information delays</strong> (e.g., information sharing across the entire chain) and <strong>change feedback structures</strong>.</p>
-<p><strong>Case 3: Urban Development Planning</strong>
-*   <strong>Problem</strong>: A city decides to build more roads to solve traffic congestion.
-*   <strong>System Dynamics Analysis</strong>: A simple linear thinking would assume that "more roads mean less congestion." But a System Dynamics model might reveal a "treating the symptoms, not the root cause" balancing loop: more roads make living in the suburbs more attractive, thus attracting more people to move in and buy more cars. After a brief relief, the increased number of cars will eventually completely fill the increased road capacity, bringing the congestion problem back to or even exceeding its original level in a few years. This insight might lead urban planners to shift their policy focus from "building roads" to higher-leverage solutions like "developing public transportation."</p>
+<p><strong>Case 1: "The Limits to Growth"</strong></p>
+<ul>
+<li><strong>Scenario</strong>: This is one of the most famous applications of System Dynamics. In the 1970s, the Club of Rome commissioned Jay Forrester's team to build a "World3 model" about the interactions between global population, industrial output, resource consumption, pollution, and food production.</li>
+<li><strong>Application</strong>: The model revealed that, on a finite Earth, the internal feedback loop structure of pursuing unlimited exponential growth would inevitably lead to a "growth overshoot and collapse" of the global system at some point in the 21st century. This research had a profound impact on global environmental protection and sustainable development thinking.</li>
+</ul>
+<p><strong>Case 2: "Bullwhip Effect" in Supply Chain Management</strong></p>
+<ul>
+<li><strong>Problem</strong>: In a supply chain from retailers to manufacturers, why do small fluctuations in customer demand often get amplified upstream, eventually leading to drastic fluctuations in the manufacturer's production plan?</li>
+<li><strong>System Dynamics Analysis</strong>: By building a System Dynamics model of the supply chain, researchers found that the root cause of this "bullwhip effect" lies in <strong>time delays</strong> (order processing delays, transportation delays) and <strong>feedback structures</strong> (each link places orders upstream based on downstream demand forecasts and amplifies order quantities for safety) in the system. The model clearly showed that the solution is not to make each link try harder to forecast, but to <strong>shorten information delays</strong> (e.g., information sharing across the entire chain) and <strong>change feedback structures</strong>.</li>
+</ul>
+<p><strong>Case 3: Urban Development Planning</strong></p>
+<ul>
+<li><strong>Problem</strong>: A city decides to build more roads to solve traffic congestion.</li>
+<li><strong>System Dynamics Analysis</strong>: A simple linear thinking would assume that "more roads mean less congestion." But a System Dynamics model might reveal a "treating the symptoms, not the root cause" balancing loop: more roads make living in the suburbs more attractive, thus attracting more people to move in and buy more cars. After a brief relief, the increased number of cars will eventually completely fill the increased road capacity, bringing the congestion problem back to or even exceeding its original level in a few years. This insight might lead urban planners to shift their policy focus from "building roads" to higher-leverage solutions like "developing public transportation."</li>
+</ul>
 <h2 id="advantages-and-challenges-of-system-dynamics">Advantages and Challenges of System Dynamics<a class="headerlink" href="#advantages-and-challenges-of-system-dynamics" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Insight into Dynamic Complexity</strong>: Can profoundly reveal counter-intuitive system behaviors driven by feedback, delays, and nonlinear relationships.
-*   <strong>Powerful "Flight Simulator"</strong>: Provides a safe, low-cost virtual laboratory where decision-makers can repeatedly experiment and learn about the long-term, systemic consequences of different policies before taking real action.
-*   <strong>Promotes Systemic Thinking</strong>: The modeling process itself is a powerful tool that forces teams to break down departmental silos, build a holistic view, and collectively understand the system structure.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>High Technical Threshold, Time-Consuming and Labor-Intensive</strong>: Building a rigorous, credible quantitative simulation model requires specialized modeling knowledge, a large amount of data, and a long time frame.
-*   <strong>Risk of "Precise Error"</strong>: The model's results are highly dependent on its underlying structural assumptions and parameter settings. If the model's basic assumptions are wrong, it will only produce a "seemingly precise" wrong conclusion.
-*   <strong>Difficulty in Data Acquisition</strong>: Finding accurate quantitative data for all variables in the model can be very difficult in practice.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Insight into Dynamic Complexity</strong>: Can profoundly reveal counter-intuitive system behaviors driven by feedback, delays, and nonlinear relationships.</li>
+<li><strong>Powerful "Flight Simulator"</strong>: Provides a safe, low-cost virtual laboratory where decision-makers can repeatedly experiment and learn about the long-term, systemic consequences of different policies before taking real action.</li>
+<li><strong>Promotes Systemic Thinking</strong>: The modeling process itself is a powerful tool that forces teams to break down departmental silos, build a holistic view, and collectively understand the system structure.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>High Technical Threshold, Time-Consuming and Labor-Intensive</strong>: Building a rigorous, credible quantitative simulation model requires specialized modeling knowledge, a large amount of data, and a long time frame.</li>
+<li><strong>Risk of "Precise Error"</strong>: The model's results are highly dependent on its underlying structural assumptions and parameter settings. If the model's basic assumptions are wrong, it will only produce a "seemingly precise" wrong conclusion.</li>
+<li><strong>Difficulty in Data Acquisition</strong>: Finding accurate quantitative data for all variables in the model can be very difficult in practice.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Systems Thinking</strong>: System Dynamics is the most core and quantitative methodology for practicing and applying systems thinking. Tools like causal loop diagrams are excellent starting points for developing systems thinking skills.</li>

@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3889,25 +3889,17 @@
 <li><strong>Pain Points &amp; Opportunities</strong>: Based on the above analysis, clearly identify the key obstacles causing negative user emotions (pain points) at each stage, and brainstorm corresponding improvement opportunities based on these.</li>
 </ol>
 <h3 id="user-journey-map-template">User Journey Map Template<a class="headerlink" href="#user-journey-map-template" title="Permanent link">&para;</a></h3>
+<p><img alt="User Journey Map: Restaurant Reservation" src="../User-Journey-Map-Tutorial-en-mermaid.png" /></p>
+<!--
 <pre class="mermaid"><code>graph TD
-    subgraph User Journey Map: Restaurant Reservation
-        direction LR
-        subgraph Persona and Scenario
-            A(&lt;b&gt;User Persona:&lt;/b&gt; Li Lei, 30, Internet Operations&lt;br/&gt;&lt;b&gt;Scenario:&lt;/b&gt; Planning to book a romantic Western restaurant for his girlfriend's birthday)
-        end
+    A["User Persona: Li Lei, 30, Internet Operations&lt;br/&gt;Scenario: Planning to book a romantic Western restaurant for his girlfriend's birthday"]
+    B["Awareness/Discovery"] --&gt; C["Comparison/Consideration"] --&gt; D["Reservation/Action"] --&gt; E["Arrival/Experience"] --&gt; F["Sharing/Recollection"]
+    G["Actions/Touchpoints&lt;br/&gt;- Search 'Western restaurant' on App&lt;br/&gt;- Browse restaurant list"] --&gt; H["Actions/Touchpoints&lt;br/&gt;- Open 3 restaurant detail pages&lt;br/&gt;- View menu, pictures, reviews"] --&gt; I["Actions/Touchpoints&lt;br/&gt;- Select one, click to reserve&lt;br/&gt;- Fill in reservation info&lt;br/&gt;- Receive confirmation SMS"] --&gt; J["Actions/Touchpoints&lt;br/&gt;- Dine at the restaurant&lt;br/&gt;- Experience service and dishes"] --&gt; K["Actions/Touchpoints&lt;br/&gt;- Share photos on social media&lt;br/&gt;- Write a good review for the restaurant"]
+    L["Thoughts&lt;br/&gt;'So many choices, which one is good?'&lt;br/&gt;'Hope to find a place with a good ambiance.'"] --&gt; M["Thoughts&lt;br/&gt;'This one looks good, but reviews are a bit few.'&lt;br/&gt;'Menu pictures are so appealing.'"] --&gt; N["Thoughts&lt;br/&gt;'Reservation process shouldn't be too complicated.'&lt;br/&gt;'Hope to add a note for birthday purpose.'"] --&gt; O["Thoughts&lt;br/&gt;'The waiter was very attentive.'&lt;br/&gt;'This dish exceeded expectations!'"] --&gt; P["Thoughts&lt;br/&gt;'This experience was great, must recommend to friends.'"]
+    Q["Emotional Curve&lt;br/&gt;(Stable)"] --&gt; R["Emotional Curve&lt;br/&gt;(Slightly anxious)"] --&gt; S["Emotional Curve&lt;br/&gt;(Anticipation)"] --&gt; T["Emotional Curve&lt;br/&gt;(Peak Experience)"] --&gt; U["Emotional Curve&lt;br/&gt;(Satisfied)"]
+    V["Pain Points/Opportunities&lt;br/&gt;Pain Point: Too many restaurants, information overload&lt;br/&gt;Opportunity: Provide 'Anniversary Selection' tag"] --&gt; W["Pain Points/Opportunities&lt;br/&gt;Pain Point: Hard to judge authenticity of reviews&lt;br/&gt;Opportunity: Introduce 'Diner's Real Photos' feature"] --&gt; X["Pain Points/Opportunities&lt;br/&gt;Pain Point: Cannot add special requests online&lt;br/&gt;Opportunity: Add reservation notes field"]</code></pre>
+-->
 
-        subgraph Journey Phases
-            B(&lt;b&gt;Awareness/Discovery&lt;/b&gt;) --&gt; C(&lt;b&gt;Comparison/Consideration&lt;/b&gt;) --&gt; D(&lt;b&gt;Reservation/Action&lt;/b&gt;) --&gt; E(&lt;b&gt;Arrival/Experience&lt;/b&gt;) --&gt; F(&lt;b&gt;Sharing/Recollection&lt;/b&gt;);
-        end
-
-        subgraph Swimlanes
-            direction TB
-            G(&lt;b&gt;Actions/Touchpoints&lt;/b&gt;&lt;br/&gt;- Search "Western restaurant" on App&lt;br/&gt;- Browse restaurant list) --&gt; H(&lt;b&gt;Actions/Touchpoints&lt;/b&gt;&lt;br/&gt;- Open 3 restaurant detail pages&lt;br/&gt;- View menu, pictures, reviews) --&gt; I(&lt;b&gt;Actions/Touchpoints&lt;/b&gt;&lt;br/&gt;- Select one, click to reserve&lt;br/&gt;- Fill in reservation info&lt;br/&gt;- Receive confirmation SMS) --&gt; J(&lt;b&gt;Actions/Touchpoints&lt;/b&gt;&lt;br/&gt;- Dine at the restaurant&lt;br/&gt;- Experience service and dishes) --&gt; K(&lt;b&gt;Actions/Touchpoints&lt;/b&gt;&lt;br/&gt;- Share photos on social media&lt;br/&gt;- Write a good review for the restaurant);
-            L(&lt;b&gt;Thoughts&lt;/b&gt;&lt;br/&gt;"So many choices, which one is good?"&lt;br/&gt;"Hope to find a place with a good ambiance.") --&gt; M(&lt;b&gt;Thoughts&lt;/b&gt;&lt;br/&gt;"This one looks good, but reviews are a bit few."&lt;br/&gt;"Menu pictures are so appealing.") --&gt; N(&lt;b&gt;Thoughts&lt;/b&gt;&lt;br/&gt;"Reservation process shouldn't be too complicated."&lt;br/&gt;"Hope to add a note for birthday purpose.") --&gt; O(&lt;b&gt;Thoughts&lt;/b&gt;&lt;br/&gt;"The waiter was very attentive."&lt;br/&gt;"This dish exceeded expectations!") --&gt; P(&lt;b&gt;Thoughts&lt;/b&gt;&lt;br/&gt;"This experience was great, must recommend to friends.");
-            Q(&lt;b&gt;Emotional Curve&lt;/b&gt;&lt;br/&gt;(Stable)) --&gt; R(&lt;b&gt;Emotional Curve&lt;/b&gt;&lt;br/&gt;(Slightly anxious)) --&gt; S(&lt;b&gt;Emotional Curve&lt;/b&gt;&lt;br/&gt;(Anticipation)) --&gt; T(&lt;b&gt;Emotional Curve&lt;/b&gt;&lt;br/&gt;(&lt;b&gt;Peak Experience&lt;/b&gt;)) --&gt; U(&lt;b&gt;Emotional Curve&lt;/b&gt;&lt;br/&gt;(Satisfied));
-            V(&lt;b&gt;Pain Points/Opportunities&lt;/b&gt;&lt;br/&gt;- &lt;b&gt;Pain Point:&lt;/b&gt; Too many restaurants, information overload&lt;br/&gt;- &lt;b&gt;Opportunity:&lt;/b&gt; Provide "Anniversary Selection" tag) --&gt; W(&lt;b&gt;Pain Points/Opportunities&lt;/b&gt;&lt;br/&gt;- &lt;b&gt;Pain Point:&lt;/b&gt; Hard to judge authenticity of reviews&lt;br/&gt;- &lt;b&gt;Opportunity:&lt;/b&gt; Introduce "Diner's Real Photos" feature) --&gt; X(&lt;b&gt;Pain Points/Opportunities&lt;/b&gt;&lt;br/&gt;- &lt;b&gt;Pain Point:&lt;/b&gt; Cannot add special requests online&lt;br/&gt;- &lt;b&gt;Opportunity:&lt;/b&gt; Add reservation notes field) --&gt; Y(...) --&gt; Z(...);
-        end
-    end</code></pre>
 <h2 id="how-to-create-a-user-journey-map">How to Create a User Journey Map<a class="headerlink" href="#how-to-create-a-user-journey-map" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3932,25 +3924,35 @@
 </li>
 </ol>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: Improving Airport Passenger Experience</strong>
-*   <strong>Scenario</strong>: An airport management company hopes to enhance overall passenger satisfaction.
-*   <strong>Application</strong>: They mapped the user journey of "first-time international travelers departing from this airport." Through analysis, they found that the biggest pain points occurred during the "security check" and "finding the boarding gate" stages, where passengers generally felt anxious and confused. Based on this, the airport added clearer directional signs, introduced smart security lanes to reduce queuing time, and added real-time navigation for boarding gate locations in the App, significantly improving the passenger experience.</p>
-<p><strong>Case 2: Optimizing Online Course Completion Rates</strong>
-*   <strong>Scenario</strong>: An online education platform found that many users purchased courses but abandoned learning midway.
-*   <strong>Application</strong>: By mapping the journey of "an in-service student learning a programming course," they found that students' emotions would hit rock bottom around the third week of the course, as the course difficulty increased at this point, and students were prone to disrupting their study rhythm due to busy work. To address this pain point, the platform designed intervention measures such as "homeroom teacher supervision service," "study groups," and "pushing encouraging badges in the third week," which significantly improved the course completion rate.</p>
-<p><strong>Case 3: Improving a Bank's Account Opening Process</strong>
-*   <strong>Scenario</strong>: A traditional bank hopes to optimize its online new user account opening process.
-*   <strong>Application</strong>: The journey map showed that users felt very impatient and distrustful during the "uploading identity proof" and "reading lengthy user agreements" steps, leading to a large number of user drop-offs. To this end, the bank simplified the agreement content and developed a convenient function to directly read ID card information via NFC, which greatly improved the smoothness and conversion rate of the entire account opening process.</p>
+<p><strong>Case 1: Improving Airport Passenger Experience</strong></p>
+<ul>
+<li><strong>Scenario</strong>: An airport management company hopes to enhance overall passenger satisfaction.</li>
+<li><strong>Application</strong>: They mapped the user journey of "first-time international travelers departing from this airport." Through analysis, they found that the biggest pain points occurred during the "security check" and "finding the boarding gate" stages, where passengers generally felt anxious and confused. Based on this, the airport added clearer directional signs, introduced smart security lanes to reduce queuing time, and added real-time navigation for boarding gate locations in the App, significantly improving the passenger experience.</li>
+</ul>
+<p><strong>Case 2: Optimizing Online Course Completion Rates</strong></p>
+<ul>
+<li><strong>Scenario</strong>: An online education platform found that many users purchased courses but abandoned learning midway.</li>
+<li><strong>Application</strong>: By mapping the journey of "an in-service student learning a programming course," they found that students' emotions would hit rock bottom around the third week of the course, as the course difficulty increased at this point, and students were prone to disrupting their study rhythm due to busy work. To address this pain point, the platform designed intervention measures such as "homeroom teacher supervision service," "study groups," and "pushing encouraging badges in the third week," which significantly improved the course completion rate.</li>
+</ul>
+<p><strong>Case 3: Improving a Bank's Account Opening Process</strong></p>
+<ul>
+<li><strong>Scenario</strong>: A traditional bank hopes to optimize its online new user account opening process.</li>
+<li><strong>Application</strong>: The journey map showed that users felt very impatient and distrustful during the "uploading identity proof" and "reading lengthy user agreements" steps, leading to a large number of user drop-offs. To this end, the bank simplified the agreement content and developed a convenient function to directly read ID card information via NFC, which greatly improved the smoothness and conversion rate of the entire account opening process.</li>
+</ul>
 <h2 id="advantages-and-challenges-of-user-journey-maps">Advantages and Challenges of User Journey Maps<a class="headerlink" href="#advantages-and-challenges-of-user-journey-maps" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Establish a Global Perspective</strong>: Helps the team break down departmental silos and functional isolation, examining the user experience from a holistic, coherent perspective.
-*   <strong>Powerful Empathy Tool</strong>: Allows team members, especially engineers and managers, to intuitively feel the user's true emotions and pain points.
-*   <strong>Effectively Identify Problems and Opportunities</strong>: Clearly exposes breakpoints and obstacles in existing processes and provides a clear focus for innovation.
-*   <strong>Promote Team Collaboration and Consensus</strong>: The process of co-creating a journey map is itself an excellent team activity that allows all stakeholders to align user understanding and reach consensus.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>Representativeness Issues</strong>: A single journey map usually represents only one user persona and one scenario, requiring multiple maps to cover a wider range of user groups.
-*   <strong>Based on Real Research</strong>: If there is a lack of real, in-depth user research as a foundation, the journey map may become a wishful "fantasy map."
-*   <strong>Requires Continuous Updates</strong>: As products and services iterate, user journeys also change, and journey maps need to be treated as "living documents" and updated regularly.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Establish a Global Perspective</strong>: Helps the team break down departmental silos and functional isolation, examining the user experience from a holistic, coherent perspective.</li>
+<li><strong>Powerful Empathy Tool</strong>: Allows team members, especially engineers and managers, to intuitively feel the user's true emotions and pain points.</li>
+<li><strong>Effectively Identify Problems and Opportunities</strong>: Clearly exposes breakpoints and obstacles in existing processes and provides a clear focus for innovation.</li>
+<li><strong>Promote Team Collaboration and Consensus</strong>: The process of co-creating a journey map is itself an excellent team activity that allows all stakeholders to align user understanding and reach consensus.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>Representativeness Issues</strong>: A single journey map usually represents only one user persona and one scenario, requiring multiple maps to cover a wider range of user groups.</li>
+<li><strong>Based on Real Research</strong>: If there is a lack of real, in-depth user research as a foundation, the journey map may become a wishful "fantasy map."</li>
+<li><strong>Requires Continuous Updates</strong>: As products and services iterate, user journeys also change, and journey maps need to be treated as "living documents" and updated regularly.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>User Persona</strong>: Is the <strong>prerequisite</strong> for creating a user journey map. Without a clear user persona, the journey map loses its protagonist.</li>

@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3899,6 +3899,8 @@
 </blockquote>
 <p>These four values profoundly reflect the essence of Agile thinking: human-centered, value-driven, collaboration-based, and adaptability-oriented.</p>
 <h3 id="agile-development-iteration-cycle">Agile Development Iteration Cycle<a class="headerlink" href="#agile-development-iteration-cycle" title="Permanent link">&para;</a></h3>
+<p><img alt="Agile Development Iteration Cycle" src="../Agile-Tutorial-en-mermaid.png" /></p>
+<!--
 <pre class="mermaid"><code>graph TD
     subgraph Agile Development Iterative and Incremental Cycle
         A(&lt;b&gt;Product Backlog&lt;/b&gt;&lt;br/&gt;A prioritized list of&lt;br/&gt;all requirements) --&gt; B(&lt;b&gt;Sprint Planning Meeting&lt;/b&gt;&lt;br/&gt;Team selects tasks to complete&lt;br/&gt;from top of Backlog for this iteration);
@@ -3913,20 +3915,24 @@
         E --&gt; F(&lt;b&gt;Sprint Retrospective Meeting&lt;/b&gt;&lt;br/&gt;Team reflects and improves&lt;br/&gt;its own workflow);
         F --&gt; A;
     end</code></pre>
+-->
+
 <h2 id="the-twelve-principles-of-agile">The Twelve Principles of Agile<a class="headerlink" href="#the-twelve-principles-of-agile" title="Permanent link">&para;</a></h2>
-<p>These twelve principles are specific guidelines for realizing Agile values, including:
-1.  Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
-2.  Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
-3.  Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
-4.  Business people and developers must work together daily throughout the project.
-5.  Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
-6.  The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
-7.  Working software is the primary measure of progress.
-8.  Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
-9.  Continuous attention to technical excellence and good design enhances agility.
-10. Simplicity—the art of maximizing the amount of work not done—is essential.
-11. The best architectures, requirements, and designs emerge from self-organizing teams.
-12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.</p>
+<p>These twelve principles are specific guidelines for realizing Agile values, including:</p>
+<ol>
+<li>Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.</li>
+<li>Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.</li>
+<li>Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.</li>
+<li>Business people and developers must work together daily throughout the project.</li>
+<li>Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.</li>
+<li>The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.</li>
+<li>Working software is the primary measure of progress.</li>
+<li>Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.</li>
+<li>Continuous attention to technical excellence and good design enhances agility.</li>
+<li>Simplicity—the art of maximizing the amount of work not done—is essential.</li>
+<li>The best architectures, requirements, and designs emerge from self-organizing teams.</li>
+<li>At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.</li>
+</ol>
 <h2 id="common-agile-development-frameworks">Common Agile Development Frameworks<a class="headerlink" href="#common-agile-development-frameworks" title="Permanent link">&para;</a></h2>
 <p>Agile is a set of philosophies, not a specific process. Under the guidance of Agile thinking, many specific, actionable development frameworks have emerged, the most famous of which include:</p>
 <ul>
@@ -3935,30 +3941,42 @@
 <li><strong>Extreme Programming (XP)</strong>: An Agile framework that focuses more on excellent engineering practices. It advocates a series of specific practices, such as Test-Driven Development (TDD), Pair Programming, Continuous Integration, etc., to ensure high software quality and sustainability.</li>
 </ul>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: Feature Development for an E-commerce Website</strong>
-*   <strong>Traditional Waterfall Model</strong>: Spend 3 months on detailed requirements analysis, designing a perfect blueprint with all features including "personalized recommendations," "live commerce," and "virtual try-on." Then spend 6 months on development, and finally, upon launch, discover that the most needed feature by users was actually just a smoother payment process.
-*   <strong>Agile Model</strong>:
-    *   <strong>Sprint 1 (2 weeks)</strong>: The team focuses on one thing—optimizing the payment process. After two weeks, a new version with 50% faster payment speed is launched.
-    *   <strong>Sprint 2 (2 weeks)</strong>: Based on user feedback, the next highest priority is "product search." The team spends two weeks developing and launching a smarter search function.
-    *   <strong>...And so on</strong>: The team delivers a working software increment with real value to users in each iteration and continuously adjusts subsequent development directions based on market feedback.</p>
-<p><strong>Case 2: Spotify's "Squad" Model</strong>
-*   <strong>Scenario</strong>: Spotify, the world's largest music streaming service, is a prime example of an Agile organizational culture.
-*   <strong>Application</strong>: They divide the entire R&amp;D team into many small, highly skilled, cross-functional, self-organizing "Squads." Each squad acts like a mini-startup, having end-to-end autonomy over a specific feature or business domain (e.g., "search function" or "user playlists"). This model greatly improved development efficiency, innovation capability, and employees' sense of ownership.</p>
-<p><strong>Case 3: A Hardware Startup Team</strong>
-*   <strong>Scenario</strong>: A team wants to develop a new smartwatch.
-*   <strong>Application</strong>: They didn't start by designing and producing the final product. Instead, they adopted an Agile approach, first using off-the-shelf parts to quickly create a minimalist <strong>hardware MVP (Minimum Viable Product)</strong> that could validate core needs, and immediately gave it to seed users for trial. By observing real user feedback, they continuously iterated on hardware design and software features, thereby avoiding huge mold and production cost losses due to early incorrect decisions.</p>
+<p><strong>Case 1: Feature Development for an E-commerce Website</strong></p>
+<ul>
+<li><strong>Traditional Waterfall Model</strong>: Spend 3 months on detailed requirements analysis, designing a perfect blueprint with all features including "personalized recommendations," "live commerce," and "virtual try-on." Then spend 6 months on development, and finally, upon launch, discover that the most needed feature by users was actually just a smoother payment process.</li>
+<li><strong>Agile Model</strong>:<ul>
+<li><strong>Sprint 1 (2 weeks)</strong>: The team focuses on one thing—optimizing the payment process. After two weeks, a new version with 50% faster payment speed is launched.</li>
+<li><strong>Sprint 2 (2 weeks)</strong>: Based on user feedback, the next highest priority is "product search." The team spends two weeks developing and launching a smarter search function.</li>
+<li><strong>...And so on</strong>: The team delivers a working software increment with real value to users in each iteration and continuously adjusts subsequent development directions based on market feedback.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Case 2: Spotify's "Squad" Model</strong></p>
+<ul>
+<li><strong>Scenario</strong>: Spotify, the world's largest music streaming service, is a prime example of an Agile organizational culture.</li>
+<li><strong>Application</strong>: They divide the entire R&amp;D team into many small, highly skilled, cross-functional, self-organizing "Squads." Each squad acts like a mini-startup, having end-to-end autonomy over a specific feature or business domain (e.g., "search function" or "user playlists"). This model greatly improved development efficiency, innovation capability, and employees' sense of ownership.</li>
+</ul>
+<p><strong>Case 3: A Hardware Startup Team</strong></p>
+<ul>
+<li><strong>Scenario</strong>: A team wants to develop a new smartwatch.</li>
+<li><strong>Application</strong>: They didn't start by designing and producing the final product. Instead, they adopted an Agile approach, first using off-the-shelf parts to quickly create a minimalist <strong>hardware MVP (Minimum Viable Product)</strong> that could validate core needs, and immediately gave it to seed users for trial. By observing real user feedback, they continuously iterated on hardware design and software features, thereby avoiding huge mold and production cost losses due to early incorrect decisions.</li>
+</ul>
 <h2 id="advantages-and-challenges-of-agile">Advantages and Challenges of Agile<a class="headerlink" href="#advantages-and-challenges-of-agile" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Stronger Adaptability and Flexibility</strong>: Can calmly embrace changing requirements and quickly respond to the market.
-*   <strong>Earlier and More Continuous Value Delivery</strong>: Customers can use core features earlier and receive continuous updates.
-*   <strong>Higher Customer Satisfaction</strong>: Ensures the final product is what customers truly want through close customer collaboration.
-*   <strong>Lower Risk</strong>: Short-cycle iterations avoid investing too many resources in the wrong direction, significantly reducing the risk of project failure.
-*   <strong>Higher Team Morale</strong>: Empowers self-organizing teams, enhancing members' autonomy and sense of accomplishment.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>Requires Profound Cultural and Mindset Shift</strong>: The success of Agile is far more than just a change in process; it requires managers and team members to shift their mindset from "command-and-control" to "trust-and-empowerment."
-*   <strong>Higher Demands on Individuals</strong>: Members of Agile teams need stronger communication skills, collaborative spirit, and cross-functional skills.
-*   <strong>Lack of Documentation</strong>: If misunderstood, it can lead to a lack of necessary documentation, causing difficulties for future maintenance and handover.
-*   <strong>Difficulty in Long-Term Forecasting</strong>: Due to its nature of embracing change, Agile makes it difficult to provide precise, long-term delivery time and cost commitments at the beginning of a project.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Stronger Adaptability and Flexibility</strong>: Can calmly embrace changing requirements and quickly respond to the market.</li>
+<li><strong>Earlier and More Continuous Value Delivery</strong>: Customers can use core features earlier and receive continuous updates.</li>
+<li><strong>Higher Customer Satisfaction</strong>: Ensures the final product is what customers truly want through close customer collaboration.</li>
+<li><strong>Lower Risk</strong>: Short-cycle iterations avoid investing too many resources in the wrong direction, significantly reducing the risk of project failure.</li>
+<li><strong>Higher Team Morale</strong>: Empowers self-organizing teams, enhancing members' autonomy and sense of accomplishment.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>Requires Profound Cultural and Mindset Shift</strong>: The success of Agile is far more than just a change in process; it requires managers and team members to shift their mindset from "command-and-control" to "trust-and-empowerment."</li>
+<li><strong>Higher Demands on Individuals</strong>: Members of Agile teams need stronger communication skills, collaborative spirit, and cross-functional skills.</li>
+<li><strong>Lack of Documentation</strong>: If misunderstood, it can lead to a lack of necessary documentation, causing difficulties for future maintenance and handover.</li>
+<li><strong>Difficulty in Long-Term Forecasting</strong>: Due to its nature of embracing change, Agile makes it difficult to provide precise, long-term delivery time and cost commitments at the beginning of a project.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>The Lean Startup</strong>: Highly aligned with Agile thinking, the "build-measure-learn" feedback loop of Lean Startup can be seen as the application of Agile development at the business model validation level.</li>

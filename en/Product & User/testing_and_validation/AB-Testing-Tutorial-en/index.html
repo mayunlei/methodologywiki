@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3888,19 +3888,22 @@
 <li><strong>Target Metric</strong>: You need a clear, quantifiable metric to measure the success of the test. This metric must be directly related to your hypothesis, such as "click-through rate," "conversion rate," "average time on page," etc.</li>
 </ul>
 <h3 id="ab-testing-workflow">A/B Testing Workflow<a class="headerlink" href="#ab-testing-workflow" title="Permanent link">&para;</a></h3>
+<p><img alt="A/B Testing Process" src="../AB-Testing-Tutorial-en-mermaid.png" /></p>
+<!--
 <pre class="mermaid"><code>graph TD
-    subgraph A/B Testing Process
-        A(1. Observe Data, Formulate Hypothesis) --&gt; B(2. Create Experiment Group Version B);
-        B --&gt; C(3. Set Target Metric);
-        C --&gt; D{4. Randomly Allocate Traffic};
-        D --&gt; E(&lt;b&gt;Control Group A&lt;/b&gt;&lt;br/&gt;Sees Original Version);
-        D --&gt; F(&lt;b&gt;Experiment Group B&lt;/b&gt;&lt;br/&gt;Sees New Version);
-        E &amp; F --&gt; G(5. Collect and Monitor Data);
-        G --&gt; H{6. Perform Statistical Significance Test};
-        H -- Significant Result --&gt; I(7. Analyze Results, Draw Conclusion);
-        I --&gt; J(8. Implement Winning Version);
-        H -- Insignificant Result --&gt; K(7b. Re-analyze or Abandon Hypothesis);
-    end</code></pre>
+    A["1 Observe Data, Formulate Hypothesis"] --&gt; B["2 Create Experiment Group Version B"]
+    B --&gt; C["3 Set Target Metric"]
+    C --&gt; D["4 Randomly Allocate Traffic"]
+    D --&gt; E["Control Group A&lt;br/&gt;Sees Original Version"]
+    D --&gt; F["Experiment Group B&lt;br/&gt;Sees New Version"]
+    E --&gt; G["5 Collect and Monitor Data"]
+    F --&gt; G
+    G --&gt; H["6 Perform Statistical Significance Test"]
+    H --&gt; I["7 Analyze Results, Draw Conclusion"]
+    I --&gt; J["8 Implement Winning Version"]
+    H --&gt; K["7b Re-analyze or Abandon Hypothesis"]</code></pre>
+-->
+
 <h2 id="how-to-conduct-an-ab-test">How to Conduct an A/B Test<a class="headerlink" href="#how-to-conduct-an-ab-test" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3939,28 +3942,40 @@
 </li>
 </ol>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: Obama Campaign Team's Fundraising Page Optimization</strong>
-*   <strong>Scenario</strong>: In the 2008 US presidential election, Obama's campaign team hoped to optimize the donation page of their official website to improve registration and donation conversion rates.
-*   <strong>A/B Testing Application</strong>: They conducted extensive A/B tests (strictly speaking, multivariate tests) on the page's hero image and button copy. In one famous test, they found that changing the hero image from a single photo of Obama to a family photo of Obama, and changing the button copy from "Sign Up" to "Learn More," ultimately increased the page's registration conversion rate by an astonishing <strong>40.6%</strong>. This test brought tens of millions of dollars in additional donations to the campaign team.</p>
-<p><strong>Case 2: Booking.com's Culture of Continuous Testing</strong>
-*   <strong>Scenario</strong>: Booking.com, the world's largest online hotel booking platform, is renowned for its extreme A/B testing culture.
-*   <strong>Application</strong>: Reportedly, at any given time, Booking.com's website runs thousands of A/B tests simultaneously. From the sorting method of search results, to the size of hotel images, to "Only X rooms left!" these tiny pieces of copy, every change must undergo rigorous A/B testing. It is this extreme pursuit of data-driven decision-making that enables them to continuously and incrementally optimize the user experience, and ultimately build a strong competitive barrier.</p>
-<p><strong>Case 3: A News Website's Paywall Test</strong>
-*   <strong>Scenario</strong>: A news website wanted to experiment with a paid subscription model, but was unsure which paywall strategy would be most beneficial for user payment conversion and retention.
-*   <strong>A/B Testing Application</strong>:
-    *   <strong>A Version (Metered)</strong>: Allows all users to read 5 articles for free each month, then prompts for payment after exceeding.
-    *   <strong>B Version (Freemium)</strong>: Some articles are free, but "premium content" such as in-depth reports and exclusive commentaries require a paid subscription to read.
-    *   Through long-term testing for several months, they can compare the payment conversion rates, user churn rates, and total subscription revenue of the two models, thereby choosing the most suitable business model for themselves.</p>
+<p><strong>Case 1: Obama Campaign Team's Fundraising Page Optimization</strong></p>
+<ul>
+<li><strong>Scenario</strong>: In the 2008 US presidential election, Obama's campaign team hoped to optimize the donation page of their official website to improve registration and donation conversion rates.</li>
+<li><strong>A/B Testing Application</strong>: They conducted extensive A/B tests (strictly speaking, multivariate tests) on the page's hero image and button copy. In one famous test, they found that changing the hero image from a single photo of Obama to a family photo of Obama, and changing the button copy from "Sign Up" to "Learn More," ultimately increased the page's registration conversion rate by an astonishing <strong>40.6%</strong>. This test brought tens of millions of dollars in additional donations to the campaign team.</li>
+</ul>
+<p><strong>Case 2: Booking.com's Culture of Continuous Testing</strong></p>
+<ul>
+<li><strong>Scenario</strong>: Booking.com, the world's largest online hotel booking platform, is renowned for its extreme A/B testing culture.</li>
+<li><strong>Application</strong>: Reportedly, at any given time, Booking.com's website runs thousands of A/B tests simultaneously. From the sorting method of search results, to the size of hotel images, to "Only X rooms left!" these tiny pieces of copy, every change must undergo rigorous A/B testing. It is this extreme pursuit of data-driven decision-making that enables them to continuously and incrementally optimize the user experience, and ultimately build a strong competitive barrier.</li>
+</ul>
+<p><strong>Case 3: A News Website's Paywall Test</strong></p>
+<ul>
+<li><strong>Scenario</strong>: A news website wanted to experiment with a paid subscription model, but was unsure which paywall strategy would be most beneficial for user payment conversion and retention.</li>
+<li><strong>A/B Testing Application</strong>:<ul>
+<li><strong>A Version (Metered)</strong>: Allows all users to read 5 articles for free each month, then prompts for payment after exceeding.</li>
+<li><strong>B Version (Freemium)</strong>: Some articles are free, but "premium content" such as in-depth reports and exclusive commentaries require a paid subscription to read.</li>
+<li>Through long-term testing for several months, they can compare the payment conversion rates, user churn rates, and total subscription revenue of the two models, thereby choosing the most suitable business model for themselves.</li>
+</ul>
+</li>
+</ul>
 <h2 id="advantages-and-challenges-of-ab-testing">Advantages and Challenges of A/B Testing<a class="headerlink" href="#advantages-and-challenges-of-ab-testing" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Objective and Data-Driven</strong>: Uses real user behavior data to replace subjective guesses and debates, providing the strongest evidence for decision-making.
-*   <strong>Low-Risk Innovation</strong>: Allows you to test the effect of a change with a small portion of traffic before rolling it out fully, greatly reducing the risk of negative impacts from wrong decisions.
-*   <strong>Engine for Continuous Optimization</strong>: Provides a scientific, rigorous cyclical framework for continuous, iterative optimization of products and marketing.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>Requires Sufficient Traffic</strong>: For websites or Apps with low traffic, it may take a very long time, or even be impossible, to achieve statistical significance.
-*   <strong>Single Variable Limitation</strong>: Sometimes, a combination of multiple changes may produce unexpected synergistic effects, which cannot be discovered in standard A/B tests (requires more complex multivariate testing).
-*   <strong>"Local Optimum" Trap</strong>: Continuously performing small A/B tests on existing pages may lead you into the "local optimum" trap, overlooking larger opportunities for disruptive, revolutionary redesigns.
-*   <strong>Ignores Long-Term Impact</strong>: A/B tests typically measure short-term effects (e.g., click-through rate). Certain changes may improve metrics in the short term, but may harm user trust or brand image in the long run.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Objective and Data-Driven</strong>: Uses real user behavior data to replace subjective guesses and debates, providing the strongest evidence for decision-making.</li>
+<li><strong>Low-Risk Innovation</strong>: Allows you to test the effect of a change with a small portion of traffic before rolling it out fully, greatly reducing the risk of negative impacts from wrong decisions.</li>
+<li><strong>Engine for Continuous Optimization</strong>: Provides a scientific, rigorous cyclical framework for continuous, iterative optimization of products and marketing.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>Requires Sufficient Traffic</strong>: For websites or Apps with low traffic, it may take a very long time, or even be impossible, to achieve statistical significance.</li>
+<li><strong>Single Variable Limitation</strong>: Sometimes, a combination of multiple changes may produce unexpected synergistic effects, which cannot be discovered in standard A/B tests (requires more complex multivariate testing).</li>
+<li><strong>"Local Optimum" Trap</strong>: Continuously performing small A/B tests on existing pages may lead you into the "local optimum" trap, overlooking larger opportunities for disruptive, revolutionary redesigns.</li>
+<li><strong>Ignores Long-Term Impact</strong>: A/B tests typically measure short-term effects (e.g., click-through rate). Certain changes may improve metrics in the short term, but may harm user trust or brand image in the long run.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Multivariate Testing (MVT)</strong>: An extension of A/B testing. When you want to test <strong>multiple</strong> combinations of <strong>multiple</strong> elements on a page simultaneously (e.g., testing 3 types of headlines, 2 types of images, and 2 types of button colors), you can use MVT. It can tell you which combination of elements works best, and the relative contribution of each element to the final result.</li>

@@ -828,7 +828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3890,23 +3890,28 @@
 </ul>
 <h3 id="core-mixed-methods-design-types">Core Mixed-Methods Design Types<a class="headerlink" href="#core-mixed-methods-design-types" title="Permanent link">&para;</a></h3>
 <p>Mixed-methods research has various design patterns, among which the three core ones are:</p>
+<p><img alt="Mixed-Methods Designs" src="../Mixed-Methods-Research-Tutorial-en-mermaid.png" /></p>
+<!--
+![Mixed-Methods-Research-Tutorial-en-mermaid-d7142602.png](./Mixed-Methods-Research-Tutorial-en-mermaid-d7142602.png)
+
+<!--
+![Mixed-Methods-Research-Tutorial-en-mermaid-d7142602.png](./Mixed-Methods-Research-Tutorial-en-mermaid-d7142602.png)
+
+<!--
 <pre class="mermaid"><code>graph TD
-    subgraph Mixed-Methods Research Design
-        A(&lt;b&gt;Convergent Design&lt;/b&gt;) --&gt; A1(QUAN + QUAL);
-        A1 --&gt; A2(Simultaneously collect quantitative and qualitative data);
-        A2 --&gt; A3(Analyze separately, then compare and integrate); 
-        A3 --&gt; A4(Goal: Mutual verification, comprehensive understanding);
+    subgraph "Common Mixed-Methods Designs"
+        A[Start] --&gt; B{Priority};
+        B -- "Equal" --&gt; C{Sequence};
+        B -- "Qualitative" --&gt; D{Sequence};
+        B -- "Quantitative" --&gt; E{Sequence};
 
-        B(&lt;b&gt;Explanatory Sequential Design&lt;/b&gt;) --&gt; B1(QUAN → qual);
-        B1 --&gt; B2(Step 1: Collect and analyze quantitative data);
-        B2 --&gt; B3(Step 2: Based on quantitative results, conduct qualitative research for in-depth explanation);
-        B3 --&gt; B4(Goal: Explain quantitative results with qualitative data);
-
-        C(&lt;b&gt;Exploratory Sequential Design&lt;/b&gt;) --&gt; C1(QUAL → quan);
-        C1 --&gt; C2(Step 1: Conduct exploratory qualitative research);
-        C2 --&gt; C3(Step 2: Based on qualitative findings, develop and implement quantitative research); 
-        C3 --&gt; C4(Goal: Use qualitative findings to build quantitative research);
+        C -- "Concurrent" --&gt; F["Convergent Parallel Design&lt;br/&gt;(QUAN + QUAL)&lt;br/&gt;- Collect both types of data simultaneously&lt;br/&gt;- Analyze separately&lt;br/&gt;- Compare/relate results"];
+        D -- "Sequential" --&gt; G["Explanatory Sequential Design&lt;br/&gt;(QUAN -&gt; qual)&lt;br/&gt;- First, collect and analyze quantitative data&lt;br/&gt;- Then, use qualitative data to explain&lt;br/&gt;the quantitative results in depth"];
+        E -- "Sequential" --&gt; H["Exploratory Sequential Design&lt;br/&gt;(QUAL -&gt; quan)&lt;br/&gt;- First, explore with qualitative data&lt;br/&gt;- Then, use findings to build a quantitative&lt;br/&gt;instrument or theory to test"];
+        D -- "Concurrent" --&gt; I["Embedded Design&lt;br/&gt;(QUAN(qual) or QUAL(quan))&lt;br/&gt;- One type of data is embedded within a larger&lt;br/&gt;design of the other data type&lt;br/&gt;- e.g., A qualitative case study within a larger&lt;br/&gt;quantitative experiment"];
     end</code></pre>
+-->
+
 <h2 id="how-to-conduct-mixed-methods-research">How to Conduct Mixed-Methods Research<a class="headerlink" href="#how-to-conduct-mixed-methods-research" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3931,33 +3936,73 @@
 </li>
 </ol>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: Evaluating a New Employee Benefit Program</strong>
-*   <strong>Scenario</strong>: A company launched a new flexible work benefit and wants to comprehensively evaluate its effectiveness.
-*   <strong>Application (Explanatory Sequential Design: QUAN → qual)</strong>:
-    1.  <strong>Quantitative Phase</strong>: The company first distributed an anonymous questionnaire to all employees, collecting quantitative data on the frequency of new benefit usage, job satisfaction, work stress, etc. The data showed that overall satisfaction significantly increased, but the increase in satisfaction among engineers was not obvious.
-    2.  <strong>Qualitative Phase</strong>: To explain this "unexpected" finding, researchers conducted in-depth interviews with 10 engineers. The interviews revealed that due to the specificity of project cycles, engineers found it difficult to truly benefit from flexible work, and instead, communication costs increased due to the need to collaborate with colleagues on non-flexible schedules.
-    3.  <strong>Integrated Conclusion</strong>: The new benefit was generally successful, but more targeted supporting measures need to be designed for specific positions (e.g., engineers).</p>
-<p><strong>Case 2: Developing a Social App for Generation Z</strong>
-*   <strong>Scenario</strong>: A startup team wants to develop a social product that truly appeals to Generation Z.
-*   <strong>Application (Exploratory Sequential Design: QUAL → quan)</strong>:
-    1.  <strong>Qualitative Phase</strong>: The team first conducted a one-month "digital ethnography" study on 20 Gen Z users, deeply observing and interviewing their online social behaviors, slang systems, and core social needs. The study found that "pressure-free social interaction" and "circle identity" were two core needs.
-    2.  <strong>Quantitative Phase</strong>: Based on these qualitative insights, the team designed a large-scale survey questionnaire to verify the universality of these needs and tested the attractiveness of several product concepts developed based on this (e.g., "ephemeral messaging," "interest circle matching"). The survey results showed that the "interest circle matching" feature received the highest expectation.
-    3.  <strong>Integrated Conclusion</strong>: The core of the product should be built around "interest circle matching" and incorporate a "pressure-free" design philosophy.</p>
-<p><strong>Case 3: Researching the Impact of Climate Change on Farmers' Livelihoods</strong>
-*   <strong>Scenario</strong>: An international development organization wants to understand the specific impact of climate change on smallholder farmers in a certain region.
-*   <strong>Application (Convergent Design: QUAN + QUAL)</strong>:
-    *   The research team <strong>simultaneously</strong> conducted two tasks: on one hand, they collected and analyzed meteorological data and crop yield data from the region over the past 20 years (quantitative); on the other hand, they went deep into the villages and conducted in-depth interviews with elderly farmers, listening to their experiences of weather changes, coping strategies, and concerns about the future (qualitative).
-    *   <strong>Integration</strong>: In the final report, the cold yield decline curves (quantitative) were presented alongside the emotional and life-wisdom-filled stories of the elderly farmers (qualitative), powerfully revealing the severity of climate change and providing strong evidence for policymakers.</p>
+<p><strong>Case 1: Evaluating a New Employee Benefit Program</strong></p>
+<ul>
+<li><strong>Scenario</strong>: A company launched a new flexible work benefit and wants to comprehensively evaluate its effectiveness.</li>
+<li>
+<p><strong>Application (Explanatory Sequential Design: QUAN → qual)</strong>:</p>
+<ol>
+<li>
+<p><strong>Quantitative Phase</strong>: The company first distributed an anonymous questionnaire to all employees, collecting quantitative data on the frequency of new benefit usage, job satisfaction, work stress, etc. The data showed that overall satisfaction significantly increased, but the increase in satisfaction among engineers was not obvious.</p>
+</li>
+<li>
+<p><strong>Qualitative Phase</strong>: To explain this "unexpected" finding, researchers conducted in-depth interviews with 10 engineers. The interviews revealed that due to the specificity of project cycles, engineers found it difficult to truly benefit from flexible work, and instead, communication costs increased due to the need to collaborate with colleagues on non-flexible schedules.</p>
+</li>
+<li>
+<p><strong>Integrated Conclusion</strong>: The new benefit was generally successful, but more targeted supporting measures need to be designed for specific positions (e.g., engineers).</p>
+</li>
+</ol>
+</li>
+</ul>
+<hr />
+<p><strong>Case 2: Developing a Social App for Generation Z</strong></p>
+<ul>
+<li><strong>Scenario</strong>: A startup team wants to develop a social product that truly appeals to Generation Z.</li>
+<li>
+<p><strong>Application (Exploratory Sequential Design: QUAL → quan)</strong>:</p>
+<ol>
+<li>
+<p><strong>Qualitative Phase</strong>: The team first conducted a one-month "digital ethnography" study on 20 Gen Z users, deeply observing and interviewing their online social behaviors, slang systems, and core social needs. The study found that "pressure-free social interaction" and "circle identity" were two core needs.</p>
+</li>
+<li>
+<p><strong>Quantitative Phase</strong>: Based on these qualitative insights, the team designed a large-scale survey questionnaire to verify the universality of these needs and tested the attractiveness of several product concepts developed based on this (e.g., "ephemeral messaging," "interest circle matching"). The survey results showed that the "interest circle matching" feature received the highest expectation.</p>
+</li>
+<li>
+<p><strong>Integrated Conclusion</strong>: The core of the product should be built around "interest circle matching" and incorporate a "pressure-free" design philosophy.</p>
+</li>
+</ol>
+</li>
+</ul>
+<hr />
+<p><strong>Case 3: Researching the Impact of Climate Change on Farmers' Livelihoods</strong></p>
+<ul>
+<li><strong>Scenario</strong>: An international development organization wants to understand the specific impact of climate change on smallholder farmers in a certain region.</li>
+<li>
+<p><strong>Application (Convergent Design: QUAN + QUAL)</strong>:</p>
+<ul>
+<li>
+<p>The research team <strong>simultaneously</strong> conducted two tasks: on one hand, they collected and analyzed meteorological data and crop yield data from the region over the past 20 years (quantitative); on the other hand, they went deep into the villages and conducted in-depth interviews with elderly farmers, listening to their experiences of weather changes, coping strategies, and concerns about the future (qualitative).</p>
+</li>
+<li>
+<p><strong>Integration</strong>: In the final report, the cold yield decline curves (quantitative) were presented alongside the emotional and life-wisdom-filled stories of the elderly farmers (qualitative), powerfully revealing the severity of climate change and providing strong evidence for policymakers.</p>
+</li>
+</ul>
+</li>
+</ul>
 <h2 id="advantages-and-challenges-of-mixed-methods-research">Advantages and Challenges of Mixed-Methods Research<a class="headerlink" href="#advantages-and-challenges-of-mixed-methods-research" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Comprehensive and In-depth</strong>: Can simultaneously see the "big picture" and "close-up" of a problem, leading to more convincing conclusions.
-*   <strong>Enhanced Credibility</strong>: Mutual verification between different methods (triangulation) can greatly improve the reliability of research conclusions.
-*   <strong>Answers More Complex Questions</strong>: Can handle multi-layered, complex research questions that single methods cannot address.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>Complex Design</strong>: Requires careful design of integration points and timelines for both methods.
-*   <strong>Time and Labor Intensive</strong>: Usually requires more time, resources, and budget than single-method research.
-*   <strong>High Skill Requirements</strong>: Requires researchers or research teams to be proficient in both quantitative and qualitative research paradigms.
-*   <strong>Potentially Contradictory Results</strong>: When the two methods yield inconsistent conclusions, how to explain and integrate them becomes a significant challenge (though it can also be an opportunity for major discoveries).</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Comprehensive and In-depth</strong>: Can simultaneously see the "big picture" and "close-up" of a problem, leading to more convincing conclusions.</li>
+<li><strong>Enhanced Credibility</strong>: Mutual verification between different methods (triangulation) can greatly improve the reliability of research conclusions.</li>
+<li><strong>Answers More Complex Questions</strong>: Can handle multi-layered, complex research questions that single methods cannot address.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>Complex Design</strong>: Requires careful design of integration points and timelines for both methods.</li>
+<li><strong>Time and Labor Intensive</strong>: Usually requires more time, resources, and budget than single-method research.</li>
+<li><strong>High Skill Requirements</strong>: Requires researchers or research teams to be proficient in both quantitative and qualitative research paradigms.</li>
+<li><strong>Potentially Contradictory Results</strong>: When the two methods yield inconsistent conclusions, how to explain and integrate them becomes a significant challenge (though it can also be an opportunity for major discoveries).</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Quantitative Research</strong> and <strong>Qualitative Research</strong>: Are the two basic constituent modules of mixed-methods research. Understanding the philosophical foundations and technical details of both is a prerequisite for conducting mixed-methods research.</li>

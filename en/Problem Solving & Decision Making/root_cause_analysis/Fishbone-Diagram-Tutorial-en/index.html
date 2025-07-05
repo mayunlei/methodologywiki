@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3888,12 +3888,12 @@
 <li>
 <p><strong>"6M" Model commonly used in manufacturing</strong>:</p>
 <ul>
-<li><strong>Manpower (人)</strong>: Skills, experience, responsibility, fatigue of operators, etc.</li>
-<li><strong>Machine (机器)</strong>: Aging, precision, maintenance status of production equipment, etc.</li>
-<li><strong>Material (物料)</strong>: Quality, specifications, supplier stability of raw materials, etc.</li>
-<li><strong>Method (方法)</strong>: Work procedures, operating instructions, process parameter settings, etc.</li>
-<li><strong>Measurement (测量)</strong>: Accuracy of measuring tools, inspection standards, accuracy of data recording, etc.</li>
-<li><strong>Milieu/Mother Nature (环境)</strong>: Temperature, humidity, lighting of the workplace, organizational culture, etc.</li>
+<li><strong>Manpower</strong>: Skills, experience, responsibility, fatigue of operators, etc.</li>
+<li><strong>Machine</strong>: Aging, precision, maintenance status of production equipment, etc.</li>
+<li><strong>Material</strong>: Quality, specifications, supplier stability of raw materials, etc.</li>
+<li><strong>Method</strong>: Work procedures, operating instructions, process parameter settings, etc.</li>
+<li><strong>Measurement</strong>: Accuracy of measuring tools, inspection standards, accuracy of data recording, etc.</li>
+<li><strong>Milieu/Mother Nature</strong>: Temperature, humidity, lighting of the workplace, organizational culture, etc.</li>
 </ul>
 </li>
 <li>
@@ -3904,6 +3904,8 @@
 </ul>
 </li>
 </ul>
+<p><img alt="Fishbone Diagram (6M Model)" src="../Fishbone-Diagram-Tutorial-en-mermaid.png" /></p>
+<!--
 <pre class="mermaid"><code>graph TD
     subgraph Fishbone Diagram (6M Model)
         direction LR
@@ -3935,6 +3937,8 @@
             G1(Insufficient workshop lighting) --&gt; G;
         end
     end</code></pre>
+-->
+
 <h2 id="how-to-draw-and-use-a-fishbone-diagram">How to Draw and Use a Fishbone Diagram<a class="headerlink" href="#how-to-draw-and-use-a-fishbone-diagram" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3963,27 +3967,37 @@
 </li>
 </ol>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: Analyzing the Problem of "High Software App Crash Rate"</strong>
-*   <strong>Fish Head</strong>: App in the latest version launched, user crash rate increased by 50%.
-*   <strong>Main Bones</strong>: A variation of the software development model can be used, such as: Code, Build, Test, Environment, People.
-*   <strong>Analysis</strong>: Through team brainstorming, it might be found under the "Code" main bone that "new third-party library has memory leaks"; under the "Test" main bone, it might be found that "automated test cases do not cover low-end Android models." After further data verification, the team finally determined that "memory leaks" were the main cause of crashes.</p>
-<p><strong>Case 2: Analyzing "Poor Performance of a Marketing Campaign"</strong>
-*   <strong>Fish Head</strong>: This "Double Eleven" (Singles' Day) promotion's sales did not meet the target.
-*   <strong>Main Bones</strong>: The 4P model of marketing can be used: Product, Price, Place, Promotion.
-*   <strong>Analysis</strong>: The team might find that under the "Price" main bone, there was "coupon rules were too complex for users to understand"; under the "Place" main bone, there was "social media advertising did not accurately reach the target audience." Through this analysis, the team can provide clear "pitfall avoidance guidelines" for the next campaign.</p>
-<p><strong>Case 3: Analyzing "Increased Post-Surgical Infection Rate in Patients"</strong>
-*   <strong>Fish Head</strong>: This quarter's orthopedic ward's post-surgical infection rate increased by 5% compared to the previous quarter.
-*   <strong>Main Bones</strong>: Use the 6M model for the medical field.
-*   <strong>Analysis</strong>: A cross-functional team consisting of doctors, nurses, and infection control experts, jointly drew a fishbone diagram. They might eventually find that "inadequate execution of pre-surgical skin disinfection procedures" under the "Method" main bone, and "untimely replacement of ward ventilation system filters" under the "Environment" main bone, are the two most suspicious key causes. Next, they will focus on these two points for data collection and on-site observation.</p>
+<p><strong>Case 1: Analyzing the Problem of "High Software App Crash Rate"</strong></p>
+<ul>
+<li><strong>Fish Head</strong>: App in the latest version launched, user crash rate increased by 50%.</li>
+<li><strong>Main Bones</strong>: A variation of the software development model can be used, such as: Code, Build, Test, Environment, People.</li>
+<li><strong>Analysis</strong>: Through team brainstorming, it might be found under the "Code" main bone that "new third-party library has memory leaks"; under the "Test" main bone, it might be found that "automated test cases do not cover low-end Android models." After further data verification, the team finally determined that "memory leaks" were the main cause of crashes.</li>
+</ul>
+<p><strong>Case 2: Analyzing "Poor Performance of a Marketing Campaign"</strong></p>
+<ul>
+<li><strong>Fish Head</strong>: This "Double Eleven" (Singles' Day) promotion's sales did not meet the target.</li>
+<li><strong>Main Bones</strong>: The 4P model of marketing can be used: Product, Price, Place, Promotion.</li>
+<li><strong>Analysis</strong>: The team might find that under the "Price" main bone, there was "coupon rules were too complex for users to understand"; under the "Place" main bone, there was "social media advertising did not accurately reach the target audience." Through this analysis, the team can provide clear "pitfall avoidance guidelines" for the next campaign.</li>
+</ul>
+<p><strong>Case 3: Analyzing "Increased Post-Surgical Infection Rate in Patients"</strong></p>
+<ul>
+<li><strong>Fish Head</strong>: This quarter's orthopedic ward's post-surgical infection rate increased by 5% compared to the previous quarter.</li>
+<li><strong>Main Bones</strong>: Use the 6M model for the medical field.</li>
+<li><strong>Analysis</strong>: A cross-functional team consisting of doctors, nurses, and infection control experts, jointly drew a fishbone diagram. They might eventually find that "inadequate execution of pre-surgical skin disinfection procedures" under the "Method" main bone, and "untimely replacement of ward ventilation system filters" under the "Environment" main bone, are the two most suspicious key causes. Next, they will focus on these two points for data collection and on-site observation.</li>
+</ul>
 <h2 id="advantages-and-challenges-of-fishbone-diagram">Advantages and Challenges of Fishbone Diagram<a class="headerlink" href="#advantages-and-challenges-of-fishbone-diagram" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Structured and Comprehensive</strong>: Provides a clear structure that guides the team to think systematically from multiple dimensions, effectively avoiding omissions.
-*   <strong>Promotes Team Participation and Consensus</strong>: An excellent team collaboration tool that can gather everyone's wisdom and reach consensus on the complexity of the problem.
-*   <strong>Visual</strong>: Presents complex causal relationships in a very intuitive and clear way.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>Can Become Overly Complex</strong>: For an extremely complex problem, the fishbone diagram can become very large and cluttered, losing its clear focus.
-*   <strong>Cannot Reflect the Weight of Causes</strong>: The fishbone diagram itself, does not show which cause has a greater impact. It needs to be combined with other tools like Pareto analysis to determine priorities.
-*   <strong>Only a Collection of "Hypotheses"</strong>: All "causes" on the fishbone diagram, before being validated by data, are still only "potential, suspicious" causes, not facts.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Structured and Comprehensive</strong>: Provides a clear structure that guides the team to think systematically from multiple dimensions, effectively avoiding omissions.</li>
+<li><strong>Promotes Team Participation and Consensus</strong>: An excellent team collaboration tool that can gather everyone's wisdom and reach consensus on the complexity of the problem.</li>
+<li><strong>Visual</strong>: Presents complex causal relationships in a very intuitive and clear way.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>Can Become Overly Complex</strong>: For an extremely complex problem, the fishbone diagram can become very large and cluttered, losing its clear focus.</li>
+<li><strong>Cannot Reflect the Weight of Causes</strong>: The fishbone diagram itself, does not show which cause has a greater impact. It needs to be combined with other tools like Pareto analysis to determine priorities.</li>
+<li><strong>Only a Collection of "Hypotheses"</strong>: All "causes" on the fishbone diagram, before being validated by data, are still only "potential, suspicious" causes, not facts.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>5 Whys</strong>: The golden partner of the fishbone diagram. When using the fishbone diagram for horizontal, broad cause brainstorming, the 5 Whys can be used at any time to conduct a vertical, in-depth root cause analysis for a specific cause.</li>

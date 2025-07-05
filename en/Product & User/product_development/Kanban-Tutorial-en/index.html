@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3900,7 +3900,15 @@
 </li>
 </ol>
 <h3 id="kanban-board-structure-example">Kanban Board Structure Example<a class="headerlink" href="#kanban-board-structure-example" title="Permanent link">&para;</a></h3>
-<p><pre class="mermaid"><code>graph TD
+<p><img alt="Kanban Board Structure Example" src="../Kanban-Tutorial-en-mermaid.png" /></p>
+<!--
+![Kanban-Tutorial-en-mermaid-de3d2164.png](./Kanban-Tutorial-en-mermaid-de3d2164.png)
+
+<!--
+![Kanban-Tutorial-en-mermaid-de3d2164.png](./Kanban-Tutorial-en-mermaid-de3d2164.png)
+
+<!--
+<pre class="mermaid"><code>graph TD
     subgraph A Typical Software Development Kanban Board
         direction LR
         A(&lt;b&gt;Backlog&lt;/b&gt;) --&gt; B(&lt;b&gt;To Do&lt;/b&gt;&lt;br/&gt;&lt;i&gt;WIP Limit: 5&lt;/i&gt;);
@@ -3909,7 +3917,11 @@
         D --&gt; E(&lt;b&gt;In Test&lt;/b&gt;&lt;br/&gt;&lt;i&gt;WIP Limit: 2&lt;/i&gt;);
         E --&gt; F(&lt;b&gt;Done&lt;/b&gt;);
     end</code></pre>
-*   <strong>Workflow</strong>: A card (representing a task) moves from left to right, passing through each stage. A team member can only "pull" a new card from the left column when there is space in the right column (i.e., the WIP limit for that column is not reached).</p>
+-->
+
+<ul>
+<li><strong>Workflow</strong>: A card (representing a task) moves from left to right, passing through each stage. A team member can only "pull" a new card from the left column when there is space in the right column (i.e., the WIP limit for that column is not reached).</li>
+</ul>
 <h2 id="how-to-implement-the-kanban-method">How to Implement the Kanban Method<a class="headerlink" href="#how-to-implement-the-kanban-method" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3933,25 +3945,35 @@
 </li>
 </ol>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: IT Operations Team</strong>
-*   <strong>Problem</strong>: The operations team is overwhelmed daily by various urgent requests from different channels, leading to chaotic work and delayed responses.
-*   <strong>Kanban Application</strong>: They set up a simple Kanban board with swimlanes like "To Do," "In Progress," "Waiting for External Feedback," and "Resolved." By limiting WIP in the "In Progress" lane to the number of team members, they ensured the team could focus on quickly resolving current issues instead of starting many tasks simultaneously. Kanban also made all requests transparent, allowing managers to understand the team's actual workload.</p>
-<p><strong>Case 2: Personal Task Management (Personal Kanban)</strong>
-*   <strong>Problem</strong>: An individual is working on multiple projects simultaneously, feeling overwhelmed and stretched thin.
-*   <strong>Kanban Application</strong>: They can use Trello or a simple notebook to create a personal Kanban board with lists like "This Week's Goals," "Today's To-Do," "Doing (WIP Limit: 1)," and "Done." By strictly adhering to a WIP limit of 1 for "Doing," they force themselves to focus on one most important task at a time, greatly improving focus and quality of completion.</p>
-<p><strong>Case 3: Content Creation Team (e.g., a Magazine Publisher)</strong>
-*   <strong>Process</strong>: "Idea Bank" -&gt; "Writing" -&gt; "Editing" -&gt; "Design/Layout" -&gt; "Published."
-*   <strong>Kanban Application</strong>: By setting WIP limits for each stage, they can ensure that editors do not continue to commission articles when there is a large backlog of manuscripts. It can make the entire content production process smoother and clearly expose bottlenecks (e.g., if the "Editing" column is always piled up with manuscripts, it indicates insufficient editing resources).</p>
+<p><strong>Case 1: IT Operations Team</strong></p>
+<ul>
+<li><strong>Problem</strong>: The operations team is overwhelmed daily by various urgent requests from different channels, leading to chaotic work and delayed responses.</li>
+<li><strong>Kanban Application</strong>: They set up a simple Kanban board with swimlanes like "To Do," "In Progress," "Waiting for External Feedback," and "Resolved." By limiting WIP in the "In Progress" lane to the number of team members, they ensured the team could focus on quickly resolving current issues instead of starting many tasks simultaneously. Kanban also made all requests transparent, allowing managers to understand the team's actual workload.</li>
+</ul>
+<p><strong>Case 2: Personal Task Management (Personal Kanban)</strong></p>
+<ul>
+<li><strong>Problem</strong>: An individual is working on multiple projects simultaneously, feeling overwhelmed and stretched thin.</li>
+<li><strong>Kanban Application</strong>: They can use Trello or a simple notebook to create a personal Kanban board with lists like "This Week's Goals," "Today's To-Do," "Doing (WIP Limit: 1)," and "Done." By strictly adhering to a WIP limit of 1 for "Doing," they force themselves to focus on one most important task at a time, greatly improving focus and quality of completion.</li>
+</ul>
+<p><strong>Case 3: Content Creation Team (e.g., a Magazine Publisher)</strong></p>
+<ul>
+<li><strong>Process</strong>: "Idea Bank" -&gt; "Writing" -&gt; "Editing" -&gt; "Design/Layout" -&gt; "Published."</li>
+<li><strong>Kanban Application</strong>: By setting WIP limits for each stage, they can ensure that editors do not continue to commission articles when there is a large backlog of manuscripts. It can make the entire content production process smoother and clearly expose bottlenecks (e.g., if the "Editing" column is always piled up with manuscripts, it indicates insufficient editing resources).</li>
+</ul>
 <h2 id="advantages-and-challenges-of-the-kanban-method">Advantages and Challenges of the Kanban Method<a class="headerlink" href="#advantages-and-challenges-of-the-kanban-method" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Flexibility and Adaptability</strong>: It does not require disruptive changes to existing processes and roles; you can "start from where you are now" and evolve gradually.
-*   <strong>Improved Efficiency and Predictability</strong>: By managing flow and limiting WIP, it significantly shortens lead times and makes delivery times more predictable.
-*   <strong>Reduced Team Pressure</strong>: WIP limits prevent teams from experiencing immense pressure due to multitasking and over-commitment, creating a sustainable work rhythm.
-*   <strong>Exposes Systemic Problems</strong>: Can very intuitively and undeniably expose bottlenecks and impediments in the process.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>Easy to Become "Formalistic"</strong>: If the team only implements "visualization" without strictly enforcing "limiting WIP" and "managing flow," Kanban becomes just a pretty "task board" and cannot exert its true power.
-*   <strong>Requires Team Self-Discipline</strong>: The pull system and WIP limits require a high degree of self-discipline and collaborative spirit from team members.
-*   <strong>Misunderstanding of "No Time-Box"</strong>: Although Kanban itself does not have fixed sprints like Scrum, this does not mean there is no planning and rhythm. Kanban teams also need to prioritize, forecast delivery times, and conduct regular reviews.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Flexibility and Adaptability</strong>: It does not require disruptive changes to existing processes and roles; you can "start from where you are now" and evolve gradually.</li>
+<li><strong>Improved Efficiency and Predictability</strong>: By managing flow and limiting WIP, it significantly shortens lead times and makes delivery times more predictable.</li>
+<li><strong>Reduced Team Pressure</strong>: WIP limits prevent teams from experiencing immense pressure due to multitasking and over-commitment, creating a sustainable work rhythm.</li>
+<li><strong>Exposes Systemic Problems</strong>: Can very intuitively and undeniably expose bottlenecks and impediments in the process.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>Easy to Become "Formalistic"</strong>: If the team only implements "visualization" without strictly enforcing "limiting WIP" and "managing flow," Kanban becomes just a pretty "task board" and cannot exert its true power.</li>
+<li><strong>Requires Team Self-Discipline</strong>: The pull system and WIP limits require a high degree of self-discipline and collaborative spirit from team members.</li>
+<li><strong>Misunderstanding of "No Time-Box"</strong>: Although Kanban itself does not have fixed sprints like Scrum, this does not mean there is no planning and rhythm. Kanban teams also need to prioritize, forecast delivery times, and conduct regular reviews.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Scrum</strong>: Kanban and Scrum are the two most mainstream methods in the Agile world. Scrum is based on a "time-box" iteration rhythm, while Kanban is based on a "continuous flow" pull rhythm. Both have their advantages and disadvantages and are suitable for different scenarios. <strong>Scrumban</strong> is a hybrid method that combines the advantages of both.</li>

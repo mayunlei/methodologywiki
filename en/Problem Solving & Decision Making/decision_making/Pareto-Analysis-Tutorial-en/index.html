@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3897,7 +3897,9 @@
 <p>By observing this chart, we can quickly locate the steepest rising area of the cumulative percentage curve, and the corresponding bars are the "vital few" that we need to prioritize.</p>
 <h3 id="pareto-chart-example">Pareto Chart Example<a class="headerlink" href="#pareto-chart-example" title="Permanent link">&para;</a></h3>
 <p>Suppose a restaurant analyzed all customer complaints from the last month:</p>
-<p><pre class="mermaid"><code>graph TD
+<p><img alt="Pareto Chart Example" src="../Pareto-Analysis-Tutorial-en-mermaid.png" /></p>
+<!--
+<pre class="mermaid"><code>graph TD
     subgraph Pareto Analysis of Customer Complaint Reasons
         direction LR
         subgraph X-axis (Cause Categories)
@@ -3910,7 +3912,10 @@
             H["Bar Chart: Arranged by frequency from high to low&lt;br/&gt;(e.g., Slow Service: 50 times, Food Taste: 25 times...)&lt;br/&gt;Line Chart: Shows cumulative percentage&lt;br/&gt;(e.g., At 'Slow Service', cumulative percentage is 50%;&lt;br/&gt;At 'Food Taste', cumulative percentage is 75%...)"]
         end
     end</code></pre>
-*   <strong>Analysis</strong>: From this (hypothetical) chart, the restaurant manager can clearly see that "slow service" and "food taste" might account for 75% of all complaints. Therefore, instead of spreading efforts to solve all problems, they should concentrate resources on prioritizing the optimization of kitchen service processes and dish development processes.</p>
+-->
+<ul>
+<li><strong>Analysis</strong>: From this (hypothetical) chart, the restaurant manager can clearly see that "slow service" and "food taste" might account for 75% of all complaints. Therefore, instead of spreading efforts to solve all problems, they should concentrate resources on prioritizing the optimization of kitchen service processes and dish development processes.</li>
+</ul>
 <h2 id="how-to-conduct-a-pareto-analysis">How to Conduct a Pareto Analysis<a class="headerlink" href="#how-to-conduct-a-pareto-analysis" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3939,24 +3944,34 @@
 </li>
 </ol>
 <h2 id="application-cases">Application Cases<a class="headerlink" href="#application-cases" title="Permanent link">&para;</a></h2>
-<p><strong>Case 1: Bug Management in Software Development</strong>
-*   <strong>Problem</strong>: A software product received a large number of user bug reports after launch.
-*   <strong>Application</strong>: The development team categorized all bugs by module (e.g., "user login module," "payment module," "data reporting module," etc.) and counted the number of bugs under each module. By drawing a Pareto chart, they found that over 70% of the bugs were concentrated in the "data reporting module." This finding allowed the team to concentrate testing and development resources on prioritizing the refactoring and fixing of this most unstable module, thereby efficiently improving the overall product quality.</p>
-<p><strong>Case 2: Personal Time Management</strong>
-*   <strong>Problem</strong>: An individual feels busy every day but is inefficient and doesn't know where their time goes.
-*   <strong>Application</strong>: They spent a week recording all their daily time expenditures and categorizing them (e.g., "coding," "meetings," "browsing social media," "processing emails," etc.). After drawing a Pareto chart, they were shocked to find that nearly 60% of their working time was occupied by "ineffective meetings" and "frequent social media checks." This analysis prompted them to selectively attend meetings and use the Pomodoro Technique to reduce distractions, thereby investing more time in truly important work.</p>
-<p><strong>Case 3: Inventory Management Optimization</strong>
-*   <strong>Problem</strong>: A retailer wants to reduce its inventory management costs.
-*   <strong>Application</strong>: They analyzed the annual sales of all products in their warehouse and drew a Pareto chart. This is known as <strong>ABC Classification</strong>. They found that Class A products (approximately 20% of all product types) contributed about 80% of sales. Based on this, they developed differentiated inventory management strategies: for Class A products, they implemented the strictest inventory monitoring and demand forecasting to ensure no stockouts; for Class C products with very low sales, they adopted a more lenient management strategy, or even considered delisting them.</p>
+<p><strong>Case 1: Bug Management in Software Development</strong></p>
+<ul>
+<li><strong>Problem</strong>: A software product received a large number of user bug reports after launch.</li>
+<li><strong>Application</strong>: The development team categorized all bugs by module (e.g., "user login module," "payment module," "data reporting module," etc.) and counted the number of bugs under each module. By drawing a Pareto chart, they found that over 70% of the bugs were concentrated in the "data reporting module." This finding allowed the team to concentrate testing and development resources on prioritizing the refactoring and fixing of this most unstable module, thereby efficiently improving the overall product quality.</li>
+</ul>
+<p><strong>Case 2: Personal Time Management</strong></p>
+<ul>
+<li><strong>Problem</strong>: An individual feels busy every day but is inefficient and doesn't know where their time goes.</li>
+<li><strong>Application</strong>: They spent a week recording all their daily time expenditures and categorizing them (e.g., "coding," "meetings," "browsing social media," "processing emails," etc.). After drawing a Pareto chart, they were shocked to find that nearly 60% of their working time was occupied by "ineffective meetings" and "frequent social media checks." This analysis prompted them to selectively attend meetings and use the Pomodoro Technique to reduce distractions, thereby investing more time in truly important work.</li>
+</ul>
+<p><strong>Case 3: Inventory Management Optimization</strong></p>
+<ul>
+<li><strong>Problem</strong>: A retailer wants to reduce its inventory management costs.</li>
+<li><strong>Application</strong>: They analyzed the annual sales of all products in their warehouse and drew a Pareto chart. This is known as <strong>ABC Classification</strong>. They found that Class A products (approximately 20% of all product types) contributed about 80% of sales. Based on this, they developed differentiated inventory management strategies: for Class A products, they implemented the strictest inventory monitoring and demand forecasting to ensure no stockouts; for Class C products with very low sales, they adopted a more lenient management strategy, or even considered delisting them.</li>
+</ul>
 <h2 id="advantages-and-challenges-of-pareto-analysis">Advantages and Challenges of Pareto Analysis<a class="headerlink" href="#advantages-and-challenges-of-pareto-analysis" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Focus on Key Issues</strong>: The most significant advantage is that it helps us quickly identify the most important driving factors from a multitude of complex problems, avoiding scattered and wasted resources.
-*   <strong>Strong Basis for Decision-Making</strong>: Provides clear, visual data evidence to support decisions on "what we should prioritize," making it easy to reach consensus within the team.
-*   <strong>Highly Versatile</strong>: Can be applied in almost all fields, including quality management, project management, time management, and sales analysis.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>Looks Only at History, Not Future</strong>: Pareto analysis is based on historical data; it cannot predict new problems that may arise in the future.
-*   <strong>Neglect of Qualitative Factors</strong>: It primarily focuses on quantifiable factors (e.g., frequency, cost). For problems that occur infrequently but have extremely severe impacts (e.g., a rare but fatal safety accident), Pareto analysis might underestimate their importance.
-*   <strong>Lack of Cause Analysis</strong>: Pareto analysis can only tell you "what" the main problems are, but not "why" these problems occur. It is a tool for identifying problems, not for solving them.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Focus on Key Issues</strong>: The most significant advantage is that it helps us quickly identify the most important driving factors from a multitude of complex problems, avoiding scattered and wasted resources.</li>
+<li><strong>Strong Basis for Decision-Making</strong>: Provides clear, visual data evidence to support decisions on "what we should prioritize," making it easy to reach consensus within the team.</li>
+<li><strong>Highly Versatile</strong>: Can be applied in almost all fields, including quality management, project management, time management, and sales analysis.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>Looks Only at History, Not Future</strong>: Pareto analysis is based on historical data; it cannot predict new problems that may arise in the future.</li>
+<li><strong>Neglect of Qualitative Factors</strong>: It primarily focuses on quantifiable factors (e.g., frequency, cost). For problems that occur infrequently but have extremely severe impacts (e.g., a rare but fatal safety accident), Pareto analysis might underestimate their importance.</li>
+<li><strong>Lack of Cause Analysis</strong>: Pareto analysis can only tell you "what" the main problems are, but not "why" these problems occur. It is a tool for identifying problems, not for solving them.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Root Cause Analysis</strong>: After identifying the "vital few" problems through Pareto analysis, the next step is usually to use tools like <strong>Fishbone Diagram</strong> or <strong>5 Whys</strong> to conduct an in-depth root cause analysis of these key problems.</li>

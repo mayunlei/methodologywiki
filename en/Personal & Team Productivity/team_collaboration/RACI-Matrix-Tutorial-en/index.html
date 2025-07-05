@@ -713,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md" class="md-nav__link">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-en/" class="md-nav__link">
         
   
   
@@ -3874,12 +3874,22 @@
 </ul>
 <h2 id="detailed-explanation-of-the-four-raci-roles">Detailed Explanation of the Four RACI Roles<a class="headerlink" href="#detailed-explanation-of-the-four-raci-roles" title="Permanent link">&para;</a></h2>
 <p>The key to understanding RACI lies in precisely understanding these four different levels of responsibility.</p>
+<p><img alt="RACI Responsibility Assignment Matrix Role Definitions" src="../RACI-Matrix-Tutorial-en-mermaid.png" /></p>
+<!--
+![RACI-Matrix-Tutorial-en-mermaid-cc1c230c.png](./RACI-Matrix-Tutorial-en-mermaid-cc1c230c.png)
+
+<!--
+![RACI-Matrix-Tutorial-en-mermaid-cc1c230c.png](./RACI-Matrix-Tutorial-en-mermaid-cc1c230c.png)
+
+<!--
 <pre class="mermaid"><code>graph TD
     subgraph RACI Responsibility Assignment Matrix Role Definitions
         A(&lt;b&gt;R - Responsible&lt;/b&gt;&lt;br/&gt;&lt;i&gt;“The Doer” - The person who actually performs the work&lt;/i&gt;&lt;br/&gt;- Responsible for the execution of specific tasks&lt;br/&gt;- A task can have multiple Rs) --&gt; B(&lt;b&gt;A - Accountable&lt;/b&gt;&lt;br/&gt;&lt;i&gt;“The Buck Stops Here” - The person ultimately responsible for the outcome&lt;/i&gt;&lt;br/&gt;- Has final decision-making and veto power over the task&lt;br/&gt;- &lt;b&gt;A task MUST and CAN ONLY have one A&lt;/b&gt;);
         B --&gt; C(&lt;b&gt;C - Consulted&lt;/b&gt;&lt;br/&gt;&lt;i&gt;“In the Loop” - People who need to be consulted for two-way communication&lt;/i&gt;&lt;br/&gt;- Experts or stakeholders who need to be consulted before decisions or during execution&lt;br/&gt;- Provides expert input, is two-way communication);
         C --&gt; D(&lt;b&gt;I - Informed&lt;/b&gt;&lt;br/&gt;&lt;i&gt;“FYI” - People who only need to be informed of the outcome&lt;/i&gt;&lt;br/&gt;- Stakeholders who need to be informed of the outcome or progress after the task is completed&lt;br/&gt;- Is one-way communication, no feedback required);
     end</code></pre>
+-->
+
 <h2 id="how-to-create-and-use-a-raci-matrix">How to Create and Use a RACI Matrix<a class="headerlink" href="#how-to-create-and-use-a-raci-matrix" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -3989,32 +3999,44 @@
 <ul>
 <li><strong>Analysis</strong>: From this matrix, it's clear that the Product Manager is ultimately responsible (A) for product feature development, while the Marketing Manager is ultimately responsible (A) for the marketing plan. The Legal Advisor is "Consulted (C)" on marketing copy and merely "Informed (I)" on the requirements document.</li>
 </ul>
-<p><strong>Case 2: A Home Renovation Project</strong>
-*   <strong>Task</strong>: Determine renovation style.
-*   <strong>Roles</strong>: Husband, Wife, Designer, Construction Foreman.
-*   <strong>RACI Assignment</strong>:
-    *   <strong>R (Responsible)</strong>: Designer (responsible for producing design proposals).
-    *   <strong>A (Accountable)</strong>: Wife (has final decision-making authority).
-    *   <strong>C (Consulted)</strong>: Husband (needs to provide opinions, but no final decision-making authority).
-    *   <strong>I (Informed)</strong>: Construction Foreman (needs to be informed of the final style for construction preparation).</p>
-<p><strong>Case 3: Resolving an Online Production Incident</strong>
-*   <strong>Task</strong>: Urgently fix an online bug.
-*   <strong>Roles</strong>: Technical Director, Operations Engineer, Development Engineer, Customer Service Manager.
-*   <strong>RACI Assignment</strong>:
-    *   <strong>R</strong>: Development Engineer (responsible for writing and submitting the fix code).
-    *   <strong>A</strong>: Technical Director (ultimately responsible for the overall incident resolution and restoration of online services).
-    *   <strong>C</strong>: Operations Engineer (needs to be consulted on the impact of the fix on the server environment before deployment).
-    *   <strong>I</strong>: Customer Service Manager (needs to be informed of the fix progress to appease customers).</p>
+<p><strong>Case 2: A Home Renovation Project</strong></p>
+<ul>
+<li><strong>Task</strong>: Determine renovation style.</li>
+<li><strong>Roles</strong>: Husband, Wife, Designer, Construction Foreman.</li>
+<li><strong>RACI Assignment</strong>:<ul>
+<li><strong>R (Responsible)</strong>: Designer (responsible for producing design proposals).</li>
+<li><strong>A (Accountable)</strong>: Wife (has final decision-making authority).</li>
+<li><strong>C (Consulted)</strong>: Husband (needs to provide opinions, but no final decision-making authority).</li>
+<li><strong>I (Informed)</strong>: Construction Foreman (needs to be informed of the final style for construction preparation).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Case 3: Resolving an Online Production Incident</strong></p>
+<ul>
+<li><strong>Task</strong>: Urgently fix an online bug.</li>
+<li><strong>Roles</strong>: Technical Director, Operations Engineer, Development Engineer, Customer Service Manager.</li>
+<li><strong>RACI Assignment</strong>:<ul>
+<li><strong>R</strong>: Development Engineer (responsible for writing and submitting the fix code).</li>
+<li><strong>A</strong>: Technical Director (ultimately responsible for the overall incident resolution and restoration of online services).</li>
+<li><strong>C</strong>: Operations Engineer (needs to be consulted on the impact of the fix on the server environment before deployment).</li>
+<li><strong>I</strong>: Customer Service Manager (needs to be informed of the fix progress to appease customers).</li>
+</ul>
+</li>
+</ul>
 <h2 id="advantages-and-challenges-of-the-raci-matrix">Advantages and Challenges of the RACI Matrix<a class="headerlink" href="#advantages-and-challenges-of-the-raci-matrix" title="Permanent link">&para;</a></h2>
-<p><strong>Core Advantages</strong>
-*   <strong>Greatly Clarifies Responsibilities</strong>: Clearly defines who does what, who decides, and who needs to be involved, eliminating role ambiguity and overlapping responsibilities.
-*   <strong>Improves Decision-Making Efficiency</strong>: By clearly defining a single A, it avoids decision delays or conflicts caused by unclear responsibilities.
-*   <strong>Optimizes Communication Paths</strong>: Clearly distinguishes between Cs who need deep involvement and Is who only need one-way notification, reducing unnecessary communication noise.
-*   <strong>Facilitates New Member Onboarding</strong>: Provides a clear guide for new team members to quickly understand project operating models and their own responsibilities.</p>
-<p><strong>Potential Challenges</strong>
-*   <strong>Can Be Too Rigid</strong>: If implemented too dogmatically, it may limit team flexibility and self-organization. RACI is a communication tool, not a bureaucratic process.
-*   <strong>Does Not Solve All Problems</strong>: It only defines "who does what," but not "how to do it" or "when to complete it." It needs to be used in conjunction with other tools like project plans and process flowcharts.
-*   <strong>Creation and Maintenance Cost</strong>: For very large and complex projects, creating and maintaining a detailed RACI matrix can be a significant undertaking in itself.</p>
+<p><strong>Core Advantages</strong></p>
+<ul>
+<li><strong>Greatly Clarifies Responsibilities</strong>: Clearly defines who does what, who decides, and who needs to be involved, eliminating role ambiguity and overlapping responsibilities.</li>
+<li><strong>Improves Decision-Making Efficiency</strong>: By clearly defining a single A, it avoids decision delays or conflicts caused by unclear responsibilities.</li>
+<li><strong>Optimizes Communication Paths</strong>: Clearly distinguishes between Cs who need deep involvement and Is who only need one-way notification, reducing unnecessary communication noise.</li>
+<li><strong>Facilitates New Member Onboarding</strong>: Provides a clear guide for new team members to quickly understand project operating models and their own responsibilities.</li>
+</ul>
+<p><strong>Potential Challenges</strong></p>
+<ul>
+<li><strong>Can Be Too Rigid</strong>: If implemented too dogmatically, it may limit team flexibility and self-organization. RACI is a communication tool, not a bureaucratic process.</li>
+<li><strong>Does Not Solve All Problems</strong>: It only defines "who does what," but not "how to do it" or "when to complete it." It needs to be used in conjunction with other tools like project plans and process flowcharts.</li>
+<li><strong>Creation and Maintenance Cost</strong>: For very large and complex projects, creating and maintaining a detailed RACI matrix can be a significant undertaking in itself.</li>
+</ul>
 <h2 id="extensions-and-connections">Extensions and Connections<a class="headerlink" href="#extensions-and-connections" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>RACI Variations</strong>:<ul>
