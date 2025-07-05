@@ -1,15 +1,15 @@
-site_name: 方法论智慧维基
-site_description: '一个致力于系统性地介绍、解释和应用各种强大方法论的知识库。'
-site_author: 'Your Name' # 您可以替换成您的名字
+site_name: Wisdom Wiki of Methodologies
+site_description: 'A knowledge base dedicated to systematically introducing, explaining, and applying various powerful methodologies, helping people on their path to success.'
+site_author: 'methodologywiki' # 您可以替换成您的名字
 
 site_url: https://methodologywiki.com/
 repo_url: https://github.com/mayunlei/methodologywiki
 
 theme:
   name: material
-  language: zh
-  logo: assets/logo.svg # 我们稍后可以添加一个logo
-  favicon: assets/logo.svg
+  language: en
+  # logo: assets/logo.ico # 我们稍后可以添加一个logo
+  favicon: favicon.ico
   features:
     - navigation.tabs
     - navigation.sections
@@ -23,16 +23,18 @@ theme:
     - scheme: default
       toggle:
         icon: material/brightness-7
-        name: 切换到深色模式
+        name: Switch to dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
-        name: 切换到浅色模式
+        name: Switch to light mode
+extra:
+  analytics:
+    provider: google
+    property: G-VQ6RTZVF1S
+  extra_css:
+    - stylesheets/extra.css
 
-extra_css:
-  - stylesheets/extra.css
-extra_javascript:
-  - js/redirect.js
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -50,860 +52,107 @@ markdown_extensions:
   - toc:
       permalink: true
 
-plugins:
-  - i18n:
-      default_language: zh
-      languages:
-        zh:
-          name: 中文
-          build: true
-        en:
-          name: English
-          build: true
-        ru:
-          name: Русский
-          build: true
-        de:
-          name: Deutsch
-          build: true
-        fr:
-          name: Français
-          build: true
-        es:
-          name: Español
-          build: true
-        ja:
-          name: 日本語
-          build: true
-        vi:
-          name: Tiếng Việt
-          build: true
 
-extra:
-  alternate:
-    - name: 中文
-      link: /
-      lang: zh
-    - name: English
-      link: /en/
-      lang: en
-    - name: Русский
-      link: /ru/
-      lang: ru
-    - name: Deutsch
-      link: /de/
-      lang: de
-    - name: Français
-      link: /fr/
-      lang: fr
-    - name: Español
-      link: /es/
-      lang: es
-    - name: 日本語
-      link: /ja/
-      lang: ja
-    - name: Tiếng Việt
-      link: /vi/
-      lang: vi
+
+plugins:
+  - search
 
 nav:
-  - '首页': 'zh/index.md'
-  - '问题解决工具箱':
-    - '问题解决总览': 'zh/problem_solving/Problem-Solving-cn.md'
-    - '鱼骨图': 'zh/problem_solving/Fishbone-Diagram-Tutorial-cn.md'
-    - '五问法': 'zh/problem_solving/Five-Whys-Tutorial-cn.md'
-    - '差距分析': 'zh/problem_solving/Gap-Analysis-Tutorial-cn.md'
-    - '现场走动': 'zh/problem_solving/Gemba-Walk-Tutorial-cn.md'
-    - '逻辑树': 'zh/problem_solving/Logic-Tree-Tutorial-cn.md'
-    - '波特五力模型': 'zh/problem_solving/Porters-Five-Forces-Tutorial-cn.md'
-    - 'SWOT分析': 'zh/problem_solving/SWOT-Analysis-Tutorial-cn.md'
-    - '六顶思考帽': 'zh/problem_solving/Six-Thinking-Hats-Tutorial-cn.md'
-  - '探究与研究':
-    - '基础分野':
-      - '定量研究': 'zh/basic_discipline/Quantitative-Research-Tutorial-cn.md'
-      - '定性研究': 'zh/basic_discipline/Qualitative-Research-Tutorial-cn.md'
-      - '混合方法研究': 'zh/basic_discipline/Mixed-Methods-Research-Tutorial-cn.md'
-    - '科学探究范式':
-      - '实验研究': 'zh/scientific_inquiry_paradigm/Experimental-Research-Tutorial-cn.md'
-      - '描述性研究': 'zh/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-cn.md'
-      - '相关性研究': 'zh/scientific_inquiry_paradigm/Correlational-Research-Tutorial-cn.md'
-    - '时间维度设计':
-      - '纵向研究': 'zh/time_dimension_design/Longitudinal-Research-Tutorial-cn.md'
-      - '横断面研究': 'zh/time_dimension_design/Cross-Sectional-Research-Tutorial-cn.md'
-    - '专门定性方法':
-      - '民族志': 'zh/specialized_qualitative_methods/Ethnography-Tutorial-cn.md'
-      - '案例研究': 'zh/specialized_qualitative_methods/Case-Study-Tutorial-cn.md'
-    - '理论与实践':
-      - '扎根理论': 'zh/theory_and_practice/Grounded-Theory-Tutorial-cn.md'
-      - '行动研究': 'zh/theory_and_practice/Action-Research-Tutorial-cn.md'
-  - '商业战略与管理':
-    - '战略分析':
-      - 'SWOT分析': 'zh/strategic_analysis/SWOT-Analysis-Tutorial-cn.md'
-      - 'PESTEL分析': 'zh/strategic_analysis/PESTEL-Analysis-Tutorial-cn.md'
-      - '波特五力模型': 'zh/strategic_analysis/Porters-Five-Forces-Tutorial-cn.md'
-      - '价值链分析': 'zh/strategic_analysis/Value-Chain-Analysis-Tutorial-cn.md'
-    - '战略执行':
-      - '平衡计分卡': 'zh/strategic_execution/Balanced-Scorecard-Tutorial-cn.md'
-      - '蓝海战略': 'zh/strategic_execution/Blue-Ocean-Strategy-Tutorial-cn.md'
-    - '商业模式':
-      - '商业模式画布': 'zh/business_model/Business-Model-Canvas-Tutorial-cn.md'
-      - '精益画布': 'zh/business_model/Lean-Canvas-Tutorial-cn.md'
-    - '决策制定':
-      - '决策矩阵': 'zh/decision_making/Decision-Matrix-Tutorial-cn.md'
-      - '成本效益分析': 'zh/decision_making/Cost-Benefit-Analysis-Tutorial-cn.md'
-      - '帕累托分析': 'zh/decision_making/Pareto-Analysis-Tutorial-cn.md'
-    - '目标管理':
-      - 'OKR': 'zh/goal_management/OKR-Tutorial-cn.md'
-      - 'SMART原则': 'zh/goal_management/SMART-Goals-Tutorial-cn.md'
-      - 'KPI': 'zh/goal_management/KPI-Tutorial-cn.md'
-    - '质量与运营':
-      - '全面质量管理': 'zh/quality_and_operations/Total-Quality-Management-Tutorial-cn.md'
-      - '六西格玛': 'zh/quality_and_operations/Six-Sigma-Tutorial-cn.md'
-      - '精益运营': 'zh/quality_and_operations/Lean-Operations-Tutorial-cn.md'
-      - '改善 (Kaizen)': 'zh/quality_and_operations/Kaizen-Tutorial-cn.md'
-  - '产品、设计与创新':
-    - '用户研究':
-      - '用户画像': 'zh/user_research/User-Persona-Tutorial-cn.md'
-      - '用户旅程图': 'zh/user_research/User-Journey-Map-Tutorial-cn.md'
-      - '同理心地图': 'zh/user_research/Empathy-Map-Tutorial-cn.md'
-    - '创意构想':
-      - '头脑风暴': 'zh/ideation/Brainstorming-Tutorial-cn.md'
-      - '六顶思考帽': 'zh/ideation/Six-Thinking-Hats-Tutorial-cn.md'
-      - '思维导图': 'zh/ideation/Mind-Mapping-Tutorial-cn.md'
-    - '产品开发':
-      - '敏捷开发': 'zh/product_development/Agile-Tutorial-cn.md'
-      - 'Scrum': 'zh/product_development/Scrum-Tutorial-cn.md'
-      - '看板 (Kanban)': 'zh/product_development/Kanban-Tutorial-cn.md'
-      - '设计思维': 'zh/product_development/Design-Thinking-Tutorial-cn.md'
-    - '测试与验证':
-      - 'A/B测试': 'zh/testing_and_validation/AB-Testing-Tutorial-cn.md'
-      - '可用性测试': 'zh/testing_and_validation/Usability-Testing-Tutorial-cn.md'
-      - 'MVP': 'zh/testing_and_validation/MVP-Tutorial-cn.md'
-  - '思考与解决问题':
-    - '逻辑思维':
-      - '第一性原理': 'zh/logical_thinking/First-Principles-Thinking-Tutorial-cn.md'
-      - '金字塔原理': 'zh/logical_thinking/Pyramid-Principle-Tutorial-cn.md'
-    - '系统思维':
-      - '系统动力学': 'zh/systems_thinking/System-Dynamics-Tutorial-cn.md'
-      - '冰山模型': 'zh/systems_thinking/Iceberg-Model-Tutorial-cn.md'
-    - '根本原因分析':
-      - '5 Whys': 'zh/root_cause_analysis/5-Whys-Tutorial-cn.md'
-      - '鱼骨图': 'zh/root_cause_analysis/Fishbone-Diagram-Tutorial-cn.md'
-  - '沟通与协作':
-    - '会议提效':
-      - 'ORID焦点讨论法': 'zh/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-cn.md'
-    - '反馈技巧':
-      - 'SBI反馈模型': 'zh/feedback_techniques/SBI-Feedback-Model-Tutorial-cn.md'
-    - '团队协作':
-      - 'RACI责任分配矩阵': 'zh/team_collaboration/RACI-Matrix-Tutorial-cn.md'
-  - '个人成长与效率':
-    - '时间管理':
-      - '番茄工作法': 'zh/time_management/Pomodoro-Technique-Tutorial-cn.md'
-      - '艾森豪威尔矩阵': 'zh/time_management/Eisenhower-Matrix-Tutorial-cn.md'
-      - 'GTD': 'zh/time_management/GTD-Tutorial-cn.md'
-    - '学习方法':
-      - '费曼学习法': 'zh/learning_methods/Feynman-Technique-Tutorial-cn.md'
-      - '康奈尔笔记法': 'zh/learning_methods/Cornell-Note-Taking-Tutorial-cn.md'
-    - '习惯养成':
-      - '微习惯': 'zh/habit_formation/Tiny-Habits-Tutorial-cn.md'
-      - '习惯回路': 'zh/habit_formation/The-Habit-Loop-Tutorial-cn.md'
-  - 'Home': 'en/index.md'
-  - 'Problem Solving Toolbox':
-    - 'Problem Solving Overview': 'en/problem_solving/Problem-Solving-cn.md'
-    - 'Fishbone Diagram': 'en/problem_solving/Fishbone-Diagram-Tutorial-cn.md'
-    - 'Five Whys': 'en/problem_solving/Five-Whys-Tutorial-cn.md'
-    - 'Gap Analysis': 'en/problem_solving/Gap-Analysis-Tutorial-cn.md'
-    - 'Gemba Walk': 'en/problem_solving/Gemba-Walk-Tutorial-cn.md'
-    - 'Logic Tree': 'en/problem_solving/Logic-Tree-Tutorial-cn.md'
-    - 'Porter's Five Forces': 'en/problem_solving/Porters-Five-Forces-Tutorial-cn.md'
-    - 'SWOT Analysis': 'en/problem_solving/SWOT-Analysis-Tutorial-cn.md'
-    - 'Six Thinking Hats': 'en/problem_solving/Six-Thinking-Hats-Tutorial-cn.md'
-  - 'Inquiry and Research':
-    - 'Basic Disciplines':
-      - 'Quantitative Research': 'en/basic_discipline/Quantitative-Research-Tutorial-cn.md'
-      - 'Qualitative Research': 'en/basic_discipline/Qualitative-Research-Tutorial-cn.md'
-      - 'Mixed Methods Research': 'en/basic_discipline/Mixed-Methods-Research-Tutorial-cn.md'
-    - 'Scientific Inquiry Paradigms':
-      - 'Experimental Research': 'en/scientific_inquiry_paradigm/Experimental-Research-Tutorial-cn.md'
-      - 'Descriptive Research': 'en/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-cn.md'
-      - 'Correlational Research': 'en/scientific_inquiry_paradigm/Correlational-Research-Tutorial-cn.md'
-    - 'Time Dimension Designs':
-      - 'Longitudinal Research': 'en/time_dimension_design/Longitudinal-Research-Tutorial-cn.md'
-      - 'Cross-Sectional Research': 'en/time_dimension_design/Cross-Sectional-Research-Tutorial-cn.md'
-    - 'Specialized Qualitative Methods':
-      - 'Ethnography': 'en/specialized_qualitative_methods/Ethnography-Tutorial-cn.md'
-      - 'Case Study': 'en/specialized_qualitative_methods/Case-Study-Tutorial-cn.md'
-    - 'Theory and Practice':
-      - 'Grounded Theory': 'en/theory_and_practice/Grounded-Theory-Tutorial-cn.md'
-      - 'Action Research': 'en/theory_and_practice/Action-Research-Tutorial-cn.md'
-  - 'Business Strategy and Management':
-    - 'Strategic Analysis':
-      - 'SWOT Analysis': 'en/strategic_analysis/SWOT-Analysis-Tutorial-cn.md'
-      - 'PESTEL Analysis': 'en/strategic_analysis/PESTEL-Analysis-Tutorial-cn.md'
-      - 'Porter's Five Forces': 'en/strategic_analysis/Porters-Five-Forces-Tutorial-cn.md'
-      - 'Value Chain Analysis': 'en/strategic_analysis/Value-Chain-Analysis-Tutorial-cn.md'
-    - 'Strategic Execution':
-      - 'Balanced Scorecard': 'en/strategic_execution/Balanced-Scorecard-Tutorial-cn.md'
-      - 'Blue Ocean Strategy': 'en/strategic_execution/Blue-Ocean-Strategy-Tutorial-cn.md'
-    - 'Business Models':
-      - 'Business Model Canvas': 'en/business_model/Business-Model-Canvas-Tutorial-cn.md'
-      - 'Lean Canvas': 'en/business_model/Lean-Canvas-Tutorial-cn.md'
-    - 'Decision Making':
-      - 'Decision Matrix': 'en/decision_making/Decision-Matrix-Tutorial-cn.md'
-      - 'Cost-Benefit Analysis': 'en/decision_making/Cost-Benefit-Analysis-Tutorial-cn.md'
-      - 'Pareto Analysis': 'en/decision_making/Pareto-Analysis-Tutorial-cn.md'
-    - 'Goal Management':
-      - 'OKR': 'en/goal_management/OKR-Tutorial-cn.md'
-      - 'SMART Principles': 'en/goal_management/SMART-Goals-Tutorial-cn.md'
-      - 'KPI': 'en/goal_management/KPI-Tutorial-cn.md'
-    - 'Quality and Operations':
-      - 'Total Quality Management': 'en/quality_and_operations/Total-Quality-Management-Tutorial-cn.md'
-      - 'Six Sigma': 'en/quality_and_operations/Six-Sigma-Tutorial-cn.md'
-      - 'Lean Operations': 'en/quality_and_operations/Lean-Operations-Tutorial-cn.md'
-      - 'Kaizen': 'en/quality_and_operations/Kaizen-Tutorial-cn.md'
-  - 'Product, Design and Innovation':
-    - 'User Research':
-      - 'User Persona': 'en/user_research/User-Persona-Tutorial-cn.md'
-      - 'User Journey Map': 'en/user_research/User-Journey-Map-Tutorial-cn.md'
-      - 'Empathy Map': 'en/user_research/Empathy-Map-Tutorial-cn.md'
-    - 'Ideation':
-      - 'Brainstorming': 'en/ideation/Brainstorming-Tutorial-cn.md'
-      - 'Six Thinking Hats': 'en/ideation/Six-Thinking-Hats-Tutorial-cn.md'
-      - 'Mind Mapping': 'en/ideation/Mind-Mapping-Tutorial-cn.md'
-    - 'Product Development':
-      - 'Agile Development': 'en/product_development/Agile-Tutorial-cn.md'
-      - 'Scrum': 'en/product_development/Scrum-Tutorial-cn.md'
-      - 'Kanban': 'en/product_development/Kanban-Tutorial-cn.md'
-      - 'Design Thinking': 'en/product_development/Design-Thinking-Tutorial-cn.md'
-    - 'Testing and Validation':
-      - 'A/B Testing': 'en/testing_and_validation/AB-Testing-Tutorial-cn.md'
-      - 'Usability Testing': 'en/testing_and_validation/Usability-Testing-Tutorial-cn.md'
-      - 'MVP': 'en/testing_and_validation/MVP-Tutorial-cn.md'
-  - 'Thinking and Problem Solving':
-    - 'Logical Thinking':
-      - 'First Principles Thinking': 'en/logical_thinking/First-Principles-Thinking-Tutorial-cn.md'
-      - 'Pyramid Principle': 'en/logical_thinking/Pyramid-Principle-Tutorial-cn.md'
-    - 'Systems Thinking':
-      - 'System Dynamics': 'en/systems_thinking/System-Dynamics-Tutorial-cn.md'
-      - 'Iceberg Model': 'en/systems_thinking/Iceberg-Model-Tutorial-cn.md'
-    - 'Root Cause Analysis':
-      - '5 Whys': 'en/root_cause_analysis/5-Whys-Tutorial-cn.md'
-      - 'Fishbone Diagram': 'en/root_cause_analysis/Fishbone-Diagram-Tutorial-cn.md'
-  - 'Communication and Collaboration':
-    - 'Meeting Effectiveness':
-      - 'ORID Focused Conversation': 'en/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-cn.md'
-    - 'Feedback Techniques':
-      - 'SBI Feedback Model': 'en/feedback_techniques/SBI-Feedback-Model-Tutorial-cn.md'
-    - 'Team Collaboration':
-      - 'RACI Matrix': 'en/team_collaboration/RACI-Matrix-Tutorial-cn.md'
-  - 'Personal Growth and Efficiency':
-    - 'Time Management':
-      - 'Pomodoro Technique': 'en/time_management/Pomodoro-Technique-Tutorial-cn.md'
-      - 'Eisenhower Matrix': 'en/time_management/Eisenhower-Matrix-Tutorial-cn.md'
-      - 'GTD': 'en/time_management/GTD-Tutorial-cn.md'
+  - 'Home': 'index.md'
+  - 'Foundations':
+    - 'Basic Discipline':
+      - 'Mixed Methods Research': 'en/Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-en.md'
+      - 'Qualitative Research': 'en/Foundations/basic_discipline/Qualitative-Research-Tutorial-en.md'
+      - 'Quantitative Research': 'en/Foundations/basic_discipline/Quantitative-Research-Tutorial-en.md'
     - 'Learning Methods':
-      - 'Feynman Technique': 'en/learning_methods/Feynman-Technique-Tutorial-cn.md'
-      - 'Cornell Note-Taking': 'en/learning_methods/Cornell-Note-Taking-Tutorial-cn.md'
+      - 'Cornell Note Taking': 'en/Foundations/learning_methods/Cornell-Note-Taking-Tutorial-en.md'
+      - 'Feynman Technique': 'en/Foundations/learning_methods/Feynman-Technique-Tutorial-en.md'
+    - 'Logical Thinking':
+      - 'First Principles Thinking': 'en/Foundations/logical_thinking/First-Principles-Thinking-Tutorial-en.md'
+      - 'Pyramid Principle': 'en/Foundations/logical_thinking/Pyramid-Principle-Tutorial-en.md'
+    - 'Scientific Inquiry Paradigm':
+      - 'Correlational Research': 'en/Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-en.md'
+      - 'Descriptive Research': 'en/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-en.md'
+      - 'Experimental Research': 'en/Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-en.md'
+    - 'Systems Thinking':
+      - 'Iceberg Model': 'en/Foundations/systems_thinking/Iceberg-Model-Tutorial-en.md'
+      - 'System Dynamics': 'en/Foundations/systems_thinking/System-Dynamics-Tutorial-en.md'
+    - 'Theory and Practice':
+      - 'Action Research': 'en/Foundations/theory_and_practice/Action-Research-Tutorial-en.md'
+      - 'Grounded Theory': 'en/Foundations/theory_and_practice/Grounded-Theory-Tutorial-en.md'
+  - 'Strategy & Business':
+    - 'Business Model':
+      - 'Business Model Canvas': 'en/Strategy & Business/business_model/Business-Model-Canvas-Tutorial-en.md'
+      - 'Lean Canvas': 'en/Strategy & Business/business_model/Lean-Canvas-Tutorial-en.md'
+    - 'Quality and Operations':
+      - 'Kaizen': 'en/Strategy & Business/quality_and_operations/Kaizen-Tutorial-en.md'
+      - 'Lean Operations': 'en/Strategy & Business/quality_and_operations/Lean-Operations-Tutorial-en.md'
+      - 'Six Sigma': 'en/Strategy & Business/quality_and_operations/Six-Sigma-Tutorial-en.md'
+      - 'Total Quality Management': 'en/Strategy & Business/quality_and_operations/Total-Quality-Management-Tutorial-en.md'
+    - 'Strategic Analysis':
+      - 'PESTEL Analysis': 'en/Strategy & Business/strategic_analysis/PESTEL-Analysis-Tutorial-en.md'
+      - 'Porters Five Forces': 'en/Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-en.md'
+      - 'SWOT Analysis': 'en/Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-en.md'
+      - 'Value Chain Analysis': 'en/Strategy & Business/strategic_analysis/Value-Chain-Analysis-Tutorial-en.md'
+    - 'Strategic Execution':
+      - 'Balanced Scorecard': 'en/Strategy & Business/strategic_execution/Balanced-Scorecard-Tutorial-en.md'
+      - 'Blue Ocean Strategy': 'en/Strategy & Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-en.md'
+  - 'Problem Solving & Decision Making':
+    - 'Decision Making':
+      - 'Cost Benefit Analysis': 'en/Problem Solving & Decision Making/decision_making/Cost-Benefit-Analysis-Tutorial-en.md'
+      - 'Decision Matrix': 'en/Problem Solving & Decision Making/decision_making/Decision-Matrix-Tutorial-en.md'
+      - 'Pareto Analysis': 'en/Problem Solving & Decision Making/decision_making/Pareto-Analysis-Tutorial-en.md'
+    - 'Ideation':
+      - 'Brainstorming': 'en/Problem Solving & Decision Making/ideation/Brainstorming-Tutorial-en.md'
+      - 'Mind Mapping': 'en/Problem Solving & Decision Making/ideation/Mind-Mapping-Tutorial-en.md'
+      - 'Six Thinking Hats': 'en/Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-en.md'
+    - 'Problem Solving':
+      - 'Fishbone Diagram': 'en/Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-en.md'
+      - 'Five Whys': 'en/Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-en.md'
+      - 'Gap Analysis': 'en/Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-en.md'
+      - 'Gemba Walk': 'en/Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-en.md'
+      - 'Logic Tree': 'en/Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-en.md'
+      - 'Problem Solving': 'en/Problem Solving & Decision Making/problem_solving/Problem-Solving-en.md'
+      - 'Six Thinking Hats': 'en/Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-en.md'
+    - 'Root Cause Analysis':
+      - '5 Whys': 'en/Problem Solving & Decision Making/root_cause_analysis/5-Whys-Tutorial-en.md'
+      - 'Fishbone Diagram': 'en/Problem Solving & Decision Making/root_cause_analysis/Fishbone-Diagram-Tutorial-en.md'
+  - 'Product & User':
+    - 'Product Development':
+      - 'Agile': 'en/Product & User/product_development/Agile-Tutorial-en.md'
+      - 'Design Thinking': 'en/Product & User/product_development/Design-Thinking-Tutorial-en.md'
+      - 'Kanban': 'en/Product & User/product_development/Kanban-Tutorial-en.md'
+      - 'Scrum': 'en/Product & User/product_development/Scrum-Tutorial-en.md'
+    - 'Specialized Qualitative Methods':
+      - 'Case Study': 'en/Product & User/specialized_qualitative_methods/Case-Study-Tutorial-en.md'
+      - 'Ethnography': 'en/Product & User/specialized_qualitative_methods/Ethnography-Tutorial-en.md'
+    - 'Testing and Validation':
+      - 'A/B Testing': 'en/Product & User/testing_and_validation/AB-Testing-Tutorial-en.md'
+      - 'MVP': 'en/Product & User/testing_and_validation/MVP-Tutorial-en.md'
+      - 'Usability Testing': 'en/Product & User/testing_and_validation/Usability-Testing-Tutorial-en.md'
+    - 'Time Dimension Design':
+      - 'Cross-Sectional Research': 'en/Product & User/time_dimension_design/Cross-Sectional-Research-Tutorial-en.md'
+      - 'Longitudinal Research': 'en/Product & User/time_dimension_design/Longitudinal-Research-Tutorial-en.md'
+    - 'User Research':
+      - 'Empathy Map': 'en/Product & User/user_research/Empathy-Map-Tutorial-en.md'
+      - 'User Journey Map': 'en/Product & User/user_research/User-Journey-Map-Tutorial-en.md'
+      - 'User Persona': 'en/Product & User/user_research/User-Persona-Tutorial-en.md'
+  - 'Personal & Team Productivity':
+    - 'Feedback Techniques':
+      - 'SBI Feedback Model': 'en/Personal & Team Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-en.md'
+    - 'Goal Management':
+      - 'KPI': 'en/Personal & Team Productivity/goal_management/KPI-Tutorial-en.md'
+      - 'OKR': 'en/Personal & Team Productivity/goal_management/OKR-Tutorial-en.md'
+      - 'SMART Goals': 'en/Personal & Team Productivity/goal_management/SMART-Goals-Tutorial-en.md'
     - 'Habit Formation':
-      - 'Tiny Habits': 'en/habit_formation/Tiny-Habits-Tutorial-cn.md'
-      - 'The Habit Loop': 'en/habit_formation/The-Habit-Loop-Tutorial-cn.md'
-  - 'Главная': 'ru/index.md'
-  - 'Инструментарий решения проблем':
-    - 'Обзор решения проблем': 'ru/problem_solving/Problem-Solving-cn.md'
-    - 'Диаграмма Исикавы': 'ru/problem_solving/Fishbone-Diagram-Tutorial-cn.md'
-    - 'Пять почему': 'ru/problem_solving/Five-Whys-Tutorial-cn.md'
-    - 'Анализ разрывов': 'ru/problem_solving/Gap-Analysis-Tutorial-cn.md'
-    - 'Гемба': 'ru/problem_solving/Gemba-Walk-Tutorial-cn.md'
-    - 'Дерево логики': 'ru/problem_solving/Logic-Tree-Tutorial-cn.md'
-    - 'Пять сил Портера': 'ru/problem_solving/Porters-Five-Forces-Tutorial-cn.md'
-    - 'SWOT-анализ': 'ru/problem_solving/SWOT-Analysis-Tutorial-cn.md'
-    - 'Шесть шляп мышления': 'ru/problem_solving/Six-Thinking-Hats-Tutorial-cn.md'
-  - 'Исследование и изучение':
-    - 'Основные дисциплины':
-      - 'Количественные исследования': 'ru/basic_discipline/Quantitative-Research-Tutorial-cn.md'
-      - 'Качественные исследования': 'ru/basic_discipline/Qualitative-Research-Tutorial-cn.md'
-      - 'Смешанные методы исследования': 'ru/basic_discipline/Mixed-Methods-Research-Tutorial-cn.md'
-    - 'Парадигмы научного исследования':
-      - 'Экспериментальные исследования': 'ru/scientific_inquiry_paradigm/Experimental-Research-Tutorial-cn.md'
-      - 'Описательные исследования': 'ru/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-cn.md'
-      - 'Корреляционные исследования': 'ru/scientific_inquiry_paradigm/Correlational-Research-Tutorial-cn.md'
-    - 'Проекты временных измерений':
-      - 'Лонгитюдные исследования': 'ru/time_dimension_design/Longitudinal-Research-Tutorial-cn.md'
-      - 'Кросс-секционные исследования': 'ru/time_dimension_design/Cross-Sectional-Research-Tutorial-cn.md'
-    - 'Специализированные качественные методы':
-      - 'Этнография': 'ru/specialized_qualitative_methods/Ethnography-Tutorial-cn.md'
-      - 'Кейс-стади': 'ru/specialized_qualitative_methods/Case-Study-Tutorial-cn.md'
-    - 'Теория и практика':
-      - 'Обоснованная теория': 'ru/theory_and_practice/Grounded-Theory-Tutorial-cn.md'
-      - 'Исследование действий': 'ru/theory_and_practice/Action-Research-Tutorial-cn.md'
-  - 'Бизнес-стратегия и управление':
-    - 'Стратегический анализ':
-      - 'SWOT-анализ': 'ru/strategic_analysis/SWOT-Analysis-Tutorial-cn.md'
-      - 'PESTEL-анализ': 'ru/strategic_analysis/PESTEL-Analysis-Tutorial-cn.md'
-      - 'Пять сил Портера': 'ru/strategic_analysis/Porters-Five-Forces-Tutorial-cn.md'
-      - 'Анализ цепочки создания стоимости': 'ru/strategic_analysis/Value-Chain-Analysis-Tutorial-cn.md'
-    - 'Стратегическое исполнение':
-      - 'Сбалансированная система показателей': 'ru/strategic_execution/Balanced-Scorecard-Tutorial-cn.md'
-      - 'Стратегия голубого океана': 'ru/strategic_execution/Blue-Ocean-Strategy-Tutorial-cn.md'
-    - 'Бизнес-модели':
-      - 'Канва бизнес-модели': 'ru/business_model/Business-Model-Canvas-Tutorial-cn.md'
-      - 'Бережливая канва': 'ru/business_model/Lean-Canvas-Tutorial-cn.md'
-    - 'Принятие решений':
-      - 'Матрица решений': 'ru/decision_making/Decision-Matrix-Tutorial-cn.md'
-      - 'Анализ затрат и выгод': 'ru/decision_making/Cost-Benefit-Analysis-Tutorial-cn.md'
-      - 'Анализ Парето': 'ru/decision_making/Pareto-Analysis-Tutorial-cn.md'
-    - 'Управление целями':
-      - 'OKR': 'ru/goal_management/OKR-Tutorial-cn.md'
-      - 'Принципы SMART': 'ru/goal_management/SMART-Goals-Tutorial-cn.md'
-      - 'KPI': 'ru/goal_management/KPI-Tutorial-cn.md'
-    - 'Качество и операции':
-      - 'Всеобщее управление качеством': 'ru/quality_and_operations/Total-Quality-Management-Tutorial-cn.md'
-      - 'Шесть сигм': 'ru/quality_and_operations/Six-Sigma-Tutorial-cn.md'
-      - 'Бережливые операции': 'ru/quality_and_operations/Lean-Operations-Tutorial-cn.md'
-      - 'Кайдзен': 'ru/quality_and_operations/Kaizen-Tutorial-cn.md'
-  - 'Продукт, дизайн и инновации':
-    - 'Исследование пользователей':
-      - 'Персона пользователя': 'ru/user_research/User-Persona-Tutorial-cn.md'
-      - 'Карта пути пользователя': 'ru/user_research/User-Journey-Map-Tutorial-cn.md'
-      - 'Карта эмпатии': 'ru/user_research/Empathy-Map-Tutorial-cn.md'
-    - 'Генерация идей':
-      - 'Мозговой штурм': 'ru/ideation/Brainstorming-Tutorial-cn.md'
-      - 'Шесть шляп мышления': 'ru/ideation/Six-Thinking-Hats-Tutorial-cn.md'
-      - 'Интеллект-карты': 'ru/ideation/Mind-Mapping-Tutorial-cn.md'
-    - 'Разработка продукта':
-      - 'Гибкая разработка': 'ru/product_development/Agile-Tutorial-cn.md'
-      - 'Scrum': 'ru/product_development/Scrum-Tutorial-cn.md'
-      - 'Канбан': 'ru/product_development/Kanban-Tutorial-cn.md'
-      - 'Дизайн-мышление': 'ru/product_development/Design-Thinking-Tutorial-cn.md'
-    - 'Тестирование и валидация':
-      - 'A/B-тестирование': 'ru/testing_and_validation/AB-Testing-Tutorial-cn.md'
-      - 'Тестирование удобства использования': 'ru/testing_and_validation/Usability-Testing-Tutorial-cn.md'
-      - 'MVP': 'ru/testing_and_validation/MVP-Tutorial-cn.md'
-  - 'Мышление и решение проблем':
-    - 'Логическое мышление':
-      - 'Мышление по первым принципам': 'ru/logical_thinking/First-Principles-Thinking-Tutorial-cn.md'
-      - 'Принцип пирамиды': 'ru/logical_thinking/Pyramid-Principle-Tutorial-cn.md'
-    - 'Системное мышление':
-      - 'Системная динамика': 'ru/systems_thinking/System-Dynamics-Tutorial-cn.md'
-      - 'Модель айсберга': 'ru/systems_thinking/Iceberg-Model-Tutorial-cn.md'
-    - 'Анализ первопричин':
-      - 'Пять почему': 'ru/root_cause_analysis/5-Whys-Tutorial-cn.md'
-      - 'Диаграмма Исикавы': 'ru/root_cause_analysis/Fishbone-Diagram-Tutorial-cn.md'
-  - 'Коммуникация и сотрудничество':
-    - 'Эффективность встреч':
-      - 'Метод фокусированного разговора ORID': 'ru/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-cn.md'
-    - 'Техники обратной связи':
-      - 'Модель обратной связи SBI': 'ru/feedback_techniques/SBI-Feedback-Model-Tutorial-cn.md'
-    - 'Командное сотрудничество':
-      - 'Матрица ответственности RACI': 'ru/team_collaboration/RACI-Matrix-Tutorial-cn.md'
-  - 'Личностный рост и эффективность':
-    - 'Управление временем':
-      - 'Техника Помодоро': 'ru/time_management/Pomodoro-Technique-Tutorial-cn.md'
-      - 'Матрица Эйзенхауэра': 'ru/time_management/Eisenhower-Matrix-Tutorial-cn.md'
-      - 'GTD': 'ru/time_management/GTD-Tutorial-cn.md'
-    - 'Методы обучения':
-      - 'Техника Фейнмана': 'ru/learning_methods/Feynman-Technique-Tutorial-cn.md'
-      - 'Метод конспектирования Корнелла': 'ru/learning_methods/Cornell-Note-Taking-Tutorial-cn.md'
-    - 'Формирование привычек':
-      - 'Маленькие привычки': 'ru/habit_formation/Tiny-Habits-Tutorial-cn.md'
-      - 'Петля привычки': 'ru/habit_formation/The-Habit-Loop-Tutorial-cn.md'
-  - 'Startseite': 'de/index.md'
-  - 'Werkzeugkasten zur Problemlösung':
-    - 'Problemlösungsübersicht': 'de/problem_solving/Problem-Solving-cn.md'
-    - 'Fischgrätendiagramm': 'de/problem_solving/Fishbone-Diagram-Tutorial-cn.md'
-    - 'Fünf-Warum-Methode': 'de/problem_solving/Five-Whys-Tutorial-cn.md'
-    - 'Lückenanalyse': 'de/problem_solving/Gap-Analysis-Tutorial-cn.md'
-    - 'Gemba-Walk': 'de/problem_solving/Gemba-Walk-Tutorial-cn.md'
-    - 'Logikbaum': 'de/problem_solving/Logic-Tree-Tutorial-cn.md'
-    - 'Porter's Fünf Kräfte': 'de/problem_solving/Porters-Five-Forces-Tutorial-cn.md'
-    - 'SWOT-Analyse': 'de/problem_solving/SWOT-Analysis-Tutorial-cn.md'
-    - 'Sechs Denkhüte': 'de/problem_solving/Six-Thinking-Hats-Tutorial-cn.md'
-  - 'Analyse und Forschung':
-    - 'Grundlegende Disziplinen':
-      - 'Quantitative Forschung': 'de/basic_discipline/Quantitative-Research-Tutorial-cn.md'
-      - 'Qualitative Forschung': 'de/basic_discipline/Qualitative-Research-Tutorial-cn.md'
-      - 'Mixed Methods Forschung': 'de/basic_discipline/Mixed-Methods-Research-Tutorial-cn.md'
-    - 'Paradigmen der wissenschaftlichen Untersuchung':
-      - 'Experimentelle Forschung': 'de/scientific_inquiry_paradigm/Experimental-Research-Tutorial-cn.md'
-      - 'Deskriptive Forschung': 'de/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-cn.md'
-      - 'Korrelationsforschung': 'de/scientific_inquiry_paradigm/Correlational-Research-Tutorial-cn.md'
-    - 'Zeitdimensionale Designs':
-      - 'Längsschnittforschung': 'de/time_dimension_design/Longitudinal-Research-Tutorial-cn.md'
-      - 'Querschnittforschung': 'de/time_dimension_design/Cross-Sectional-Research-Tutorial-cn.md'
-    - 'Spezialisierte qualitative Methoden':
-      - 'Ethnographie': 'de/specialized_qualitative_methods/Ethnography-Tutorial-cn.md'
-      - 'Fallstudie': 'de/specialized_qualitative_methods/Case-Study-Tutorial-cn.md'
-    - 'Theorie und Praxis':
-      - 'Grounded Theory': 'de/theory_and_practice/Grounded-Theory-Tutorial-cn.md'
-      - 'Aktionsforschung': 'de/theory_and_practice/Action-Research-Tutorial-cn.md'
-  - 'Geschäftsstrategie und Management':
-    - 'Strategische Analyse':
-      - 'SWOT-Analyse': 'de/strategic_analysis/SWOT-Analysis-Tutorial-cn.md'
-      - 'PESTEL-Analyse': 'de/strategic_analysis/PESTEL-Analysis-Tutorial-cn.md'
-      - 'Porter's Fünf Kräfte': 'de/strategic_analysis/Porters-Five-Forces-Tutorial-cn.md'
-      - 'Wertkettenanalyse': 'de/strategic_analysis/Value-Chain-Analysis-Tutorial-cn.md'
-    - 'Strategische Umsetzung':
-      - 'Balanced Scorecard': 'de/strategic_execution/Balanced-Scorecard-Tutorial-cn.md'
-      - 'Blue Ocean Strategy': 'de/strategic_execution/Blue-Ocean-Strategy-Tutorial-cn.md'
-    - 'Geschäftsmodelle':
-      - 'Business Model Canvas': 'de/business_model/Business-Model-Canvas-Tutorial-cn.md'
-      - 'Lean Canvas': 'de/business_model/Lean-Canvas-Tutorial-cn.md'
-    - 'Entscheidungsfindung':
-      - 'Entscheidungsmatrix': 'de/decision_making/Decision-Matrix-Tutorial-cn.md'
-      - 'Kosten-Nutzen-Analyse': 'de/decision_making/Cost-Benefit-Analysis-Tutorial-cn.md'
-      - 'Pareto-Analyse': 'de/decision_making/Pareto-Analysis-Tutorial-cn.md'
-    - 'Zielmanagement':
-      - 'OKR': 'de/goal_management/OKR-Tutorial-cn.md'
-      - 'SMART-Prinzipien': 'de/goal_management/SMART-Goals-Tutorial-cn.md'
-      - 'KPI': 'de/goal_management/KPI-Tutorial-cn.md'
-    - 'Qualität und Betrieb':
-      - 'Total Quality Management': 'de/quality_and_operations/Total-Quality-Management-Tutorial-cn.md'
-      - 'Six Sigma': 'de/quality_and_operations/Six-Sigma-Tutorial-cn.md'
-      - 'Lean Operations': 'de/quality_and_operations/Lean-Operations-Tutorial-cn.md'
-      - 'Kaizen': 'de/quality_and_operations/Kaizen-Tutorial-cn.md'
-  - 'Produkt, Design und Innovation':
-    - 'Benutzerforschung':
-      - 'Benutzer-Persona': 'de/user_research/User-Persona-Tutorial-cn.md'
-      - 'User Journey Map': 'de/user_research/User-Journey-Map-Tutorial-cn.md'
-      - 'Empathy Map': 'de/user_research/Empathy-Map-Tutorial-cn.md'
-    - 'Ideenfindung':
-      - 'Brainstorming': 'de/ideation/Brainstorming-Tutorial-cn.md'
-      - 'Sechs Denkhüte': 'de/ideation/Six-Thinking-Hats-Tutorial-cn.md'
-      - 'Mind Mapping': 'de/ideation/Mind-Mapping-Tutorial-cn.md'
-    - 'Produktentwicklung':
-      - 'Agile Entwicklung': 'de/product_development/Agile-Tutorial-cn.md'
-      - 'Scrum': 'de/product_development/Scrum-Tutorial-cn.md'
-      - 'Kanban': 'de/product_development/Kanban-Tutorial-cn.md'
-      - 'Design Thinking': 'de/product_development/Design-Thinking-Tutorial-cn.md'
-    - 'Testen und Validierung':
-      - 'A/B-Testing': 'de/testing_and_validation/AB-Testing-Tutorial-cn.md'
-      - 'Usability Testing': 'de/testing_and_validation/Usability-Testing-Tutorial-cn.md'
-      - 'MVP': 'de/testing_and_validation/MVP-Tutorial-cn.md'
-  - 'Denken und Problemlösung':
-    - 'Logisches Denken':
-      - 'First Principles Thinking': 'de/logical_thinking/First-Principles-Thinking-Tutorial-cn.md'
-      - 'Pyramid Principle': 'de/logical_thinking/Pyramid-Principle-Tutorial-cn.md'
-    - 'Systemisches Denken':
-      - 'System Dynamics': 'de/systems_thinking/System-Dynamics-Tutorial-cn.md'
-      - 'Iceberg Model': 'de/systems_thinking/Iceberg-Model-Tutorial-cn.md'
-    - 'Ursachenanalyse':
-      - '5 Whys': 'de/root_cause_analysis/5-Whys-Tutorial-cn.md'
-      - 'Fischgrätendiagramm': 'de/root_cause_analysis/Fishbone-Diagram-Tutorial-cn.md'
-  - 'Kommunikation und Zusammenarbeit':
-    - 'Meeting-Effektivität':
-      - 'ORID Focused Conversation': 'de/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-cn.md'
-    - 'Feedback-Techniken':
-      - 'SBI Feedback Model': 'de/feedback_techniques/SBI-Feedback-Model-Tutorial-cn.md'
-    - 'Teamzusammenarbeit':
-      - 'RACI Matrix': 'de/team_collaboration/RACI-Matrix-Tutorial-cn.md'
-  - 'Persönliches Wachstum und Effizienz':
-    - 'Zeitmanagement':
-      - 'Pomodoro-Technik': 'de/time_management/Pomodoro-Technique-Tutorial-cn.md'
-      - 'Eisenhower-Matrix': 'de/time_management/Eisenhower-Matrix-Tutorial-cn.md'
-      - 'GTD': 'de/time_management/GTD-Tutorial-cn.md'
-    - 'Lernmethoden':
-      - 'Feynman-Technik': 'de/learning_methods/Feynman-Technique-Tutorial-cn.md'
-      - 'Cornell Note-Taking': 'de/learning_methods/Cornell-Note-Taking-Tutorial-cn.md'
-    - 'Gewohnheitsbildung':
-      - 'Tiny Habits': 'de/habit_formation/Tiny-Habits-Tutorial-cn.md'
-      - 'The Habit Loop': 'de/habit_formation/The-Habit-Loop-Tutorial-cn.md'
-  - 'Accueil': 'fr/index.md'
-  - 'Boîte à outils de résolution de problèmes':
-    - 'Aperçu de la résolution de problèmes': 'fr/problem_solving/Problem-Solving-cn.md'
-    - 'Diagramme en arête de poisson': 'fr/problem_solving/Fishbone-Diagram-Tutorial-cn.md'
-    - 'Cinq pourquoi': 'fr/problem_solving/Five-Whys-Tutorial-cn.md'
-    - 'Analyse des écarts': 'fr/problem_solving/Gap-Analysis-Tutorial-cn.md'
-    - 'Gemba Walk': 'fr/problem_solving/Gemba-Walk-Tutorial-cn.md'
-    - 'Arbre logique': 'fr/problem_solving/Logic-Tree-Tutorial-cn.md'
-    - 'Cinq forces de Porter': 'fr/problem_solving/Porters-Five-Forces-Tutorial-cn.md'
-    - 'Analyse SWOT': 'fr/problem_solving/SWOT-Analysis-Tutorial-cn.md'
-    - 'Six chapeaux de la pensée': 'fr/problem_solving/Six-Thinking-Hats-Tutorial-cn.md'
-  - 'Enquête et recherche':
-    - 'Disciplines fondamentales':
-      - 'Recherche quantitative': 'fr/basic_discipline/Quantitative-Research-Tutorial-cn.md'
-      - 'Recherche qualitative': 'fr/basic_discipline/Qualitative-Research-Tutorial-cn.md'
-      - 'Recherche à méthodes mixtes': 'fr/basic_discipline/Mixed-Methods-Research-Tutorial-cn.md'
-    - 'Paradigmes de l'enquête scientifique':
-      - 'Recherche expérimentale': 'fr/scientific_inquiry_paradigm/Experimental-Research-Tutorial-cn.md'
-      - 'Recherche descriptive': 'fr/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-cn.md'
-      - 'Recherche corrélationnelle': 'fr/scientific_inquiry_paradigm/Correlational-Research-Tutorial-cn.md'
-    - 'Conceptions de la dimension temporelle':
-      - 'Recherche longitudinale': 'fr/time_dimension_design/Longitudinal-Research-Tutorial-cn.md'
-      - 'Recherche transversale': 'fr/time_dimension_design/Cross-Sectional-Research-Tutorial-cn.md'
-    - 'Méthodes qualitatives spécialisées':
-      - 'Ethnographie': 'fr/specialized_qualitative_methods/Ethnography-Tutorial-cn.md'
-      - 'Étude de cas': 'fr/specialized_qualitative_methods/Case-Study-Tutorial-cn.md'
-    - 'Théorie et pratique':
-      - 'Théorie ancrée': 'fr/theory_and_practice/Grounded-Theory-Tutorial-cn.md'
-      - 'Recherche-action': 'fr/theory_and_practice/Action-Research-Tutorial-cn.md'
-  - 'Stratégie et gestion d'entreprise':
-    - 'Analyse stratégique':
-      - 'Analyse SWOT': 'fr/strategic_analysis/SWOT-Analysis-Tutorial-cn.md'
-      - 'Analyse PESTEL': 'fr/strategic_analysis/PESTEL-Analysis-Tutorial-cn.md'
-      - 'Cinq forces de Porter': 'fr/strategic_analysis/Porters-Five-Forces-Tutorial-cn.md'
-      - 'Analyse de la chaîne de valeur': 'fr/strategic_analysis/Value-Chain-Analysis-Tutorial-cn.md'
-    - 'Exécution stratégique':
-      - 'Tableau de bord prospectif': 'fr/strategic_execution/Balanced-Scorecard-Tutorial-cn.md'
-      - 'Stratégie Océan Bleu': 'fr/strategic_execution/Blue-Ocean-Strategy-Tutorial-cn.md'
-    - 'Modèles commerciaux':
-      - 'Canevas de modèle d'entreprise': 'fr/business_model/Business-Model-Canvas-Tutorial-cn.md'
-      - 'Canevas Lean': 'fr/business_model/Lean-Canvas-Tutorial-cn.md'
-    - 'Prise de décision':
-      - 'Matrice de décision': 'fr/decision_making/Decision-Matrix-Tutorial-cn.md'
-      - 'Analyse coûts-avantages': 'fr/decision_making/Cost-Benefit-Analysis-Tutorial-cn.md'
-      - 'Analyse de Pareto': 'fr/decision_making/Pareto-Analysis-Tutorial-cn.md'
-    - 'Gestion des objectifs':
-      - 'OKR': 'fr/goal_management/OKR-Tutorial-cn.md'
-      - 'Principes SMART': 'fr/goal_management/SMART-Goals-Tutorial-cn.md'
-      - 'KPI': 'fr/goal_management/KPI-Tutorial-cn.md'
-    - 'Qualité et opérations':
-      - 'Gestion de la qualité totale': 'fr/quality_and_operations/Total-Quality-Management-Tutorial-cn.md'
-      - 'Six Sigma': 'fr/quality_and_operations/Six-Sigma-Tutorial-cn.md'
-      - 'Opérations Lean': 'fr/quality_and_operations/Lean-Operations-Tutorial-cn.md'
-      - 'Kaizen': 'fr/quality_and_operations/Kaizen-Tutorial-cn.md'
-  - 'Produit, conception et innovation':
-    - 'Recherche utilisateur':
-      - 'Persona utilisateur': 'fr/user_research/User-Persona-Tutorial-cn.md'
-      - 'Carte du parcours utilisateur': 'fr/user_research/User-Journey-Map-Tutorial-cn.md'
-      - 'Carte d'empathie': 'fr/user_research/Empathy-Map-Tutorial-cn.md'
-    - 'Idéation':
-      - 'Brainstorming': 'fr/ideation/Brainstorming-Tutorial-cn.md'
-      - 'Six chapeaux de la pensée': 'fr/ideation/Six-Thinking-Hats-Tutorial-cn.md'
-      - 'Cartographie mentale': 'fr/ideation/Mind-Mapping-Tutorial-cn.md'
-    - 'Développement de produits':
-      - 'Développement Agile': 'fr/product_development/Agile-Tutorial-cn.md'
-      - 'Scrum': 'fr/product_development/Scrum-Tutorial-cn.md'
-      - 'Kanban': 'fr/product_development/Kanban-Tutorial-cn.md'
-      - 'Design Thinking': 'fr/product_development/Design-Thinking-Tutorial-cn.md'
-    - 'Tests et validation':
-      - 'Tests A/B': 'fr/testing_and_validation/AB-Testing-Tutorial-cn.md'
-      - 'Tests d'utilisabilité': 'fr/testing_and_validation/Usability-Testing-Tutorial-cn.md'
-      - 'MVP': 'fr/testing_and_validation/MVP-Tutorial-cn.md'
-  - 'Réflexion et résolution de problèmes':
-    - 'Pensée logique':
-      - 'Pensée des premiers principes': 'fr/logical_thinking/First-Principles-Thinking-Tutorial-cn.md'
-      - 'Principe de la pyramide': 'fr/logical_thinking/Pyramid-Principle-Tutorial-cn.md'
-    - 'Pensée systémique':
-      - 'Dynamique des systèmes': 'fr/systems_thinking/System-Dynamics-Tutorial-cn.md'
-      - 'Modèle de l'iceberg': 'fr/systems_thinking/Iceberg-Model-Tutorial-cn.md'
-    - 'Analyse des causes profondes':
-      - '5 Pourquoi': 'fr/root_cause_analysis/5-Whys-Tutorial-cn.md'
-      - 'Diagramme en arête de poisson': 'fr/root_cause_analysis/Fishbone-Diagram-Tutorial-cn.md'
-  - 'Communication et collaboration':
-    - 'Efficacité des réunions':
-      - 'Conversation focalisée ORID': 'fr/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-cn.md'
-    - 'Techniques de feedback':
-      - 'Modèle de feedback SBI': 'fr/feedback_techniques/SBI-Feedback-Model-Tutorial-cn.md'
-    - 'Collaboration d'équipe':
-      - 'Matrice RACI': 'fr/team_collaboration/RACI-Matrix-Tutorial-cn.md'
-  - 'Croissance personnelle et efficacité':
-    - 'Gestion du temps':
-      - 'Technique Pomodoro': 'fr/time_management/Pomodoro-Technique-Tutorial-cn.md'
-      - 'Matrice d'Eisenhower': 'fr/time_management/Eisenhower-Matrix-Tutorial-cn.md'
-      - 'GTD': 'fr/time_management/GTD-Tutorial-cn.md'
-    - 'Méthodes d'apprentissage':
-      - 'Technique Feynman': 'fr/learning_methods/Feynman-Technique-Tutorial-cn.md'
-      - 'Prise de notes Cornell': 'fr/learning_methods/Cornell-Note-Taking-Tutorial-cn.md'
-    - 'Formation d'habitudes':
-      - 'Mini-habitudes': 'fr/habit_formation/Tiny-Habits-Tutorial-cn.md'
-      - 'La boucle de l'habitude': 'fr/habit_formation/The-Habit-Loop-Tutorial-cn.md'
-  - 'Inicio': 'es/index.md'
-  - 'Caja de herramientas para la resolución de problemas':
-    - 'Visión general de la resolución de problemas': 'es/problem_solving/Problem-Solving-cn.md'
-    - 'Diagrama de espina de pescado': 'es/problem_solving/Fishbone-Diagram-Tutorial-cn.md'
-    - 'Cinco porqués': 'es/problem_solving/Five-Whys-Tutorial-cn.md'
-    - 'Análisis de brechas': 'es/problem_solving/Gap-Analysis-Tutorial-cn.md'
-    - 'Gemba Walk': 'es/problem_solving/Gemba-Walk-Tutorial-cn.md'
-    - 'Árbol lógico': 'es/problem_solving/Logic-Tree-Tutorial-cn.md'
-    - 'Cinco fuerzas de Porter': 'es/problem_solving/Porters-Five-Forces-Tutorial-cn.md'
-    - 'Análisis DAFO': 'es/problem_solving/SWOT-Analysis-Tutorial-cn.md'
-    - 'Seis sombreros para pensar': 'es/problem_solving/Six-Thinking-Hats-Tutorial-cn.md'
-  - 'Investigación y estudio':
-    - 'Disciplinas básicas':
-      - 'Investigación cuantitativa': 'es/basic_discipline/Quantitative-Research-Tutorial-cn.md'
-      - 'Investigación cualitativa': 'es/basic_discipline/Qualitative-Research-Tutorial-cn.md'
-      - 'Investigación de métodos mixtos': 'es/basic_discipline/Mixed-Methods-Research-Tutorial-cn.md'
-    - 'Paradigmas de investigación científica':
-      - 'Investigación experimental': 'es/scientific_inquiry_paradigm/Experimental-Research-Tutorial-cn.md'
-      - 'Investigación descriptiva': 'es/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-cn.md'
-      - 'Investigación correlacional': 'es/scientific_inquiry_paradigm/Correlational-Research-Tutorial-cn.md'
-    - 'Diseños de dimensión temporal':
-      - 'Investigación longitudinal': 'es/time_dimension_design/Longitudinal-Research-Tutorial-cn.md'
-      - 'Investigación transversal': 'es/time_dimension_design/Cross-Sectional-Research-Tutorial-cn.md'
-    - 'Métodos cualitativos especializados':
-      - 'Etnografía': 'es/specialized_qualitative_methods/Ethnography-Tutorial-cn.md'
-      - 'Estudio de caso': 'es/specialized_qualitative_methods/Case-Study-Tutorial-cn.md'
-    - 'Teoría y práctica':
-      - 'Teoría fundamentada': 'es/theory_and_practice/Grounded-Theory-Tutorial-cn.md'
-      - 'Investigación-acción': 'es/theory_and_practice/Action-Research-Tutorial-cn.md'
-  - 'Estrategia y gestión empresarial':
-    - 'Análisis estratégico':
-      - 'Análisis DAFO': 'es/strategic_analysis/SWOT-Analysis-Tutorial-cn.md'
-      - 'Análisis PESTEL': 'es/strategic_analysis/PESTEL-Analysis-Tutorial-cn.md'
-      - 'Cinco fuerzas de Porter': 'es/strategic_analysis/Porters-Five-Forces-Tutorial-cn.md'
-      - 'Análisis de la cadena de valor': 'es/strategic_analysis/Value-Chain-Analysis-Tutorial-cn.md'
-    - 'Ejecución estratégica':
-      - 'Cuadro de mando integral': 'es/strategic_execution/Balanced-Scorecard-Tutorial-cn.md'
-      - 'Estrategia del Océano Azul': 'es/strategic_execution/Blue-Ocean-Strategy-Tutorial-cn.md'
-    - 'Modelos de negocio':
-      - 'Lienzo de modelo de negocio': 'es/business_model/Business-Model-Canvas-Tutorial-cn.md'
-      - 'Lienzo Lean': 'es/business_model/Lean-Canvas-Tutorial-cn.md'
-    - 'Toma de decisiones':
-      - 'Matriz de decisión': 'es/decision_making/Decision-Matrix-Tutorial-cn.md'
-      - 'Análisis costo-beneficio': 'es/decision_making/Cost-Benefit-Analysis-Tutorial-cn.md'
-      - 'Análisis de Pareto': 'es/decision_making/Pareto-Analysis-Tutorial-cn.md'
-    - 'Gestión de objetivos':
-      - 'OKR': 'es/goal_management/OKR-Tutorial-cn.md'
-      - 'Principios SMART': 'es/goal_management/SMART-Goals-Tutorial-cn.md'
-      - 'KPI': 'es/goal_management/KPI-Tutorial-cn.md'
-    - 'Calidad y operaciones':
-      - 'Gestión de la calidad total': 'es/quality_and_operations/Total-Quality-Management-Tutorial-cn.md'
-      - 'Seis Sigma': 'es/quality_and_operations/Six-Sigma-Tutorial-cn.md'
-      - 'Operaciones Lean': 'es/quality_and_operations/Lean-Operations-Tutorial-cn.md'
-      - 'Kaizen': 'es/quality_and_operations/Kaizen-Tutorial-cn.md'
-  - 'Producto, diseño e innovación':
-    - 'Investigación de usuarios':
-      - 'Persona de usuario': 'es/user_research/User-Persona-Tutorial-cn.md'
-      - 'Mapa del viaje del usuario': 'es/user_research/User-Journey-Map-Tutorial-cn.md'
-      - 'Mapa de empatía': 'es/user_research/Empathy-Map-Tutorial-cn.md'
-    - 'Ideación':
-      - 'Brainstorming': 'es/ideation/Brainstorming-Tutorial-cn.md'
-      - 'Seis sombreros para pensar': 'es/ideation/Six-Thinking-Hats-Tutorial-cn.md'
-      - 'Mapas mentales': 'es/ideation/Mind-Mapping-Tutorial-cn.md'
-    - 'Desarrollo de productos':
-      - 'Desarrollo ágil': 'es/product_development/Agile-Tutorial-cn.md'
-      - 'Scrum': 'es/product_development/Scrum-Tutorial-cn.md'
-      - 'Kanban': 'es/product_development/Kanban-Tutorial-cn.md'
-      - 'Design Thinking': 'es/product_development/Design-Thinking-Tutorial-cn.md'
-    - 'Pruebas y validación':
-      - 'Pruebas A/B': 'es/testing_and_validation/AB-Testing-Tutorial-cn.md'
-      - 'Pruebas de usabilidad': 'es/testing_and_validation/Usability-Testing-Tutorial-cn.md'
-      - 'MVP': 'es/testing_and_validation/MVP-Tutorial-cn.md'
-  - 'Pensamiento y resolución de problemas':
-    - 'Pensamiento lógico':
-      - 'Pensamiento de primeros principios': 'es/logical_thinking/First-Principles-Thinking-Tutorial-cn.md'
-      - 'Principio de la pirámide': 'es/logical_thinking/Pyramid-Principle-Tutorial-cn.md'
-    - 'Pensamiento sistémico':
-      - 'Dinámica de sistemas': 'es/systems_thinking/System-Dynamics-Tutorial-cn.md'
-      - 'Modelo del iceberg': 'es/systems_thinking/Iceberg-Model-Tutorial-cn.md'
-    - 'Análisis de causa raíz':
-      - '5 Porqués': 'es/root_cause_analysis/5-Whys-Tutorial-cn.md'
-      - 'Diagrama de espina de pescado': 'es/root_cause_analysis/Fishbone-Diagram-Tutorial-cn.md'
-  - 'Comunicación y colaboración':
-    - 'Eficacia de las reuniones':
-      - 'Conversación enfocada ORID': 'es/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-cn.md'
-    - 'Técnicas de retroalimentación':
-      - 'Modelo de retroalimentación SBI': 'es/feedback_techniques/SBI-Feedback-Model-Tutorial-cn.md'
-    - 'Colaboración en equipo':
-      - 'Matriz RACI': 'es/team_collaboration/RACI-Matrix-Tutorial-cn.md'
-  - 'Crecimiento personal y eficiencia':
-    - 'Gestión del tiempo':
-      - 'Técnica Pomodoro': 'es/time_management/Pomodoro-Technique-Tutorial-cn.md'
-      - 'Matriz de Eisenhower': 'es/time_management/Eisenhower-Matrix-Tutorial-cn.md'
-      - 'GTD': 'es/time_management/GTD-Tutorial-cn.md'
-    - 'Métodos de aprendizaje':
-      - 'Técnica Feynman': 'es/learning_methods/Feynman-Technique-Tutorial-cn.md'
-      - 'Toma de notas Cornell': 'es/learning_methods/Cornell-Note-Taking-Tutorial-cn.md'
-    - 'Formación de hábitos':
-      - 'Hábitos pequeños': 'es/habit_formation/Tiny-Habits-Tutorial-cn.md'
-      - 'El bucle del hábito': 'es/habit_formation/The-Habit-Loop-Tutorial-cn.md'
-  - 'ホーム': 'ja/index.md'
-  - '問題解決ツールボックス':
-    - '問題解決の概要': 'ja/problem_solving/Problem-Solving-cn.md'
-    - 'フィッシュボーン図': 'ja/problem_solving/Fishbone-Diagram-Tutorial-cn.md'
-    - '5つのなぜ': 'ja/problem_solving/Five-Whys-Tutorial-cn.md'
-    - 'ギャップ分析': 'ja/problem_solving/Gap-Analysis-Tutorial-cn.md'
-    - 'ゲンバウォーク': 'ja/problem_solving/Gemba-Walk-Tutorial-cn.md'
-    - 'ロジックツリー': 'ja/problem_solving/Logic-Tree-Tutorial-cn.md'
-    - 'ポーターの5つの力': 'ja/problem_solving/Porters-Five-Forces-Tutorial-cn.md'
-    - 'SWOT分析': 'ja/problem_solving/SWOT-Analysis-Tutorial-cn.md'
-    - '6つの思考の帽子': 'ja/problem_solving/Six-Thinking-Hats-Tutorial-cn.md'
-  - '探求と研究':
-    - '基本分野':
-      - '定量的研究': 'ja/basic_discipline/Quantitative-Research-Tutorial-cn.md'
-      - '定性的研究': 'ja/basic_discipline/Qualitative-Research-Tutorial-cn.md'
-      - '混合研究法': 'ja/basic_discipline/Mixed-Methods-Research-Tutorial-cn.md'
-    - '科学的探求のパラダイム':
-      - '実験的研究': 'ja/scientific_inquiry_paradigm/Experimental-Research-Tutorial-cn.md'
-      - '記述的研究': 'ja/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-cn.md'
-      - '相関研究': 'ja/scientific_inquiry_paradigm/Correlational-Research-Tutorial-cn.md'
-    - '時間次元のデザイン':
-      - '縦断的研究': 'ja/time_dimension_design/Longitudinal-Research-Tutorial-cn.md'
-      - '横断的研究': 'ja/time_dimension_design/Cross-Sectional-Research-Tutorial-cn.md'
-    - '専門的な定性的方法':
-      - 'エスノグラフィー': 'ja/specialized_qualitative_methods/Ethnography-Tutorial-cn.md'
-      - 'ケーススタディ': 'ja/specialized_qualitative_methods/Case-Study-Tutorial-cn.md'
-    - '理論と実践':
-      - 'グラウンデッド・セオリー': 'ja/theory_and_practice/Grounded-Theory-Tutorial-cn.md'
-      - 'アクションリサーチ': 'ja/theory_and_practice/Action-Research-Tutorial-cn.md'
-  - 'ビジネス戦略とマネジメント':
-    - '戦略分析':
-      - 'SWOT分析': 'ja/strategic_analysis/SWOT-Analysis-Tutorial-cn.md'
-      - 'PESTEL分析': 'ja/strategic_analysis/PESTEL-Analysis-Tutorial-cn.md'
-      - 'ポーターの5つの力': 'ja/strategic_analysis/Porters-Five-Forces-Tutorial-cn.md'
-      - 'バリューチェーン分析': 'ja/strategic_analysis/Value-Chain-Analysis-Tutorial-cn.md'
-    - '戦略実行':
-      - 'バランススコアカード': 'ja/strategic_execution/Balanced-Scorecard-Tutorial-cn.md'
-      - 'ブルーオーシャン戦略': 'ja/strategic_execution/Blue-Ocean-Strategy-Tutorial-cn.md'
-    - 'ビジネスモデル':
-      - 'ビジネスモデルキャンバス': 'ja/business_model/Business-Model-Canvas-Tutorial-cn.md'
-      - 'リーンキャンバス': 'ja/business_model/Lean-Canvas-Tutorial-cn.md'
-    - '意思決定':
-      - '意思決定マトリックス': 'ja/decision_making/Decision-Matrix-Tutorial-cn.md'
-      - '費用対効果分析': 'ja/decision_making/Cost-Benefit-Analysis-Tutorial-cn.md'
-      - 'パレート分析': 'ja/decision_making/Pareto-Analysis-Tutorial-cn.md'
-    - '目標管理':
-      - 'OKR': 'ja/goal_management/OKR-Tutorial-cn.md'
-      - 'SMART原則': 'ja/goal_management/SMART-Goals-Tutorial-cn.md'
-      - 'KPI': 'ja/goal_management/KPI-Tutorial-cn.md'
-    - '品質と運用':
-      - '総合的品質管理': 'ja/quality_and_operations/Total-Quality-Management-Tutorial-cn.md'
-      - 'シックスシグマ': 'ja/quality_and_operations/Six-Sigma-Tutorial-cn.md'
-      - 'リーンオペレーション': 'ja/quality_and_operations/Lean-Operations-Tutorial-cn.md'
-      - 'カイゼン': 'ja/quality_and_operations/Kaizen-Tutorial-cn.md'
-  - '製品、デザイン、イノベーション':
-    - 'ユーザーリサーチ':
-      - 'ユーザーペルソナ': 'ja/user_research/User-Persona-Tutorial-cn.md'
-      - 'ユーザージャーニーマップ': 'ja/user_research/User-Journey-Map-Tutorial-cn.md'
-      - '共感マップ': 'ja/user_research/Empathy-Map-Tutorial-cn.md'
-    - 'アイデア出し':
-      - 'ブレインストーミング': 'ja/ideation/Brainstorming-Tutorial-cn.md'
-      - '6つの思考の帽子': 'ja/ideation/Six-Thinking-Hats-Tutorial-cn.md'
-      - 'マインドマッピング': 'ja/ideation/Mind-Mapping-Tutorial-cn.md'
-    - '製品開発':
-      - 'アジャイル開発': 'ja/product_development/Agile-Tutorial-cn.md'
-      - 'スクラム': 'ja/product_development/Scrum-Tutorial-cn.md'
-      - 'カンバン': 'ja/product_development/Kanban-Tutorial-cn.md'
-      - 'デザイン思考': 'ja/product_development/Design-Thinking-Tutorial-cn.md'
-    - 'テストと検証':
-      - 'A/Bテスト': 'ja/testing_and_validation/AB-Testing-Tutorial-cn.md'
-      - 'ユーザビリティテスト': 'ja/testing_and_validation/Usability-Testing-Tutorial-cn.md'
-      - 'MVP': 'ja/testing_and_validation/MVP-Tutorial-cn.md'
-  - '思考と問題解決':
-    - '論理的思考':
-      - '第一原理思考': 'ja/logical_thinking/First-Principles-Thinking-Tutorial-cn.md'
-      - 'ピラミッド原則': 'ja/logical_thinking/Pyramid-Principle-Tutorial-cn.md'
-    - 'システム思考':
-      - 'システムダイナミクス': 'ja/systems_thinking/System-Dynamics-Tutorial-cn.md'
-      - '氷山モデル': 'ja/systems_thinking/Iceberg-Model-Tutorial-cn.md'
-    - '根本原因分析':
-      - '5つのなぜ': 'ja/root_cause_analysis/5-Whys-Tutorial-cn.md'
-      - 'フィッシュボーン図': 'ja/root_cause_analysis/Fishbone-Diagram-Tutorial-cn.md'
-  - 'コミュニケーションとコラボレーション':
-    - '会議の効率化':
-      - 'ORIDフォーカス会話法': 'ja/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-cn.md'
-    - 'フィードバック技術':
-      - 'SBIフィードバックモデル': 'ja/feedback_techniques/SBI-Feedback-Model-Tutorial-cn.md'
-    - 'チームコラボレーション':
-      - 'RACIマトリックス': 'ja/team_collaboration/RACI-Matrix-Tutorial-cn.md'
-  - '自己成長と効率':
-    - '時間管理':
-      - 'ポモドーロテクニック': 'ja/time_management/Pomodoro-Technique-Tutorial-cn.md'
-      - 'アイゼンハワーマトリックス': 'ja/time_management/Eisenhower-Matrix-Tutorial-cn.md'
-      - 'GTD': 'ja/time_management/GTD-Tutorial-cn.md'
-    - '学習方法':
-      - 'ファインマンテクニック': 'ja/learning_methods/Feynman-Technique-Tutorial-cn.md'
-      - 'コーネルノートテイキング': 'ja/learning_methods/Cornell-Note-Taking-Tutorial-cn.md'
-    - '習慣形成':
-      - '小さな習慣': 'ja/habit_formation/Tiny-Habits-Tutorial-cn.md'
-      - '習慣のループ': 'ja/habit_formation/The-Habit-Loop-Tutorial-cn.md'
-  - 'Trang chủ': 'vi/index.md'
-  - 'Hộp công cụ giải quyết vấn đề':
-    - 'Tổng quan giải quyết vấn đề': 'vi/problem_solving/Problem-Solving-cn.md'
-    - 'Sơ đồ xương cá': 'vi/problem_solving/Fishbone-Diagram-Tutorial-cn.md'
-    - 'Năm tại sao': 'vi/problem_solving/Five-Whys-Tutorial-cn.md'
-    - 'Phân tích khoảng cách': 'vi/problem_solving/Gap-Analysis-Tutorial-cn.md'
-    - 'Đi bộ Gemba': 'vi/problem_solving/Gemba-Walk-Tutorial-cn.md'
-    - 'Cây logic': 'vi/problem_solving/Logic-Tree-Tutorial-cn.md'
-    - 'Năm lực lượng của Porter': 'vi/problem_solving/Porters-Five-Forces-Tutorial-cn.md'
-    - 'Phân tích SWOT': 'vi/problem_solving/SWOT-Analysis-Tutorial-cn.md'
-    - 'Sáu chiếc mũ tư duy': 'vi/problem_solving/Six-Thinking-Hats-Tutorial-cn.md'
-  - 'Điều tra và nghiên cứu':
-    - 'Các ngành cơ bản':
-      - 'Nghiên cứu định lượng': 'vi/basic_discipline/Quantitative-Research-Tutorial-cn.md'
-      - 'Nghiên cứu định tính': 'vi/basic_discipline/Qualitative-Research-Tutorial-cn.md'
-      - 'Nghiên cứu phương pháp hỗn hợp': 'vi/basic_discipline/Mixed-Methods-Research-Tutorial-cn.md'
-    - 'Các mô hình điều tra khoa học':
-      - 'Nghiên cứu thực nghiệm': 'vi/scientific_inquiry_paradigm/Experimental-Research-Tutorial-cn.md'
-      - 'Nghiên cứu mô tả': 'vi/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-cn.md'
-      - 'Nghiên cứu tương quan': 'vi/scientific_inquiry_paradigm/Correlational-Research-Tutorial-cn.md'
-    - 'Thiết kế chiều thời gian':
-      - 'Nghiên cứu dọc': 'vi/time_dimension_design/Longitudinal-Research-Tutorial-cn.md'
-      - 'Nghiên cứu cắt ngang': 'vi/time_dimension_design/Cross-Sectional-Research-Tutorial-cn.md'
-    - 'Các phương pháp định tính chuyên biệt':
-      - 'Dân tộc học': 'vi/specialized_qualitative_methods/Ethnography-Tutorial-cn.md'
-      - 'Nghiên cứu tình huống': 'vi/specialized_qualitative_methods/Case-Study-Tutorial-cn.md'
-    - 'Lý thuyết và thực hành':
-      - 'Lý thuyết nền tảng': 'vi/theory_and_practice/Grounded-Theory-Tutorial-cn.md'
-      - 'Nghiên cứu hành động': 'vi/theory_and_practice/Action-Research-Tutorial-cn.md'
-  - 'Chiến lược và quản lý kinh doanh':
-    - 'Phân tích chiến lược':
-      - 'Phân tích SWOT': 'vi/strategic_analysis/SWOT-Analysis-Tutorial-cn.md'
-      - 'Phân tích PESTEL': 'vi/strategic_analysis/PESTEL-Analysis-Tutorial-cn.md'
-      - 'Năm lực lượng của Porter': 'vi/strategic_analysis/Porters-Five-Forces-Tutorial-cn.md'
-      - 'Phân tích chuỗi giá trị': 'vi/strategic_analysis/Value-Chain-Analysis-Tutorial-cn.md'
-    - 'Thực thi chiến lược':
-      - 'Thẻ điểm cân bằng': 'vi/strategic_execution/Balanced-Scorecard-Tutorial-cn.md'
-      - 'Chiến lược Đại dương xanh': 'vi/strategic_execution/Blue-Ocean-Strategy-Tutorial-cn.md'
-    - 'Mô hình kinh doanh':
-      - 'Canvas mô hình kinh doanh': 'vi/business_model/Business-Model-Canvas-Tutorial-cn.md'
-      - 'Canvas tinh gọn': 'vi/business_model/Lean-Canvas-Tutorial-cn.md'
-    - 'Ra quyết định':
-      - 'Ma trận quyết định': 'vi/decision_making/Decision-Matrix-Tutorial-cn.md'
-      - 'Phân tích chi phí-lợi ích': 'vi/decision_making/Cost-Benefit-Analysis-Tutorial-cn.md'
-      - 'Phân tích Pareto': 'vi/decision_making/Pareto-Analysis-Tutorial-cn.md'
-    - 'Quản lý mục tiêu':
-      - 'OKR': 'vi/goal_management/OKR-Tutorial-cn.md'
-      - 'Nguyên tắc SMART': 'vi/goal_management/SMART-Goals-Tutorial-cn.md'
-      - 'KPI': 'vi/goal_management/KPI-Tutorial-cn.md'
-    - 'Chất lượng và vận hành':
-      - 'Quản lý chất lượng toàn diện': 'vi/quality_and_operations/Total-Quality-Management-Tutorial-cn.md'
-      - 'Six Sigma': 'vi/quality_and_operations/Six-Sigma-Tutorial-cn.md'
-      - 'Vận hành tinh gọn': 'vi/quality_and_operations/Lean-Operations-Tutorial-cn.md'
-      - 'Kaizen': 'vi/quality_and_operations/Kaizen-Tutorial-cn.md'
-  - 'Sản phẩm, thiết kế và đổi mới':
-    - 'Nghiên cứu người dùng':
-      - 'Chân dung người dùng': 'vi/user_research/User-Persona-Tutorial-cn.md'
-      - 'Bản đồ hành trình người dùng': 'vi/user_research/User-Journey-Map-Tutorial-cn.md'
-      - 'Bản đồ đồng cảm': 'vi/user_research/Empathy-Map-Tutorial-cn.md'
-    - 'Tạo ý tưởng':
-      - 'Động não': 'vi/ideation/Brainstorming-Tutorial-cn.md'
-      - 'Sáu chiếc mũ tư duy': 'vi/ideation/Six-Thinking-Hats-Tutorial-cn.md'
-      - 'Sơ đồ tư duy': 'vi/ideation/Mind-Mapping-Tutorial-cn.md'
-    - 'Phát triển sản phẩm':
-      - 'Phát triển Agile': 'vi/product_development/Agile-Tutorial-cn.md'
-      - 'Scrum': 'vi/product_development/Scrum-Tutorial-cn.md'
-      - 'Kanban': 'vi/product_development/Kanban-Tutorial-cn.md'
-      - 'Tư duy thiết kế': 'vi/product_development/Design-Thinking-Tutorial-cn.md'
-    - 'Kiểm thử và xác thực':
-      - 'Kiểm thử A/B': 'vi/testing_and_validation/AB-Testing-Tutorial-cn.md'
-      - 'Kiểm thử khả năng sử dụng': 'vi/testing_and_validation/Usability-Testing-Tutorial-cn.md'
-      - 'MVP': 'vi/testing_and_validation/MVP-Tutorial-cn.md'
-  - 'Tư duy và giải quyết vấn đề':
-    - 'Tư duy logic':
-      - 'Tư duy nguyên tắc đầu tiên': 'vi/logical_thinking/First-Principles-Thinking-Tutorial-cn.md'
-      - 'Nguyên tắc kim tự tháp': 'vi/logical_thinking/Pyramid-Principle-Tutorial-cn.md'
-    - 'Tư duy hệ thống':
-      - 'Động lực học hệ thống': 'vi/systems_thinking/System-Dynamics-Tutorial-cn.md'
-      - 'Mô hình tảng băng trôi': 'vi/systems_thinking/Iceberg-Model-Tutorial-cn.md'
-    - 'Phân tích nguyên nhân gốc rễ':
-      - '5 Whys': 'vi/root_cause_analysis/5-Whys-Tutorial-cn.md'
-      - 'Sơ đồ xương cá': 'vi/root_cause_analysis/Fishbone-Diagram-Tutorial-cn.md'
-  - 'Giao tiếp và hợp tác':
-    - 'Hiệu quả cuộc họp':
-      - 'Phương pháp đối thoại tập trung ORID': 'vi/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-cn.md'
-    - 'Kỹ thuật phản hồi':
-      - 'Mô hình phản hồi SBI': 'vi/feedback_techniques/SBI-Feedback-Model-Tutorial-cn.md'
-    - 'Hợp tác nhóm':
-      - 'Ma trận trách nhiệm RACI': 'vi/team_collaboration/RACI-Matrix-Tutorial-cn.md'
-  - 'Phát triển cá nhân và hiệu quả':
-    - 'Quản lý thời gian':
-      - 'Kỹ thuật Pomodoro': 'vi/time_management/Pomodoro-Technique-Tutorial-cn.md'
-      - 'Ma trận Eisenhower': 'vi/time_management/Eisenhower-Matrix-Tutorial-cn.md'
-      - 'GTD': 'vi/time_management/GTD-Tutorial-cn.md'
-    - 'Phương pháp học tập':
-      - 'Kỹ thuật Feynman': 'vi/learning_methods/Feynman-Technique-Tutorial-cn.md'
-      - 'Phương pháp ghi chú Cornell': 'vi/learning_methods/Cornell-Note-Taking-Tutorial-cn.md'
-    - 'Hình thành thói quen':
-      - 'Thói quen nhỏ': 'vi/habit_formation/Tiny-Habits-Tutorial-cn.md'
-      - 'Vòng lặp thói quen': 'vi/habit_formation/The-Habit-Loop-Tutorial-cn.md'
+      - 'The Habit Loop': 'en/Personal & Team Productivity/habit_formation/The-Habit-Loop-Tutorial-en.md'
+      - 'Tiny Habits': 'en/Personal & Team Productivity/habit_formation/Tiny-Habits-Tutorial-en.md'
+    - 'Meeting Effectiveness':
+      - 'ORID Focused Conversation': 'en/Personal & Team Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-en.md'
+    - 'Team Collaboration':
+      - 'RACI Matrix': 'en/Personal & Team Productivity/team_collaboration/RACI-Matrix-Tutorial-en.md'
+    - 'Time Management':
+      - 'Eisenhower Matrix': 'en/Personal & Team Productivity/time_management/Eisenhower-Matrix-Tutorial-en.md'
+      - 'GTD': 'en/Personal & Team Productivity/time_management/GTD-Tutorial-en.md'
+      - 'Pomodoro Technique': 'en/Personal & Team Productivity/time_management/Pomodoro-Technique-Tutorial-en.md'
+
