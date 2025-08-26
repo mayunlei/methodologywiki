@@ -1,0 +1,1555 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Một cơ sở kiến thức dành riêng cho việc giới thiệu, giải thích và áp dụng có hệ thống các phương pháp mạnh mẽ khác nhau, giúp mọi người trên con đường đến thành công." name="description"/>
+<meta content="methodologywiki" name="author"/>
+<link href="https://methodologywiki.com/vi/Foundations/systems_thinking/System-Dynamics-Tutorial-vi/" rel="canonical"/>
+<link href="../Iceberg-Model-Tutorial-vi/" rel="prev"/>
+<link href="../../theory_and_practice/Action-Research-Tutorial-vi/" rel="next"/>
+<link href="../../../../favicon.ico" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.6.18" name="generator"/>
+<title>Động lực học hệ thống - Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công</title>
+<link href="../../../assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../../overrides/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-VQ6RTZVF1S"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-VQ6RTZVF1S",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-VQ6RTZVF1S",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+<script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#ong-luc-hoc-he-thong">
+          Bỏ qua
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Đầu trang" class="md-header__inner md-grid">
+<a aria-label="Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Động lực học hệ thống
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Chuyển sang chế độ tối" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Chuyển sang chế độ tối">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Chuyển sang chế độ sáng" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Chuyển sang chế độ sáng">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<div class="md-header__option">
+<div class="md-select">
+<button aria-label="Chọn ngôn ngữ" class="md-header__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+</button>
+<div class="md-select__inner">
+<ul class="md-select__list">
+<li class="md-select__item">
+<a class="md-select__link" href="/" hreflang="en">
+              English
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/zh/" hreflang="zh">
+              中文
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/es/" hreflang="es">
+              Español
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ja/" hreflang="ja">
+              日本語
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ko/" hreflang="ko">
+              한국어
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ru/" hreflang="ru">
+              Русский
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/fr/" hreflang="fr">
+              Français
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/de/" hreflang="de">
+              Deutsch
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/pt/" hreflang="pt">
+              Português
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/nl/" hreflang="nl">
+              Nederlands
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/vi/" hreflang="vi">
+              Tiếng Việt
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/sv/" hreflang="sv">
+              Svenska
+            </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Tìm kiếm" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Tìm kiếm" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Tìm kiếm" class="md-search__options">
+<button aria-label="Xoá" class="md-search__icon md-icon" tabindex="-1" title="Xoá" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="Xem mã nguồn">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
+        
+  
+  
+    
+  
+  Trang chủ
+
+      </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../../basic_discipline/Mixed-Methods-Research-Tutorial-vi/">
+          
+  
+  
+    
+  
+  Nền tảng
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-vi/">
+          
+  
+  
+    
+  
+  Chiến lược và kinh doanh
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-vi/">
+          
+  
+  
+    
+  
+  Giải quyết vấn đề và ra quyết định
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Product%20%26%20User/product_development/Agile-Tutorial-vi/">
+          
+  
+  
+    
+  
+  Sản phẩm và người dùng
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-vi/">
+          
+  
+  
+    
+  
+  Năng suất cá nhân và nhóm
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Thanh điều hướng" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="Xem mã nguồn">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+<span class="md-ellipsis">
+    Trang chủ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+<span class="md-ellipsis">
+    Nền tảng
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            Nền tảng
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
+<span class="md-ellipsis">
+    Các ngành cơ bản
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_1">
+<span class="md-nav__icon md-icon"></span>
+            Các ngành cơ bản
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../basic_discipline/Mixed-Methods-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu phương pháp hỗn hợp
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../basic_discipline/Qualitative-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu định tính
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../basic_discipline/Quantitative-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu định lượng
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+<span class="md-ellipsis">
+    Phương pháp học tập
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_2">
+<span class="md-nav__icon md-icon"></span>
+            Phương pháp học tập
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../learning_methods/Cornell-Note-Taking-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phương pháp ghi chú Cornell
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../learning_methods/Feynman-Technique-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kỹ thuật Feynman
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+<span class="md-ellipsis">
+    Tư duy logic
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+            Tư duy logic
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../logical_thinking/First-Principles-Thinking-Tutorial-vi/">
+<span class="md-ellipsis">
+    Tư duy nguyên lý đầu tiên
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../logical_thinking/Pyramid-Principle-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nguyên lý kim tự tháp
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+<span class="md-ellipsis">
+    Mô hình nghiên cứu khoa học
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+            Mô hình nghiên cứu khoa học
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../scientific_inquiry_paradigm/Correlational-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu tương quan
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../scientific_inquiry_paradigm/Descriptive-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu mô tả
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../scientific_inquiry_paradigm/Experimental-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu thực nghiệm
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="">
+<span class="md-ellipsis">
+    Tư duy hệ thống
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_2_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_5">
+<span class="md-nav__icon md-icon"></span>
+            Tư duy hệ thống
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Iceberg-Model-Tutorial-vi/">
+<span class="md-ellipsis">
+    Mô hình tảng băng trôi
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Động lực học hệ thống
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Động lực học hệ thống
+    
+  </span>
+</a>
+<nav aria-label="Mục lục" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cac-khai-niem-cot-loi-cua-ong-luc-hoc-he-thong">
+<span class="md-ellipsis">
+      Các Khái Niệm Cốt Lõi Của Động Lực Học Hệ Thống
+    </span>
+</a>
+<nav aria-label="Các Khái Niệm Cốt Lõi Của Động Lực Học Hệ Thống" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#so-o-co-ban-cua-mo-hinh-ong-luc-hoc-he-thong-so-o-vong-phan-hoi">
+<span class="md-ellipsis">
+      Sơ đồ cơ bản của mô hình Động lực học hệ thống (Sơ đồ vòng phản hồi)
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cach-tien-hanh-phan-tich-ong-luc-hoc-he-thong">
+<span class="md-ellipsis">
+      Cách Tiến Hành Phân Tích Động Lực Học Hệ Thống
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cac-truong-hop-ung-dung">
+<span class="md-ellipsis">
+      Các Trường Hợp Ứng Dụng
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#uu-iem-va-thach-thuc-cua-ong-luc-hoc-he-thong">
+<span class="md-ellipsis">
+      Ưu điểm và Thách thức của Động Lực Học Hệ Thống
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mo-rong-va-lien-ket">
+<span class="md-ellipsis">
+      Mở rộng và Liên kết
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="">
+<span class="md-ellipsis">
+    Lý thuyết và thực hành
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_6">
+<span class="md-nav__icon md-icon"></span>
+            Lý thuyết và thực hành
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../theory_and_practice/Action-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu hành động
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../theory_and_practice/Grounded-Theory-Tutorial-vi/">
+<span class="md-ellipsis">
+    Lý thuyết căn cứ
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Chiến lược và kinh doanh
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            Chiến lược và kinh doanh
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+<span class="md-ellipsis">
+    Mô hình kinh doanh
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_1">
+<span class="md-nav__icon md-icon"></span>
+            Mô hình kinh doanh
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-vi/">
+<span class="md-ellipsis">
+    Canvas mô hình kinh doanh
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-vi/">
+<span class="md-ellipsis">
+    Lean Canvas
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+<span class="md-ellipsis">
+    Chất lượng và vận hành
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_2">
+<span class="md-nav__icon md-icon"></span>
+            Chất lượng và vận hành
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Kaizen-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kaizen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Lean-Operations-Tutorial-vi/">
+<span class="md-ellipsis">
+    Vận hành tinh gọn
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Six-Sigma-Tutorial-vi/">
+<span class="md-ellipsis">
+    Six Sigma
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Total-Quality-Management-Tutorial-vi/">
+<span class="md-ellipsis">
+    Quản lý chất lượng toàn diện
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Phân tích chiến lược
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_3">
+<span class="md-nav__icon md-icon"></span>
+            Phân tích chiến lược
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/PESTEL-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích PESTEL
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Porters-Five-Forces-Tutorial-vi/">
+<span class="md-ellipsis">
+    Năm lực lượng Porter
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/SWOT-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích SWOT
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Value-Chain-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích chuỗi giá trị
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Thực thi chiến lược
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_4">
+<span class="md-nav__icon md-icon"></span>
+            Thực thi chiến lược
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Balanced-Scorecard-Tutorial-vi/">
+<span class="md-ellipsis">
+    Thẻ điểm cân bằng
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-vi/">
+<span class="md-ellipsis">
+    Chiến lược đại dương xanh
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Giải quyết vấn đề và ra quyết định
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Giải quyết vấn đề và ra quyết định
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+<span class="md-ellipsis">
+    Ra quyết định
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_1">
+<span class="md-nav__icon md-icon"></span>
+            Ra quyết định
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích chi phí-lợi ích
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-vi/">
+<span class="md-ellipsis">
+    Ma trận quyết định
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Pareto-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích Pareto
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+<span class="md-ellipsis">
+    Tạo ý tưởng
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_2">
+<span class="md-nav__icon md-icon"></span>
+            Tạo ý tưởng
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Brainstorming-Tutorial-vi/">
+<span class="md-ellipsis">
+    Động não
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Mind-Mapping-Tutorial-vi/">
+<span class="md-ellipsis">
+    Sơ đồ tư duy
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Six-Thinking-Hats-Tutorial-vi/">
+<span class="md-ellipsis">
+    Sáu chiếc mũ tư duy
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Giải quyết vấn đề
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_3">
+<span class="md-nav__icon md-icon"></span>
+            Giải quyết vấn đề
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Fishbone-Diagram-Tutorial-vi/">
+<span class="md-ellipsis">
+    Sơ đồ xương cá
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Five-Whys-Tutorial-vi/">
+<span class="md-ellipsis">
+    Năm tại sao
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Gap-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích khoảng cách
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Gemba-Walk-Tutorial-vi/">
+<span class="md-ellipsis">
+    Đi bộ Gemba
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Logic-Tree-Tutorial-vi/">
+<span class="md-ellipsis">
+    Cây logic
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Problem-Solving-vi/">
+<span class="md-ellipsis">
+    Giải quyết vấn đề
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Six-Thinking-Hats-Tutorial-vi/">
+<span class="md-ellipsis">
+    Sáu chiếc mũ tư duy
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Phân tích nguyên nhân gốc
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_4">
+<span class="md-nav__icon md-icon"></span>
+            Phân tích nguyên nhân gốc
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/5-Whys-Tutorial-vi/">
+<span class="md-ellipsis">
+    Năm tại sao
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/Fishbone-Diagram-Tutorial-vi/">
+<span class="md-ellipsis">
+    Sơ đồ xương cá
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<span class="md-ellipsis">
+    Sản phẩm và người dùng
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            Sản phẩm và người dùng
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+<span class="md-ellipsis">
+    Phát triển sản phẩm
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_1">
+<span class="md-nav__icon md-icon"></span>
+            Phát triển sản phẩm
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Agile-Tutorial-vi/">
+<span class="md-ellipsis">
+    Agile
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Design-Thinking-Tutorial-vi/">
+<span class="md-ellipsis">
+    Tư duy thiết kế
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Kanban-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kanban
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Scrum-Tutorial-vi/">
+<span class="md-ellipsis">
+    Scrum
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+<span class="md-ellipsis">
+    Phương pháp định tính chuyên biệt
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+            Phương pháp định tính chuyên biệt
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/specialized_qualitative_methods/Case-Study-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu tình huống
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/specialized_qualitative_methods/Ethnography-Tutorial-vi/">
+<span class="md-ellipsis">
+    Dân tộc học
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Kiểm thử và xác thực
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_3">
+<span class="md-nav__icon md-icon"></span>
+            Kiểm thử và xác thực
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/AB-Testing-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kiểm thử A/B
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/MVP-Tutorial-vi/">
+<span class="md-ellipsis">
+    MVP
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/Usability-Testing-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kiểm thử khả năng sử dụng
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Thiết kế chiều thời gian
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_4">
+<span class="md-nav__icon md-icon"></span>
+            Thiết kế chiều thời gian
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/time_dimension_design/Cross-Sectional-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu cắt ngang
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/time_dimension_design/Longitudinal-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu dọc
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+<span class="md-ellipsis">
+    Nghiên cứu người dùng
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_5">
+<span class="md-nav__icon md-icon"></span>
+            Nghiên cứu người dùng
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/Empathy-Map-Tutorial-vi/">
+<span class="md-ellipsis">
+    Bản đồ đồng cảm
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/User-Journey-Map-Tutorial-vi/">
+<span class="md-ellipsis">
+    Bản đồ hành trình người dùng
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/User-Persona-Tutorial-vi/">
+<span class="md-ellipsis">
+    Persona người dùng
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+<span class="md-ellipsis">
+    Năng suất cá nhân và nhóm
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            Năng suất cá nhân và nhóm
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+<span class="md-ellipsis">
+    Kỹ thuật phản hồi
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_1">
+<span class="md-nav__icon md-icon"></span>
+            Kỹ thuật phản hồi
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-vi/">
+<span class="md-ellipsis">
+    Mô hình phản hồi SBI
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+<span class="md-ellipsis">
+    Quản lý mục tiêu
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_2">
+<span class="md-nav__icon md-icon"></span>
+            Quản lý mục tiêu
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/KPI-Tutorial-vi/">
+<span class="md-ellipsis">
+    KPI
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/OKR-Tutorial-vi/">
+<span class="md-ellipsis">
+    OKR
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/SMART-Goals-Tutorial-vi/">
+<span class="md-ellipsis">
+    Mục tiêu SMART
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Hình thành thói quen
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_3">
+<span class="md-nav__icon md-icon"></span>
+            Hình thành thói quen
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/The-Habit-Loop-Tutorial-vi/">
+<span class="md-ellipsis">
+    Vòng lặp thói quen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/Tiny-Habits-Tutorial-vi/">
+<span class="md-ellipsis">
+    Thói quen nhỏ
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Hiệu quả cuộc họp
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_4">
+<span class="md-nav__icon md-icon"></span>
+            Hiệu quả cuộc họp
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-vi/">
+<span class="md-ellipsis">
+    Cuộc trò chuyện tập trung ORID
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+<span class="md-ellipsis">
+    Hợp tác nhóm
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_5">
+<span class="md-nav__icon md-icon"></span>
+            Hợp tác nhóm
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/team_collaboration/RACI-Matrix-Tutorial-vi/">
+<span class="md-ellipsis">
+    Ma trận RACI
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+<span class="md-ellipsis">
+    Quản lý thời gian
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_6">
+<span class="md-nav__icon md-icon"></span>
+            Quản lý thời gian
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Eisenhower-Matrix-Tutorial-vi/">
+<span class="md-ellipsis">
+    Ma trận Eisenhower
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/GTD-Tutorial-vi/">
+<span class="md-ellipsis">
+    GTD
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Pomodoro-Technique-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kỹ thuật Pomodoro
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="ong-luc-hoc-he-thong">Động Lực Học Hệ Thống<a class="headerlink" href="#ong-luc-hoc-he-thong" title="Permanent link">¶</a></h1>
+<p>Khi đối mặt với những vấn đề phức tạp, chúng ta thường phân tích chúng bằng cách suy nghĩ theo kiểu chuỗi nguyên nhân - kết quả tuyến tính: A dẫn đến B, B dẫn đến C. Tuy nhiên, trong các hệ thống kinh doanh, xã hội và sinh thái thực tế, mối quan hệ giữa các yếu tố phức tạp hơn nhiều. Một thay đổi nhỏ có thể, sau một loạt độ trễ và khuếch đại, tạo ra một hiệu ứng "bướm đập cánh" bất ngờ ở đầu kia của hệ thống. <strong>Động lực học hệ thống</strong> là một lĩnh vực liên ngành và phương pháp mô hình hóa được thiết kế để hiểu và phân tích <strong>hành vi động của các hệ thống phức tạp</strong> như vậy.</p>
+<p>Nó được giáo sư Jay W. Forrester của MIT sáng lập vào những năm 1950. Ý tưởng cốt lõi của nó là các mô hình hành vi của hệ thống chủ yếu được xác định bởi các <strong>vòng phản hồi</strong>, <strong>độ trễ thời gian</strong>, và <strong>mối quan hệ phi tuyến</strong> bên trong hệ thống, chứ không phải bởi các sự kiện bên ngoài. Động lực học hệ thống xây dựng các mô hình mô phỏng máy tính để mô phỏng và thí nghiệm với các tương tác phức tạp này, giúp chúng ta hiểu tại sao các hệ thống lại thể hiện những hành vi cụ thể nhất định (như tăng trưởng theo cấp số nhân, dao động, suy sụp) và tìm ra các điểm "ảnh hưởng cao" mà qua đó có thể can thiệp hiệu quả vào hệ thống để đạt được kết quả mong muốn.</p>
+<h2 id="cac-khai-niem-cot-loi-cua-ong-luc-hoc-he-thong">Các Khái Niệm Cốt Lõi Của Động Lực Học Hệ Thống<a class="headerlink" href="#cac-khai-niem-cot-loi-cua-ong-luc-hoc-he-thong" title="Permanent link">¶</a></h2>
+<p>Để hiểu được Động lực học hệ thống, ta cần nắm bắt được "ngôn ngữ" độc đáo của nó — một tập hợp các khái niệm cốt lõi được dùng để mô tả cấu trúc hệ thống.</p>
+<ul>
+<li>
+<p><strong>Mức tồn kho (Stock) và Dòng chảy (Flow)</strong>:</p>
+<ul>
+<li><strong>Stock</strong>: Đại diện cho một biến tích lũy trong hệ thống mà ta có thể đo được tại bất kỳ thời điểm nào. Nó giống như "nước" trong bồn tắm. Ví dụ, dân số của một công ty, tiền trong tài khoản ngân hàng, hoặc nồng độ carbon dioxide trong khí quyển.</li>
+<li><strong>Flow</strong>: Đại diện cho "tốc độ" mà mức tồn kho thay đổi theo thời gian. Nó giống như "dòng nước" chảy vào hoặc ra khỏi bồn tắm. Ví dụ, tỷ lệ tuyển dụng và nghỉ việc hàng tháng, thu nhập lãi suất hàng năm, hoặc lượng khí thải carbon hàng năm.</li>
+</ul>
+</li>
+<li>
+<p><strong>Vòng phản hồi (Feedback Loops)</strong>: Đây là linh hồn của Động lực học hệ thống, là động cơ cốt lõi khiến hệ thống thể hiện hành vi động. Vòng phản hồi được chia thành hai loại:</p>
+<ul>
+<li><strong>Vòng khuếch đại (Reinforcing Loop)</strong>: Còn được gọi là "vòng phản hồi dương". Nó sẽ tự khuếch đại liên tục, dẫn đến sự tăng trưởng hoặc suy giảm theo cấp số nhân trong hệ thống. Nó giống như hiệu ứng "quả cầu tuyết". Ví dụ, tăng trưởng dân số (dân số càng nhiều, sinh đẻ càng nhiều, tốc độ tăng trưởng càng nhanh), hoặc tiếp thị lan truyền.</li>
+<li><strong>Vòng cân bằng (Balancing Loop)</strong>: Còn được gọi là "vòng phản hồi âm". Nó cố gắng duy trì trạng thái hệ thống quanh một mức mục tiêu, đóng vai trò ổn định và điều chỉnh. Nó giống như một "nhiệt kế tự động". Ví dụ, cơ chế điều chỉnh nhiệt độ cơ thể người, sự cân bằng cung cầu trên thị trường, hoặc điều chỉnh tiến độ trong quản lý dự án.</li>
+</ul>
+</li>
+<li>
+<p><strong>Độ trễ thời gian (Time Delays)</strong>: Việc truyền tải hiệu ứng trong các mối quan hệ nhân quả bên trong hệ thống thường không tức thời, mà có độ trễ. Ví dụ, quyết định hôm nay của một công ty tăng đầu tư nghiên cứu và phát triển có thể phải mất vài năm mới thấy sản phẩm mới được tung ra thị trường và tạo ra lợi nhuận. Độ trễ thời gian là một lý do quan trọng khiến hệ thống dao động và khó hiểu theo trực giác.</p>
+</li>
+</ul>
+<h3 id="so-o-co-ban-cua-mo-hinh-ong-luc-hoc-he-thong-so-o-vong-phan-hoi">Sơ đồ cơ bản của mô hình Động lực học hệ thống (Sơ đồ vòng phản hồi)<a class="headerlink" href="#so-o-co-ban-cua-mo-hinh-ong-luc-hoc-he-thong-so-o-vong-phan-hoi" title="Permanent link">¶</a></h3>
+<pre class="mermaid"><code>graph TD
+    subgraph ReinforcingLoop Bank Deposit
+        A(Bank Deposit) -- Interest Rate --&gt; B(Interest Income);
+        B -- + --&gt; A;
+        note right of B: More deposits, more interest income;&lt;br/&gt;More interest income, faster deposit growth.&lt;br/&gt;This is an exponential growth like a "snowball."
+    end
+
+    subgraph BalancingLoop Coffee for Alertness
+        C(Fatigue Level) -- + --&gt; D(Coffee Consumption);
+        D -- - --&gt; C;
+        note right of D: Higher fatigue, more coffee consumed;&lt;br/&gt;More coffee consumed, lower fatigue level.&lt;br/&gt;This is a regulating process that tries to&lt;br/&gt;reduce fatigue level to a target level. 
+    end</code></pre>
+<h2 id="cach-tien-hanh-phan-tich-ong-luc-hoc-he-thong">Cách Tiến Hành Phân Tích Động Lực Học Hệ Thống<a class="headerlink" href="#cach-tien-hanh-phan-tich-ong-luc-hoc-he-thong" title="Permanent link">¶</a></h2>
+<ol>
+<li>
+<p><strong>Bước 1: Xác định vấn đề và ranh giới hệ thống</strong>
+    Rõ ràng xác định vấn đề động lực học bạn muốn hiểu và giải quyết (ví dụ: "Tại sao tỷ lệ nghỉ việc của nhân viên công ty chúng ta dao động liên tục trong ba năm qua?"), và xác định ranh giới hệ thống liên quan đến vấn đề, tức là những yếu tố cốt lõi nào nằm trong hệ thống và yếu tố nào thuộc môi trường bên ngoài.</p>
+</li>
+<li>
+<p><strong>Bước 2: Xây dựng giả thuyết động lực học (Vẽ sơ đồ vòng phản hồi)</strong>
+    Cùng với các bên liên quan, cùng nhau xác định các biến số chính ảnh hưởng đến vấn đề, và sử dụng <strong>Sơ đồ vòng phản hồi (Causal Loop Diagram - CLD)</strong> để mô tả các mối quan hệ nhân quả và vòng phản hồi giữa chúng. Đây là một quá trình mô hình hóa định tính nhằm nắm bắt cấu trúc cốt lõi và giả thuyết động lực học của hệ thống.</p>
+</li>
+<li>
+<p><strong>Bước 3: Xây dựng mô hình mô phỏng định lượng</strong>
+    Chuyển đổi sơ đồ vòng phản hồi định tính thành một mô hình <strong>Sơ đồ mức tồn kho và dòng chảy (Stock and Flow Diagram)</strong> định lượng có thể chạy trên phần mềm máy tính (chẳng hạn như Vensim, Stella). Bạn cần thiết lập các công thức toán học cụ thể và các tham số cho từng biến số và mối quan hệ trong mô hình.</p>
+</li>
+<li>
+<p><strong>Bước 4: Kiểm tra và xác thực mô hình</strong>
+    So sánh với dữ liệu lịch sử thực tế, kiểm tra xem mô hình của bạn có thể "tái tạo" chính xác các mô hình hành vi quá khứ của hệ thống hay không. Nếu không, bạn cần quay lại và sửa đổi cấu trúc và giả định của mô hình. Chỉ có một mô hình đã được xác thực mới có thể được sử dụng cho phân tích chính sách tiếp theo.</p>
+</li>
+<li>
+<p><strong>Bước 5: Tiến hành thí nghiệm chính sách "Nếu... thì..." và phân tích kịch bản</strong>
+    Đây là bước hấp dẫn nhất trong Động lực học hệ thống. Bạn có thể sử dụng mô hình đã xác thực để tiến hành nhiều "thí nghiệm trên máy tính". Ví dụ, "Nếu mức lương của công ty chúng ta tăng 10%, tác động dài hạn đến tỷ lệ nghỉ việc sẽ như thế nào?" "Nếu nhu cầu thị trường đột ngột giảm 50%, hệ thống chuỗi cung ứng của chúng ta có thể ứng phó được không?" Qua các thí nghiệm này, bạn có thể kiểm tra hiệu quả của các chính sách khác nhau và tìm ra các "điểm ảnh hưởng cao" có thể cải thiện hành vi hệ thống một cách căn bản.</p>
+</li>
+</ol>
+<h2 id="cac-truong-hop-ung-dung">Các Trường Hợp Ứng Dụng<a class="headerlink" href="#cac-truong-hop-ung-dung" title="Permanent link">¶</a></h2>
+<p><strong>Trường hợp 1: "Giới hạn của Tăng trưởng"</strong></p>
+<ul>
+<li><strong>Tình huống</strong>: Đây là một trong những ứng dụng nổi tiếng nhất của Động lực học hệ thống. Vào những năm 1970, Câu lạc bộ Rome đã ủy quyền cho nhóm của Jay Forrester xây dựng một "Mô hình Thế giới 3 (World3 model)" về các tương tác giữa dân số toàn cầu, sản lượng công nghiệp, tiêu thụ tài nguyên, ô nhiễm và sản xuất lương thực.</li>
+<li><strong>Ứng dụng</strong>: Mô hình cho thấy rằng, trên một Trái đất hữu hạn, cấu trúc vòng phản hồi nội tại của việc theo đuổi tăng trưởng theo cấp số nhân không giới hạn sẽ chắc chắn dẫn đến hiện tượng "tăng trưởng vượt quá giới hạn và suy sụp" của hệ thống toàn cầu tại một thời điểm nào đó trong thế kỷ 21. Nghiên cứu này đã có ảnh hưởng sâu sắc đến tư duy bảo vệ môi trường và phát triển bền vững toàn cầu.</li>
+</ul>
+<p><strong>Trường hợp 2: "Hiệu ứng roi da (Bullwhip Effect)" trong quản lý chuỗi cung ứng</strong></p>
+<ul>
+<li><strong>Vấn đề</strong>: Trong một chuỗi cung ứng từ nhà bán lẻ đến nhà sản xuất, tại sao những biến động nhỏ trong nhu cầu của khách hàng thường bị khuếch đại khi đi ngược lên chuỗi, cuối cùng dẫn đến dao động dữ dội trong kế hoạch sản xuất của nhà sản xuất?</li>
+<li><strong>Phân tích Động lực học hệ thống</strong>: Bằng cách xây dựng một mô hình Động lực học hệ thống cho chuỗi cung ứng, các nhà nghiên cứu phát hiện ra rằng nguyên nhân gốc rễ của "hiệu ứng roi da" nằm ở <strong>độ trễ thời gian</strong> (độ trễ xử lý đơn hàng, độ trễ vận chuyển) và <strong>cấu trúc phản hồi</strong> (mỗi mắt xích đặt hàng lên mắt xích phía trên dựa trên dự báo nhu cầu từ mắt xích phía dưới và khuếch đại số lượng đặt hàng để đề phòng). Mô hình rõ ràng cho thấy giải pháp không phải là khiến mỗi mắt xích cố gắng dự báo tốt hơn, mà là <strong>rút ngắn độ trễ thông tin</strong> (ví dụ, chia sẻ thông tin xuyên suốt chuỗi) và <strong>thay đổi cấu trúc phản hồi</strong>.</li>
+</ul>
+<p><strong>Trường hợp 3: Quy hoạch phát triển đô thị</strong></p>
+<ul>
+<li><strong>Vấn đề</strong>: Một thành phố quyết định xây thêm đường để giải quyết tình trạng ùn tắc giao thông.</li>
+<li><strong>Phân tích Động lực học hệ thống</strong>: Một suy nghĩ tuyến tính đơn giản sẽ cho rằng "đường nhiều hơn nghĩa là ít ùn tắc hơn". Nhưng một mô hình Động lực học hệ thống có thể tiết lộ một vòng cân bằng "chữa triệu chứng chứ không chữa căn nguyên": đường nhiều hơn khiến việc sống ở vùng ngoại ô trở nên hấp dẫn hơn, do đó thu hút thêm người chuyển đến và mua xe hơi. Sau một thời gian ngắn giảm ùn tắc, số lượng xe tăng lên sẽ nhanh chóng lấp đầy toàn bộ năng lực đường sá được mở rộng, khiến tình trạng ùn tắc quay trở lại hoặc thậm chí tồi tệ hơn mức ban đầu sau vài năm. Nhận thức này có thể khiến các nhà quy hoạch đô thị chuyển trọng tâm chính sách từ "xây đường" sang các giải pháp có ảnh hưởng cao hơn như "phát triển giao thông công cộng".</li>
+</ul>
+<h2 id="uu-iem-va-thach-thuc-cua-ong-luc-hoc-he-thong">Ưu điểm và Thách thức của Động Lực Học Hệ Thống<a class="headerlink" href="#uu-iem-va-thach-thuc-cua-ong-luc-hoc-he-thong" title="Permanent link">¶</a></h2>
+<p><strong>Ưu điểm cốt lõi</strong></p>
+<ul>
+<li><strong>Nhìn thấu độ phức tạp động</strong>: Có thể tiết lộ sâu sắc các hành vi hệ thống phản trực giác được thúc đẩy bởi phản hồi, độ trễ và mối quan hệ phi tuyến.</li>
+<li><strong>"Máy mô phỏng bay" mạnh mẽ</strong>: Cung cấp một phòng thí nghiệm ảo an toàn, chi phí thấp nơi các nhà ra quyết định có thể lặp lại thí nghiệm và học hỏi về hậu quả hệ thống dài hạn của các chính sách khác nhau trước khi hành động thực tế.</li>
+<li><strong>Khuyến khích tư duy hệ thống</strong>: Quá trình xây dựng mô hình bản thân nó đã là một công cụ mạnh mẽ buộc các nhóm phải phá vỡ các ngăn cách giữa các bộ phận, xây dựng cái nhìn toàn diện và cùng nhau hiểu cấu trúc hệ thống.</li>
+</ul>
+<p><strong>Thách thức tiềm ẩn</strong></p>
+<ul>
+<li><strong>Ngưỡng kỹ thuật cao, tốn nhiều thời gian và công sức</strong>: Việc xây dựng một mô hình mô phỏng định lượng nghiêm ngặt và đáng tin cậy đòi hỏi kiến thức mô hình hóa chuyên môn, một lượng lớn dữ liệu và thời gian dài.</li>
+<li><strong>Rủi ro của "sai lầm chính xác"</strong>: Kết quả của mô hình phụ thuộc rất nhiều vào các giả định cấu trúc và thiết lập tham số nền tảng. Nếu các giả định cơ bản của mô hình sai, nó sẽ chỉ tạo ra một kết luận sai lầm nhưng "dường như chính xác".</li>
+<li><strong>Khó khăn trong việc thu thập dữ liệu</strong>: Việc tìm kiếm dữ liệu định lượng chính xác cho tất cả các biến trong mô hình thường rất khó khăn trong thực tế.</li>
+</ul>
+<h2 id="mo-rong-va-lien-ket">Mở rộng và Liên kết<a class="headerlink" href="#mo-rong-va-lien-ket" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Tư duy hệ thống (Systems Thinking)</strong>: Động lực học hệ thống là phương pháp định lượng và cốt lõi nhất để thực hành và áp dụng tư duy hệ thống. Các công cụ như sơ đồ vòng phản hồi là điểm khởi đầu tuyệt vời để phát triển kỹ năng tư duy hệ thống.</li>
+<li><strong>Mô hình Tảng Băng (Iceberg Model)</strong>: Một khuôn khổ cơ bản cho tư duy hệ thống. Động lực học hệ thống, thông qua các mô hình của nó, nhằm tiết lộ cách "cấu trúc" ở tầng dưới của tảng băng tạo ra các "mô hình" và "sự kiện" ở tầng trên.</li>
+<li><strong>Lập kế hoạch kịch bản (Scenario Planning)</strong>: Các mô hình Động lực học hệ thống có thể hỗ trợ mạnh mẽ lập kế hoạch kịch bản bằng cách mô phỏng các thay đổi môi trường bên ngoài khác nhau (ví dụ, giá năng lượng, thay đổi chính sách) để giúp các tổ chức xây dựng các chiến lược linh hoạt hơn.</li>
+</ul>
+<hr/>
+<p><em>Tham khảo nguồn: "Industrial Dynamics" (1961) và "Urban Dynamics" (1969) của Jay W. Forrester là những tác phẩm tiên phong trong lĩnh vực này. Học trò của ông là Peter Senge, trong cuốn sách phổ biến "The Fifth Discipline: The Art and Practice of the Learning Organization", đã giới thiệu các ý tưởng cốt lõi của Động lực học hệ thống đến một lượng lớn các nhà quản lý theo cách dễ tiếp cận hơn, tạo ra ảnh hưởng sâu rộng.</em></p>
+</article>
+</div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Trở lại mục lục
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u0110\u00e3 sao ch\u00e9p", "clipboard.copy": "Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m", "search.result.more.one": "1 t\u1eeb kh\u00e1c trong trang", "search.result.more.other": "# t\u1eeb kh\u00e1c trong trang", "search.result.none": "Kh\u00f4ng t\u00ecm th\u1ea5y t\u00e0i li\u1ec7u li\u00ean quan", "search.result.one": "1 t\u00e0i li\u1ec7u li\u00ean quan", "search.result.other": "# t\u00e0i li\u1ec7u li\u00ean quan", "search.result.placeholder": "Nh\u1eadp \u0111\u1ec3 b\u1eaft \u0111\u1ea7u t\u00ecm ki\u1ebfm", "search.result.term.missing": "Kh\u00f4ng", "select.version": "Ch\u1ecdn phi\u00ean b\u1ea3n"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+</body>
+</html>

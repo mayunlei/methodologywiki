@@ -1,0 +1,1555 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="강력한 방법론들을 체계적으로 소개하고, 설명하며, 적용하는 데 전념하는 지식 베이스로, 사람들이 성공으로 가는 길을 돕습니다." name="description"/>
+<meta content="methodologywiki" name="author"/>
+<link href="https://methodologywiki.com/ko/Product%20%26%20User/specialized_qualitative_methods/Ethnography-Tutorial-ko/" rel="canonical"/>
+<link href="../Case-Study-Tutorial-ko/" rel="prev"/>
+<link href="../../testing_and_validation/AB-Testing-Tutorial-ko/" rel="next"/>
+<link href="../../../../favicon.ico" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.6.18" name="generator"/>
+<title>민족지학 - 방법론의 지혜 위키 : 성공으로 가는 길</title>
+<link href="../../../assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../../overrides/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-VQ6RTZVF1S"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-VQ6RTZVF1S",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-VQ6RTZVF1S",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+<script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#ethnography">
+          콘텐츠로 이동
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="상단/헤더" class="md-header__inner md-grid">
+<a aria-label="방법론의 지혜 위키 : 성공으로 가는 길" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="방법론의 지혜 위키 : 성공으로 가는 길">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            방법론의 지혜 위키 : 성공으로 가는 길
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              민족지학
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="다크 모드로 전환" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="다크 모드로 전환">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="라이트 모드로 전환" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="라이트 모드로 전환">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<div class="md-header__option">
+<div class="md-select">
+<button aria-label="언어설정" class="md-header__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+</button>
+<div class="md-select__inner">
+<ul class="md-select__list">
+<li class="md-select__item">
+<a class="md-select__link" href="/" hreflang="en">
+              English
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/zh/" hreflang="zh">
+              中文
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/es/" hreflang="es">
+              Español
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ja/" hreflang="ja">
+              日本語
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ko/" hreflang="ko">
+              한국어
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ru/" hreflang="ru">
+              Русский
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/fr/" hreflang="fr">
+              Français
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/de/" hreflang="de">
+              Deutsch
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/pt/" hreflang="pt">
+              Português
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/nl/" hreflang="nl">
+              Nederlands
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/vi/" hreflang="vi">
+              Tiếng Việt
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/sv/" hreflang="sv">
+              Svenska
+            </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="검색" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="검색" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="검색" class="md-search__options">
+<button aria-label="지우기" class="md-search__icon md-icon" tabindex="-1" title="지우기" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            검색 초기화
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="저장소로 이동">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="탭" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
+        
+  
+  
+    
+  
+  홈
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-ko/">
+          
+  
+  
+    
+  
+  기초
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-ko/">
+          
+  
+  
+    
+  
+  전략과 비즈니스
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-ko/">
+          
+  
+  
+    
+  
+  문제 해결과 의사 결정
+
+        </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../../product_development/Agile-Tutorial-ko/">
+          
+  
+  
+    
+  
+  제품과 사용자
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-ko/">
+          
+  
+  
+    
+  
+  개인 및 팀 생산성
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="네비게이션" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="방법론의 지혜 위키 : 성공으로 가는 길" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="방법론의 지혜 위키 : 성공으로 가는 길">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    방법론의 지혜 위키 : 성공으로 가는 길
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="저장소로 이동">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+<span class="md-ellipsis">
+    홈
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<span class="md-ellipsis">
+    기초
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            기초
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+<span class="md-ellipsis">
+    기초 학문
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_1">
+<span class="md-nav__icon md-icon"></span>
+            기초 학문
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-ko/">
+<span class="md-ellipsis">
+    혼합 방법 연구
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/basic_discipline/Qualitative-Research-Tutorial-ko/">
+<span class="md-ellipsis">
+    질적 연구
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/basic_discipline/Quantitative-Research-Tutorial-ko/">
+<span class="md-ellipsis">
+    양적 연구
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+<span class="md-ellipsis">
+    학습 방법
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_2">
+<span class="md-nav__icon md-icon"></span>
+            학습 방법
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/learning_methods/Cornell-Note-Taking-Tutorial-ko/">
+<span class="md-ellipsis">
+    코넬 노트 필기법
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-ko/">
+<span class="md-ellipsis">
+    파인만 기법
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+<span class="md-ellipsis">
+    논리적 사고
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+            논리적 사고
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/logical_thinking/First-Principles-Thinking-Tutorial-ko/">
+<span class="md-ellipsis">
+    제1원리 사고
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/logical_thinking/Pyramid-Principle-Tutorial-ko/">
+<span class="md-ellipsis">
+    피라미드 원리
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+<span class="md-ellipsis">
+    과학적 탐구 패러다임
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+            과학적 탐구 패러다임
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-ko/">
+<span class="md-ellipsis">
+    상관 연구
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-ko/">
+<span class="md-ellipsis">
+    기술적 연구
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-ko/">
+<span class="md-ellipsis">
+    실험 연구
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+<span class="md-ellipsis">
+    시스템 사고
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_5">
+<span class="md-nav__icon md-icon"></span>
+            시스템 사고
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/systems_thinking/Iceberg-Model-Tutorial-ko/">
+<span class="md-ellipsis">
+    빙산 모델
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/systems_thinking/System-Dynamics-Tutorial-ko/">
+<span class="md-ellipsis">
+    시스템 다이내믹스
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+<span class="md-ellipsis">
+    이론과 실천
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_6">
+<span class="md-nav__icon md-icon"></span>
+            이론과 실천
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/theory_and_practice/Action-Research-Tutorial-ko/">
+<span class="md-ellipsis">
+    액션 리서치
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/theory_and_practice/Grounded-Theory-Tutorial-ko/">
+<span class="md-ellipsis">
+    근거 이론
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-ellipsis">
+    전략과 비즈니스
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            전략과 비즈니스
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+<span class="md-ellipsis">
+    비즈니스 모델
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_1">
+<span class="md-nav__icon md-icon"></span>
+            비즈니스 모델
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-ko/">
+<span class="md-ellipsis">
+    비즈니스 모델 캔버스
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-ko/">
+<span class="md-ellipsis">
+    린 캔버스
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+<span class="md-ellipsis">
+    품질과 운영
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_2">
+<span class="md-nav__icon md-icon"></span>
+            품질과 운영
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Kaizen-Tutorial-ko/">
+<span class="md-ellipsis">
+    카이젠
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Lean-Operations-Tutorial-ko/">
+<span class="md-ellipsis">
+    린 운영
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Six-Sigma-Tutorial-ko/">
+<span class="md-ellipsis">
+    식스 시그마
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Total-Quality-Management-Tutorial-ko/">
+<span class="md-ellipsis">
+    전사적 품질 관리
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+<span class="md-ellipsis">
+    전략 분석
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_3">
+<span class="md-nav__icon md-icon"></span>
+            전략 분석
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/PESTEL-Analysis-Tutorial-ko/">
+<span class="md-ellipsis">
+    PESTEL 분석
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Porters-Five-Forces-Tutorial-ko/">
+<span class="md-ellipsis">
+    포터의 5가지 힘
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/SWOT-Analysis-Tutorial-ko/">
+<span class="md-ellipsis">
+    SWOT 분석
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Value-Chain-Analysis-Tutorial-ko/">
+<span class="md-ellipsis">
+    가치 사슬 분석
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+<span class="md-ellipsis">
+    전략 실행
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_4">
+<span class="md-nav__icon md-icon"></span>
+            전략 실행
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Balanced-Scorecard-Tutorial-ko/">
+<span class="md-ellipsis">
+    균형 성과표
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-ko/">
+<span class="md-ellipsis">
+    블루오션 전략
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    문제 해결과 의사 결정
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            문제 해결과 의사 결정
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+<span class="md-ellipsis">
+    의사 결정
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_1">
+<span class="md-nav__icon md-icon"></span>
+            의사 결정
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-ko/">
+<span class="md-ellipsis">
+    비용 편익 분석
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-ko/">
+<span class="md-ellipsis">
+    의사 결정 매트릭스
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Pareto-Analysis-Tutorial-ko/">
+<span class="md-ellipsis">
+    파레토 분석
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+<span class="md-ellipsis">
+    아이디어 생성
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_2">
+<span class="md-nav__icon md-icon"></span>
+            아이디어 생성
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Brainstorming-Tutorial-ko/">
+<span class="md-ellipsis">
+    브레인스토밍
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Mind-Mapping-Tutorial-ko/">
+<span class="md-ellipsis">
+    마인드 맵
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Six-Thinking-Hats-Tutorial-ko/">
+<span class="md-ellipsis">
+    6가지 사고 모자
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+<span class="md-ellipsis">
+    문제 해결
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_3">
+<span class="md-nav__icon md-icon"></span>
+            문제 해결
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Fishbone-Diagram-Tutorial-ko/">
+<span class="md-ellipsis">
+    어골도
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Five-Whys-Tutorial-ko/">
+<span class="md-ellipsis">
+    5가지 왜
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Gap-Analysis-Tutorial-ko/">
+<span class="md-ellipsis">
+    갭 분석
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Gemba-Walk-Tutorial-ko/">
+<span class="md-ellipsis">
+    겐바 워크
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Logic-Tree-Tutorial-ko/">
+<span class="md-ellipsis">
+    로직 트리
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Problem-Solving-ko/">
+<span class="md-ellipsis">
+    문제 해결
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Six-Thinking-Hats-Tutorial-ko/">
+<span class="md-ellipsis">
+    6가지 사고 모자
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+<span class="md-ellipsis">
+    근본 원인 분석
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_4">
+<span class="md-nav__icon md-icon"></span>
+            근본 원인 분석
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/5-Whys-Tutorial-ko/">
+<span class="md-ellipsis">
+    5가지 왜
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/Fishbone-Diagram-Tutorial-ko/">
+<span class="md-ellipsis">
+    어골도
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+<span class="md-ellipsis">
+    제품과 사용자
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            제품과 사용자
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="">
+<span class="md-ellipsis">
+    제품 개발
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_1">
+<span class="md-nav__icon md-icon"></span>
+            제품 개발
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../product_development/Agile-Tutorial-ko/">
+<span class="md-ellipsis">
+    애자일
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../product_development/Design-Thinking-Tutorial-ko/">
+<span class="md-ellipsis">
+    디자인 씽킹
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../product_development/Kanban-Tutorial-ko/">
+<span class="md-ellipsis">
+    칸반
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../product_development/Scrum-Tutorial-ko/">
+<span class="md-ellipsis">
+    스크럼
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="">
+<span class="md-ellipsis">
+    전문 질적 방법
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_5_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+            전문 질적 방법
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Case-Study-Tutorial-ko/">
+<span class="md-ellipsis">
+    사례 연구
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    민족지학
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    민족지학
+    
+  </span>
+</a>
+<nav aria-label="목차" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+<span class="md-ellipsis">
+      민속지학의 핵심 개념과 특징
+    </span>
+</a>
+<nav aria-label="민속지학의 핵심 개념과 특징" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+<span class="md-ellipsis">
+      민속지 연구 과정
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+<span class="md-ellipsis">
+      민속지 연구 수행 방법
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+<span class="md-ellipsis">
+      적용 사례
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_5">
+<span class="md-ellipsis">
+      민속지학의 장점과 도전 과제
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_6">
+<span class="md-ellipsis">
+      확장 및 연계 분야
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="">
+<span class="md-ellipsis">
+    테스트와 검증
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_3">
+<span class="md-nav__icon md-icon"></span>
+            테스트와 검증
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../testing_and_validation/AB-Testing-Tutorial-ko/">
+<span class="md-ellipsis">
+    A/B 테스트
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../testing_and_validation/MVP-Tutorial-ko/">
+<span class="md-ellipsis">
+    MVP
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../testing_and_validation/Usability-Testing-Tutorial-ko/">
+<span class="md-ellipsis">
+    사용성 테스트
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="">
+<span class="md-ellipsis">
+    시간 차원 설계
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_4">
+<span class="md-nav__icon md-icon"></span>
+            시간 차원 설계
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../time_dimension_design/Cross-Sectional-Research-Tutorial-ko/">
+<span class="md-ellipsis">
+    횡단면 연구
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../time_dimension_design/Longitudinal-Research-Tutorial-ko/">
+<span class="md-ellipsis">
+    종단면 연구
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="">
+<span class="md-ellipsis">
+    사용자 연구
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_5">
+<span class="md-nav__icon md-icon"></span>
+            사용자 연구
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user_research/Empathy-Map-Tutorial-ko/">
+<span class="md-ellipsis">
+    공감 지도
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user_research/User-Journey-Map-Tutorial-ko/">
+<span class="md-ellipsis">
+    사용자 여정 지도
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user_research/User-Persona-Tutorial-ko/">
+<span class="md-ellipsis">
+    사용자 페르소나
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+<span class="md-ellipsis">
+    개인 및 팀 생산성
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            개인 및 팀 생산성
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+<span class="md-ellipsis">
+    피드백 기법
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_1">
+<span class="md-nav__icon md-icon"></span>
+            피드백 기법
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-ko/">
+<span class="md-ellipsis">
+    SBI 피드백 모델
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+<span class="md-ellipsis">
+    목표 관리
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_2">
+<span class="md-nav__icon md-icon"></span>
+            목표 관리
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/KPI-Tutorial-ko/">
+<span class="md-ellipsis">
+    KPI
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/OKR-Tutorial-ko/">
+<span class="md-ellipsis">
+    OKR
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/SMART-Goals-Tutorial-ko/">
+<span class="md-ellipsis">
+    SMART 목표
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+<span class="md-ellipsis">
+    습관 형성
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_3">
+<span class="md-nav__icon md-icon"></span>
+            습관 형성
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/The-Habit-Loop-Tutorial-ko/">
+<span class="md-ellipsis">
+    습관 루프
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/Tiny-Habits-Tutorial-ko/">
+<span class="md-ellipsis">
+    작은 습관
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+<span class="md-ellipsis">
+    회의 효과성
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_4">
+<span class="md-nav__icon md-icon"></span>
+            회의 효과성
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-ko/">
+<span class="md-ellipsis">
+    ORID 집중 대화
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+<span class="md-ellipsis">
+    팀 협업
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_5">
+<span class="md-nav__icon md-icon"></span>
+            팀 협업
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/team_collaboration/RACI-Matrix-Tutorial-ko/">
+<span class="md-ellipsis">
+    RACI 매트릭스
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+<span class="md-ellipsis">
+    시간 관리
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_6">
+<span class="md-nav__icon md-icon"></span>
+            시간 관리
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Eisenhower-Matrix-Tutorial-ko/">
+<span class="md-ellipsis">
+    아이젠하워 매트릭스
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/GTD-Tutorial-ko/">
+<span class="md-ellipsis">
+    GTD
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Pomodoro-Technique-Tutorial-ko/">
+<span class="md-ellipsis">
+    포모도로 기법
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="ethnography">민속지학(Ethnography)<a class="headerlink" href="#ethnography" title="Permanent link">¶</a></h1>
+<p>문화를 제대로 이해하기 위해서는 단순히 설문이나 인터뷰에 의존하는 것만으로는 턱없이 부족합니다. 직접 그 강에 뛰어들어 수영해야 합니다. <strong>민속지학</strong>은 바로 그러한 심층적 질적 연구 방법으로, 연구자가 몸소 몰입하고 공감하는 것을 요구합니다. 문화 인류학에서 유래된 이 방법의 핵심은 비교적 오랜 기간 동안 특정 공동체의 일상 속에서 <strong>참여 관찰</strong>(participant observation)을 통해 그 문화, 사회 구조, 행동 양식을 <strong>총체적</strong>(holistic)으로 이해하는 데 있습니다.</p>
+<p>민속지 연구자는 단지 사람들이 "무엇을 하는지" 기록하는 데 그치지 않고, 그러한 행동들이 특정 문화적 맥락 안에서 "무엇을 의미하는지" 드러내려는 "두터운 묘사(thick description)"를 추구합니다. 이는 외부에서 그 집단을 "조사"하는 것이 아니라, 그들의 세계관을 내부에서 이해하려는 시도입니다. 부문화의 내재적 규칙, 조직의 암묵적 문화, 공동체의 실제 삶을 탐색하고자 할 때 민속지학은 비교할 수 없는 깊이와 진정성을 제공합니다.</p>
+<h2 id="_1">민속지학의 핵심 개념과 특징<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
+<ul>
+<li>
+<p><strong>몰입과 참여</strong>: 연구자는 더 이상 거리를 둔 관찰자가 아니라 "학습자" 또는 "견습자"로서 행동합니다. 오랜 기간 동안 실제 자연 환경 속에서 생활하며 공동체의 일상 활동에 적극적으로 참여합니다.</p>
+</li>
+<li>
+<p><strong>총체적 시각</strong>: 민속지학은 문화를 복잡하고 상호연결된 전체로 바라보려 합니다. 언어, 관습, 신념, 인간관계, 물질적 환경 등 모든 요소가 어떻게 얽혀 사람들의 삶을 형성하는지를 중점적으로 다룹니다.</p>
+</li>
+<li>
+<p><strong>내부자 시각(Emic Perspective)</strong>: 연구의 궁극적 목표는 외부 이론 틀을 강요하는 것이 아니라, "내부인"의 관점에서 세상을 이해하고 해석하는 것입니다.</p>
+</li>
+<li>
+<p><strong>현장 노트(Field Notes)</strong>: 민속지학에서 데이터의 주요 형태입니다. 연구자는 구체적인 사건 묘사부터 개인적 감정, 이론적 성찰에 이르기까지 관찰한 모든 것을 지속적이고 세심하게, 반성적으로 기록해야 합니다.</p>
+</li>
+</ul>
+<h3 id="_2">민속지 연구 과정<a class="headerlink" href="#_2" title="Permanent link">¶</a></h3>
+<pre class="mermaid"><code>graph TD
+    A[1 연구 공동체 및 질문 정의] --&gt; B(2 현장 진입&lt;br/&gt;신뢰 구축);
+    B --&gt; C{3 장기 몰입 및 참여 관찰};
+    C --&gt; D(4 지속적으로 상세한 현장 노트 기록);
+    C --&gt; E(5 비공식 및 심층 인터뷰 수행);
+    D &amp; E --&gt; F(6 데이터 정리 및 코딩&lt;br/&gt;문화적 주제와 패턴 식별);
+    F --&gt; G(7 민속지 작성&lt;br/&gt;"두터운 묘사" 및 문화 해석 수행);
+    G --&gt; H(8 윤리적 성찰 및 연구 발표);</code></pre>
+<h2 id="_3">민속지 연구 수행 방법<a class="headerlink" href="#_3" title="Permanent link">¶</a></h2>
+<ol>
+<li>
+<p><strong>연구 대상과 질문 정의</strong>
+    심층적으로 이해하고자 하는 특정 공동체나 문화적 상황을 선택하고, 초기 단계의 개방형 연구 질문을 설정합니다. 예를 들어, "대형 인터넷 기업의 '야근 문화'는 어떻게 형성되고 유지되는가?"와 같은 질문이 있을 수 있습니다.</p>
+</li>
+<li>
+<p><strong>현장 진입 및 신뢰 구축</strong>
+    매우 중요하고도 어려운 단계입니다. 연구자는 공동체에 진입할 수 있는 방법("게이트키퍼")을 찾아야 하며, 공동체 구성원들과 신뢰와 친밀감을 쌓는 데 많은 시간을 투자해야 합니다. 정직함, 존중, 인내심이 성공의 열쇠입니다.</p>
+</li>
+<li>
+<p><strong>참여 관찰 수행</strong>
+    허가를 받은 후 몰입 경험을 시작합니다. 가능한 한 많은 공동체 활동에 참여하면서도 날카로운 관찰 능력을 유지해야 합니다. 사람들이 어떻게 상호작용하는지, 어떤 말투를 사용하는지, 도구를 어떻게 사용하는지, 그리고 "말로 표현되지 않은" 규칙들을 주목해야 합니다.</p>
+</li>
+<li>
+<p><strong>현장 노트 기록</strong>
+    매일 전용 시간을 확보하여 상세한 현장 노트를 작성해야 합니다. 노트는 다음 세 가지를 포함해야 합니다:</p>
+<ul>
+<li><strong>객관적 묘사</strong>: 특정 시간, 장소, 인물, 사건, 대화 내용.</li>
+<li><strong>주관적 감정</strong>: 자신의 개인적 감정, 혼란, 느낌.</li>
+<li><strong>분석적 성찰</strong>: 관찰된 현상에 대한 초기 분석과 이론적 연관성.</li>
+</ul>
+</li>
+<li>
+<p><strong>지속적인 분석과 해석</strong>
+    민속지학에서 분석 과정은 데이터 수집과 동시에 진행됩니다. 노트를 지속적으로 검토하면서 반복되는 패턴, 주제, 키워드, 모순을 찾아내고, 점차 문화에 대한 더 깊은 이해를 형성해 나가야 합니다.</p>
+</li>
+<li>
+<p><strong>민속지 보고서 작성</strong>
+    최종 산물은 서사적이고 풍부한 디테일을 담은 민속지 보고서입니다. 이 보고서는 일반적으로 연구 결과와 문화적 해석을 이야기 형식으로 독자에게 전달하며, 마치 독자가 직접 현장 조사를 경험한 듯한 느낌을 줍니다.</p>
+</li>
+</ol>
+<h2 id="_4">적용 사례<a class="headerlink" href="#_4" title="Permanent link">¶</a></h2>
+<p><strong>사례 1: 윌리엄 풋 위테의 "거리 모퉁이 사회"</strong></p>
+<ul>
+<li><strong>상황</strong>: 사회학에서 가장 고전적인 민속지 연구 중 하나입니다. 이탈리아계 미국인 빈민가의 내부 사회 구조를 이해하기 위해 사회학자 위테는 해당 공동체에 직접 거주했습니다.</li>
+<li><strong>적용</strong>: 그는 3년 반 동안 지역 청소년(특히 갱단원들)과 어울리며 그들의 일상 활동에 참여했습니다. 장기적인 참여 관찰을 통해 겉보기에는 혼란스러워 보이는 공동체에도 복잡한 비공식적 사회 계층, 의무, 상호주의 체계가 존재함을 밝혀냈습니다. 이 연구는 빈민가에 대한 "무질서"라는 고정관념을 완전히 바꾸어 놓았습니다.</li>
+</ul>
+<p><strong>사례 2: 인텔의 비즈니스 민속지 연구</strong></p>
+<ul>
+<li><strong>상황</strong>: 21세기 초, 반도체 기업 인텔은 미래 제품의 새로운 성장 동력을 찾고 있었습니다.</li>
+<li><strong>적용</strong>: 회사는 인류학자 그룹을 고용해 전 세계 다양한 가정의 일상을 연구하도록 했습니다. 연구자들은 일반인의 집에 들어가 기술 제품 사용 방식, 오락 활동, 의사소통 방식을 관찰했습니다. 이러한 연구를 통해 "집"이 새로운 컴퓨팅 중심지가 되고 있으며, 가정 내 연결성, 오락, 건강 관리에 대한 잠재적 수요가 매우 크다는 것을 발견했습니다. 이 통찰은 인텔의 스마트 홈, 디지털 헬스 등 분야에서의 전략 수립에 직접적으로 영향을 미쳤습니다.</li>
+</ul>
+<p><strong>사례 3: 병원 조직 문화 연구</strong></p>
+<ul>
+<li><strong>상황</strong>: 연구자는 수술실에서 의사와 간호사 간의 고도로 긴장된 협력 관계가 어떻게 형성되고 유지되는지 이해하고자 했습니다.</li>
+<li><strong>적용</strong>: 그녀는 병원 수술실에서 6개월간 참여 관찰을 수행했습니다. 수술복을 입고 수백 건의 수술을 관찰했으며, 휴게실에서 의료진과 비공식 인터뷰를 진행했습니다. 그녀는 고압적 환경 속에서 독특하고 간결하며 효율적인 "술어(jargon)"와 비언어적 공감, 엄격한 계급 구조가 수술 성공을 보장하는 핵심 문화적 메커니즘이라는 것을 발견했습니다.</li>
+</ul>
+<h2 id="_5">민속지학의 장점과 도전 과제<a class="headerlink" href="#_5" title="Permanent link">¶</a></h2>
+<p><strong>핵심 장점</strong></p>
+<ul>
+<li><strong>비교할 수 없는 깊이</strong>: 문화에 대한 심층적이고 맥락화된 섬세한 이해를 제공합니다.</li>
+<li><strong>암묵지( Tacit Knowledge) 드러내기</strong>: 공동체 구성원 스스로도 당연하게 여기며 명확히 표현하지 못하는 근본적 규칙과 전제를 밝혀낼 수 있습니다.</li>
+<li><strong>높은 생태적 타당성</strong>: 연구가 완전히 실제 자연 환경에서 이루어지므로 결론이 현실에 매우 근접합니다.</li>
+</ul>
+<p><strong>潛在적 도전 과제</strong></p>
+<ul>
+<li><strong>시간과 노동 집약적</strong>: 연구자는 수개월에서 수년에 걸쳐 시간을 투자해야 합니다.</li>
+<li><strong>연구자의 주관성</strong>: 연구자의 개인적 배경, 편견, 해석 능력이 연구 결과에 결정적인 영향을 미칩니다.</li>
+<li><strong>진입의 어려움과 윤리적 문제</strong>: 일부 폐쇄적 공동체에 진입하는 것은 매우 어렵고, 연구 과정에서는 많은 윤리적 딜레마(예: 프라이버시, 사전 동의, 연구자 역할 갈등)가 발생합니다.</li>
+<li><strong>일반화의 어려움</strong>: 연구 결론은 일반적으로 특정 공동체에만 적용되며, 다른 집단에 직접적으로 일반화하기는 어렵습니다.</li>
+</ul>
+<h2 id="_6">확장 및 연계 분야<a class="headerlink" href="#_6" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>질적 연구</strong>: 민속지학은 몰입적 경험을 강조하는 가장 대표적인 질적 연구 방법 중 하나입니다.</li>
+<li><strong>참여 설계(Participatory Design)</strong>: 디자인 분야에서 민속지적 통찰은 사용자를 설계 과정에 참여시키는 기초로 자주 활용됩니다.</li>
+<li><strong>기초 이론(Grounded Theory)</strong>: 민속지학을 통해 수집된 방대한 현장 노트는 기초 이론 방법을 사용해 새로운 이론을 체계적으로 생성하기 위한 훌륭한 자료가 됩니다.</li>
+</ul>
+<hr/>
+<p><em>참고 문헌: 민속지학의 창시자들은 문화 인류학자 브로니슬라프 말리노프스키와 프란츠 보아스입니다. 클리포드 기어츠의 저서 『문화의 해석(The Interpretation of Cultures)』은 특히 "두터운 묘사"에 대한 논의를 통해 현대 민속지학 사고를 이해하기 위한 필독서입니다.</em></p>
+</article>
+</div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  맨위로
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+</body>
+</html>

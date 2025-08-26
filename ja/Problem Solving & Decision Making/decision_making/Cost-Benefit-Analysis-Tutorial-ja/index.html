@@ -1,0 +1,1572 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="強力な方法論を体系的に紹介、説明、適用することに専念する知識ベースで、人々の成功への道を支援します。" name="description"/>
+<meta content="methodologywiki" name="author"/>
+<link href="https://methodologywiki.com/ja/Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-ja/" rel="canonical"/>
+<link href="../../../Strategy%20%26%20Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-ja/" rel="prev"/>
+<link href="../Decision-Matrix-Tutorial-ja/" rel="next"/>
+<link href="../../../../favicon.ico" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.6.18" name="generator"/>
+<title>費用便益分析 - 方法論の知恵ウィキ : 成功への道</title>
+<link href="../../../assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../../overrides/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-VQ6RTZVF1S"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-VQ6RTZVF1S",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-VQ6RTZVF1S",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+<script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#_1">
+          コンテンツにスキップ
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="ヘッダー" class="md-header__inner md-grid">
+<a aria-label="方法論の知恵ウィキ : 成功への道" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="方法論の知恵ウィキ : 成功への道">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            方法論の知恵ウィキ : 成功への道
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              費用便益分析
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="ダークモードに切り替え" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="ダークモードに切り替え">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="ライトモードに切り替え" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="ライトモードに切り替え">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<div class="md-header__option">
+<div class="md-select">
+<button aria-label="言語切り替え" class="md-header__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+</button>
+<div class="md-select__inner">
+<ul class="md-select__list">
+<li class="md-select__item">
+<a class="md-select__link" href="/" hreflang="en">
+              English
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/zh/" hreflang="zh">
+              中文
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/es/" hreflang="es">
+              Español
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ja/" hreflang="ja">
+              日本語
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ko/" hreflang="ko">
+              한국어
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ru/" hreflang="ru">
+              Русский
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/fr/" hreflang="fr">
+              Français
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/de/" hreflang="de">
+              Deutsch
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/pt/" hreflang="pt">
+              Português
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/nl/" hreflang="nl">
+              Nederlands
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/vi/" hreflang="vi">
+              Tiếng Việt
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/sv/" hreflang="sv">
+              Svenska
+            </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="検索" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="検索" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="検索" class="md-search__options">
+<button aria-label="クリア" class="md-search__icon md-icon" tabindex="-1" title="クリア" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            検索を初期化
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="リポジトリへ">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="タブ" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
+        
+  
+  
+    
+  
+  ホーム
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-ja/">
+          
+  
+  
+    
+  
+  基礎
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-ja/">
+          
+  
+  
+    
+  
+  戦略とビジネス
+
+        </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="./">
+          
+  
+  
+    
+  
+  問題解決と意思決定
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Product%20%26%20User/product_development/Agile-Tutorial-ja/">
+          
+  
+  
+    
+  
+  製品とユーザー
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-ja/">
+          
+  
+  
+    
+  
+  個人とチームの生産性
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="ナビゲーション" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="方法論の知恵ウィキ : 成功への道" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="方法論の知恵ウィキ : 成功への道">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    方法論の知恵ウィキ : 成功への道
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="リポジトリへ">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+<span class="md-ellipsis">
+    ホーム
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<span class="md-ellipsis">
+    基礎
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            基礎
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+<span class="md-ellipsis">
+    基礎学問
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_1">
+<span class="md-nav__icon md-icon"></span>
+            基礎学問
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-ja/">
+<span class="md-ellipsis">
+    混合方法研究
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/basic_discipline/Qualitative-Research-Tutorial-ja/">
+<span class="md-ellipsis">
+    質的研究
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/basic_discipline/Quantitative-Research-Tutorial-ja/">
+<span class="md-ellipsis">
+    量的研究
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+<span class="md-ellipsis">
+    学習方法
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_2">
+<span class="md-nav__icon md-icon"></span>
+            学習方法
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/learning_methods/Cornell-Note-Taking-Tutorial-ja/">
+<span class="md-ellipsis">
+    コーネル式ノート法
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-ja/">
+<span class="md-ellipsis">
+    ファインマン・テクニック
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+<span class="md-ellipsis">
+    論理的思考
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+            論理的思考
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/logical_thinking/First-Principles-Thinking-Tutorial-ja/">
+<span class="md-ellipsis">
+    第一原理思考
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/logical_thinking/Pyramid-Principle-Tutorial-ja/">
+<span class="md-ellipsis">
+    ピラミッド原理
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+<span class="md-ellipsis">
+    科学的探究パラダイム
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+            科学的探究パラダイム
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-ja/">
+<span class="md-ellipsis">
+    相関研究
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-ja/">
+<span class="md-ellipsis">
+    記述的研究
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-ja/">
+<span class="md-ellipsis">
+    実験研究
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+<span class="md-ellipsis">
+    システム思考
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_5">
+<span class="md-nav__icon md-icon"></span>
+            システム思考
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/systems_thinking/Iceberg-Model-Tutorial-ja/">
+<span class="md-ellipsis">
+    氷山モデル
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/systems_thinking/System-Dynamics-Tutorial-ja/">
+<span class="md-ellipsis">
+    システムダイナミクス
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+<span class="md-ellipsis">
+    理論と実践
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_6">
+<span class="md-nav__icon md-icon"></span>
+            理論と実践
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/theory_and_practice/Action-Research-Tutorial-ja/">
+<span class="md-ellipsis">
+    アクションリサーチ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/theory_and_practice/Grounded-Theory-Tutorial-ja/">
+<span class="md-ellipsis">
+    グラウンデッド・セオリー
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-ellipsis">
+    戦略とビジネス
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            戦略とビジネス
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+<span class="md-ellipsis">
+    ビジネスモデル
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_1">
+<span class="md-nav__icon md-icon"></span>
+            ビジネスモデル
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-ja/">
+<span class="md-ellipsis">
+    ビジネスモデルキャンバス
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-ja/">
+<span class="md-ellipsis">
+    リーンキャンバス
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+<span class="md-ellipsis">
+    品質と運営
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_2">
+<span class="md-nav__icon md-icon"></span>
+            品質と運営
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Kaizen-Tutorial-ja/">
+<span class="md-ellipsis">
+    改善
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Lean-Operations-Tutorial-ja/">
+<span class="md-ellipsis">
+    リーン運営
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Six-Sigma-Tutorial-ja/">
+<span class="md-ellipsis">
+    シックスシグマ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Total-Quality-Management-Tutorial-ja/">
+<span class="md-ellipsis">
+    総合品質管理
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+<span class="md-ellipsis">
+    戦略分析
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_3">
+<span class="md-nav__icon md-icon"></span>
+            戦略分析
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/PESTEL-Analysis-Tutorial-ja/">
+<span class="md-ellipsis">
+    PESTEL分析
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Porters-Five-Forces-Tutorial-ja/">
+<span class="md-ellipsis">
+    ポーターの5つの力
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/SWOT-Analysis-Tutorial-ja/">
+<span class="md-ellipsis">
+    SWOT分析
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Value-Chain-Analysis-Tutorial-ja/">
+<span class="md-ellipsis">
+    バリューチェーン分析
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+<span class="md-ellipsis">
+    戦略実行
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_4">
+<span class="md-nav__icon md-icon"></span>
+            戦略実行
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Balanced-Scorecard-Tutorial-ja/">
+<span class="md-ellipsis">
+    バランススコアカード
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-ja/">
+<span class="md-ellipsis">
+    ブルーオーシャン戦略
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+<span class="md-ellipsis">
+    問題解決と意思決定
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            問題解決と意思決定
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
+<span class="md-ellipsis">
+    意思決定
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_1">
+<span class="md-nav__icon md-icon"></span>
+            意思決定
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    費用便益分析
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    費用便益分析
+    
+  </span>
+</a>
+<nav aria-label="目次" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+<span class="md-ellipsis">
+      費用と便益の構成要素
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+<span class="md-ellipsis">
+      費用便益分析の実施手順
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_4">
+<span class="md-ellipsis">
+      適用事例
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_5">
+<span class="md-ellipsis">
+      費用便益分析の長所と課題
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_6">
+<span class="md-ellipsis">
+      拡張と関連手法
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Decision-Matrix-Tutorial-ja/">
+<span class="md-ellipsis">
+    決定マトリックス
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Pareto-Analysis-Tutorial-ja/">
+<span class="md-ellipsis">
+    パレート分析
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+<span class="md-ellipsis">
+    アイデア創出
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_2">
+<span class="md-nav__icon md-icon"></span>
+            アイデア創出
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../ideation/Brainstorming-Tutorial-ja/">
+<span class="md-ellipsis">
+    ブレインストーミング
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../ideation/Mind-Mapping-Tutorial-ja/">
+<span class="md-ellipsis">
+    マインドマップ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../ideation/Six-Thinking-Hats-Tutorial-ja/">
+<span class="md-ellipsis">
+    6つの思考帽子
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="">
+<span class="md-ellipsis">
+    問題解決
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_3">
+<span class="md-nav__icon md-icon"></span>
+            問題解決
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../problem_solving/Fishbone-Diagram-Tutorial-ja/">
+<span class="md-ellipsis">
+    魚骨図
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../problem_solving/Five-Whys-Tutorial-ja/">
+<span class="md-ellipsis">
+    5つのなぜ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../problem_solving/Gap-Analysis-Tutorial-ja/">
+<span class="md-ellipsis">
+    ギャップ分析
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../problem_solving/Gemba-Walk-Tutorial-ja/">
+<span class="md-ellipsis">
+    現場歩行
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../problem_solving/Logic-Tree-Tutorial-ja/">
+<span class="md-ellipsis">
+    ロジックツリー
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../problem_solving/Problem-Solving-ja/">
+<span class="md-ellipsis">
+    問題解決
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../problem_solving/Six-Thinking-Hats-Tutorial-ja/">
+<span class="md-ellipsis">
+    6つの思考帽子
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
+<span class="md-ellipsis">
+    根本原因分析
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_4">
+<span class="md-nav__icon md-icon"></span>
+            根本原因分析
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../root_cause_analysis/5-Whys-Tutorial-ja/">
+<span class="md-ellipsis">
+    5つのなぜ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../root_cause_analysis/Fishbone-Diagram-Tutorial-ja/">
+<span class="md-ellipsis">
+    魚骨図
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<span class="md-ellipsis">
+    製品とユーザー
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            製品とユーザー
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+<span class="md-ellipsis">
+    製品開発
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_1">
+<span class="md-nav__icon md-icon"></span>
+            製品開発
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Agile-Tutorial-ja/">
+<span class="md-ellipsis">
+    アジャイル
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Design-Thinking-Tutorial-ja/">
+<span class="md-ellipsis">
+    デザイン思考
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Kanban-Tutorial-ja/">
+<span class="md-ellipsis">
+    かんばん
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Scrum-Tutorial-ja/">
+<span class="md-ellipsis">
+    スクラム
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+<span class="md-ellipsis">
+    専門的質的方法
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+            専門的質的方法
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/specialized_qualitative_methods/Case-Study-Tutorial-ja/">
+<span class="md-ellipsis">
+    ケーススタディ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/specialized_qualitative_methods/Ethnography-Tutorial-ja/">
+<span class="md-ellipsis">
+    エスノグラフィー
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+<span class="md-ellipsis">
+    テストと検証
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_3">
+<span class="md-nav__icon md-icon"></span>
+            テストと検証
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/AB-Testing-Tutorial-ja/">
+<span class="md-ellipsis">
+    A/Bテスト
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/MVP-Tutorial-ja/">
+<span class="md-ellipsis">
+    MVP
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/Usability-Testing-Tutorial-ja/">
+<span class="md-ellipsis">
+    ユーザビリティテスト
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+<span class="md-ellipsis">
+    時間次元設計
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_4">
+<span class="md-nav__icon md-icon"></span>
+            時間次元設計
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/time_dimension_design/Cross-Sectional-Research-Tutorial-ja/">
+<span class="md-ellipsis">
+    横断的研究
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/time_dimension_design/Longitudinal-Research-Tutorial-ja/">
+<span class="md-ellipsis">
+    縦断的研究
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+<span class="md-ellipsis">
+    ユーザー研究
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_5">
+<span class="md-nav__icon md-icon"></span>
+            ユーザー研究
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/Empathy-Map-Tutorial-ja/">
+<span class="md-ellipsis">
+    共感マップ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/User-Journey-Map-Tutorial-ja/">
+<span class="md-ellipsis">
+    ユーザージャーニーマップ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/User-Persona-Tutorial-ja/">
+<span class="md-ellipsis">
+    ユーザーペルソナ
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+<span class="md-ellipsis">
+    個人とチームの生産性
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            個人とチームの生産性
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+<span class="md-ellipsis">
+    フィードバック技法
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_1">
+<span class="md-nav__icon md-icon"></span>
+            フィードバック技法
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-ja/">
+<span class="md-ellipsis">
+    SBIフィードバックモデル
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+<span class="md-ellipsis">
+    目標管理
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_2">
+<span class="md-nav__icon md-icon"></span>
+            目標管理
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/KPI-Tutorial-ja/">
+<span class="md-ellipsis">
+    KPI
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/OKR-Tutorial-ja/">
+<span class="md-ellipsis">
+    OKR
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/SMART-Goals-Tutorial-ja/">
+<span class="md-ellipsis">
+    SMART目標
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+<span class="md-ellipsis">
+    習慣形成
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_3">
+<span class="md-nav__icon md-icon"></span>
+            習慣形成
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/The-Habit-Loop-Tutorial-ja/">
+<span class="md-ellipsis">
+    習慣ループ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/Tiny-Habits-Tutorial-ja/">
+<span class="md-ellipsis">
+    小さな習慣
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+<span class="md-ellipsis">
+    会議の効果
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_4">
+<span class="md-nav__icon md-icon"></span>
+            会議の効果
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-ja/">
+<span class="md-ellipsis">
+    ORID集中対話
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+<span class="md-ellipsis">
+    チーム協力
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_5">
+<span class="md-nav__icon md-icon"></span>
+            チーム協力
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/team_collaboration/RACI-Matrix-Tutorial-ja/">
+<span class="md-ellipsis">
+    RACIマトリックス
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+<span class="md-ellipsis">
+    時間管理
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_6">
+<span class="md-nav__icon md-icon"></span>
+            時間管理
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Eisenhower-Matrix-Tutorial-ja/">
+<span class="md-ellipsis">
+    アイゼンハワーマトリックス
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/GTD-Tutorial-ja/">
+<span class="md-ellipsis">
+    GTD
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Pomodoro-Technique-Tutorial-ja/">
+<span class="md-ellipsis">
+    ポモドーロテクニック
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="_1">費用便益分析<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
+<p>ビジネスの世界でも、公共政策の分野においても、ほぼすべての意思決定には根本的なトレードオフが隠れています。それは、どれほどの<strong>費用</strong>を支払ってでも、ある特定の<strong>便益</strong>を得たいか、という問いです。<strong>費用便益分析 (CBA: Cost-Benefit Analysis)</strong> は、まさにそのような意思決定を支援する体系的な枠組みであり、すべてを金銭的価値で統一して評価します。その中心的な目的は、プロジェクトや意思決定に伴うすべての費用と便益を包括的に特定・定量化・比較し、そのプロジェクトが「実施に値するかどうか」を判断し、複数の代替案の中から合理的な経済的根拠に基づいて選択できるようにすることです。</p>
+<p>費用便益分析のロジックは単純明快です。もしプロジェクトの<strong>総便益が総費用を上回れば</strong>、それは経済的に実行可能で効率的です。この分析は、意思決定者に対して曖昧な定性的な説明にとどまらず、すべての関連するプラス・マイナスの影響を可能な限り比較可能な金銭的価値に変換するよう迫ります。新しい政府のインフラプロジェクトの評価から、企業が新しいITシステムへの投資を検討する場合に至るまで、費用便益分析はリソース配分や投資判断において欠かせない合理的ツールです。</p>
+<h2 id="_2">費用と便益の構成要素<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
+<p>包括的な費用便益分析を実施するには、明示的な費用・便益だけでなく、暗黙的なものも含め、すべての関連する要素を特定する必要があります。</p>
+<!--
+
+<pre class="mermaid"><code>graph TD
+    subgraph CBA["費用便益分析 (CBA)"]
+        A[&lt;b&gt;プロジェクトまたは意思決定&lt;/b&gt;] --&gt; B[&lt;b&gt;総費用&lt;/b&gt;]
+        A --&gt; C[&lt;b&gt;総便益&lt;/b&gt;]
+
+        subgraph CostTypes["費用の種類"]
+            B --&gt; B1[&lt;b&gt;直接費用&lt;/b&gt;&lt;br/&gt;- ハードウェア・ソフトウェアの調達費&lt;br/&gt;- 人件費&lt;br/&gt;- 原材料費]
+            B --&gt; B2[&lt;b&gt;間接費用&lt;/b&gt;&lt;br/&gt;- 事務所賃借料の配分&lt;br/&gt;- 公共料金&lt;br/&gt;- 管理費]
+            B --&gt; B3[&lt;b&gt;無形費用&lt;/b&gt;&lt;br/&gt;- 従業員の士気低下&lt;br/&gt;- 顧客満足度の低下&lt;br/&gt;- ブランド評判の損傷]
+            B --&gt; B4[&lt;b&gt;機会費用&lt;/b&gt;&lt;br/&gt;- このプロジェクトを選択することで&lt;br/&gt;断念する他の投資機会の潜在的便益]
+        end
+
+        subgraph BenefitTypes["便益の種類"]
+            C --&gt; C1[&lt;b&gt;直接便益&lt;/b&gt;&lt;br/&gt;- 売上収入の増加&lt;br/&gt;- コスト削減]
+            C --&gt; C2[&lt;b&gt;間接便益&lt;/b&gt;&lt;br/&gt;- 生産効率の向上&lt;br/&gt;- 資産価値の増加]
+            C --&gt; C3[&lt;b&gt;無形便益&lt;/b&gt;&lt;br/&gt;- 顧客満足度の向上&lt;br/&gt;- ブランドイメージの向上&lt;br/&gt;- 従業員満足度の向上]
+            C --&gt; C4[&lt;b&gt;戦略的便益&lt;/b&gt;&lt;br/&gt;- 市場シェアの拡大&lt;br/&gt;- 競争優位性の強化]
+        end
+    end</code></pre>
+-->
+<h2 id="_3">費用便益分析の実施手順<a class="headerlink" href="#_3" title="Permanent link">¶</a></h2>
+<ol>
+<li>
+<p><strong>ステップ1：プロジェクトと代替案の定義</strong>
+    評価するプロジェクトまたは意思決定を明確に定義します。複数の代替案がある場合は、それぞれについて個別に費用便益分析を実施する必要があります。</p>
+</li>
+<li>
+<p><strong>ステップ2：すべての費用と便益を包括的に特定</strong>
+    関係するすべての利害関係者とともに、プロジェクトのあり得るプラス・マイナスの影響をリストアップします。この段階では、見落とされがちな無形費用や間接便益に特に注意を払います。</p>
+</li>
+<li>
+<p><strong>ステップ3：費用と便益の金銭的評価</strong>
+    CBAにおける最も難しいステップです。リストアップされたすべての費用と便益に合理的な金銭的価値を割り当てます。直接的な費用と便益については比較的容易ですが、無形の費用と便益（例：「顧客満足度の向上」）については、市場調査を通じて顧客がより良いサービスに支払える金額を推定したり、顧客離脱率の低下によって回復される損失を計算したりするなどの評価技法が必要です。</p>
+</li>
+<li>
+<p><strong>ステップ4：時間価値と割引の考慮</strong>
+    将来のお金は現在のお金より価値が低いという概念に基づき、複数年にわたるプロジェクトについては、将来の費用と便益をあらかじめ定めた<strong>割引率</strong>を使って<strong>現在価値</strong>に割り引く必要があります。これにより、すべての費用と便益を同一の時間軸で比較可能にします。</p>
+</li>
+<li>
+<p><strong>ステップ5：主要な意思決定指標の計算と比較</strong>
+    すべての費用と便益の現在価値を合計し、以下のいずれかの主要な指標を計算します：</p>
+<ul>
+<li><strong>正味現在価値 (NPV)</strong>: <strong>総便益の現在価値 - 総費用の現在価値</strong>。NPV &gt; 0 の場合、プロジェクトは経済的に実行可能です。複数の選択肢の中では、NPVが最も高いものを選ぶのが一般的です。</li>
+<li><strong>便益費用比率 (BCR)</strong>: <strong>総便益の現在価値 / 総費用の現在価値</strong>。BCR &gt; 1 の場合、プロジェクトは実行可能です。この比率は、規模の異なるプロジェクトを比較する際に有効です。</li>
+<li><strong>投資収益率 (ROI)</strong>: <strong>(総便益 - 総費用) / 総費用 × 100%</strong>。投資の収益性を視覚的に示します。</li>
+<li><strong>回収期間</strong>: プロジェクトの累積便益が初期投資額と等しくなるまでの期間。</li>
+</ul>
+</li>
+<li>
+<p><strong>ステップ6：感度分析と提言の作成</strong>
+    多くの推定値（特に無形項目や割引率の選択）には不確実性が伴うため、<strong>感度分析</strong>が必要です。これは、いくつかの重要な前提（例：「売上成長率が予想より20%低かったら？」）を変化させ、最終的な結果（例：NPV）にどのような影響を与えるかを観察するものです。最終的に、すべての分析結果に基づき、意思決定者に対して明確でデータに基づいた提言を行います。</p>
+</li>
+</ol>
+<h2 id="_4">適用事例<a class="headerlink" href="#_4" title="Permanent link">¶</a></h2>
+<p><strong>事例1：ERPシステムのアップグレードを検討する企業</strong></p>
+<ul>
+<li><strong>費用</strong>:<ul>
+<li>直接費用：ソフトウェア購入費、ハードウェア更新費、外部コンサルタントおよび導入費用、従業員トレーニング費用。</li>
+<li>無形費用：システム移行中の短期的な生産性低下、新しいシステムへの従業員の抵抗。</li>
+</ul>
+</li>
+<li><strong>便益</strong>:<ul>
+<li>直接便益：プロセス自動化による労務費削減、在庫最適化による資金繰りの改善。</li>
+<li>間接便益：データ精度の向上、意思決定効率の向上。</li>
+<li>無形便益：顧客注文処理の迅速化、顧客満足度の向上。</li>
+</ul>
+</li>
+<li><strong>分析</strong>：上記の項目を今後5年間で金銭評価し、割引現在価値を計算した結果、プロジェクトのNPVが正であれば、その投資は実施に値します。</li>
+</ul>
+<p><strong>事例2：新しい高速道路の建設を検討する政府</strong></p>
+<ul>
+<li><strong>費用</strong>:<ul>
+<li>直接費用：土地取得費、建設費、今後数十年にわたる維持管理費。</li>
+<li>無形費用：沿線の自然環境への損害、移転に伴う社会問題、建設中の騒音や交通渋滞。</li>
+</ul>
+</li>
+<li><strong>便益</strong>:<ul>
+<li>直接便益：通行料収入。</li>
+<li>間接便益：沿線住民や企業の交通時間・費用の削減、地域経済の活性化と雇用創出。</li>
+<li>無形便益：交通事故の削減により命が救われた価値。</li>
+</ul>
+</li>
+<li><strong>分析</strong>：公共プロジェクトにおけるCBAは特に複雑です。公共政策分野では、「命の価値」や「環境価値」など、専門的な推定が必要です。最終的な便益費用比率（BCR）がプロジェクト実施の判断基準となります。</li>
+</ul>
+<p><strong>事例3：フルタイムMBA取得を検討する個人</strong></p>
+<ul>
+<li><strong>費用</strong>:<ul>
+<li>直接費用：高額の授業料、教材費、生活費。</li>
+<li>機会費用：MBA学習期間中（通常2年間）に失われるすべての給与収入。これは多くの場合、最大の費用です。</li>
+</ul>
+</li>
+<li><strong>便益</strong>:<ul>
+<li>直接便益：卒業後の大幅な給与増加。</li>
+<li>無形便益：得られる知識とスキル、強力な同窓会ネットワーク、個人ブランドの向上。</li>
+</ul>
+</li>
+<li><strong>分析</strong>：候補者は、MBA取得後の生涯キャッシュフロー（MBAあり vs なし）を推定し、その正味現在価値を計算することで、この「自己投資」が妥当かどうかを判断できます。</li>
+</ul>
+<h2 id="_5">費用便益分析の長所と課題<a class="headerlink" href="#_5" title="Permanent link">¶</a></h2>
+<p><strong>主な長所</strong></p>
+<ul>
+<li><strong>合理的かつデータ駆動型</strong>: 明確で合理的な経済比較フレームワークを提供し、主観的なバイアスを軽減します。</li>
+<li><strong>包括的</strong>: 意思決定者がプロジェクトのすべてのプラス・マイナスの影響を、最も明白なものだけでなく考慮するよう強制します。</li>
+<li><strong>リソース最適化</strong>: 限られたリソースを、最大の純便益を生み出すプロジェクトに配分するのを助けます。</li>
+</ul>
+<p><strong>潜在的な課題</strong></p>
+<ul>
+<li><strong>金銭評価の困難さ</strong>: 最大の課題は、「ブランド評判」や「環境保護」、「命の価値」など、無形の非市場項目に公平で信頼性のある金銭的価値を割り当てることです。このプロセスはしばしば物議を醸します。</li>
+<li><strong>予測の正確性</strong>: 分析結果は将来の費用と便益の予測に大きく依存しており、それ自体が多くの不確実性を含んでいます。</li>
+<li><strong>公平性問題の無視</strong>: CBAは主に全体的な経済効率に焦点を当てており、費用と便益のグループ間分配が公平かどうかを見過ごすことがあります。</li>
+</ul>
+<h2 id="_6">拡張と関連手法<a class="headerlink" href="#_6" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>意思決定マトリクス</strong>: 意思決定基準を完全に金銭評価できない場合、意思決定マトリクスはより柔軟な代替手段を提供します。</li>
+<li><strong>費用効果分析 (CEA)</strong>: プロジェクトの便益が金銭評価しにくい場合（例：医療分野）でも、その効果が一貫した非金銭的単位（例：「成功裏に治療された患者数」、「延命年数」）で測定できるなら、CEAを使用できます。これは、「1単位の効果を達成するためにどれだけの費用がかかるか」を計算します。</li>
+</ul>
+<hr/>
+<p><em>参考：費用便益分析の概念は、19世紀のフランスの技術者ジュール・デュプイが公共事業プロジェクトを評価したことに起源を持ちます。20世紀には、イギリスやアメリカなどの国々で公共政策評価に広く応用され、プロジェクト管理や企業の投資判断におけるコアツールとなりました。</em></p>
+</article>
+</div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  ページトップへ戻る
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+</body>
+</html>

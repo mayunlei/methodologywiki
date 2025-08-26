@@ -1,0 +1,1563 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Một cơ sở kiến thức dành riêng cho việc giới thiệu, giải thích và áp dụng có hệ thống các phương pháp mạnh mẽ khác nhau, giúp mọi người trên con đường đến thành công." name="description"/>
+<meta content="methodologywiki" name="author"/>
+<link href="https://methodologywiki.com/vi/Product%20%26%20User/testing_and_validation/AB-Testing-Tutorial-vi/" rel="canonical"/>
+<link href="../../specialized_qualitative_methods/Ethnography-Tutorial-vi/" rel="prev"/>
+<link href="../MVP-Tutorial-vi/" rel="next"/>
+<link href="../../../../favicon.ico" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.6.18" name="generator"/>
+<title>Kiểm thử A/B - Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công</title>
+<link href="../../../assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../../overrides/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-VQ6RTZVF1S"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-VQ6RTZVF1S",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-VQ6RTZVF1S",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+<script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#kiem-thu-ab">
+          Bỏ qua
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Đầu trang" class="md-header__inner md-grid">
+<a aria-label="Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Kiểm thử A/B
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Chuyển sang chế độ tối" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Chuyển sang chế độ tối">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Chuyển sang chế độ sáng" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Chuyển sang chế độ sáng">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<div class="md-header__option">
+<div class="md-select">
+<button aria-label="Chọn ngôn ngữ" class="md-header__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+</button>
+<div class="md-select__inner">
+<ul class="md-select__list">
+<li class="md-select__item">
+<a class="md-select__link" href="/" hreflang="en">
+              English
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/zh/" hreflang="zh">
+              中文
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/es/" hreflang="es">
+              Español
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ja/" hreflang="ja">
+              日本語
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ko/" hreflang="ko">
+              한국어
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/ru/" hreflang="ru">
+              Русский
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/fr/" hreflang="fr">
+              Français
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/de/" hreflang="de">
+              Deutsch
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/pt/" hreflang="pt">
+              Português
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/nl/" hreflang="nl">
+              Nederlands
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/vi/" hreflang="vi">
+              Tiếng Việt
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="/sv/" hreflang="sv">
+              Svenska
+            </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Tìm kiếm" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Tìm kiếm" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Tìm kiếm" class="md-search__options">
+<button aria-label="Xoá" class="md-search__icon md-icon" tabindex="-1" title="Xoá" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="Xem mã nguồn">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
+        
+  
+  
+    
+  
+  Trang chủ
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-vi/">
+          
+  
+  
+    
+  
+  Nền tảng
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-vi/">
+          
+  
+  
+    
+  
+  Chiến lược và kinh doanh
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-vi/">
+          
+  
+  
+    
+  
+  Giải quyết vấn đề và ra quyết định
+
+        </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../../product_development/Agile-Tutorial-vi/">
+          
+  
+  
+    
+  
+  Sản phẩm và người dùng
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-vi/">
+          
+  
+  
+    
+  
+  Năng suất cá nhân và nhóm
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Thanh điều hướng" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="Xem mã nguồn">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+<span class="md-ellipsis">
+    Trang chủ
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<span class="md-ellipsis">
+    Nền tảng
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            Nền tảng
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+<span class="md-ellipsis">
+    Các ngành cơ bản
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_1">
+<span class="md-nav__icon md-icon"></span>
+            Các ngành cơ bản
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu phương pháp hỗn hợp
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/basic_discipline/Qualitative-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu định tính
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/basic_discipline/Quantitative-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu định lượng
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+<span class="md-ellipsis">
+    Phương pháp học tập
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_2">
+<span class="md-nav__icon md-icon"></span>
+            Phương pháp học tập
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/learning_methods/Cornell-Note-Taking-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phương pháp ghi chú Cornell
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kỹ thuật Feynman
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Tư duy logic
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+            Tư duy logic
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/logical_thinking/First-Principles-Thinking-Tutorial-vi/">
+<span class="md-ellipsis">
+    Tư duy nguyên lý đầu tiên
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/logical_thinking/Pyramid-Principle-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nguyên lý kim tự tháp
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Mô hình nghiên cứu khoa học
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+            Mô hình nghiên cứu khoa học
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu tương quan
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu mô tả
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu thực nghiệm
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+<span class="md-ellipsis">
+    Tư duy hệ thống
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_5">
+<span class="md-nav__icon md-icon"></span>
+            Tư duy hệ thống
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/systems_thinking/Iceberg-Model-Tutorial-vi/">
+<span class="md-ellipsis">
+    Mô hình tảng băng trôi
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/systems_thinking/System-Dynamics-Tutorial-vi/">
+<span class="md-ellipsis">
+    Động lực học hệ thống
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+<span class="md-ellipsis">
+    Lý thuyết và thực hành
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_6">
+<span class="md-nav__icon md-icon"></span>
+            Lý thuyết và thực hành
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/theory_and_practice/Action-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu hành động
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Foundations/theory_and_practice/Grounded-Theory-Tutorial-vi/">
+<span class="md-ellipsis">
+    Lý thuyết căn cứ
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Chiến lược và kinh doanh
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            Chiến lược và kinh doanh
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+<span class="md-ellipsis">
+    Mô hình kinh doanh
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_1">
+<span class="md-nav__icon md-icon"></span>
+            Mô hình kinh doanh
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-vi/">
+<span class="md-ellipsis">
+    Canvas mô hình kinh doanh
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-vi/">
+<span class="md-ellipsis">
+    Lean Canvas
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+<span class="md-ellipsis">
+    Chất lượng và vận hành
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_2">
+<span class="md-nav__icon md-icon"></span>
+            Chất lượng và vận hành
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Kaizen-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kaizen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Lean-Operations-Tutorial-vi/">
+<span class="md-ellipsis">
+    Vận hành tinh gọn
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Six-Sigma-Tutorial-vi/">
+<span class="md-ellipsis">
+    Six Sigma
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Total-Quality-Management-Tutorial-vi/">
+<span class="md-ellipsis">
+    Quản lý chất lượng toàn diện
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Phân tích chiến lược
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_3">
+<span class="md-nav__icon md-icon"></span>
+            Phân tích chiến lược
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/PESTEL-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích PESTEL
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Porters-Five-Forces-Tutorial-vi/">
+<span class="md-ellipsis">
+    Năm lực lượng Porter
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/SWOT-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích SWOT
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Value-Chain-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích chuỗi giá trị
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Thực thi chiến lược
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_4">
+<span class="md-nav__icon md-icon"></span>
+            Thực thi chiến lược
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Balanced-Scorecard-Tutorial-vi/">
+<span class="md-ellipsis">
+    Thẻ điểm cân bằng
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-vi/">
+<span class="md-ellipsis">
+    Chiến lược đại dương xanh
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Giải quyết vấn đề và ra quyết định
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Giải quyết vấn đề và ra quyết định
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+<span class="md-ellipsis">
+    Ra quyết định
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_1">
+<span class="md-nav__icon md-icon"></span>
+            Ra quyết định
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích chi phí-lợi ích
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-vi/">
+<span class="md-ellipsis">
+    Ma trận quyết định
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Pareto-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích Pareto
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+<span class="md-ellipsis">
+    Tạo ý tưởng
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_2">
+<span class="md-nav__icon md-icon"></span>
+            Tạo ý tưởng
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Brainstorming-Tutorial-vi/">
+<span class="md-ellipsis">
+    Động não
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Mind-Mapping-Tutorial-vi/">
+<span class="md-ellipsis">
+    Sơ đồ tư duy
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Six-Thinking-Hats-Tutorial-vi/">
+<span class="md-ellipsis">
+    Sáu chiếc mũ tư duy
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Giải quyết vấn đề
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_3">
+<span class="md-nav__icon md-icon"></span>
+            Giải quyết vấn đề
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Fishbone-Diagram-Tutorial-vi/">
+<span class="md-ellipsis">
+    Sơ đồ xương cá
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Five-Whys-Tutorial-vi/">
+<span class="md-ellipsis">
+    Năm tại sao
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Gap-Analysis-Tutorial-vi/">
+<span class="md-ellipsis">
+    Phân tích khoảng cách
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Gemba-Walk-Tutorial-vi/">
+<span class="md-ellipsis">
+    Đi bộ Gemba
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Logic-Tree-Tutorial-vi/">
+<span class="md-ellipsis">
+    Cây logic
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Problem-Solving-vi/">
+<span class="md-ellipsis">
+    Giải quyết vấn đề
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Six-Thinking-Hats-Tutorial-vi/">
+<span class="md-ellipsis">
+    Sáu chiếc mũ tư duy
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Phân tích nguyên nhân gốc
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_4">
+<span class="md-nav__icon md-icon"></span>
+            Phân tích nguyên nhân gốc
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/5-Whys-Tutorial-vi/">
+<span class="md-ellipsis">
+    Năm tại sao
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/Fishbone-Diagram-Tutorial-vi/">
+<span class="md-ellipsis">
+    Sơ đồ xương cá
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+<span class="md-ellipsis">
+    Sản phẩm và người dùng
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            Sản phẩm và người dùng
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="">
+<span class="md-ellipsis">
+    Phát triển sản phẩm
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_1">
+<span class="md-nav__icon md-icon"></span>
+            Phát triển sản phẩm
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../product_development/Agile-Tutorial-vi/">
+<span class="md-ellipsis">
+    Agile
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../product_development/Design-Thinking-Tutorial-vi/">
+<span class="md-ellipsis">
+    Tư duy thiết kế
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../product_development/Kanban-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kanban
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../product_development/Scrum-Tutorial-vi/">
+<span class="md-ellipsis">
+    Scrum
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="">
+<span class="md-ellipsis">
+    Phương pháp định tính chuyên biệt
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+            Phương pháp định tính chuyên biệt
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../specialized_qualitative_methods/Case-Study-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu tình huống
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../specialized_qualitative_methods/Ethnography-Tutorial-vi/">
+<span class="md-ellipsis">
+    Dân tộc học
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="">
+<span class="md-ellipsis">
+    Kiểm thử và xác thực
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_5_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_3">
+<span class="md-nav__icon md-icon"></span>
+            Kiểm thử và xác thực
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Kiểm thử A/B
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Kiểm thử A/B
+    
+  </span>
+</a>
+<nav aria-label="Mục lục" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cac-thanh-phan-cot-loi-cua-kiem-thu-ab">
+<span class="md-ellipsis">
+      Các thành phần cốt lõi của kiểm thử A/B
+    </span>
+</a>
+<nav aria-label="Các thành phần cốt lõi của kiểm thử A/B" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#quy-trinh-kiem-thu-ab">
+<span class="md-ellipsis">
+      Quy trình kiểm thử A/B
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cach-thuc-hien-kiem-thu-ab">
+<span class="md-ellipsis">
+      Cách thực hiện kiểm thử A/B
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cac-truong-hop-ung-dung">
+<span class="md-ellipsis">
+      Các trường hợp ứng dụng
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#uu-iem-va-thach-thuc-cua-kiem-thu-ab">
+<span class="md-ellipsis">
+      Ưu điểm và thách thức của kiểm thử A/B
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mo-rong-va-lien-ket">
+<span class="md-ellipsis">
+      Mở rộng và liên kết
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../MVP-Tutorial-vi/">
+<span class="md-ellipsis">
+    MVP
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Usability-Testing-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kiểm thử khả năng sử dụng
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="">
+<span class="md-ellipsis">
+    Thiết kế chiều thời gian
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_4">
+<span class="md-nav__icon md-icon"></span>
+            Thiết kế chiều thời gian
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../time_dimension_design/Cross-Sectional-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu cắt ngang
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../time_dimension_design/Longitudinal-Research-Tutorial-vi/">
+<span class="md-ellipsis">
+    Nghiên cứu dọc
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="">
+<span class="md-ellipsis">
+    Nghiên cứu người dùng
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_5">
+<span class="md-nav__icon md-icon"></span>
+            Nghiên cứu người dùng
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user_research/Empathy-Map-Tutorial-vi/">
+<span class="md-ellipsis">
+    Bản đồ đồng cảm
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user_research/User-Journey-Map-Tutorial-vi/">
+<span class="md-ellipsis">
+    Bản đồ hành trình người dùng
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../user_research/User-Persona-Tutorial-vi/">
+<span class="md-ellipsis">
+    Persona người dùng
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+<span class="md-ellipsis">
+    Năng suất cá nhân và nhóm
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            Năng suất cá nhân và nhóm
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+<span class="md-ellipsis">
+    Kỹ thuật phản hồi
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_1">
+<span class="md-nav__icon md-icon"></span>
+            Kỹ thuật phản hồi
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-vi/">
+<span class="md-ellipsis">
+    Mô hình phản hồi SBI
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+<span class="md-ellipsis">
+    Quản lý mục tiêu
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_2">
+<span class="md-nav__icon md-icon"></span>
+            Quản lý mục tiêu
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/KPI-Tutorial-vi/">
+<span class="md-ellipsis">
+    KPI
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/OKR-Tutorial-vi/">
+<span class="md-ellipsis">
+    OKR
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/SMART-Goals-Tutorial-vi/">
+<span class="md-ellipsis">
+    Mục tiêu SMART
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Hình thành thói quen
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_3">
+<span class="md-nav__icon md-icon"></span>
+            Hình thành thói quen
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/The-Habit-Loop-Tutorial-vi/">
+<span class="md-ellipsis">
+    Vòng lặp thói quen
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/Tiny-Habits-Tutorial-vi/">
+<span class="md-ellipsis">
+    Thói quen nhỏ
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Hiệu quả cuộc họp
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_4">
+<span class="md-nav__icon md-icon"></span>
+            Hiệu quả cuộc họp
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-vi/">
+<span class="md-ellipsis">
+    Cuộc trò chuyện tập trung ORID
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+<span class="md-ellipsis">
+    Hợp tác nhóm
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_5">
+<span class="md-nav__icon md-icon"></span>
+            Hợp tác nhóm
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/team_collaboration/RACI-Matrix-Tutorial-vi/">
+<span class="md-ellipsis">
+    Ma trận RACI
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+<span class="md-ellipsis">
+    Quản lý thời gian
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_6">
+<span class="md-nav__icon md-icon"></span>
+            Quản lý thời gian
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Eisenhower-Matrix-Tutorial-vi/">
+<span class="md-ellipsis">
+    Ma trận Eisenhower
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/GTD-Tutorial-vi/">
+<span class="md-ellipsis">
+    GTD
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Pomodoro-Technique-Tutorial-vi/">
+<span class="md-ellipsis">
+    Kỹ thuật Pomodoro
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="kiem-thu-ab">Kiểm thử A/B<a class="headerlink" href="#kiem-thu-ab" title="Permanent link">¶</a></h1>
+<p>Trong thiết kế sản phẩm và tiếp thị, chúng ta thường xuyên đối mặt với những lựa chọn dường như mang tính chủ quan: Nút màu đỏ có hấp dẫn hơn hay nút màu xanh lục? Văn bản "Mua Ngay" có hiệu quả chuyển đổi tốt hơn hay "Thêm vào Giỏ hàng"? Thay vì dựa vào trực giác hay những cuộc tranh luận vô tận trong phòng họp, tốt hơn hết là để người dùng thực sự cho chúng ta câu trả lời thông qua dữ liệu của họ. <strong>Kiểm thử A/B</strong>, còn gọi là <strong>Kiểm thử phân tách (Split Testing)</strong>, là một phương pháp <strong>thí nghiệm có kiểm soát trực tuyến</strong> nghiêm ngặt, mạnh mẽ và dựa trên dữ liệu. Cốt lõi của nó là <strong>ngẫu nhiên hóa</strong> lưu lượng người dùng thành hai hoặc nhiều nhóm và hiển thị cho họ các phiên bản khác nhau của cùng một trang (Phiên bản A và Phiên bản B) để so sánh và xác định phiên bản nào hoạt động tốt hơn trong việc đạt được các mục tiêu cụ thể (ví dụ: tỷ lệ nhấp, tỷ lệ chuyển đổi).</p>
+<p>Bản chất của kiểm thử A/B là áp dụng logic của các thí nghiệm khoa học vào các quyết định về sản phẩm và tiếp thị. Nó đưa vào yếu tố cốt lõi là "<strong>ngẫu nhiên hóa</strong>" để loại bỏ tất cả các yếu tố nhiễu tiềm năng khác (ví dụ: nguồn người dùng, thời gian truy cập, v.v.), từ đó đảm bảo rằng sự khác biệt quan sát được có thể được quy một cách chắc chắn cho thay đổi duy nhất mà chúng ta thực hiện. Nó biến các giả định chủ quan như "Tôi nghĩ thiết kế này tốt hơn" thành các kết luận khách quan như "dữ liệu cho thấy phiên bản B có tỷ lệ chuyển đổi cao hơn 15% so với phiên bản A, và kết quả này có ý nghĩa thống kê", khiến nó trở thành một công cụ cốt lõi không thể thiếu trong văn hóa tăng trưởng dựa trên dữ liệu hiện đại.</p>
+<h2 id="cac-thanh-phan-cot-loi-cua-kiem-thu-ab">Các thành phần cốt lõi của kiểm thử A/B<a class="headerlink" href="#cac-thanh-phan-cot-loi-cua-kiem-thu-ab" title="Permanent link">¶</a></h2>
+<p>Một kiểm thử A/B tiêu chuẩn gồm các phần chính sau:</p>
+<ul>
+<li><strong>Giả thuyết</strong>: Trước khi bắt đầu kiểm thử, bạn cần có một giả thuyết rõ ràng và có thể kiểm tra được. Ví dụ: "Tôi tin rằng việc thay đổi nút đăng ký từ màu xanh dương sang màu cam (thay đổi) sẽ làm tăng tỷ lệ chuyển đổi đăng ký của người dùng mới (kết quả kỳ vọng) vì màu cam nổi bật hơn trên trang (lý do)."</li>
+<li><strong>Nhóm đối chứng (Phiên bản A)</strong>: Phiên bản gốc hiện đang được triển khai trực tuyến, không có bất kỳ thay đổi nào. Nó đóng vai trò là mốc so sánh cho tất cả các kết quả khác.</li>
+<li><strong>Nhóm thử nghiệm (Phiên bản B)</strong>: Phiên bản mới mà bạn đã áp dụng một thay đổi duy nhất, với kỳ vọng rằng nó sẽ mang lại kết quả tốt hơn.</li>
+<li><strong>Nguyên tắc biến số đơn</strong>: Một kiểm thử A/B tiêu chuẩn chỉ nên kiểm tra một biến số duy nhất. Nếu bạn đồng thời thay đổi cả màu nút và văn bản trên nút, thì ngay cả khi phiên bản B chiến thắng, bạn cũng không thể xác định được thay đổi nào là yếu tố quyết định.</li>
+<li><strong>Phân bổ lưu lượng ngẫu nhiên</strong>: Lưu lượng người dùng phải được phân bổ ngẫu nhiên và đồng đều cho phiên bản A và phiên bản B. Đây là điều kiện khoa học cần thiết để đảm bảo kết quả kiểm thử không bị lệch và đáng tin cậy.</li>
+<li><strong>Chỉ số mục tiêu</strong>: Bạn cần có một chỉ số đo lường rõ ràng và định lượng được để đánh giá kết quả kiểm thử. Chỉ số này phải liên quan trực tiếp đến giả thuyết của bạn, ví dụ như "tỷ lệ nhấp", "tỷ lệ chuyển đổi", "thời gian trung bình trên trang", v.v.</li>
+</ul>
+<h3 id="quy-trinh-kiem-thu-ab">Quy trình kiểm thử A/B<a class="headerlink" href="#quy-trinh-kiem-thu-ab" title="Permanent link">¶</a></h3>
+<pre class="mermaid"><code>graph TD
+    A["1 Quan sát dữ liệu, xây dựng giả thuyết"] --&gt; B["2 Tạo nhóm thử nghiệm phiên bản B"]
+    B --&gt; C["3 Thiết lập chỉ số mục tiêu"]
+    C --&gt; D["4 Phân bổ lưu lượng ngẫu nhiên"]
+    D --&gt; E["Nhóm đối chứng A&lt;br/&gt;Xem phiên bản gốc"]
+    D --&gt; F["Nhóm thử nghiệm B&lt;br/&gt;Xem phiên bản mới"]
+    E --&gt; G["5 Thu thập và theo dõi dữ liệu"]
+    F --&gt; G
+    G --&gt; H["6 Thực hiện kiểm định ý nghĩa thống kê"]
+    H --&gt; I["7 Phân tích kết quả, rút ra kết luận"]
+    I --&gt; J["8 Triển khai phiên bản chiến thắng"]
+    H --&gt; K["7b Phân tích lại hoặc từ bỏ giả thuyết"]</code></pre>
+<h2 id="cach-thuc-hien-kiem-thu-ab">Cách thực hiện kiểm thử A/B<a class="headerlink" href="#cach-thuc-hien-kiem-thu-ab" title="Permanent link">¶</a></h2>
+<ol>
+<li>
+<p><strong>Bước 1: Nghiên cứu và xây dựng giả thuyết</strong>
+    Dựa trên phân tích dữ liệu (ví dụ: bản đồ nhiệt hành vi người dùng), phản hồi của người dùng hoặc đánh giá theo kinh nghiệm, hãy xác định các điểm có thể cải thiện trong sản phẩm hoặc quy trình hiện tại, và đề xuất một giả thuyết cải tiến cụ thể, có thể kiểm tra được.</p>
+</li>
+<li>
+<p><strong>Bước 2: Tạo các phiên bản thử nghiệm</strong>
+    Dựa trên giả thuyết của bạn, thiết kế và phát triển nhóm thử nghiệm (phiên bản B). Đảm bảo rằng sự khác biệt duy nhất giữa phiên bản B và phiên bản A là biến số bạn muốn kiểm tra.</p>
+</li>
+<li>
+<p><strong>Bước 3: Xác định mục tiêu và kích thước mẫu</strong></p>
+<ul>
+<li>Rõ ràng định nghĩa chỉ số cốt lõi bạn sẽ sử dụng để đo lường kết quả.</li>
+<li>Trước khi bắt đầu kiểm thử, bạn cần sử dụng một <strong>máy tính kích thước mẫu</strong> để ước tính số lượng người dùng cần tham gia kiểm thử để kết quả có đủ <strong>sức mạnh thống kê</strong>. Kích thước mẫu quá nhỏ có thể khiến bạn không phát hiện được sự khác biệt thực sự tồn tại.</li>
+</ul>
+</li>
+<li>
+<p><strong>Bước 4: Triển khai kiểm thử</strong>
+    Sử dụng các công cụ kiểm thử A/B chuyên nghiệp (ví dụ: Google Optimize, Optimizely, v.v.) để cấu hình kiểm thử của bạn. Thiết lập tỷ lệ phân bổ lưu lượng (thường là 50/50) và bắt đầu kiểm thử.</p>
+</li>
+<li>
+<p><strong>Bước 5: Theo dõi và phân tích kết quả</strong>
+    Để kiểm thử chạy đủ lâu cho đến khi đạt được kích thước mẫu đã định hoặc mức ý nghĩa thống kê. Sau đó, phân tích kết quả kiểm thử. Bạn cần chú ý đến hai khái niệm thống kê cốt lõi:</p>
+<ul>
+<li><strong>Chênh lệch tỷ lệ chuyển đổi</strong>: Mức cải thiện phần trăm của phiên bản B so với phiên bản A.</li>
+<li><strong>Ý nghĩa thống kê</strong>: Thường được biểu diễn bằng <strong>giá trị P (P-value)</strong>. Giá trị P đại diện cho "xác suất mà sự khác biệt quan sát được là do ngẫu nhiên". Thông thường, khi giá trị P nhỏ hơn 0.05 (tức là mức độ tin cậy 95%), chúng ta coi kết quả là có ý nghĩa thống kê và đáng tin cậy.</li>
+</ul>
+</li>
+<li>
+<p><strong>Bước 6: Rút ra kết luận và hành động</strong></p>
+<ul>
+<li>Nếu phiên bản B chiến thắng rõ rệt, chúc mừng, giả thuyết của bạn đã được xác nhận. Bước tiếp theo là triển khai toàn bộ phiên bản B cho tất cả người dùng.</li>
+<li>Nếu phiên bản A chiến thắng, hoặc không có sự khác biệt đáng kể giữa hai phiên bản, thì đó cũng là một trải nghiệm học hỏi quý giá. Điều này cho thấy giả thuyết ban đầu của bạn không đúng, và bạn cần phân tích lại và đề xuất các giả thuyết mới cho vòng kiểm thử tiếp theo.</li>
+</ul>
+</li>
+</ol>
+<h2 id="cac-truong-hop-ung-dung">Các trường hợp ứng dụng<a class="headerlink" href="#cac-truong-hop-ung-dung" title="Permanent link">¶</a></h2>
+<p><strong>Trường hợp 1: Tối ưu hóa trang gây quỹ của đội vận động tranh cử Obama</strong></p>
+<ul>
+<li><strong>Tình huống</strong>: Trong cuộc bầu cử tổng thống Mỹ năm 2008, đội vận động tranh cử của Obama muốn tối ưu hóa trang quyên góp trên trang web chính thức để cải thiện tỷ lệ đăng ký và quyên góp.</li>
+<li><strong>Ứng dụng kiểm thử A/B</strong>: Họ đã thực hiện các kiểm thử A/B rộng rãi (chính xác hơn là kiểm thử đa biến) trên hình ảnh tiêu đề và văn bản nút. Trong một thử nghiệm nổi tiếng, họ phát hiện rằng việc thay đổi hình ảnh tiêu đề từ ảnh đơn của Obama sang ảnh gia đình Obama, và thay đổi văn bản nút từ "Đăng ký" thành "Tìm hiểu thêm", cuối cùng đã làm tăng <strong>40,6%</strong> tỷ lệ đăng ký trên trang. Thử nghiệm này đã mang lại hàng chục triệu đô la tiền quyên góp bổ sung cho đội vận động.</li>
+</ul>
+<p><strong>Trường hợp 2: Văn hóa thử nghiệm liên tục của Booking.com</strong></p>
+<ul>
+<li><strong>Tình huống</strong>: Booking.com, nền tảng đặt phòng khách sạn trực tuyến lớn nhất thế giới, nổi tiếng với văn hóa kiểm thử A/B cực đoan.</li>
+<li><strong>Ứng dụng</strong>: Theo báo cáo, tại bất kỳ thời điểm nào, trang web của Booking.com cũng đang chạy hàng nghìn kiểm thử A/B đồng thời. Từ cách sắp xếp kết quả tìm kiếm, kích thước ảnh khách sạn, đến các văn bản như "Chỉ còn X phòng!", mọi thay đổi đều phải trải qua kiểm thử A/B nghiêm ngặt. Chính sự theo đuổi cực đoan việc ra quyết định dựa trên dữ liệu này đã giúp họ liên tục tối ưu hóa trải nghiệm người dùng theo cách từng bước nhỏ, và cuối cùng xây dựng được rào cản cạnh tranh mạnh mẽ.</li>
+</ul>
+<p><strong>Trường hợp 3: Kiểm thử tường trả phí của một trang tin tức</strong></p>
+<ul>
+<li><strong>Tình huống</strong>: Một trang tin muốn thử nghiệm mô hình đăng ký trả phí, nhưng không chắc chiến lược tường trả phí nào sẽ tốt nhất cho tỷ lệ thanh toán và giữ chân người dùng.</li>
+<li><strong>Ứng dụng kiểm thử A/B</strong>:<ul>
+<li><strong>Phiên bản A (Có giới hạn)</strong>: Cho phép tất cả người dùng đọc miễn phí 5 bài viết mỗi tháng, sau đó yêu cầu thanh toán nếu vượt quá giới hạn.</li>
+<li><strong>Phiên bản B (Freemium)</strong>: Một số bài viết miễn phí, nhưng các nội dung "cao cấp" như bài phân tích chuyên sâu và bình luận độc quyền yêu cầu đăng ký trả phí mới được đọc.</li>
+<li>Qua kiểm thử kéo dài vài tháng, họ có thể so sánh tỷ lệ thanh toán, tỷ lệ rời bỏ người dùng và tổng doanh thu từ hai mô hình, từ đó chọn ra mô hình kinh doanh phù hợp nhất với mình.</li>
+</ul>
+</li>
+</ul>
+<h2 id="uu-iem-va-thach-thuc-cua-kiem-thu-ab">Ưu điểm và thách thức của kiểm thử A/B<a class="headerlink" href="#uu-iem-va-thach-thuc-cua-kiem-thu-ab" title="Permanent link">¶</a></h2>
+<p><strong>Ưu điểm cốt lõi</strong></p>
+<ul>
+<li><strong>Khách quan và dựa trên dữ liệu</strong>: Sử dụng dữ liệu hành vi người dùng thực tế thay vì các phỏng đoán và tranh luận chủ quan, cung cấp bằng chứng mạnh mẽ nhất cho việc ra quyết định.</li>
+<li><strong>Đổi mới với rủi ro thấp</strong>: Cho phép bạn kiểm tra hiệu quả của một thay đổi trên một phần nhỏ lưu lượng trước khi triển khai toàn bộ, giảm đáng kể rủi ro từ các quyết định sai lầm.</li>
+<li><strong>Động cơ tối ưu hóa liên tục</strong>: Cung cấp một khuôn khổ khoa học, nghiêm ngặt để liên tục tối ưu hóa sản phẩm và tiếp thị theo chu trình lặp lại.</li>
+</ul>
+<p><strong>Thách thức tiềm ẩn</strong></p>
+<ul>
+<li><strong>Yêu cầu lưu lượng đủ lớn</strong>: Đối với các trang web hoặc ứng dụng có lưu lượng thấp, có thể mất rất nhiều thời gian, thậm chí không thể đạt được ý nghĩa thống kê.</li>
+<li><strong>Hạn chế biến số đơn</strong>: Đôi khi, sự kết hợp của nhiều thay đổi có thể tạo ra hiệu ứng cộng hưởng bất ngờ, nhưng điều này không thể phát hiện được trong các kiểm thử A/B tiêu chuẩn (cần kiểm thử đa biến phức tạp hơn).</li>
+<li><strong>Bẫy "cực trị cục bộ"</strong>: Việc liên tục thực hiện các kiểm thử A/B nhỏ trên các trang hiện có có thể khiến bạn rơi vào bẫy "cực trị cục bộ", bỏ lỡ các cơ hội lớn hơn cho những cải tiến đột phá, cách mạng.</li>
+<li><strong>Bỏ qua tác động dài hạn</strong>: Kiểm thử A/B thường đo lường các tác động ngắn hạn (ví dụ: tỷ lệ nhấp). Một số thay đổi có thể cải thiện các chỉ số trong ngắn hạn, nhưng có thể làm tổn hại đến sự tin tưởng của người dùng hoặc hình ảnh thương hiệu trong dài hạn.</li>
+</ul>
+<h2 id="mo-rong-va-lien-ket">Mở rộng và liên kết<a class="headerlink" href="#mo-rong-va-lien-ket" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Kiểm thử đa biến (MVT)</strong>: Là sự mở rộng của kiểm thử A/B. Khi bạn muốn kiểm tra <strong>nhiều</strong> tổ hợp của <strong>nhiều</strong> yếu tố trên một trang cùng lúc (ví dụ: kiểm tra 3 loại tiêu đề, 2 loại hình ảnh và 2 loại màu nút), bạn có thể sử dụng MVT. Nó có thể cho bạn biết tổ hợp nào của các yếu tố hoạt động tốt nhất, và mức độ đóng góp tương đối của từng yếu tố vào kết quả cuối cùng.</li>
+<li><strong>Kiểm thử khả năng sử dụng (Usability Testing)</strong>: Là một phương pháp nghiên cứu định tính. Nó không thể cho bạn biết "phiên bản nào tốt hơn", nhưng có thể cho bạn biết "<strong>tại sao</strong>" người dùng gặp khó khăn với một phiên bản cụ thể. Thông thường, kiểm thử khả năng sử dụng có thể được thực hiện trước kiểm thử A/B để tìm cảm hứng về "điều gì nên kiểm thử".</li>
+</ul>
+<hr/>
+<p><em>Tham khảo: Khái niệm kiểm thử A/B có nguồn gốc từ thiết kế thí nghiệm thống kê cổ điển. Trong lĩnh vực internet, nó lần đầu tiên được áp dụng rộng rãi bởi các gã khổng lồ công nghệ như Google và Amazon trong tối ưu hóa trang web và sản phẩm, và dần trở thành một kỹ năng cốt lõi trong tiếp thị số và tăng trưởng đột phá.</em></p>
+</article>
+</div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Trở lại mục lục
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u0110\u00e3 sao ch\u00e9p", "clipboard.copy": "Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m", "search.result.more.one": "1 t\u1eeb kh\u00e1c trong trang", "search.result.more.other": "# t\u1eeb kh\u00e1c trong trang", "search.result.none": "Kh\u00f4ng t\u00ecm th\u1ea5y t\u00e0i li\u1ec7u li\u00ean quan", "search.result.one": "1 t\u00e0i li\u1ec7u li\u00ean quan", "search.result.other": "# t\u00e0i li\u1ec7u li\u00ean quan", "search.result.placeholder": "Nh\u1eadp \u0111\u1ec3 b\u1eaft \u0111\u1ea7u t\u00ecm ki\u1ebfm", "search.result.term.missing": "Kh\u00f4ng", "select.version": "Ch\u1ecdn phi\u00ean b\u1ea3n"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+</body>
+</html>

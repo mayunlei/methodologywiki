@@ -1,0 +1,18 @@
+site_name: "Methodology Wisdom Wiki - Multi-language"
+site_description: 'A comprehensive multi-language knowledge base for methodologies'
+site_author: 'methodologywiki'
+site_url: https://methodologywiki.com/
+repo_url: https://github.com/mayunlei/methodologywiki
+
+docs_dir: .
+site_dir: ../deploy_site
+
+theme:
+  name: material
+  language: en
+
+plugins:
+  - search
+
+nav:
+  - 'Home': 'index.html'

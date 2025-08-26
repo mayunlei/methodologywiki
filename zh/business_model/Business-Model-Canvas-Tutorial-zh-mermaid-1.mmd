@@ -1,0 +1,30 @@
+graph TD
+    subgraph 商业模式画布
+        direction LR
+        subgraph 基础设施
+            KP(<b>8. 关键合作伙伴</b><br/><i>谁能帮助我们？</i>)
+            KA(<b>7. 核心业务</b><br/><i>我们需要做什么？</i>)
+            KR(<b>6. 核心资源</b><br/><i>我们需要什么？</i>)
+        end
+
+        subgraph 价值主张
+            VP(<b>1. 价值主张</b><br/><i>我们提供什么？</i>)
+        end
+
+        subgraph 客户
+            CR(<b>4. 客户关系</b><br/><i>我们如何互动？</i>)
+            CH(<b>3. 渠道通路</b><br/><i>我们如何触达客户？</i>)
+            CS(<b>2. 客户细分</b><br/><i>我们为谁服务？</i>)
+        end
+
+        KP & KA & KR --> VP;
+        VP --> CR & CH & CS;
+
+        subgraph 财务
+            C(<b>9. 成本结构</b><br/><i>成本构成是什么？</i>)
+            R(<b>5. 收入来源</b><br/><i>我们如何赚钱？</i>)
+        end
+
+        基础设施 -- 产生 --> C;
+        客户 -- 产生 --> R;
+    end

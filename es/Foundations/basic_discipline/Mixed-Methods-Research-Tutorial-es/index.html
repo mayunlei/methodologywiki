@@ -1,22 +1,25 @@
 
 <!DOCTYPE html>
 
-<html class="no-js" lang="en">
+<html class="no-js" lang="es">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="A knowledge base dedicated to systematically introducing, explaining, and applying various powerful methodologies, helping people on their path to success." name="description"/>
+<meta content="Una base de conocimientos dedicada a la introducción, explicación y aplicación sistemática de varias metodologías poderosas, ayudando a las personas en su camino hacia el éxito." name="description"/>
 <meta content="methodologywiki" name="author"/>
 <link href="https://methodologywiki.com/es/Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-es/" rel="canonical"/>
+<link href="../../.." rel="prev"/>
+<link href="../Qualitative-Research-Tutorial-es/" rel="next"/>
 <link href="../../../../favicon.ico" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.6.18" name="generator"/>
-<title>Investigación de Métodos Mixtos - Wisdom Wiki of Methodologies : Way To Success</title>
-<link href="../../../../assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
-<link href="../../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<title>Investigación de Métodos Mixtos - Wiki de la Sabiduría de las Metodologías : Camino al Éxito</title>
+<link href="../../../assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../../../overrides/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-VQ6RTZVF1S"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-VQ6RTZVF1S",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-VQ6RTZVF1S",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
 <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
 </head>
@@ -26,14 +29,14 @@
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
 <a class="md-skip" href="#investigacion-de-metodos-mixtos">
-          Skip to content
+          Saltar a contenido
         </a>
 </div>
 <div data-md-component="announce">
 </div>
 <header class="md-header" data-md-component="header">
-<nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="Wisdom Wiki of Methodologies : Way To Success" class="md-header__button md-logo" data-md-component="logo" href="../../../.." title="Wisdom Wiki of Methodologies : Way To Success">
+<nav aria-label="Cabecera" class="md-header__inner md-grid">
+<a aria-label="Wiki de la Sabiduría de las Metodologías : Camino al Éxito" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Wiki de la Sabiduría de las Metodologías : Camino al Éxito">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -43,7 +46,7 @@
 <div class="md-header__ellipsis">
 <div class="md-header__topic">
 <span class="md-ellipsis">
-            Wisdom Wiki of Methodologies : Way To Success
+            Wiki de la Sabiduría de las Metodologías : Camino al Éxito
           </span>
 </div>
 <div class="md-header__topic" data-md-component="header-topic">
@@ -56,19 +59,19 @@
 </div>
 </div>
 <form class="md-header__option" data-md-component="palette">
-<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
-<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<input aria-label="Cambiar al modo oscuro" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Cambiar al modo oscuro">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
 </label>
-<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
-<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<input aria-label="Cambiar al modo claro" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Cambiar al modo claro">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
 </label>
 </form>
 <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
 <div class="md-header__option">
 <div class="md-select">
-<button aria-label="Select language" class="md-header__button md-icon">
+<button aria-label="Seleccionar idioma" class="md-header__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
 </button>
 <div class="md-select__inner">
@@ -144,13 +147,13 @@
 <label class="md-search__overlay" for="__search"></label>
 <div class="md-search__inner" role="search">
 <form class="md-search__form" name="search">
-<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<input aria-label="Búsqueda" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Búsqueda" required="" spellcheck="false" type="text"/>
 <label class="md-search__icon md-icon" for="__search">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
 </label>
-<nav aria-label="Search" class="md-search__options">
-<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<nav aria-label="Buscar" class="md-search__options">
+<button aria-label="Limpiar" class="md-search__icon md-icon" tabindex="-1" title="Limpiar" type="reset">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
 </button>
 </nav>
@@ -160,7 +163,7 @@
 <div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
 <div class="md-search-result" data-md-component="search-result">
 <div class="md-search-result__meta">
-            Initializing search
+            Inicializando búsqueda
           </div>
 <ol class="md-search-result__list" role="presentation"></ol>
 </div>
@@ -169,7 +172,7 @@
 </div>
 </div>
 <div class="md-header__source">
-<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="Go to repository">
+<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="Ir al repositorio">
 <div class="md-source__icon md-icon">
 <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
 </div>
@@ -181,72 +184,72 @@
 </nav>
 </header>
 <div class="md-container" data-md-component="container">
-<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<nav aria-label="Pestañas" class="md-tabs" data-md-component="tabs">
 <div class="md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../..">
+<a class="md-tabs__link" href="../../..">
         
   
   
     
   
-  Home
+  Inicio
 
       </a>
 </li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../../en/Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-en/">
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="./">
           
   
   
     
   
-  Foundations
+  Fundamentos
 
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../../en/Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-en/">
+<a class="md-tabs__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-es/">
           
   
   
     
   
-  Strategy &amp; Business
+  Estrategia y Negocios
 
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-en/">
+<a class="md-tabs__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-es/">
           
   
   
     
   
-  Problem Solving &amp; Decision Making
+  Resolución de Problemas y Toma de Decisiones
 
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../../en/Product%20%26%20User/product_development/Agile-Tutorial-en/">
+<a class="md-tabs__link" href="../../../Product%20%26%20User/product_development/Agile-Tutorial-es/">
           
   
   
     
   
-  Product &amp; User
+  Producto y Usuario
 
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../../en/Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-en/">
+<a class="md-tabs__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-es/">
           
   
   
     
   
-  Personal &amp; Team Productivity
+  Productividad Personal y de Equipo
 
         </a>
 </li>
@@ -258,15 +261,15 @@
 <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
-<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<nav aria-label="Navegación" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Wisdom Wiki of Methodologies : Way To Success" class="md-nav__button md-logo" data-md-component="logo" href="../../../.." title="Wisdom Wiki of Methodologies : Way To Success">
+<a aria-label="Wiki de la Sabiduría de las Metodologías : Camino al Éxito" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Wiki de la Sabiduría de las Metodologías : Camino al Éxito">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
 </a>
-    Wisdom Wiki of Methodologies : Way To Success
+    Wiki de la Sabiduría de las Metodologías : Camino al Éxito
   </label>
 <div class="md-nav__source">
-<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="Go to repository">
+<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="Ir al repositorio">
 <div class="md-source__icon md-icon">
 <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
 </div>
@@ -277,63 +280,125 @@
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../..">
+<a class="md-nav__link" href="../../..">
 <span class="md-ellipsis">
-    Home
+    Inicio
     
   </span>
 </a>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
 <span class="md-ellipsis">
-    Foundations
+    Fundamentos
     
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_2">
 <span class="md-nav__icon md-icon"></span>
-            Foundations
+            Fundamentos
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
 <span class="md-ellipsis">
-    Basic Discipline
+    Disciplinas Básicas
     
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_1_label" class="md-nav" data-md-level="2">
+<nav aria-expanded="true" aria-labelledby="__nav_2_1_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_2_1">
 <span class="md-nav__icon md-icon"></span>
-            Basic Discipline
+            Disciplinas Básicas
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-en/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
 <span class="md-ellipsis">
-    Mixed Methods Research
+    Investigación de Métodos Mixtos
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Investigación de Métodos Mixtos
+    
+  </span>
+</a>
+<nav aria-label="Tabla de contenidos" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#por-que-mezclar-el-efecto-sinergico-de-la-investigacion">
+<span class="md-ellipsis">
+      ¿Por qué mezclar? El efecto sinérgico de la investigación
+    </span>
+</a>
+<nav aria-label="¿Por qué mezclar? El efecto sinérgico de la investigación" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tipos-principales-de-disenos-de-metodos-mixtos">
+<span class="md-ellipsis">
+      Tipos principales de diseños de métodos mixtos
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#como-llevar-a-cabo-una-investigacion-de-metodos-mixtos">
+<span class="md-ellipsis">
+      Cómo llevar a cabo una investigación de métodos mixtos
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#casos-de-aplicacion">
+<span class="md-ellipsis">
+      Casos de aplicación
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ventajas-y-desafios-de-la-investigacion-de-metodos-mixtos">
+<span class="md-ellipsis">
+      Ventajas y desafíos de la investigación de métodos mixtos
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#extensiones-y-conexiones">
+<span class="md-ellipsis">
+      Extensiones y conexiones
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Qualitative-Research-Tutorial-es/">
+<span class="md-ellipsis">
+    Investigación Cualitativa
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/basic_discipline/Qualitative-Research-Tutorial-en/">
+<a class="md-nav__link" href="../Quantitative-Research-Tutorial-es/">
 <span class="md-ellipsis">
-    Qualitative Research
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/basic_discipline/Quantitative-Research-Tutorial-en/">
-<span class="md-ellipsis">
-    Quantitative Research
+    Investigación Cuantitativa
     
   </span>
 </a>
@@ -341,11 +406,11 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
 <span class="md-ellipsis">
-    Learning Methods
+    Métodos de Aprendizaje
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -353,21 +418,21 @@
 <nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_2_2">
 <span class="md-nav__icon md-icon"></span>
-            Learning Methods
+            Métodos de Aprendizaje
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/learning_methods/Cornell-Note-Taking-Tutorial-en/">
+<a class="md-nav__link" href="../../learning_methods/Cornell-Note-Taking-Tutorial-es/">
 <span class="md-ellipsis">
-    Cornell Note Taking
+    Método Cornell
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/learning_methods/Feynman-Technique-Tutorial-en/">
+<a class="md-nav__link" href="../../learning_methods/Feynman-Technique-Tutorial-es/">
 <span class="md-ellipsis">
-    Feynman Technique
+    Técnica Feynman
     
   </span>
 </a>
@@ -375,11 +440,11 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
 <span class="md-ellipsis">
-    Logical Thinking
+    Pensamiento Lógico
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -387,21 +452,21 @@
 <nav aria-expanded="false" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_2_3">
 <span class="md-nav__icon md-icon"></span>
-            Logical Thinking
+            Pensamiento Lógico
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/logical_thinking/First-Principles-Thinking-Tutorial-en/">
+<a class="md-nav__link" href="../../logical_thinking/First-Principles-Thinking-Tutorial-es/">
 <span class="md-ellipsis">
-    First Principles Thinking
+    Pensamiento de Primeros Principios
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/logical_thinking/Pyramid-Principle-Tutorial-en/">
+<a class="md-nav__link" href="../../logical_thinking/Pyramid-Principle-Tutorial-es/">
 <span class="md-ellipsis">
-    Pyramid Principle
+    Principio Piramidal
     
   </span>
 </a>
@@ -409,11 +474,11 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
 <span class="md-ellipsis">
-    Scientific Inquiry Paradigm
+    Paradigma de Investigación Científica
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -421,29 +486,29 @@
 <nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_2_4">
 <span class="md-nav__icon md-icon"></span>
-            Scientific Inquiry Paradigm
+            Paradigma de Investigación Científica
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-en/">
+<a class="md-nav__link" href="../../scientific_inquiry_paradigm/Correlational-Research-Tutorial-es/">
 <span class="md-ellipsis">
-    Correlational Research
+    Investigación Correlacional
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-en/">
+<a class="md-nav__link" href="../../scientific_inquiry_paradigm/Descriptive-Research-Tutorial-es/">
 <span class="md-ellipsis">
-    Descriptive Research
+    Investigación Descriptiva
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-en/">
+<a class="md-nav__link" href="../../scientific_inquiry_paradigm/Experimental-Research-Tutorial-es/">
 <span class="md-ellipsis">
-    Experimental Research
+    Investigación Experimental
     
   </span>
 </a>
@@ -451,11 +516,11 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2_5" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+<label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="">
 <span class="md-ellipsis">
-    Systems Thinking
+    Pensamiento Sistémico
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -463,21 +528,21 @@
 <nav aria-expanded="false" aria-labelledby="__nav_2_5_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_2_5">
 <span class="md-nav__icon md-icon"></span>
-            Systems Thinking
+            Pensamiento Sistémico
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/systems_thinking/Iceberg-Model-Tutorial-en/">
+<a class="md-nav__link" href="../../systems_thinking/Iceberg-Model-Tutorial-es/">
 <span class="md-ellipsis">
-    Iceberg Model
+    Modelo del Iceberg
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/systems_thinking/System-Dynamics-Tutorial-en/">
+<a class="md-nav__link" href="../../systems_thinking/System-Dynamics-Tutorial-es/">
 <span class="md-ellipsis">
-    System Dynamics
+    Dinámica de Sistemas
     
   </span>
 </a>
@@ -485,11 +550,11 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_2_6" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+<label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="">
 <span class="md-ellipsis">
-    Theory and Practice
+    Teoría y Práctica
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -497,21 +562,21 @@
 <nav aria-expanded="false" aria-labelledby="__nav_2_6_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_2_6">
 <span class="md-nav__icon md-icon"></span>
-            Theory and Practice
+            Teoría y Práctica
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/theory_and_practice/Action-Research-Tutorial-en/">
+<a class="md-nav__link" href="../../theory_and_practice/Action-Research-Tutorial-es/">
 <span class="md-ellipsis">
-    Action Research
+    Investigación-Acción
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Foundations/theory_and_practice/Grounded-Theory-Tutorial-en/">
+<a class="md-nav__link" href="../../theory_and_practice/Grounded-Theory-Tutorial-es/">
 <span class="md-ellipsis">
-    Grounded Theory
+    Teoría Fundamentada
     
   </span>
 </a>
@@ -526,7 +591,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
 <span class="md-ellipsis">
-    Strategy &amp; Business
+    Estrategia y Negocios
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -534,14 +599,14 @@
 <nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
-            Strategy &amp; Business
+            Estrategia y Negocios
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_3_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
 <span class="md-ellipsis">
-    Business Model
+    Modelo de Negocio
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -549,21 +614,21 @@
 <nav aria-expanded="false" aria-labelledby="__nav_3_1_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_3_1">
 <span class="md-nav__icon md-icon"></span>
-            Business Model
+            Modelo de Negocio
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-es/">
 <span class="md-ellipsis">
-    Business Model Canvas
+    Lienzo del Modelo de Negocio
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-es/">
 <span class="md-ellipsis">
-    Lean Canvas
+    Lienzo Lean
     
   </span>
 </a>
@@ -575,7 +640,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
 <span class="md-ellipsis">
-    Quality and Operations
+    Calidad y Operaciones
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -583,11 +648,11 @@
 <nav aria-expanded="false" aria-labelledby="__nav_3_2_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_3_2">
 <span class="md-nav__icon md-icon"></span>
-            Quality and Operations
+            Calidad y Operaciones
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/quality_and_operations/Kaizen-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Kaizen-Tutorial-es/">
 <span class="md-ellipsis">
     Kaizen
     
@@ -595,25 +660,25 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/quality_and_operations/Lean-Operations-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Lean-Operations-Tutorial-es/">
 <span class="md-ellipsis">
-    Lean Operations
+    Operaciones Lean
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/quality_and_operations/Six-Sigma-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Six-Sigma-Tutorial-es/">
 <span class="md-ellipsis">
-    Six Sigma
+    Seis Sigma
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/quality_and_operations/Total-Quality-Management-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Total-Quality-Management-Tutorial-es/">
 <span class="md-ellipsis">
-    Total Quality Management
+    Gestión de Calidad Total
     
   </span>
 </a>
@@ -625,7 +690,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
 <span class="md-ellipsis">
-    Strategic Analysis
+    Análisis Estratégico
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -633,37 +698,37 @@
 <nav aria-expanded="false" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_3_3">
 <span class="md-nav__icon md-icon"></span>
-            Strategic Analysis
+            Análisis Estratégico
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/strategic_analysis/PESTEL-Analysis-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/PESTEL-Analysis-Tutorial-es/">
 <span class="md-ellipsis">
-    PESTEL Analysis
+    Análisis PESTEL
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/strategic_analysis/Porters-Five-Forces-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Porters-Five-Forces-Tutorial-es/">
 <span class="md-ellipsis">
-    Porters Five Forces
+    Cinco Fuerzas de Porter
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/strategic_analysis/SWOT-Analysis-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/SWOT-Analysis-Tutorial-es/">
 <span class="md-ellipsis">
-    SWOT Analysis
+    Análisis SWOT
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/strategic_analysis/Value-Chain-Analysis-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Value-Chain-Analysis-Tutorial-es/">
 <span class="md-ellipsis">
-    Value Chain Analysis
+    Análisis de la Cadena de Valor
     
   </span>
 </a>
@@ -675,7 +740,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_3_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
 <span class="md-ellipsis">
-    Strategic Execution
+    Ejecución Estratégica
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -683,21 +748,21 @@
 <nav aria-expanded="false" aria-labelledby="__nav_3_4_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_3_4">
 <span class="md-nav__icon md-icon"></span>
-            Strategic Execution
+            Ejecución Estratégica
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/strategic_execution/Balanced-Scorecard-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Balanced-Scorecard-Tutorial-es/">
 <span class="md-ellipsis">
-    Balanced Scorecard
+    Cuadro de Mando Integral
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Strategy%20%26%20Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-en/">
+<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-es/">
 <span class="md-ellipsis">
-    Blue Ocean Strategy
+    Estrategia del Océano Azul
     
   </span>
 </a>
@@ -712,7 +777,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
 <span class="md-ellipsis">
-    Problem Solving &amp; Decision Making
+    Resolución de Problemas y Toma de Decisiones
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -720,14 +785,14 @@
 <nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
-            Problem Solving &amp; Decision Making
+            Resolución de Problemas y Toma de Decisiones
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
 <span class="md-ellipsis">
-    Decision Making
+    Toma de Decisiones
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -735,29 +800,29 @@
 <nav aria-expanded="false" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_4_1">
 <span class="md-nav__icon md-icon"></span>
-            Decision Making
+            Toma de Decisiones
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Cost-Benefit-Analysis-Tutorial-es/">
 <span class="md-ellipsis">
-    Cost Benefit Analysis
+    Análisis Costo-Beneficio
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-es/">
 <span class="md-ellipsis">
-    Decision Matrix
+    Matriz de Decisión
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/decision_making/Pareto-Analysis-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/decision_making/Pareto-Analysis-Tutorial-es/">
 <span class="md-ellipsis">
-    Pareto Analysis
+    Análisis de Pareto
     
   </span>
 </a>
@@ -769,7 +834,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_4_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
 <span class="md-ellipsis">
-    Ideation
+    Generación de Ideas
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -777,29 +842,29 @@
 <nav aria-expanded="false" aria-labelledby="__nav_4_2_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_4_2">
 <span class="md-nav__icon md-icon"></span>
-            Ideation
+            Generación de Ideas
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/ideation/Brainstorming-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Brainstorming-Tutorial-es/">
 <span class="md-ellipsis">
-    Brainstorming
+    Lluvia de Ideas
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/ideation/Mind-Mapping-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Mind-Mapping-Tutorial-es/">
 <span class="md-ellipsis">
-    Mind Mapping
+    Mapa Mental
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/ideation/Six-Thinking-Hats-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/ideation/Six-Thinking-Hats-Tutorial-es/">
 <span class="md-ellipsis">
-    Six Thinking Hats
+    Seis Sombreros para Pensar
     
   </span>
 </a>
@@ -811,7 +876,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_4_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
 <span class="md-ellipsis">
-    Problem Solving
+    Resolución de Problemas
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -819,61 +884,61 @@
 <nav aria-expanded="false" aria-labelledby="__nav_4_3_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_4_3">
 <span class="md-nav__icon md-icon"></span>
-            Problem Solving
+            Resolución de Problemas
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/problem_solving/Fishbone-Diagram-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Fishbone-Diagram-Tutorial-es/">
 <span class="md-ellipsis">
-    Fishbone Diagram
+    Diagrama de Espina de Pescado
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/problem_solving/Five-Whys-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Five-Whys-Tutorial-es/">
 <span class="md-ellipsis">
-    Five Whys
+    Cinco Por Qué
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/problem_solving/Gap-Analysis-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Gap-Analysis-Tutorial-es/">
 <span class="md-ellipsis">
-    Gap Analysis
+    Análisis de Brechas
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/problem_solving/Gemba-Walk-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Gemba-Walk-Tutorial-es/">
 <span class="md-ellipsis">
-    Gemba Walk
+    Caminata Gemba
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/problem_solving/Logic-Tree-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Logic-Tree-Tutorial-es/">
 <span class="md-ellipsis">
-    Logic Tree
+    Árbol Lógico
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/problem_solving/Problem-Solving-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Problem-Solving-es/">
 <span class="md-ellipsis">
-    Problem Solving
+    Resolución de Problemas
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/problem_solving/Six-Thinking-Hats-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/problem_solving/Six-Thinking-Hats-Tutorial-es/">
 <span class="md-ellipsis">
-    Six Thinking Hats
+    Seis Sombreros para Pensar
     
   </span>
 </a>
@@ -885,7 +950,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_4_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
 <span class="md-ellipsis">
-    Root Cause Analysis
+    Análisis de Causa Raíz
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -893,21 +958,21 @@
 <nav aria-expanded="false" aria-labelledby="__nav_4_4_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_4_4">
 <span class="md-nav__icon md-icon"></span>
-            Root Cause Analysis
+            Análisis de Causa Raíz
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/5-Whys-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/5-Whys-Tutorial-es/">
 <span class="md-ellipsis">
-    5 Whys
+    Cinco Por Qué
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/Fishbone-Diagram-Tutorial-en/">
+<a class="md-nav__link" href="../../../Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/Fishbone-Diagram-Tutorial-es/">
 <span class="md-ellipsis">
-    Fishbone Diagram
+    Diagrama de Espina de Pescado
     
   </span>
 </a>
@@ -922,7 +987,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
 <span class="md-ellipsis">
-    Product &amp; User
+    Producto y Usuario
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -930,14 +995,14 @@
 <nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_5">
 <span class="md-nav__icon md-icon"></span>
-            Product &amp; User
+            Producto y Usuario
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_5_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
 <span class="md-ellipsis">
-    Product Development
+    Desarrollo de Productos
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -945,11 +1010,11 @@
 <nav aria-expanded="false" aria-labelledby="__nav_5_1_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_5_1">
 <span class="md-nav__icon md-icon"></span>
-            Product Development
+            Desarrollo de Productos
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/product_development/Agile-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Agile-Tutorial-es/">
 <span class="md-ellipsis">
     Agile
     
@@ -957,7 +1022,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/product_development/Design-Thinking-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Design-Thinking-Tutorial-es/">
 <span class="md-ellipsis">
     Design Thinking
     
@@ -965,7 +1030,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/product_development/Kanban-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Kanban-Tutorial-es/">
 <span class="md-ellipsis">
     Kanban
     
@@ -973,7 +1038,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/product_development/Scrum-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Scrum-Tutorial-es/">
 <span class="md-ellipsis">
     Scrum
     
@@ -987,7 +1052,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
 <span class="md-ellipsis">
-    Specialized Qualitative Methods
+    Métodos Cualitativos Especializados
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -995,21 +1060,21 @@
 <nav aria-expanded="false" aria-labelledby="__nav_5_2_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_5_2">
 <span class="md-nav__icon md-icon"></span>
-            Specialized Qualitative Methods
+            Métodos Cualitativos Especializados
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/specialized_qualitative_methods/Case-Study-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/specialized_qualitative_methods/Case-Study-Tutorial-es/">
 <span class="md-ellipsis">
-    Case Study
+    Estudio de Caso
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/specialized_qualitative_methods/Ethnography-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/specialized_qualitative_methods/Ethnography-Tutorial-es/">
 <span class="md-ellipsis">
-    Ethnography
+    Etnografía
     
   </span>
 </a>
@@ -1021,7 +1086,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
 <span class="md-ellipsis">
-    Testing and Validation
+    Pruebas y Validación
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -1029,19 +1094,19 @@
 <nav aria-expanded="false" aria-labelledby="__nav_5_3_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_5_3">
 <span class="md-nav__icon md-icon"></span>
-            Testing and Validation
+            Pruebas y Validación
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/testing_and_validation/AB-Testing-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/AB-Testing-Tutorial-es/">
 <span class="md-ellipsis">
-    A/B Testing
+    Pruebas A/B
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/testing_and_validation/MVP-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/MVP-Tutorial-es/">
 <span class="md-ellipsis">
     MVP
     
@@ -1049,9 +1114,9 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/testing_and_validation/Usability-Testing-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/Usability-Testing-Tutorial-es/">
 <span class="md-ellipsis">
-    Usability Testing
+    Pruebas de Usabilidad
     
   </span>
 </a>
@@ -1063,7 +1128,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_5_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
 <span class="md-ellipsis">
-    Time Dimension Design
+    Diseño de Dimensión Temporal
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -1071,21 +1136,21 @@
 <nav aria-expanded="false" aria-labelledby="__nav_5_4_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_5_4">
 <span class="md-nav__icon md-icon"></span>
-            Time Dimension Design
+            Diseño de Dimensión Temporal
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/time_dimension_design/Cross-Sectional-Research-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/time_dimension_design/Cross-Sectional-Research-Tutorial-es/">
 <span class="md-ellipsis">
-    Cross-Sectional Research
+    Investigación Transversal
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/time_dimension_design/Longitudinal-Research-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/time_dimension_design/Longitudinal-Research-Tutorial-es/">
 <span class="md-ellipsis">
-    Longitudinal Research
+    Investigación Longitudinal
     
   </span>
 </a>
@@ -1097,7 +1162,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_5_5" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
 <span class="md-ellipsis">
-    User Research
+    Investigación de Usuarios
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -1105,29 +1170,29 @@
 <nav aria-expanded="false" aria-labelledby="__nav_5_5_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_5_5">
 <span class="md-nav__icon md-icon"></span>
-            User Research
+            Investigación de Usuarios
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/user_research/Empathy-Map-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/Empathy-Map-Tutorial-es/">
 <span class="md-ellipsis">
-    Empathy Map
+    Mapa de Empatía
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/user_research/User-Journey-Map-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/User-Journey-Map-Tutorial-es/">
 <span class="md-ellipsis">
-    User Journey Map
+    Mapa del Viaje del Usuario
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Product%20%26%20User/user_research/User-Persona-Tutorial-en/">
+<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/User-Persona-Tutorial-es/">
 <span class="md-ellipsis">
-    User Persona
+    Persona del Usuario
     
   </span>
 </a>
@@ -1142,7 +1207,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
 <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
 <span class="md-ellipsis">
-    Personal &amp; Team Productivity
+    Productividad Personal y de Equipo
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -1150,14 +1215,14 @@
 <nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_6">
 <span class="md-nav__icon md-icon"></span>
-            Personal &amp; Team Productivity
+            Productividad Personal y de Equipo
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" id="__nav_6_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
 <span class="md-ellipsis">
-    Feedback Techniques
+    Técnicas de Retroalimentación
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -1165,13 +1230,13 @@
 <nav aria-expanded="false" aria-labelledby="__nav_6_1_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_6_1">
 <span class="md-nav__icon md-icon"></span>
-            Feedback Techniques
+            Técnicas de Retroalimentación
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-es/">
 <span class="md-ellipsis">
-    SBI Feedback Model
+    Modelo de Retroalimentación SBI
     
   </span>
 </a>
@@ -1183,7 +1248,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_6_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
 <span class="md-ellipsis">
-    Goal Management
+    Gestión de Objetivos
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -1191,11 +1256,11 @@
 <nav aria-expanded="false" aria-labelledby="__nav_6_2_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_6_2">
 <span class="md-nav__icon md-icon"></span>
-            Goal Management
+            Gestión de Objetivos
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/goal_management/KPI-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/KPI-Tutorial-es/">
 <span class="md-ellipsis">
     KPI
     
@@ -1203,7 +1268,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/goal_management/OKR-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/OKR-Tutorial-es/">
 <span class="md-ellipsis">
     OKR
     
@@ -1211,9 +1276,9 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/goal_management/SMART-Goals-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/SMART-Goals-Tutorial-es/">
 <span class="md-ellipsis">
-    SMART Goals
+    Objetivos SMART
     
   </span>
 </a>
@@ -1225,7 +1290,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_6_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
 <span class="md-ellipsis">
-    Habit Formation
+    Formación de Hábitos
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -1233,21 +1298,21 @@
 <nav aria-expanded="false" aria-labelledby="__nav_6_3_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_6_3">
 <span class="md-nav__icon md-icon"></span>
-            Habit Formation
+            Formación de Hábitos
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/habit_formation/The-Habit-Loop-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/The-Habit-Loop-Tutorial-es/">
 <span class="md-ellipsis">
-    The Habit Loop
+    El Bucle del Hábito
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/habit_formation/Tiny-Habits-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/Tiny-Habits-Tutorial-es/">
 <span class="md-ellipsis">
-    Tiny Habits
+    Micro-Hábitos
     
   </span>
 </a>
@@ -1259,7 +1324,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_6_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
 <span class="md-ellipsis">
-    Meeting Effectiveness
+    Efectividad de Reuniones
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -1267,13 +1332,13 @@
 <nav aria-expanded="false" aria-labelledby="__nav_6_4_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_6_4">
 <span class="md-nav__icon md-icon"></span>
-            Meeting Effectiveness
+            Efectividad de Reuniones
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-es/">
 <span class="md-ellipsis">
-    ORID Focused Conversation
+    Conversación Enfocada ORID
     
   </span>
 </a>
@@ -1285,7 +1350,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_6_5" type="checkbox"/>
 <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
 <span class="md-ellipsis">
-    Team Collaboration
+    Colaboración de Equipo
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -1293,13 +1358,13 @@
 <nav aria-expanded="false" aria-labelledby="__nav_6_5_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_6_5">
 <span class="md-nav__icon md-icon"></span>
-            Team Collaboration
+            Colaboración de Equipo
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/team_collaboration/RACI-Matrix-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/team_collaboration/RACI-Matrix-Tutorial-es/">
 <span class="md-ellipsis">
-    RACI Matrix
+    Matriz RACI
     
   </span>
 </a>
@@ -1311,7 +1376,7 @@
 <input class="md-nav__toggle md-toggle" id="__nav_6_6" type="checkbox"/>
 <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
 <span class="md-ellipsis">
-    Time Management
+    Gestión del Tiempo
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -1319,19 +1384,19 @@
 <nav aria-expanded="false" aria-labelledby="__nav_6_6_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_6_6">
 <span class="md-nav__icon md-icon"></span>
-            Time Management
+            Gestión del Tiempo
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/time_management/Eisenhower-Matrix-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Eisenhower-Matrix-Tutorial-es/">
 <span class="md-ellipsis">
-    Eisenhower Matrix
+    Matriz de Eisenhower
     
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/time_management/GTD-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/GTD-Tutorial-es/">
 <span class="md-ellipsis">
     GTD
     
@@ -1339,9 +1404,9 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../en/Personal%20%26%20Team%20Productivity/time_management/Pomodoro-Technique-Tutorial-en/">
+<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Pomodoro-Technique-Tutorial-es/">
 <span class="md-ellipsis">
-    Pomodoro Technique
+    Técnica Pomodoro
     
   </span>
 </a>
@@ -1361,22 +1426,21 @@
 <article class="md-content__inner md-typeset">
 <h1 id="investigacion-de-metodos-mixtos">Investigación de Métodos Mixtos<a class="headerlink" href="#investigacion-de-metodos-mixtos" title="Permanent link">¶</a></h1>
 <p>En el ámbito de la investigación, durante mucho tiempo han existido dos paradigmas principales: <strong>la investigación cuantitativa</strong>, que utiliza números y estadísticas como herramientas, y busca mediciones objetivas y sistemáticas de fenómenos sociales y naturales; y <strong>la investigación cualitativa</strong>, que se centra en el lenguaje y el contexto, explorando los significados profundos de las experiencias humanas. La primera persigue objetividad y universalidad, mientras que la segunda busca profundidad y significado. Sin embargo, cada vez más investigadores descubren que cualquier método individual es como un ciego que toca un elefante, solo percibiendo una parte de la realidad. La <strong>Investigación de Métodos Mixtos</strong> surgió no como una simple suma de dos métodos, sino como una filosofía de investigación más madura y sabia.</p>
-<p>Su idea central es integrar estratégica y sistemáticamente datos cuantitativos y cualitativos, junto con sus métodos de análisis, dentro de un mismo proyecto de investigación, con el fin de obtener una comprensión más completa, profunda y multidimensional que cualquier método individual podría proporcionar. Se cree que los números pueden revelar la amplitud de los patrones, mientras que las historias pueden revelar la profundidad detrás de dichos patrones. La combinación de ambos puede hacer que las conclusiones de la investigación sean más sólidas e iluminadoras.</p>
+<p>Su idea central es integrar estratégica y sistemáticamente datos cuantitativos y cualitativos junto con sus métodos de análisis dentro de un mismo proyecto de investigación, con el fin de obtener una comprensión más completa, profunda y multidimensional que cualquier método individual podría proporcionar. Se cree que los números pueden revelar la amplitud de los patrones, mientras que las historias pueden revelar la profundidad detrás de esos patrones. La combinación de ambos puede hacer que las conclusiones de la investigación sean más sólidas e iluminadoras.</p>
 <h2 id="por-que-mezclar-el-efecto-sinergico-de-la-investigacion">¿Por qué mezclar? El efecto sinérgico de la investigación<a class="headerlink" href="#por-que-mezclar-el-efecto-sinergico-de-la-investigacion" title="Permanent link">¶</a></h2>
 <p>El atractivo de la investigación de métodos mixtos radica en su capacidad para lograr un efecto sinérgico de "1+1&gt;2". Dependiendo del propósito de la integración, su valor fundamental se refleja principalmente en los siguientes aspectos:</p>
 <ul>
 <li>
-<p><strong>Triangulación</strong>: Este es el propósito más común. Consiste en utilizar datos de un método para verificar o respaldar conclusiones obtenidas mediante otro método. Si los resultados de una encuesta cuantitativa y los hallazgos de entrevistas cualitativas se corroboran mutuamente, la fiabilidad de las conclusiones de la investigación se verá considerablemente aumentada.</p>
+<p><strong>Triangulación</strong>: Es el propósito más común. Consiste en utilizar datos de un método para verificar o respaldar conclusiones obtenidas a partir de otro método. Si los resultados de una encuesta cuantitativa y los hallazgos de entrevistas cualitativas se corroboran mutuamente, la fiabilidad de las conclusiones de la investigación se verá considerablemente reforzada.</p>
 </li>
 <li>
-<p><strong>Complementariedad</strong>: Utilizar las fortalezas de un método para compensar las debilidades del otro. Por ejemplo, emplear entrevistas cualitativas para explicar profundamente una relación estadística inesperada hallada en una encuesta cuantitativa, permitiéndonos conocer no solo "qué" sino también "por qué".</p>
+<p><strong>Complementariedad</strong>: Utilizar las fortalezas de un método para compensar las debilidades del otro. Por ejemplo, emplear entrevistas cualitativas para explicar profundamente una relación estadística inesperada hallada en una encuesta cuantitativa, permitiéndonos conocer no solo el "qué", sino también el "por qué".</p>
 </li>
-<li><strong>Desarrollo</strong>: Utilizar los hallazgos de un método para guiar la implementación de otro. Por ejemplo, realizar primero entrevistas cualitativas exploratorias para identificar temas y variables clave, y luego diseñar un cuestionario para una encuesta a gran escala más enfocada basada en esos hallazgos.</li>
+<li><strong>Desarrollo</strong>: Utilizar los hallazgos de un método para guiar la implementación de otro. Por ejemplo, realizar primero entrevistas cualitativas exploratorias para identificar temas y variables clave, y luego diseñar un cuestionario para una encuesta a gran escala basado en esos hallazgos.</li>
 <li><strong>Iniciación</strong>: Cuando la investigación cuantitativa y cualitativa producen resultados contradictorios o paradójicos, esto en sí mismo constituye un descubrimiento valioso y significativo. Puede desafiar teorías existentes e inspirar nuevos planteamientos e investigaciones más profundas.</li>
 </ul>
 <h3 id="tipos-principales-de-disenos-de-metodos-mixtos">Tipos principales de diseños de métodos mixtos<a class="headerlink" href="#tipos-principales-de-disenos-de-metodos-mixtos" title="Permanent link">¶</a></h3>
 <p>La investigación de métodos mixtos cuenta con diversos patrones de diseño, entre los cuales los tres principales son:</p>
-<!--
 <pre class="mermaid"><code>graph TD
     subgraph "Common Mixed-Methods Designs"
         A[Start] --&gt; B{Priority};
@@ -1389,7 +1453,6 @@
         E -- "Sequential" --&gt; H["Exploratory Sequential Design&lt;br/&gt;(QUAL -&gt; quan)&lt;br/&gt;- First, explore with qualitative data&lt;br/&gt;- Then, use findings to build a quantitative&lt;br/&gt;instrument or theory to test"];
         D -- "Concurrent" --&gt; I["Embedded Design&lt;br/&gt;(QUAN(qual) or QUAL(quan))&lt;br/&gt;- One type of data is embedded within a larger&lt;br/&gt;design of the other data type&lt;br/&gt;- e.g., A qualitative case study within a larger&lt;br/&gt;quantitative experiment"];
     end</code></pre>
--->
 <h2 id="como-llevar-a-cabo-una-investigacion-de-metodos-mixtos">Cómo llevar a cabo una investigación de métodos mixtos<a class="headerlink" href="#como-llevar-a-cabo-una-investigacion-de-metodos-mixtos" title="Permanent link">¶</a></h2>
 <ol>
 <li>
@@ -1398,7 +1461,7 @@
 </li>
 <li>
 <p><strong>Elegir el diseño mixto adecuado</strong>
-    Basándose en el propósito y preguntas de investigación, seleccione el patrón de integración más adecuado. ¿Se trata de una integración simultánea (diseño convergente) o secuencial (diseño secuencial)? ¿Qué método debe preceder al otro?</p>
+    Basándose en el propósito y preguntas de investigación, seleccione el patrón de integración más adecuado. ¿Se trata de un diseño simultáneo (diseño convergente) o secuencial (diseño secuencial)? ¿Cuál método debe preceder al otro?</p>
 </li>
 <li>
 <p><strong>Recopilar y analizar datos por etapas</strong>
@@ -1406,17 +1469,17 @@
 </li>
 <li>
 <p><strong>Fase clave de integración</strong>
-    Esta es la parte central y más desafiante de la investigación de métodos mixtos. Necesita conectar significativamente dos tipos de datos diferentes en el "punto de integración". Esto podría implicar comparar ambos en la discusión de resultados, o utilizar datos cualitativos para explicar grupos específicos en los datos cuantitativos, o construir ítems de encuesta cuantitativa basados en hallazgos cualitativos.</p>
+    Esta es la parte central y más desafiante de la investigación de métodos mixtos. Necesita conectar significativamente dos tipos de datos diferentes en el "punto de integración". Esto podría implicar comparar ambos en la discusión de resultados, o utilizar datos cualitativos para explicar grupos específicos en los datos cuantitativos, o construir ítems para encuestas cuantitativas basándose en hallazgos cualitativos.</p>
 </li>
 <li>
 <p><strong>Sacar conclusiones integradas</strong>
-    Las conclusiones finales no deberían ser una simple enumeración de hallazgos cuantitativos y cualitativos, sino que deberían ofrecer ideas integradas más profundas y multidimensionales, generadas a partir de la interacción y fusión de ambos enfoques.</p>
+    Las conclusiones finales no deberían ser una simple enumeración de hallazgos cuantitativos y cualitativos, sino que deberían representar ideas integradas más profundas y multidimensionales, surgidas de la interacción y fusión de ambos métodos.</p>
 </li>
 </ol>
 <h2 id="casos-de-aplicacion">Casos de aplicación<a class="headerlink" href="#casos-de-aplicacion" title="Permanent link">¶</a></h2>
 <p><strong>Caso 1: Evaluación de un nuevo programa de beneficios para empleados</strong></p>
 <ul>
-<li><strong>Situación</strong>: Una empresa lanzó un nuevo beneficio de trabajo flexible y desea evaluar su efectividad de manera integral.</li>
+<li><strong>Situación</strong>: Una empresa lanzó un nuevo beneficio de trabajo flexible y desea evaluar su eficacia de manera integral.</li>
 <li>
 <p><strong>Aplicación (Diseño secuencial explicativo: QUAN → qual)</strong>:</p>
 <ol>
@@ -1440,13 +1503,13 @@
 <p><strong>Aplicación (Diseño secuencial exploratorio: QUAL → quan)</strong>:</p>
 <ol>
 <li>
-<p><strong>Fase cualitativa</strong>: El equipo realizó primero un estudio de "etnografía digital" durante un mes con 20 usuarios de la Generación Z, observando e investigando profundamente sus comportamientos sociales en línea, sistemas de jerga y necesidades sociales fundamentales. El estudio encontró que "interacción social sin presión" e "identidad de círculo" eran dos necesidades fundamentales.</p>
+<p><strong>Fase cualitativa</strong>: El equipo realizó primero un estudio de "etnografía digital" durante un mes con 20 usuarios de la Generación Z, observando e entrevistando profundamente sus comportamientos sociales en línea, sistemas de jerga y necesidades sociales fundamentales. El estudio encontró que "interacción social sin presión" e "identidad de círculo" eran dos necesidades fundamentales.</p>
 </li>
 <li>
-<p><strong>Fase cuantitativa</strong>: Basándose en estos hallazgos cualitativos, el equipo diseñó un cuestionario para una encuesta a gran escala con el fin de verificar la universalidad de estas necesidades y probar el atractivo de varios conceptos del producto desarrollados a partir de ellas (por ejemplo, "mensajería efímera", "emparejamiento por círculos de interés"). Los resultados mostraron que la función de "emparejamiento por círculos de interés" recibió la mayor expectativa.</p>
+<p><strong>Fase cuantitativa</strong>: Con base en estos hallazgos cualitativos, el equipo diseñó un cuestionario para una encuesta a gran escala con el fin de verificar la universalidad de estas necesidades y probar la atractividad de varios conceptos del producto desarrollados a partir de ellas (por ejemplo, "mensajería efímera", "emparejamiento por círculos de interés"). Los resultados mostraron que la función de "emparejamiento por círculos de interés" recibió la mayor expectativa.</p>
 </li>
 <li>
-<p><strong>Conclusión integrada</strong>: El núcleo del producto debe centrarse en el "emparejamiento por círculos de interés" e incorporar una filosofía de diseño "sin presión".</p>
+<p><strong>Conclusión integrada</strong>: El núcleo del producto debería centrarse en el "emparejamiento por círculos de interés" e incorporar una filosofía de diseño "sin presión".</p>
 </li>
 </ol>
 </li>
@@ -1454,15 +1517,15 @@
 <hr/>
 <p><strong>Caso 3: Investigación sobre el impacto del cambio climático en los medios de vida de los agricultores</strong></p>
 <ul>
-<li><strong>Situación</strong>: Una organización internacional de desarrollo desea comprender el impacto específico del cambio climático en agricultores pequeños de una determinada región.</li>
+<li><strong>Situación</strong>: Una organización internacional de desarrollo quiere comprender el impacto específico del cambio climático en agricultores pequeños de una determinada región.</li>
 <li>
 <p><strong>Aplicación (Diseño convergente: QUAN + QUAL)</strong>:</p>
 <ul>
 <li>
-<p>El equipo de investigación realizó simultáneamente dos tareas: por un lado, recopiló y analizó datos meteorológicos y de rendimiento de cultivos de la región durante los últimos 20 años (cuantitativo); por otro lado, se adentró en las aldeas y realizó entrevistas en profundidad con agricultores mayores, escuchando sus experiencias sobre cambios climáticos, estrategias de应对 y preocupaciones sobre el futuro (cualitativo).</p>
+<p>El equipo de investigación realizó <strong>simultáneamente</strong> dos tareas: por un lado, recopiló y analizó datos meteorológicos y de rendimiento de cultivos de la región durante los últimos 20 años (cuantitativo); por otro lado, se adentró en las aldeas y realizó entrevistas en profundidad con agricultores mayores, escuchando sus experiencias sobre cambios climáticos, estrategias de afrontamiento y preocupaciones sobre el futuro (cualitativo).</p>
 </li>
 <li>
-<p><strong>Integración</strong>: En el informe final, se presentaron conjuntamente las curvas de disminución del rendimiento de los cultivos (cuantitativo) y las historias llenas de emociones y sabiduría de vida de los agricultores mayores (cualitativo), revelando poderosamente la gravedad del cambio climático y proporcionando una evidencia sólida para los responsables de políticas.</p>
+<p><strong>Integración</strong>: En el informe final, se presentaron junto con las curvas de disminución del rendimiento (cuantitativo) las historias llenas de emociones y sabiduría de vida de los agricultores mayores (cualitativo), revelando poderosamente la gravedad del cambio climático y proporcionando evidencia sólida para los responsables de políticas.</p>
 </li>
 </ul>
 </li>
@@ -1470,20 +1533,20 @@
 <h2 id="ventajas-y-desafios-de-la-investigacion-de-metodos-mixtos">Ventajas y desafíos de la investigación de métodos mixtos<a class="headerlink" href="#ventajas-y-desafios-de-la-investigacion-de-metodos-mixtos" title="Permanent link">¶</a></h2>
 <p><strong>Ventajas principales</strong></p>
 <ul>
-<li><strong>Integral y profunda</strong>: Puede ver simultáneamente la "visión general" y el "acercamiento" de un problema, lo que lleva a conclusiones más convincentes.</li>
-<li><strong>Mayor credibilidad</strong>: La verificación mutua entre diferentes métodos (triangulación) puede mejorar considerablemente la fiabilidad de las conclusiones de investigación.</li>
+<li><strong>Integral y profunda</strong>: Permite ver simultáneamente la "visión general" y el "acercamiento" de un problema, lo que lleva a conclusiones más convincentes.</li>
+<li><strong>Mayor credibilidad</strong>: La verificación mutua entre diferentes métodos (triangulación) puede mejorar considerablemente la fiabilidad de las conclusiones de la investigación.</li>
 <li><strong>Respuestas a preguntas más complejas</strong>: Puede abordar preguntas de investigación multilayer y complejas que métodos individuales no pueden manejar.</li>
 </ul>
 <p><strong>Desafíos potenciales</strong></p>
 <ul>
-<li><strong>Diseño complejo</strong>: Requiere un diseño cuidadoso de los puntos de integración y cronogramas de ambos métodos.</li>
-<li><strong>Requiere más tiempo y esfuerzo</strong>: Suele requerir más tiempo, recursos y presupuesto que la investigación con un solo método.</li>
-<li><strong>Altos requisitos de habilidad</strong>: Requiere que los investigadores o equipos de investigación dominen tanto el paradigma cuantitativo como el cualitativo.</li>
+<li><strong>Diseño complejo</strong>: Requiere un diseño cuidadoso de los puntos de integración y cronogramas para ambos métodos.</li>
+<li><strong>Demanda de tiempo y recursos</strong>: Suele requerir más tiempo, recursos y presupuesto que la investigación con un solo método.</li>
+<li><strong>Altas exigencias de habilidades</strong>: Requiere que los investigadores o equipos de investigación dominen ambos paradigmas de investigación, cuantitativo y cualitativo.</li>
 <li><strong>Resultados potencialmente contradictorios</strong>: Cuando ambos métodos producen conclusiones inconsistentes, cómo explicarlas e integrarlas se convierte en un desafío importante (aunque también puede ser una oportunidad para grandes descubrimientos).</li>
 </ul>
 <h2 id="extensiones-y-conexiones">Extensiones y conexiones<a class="headerlink" href="#extensiones-y-conexiones" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong>Investigación cuantitativa</strong> e <strong>investigación cualitativa</strong>: Son los dos módulos básicos constitutivos de la investigación de métodos mixtos. Comprender las bases filosóficas y los detalles técnicos de ambos es un requisito previo para llevar a cabo una investigación de métodos mixtos.</li>
+<li><strong>Investigación cuantitativa</strong> e <strong>Investigación cualitativa</strong>: Son los dos módulos básicos constitutivos de la investigación de métodos mixtos. Comprender las bases filosóficas y los detalles técnicos de ambos es un requisito previo para llevar a cabo una investigación de métodos mixtos.</li>
 </ul>
 <hr/>
 <p><em>Referencia: John W. Creswell es uno de los académicos más importantes y prolíficos en el campo de la investigación de métodos mixtos. Sus obras, como "Research Design: Qualitative, Quantitative, and Mixed Methods Approaches", son lecturas esenciales tanto introductorias como avanzadas en este campo.</em></p>
@@ -1494,7 +1557,7 @@
 </div>
 <button class="md-top md-icon" data-md-component="top" hidden="" type="button">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
-  Back to top
+  Volver al principio
 </button>
 </main>
 <footer class="md-footer">
@@ -1515,7 +1578,7 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
-<script src="../../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
 </body>
 </html>
