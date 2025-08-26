@@ -1,0 +1,36 @@
+graph TD
+    subgraph Software Compilation Time is Too Long
+        direction LR
+        subgraph Manpower
+            A[Lack of concurrent programming experience]
+            B[Inconsistent code style]
+        end
+        subgraph Method
+            C[Incremental compilation not used]
+            D[Sequential build process]
+        end
+        subgraph Machine
+            E[Low build server configuration]
+            F[High network latency, slow dependency fetching]
+        end
+        subgraph Material (refers to code and dependencies here)
+            G[Introduced large third-party libraries]
+            H[Circular dependencies between modules]
+        end
+        subgraph Measurement
+            I[No compilation time monitoring]
+        end
+        subgraph Environment
+            J[Inconsistent development tool versions]
+        end
+        A & B --> Manpower
+        C & D --> Method
+        E & F --> Machine
+        G & H --> Material
+        I --> Measurement
+        J --> Environment
+        Manpower & Method & Machine & Material & Measurement & Environment --> K{ }
+        K -- Spine --> L[Problem:
+Software Compilation Time is Too Long]
+    end
+    style L fill:#f9f,stroke:#333,stroke-width:2px

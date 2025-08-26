@@ -1,0 +1,11 @@
+graph TD
+    A[1. Select a task from your to-do list] --> B(2. Set a 25-minute timer);
+    B --> C{3. Work with full concentration<br>until the timer rings};
+    C --> D{One "Pomodoro" completed};
+    D --> E{4. Mark this Pomodoro on your list};
+    E --> F{Which Pomodoro is this?};
+    F -- "1st-3rd" --> G[5. Take a 5-minute short break];
+    G --> A;
+    F -- "4th" --> H[6. Take a 15-30 minute long break];
+    H --> I[7. Clear marks, prepare for a new cycle];
+    I --> A;

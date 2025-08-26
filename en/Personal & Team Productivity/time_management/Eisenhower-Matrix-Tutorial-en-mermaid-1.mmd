@@ -1,0 +1,14 @@
+graph TD
+    subgraph Eisenhower Matrix
+        direction TB
+        subgraph Important
+            A(<b>Quadrant I: Important & Urgent</b><br/><i>Do First - Do Immediately</i><br/>- Deadlines for critical projects<br/>- Urgent client crises<br/>- Sudden health issues) --> B(<b>Quadrant II: Important but Not Urgent</b><br/><i>Schedule - Plan to Do</i><br/>- Learning new skills, career planning<br/>- Exercising, maintaining important relationships<br/>- Preventive measures, process optimization);
+        end
+
+        subgraph Not Important
+            C(<b>Quadrant III: Urgent but Not Important</b><br/><i>Delegate - Delegate to Others</i><br/>- Most meetings and phone calls<br/>- Others' non-core requests<br/>- Some "disguised" urgent chores) --> D(<b>Quadrant IV: Not Important & Not Urgent</b><br/><i>Delete - Avoid Doing</i><br/>- Meaningless social media browsing<br/>- Time-wasting entertainment<br/>- Unnecessary perfectionism);
+        end
+
+        A -- Urgent --> C;
+        B -- Not Urgent --> D;
+    end

@@ -1,0 +1,31 @@
+graph TD
+    subgraph Fishbone Diagram (6M Model)
+        direction LR
+        A(Man) --> F(Problem/Effect);
+        B(Machine) --> F;
+        C(Material) --> F;
+        D(Method) --> F;
+        E(Measurement) --> F;
+        G(Environment) --> F;
+
+        subgraph A Man
+            A1(Insufficient employee training) --> A;
+            A2(Unskilled operation) --> A1;
+        end
+        subgraph B Machine
+            B1(Aging equipment) --> B;
+            B2(Untimely maintenance) --> B;
+        end
+        subgraph C Material
+            C1(Supplier change) --> C;
+        end
+        subgraph D Method
+            D1(Outdated operating procedures) --> D;
+        end
+        subgraph E Measurement
+            E1(Measuring tools uncalibrated) --> E;
+        end
+        subgraph G Environment
+            G1(Insufficient workshop lighting) --> G;
+        end
+    end

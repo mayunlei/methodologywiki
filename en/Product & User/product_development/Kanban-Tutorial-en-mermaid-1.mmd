@@ -1,0 +1,9 @@
+graph TD
+    subgraph A Typical Software Development Kanban Board
+        direction LR
+        A(<b>Backlog</b>) --> B(<b>To Do</b><br/><i>WIP Limit: 5</i>);
+        B --> C(<b>Analysis/Design</b><br/><i>WIP Limit: 2</i>);
+        C --> D(<b>In Progress</b><br/><i>WIP Limit: 3</i>);
+        D --> E(<b>In Test</b><br/><i>WIP Limit: 2</i>);
+        E --> F(<b>Done</b>);
+    end

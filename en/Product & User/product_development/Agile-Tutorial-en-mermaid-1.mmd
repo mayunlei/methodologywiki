@@ -1,0 +1,14 @@
+graph TD
+    subgraph Agile Development Iterative and Incremental Cycle
+        A(<b>Product Backlog</b><br/>A prioritized list of<br/>all requirements) --> B(<b>Sprint Planning Meeting</b><br/>Team selects tasks to complete<br/>from top of Backlog for this iteration);
+        B --> C(<b>Sprint / Iteration</b><br/>A fixed-time, 1-4 week<br/>development cycle);
+        subgraph Sprint / Iteration (1-4 weeks)
+            direction LR
+            C1(Daily Stand-up<br/>Daily Scrum) --> C2(Development, Testing, Integration);
+        end
+        C --> C1 & C2;
+        C2 --> D(<b>Potentially Shippable Product Increment</b>);
+        D --> E(<b>Sprint Review Meeting</b><<br/>Demonstrate results to stakeholders<br/>and gather feedback);
+        E --> F(<b>Sprint Retrospective Meeting</b><br/>Team reflects and improves<br/>its own workflow);
+        F --> A;
+    end

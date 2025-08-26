@@ -1,0 +1,13 @@
+graph TD
+    subgraph Two Different Product Development Paths
+        direction LR
+        subgraph Traditional Development Model (Building a Car)
+            A(Step 1: Build a Wheel) --> B(Step 2: Build a Chassis) --> C(Step 3: Build a Car Body) --> D(<b>Step 4: Deliver a Complete Car</b><br/><i>Users gain no value until the last step</i>);
+        end
+
+        subgraph MVP Development Model (Solving the "Travel" Problem)
+            E(<b>First MVP: A Skateboard</b><br/><i>Though simple, it solves the core<br/>problem of "getting from A to B"</i>) --> F(<b>Second Version: A Scooter</b><br/><i>Adds "control" functionality</i>);
+            F --> G(<b>Third Version: A Bicycle</b><br/><i>Improves efficiency</i>) --> H(<b>Fourth Version: A Motorcycle</b><br/><i>Further improves efficiency</i>) --> I(<b>Final: A Car</b>);
+            note over E,I: At each stage, users get a usable product that solves a problem,<br/>and the team continuously learns and iterates from user feedback.
+        end
+    end

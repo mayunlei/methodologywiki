@@ -1,0 +1,19 @@
+graph TD
+    subgraph CBA["Cost-Benefit Analysis (CBA)"]
+        A[<b>A Project or Decision</b>] --> B[<b>Total Costs</b>]
+        A --> C[<b>Total Benefits</b>]
+
+        subgraph CostTypes["Types of Costs"]
+            B --> B1[<b>Direct Costs</b><br/>- Hardware/software procurement<br/>- Personnel salaries<br/>- Raw material costs]
+            B --> B2[<b>Indirect Costs</b><br/>- Office rent allocation<br/>- Utilities<br/>- Administrative expenses]
+            B --> B3[<b>Intangible Costs</b><br/>- Decreased employee morale<br/>- Reduced customer satisfaction<br/>- Damaged brand reputation]
+            B --> B4[<b>Opportunity Costs</b><br/>- Potential benefits of other investment<br/>opportunities foregone by choosing this project]
+        end
+
+        subgraph BenefitTypes["Types of Benefits"]
+            C --> C1[<b>Direct Benefits</b><br/>- Increased sales revenue<br/>- Cost savings]
+            C --> C2[<b>Indirect Benefits</b><br/>- Improved production efficiency<br/>- Increased asset value]
+            C --> C3[<b>Intangible Benefits</b><br/>- Improved customer satisfaction<br/>- Enhanced brand image<br/>- Increased employee satisfaction]
+            C --> C4[<b>Strategic Benefits</b><br/>- Expanded market share<br/>- Enhanced competitive advantage]
+        end
+    end
