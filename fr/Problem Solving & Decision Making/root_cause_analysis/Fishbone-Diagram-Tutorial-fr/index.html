@@ -1,206 +1,329 @@
 
-<!DOCTYPE html>
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Une base de connaissances dédiée à l'introduction, l'explication et l'application systématiques de diverses méthodologies puissantes, aidant les gens sur leur chemin vers le succès.">
+      
+      
+        <meta name="author" content="methodologywiki">
+      
+      
+        <link rel="canonical" href="https://methodologywiki.com/fr/Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/Fishbone-Diagram-Tutorial-fr/">
+      
+      
+        <link rel="prev" href="../5-Whys-Tutorial-fr/">
+      
+      
+        <link rel="next" href="../../../Product%20%26%20User/product_development/Agile-Tutorial-fr/">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Diagramme en arête de poisson - Wiki de la Sagesse des Méthodologies : La Voie du Succès</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
 
-<html class="no-js" lang="fr">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Une base de connaissances dédiée à l'introduction, l'explication et l'application systématiques de diverses méthodologies puissantes, aidant les gens sur leur chemin vers le succès." name="description"/>
-<meta content="methodologywiki" name="author"/>
-<link href="https://methodologywiki.com/fr/Problem%20Solving%20%26%20Decision%20Making/root_cause_analysis/Fishbone-Diagram-Tutorial-fr/" rel="canonical"/>
-<link href="../5-Whys-Tutorial-fr/" rel="prev"/>
-<link href="../../../Product%20%26%20User/product_development/Agile-Tutorial-fr/" rel="next"/>
-<link href="/" hreflang="en" rel="alternate"/>
-<link href="/zh/" hreflang="zh" rel="alternate"/>
-<link href="/es/" hreflang="es" rel="alternate"/>
-<link href="/ja/" hreflang="ja" rel="alternate"/>
-<link href="/ko/" hreflang="ko" rel="alternate"/>
-<link href="/ru/" hreflang="ru" rel="alternate"/>
-<link href="/fr/" hreflang="fr" rel="alternate"/>
-<link href="/de/" hreflang="de" rel="alternate"/>
-<link href="/pt/" hreflang="pt" rel="alternate"/>
-<link href="/nl/" hreflang="nl" rel="alternate"/>
-<link href="/vi/" hreflang="vi" rel="alternate"/>
-<link href="/sv/" hreflang="sv" rel="alternate"/>
-<link href="../../../../favicon.ico" rel="icon"/>
-<meta content="mkdocs-1.6.1, mkdocs-material-9.7.1" name="generator"/>
-<title>Diagramme en arête de poisson - Wiki de la Sagesse des Méthodologies : La Voie du Succès</title>
-<link href="../../../assets/stylesheets/main.484c7ddc.min.css" rel="stylesheet"/>
-<link href="../../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
-<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="../../../../overrides/stylesheets/extra.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../overrides/stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
 <script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-VQ6RTZVF1S"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-VQ6RTZVF1S",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-VQ6RTZVF1S",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
-<script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
-</head>
-<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
-<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
-<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
-<label class="md-overlay" for="__drawer"></label>
-<div data-md-component="skip">
-<a class="md-skip" href="#diagramme-en-arete-de-poisson-diagramme-dishikawa">
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#diagramme-en-arete-de-poisson-diagramme-dishikawa" class="md-skip">
           Aller au contenu
         </a>
-</div>
-<div data-md-component="announce">
-</div>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
 <header class="md-header" data-md-component="header">
-<nav aria-label="En-tête" class="md-header__inner md-grid">
-<a aria-label="Wiki de la Sagesse des Méthodologies : La Voie du Succès" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Wiki de la Sagesse des Méthodologies : La Voie du Succès">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
-</a>
-<label class="md-header__button md-icon" for="__drawer">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
-</label>
-<div class="md-header__title" data-md-component="header-title">
-<div class="md-header__ellipsis">
-<div class="md-header__topic">
-<span class="md-ellipsis">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../../.." title="Wiki de la Sagesse des Méthodologies : La Voie du Succès" class="md-header__button md-logo" aria-label="Wiki de la Sagesse des Méthodologies : La Voie du Succès" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
             Wiki de la Sagesse des Méthodologies : La Voie du Succès
           </span>
-</div>
-<div class="md-header__topic" data-md-component="header-topic">
-<span class="md-ellipsis">
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
             
               Diagramme en arête de poisson
             
           </span>
-</div>
-</div>
-</div>
-<form class="md-header__option" data-md-component="palette">
-<input aria-label="Passer au mode sombre" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
-<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Passer au mode sombre">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
-</label>
-<input aria-label="Passer au mode clair" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
-<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Passer au mode clair">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
-</label>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Passer au mode sombre"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Passer au mode sombre" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Passer au mode clair"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Passer au mode clair" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
 </form>
-<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-<div class="md-header__option">
-<div class="md-select">
-<button aria-label="Sélectionner la langue" class="md-header__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
-</button>
-<div class="md-select__inner">
-<ul class="md-select__list">
-<li class="md-select__item">
-<a class="md-select__link" href="/" hreflang="en">
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sélectionner la langue">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="en" class="md-select__link">
               English
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/zh/" hreflang="zh">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/zh/" hreflang="zh" class="md-select__link">
               中文
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/es/" hreflang="es">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/es/" hreflang="es" class="md-select__link">
               Español
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/ja/" hreflang="ja">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/ja/" hreflang="ja" class="md-select__link">
               日本語
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/ko/" hreflang="ko">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/ko/" hreflang="ko" class="md-select__link">
               한국어
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/ru/" hreflang="ru">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/ru/" hreflang="ru" class="md-select__link">
               Русский
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/fr/" hreflang="fr">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/fr/" hreflang="fr" class="md-select__link">
               Français
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/de/" hreflang="de">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/de/" hreflang="de" class="md-select__link">
               Deutsch
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/pt/" hreflang="pt">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/pt/" hreflang="pt" class="md-select__link">
               Português
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/nl/" hreflang="nl">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/nl/" hreflang="nl" class="md-select__link">
               Nederlands
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/vi/" hreflang="vi">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/vi/" hreflang="vi" class="md-select__link">
               Tiếng Việt
             </a>
-</li>
-<li class="md-select__item">
-<a class="md-select__link" href="/sv/" hreflang="sv">
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/sv/" hreflang="sv" class="md-select__link">
               Svenska
             </a>
-</li>
-</ul>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-<label class="md-header__button md-icon" for="__search">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
-</label>
-<div class="md-search" data-md-component="search" role="dialog">
-<label class="md-search__overlay" for="__search"></label>
-<div class="md-search__inner" role="search">
-<form class="md-search__form" name="search">
-<input aria-label="Rechercher" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Rechercher" required="" spellcheck="false" type="text"/>
-<label class="md-search__icon md-icon" for="__search">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
-</label>
-<nav aria-label="Recherche" class="md-search__options">
-<button aria-label="Effacer" class="md-search__icon md-icon" tabindex="-1" title="Effacer" type="reset">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
-</button>
-</nav>
-<div class="md-search__suggest" data-md-component="search-suggest"></div>
-</form>
-<div class="md-search__output">
-<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
-<div class="md-search-result" data-md-component="search-result">
-<div class="md-search-result__meta">
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
             Initialisation de la recherche
           </div>
-<ol class="md-search-result__list" role="presentation"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="md-header__source">
-<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="Aller au dépôt">
-<div class="md-source__icon md-icon">
-<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
-</div>
-<div class="md-source__repository">
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mayunlei/methodologywiki" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
     GitHub
   </div>
 </a>
-</div>
-</nav>
+      </div>
+    
+  </nav>
+  
 </header>
-<div class="md-container" data-md-component="container">
-<nav aria-label="Onglets" class="md-tabs" data-md-component="tabs">
-<div class="md-grid">
-<ul class="md-tabs__list">
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../..">
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
         
   
   
@@ -209,9 +332,26 @@
   Accueil
 
       </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-fr/">
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-fr/" class="md-tabs__link">
           
   
   
@@ -220,9 +360,30 @@
   Fondations
 
         </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-fr/">
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-fr/" class="md-tabs__link">
           
   
   
@@ -231,9 +392,34 @@
   Stratégie et affaires
 
         </a>
-</li>
-<li class="md-tabs__item md-tabs__item--active">
-<a class="md-tabs__link" href="../../decision_making/Cost-Benefit-Analysis-Tutorial-fr/">
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../decision_making/Cost-Benefit-Analysis-Tutorial-fr/" class="md-tabs__link">
           
   
   
@@ -242,9 +428,30 @@
   Résolution de problèmes et prise de décision
 
         </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../Product%20%26%20User/product_development/Agile-Tutorial-fr/">
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Product%20%26%20User/product_development/Agile-Tutorial-fr/" class="md-tabs__link">
           
   
   
@@ -253,9 +460,30 @@
   Produit et utilisateur
 
         </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-fr/">
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-fr/" class="md-tabs__link">
           
   
   
@@ -264,1706 +492,3512 @@
   Productivité personnelle et d'équipe
 
         </a>
-</li>
-</ul>
-</div>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
 </nav>
-<main class="md-main" data-md-component="main">
-<div class="md-main__inner md-grid">
-<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
-<div class="md-sidebar__scrollwrap">
-<div class="md-sidebar__inner">
-<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
-<label class="md-nav__title" for="__drawer">
-<a aria-label="Wiki de la Sagesse des Méthodologies : La Voie du Succès" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Wiki de la Sagesse des Méthodologies : La Voie du Succès">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
-</a>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Wiki de la Sagesse des Méthodologies : La Voie du Succès" class="md-nav__button md-logo" aria-label="Wiki de la Sagesse des Méthodologies : La Voie du Succès" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
     Wiki de la Sagesse des Méthodologies : La Voie du Succès
   </label>
-<div class="md-nav__source">
-<a class="md-source" data-md-component="source" href="https://github.com/mayunlei/methodologywiki" title="Aller au dépôt">
-<div class="md-source__icon md-icon">
-<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
-</div>
-<div class="md-source__repository">
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mayunlei/methodologywiki" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
     GitHub
   </div>
 </a>
-</div>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../..">
-<span class="md-ellipsis">
-    
+    </div>
   
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Accueil
+    
+  </span>
+  
+
+      </a>
+    </li>
   
 
     
-  </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-<span class="md-ellipsis">
-    
+      
+      
   
-    Fondations
   
-
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_2">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Fondations
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Disciplines de base
-  
-
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_1_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_1">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Disciplines de base
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Fondations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Disciplines de base
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Disciplines de base
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Recherche à méthodes mixtes
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/basic_discipline/Qualitative-Research-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/basic_discipline/Qualitative-Research-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Recherche qualitative
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/basic_discipline/Quantitative-Research-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/basic_discipline/Quantitative-Research-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Recherche quantitative
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Méthodes d'apprentissage
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_2">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Méthodes d'apprentissage
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/learning_methods/Cornell-Note-Taking-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Méthodes d'apprentissage
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/learning_methods/Cornell-Note-Taking-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Méthode Cornell
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/learning_methods/Feynman-Technique-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Technique Feynman
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Pensée logique
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_3">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Pensée logique
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/logical_thinking/First-Principles-Thinking-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Pensée logique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/logical_thinking/First-Principles-Thinking-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Pensée des premiers principes
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/logical_thinking/Pyramid-Principle-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/logical_thinking/Pyramid-Principle-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Principe pyramidal
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Paradigme d'enquête scientifique
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_4">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Paradigme d'enquête scientifique
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Paradigme d'enquête scientifique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Recherche corrélationnelle
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Recherche descriptive
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Recherche expérimentale
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2_5" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Pensée systémique
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_5_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_5">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Pensée systémique
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/systems_thinking/Iceberg-Model-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Pensée systémique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/systems_thinking/Iceberg-Model-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Modèle de l'iceberg
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/systems_thinking/System-Dynamics-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/systems_thinking/System-Dynamics-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Dynamique des systèmes
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_2_6" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Théorie et pratique
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_2_6_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_6">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Théorie et pratique
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/theory_and_practice/Action-Research-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            Théorie et pratique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/theory_and_practice/Action-Research-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Recherche-action
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Foundations/theory_and_practice/Grounded-Theory-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Foundations/theory_and_practice/Grounded-Theory-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Théorie ancrée
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
   
 
     
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-<span class="md-ellipsis">
-    
+      
+      
   
-    Stratégie et affaires
   
-
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_3">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Stratégie et affaires
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Modèle d'affaires
-  
-
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_1_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_3_1">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Modèle d'affaires
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Stratégie et affaires
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modèle d'affaires
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Modèle d'affaires
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/business_model/Business-Model-Canvas-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Canevas du modèle d'affaires
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Canevas Lean
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Qualité et opérations
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_3_2">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Qualité et opérations
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Kaizen-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Qualité et opérations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/quality_and_operations/Kaizen-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Kaizen
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Lean-Operations-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/quality_and_operations/Lean-Operations-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Opérations Lean
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Six-Sigma-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/quality_and_operations/Six-Sigma-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Six Sigma
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/quality_and_operations/Total-Quality-Management-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/quality_and_operations/Total-Quality-Management-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Gestion de la qualité totale
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Analyse stratégique
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_3_3">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Analyse stratégique
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/PESTEL-Analysis-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Analyse stratégique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/strategic_analysis/PESTEL-Analysis-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Analyse PESTEL
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Porters-Five-Forces-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/strategic_analysis/Porters-Five-Forces-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Cinq forces de Porter
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/SWOT-Analysis-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/strategic_analysis/SWOT-Analysis-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Analyse SWOT
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_analysis/Value-Chain-Analysis-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/strategic_analysis/Value-Chain-Analysis-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Analyse de la chaîne de valeur
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_3_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Exécution stratégique
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_3_4">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Exécution stratégique
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Balanced-Scorecard-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Exécution stratégique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/strategic_execution/Balanced-Scorecard-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Tableau de bord équilibré
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Strategy%20%26%20Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Strategy%20%26%20Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Stratégie de l'océan bleu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
   
 
     
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
-<span class="md-ellipsis">
+      
+      
+  
+  
     
   
-    Résolution de problèmes et prise de décision
   
-
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_4">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
+  
+  <span class="md-ellipsis">
     Résolution de problèmes et prise de décision
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
-<span class="md-ellipsis">
-    
-  
-    Prise de décision
-  
-
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_4_1">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Prise de décision
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../decision_making/Cost-Benefit-Analysis-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Résolution de problèmes et prise de décision
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Prise de décision
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Prise de décision
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../decision_making/Cost-Benefit-Analysis-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Analyse coûts-avantages
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../decision_making/Decision-Matrix-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../decision_making/Decision-Matrix-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Matrice de décision
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../decision_making/Pareto-Analysis-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../decision_making/Pareto-Analysis-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Analyse de Pareto
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
-<span class="md-ellipsis">
-    
-  
-    Génération d'idées
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_4_2">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
             
   
+  
+  <span class="md-ellipsis">
     Génération d'idées
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../ideation/Brainstorming-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Génération d'idées
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ideation/Brainstorming-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Remue-méninges
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../ideation/Mind-Mapping-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ideation/Mind-Mapping-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Carte mentale
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../ideation/Six-Thinking-Hats-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ideation/Six-Thinking-Hats-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Six chapeaux de la pensée
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_4_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="">
-<span class="md-ellipsis">
-    
-  
-    Résolution de problèmes
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_4_3">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="">
             
   
+  
+  <span class="md-ellipsis">
     Résolution de problèmes
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../problem_solving/Fishbone-Diagram-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Résolution de problèmes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../problem_solving/Fishbone-Diagram-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Diagramme en arête de poisson
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../problem_solving/Five-Whys-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../problem_solving/Five-Whys-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Cinq pourquoi
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../problem_solving/Gap-Analysis-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../problem_solving/Gap-Analysis-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Analyse des écarts
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../problem_solving/Gemba-Walk-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../problem_solving/Gemba-Walk-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Marche Gemba
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../problem_solving/Logic-Tree-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../problem_solving/Logic-Tree-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Arbre logique
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../problem_solving/Problem-Solving-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../problem_solving/Problem-Solving-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Résolution de problèmes
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../problem_solving/Six-Thinking-Hats-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../problem_solving/Six-Thinking-Hats-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Six chapeaux de la pensée
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_4_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
-<span class="md-ellipsis">
-    
-  
-    Analyse des causes profondes
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="true" aria-labelledby="__nav_4_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_4_4">
-<span class="md-nav__icon md-icon"></span>
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
             
   
+  
+  <span class="md-ellipsis">
     Analyse des causes profondes
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../5-Whys-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Analyse des causes profondes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5-Whys-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Cinq pourquoi
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-<span class="md-ellipsis">
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
     Diagramme en arête de poisson
-  
-
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
-<span class="md-ellipsis">
-    
   
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
     Diagramme en arête de poisson
-  
-
     
   </span>
-</a>
-<nav aria-label="Table des matières" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
       Table des matières
     </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#structure-dun-diagramme-en-arete-de-poisson">
-<span class="md-ellipsis">
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
-        Structure d'un diagramme en arête de poisson
-      
+        <li class="md-nav__item">
+  <a href="#structure-dun-diagramme-en-arete-de-poisson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure d'un diagramme en arête de poisson
     </span>
-</a>
-<nav aria-label="Structure d'un diagramme en arête de poisson" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#modeles-classiques-de-classification-des-causes-grandes-aretes">
-<span class="md-ellipsis">
-      
-        Modèles classiques de classification des causes (Grandes arêtes)
-      
-    </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#comment-dessiner-et-utiliser-un-diagramme-en-arete-de-poisson">
-<span class="md-ellipsis">
-      
-        Comment dessiner et utiliser un diagramme en arête de poisson
-      
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#cas-dapplication">
-<span class="md-ellipsis">
-      
-        Cas d'application
-      
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#avantages-et-defis-du-diagramme-en-arete-de-poisson">
-<span class="md-ellipsis">
-      
-        Avantages et défis du diagramme en arête de poisson
-      
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#extensions-et-connexions">
-<span class="md-ellipsis">
-      
-        Extensions et connexions
-      
-    </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
-<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-<span class="md-ellipsis">
-    
+  </a>
   
-    Produit et utilisateur
+    <nav class="md-nav" aria-label="Structure d&#39;un diagramme en arête de poisson">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modeles-classiques-de-classification-des-causes-grandes-aretes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modèles classiques de classification des causes (Grandes arêtes)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-dessiner-et-utiliser-un-diagramme-en-arete-de-poisson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comment dessiner et utiliser un diagramme en arête de poisson
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cas-dapplication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cas d'application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#avantages-et-defis-du-diagramme-en-arete-de-poisson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avantages et défis du diagramme en arête de poisson
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extensions-et-connexions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extensions et connexions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
   
 
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_5">
-<span class="md-nav__icon md-icon"></span>
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Produit et utilisateur
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_5_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Développement de produits
-  
-
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_5_1_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_5_1">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Développement de produits
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Agile-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Produit et utilisateur
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Développement de produits
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Développement de produits
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/product_development/Agile-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Agile
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Design-Thinking-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/product_development/Design-Thinking-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Design Thinking
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Kanban-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/product_development/Kanban-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Kanban
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/product_development/Scrum-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/product_development/Scrum-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Scrum
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Méthodes qualitatives spécialisées
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_5_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_5_2">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Méthodes qualitatives spécialisées
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/specialized_qualitative_methods/Case-Study-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Méthodes qualitatives spécialisées
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/specialized_qualitative_methods/Case-Study-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Étude de cas
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/specialized_qualitative_methods/Ethnography-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/specialized_qualitative_methods/Ethnography-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Ethnographie
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Test et validation
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_5_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_5_3">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Test et validation
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/AB-Testing-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Test et validation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/testing_and_validation/AB-Testing-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Test A/B
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/MVP-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/testing_and_validation/MVP-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     MVP
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/testing_and_validation/Usability-Testing-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/testing_and_validation/Usability-Testing-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Test d'utilisabilité
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_5_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Conception de la dimension temporelle
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_5_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_5_4">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Conception de la dimension temporelle
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/time_dimension_design/Cross-Sectional-Research-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            Conception de la dimension temporelle
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/time_dimension_design/Cross-Sectional-Research-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Recherche transversale
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/time_dimension_design/Longitudinal-Research-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/time_dimension_design/Longitudinal-Research-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Recherche longitudinale
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_5_5" type="checkbox"/>
-<label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Recherche utilisateur
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_5_5_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_5_5">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Recherche utilisateur
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/Empathy-Map-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            Recherche utilisateur
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/user_research/Empathy-Map-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Carte d'empathie
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/User-Journey-Map-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/user_research/User-Journey-Map-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Carte du parcours utilisateur
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Product%20%26%20User/user_research/User-Persona-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Product%20%26%20User/user_research/User-Persona-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Persona utilisateur
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
   
 
     
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
-<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-<span class="md-ellipsis">
-    
+      
+      
   
-    Productivité personnelle et d'équipe
   
-
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_6">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Productivité personnelle et d'équipe
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_6_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Techniques de feedback
-  
-
     
   </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_6_1_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_6_1">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Techniques de feedback
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Productivité personnelle et d'équipe
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Techniques de feedback
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            Techniques de feedback
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Modèle de feedback SBI
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_6_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Gestion des objectifs
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_6_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_6_2">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Gestion des objectifs
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/KPI-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Gestion des objectifs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/goal_management/KPI-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     KPI
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/OKR-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/goal_management/OKR-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     OKR
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/goal_management/SMART-Goals-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/goal_management/SMART-Goals-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Objectifs SMART
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_6_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Formation des habitudes
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_6_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_6_3">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Formation des habitudes
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/The-Habit-Loop-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Formation des habitudes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/habit_formation/The-Habit-Loop-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     La boucle des habitudes
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/habit_formation/Tiny-Habits-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/habit_formation/Tiny-Habits-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Micro-habitudes
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_6_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Efficacité des réunions
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_6_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_6_4">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Efficacité des réunions
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            Efficacité des réunions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Conversation focalisée ORID
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_6_5" type="checkbox"/>
-<label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Collaboration d'équipe
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_6_5_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_6_5">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Collaboration d'équipe
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/team_collaboration/RACI-Matrix-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Collaboration d'équipe
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/team_collaboration/RACI-Matrix-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Matrice RACI
-  
-
     
   </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_6_6" type="checkbox"/>
-<label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Gestion du temps
   
 
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
     
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_6_6_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_6_6">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
             
   
+  
+  <span class="md-ellipsis">
     Gestion du temps
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
           </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Eisenhower-Matrix-Tutorial-fr/">
-<span class="md-ellipsis">
-    
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6">
+            <span class="md-nav__icon md-icon"></span>
+            Gestion du temps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/time_management/Eisenhower-Matrix-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Matrice d'Eisenhower
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/GTD-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/time_management/GTD-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     GTD
-  
-
     
   </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Personal%20%26%20Team%20Productivity/time_management/Pomodoro-Technique-Tutorial-fr/">
-<span class="md-ellipsis">
-    
   
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Personal%20%26%20Team%20Productivity/time_management/Pomodoro-Technique-Tutorial-fr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
     Technique Pomodoro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
   
 
     
-  </span>
-</a>
-</li>
-</ul>
+  </ul>
 </nav>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</div>
-</div>
-</div>
-<div class="md-content" data-md-component="content">
-<article class="md-content__inner md-typeset">
-<h1 id="diagramme-en-arete-de-poisson-diagramme-dishikawa">Diagramme en arête de poisson (Diagramme d'Ishikawa)<a class="headerlink" href="#diagramme-en-arete-de-poisson-diagramme-dishikawa" title="Permanent link">¶</a></h1>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="diagramme-en-arete-de-poisson-diagramme-dishikawa">Diagramme en arête de poisson (Diagramme d'Ishikawa)<a class="headerlink" href="#diagramme-en-arete-de-poisson-diagramme-dishikawa" title="Permanent link">&para;</a></h1>
 <p>Lorsqu'un problème complexe survient, ses causes profondes ne sont souvent pas uniques, mais résultent de multiples facteurs interconnectés provenant de différents domaines. Si nous nous basons uniquement sur l'intuition, nous risquons facilement de négliger certaines causes potentielles importantes. Le <strong>diagramme en arête de poisson</strong>, également appelé <strong>diagramme d'Ishikawa</strong> en hommage à son inventeur, le Dr Kaoru Ishikawa, est un outil puissant et visuel d'<strong>analyse des causes racines</strong>. Son objectif principal est d'aider les équipes à <strong>identifier de manière systématique et complète</strong> toutes les causes possibles menant à un problème spécifique (effet), à l'aide d'un cadre structuré ressemblant à l'ossature d'un poisson.</p>
 <p>L'intérêt du diagramme en arête de poisson réside dans son processus de <strong>génération d'idées structurée</strong>. Il propose une série de catégories classiques de causes (les « grandes arêtes » du poisson) qui guident l'équipe pour réfléchir à partir de différentes perspectives prédéfinies, évitant ainsi les lacunes dans la réflexion. En représentant graphiquement tous les facteurs possibles tels que « Homme, Machine, Matière, Méthode, Environnement », l'équipe peut obtenir une compréhension globale et complète de la complexité du problème, et sur cette base, identifier davantage les causes clés les plus dignes d'une analyse approfondie et d'une vérification. C'est un excellent outil pour organiser les idées dispersées d'une équipe en un « panorama du problème » logique et ordonné.</p>
-<h2 id="structure-dun-diagramme-en-arete-de-poisson">Structure d'un diagramme en arête de poisson<a class="headerlink" href="#structure-dun-diagramme-en-arete-de-poisson" title="Permanent link">¶</a></h2>
+<h2 id="structure-dun-diagramme-en-arete-de-poisson">Structure d'un diagramme en arête de poisson<a class="headerlink" href="#structure-dun-diagramme-en-arete-de-poisson" title="Permanent link">&para;</a></h2>
 <p>Un diagramme en arête de poisson se compose de plusieurs parties illustratives fixes :</p>
 <ul>
 <li><strong>Tête du poisson</strong> : Située à l'extrémité droite du diagramme, généralement encadrée, elle contient le <strong>problème ou l'effet</strong> que l'on souhaite analyser. Par exemple, « Le taux de défauts des produits a augmenté de 20 % ce mois-ci. »</li>
@@ -1971,7 +4005,7 @@
 <li><strong>Grandes arêtes</strong> : Plusieurs branches principales s'étendant diagonalement à partir de l'épine centrale, représentant les grandes <strong>catégories de causes</strong> contribuant au problème. Ces catégories structurent la réflexion.</li>
 <li><strong>Sous-branches/Petites arêtes</strong> : Des branches plus petites s'étendant à partir des grandes arêtes, représentant des <strong>causes potentielles</strong> plus spécifiques identifiées par les membres de l'équipe sous chaque grande catégorie.</li>
 </ul>
-<h3 id="modeles-classiques-de-classification-des-causes-grandes-aretes">Modèles classiques de classification des causes (Grandes arêtes)<a class="headerlink" href="#modeles-classiques-de-classification-des-causes-grandes-aretes" title="Permanent link">¶</a></h3>
+<h3 id="modeles-classiques-de-classification-des-causes-grandes-aretes">Modèles classiques de classification des causes (Grandes arêtes)<a class="headerlink" href="#modeles-classiques-de-classification-des-causes-grandes-aretes" title="Permanent link">&para;</a></h3>
 <p>En fonction du secteur d'activité concerné par l'analyse, différents modèles classiques peuvent être choisis de manière flexible pour la classification des grandes arêtes du diagramme en arête de poisson :</p>
 <ul>
 <li>
@@ -1993,38 +4027,8 @@
 </ul>
 </li>
 </ul>
-<pre class="mermaid"><code>graph TD
-    subgraph Fishbone Diagram (6M Model)
-        direction LR
-        A(Man) --&gt; F(Problem/Effect);
-        B(Machine) --&gt; F;
-        C(Material) --&gt; F;
-        D(Method) --&gt; F;
-        E(Measurement) --&gt; F;
-        G(Environment) --&gt; F;
-
-        subgraph A Man
-            A1(Insufficient employee training) --&gt; A;
-            A2(Unskilled operation) --&gt; A1;
-        end
-        subgraph B Machine
-            B1(Aging equipment) --&gt; B;
-            B2(Untimely maintenance) --&gt; B;
-        end
-        subgraph C Material
-            C1(Supplier change) --&gt; C;
-        end
-        subgraph D Method
-            D1(Outdated operating procedures) --&gt; D;
-        end
-        subgraph E Measurement
-            E1(Measuring tools uncalibrated) --&gt; E;
-        end
-        subgraph G Environment
-            G1(Insufficient workshop lighting) --&gt; G;
-        end
-    end</code></pre>
-<h2 id="comment-dessiner-et-utiliser-un-diagramme-en-arete-de-poisson">Comment dessiner et utiliser un diagramme en arête de poisson<a class="headerlink" href="#comment-dessiner-et-utiliser-un-diagramme-en-arete-de-poisson" title="Permanent link">¶</a></h2>
+<p><img alt="Fishbone Diagram (6M Model)" src="../../../../docs/en/Problem Solving &amp; Decision Making/root_cause_analysis/Fishbone-Diagram-Tutorial-en-diagram.png" /></p>
+<h2 id="comment-dessiner-et-utiliser-un-diagramme-en-arete-de-poisson">Comment dessiner et utiliser un diagramme en arête de poisson<a class="headerlink" href="#comment-dessiner-et-utiliser-un-diagramme-en-arete-de-poisson" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
 <p><strong>Étape 1 : Définir clairement la « tête du poisson » (le problème)</strong>
@@ -2051,7 +4055,7 @@
     Le diagramme en arête de poisson est en soi un outil de génération d'idées et d'analyse ; il ne peut pas résoudre directement le problème. Ensuite, l'équipe doit élaborer des plans de vérification spécifiques pour les causes clés identifiées (par exemple, aller sur place pour collecter des données et vérifier si une hypothèse est vraie), puis, sur cette base, formuler les mesures finales d'amélioration.</p>
 </li>
 </ol>
-<h2 id="cas-dapplication">Cas d'application<a class="headerlink" href="#cas-dapplication" title="Permanent link">¶</a></h2>
+<h2 id="cas-dapplication">Cas d'application<a class="headerlink" href="#cas-dapplication" title="Permanent link">&para;</a></h2>
 <p><strong>Cas 1 : Analyse du problème « taux de plantage élevé de l'application logicielle »</strong></p>
 <ul>
 <li><strong>Tête du poisson</strong> : La dernière version de l'application publiée, le taux de plantage des utilisateurs a augmenté de 50 %.</li>
@@ -2070,7 +4074,7 @@
 <li><strong>Grandes arêtes</strong> : Utiliser le modèle 6M adapté au domaine médical.</li>
 <li><strong>Analyse</strong> : Une équipe pluridisciplinaire composée de médecins, d'infirmières et d'experts en contrôle des infections a conjointement réalisé un diagramme en arête de poisson. Ils ont finalement pu identifier que « l'exécution insuffisante des procédures de désinfection cutanée avant l'intervention chirurgicale » sous la grande arête « Méthode », et « le remplacement tardif des filtres du système de ventilation du service » sous la grande arête « Environnement », étaient les deux causes clés les plus suspectes. Ensuite, ils se concentreront sur ces deux points pour collecter des données et effectuer des observations sur site.</li>
 </ul>
-<h2 id="avantages-et-defis-du-diagramme-en-arete-de-poisson">Avantages et défis du diagramme en arête de poisson<a class="headerlink" href="#avantages-et-defis-du-diagramme-en-arete-de-poisson" title="Permanent link">¶</a></h2>
+<h2 id="avantages-et-defis-du-diagramme-en-arete-de-poisson">Avantages et défis du diagramme en arête de poisson<a class="headerlink" href="#avantages-et-defis-du-diagramme-en-arete-de-poisson" title="Permanent link">&para;</a></h2>
 <p><strong>Avantages principaux</strong></p>
 <ul>
 <li><strong>Structuré et complet</strong> : Fournit une structure claire qui guide l'équipe pour réfléchir systématiquement à partir de multiples dimensions, évitant efficacement les oublis.</li>
@@ -2083,43 +4087,77 @@
 <li><strong>Ne reflète pas l'importance des causes</strong> : Le diagramme en arête de poisson ne montre pas quelles causes ont le plus d'impact. Il doit être combiné à d'autres outils comme l'analyse de Pareto pour déterminer les priorités.</li>
 <li><strong>N'est qu'une collection d'« hypothèses »</strong> : Toutes les « causes » figurant sur le diagramme en arête de poisson, avant d'être validées par des données, ne sont encore que des causes « potentielles, suspectes », et non des faits avérés.</li>
 </ul>
-<h2 id="extensions-et-connexions">Extensions et connexions<a class="headerlink" href="#extensions-et-connexions" title="Permanent link">¶</a></h2>
+<h2 id="extensions-et-connexions">Extensions et connexions<a class="headerlink" href="#extensions-et-connexions" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>5 pourquoi</strong> : Le partenaire idéal du diagramme en arête de poisson. Lors de l'utilisation du diagramme en arête de poisson pour générer de manière horizontale et large les causes possibles, les 5 pourquoi peuvent être utilisés à tout moment pour effectuer une analyse verticale et approfondie de la cause racine pour une cause spécifique.</li>
 <li><strong>Génération d'idées (Brainstorming)</strong> : Le diagramme en arête de poisson fournit un cadre structuré pour la génération d'idées, rendant la création d'idées plus ordonnée et ciblée.</li>
 <li><strong>Analyse de Pareto</strong> : Après avoir identifié toutes les causes potentielles à l'aide d'un diagramme en arête de poisson, on peut collecter des données et utiliser l'analyse de Pareto pour déterminer quelles sont les causes « vitales » qui provoquent 80 % des problèmes.</li>
 </ul>
-<hr/>
+<hr />
 <p><em>Référence : Le Dr Kaoru Ishikawa fut l'un des pionniers du mouvement japonais de gestion de la qualité après la guerre. Le diagramme en arête de poisson, l'un des « Sept outils de contrôle qualité » qu'il a inventés, est largement utilisé dans les activités mondiales de gestion de la qualité et d'amélioration continue, et constitue un outil fondamental indispensable dans les pratiques de la gestion totale de la qualité (TQM) et du Six Sigma.</em></p>
-</article>
-</div>
-<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
-</div>
-<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
   Retour en haut de la page
 </button>
-</main>
-<footer class="md-footer">
-<div class="md-footer-meta md-typeset">
-<div class="md-footer-meta__inner md-grid">
-<div class="md-copyright">
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
   
   
     Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
       Material for MkDocs
     </a>
+  
 </div>
-</div>
-</div>
+      
+    </div>
+  </div>
 </footer>
-</div>
-<div class="md-dialog" data-md-component="dialog">
-<div class="md-dialog__inner md-typeset"></div>
-</div>
-<script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
-<script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
-</body>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
 </html>
