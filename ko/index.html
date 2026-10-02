@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="강력한 방법론들을 체계적으로 소개하고, 설명하며, 적용하는 데 전념하는 지식 베이스로, 사람들이 성공으로 가는 길을 돕습니다.">
+        <meta name="description" content="방법론 지혜 위키 에 오신 것을 환영합니다 — 효율적인 사고와 행동 도구를 탐구하고 숙달하기 위한 전용 보물창고입니다.">
       
       
         <meta name="author" content="methodologywiki">
@@ -19,8 +19,9 @@
         <link rel="next" href="Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-ko/">
       
       
-      <link rel="icon" href="../favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+        
+          <link rel="icon" href="../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
@@ -28,10 +29,10 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -50,7 +51,7 @@
       
     
     
-      <link rel="stylesheet" href="../overrides/stylesheets/extra.css">
+      <link rel="stylesheet" href="stylesheets/extra.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -68,8 +69,140 @@
 
     
     
-    
-  </head>
+  
+  <!-- 站点级结构化数据：实体只声明一次，统一指向根域，
+       各语言子站不再各自声明一个 WebSite 实体。页面级 Article 由
+       seo/postprocess.py 在构建后注入。 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "방법론의 지혜 위키 : 성공으로 가는 길",
+    "url": "https://methodologywiki.com/",
+    "description": "강력한 방법론들을 체계적으로 소개하고, 설명하며, 적용하는 데 전념하는 지식 베이스로, 사람들이 성공으로 가는 길을 돕습니다.",
+    "inLanguage": "ko",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://methodologywiki.com/ko/search/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MethodologyWiki",
+    "url": "https://methodologywiki.com/",
+    "logo": "https://methodologywiki.com/apple-touch-icon.png",
+    "sameAs": [
+      "https://github.com/mayunlei/methodologywiki"
+    ]
+  }
+  </script>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- SLS Web Tracking (Async, Non-blocking) -->
+  <script>
+  (function() {
+    'use strict';
+    try {
+      // --- Helper: generate random ID ---
+      function genId() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+          var r = Math.random() * 16 | 0;
+          return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
+      }
+
+      // --- Visitor ID (persistent across sessions) ---
+      var visitorId;
+      try {
+        visitorId = localStorage.getItem('_sls_vid');
+        if (!visitorId) { visitorId = genId(); localStorage.setItem('_sls_vid', visitorId); }
+      } catch(e) { visitorId = genId(); }
+
+      // --- Session ID (per browser session) ---
+      var sessionId;
+      try {
+        sessionId = sessionStorage.getItem('_sls_sid');
+        if (!sessionId) { sessionId = genId(); sessionStorage.setItem('_sls_sid', sessionId); }
+      } catch(e) { sessionId = genId(); }
+
+      // --- Parse site language from URL path ---
+      var pathParts = location.pathname.split('/').filter(Boolean);
+      var knownLangs = ['zh','es','ja','ko','ru','fr','de','pt','nl','vi','sv'];
+      var siteLang = (pathParts.length > 0 && knownLangs.indexOf(pathParts[0]) !== -1) ? pathParts[0] : 'en';
+
+      // --- Parse category from URL path ---
+      var category = '';
+      var catIndex = (siteLang === 'en') ? 1 : 2;
+      if (pathParts.length > catIndex) { category = decodeURIComponent(pathParts[catIndex]); }
+
+      // --- Build tracking params ---
+      var params = {
+        APIVersion: '0.6.0',
+        page_url: location.href,
+        page_path: location.pathname,
+        page_title: document.title || '',
+        referrer: document.referrer || '',
+        user_agent: navigator.userAgent || '',
+        screen_resolution: (screen.width || 0) + 'x' + (screen.height || 0),
+        language: navigator.language || '',
+        site_lang: siteLang,
+        timestamp: String(Date.now()),
+        session_id: sessionId,
+        visitor_id: visitorId,
+        event_type: 'pageview',
+        category: category
+      };
+
+      // --- Encode params ---
+      var qs = Object.keys(params).map(function(k) {
+        return encodeURIComponent(k) + '=' + encodeURIComponent(params[k]);
+      }).join('&');
+
+      var trackUrl = 'https://qrshare.cn-shanghai.log.aliyuncs.com/logstores/wise/track_ua.gif?' + qs;
+
+      // --- Send via GET (non-blocking, fire-and-forget) ---
+      var img = new Image(1, 1);
+      img.src = trackUrl;
+    } catch(e) {
+      // Silently fail — tracking should never break the page
+    }
+  })();
+  </script>
+
+  <!-- seo:begin -->
+<link rel="alternate" hreflang="de" href="https://methodologywiki.com/de/">
+<link rel="alternate" hreflang="en" href="https://methodologywiki.com/en/">
+<link rel="alternate" hreflang="es" href="https://methodologywiki.com/es/">
+<link rel="alternate" hreflang="fr" href="https://methodologywiki.com/fr/">
+<link rel="alternate" hreflang="ja" href="https://methodologywiki.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://methodologywiki.com/ko/">
+<link rel="alternate" hreflang="nl" href="https://methodologywiki.com/nl/">
+<link rel="alternate" hreflang="pt" href="https://methodologywiki.com/pt/">
+<link rel="alternate" hreflang="ru" href="https://methodologywiki.com/ru/">
+<link rel="alternate" hreflang="sv" href="https://methodologywiki.com/sv/">
+<link rel="alternate" hreflang="vi" href="https://methodologywiki.com/vi/">
+<link rel="alternate" hreflang="zh" href="https://methodologywiki.com/zh/">
+<link rel="alternate" hreflang="x-default" href="https://methodologywiki.com/en/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="방법론의 지혜 위키 : 성공으로 가는 길">
+<meta property="og:title" content="방법론의 지혜 위키 : 성공으로 가는 길">
+<meta property="og:description" content="방법론 지혜 위키 에 오신 것을 환영합니다 — 효율적인 사고와 행동 도구를 탐구하고 숙달하기 위한 전용 보물창고입니다.">
+<meta property="og:url" content="https://methodologywiki.com/ko/">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://methodologywiki.com/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="방법론의 지혜 위키 : 성공으로 가는 길">
+<meta name="twitter:description" content="방법론 지혜 위키 에 오신 것을 환영합니다 — 효율적인 사고와 행동 도구를 탐구하고 숙달하기 위한 전용 보물창고입니다.">
+<meta name="twitter:image" content="https://methodologywiki.com/assets/og-cover.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"방법론의 지혜 위키 : 성공으로 가는 길","description":"방법론 지혜 위키 에 오신 것을 환영합니다 — 효율적인 사고와 행동 도구를 탐구하고 숙달하기 위한 전용 보물창고입니다.","inLanguage":"ko","url":"https://methodologywiki.com/ko/","mainEntityOfPage":{"@type":"WebPage","@id":"https://methodologywiki.com/ko/"},"image":"https://methodologywiki.com/assets/og-cover.png","author":{"@type":"Organization","name":"MethodologyWiki","url":"https://methodologywiki.com/"},"publisher":{"@type":"Organization","name":"MethodologyWiki","url":"https://methodologywiki.com/","logo":{"@type":"ImageObject","url":"https://methodologywiki.com/apple-touch-icon.png"}},"isPartOf":{"@type":"WebSite","name":"방법론의 지혜 위키 : 성공으로 가는 길","url":"https://methodologywiki.com/"}}</script>
+<!-- seo:end -->
+</head>
   
   
     
@@ -293,7 +426,7 @@
         <a href="https://github.com/mayunlei/methodologywiki" title="저장소로 이동" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -533,7 +666,7 @@
       <a href="https://github.com/mayunlei/methodologywiki" title="저장소로 이동" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -564,9 +697,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     홈
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -577,9 +715,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     홈
+  
+
     
   </span>
+  
   
 
       </a>
@@ -602,7 +745,9 @@
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      탐구와 연구
+      
+        탐구와 연구
+      
     </span>
   </a>
   
@@ -612,7 +757,9 @@
           <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      기초 학문
+      
+        기초 학문
+      
     </span>
   </a>
   
@@ -621,7 +768,9 @@
           <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      과학적 탐구 패러다임
+      
+        과학적 탐구 패러다임
+      
     </span>
   </a>
   
@@ -630,7 +779,9 @@
           <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
-      시간 차원 설계
+      
+        시간 차원 설계
+      
     </span>
   </a>
   
@@ -639,7 +790,9 @@
           <li class="md-nav__item">
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
-      전문 질적 방법
+      
+        전문 질적 방법
+      
     </span>
   </a>
   
@@ -648,7 +801,9 @@
           <li class="md-nav__item">
   <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
-      이론과 실천
+      
+        이론과 실천
+      
     </span>
   </a>
   
@@ -662,7 +817,9 @@
         <li class="md-nav__item">
   <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
-      비즈니스 전략과 관리
+      
+        비즈니스 전략과 관리
+      
     </span>
   </a>
   
@@ -672,7 +829,9 @@
           <li class="md-nav__item">
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
-      전략 분석
+      
+        전략 분석
+      
     </span>
   </a>
   
@@ -681,7 +840,9 @@
           <li class="md-nav__item">
   <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
-      전략 실행
+      
+        전략 실행
+      
     </span>
   </a>
   
@@ -690,7 +851,9 @@
           <li class="md-nav__item">
   <a href="#_11" class="md-nav__link">
     <span class="md-ellipsis">
-      비즈니스 모델
+      
+        비즈니스 모델
+      
     </span>
   </a>
   
@@ -699,7 +862,9 @@
           <li class="md-nav__item">
   <a href="#_12" class="md-nav__link">
     <span class="md-ellipsis">
-      의사 결정
+      
+        의사 결정
+      
     </span>
   </a>
   
@@ -708,7 +873,9 @@
           <li class="md-nav__item">
   <a href="#_13" class="md-nav__link">
     <span class="md-ellipsis">
-      목표 관리
+      
+        목표 관리
+      
     </span>
   </a>
   
@@ -717,7 +884,9 @@
           <li class="md-nav__item">
   <a href="#_14" class="md-nav__link">
     <span class="md-ellipsis">
-      품질과 운영
+      
+        품질과 운영
+      
     </span>
   </a>
   
@@ -731,7 +900,9 @@
         <li class="md-nav__item">
   <a href="#_15" class="md-nav__link">
     <span class="md-ellipsis">
-      제품, 디자인, 혁신
+      
+        제품, 디자인, 혁신
+      
     </span>
   </a>
   
@@ -741,7 +912,9 @@
           <li class="md-nav__item">
   <a href="#_16" class="md-nav__link">
     <span class="md-ellipsis">
-      사용자 연구
+      
+        사용자 연구
+      
     </span>
   </a>
   
@@ -750,7 +923,9 @@
           <li class="md-nav__item">
   <a href="#_17" class="md-nav__link">
     <span class="md-ellipsis">
-      아이디어 생성
+      
+        아이디어 생성
+      
     </span>
   </a>
   
@@ -759,7 +934,9 @@
           <li class="md-nav__item">
   <a href="#_18" class="md-nav__link">
     <span class="md-ellipsis">
-      제품 개발
+      
+        제품 개발
+      
     </span>
   </a>
   
@@ -768,7 +945,9 @@
           <li class="md-nav__item">
   <a href="#_19" class="md-nav__link">
     <span class="md-ellipsis">
-      테스트와 검증
+      
+        테스트와 검증
+      
     </span>
   </a>
   
@@ -782,7 +961,9 @@
         <li class="md-nav__item">
   <a href="#_20" class="md-nav__link">
     <span class="md-ellipsis">
-      사고와 문제 해결
+      
+        사고와 문제 해결
+      
     </span>
   </a>
   
@@ -792,7 +973,9 @@
           <li class="md-nav__item">
   <a href="#_21" class="md-nav__link">
     <span class="md-ellipsis">
-      논리적 사고
+      
+        논리적 사고
+      
     </span>
   </a>
   
@@ -801,7 +984,9 @@
           <li class="md-nav__item">
   <a href="#_22" class="md-nav__link">
     <span class="md-ellipsis">
-      시스템 사고
+      
+        시스템 사고
+      
     </span>
   </a>
   
@@ -810,7 +995,9 @@
           <li class="md-nav__item">
   <a href="#_23" class="md-nav__link">
     <span class="md-ellipsis">
-      근본 원인 분석
+      
+        근본 원인 분석
+      
     </span>
   </a>
   
@@ -824,7 +1011,9 @@
         <li class="md-nav__item">
   <a href="#_24" class="md-nav__link">
     <span class="md-ellipsis">
-      소통과 협력
+      
+        소통과 협력
+      
     </span>
   </a>
   
@@ -834,7 +1023,9 @@
           <li class="md-nav__item">
   <a href="#_25" class="md-nav__link">
     <span class="md-ellipsis">
-      회의 효과성
+      
+        회의 효과성
+      
     </span>
   </a>
   
@@ -843,7 +1034,9 @@
           <li class="md-nav__item">
   <a href="#_26" class="md-nav__link">
     <span class="md-ellipsis">
-      피드백 기법
+      
+        피드백 기법
+      
     </span>
   </a>
   
@@ -852,7 +1045,9 @@
           <li class="md-nav__item">
   <a href="#_27" class="md-nav__link">
     <span class="md-ellipsis">
-      팀 협업
+      
+        팀 협업
+      
     </span>
   </a>
   
@@ -866,7 +1061,9 @@
         <li class="md-nav__item">
   <a href="#_28" class="md-nav__link">
     <span class="md-ellipsis">
-      개인 성장과 생산성
+      
+        개인 성장과 생산성
+      
     </span>
   </a>
   
@@ -876,7 +1073,9 @@
           <li class="md-nav__item">
   <a href="#_29" class="md-nav__link">
     <span class="md-ellipsis">
-      시간 관리
+      
+        시간 관리
+      
     </span>
   </a>
   
@@ -885,7 +1084,9 @@
           <li class="md-nav__item">
   <a href="#_30" class="md-nav__link">
     <span class="md-ellipsis">
-      학습 방법
+      
+        학습 방법
+      
     </span>
   </a>
   
@@ -894,7 +1095,9 @@
           <li class="md-nav__item">
   <a href="#_31" class="md-nav__link">
     <span class="md-ellipsis">
-      습관 형성
+      
+        습관 형성
+      
     </span>
   </a>
   
@@ -908,7 +1111,9 @@
         <li class="md-nav__item">
   <a href="#_32" class="md-nav__link">
     <span class="md-ellipsis">
-      문제 해결 도구상자
+      
+        문제 해결 도구상자
+      
     </span>
   </a>
   
@@ -964,9 +1169,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     기초
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -975,7 +1185,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            기초
+            
+  
+    기초
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1015,9 +1229,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     기초 학문
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1026,7 +1245,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
-            기초 학문
+            
+  
+    기초 학문
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1042,9 +1265,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     혼합 방법 연구
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1065,9 +1293,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     질적 연구
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1088,9 +1321,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     양적 연구
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1141,9 +1379,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     학습 방법
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1152,7 +1395,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
-            학습 방법
+            
+  
+    학습 방법
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1168,9 +1415,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     코넬 노트 필기법
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1191,9 +1443,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     파인만 기법
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1244,9 +1501,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     논리적 사고
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1255,7 +1517,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
-            논리적 사고
+            
+  
+    논리적 사고
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1271,9 +1537,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     제1원리 사고
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1294,9 +1565,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     피라미드 원리
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1349,9 +1625,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     과학적 탐구 패러다임
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1360,7 +1641,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
-            과학적 탐구 패러다임
+            
+  
+    과학적 탐구 패러다임
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1376,9 +1661,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     상관 연구
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1399,9 +1689,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     기술적 연구
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1422,9 +1717,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     실험 연구
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1475,9 +1775,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     시스템 사고
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1486,7 +1791,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
-            시스템 사고
+            
+  
+    시스템 사고
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1502,9 +1811,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     빙산 모델
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1525,9 +1839,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     시스템 다이내믹스
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1578,9 +1897,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     이론과 실천
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1589,7 +1913,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_6">
             <span class="md-nav__icon md-icon"></span>
-            이론과 실천
+            
+  
+    이론과 실천
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1605,9 +1933,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     액션 리서치
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1628,9 +1961,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     근거 이론
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1692,9 +2030,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     전략과 비즈니스
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1703,7 +2046,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            전략과 비즈니스
+            
+  
+    전략과 비즈니스
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1741,9 +2088,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     비즈니스 모델
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1752,7 +2104,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-            비즈니스 모델
+            
+  
+    비즈니스 모델
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1768,9 +2124,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     비즈니스 모델 캔버스
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1791,9 +2152,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     린 캔버스
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1848,9 +2214,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     품질과 운영
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1859,7 +2230,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            품질과 운영
+            
+  
+    품질과 운영
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1875,9 +2250,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     카이젠
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1898,9 +2278,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     린 운영
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1921,9 +2306,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     식스 시그마
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1944,9 +2334,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     전사적 품질 관리
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2001,9 +2396,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     전략 분석
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2012,7 +2412,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
-            전략 분석
+            
+  
+    전략 분석
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2028,9 +2432,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     PESTEL 분석
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2051,9 +2460,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     포터의 5가지 힘
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2074,9 +2488,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     SWOT 분석
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2097,9 +2516,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     가치 사슬 분석
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2150,9 +2574,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     전략 실행
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2161,7 +2590,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            전략 실행
+            
+  
+    전략 실행
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2177,9 +2610,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     균형 성과표
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2200,9 +2638,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     블루오션 전략
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2264,9 +2707,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     문제 해결과 의사 결정
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2275,7 +2723,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            문제 해결과 의사 결정
+            
+  
+    문제 해결과 의사 결정
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2315,9 +2767,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     의사 결정
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2326,7 +2783,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
-            의사 결정
+            
+  
+    의사 결정
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2342,9 +2803,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     비용 편익 분석
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2365,9 +2831,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     의사 결정 매트릭스
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2388,9 +2859,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     파레토 분석
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2443,9 +2919,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     아이디어 생성
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2454,7 +2935,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
-            아이디어 생성
+            
+  
+    아이디어 생성
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2470,9 +2955,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     브레인스토밍
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2493,9 +2983,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     마인드 맵
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2516,9 +3011,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     6가지 사고 모자
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2579,9 +3079,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     문제 해결
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2590,7 +3095,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
-            문제 해결
+            
+  
+    문제 해결
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2606,9 +3115,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     어골도
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2629,9 +3143,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     5가지 왜
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2652,9 +3171,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     갭 분석
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2675,9 +3199,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     겐바 워크
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2698,9 +3227,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     로직 트리
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2721,9 +3255,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     문제 해결
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2744,9 +3283,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     6가지 사고 모자
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2797,9 +3341,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     근본 원인 분석
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2808,7 +3357,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_4">
             <span class="md-nav__icon md-icon"></span>
-            근본 원인 분석
+            
+  
+    근본 원인 분석
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2824,9 +3377,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     5가지 왜
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2847,9 +3405,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     어골도
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2913,9 +3476,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     제품과 사용자
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2924,7 +3492,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            제품과 사용자
+            
+  
+    제품과 사용자
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2966,9 +3538,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     제품 개발
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2977,7 +3554,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_1">
             <span class="md-nav__icon md-icon"></span>
-            제품 개발
+            
+  
+    제품 개발
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2993,9 +3574,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     애자일
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3016,9 +3602,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     디자인 씽킹
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3039,9 +3630,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     칸반
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3062,9 +3658,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     스크럼
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3115,9 +3716,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     전문 질적 방법
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3126,7 +3732,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
-            전문 질적 방법
+            
+  
+    전문 질적 방법
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3142,9 +3752,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     사례 연구
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3165,9 +3780,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     민족지학
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3220,9 +3840,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     테스트와 검증
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3231,7 +3856,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_3">
             <span class="md-nav__icon md-icon"></span>
-            테스트와 검증
+            
+  
+    테스트와 검증
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3247,9 +3876,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     A/B 테스트
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3270,9 +3904,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     MVP
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3293,9 +3932,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     사용성 테스트
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3346,9 +3990,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     시간 차원 설계
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3357,7 +4006,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_4">
             <span class="md-nav__icon md-icon"></span>
-            시간 차원 설계
+            
+  
+    시간 차원 설계
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3373,9 +4026,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     횡단면 연구
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3396,9 +4054,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     종단면 연구
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3451,9 +4114,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     사용자 연구
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3462,7 +4130,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_5">
             <span class="md-nav__icon md-icon"></span>
-            사용자 연구
+            
+  
+    사용자 연구
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3478,9 +4150,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     공감 지도
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3501,9 +4178,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     사용자 여정 지도
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3524,9 +4206,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     사용자 페르소나
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3592,9 +4279,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     개인 및 팀 생산성
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3603,7 +4295,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            개인 및 팀 생산성
+            
+  
+    개인 및 팀 생산성
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3639,9 +4335,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     피드백 기법
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3650,7 +4351,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_1">
             <span class="md-nav__icon md-icon"></span>
-            피드백 기법
+            
+  
+    피드백 기법
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3666,9 +4371,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     SBI 피드백 모델
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3721,9 +4431,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     목표 관리
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3732,7 +4447,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_2">
             <span class="md-nav__icon md-icon"></span>
-            목표 관리
+            
+  
+    목표 관리
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3748,9 +4467,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     KPI
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3771,9 +4495,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     OKR
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3794,9 +4523,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     SMART 목표
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3847,9 +4581,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     습관 형성
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3858,7 +4597,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_3">
             <span class="md-nav__icon md-icon"></span>
-            습관 형성
+            
+  
+    습관 형성
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3874,9 +4617,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     습관 루프
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3897,9 +4645,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     작은 습관
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3948,9 +4701,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     회의 효과성
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3959,7 +4717,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
-            회의 효과성
+            
+  
+    회의 효과성
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3975,9 +4737,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     ORID 집중 대화
+  
+
     
   </span>
+  
   
 
       </a>
@@ -4026,9 +4793,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     팀 협업
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -4037,7 +4809,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_5">
             <span class="md-nav__icon md-icon"></span>
-            팀 협업
+            
+  
+    팀 협업
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -4053,9 +4829,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     RACI 매트릭스
+  
+
     
   </span>
+  
   
 
       </a>
@@ -4108,9 +4889,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     시간 관리
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -4119,7 +4905,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_6">
             <span class="md-nav__icon md-icon"></span>
-            시간 관리
+            
+  
+    시간 관리
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -4135,9 +4925,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     아이젠하워 매트릭스
+  
+
     
   </span>
+  
   
 
       </a>
@@ -4158,9 +4953,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     GTD
+  
+
     
   </span>
+  
   
 
       </a>
@@ -4181,9 +4981,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     포모도로 기법
+  
+
     
   </span>
+  
   
 
       </a>
@@ -4217,6 +5022,7 @@
           
           
             <div class="md-content" data-md-component="content">
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -4458,10 +5264,11 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

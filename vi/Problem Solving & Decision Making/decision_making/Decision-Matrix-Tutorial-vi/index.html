@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Một cơ sở kiến thức dành riêng cho việc giới thiệu, giải thích và áp dụng có hệ thống các phương pháp mạnh mẽ khác nhau, giúp mọi người trên con đường đến thành công.">
+        <meta name="description" content="Trong cuộc sống cá nhân và quản lý doanh nghiệp, chúng ta thường xuyên đối mặt với tình huống khó khăn khi phải lựa chọn giữa nhiều phương án đều có vẻ">
       
       
         <meta name="author" content="methodologywiki">
@@ -21,8 +21,9 @@
         <link rel="next" href="../Pareto-Analysis-Tutorial-vi/">
       
       
-      <link rel="icon" href="../../../../favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+        
+          <link rel="icon" href="../../../../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
@@ -30,10 +31,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -52,7 +53,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../overrides/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -70,8 +71,140 @@
 
     
     
-    
-  </head>
+  
+  <!-- 站点级结构化数据：实体只声明一次，统一指向根域，
+       各语言子站不再各自声明一个 WebSite 实体。页面级 Article 由
+       seo/postprocess.py 在构建后注入。 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công",
+    "url": "https://methodologywiki.com/",
+    "description": "Một cơ sở kiến thức dành riêng cho việc giới thiệu, giải thích và áp dụng có hệ thống các phương pháp mạnh mẽ khác nhau, giúp mọi người trên con đường đến thành công.",
+    "inLanguage": "vi",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://methodologywiki.com/vi/search/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MethodologyWiki",
+    "url": "https://methodologywiki.com/",
+    "logo": "https://methodologywiki.com/apple-touch-icon.png",
+    "sameAs": [
+      "https://github.com/mayunlei/methodologywiki"
+    ]
+  }
+  </script>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- SLS Web Tracking (Async, Non-blocking) -->
+  <script>
+  (function() {
+    'use strict';
+    try {
+      // --- Helper: generate random ID ---
+      function genId() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+          var r = Math.random() * 16 | 0;
+          return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
+      }
+
+      // --- Visitor ID (persistent across sessions) ---
+      var visitorId;
+      try {
+        visitorId = localStorage.getItem('_sls_vid');
+        if (!visitorId) { visitorId = genId(); localStorage.setItem('_sls_vid', visitorId); }
+      } catch(e) { visitorId = genId(); }
+
+      // --- Session ID (per browser session) ---
+      var sessionId;
+      try {
+        sessionId = sessionStorage.getItem('_sls_sid');
+        if (!sessionId) { sessionId = genId(); sessionStorage.setItem('_sls_sid', sessionId); }
+      } catch(e) { sessionId = genId(); }
+
+      // --- Parse site language from URL path ---
+      var pathParts = location.pathname.split('/').filter(Boolean);
+      var knownLangs = ['zh','es','ja','ko','ru','fr','de','pt','nl','vi','sv'];
+      var siteLang = (pathParts.length > 0 && knownLangs.indexOf(pathParts[0]) !== -1) ? pathParts[0] : 'en';
+
+      // --- Parse category from URL path ---
+      var category = '';
+      var catIndex = (siteLang === 'en') ? 1 : 2;
+      if (pathParts.length > catIndex) { category = decodeURIComponent(pathParts[catIndex]); }
+
+      // --- Build tracking params ---
+      var params = {
+        APIVersion: '0.6.0',
+        page_url: location.href,
+        page_path: location.pathname,
+        page_title: document.title || '',
+        referrer: document.referrer || '',
+        user_agent: navigator.userAgent || '',
+        screen_resolution: (screen.width || 0) + 'x' + (screen.height || 0),
+        language: navigator.language || '',
+        site_lang: siteLang,
+        timestamp: String(Date.now()),
+        session_id: sessionId,
+        visitor_id: visitorId,
+        event_type: 'pageview',
+        category: category
+      };
+
+      // --- Encode params ---
+      var qs = Object.keys(params).map(function(k) {
+        return encodeURIComponent(k) + '=' + encodeURIComponent(params[k]);
+      }).join('&');
+
+      var trackUrl = 'https://qrshare.cn-shanghai.log.aliyuncs.com/logstores/wise/track_ua.gif?' + qs;
+
+      // --- Send via GET (non-blocking, fire-and-forget) ---
+      var img = new Image(1, 1);
+      img.src = trackUrl;
+    } catch(e) {
+      // Silently fail — tracking should never break the page
+    }
+  })();
+  </script>
+
+  <!-- seo:begin -->
+<link rel="alternate" hreflang="de" href="https://methodologywiki.com/de/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-de/">
+<link rel="alternate" hreflang="en" href="https://methodologywiki.com/en/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-en/">
+<link rel="alternate" hreflang="es" href="https://methodologywiki.com/es/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-es/">
+<link rel="alternate" hreflang="fr" href="https://methodologywiki.com/fr/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-fr/">
+<link rel="alternate" hreflang="ja" href="https://methodologywiki.com/ja/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-ja/">
+<link rel="alternate" hreflang="ko" href="https://methodologywiki.com/ko/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-ko/">
+<link rel="alternate" hreflang="nl" href="https://methodologywiki.com/nl/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-nl/">
+<link rel="alternate" hreflang="pt" href="https://methodologywiki.com/pt/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-pt/">
+<link rel="alternate" hreflang="ru" href="https://methodologywiki.com/ru/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-ru/">
+<link rel="alternate" hreflang="sv" href="https://methodologywiki.com/sv/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-sv/">
+<link rel="alternate" hreflang="vi" href="https://methodologywiki.com/vi/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-vi/">
+<link rel="alternate" hreflang="zh" href="https://methodologywiki.com/zh/decision_making/Decision-Matrix-Tutorial-zh/">
+<link rel="alternate" hreflang="x-default" href="https://methodologywiki.com/en/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-en/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công">
+<meta property="og:title" content="Ma trận quyết định">
+<meta property="og:description" content="Trong cuộc sống cá nhân và quản lý doanh nghiệp, chúng ta thường xuyên đối mặt với tình huống khó khăn khi phải lựa chọn giữa nhiều phương án đều có vẻ">
+<meta property="og:url" content="https://methodologywiki.com/vi/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-vi/">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:image" content="https://methodologywiki.com/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ma trận quyết định">
+<meta name="twitter:description" content="Trong cuộc sống cá nhân và quản lý doanh nghiệp, chúng ta thường xuyên đối mặt với tình huống khó khăn khi phải lựa chọn giữa nhiều phương án đều có vẻ">
+<meta name="twitter:image" content="https://methodologywiki.com/assets/og-cover.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Ma trận quyết định","description":"Trong cuộc sống cá nhân và quản lý doanh nghiệp, chúng ta thường xuyên đối mặt với tình huống khó khăn khi phải lựa chọn giữa nhiều phương án đều có vẻ","inLanguage":"vi","url":"https://methodologywiki.com/vi/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-vi/","mainEntityOfPage":{"@type":"WebPage","@id":"https://methodologywiki.com/vi/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-vi/"},"image":"https://methodologywiki.com/assets/og-cover.png","author":{"@type":"Organization","name":"MethodologyWiki","url":"https://methodologywiki.com/"},"publisher":{"@type":"Organization","name":"MethodologyWiki","url":"https://methodologywiki.com/","logo":{"@type":"ImageObject","url":"https://methodologywiki.com/apple-touch-icon.png"}},"isPartOf":{"@type":"WebSite","name":"Wiki Trí Tuệ về Phương Pháp : Con Đường Đến Thành Công","url":"https://methodologywiki.com/"}}</script>
+<!-- seo:end -->
+</head>
   
   
     
@@ -295,7 +428,7 @@
         <a href="https://github.com/mayunlei/methodologywiki" title="Xem mã nguồn" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -537,7 +670,7 @@
       <a href="https://github.com/mayunlei/methodologywiki" title="Xem mã nguồn" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -559,9 +692,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Trang chủ
+  
+
     
   </span>
+  
   
 
       </a>
@@ -611,9 +749,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nền tảng
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -622,7 +765,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Nền tảng
+            
+  
+    Nền tảng
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -662,9 +809,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Các ngành cơ bản
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -673,7 +825,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
-            Các ngành cơ bản
+            
+  
+    Các ngành cơ bản
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -689,9 +845,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu phương pháp hỗn hợp
+  
+
     
   </span>
+  
   
 
       </a>
@@ -712,9 +873,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu định tính
+  
+
     
   </span>
+  
   
 
       </a>
@@ -735,9 +901,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu định lượng
+  
+
     
   </span>
+  
   
 
       </a>
@@ -788,9 +959,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phương pháp học tập
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -799,7 +975,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
-            Phương pháp học tập
+            
+  
+    Phương pháp học tập
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -815,9 +995,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phương pháp ghi chú Cornell
+  
+
     
   </span>
+  
   
 
       </a>
@@ -838,9 +1023,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kỹ thuật Feynman
+  
+
     
   </span>
+  
   
 
       </a>
@@ -891,9 +1081,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Tư duy logic
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -902,7 +1097,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
-            Tư duy logic
+            
+  
+    Tư duy logic
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -918,9 +1117,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Tư duy nguyên lý đầu tiên
+  
+
     
   </span>
+  
   
 
       </a>
@@ -941,9 +1145,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nguyên lý kim tự tháp
+  
+
     
   </span>
+  
   
 
       </a>
@@ -996,9 +1205,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Mô hình nghiên cứu khoa học
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1007,7 +1221,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
-            Mô hình nghiên cứu khoa học
+            
+  
+    Mô hình nghiên cứu khoa học
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1023,9 +1241,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu tương quan
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1046,9 +1269,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu mô tả
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1069,9 +1297,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu thực nghiệm
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1122,9 +1355,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Tư duy hệ thống
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1133,7 +1371,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
-            Tư duy hệ thống
+            
+  
+    Tư duy hệ thống
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1149,9 +1391,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Mô hình tảng băng trôi
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1172,9 +1419,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Động lực học hệ thống
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1225,9 +1477,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Lý thuyết và thực hành
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1236,7 +1493,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_6">
             <span class="md-nav__icon md-icon"></span>
-            Lý thuyết và thực hành
+            
+  
+    Lý thuyết và thực hành
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1252,9 +1513,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu hành động
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1275,9 +1541,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Lý thuyết căn cứ
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1339,9 +1610,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Chiến lược và kinh doanh
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1350,7 +1626,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Chiến lược và kinh doanh
+            
+  
+    Chiến lược và kinh doanh
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1388,9 +1668,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Mô hình kinh doanh
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1399,7 +1684,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-            Mô hình kinh doanh
+            
+  
+    Mô hình kinh doanh
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1415,9 +1704,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Canvas mô hình kinh doanh
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1438,9 +1732,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Lean Canvas
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1495,9 +1794,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Chất lượng và vận hành
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1506,7 +1810,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            Chất lượng và vận hành
+            
+  
+    Chất lượng và vận hành
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1522,9 +1830,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kaizen
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1545,9 +1858,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Vận hành tinh gọn
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1568,9 +1886,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Six Sigma
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1591,9 +1914,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Quản lý chất lượng toàn diện
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1648,9 +1976,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phân tích chiến lược
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1659,7 +1992,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
-            Phân tích chiến lược
+            
+  
+    Phân tích chiến lược
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1675,9 +2012,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phân tích PESTEL
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1698,9 +2040,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Năm lực lượng Porter
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1721,9 +2068,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phân tích SWOT
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1744,9 +2096,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phân tích chuỗi giá trị
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1797,9 +2154,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Thực thi chiến lược
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1808,7 +2170,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Thực thi chiến lược
+            
+  
+    Thực thi chiến lược
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1824,9 +2190,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Thẻ điểm cân bằng
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1847,9 +2218,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Chiến lược đại dương xanh
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1916,9 +2292,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Giải quyết vấn đề và ra quyết định
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1927,7 +2308,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Giải quyết vấn đề và ra quyết định
+            
+  
+    Giải quyết vấn đề và ra quyết định
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1972,9 +2357,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Ra quyết định
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1983,7 +2373,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
-            Ra quyết định
+            
+  
+    Ra quyết định
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1999,9 +2393,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phân tích chi phí-lợi ích
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2031,9 +2430,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Ma trận quyết định
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -2044,9 +2448,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Ma trận quyết định
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2069,7 +2478,9 @@
         <li class="md-nav__item">
   <a href="#cac-thanh-phan-cua-mot-ma-tran-quyet-inh" class="md-nav__link">
     <span class="md-ellipsis">
-      Các thành phần của một Ma trận Quyết định
+      
+        Các thành phần của một Ma trận Quyết định
+      
     </span>
   </a>
   
@@ -2079,7 +2490,9 @@
           <li class="md-nav__item">
   <a href="#mau-ma-tran-quyet-inh" class="md-nav__link">
     <span class="md-ellipsis">
-      Mẫu Ma trận Quyết định
+      
+        Mẫu Ma trận Quyết định
+      
     </span>
   </a>
   
@@ -2093,7 +2506,9 @@
         <li class="md-nav__item">
   <a href="#cach-su-dung-ma-tran-quyet-inh" class="md-nav__link">
     <span class="md-ellipsis">
-      Cách Sử dụng Ma trận Quyết định
+      
+        Cách Sử dụng Ma trận Quyết định
+      
     </span>
   </a>
   
@@ -2102,7 +2517,9 @@
         <li class="md-nav__item">
   <a href="#cac-truong-hop-ung-dung" class="md-nav__link">
     <span class="md-ellipsis">
-      Các Trường hợp Ứng dụng
+      
+        Các Trường hợp Ứng dụng
+      
     </span>
   </a>
   
@@ -2111,7 +2528,9 @@
         <li class="md-nav__item">
   <a href="#uu-iem-va-thach-thuc-cua-ma-tran-quyet-inh" class="md-nav__link">
     <span class="md-ellipsis">
-      Ưu điểm và Thách thức của Ma trận Quyết định
+      
+        Ưu điểm và Thách thức của Ma trận Quyết định
+      
     </span>
   </a>
   
@@ -2120,7 +2539,9 @@
         <li class="md-nav__item">
   <a href="#mo-rong-va-lien-ket" class="md-nav__link">
     <span class="md-ellipsis">
-      Mở rộng và Liên kết
+      
+        Mở rộng và Liên kết
+      
     </span>
   </a>
   
@@ -2147,9 +2568,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phân tích Pareto
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2205,9 +2631,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Tạo ý tưởng
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2216,7 +2647,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
-            Tạo ý tưởng
+            
+  
+    Tạo ý tưởng
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2232,9 +2667,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Động não
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2255,9 +2695,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Sơ đồ tư duy
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2278,9 +2723,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Sáu chiếc mũ tư duy
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2344,9 +2794,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Giải quyết vấn đề
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2355,7 +2810,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
-            Giải quyết vấn đề
+            
+  
+    Giải quyết vấn đề
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2371,9 +2830,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Sơ đồ xương cá
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2394,9 +2858,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Năm tại sao
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2417,9 +2886,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phân tích khoảng cách
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2440,9 +2914,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Đi bộ Gemba
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2463,9 +2942,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Cây logic
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2486,9 +2970,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Giải quyết vấn đề
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2509,9 +2998,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Sáu chiếc mũ tư duy
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2565,9 +3059,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phân tích nguyên nhân gốc
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2576,7 +3075,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_4">
             <span class="md-nav__icon md-icon"></span>
-            Phân tích nguyên nhân gốc
+            
+  
+    Phân tích nguyên nhân gốc
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2592,9 +3095,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Năm tại sao
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2615,9 +3123,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Sơ đồ xương cá
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2681,9 +3194,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Sản phẩm và người dùng
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2692,7 +3210,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Sản phẩm và người dùng
+            
+  
+    Sản phẩm và người dùng
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2734,9 +3256,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phát triển sản phẩm
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2745,7 +3272,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_1">
             <span class="md-nav__icon md-icon"></span>
-            Phát triển sản phẩm
+            
+  
+    Phát triển sản phẩm
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2761,9 +3292,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Agile
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2784,9 +3320,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Tư duy thiết kế
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2807,9 +3348,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kanban
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2830,9 +3376,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Scrum
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2883,9 +3434,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Phương pháp định tính chuyên biệt
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2894,7 +3450,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
-            Phương pháp định tính chuyên biệt
+            
+  
+    Phương pháp định tính chuyên biệt
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2910,9 +3470,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu tình huống
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2933,9 +3498,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Dân tộc học
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2988,9 +3558,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kiểm thử và xác thực
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2999,7 +3574,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_3">
             <span class="md-nav__icon md-icon"></span>
-            Kiểm thử và xác thực
+            
+  
+    Kiểm thử và xác thực
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3015,9 +3594,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kiểm thử A/B
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3038,9 +3622,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     MVP
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3061,9 +3650,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kiểm thử khả năng sử dụng
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3114,9 +3708,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Thiết kế chiều thời gian
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3125,7 +3724,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_4">
             <span class="md-nav__icon md-icon"></span>
-            Thiết kế chiều thời gian
+            
+  
+    Thiết kế chiều thời gian
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3141,9 +3744,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu cắt ngang
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3164,9 +3772,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu dọc
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3219,9 +3832,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Nghiên cứu người dùng
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3230,7 +3848,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_5">
             <span class="md-nav__icon md-icon"></span>
-            Nghiên cứu người dùng
+            
+  
+    Nghiên cứu người dùng
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3246,9 +3868,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Bản đồ đồng cảm
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3269,9 +3896,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Bản đồ hành trình người dùng
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3292,9 +3924,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Persona người dùng
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3360,9 +3997,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Năng suất cá nhân và nhóm
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3371,7 +4013,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Năng suất cá nhân và nhóm
+            
+  
+    Năng suất cá nhân và nhóm
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3407,9 +4053,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kỹ thuật phản hồi
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3418,7 +4069,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_1">
             <span class="md-nav__icon md-icon"></span>
-            Kỹ thuật phản hồi
+            
+  
+    Kỹ thuật phản hồi
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3434,9 +4089,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Mô hình phản hồi SBI
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3489,9 +4149,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Quản lý mục tiêu
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3500,7 +4165,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_2">
             <span class="md-nav__icon md-icon"></span>
-            Quản lý mục tiêu
+            
+  
+    Quản lý mục tiêu
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3516,9 +4185,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     KPI
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3539,9 +4213,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     OKR
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3562,9 +4241,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Mục tiêu SMART
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3615,9 +4299,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Hình thành thói quen
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3626,7 +4315,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_3">
             <span class="md-nav__icon md-icon"></span>
-            Hình thành thói quen
+            
+  
+    Hình thành thói quen
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3642,9 +4335,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Vòng lặp thói quen
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3665,9 +4363,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Thói quen nhỏ
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3716,9 +4419,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Hiệu quả cuộc họp
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3727,7 +4435,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
-            Hiệu quả cuộc họp
+            
+  
+    Hiệu quả cuộc họp
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3743,9 +4455,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Cuộc trò chuyện tập trung ORID
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3794,9 +4511,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Hợp tác nhóm
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3805,7 +4527,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_5">
             <span class="md-nav__icon md-icon"></span>
-            Hợp tác nhóm
+            
+  
+    Hợp tác nhóm
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3821,9 +4547,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Ma trận RACI
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3876,9 +4607,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Quản lý thời gian
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3887,7 +4623,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_6">
             <span class="md-nav__icon md-icon"></span>
-            Quản lý thời gian
+            
+  
+    Quản lý thời gian
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3903,9 +4643,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Ma trận Eisenhower
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3926,9 +4671,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     GTD
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3949,9 +4699,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kỹ thuật Pomodoro
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3985,6 +4740,7 @@
           
           
             <div class="md-content" data-md-component="content">
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -4008,7 +4764,7 @@
 <li><strong>Tổng điểm (Total Score)</strong>: Tổng điểm cuối cùng thu được bằng cách cộng các điểm có trọng số của mỗi phương án trên tất cả các tiêu chí. Phương án có tổng điểm cao nhất là phương án tối ưu theo lý thuyết.</li>
 </ul>
 <h3 id="mau-ma-tran-quyet-inh">Mẫu Ma trận Quyết định<a class="headerlink" href="#mau-ma-tran-quyet-inh" title="Permanent link">&para;</a></h3>
-<p><img alt="Decision Matrix Template" src="../../../../docs/en/Problem Solving &amp; Decision Making/decision_making/Decision-Matrix-Tutorial-en-diagram.png" /></p>
+<p><img alt="Decision Matrix Template" src="/en/Problem%20Solving%20%26%20Decision%20Making/decision_making/Decision-Matrix-Tutorial-en-diagram.png" /></p>
 <h2 id="cach-su-dung-ma-tran-quyet-inh">Cách Sử dụng Ma trận Quyết định<a class="headerlink" href="#cach-su-dung-ma-tran-quyet-inh" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -4133,10 +4889,11 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u0110\u00e3 sao ch\u00e9p", "clipboard.copy": "Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m", "search.result.more.one": "1 t\u1eeb kh\u00e1c trong trang", "search.result.more.other": "# t\u1eeb kh\u00e1c trong trang", "search.result.none": "Kh\u00f4ng t\u00ecm th\u1ea5y t\u00e0i li\u1ec7u li\u00ean quan", "search.result.one": "1 t\u00e0i li\u1ec7u li\u00ean quan", "search.result.other": "# t\u00e0i li\u1ec7u li\u00ean quan", "search.result.placeholder": "Nh\u1eadp \u0111\u1ec3 b\u1eaft \u0111\u1ea7u t\u00ecm ki\u1ebfm", "search.result.term.missing": "Kh\u00f4ng", "select.version": "Ch\u1ecdn phi\u00ean b\u1ea3n"}, "version": null}</script>
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0110\u00e3 sao ch\u00e9p", "clipboard.copy": "Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m", "search.result.more.one": "1 t\u1eeb kh\u00e1c trong trang", "search.result.more.other": "# t\u1eeb kh\u00e1c trong trang", "search.result.none": "Kh\u00f4ng t\u00ecm th\u1ea5y t\u00e0i li\u1ec7u li\u00ean quan", "search.result.one": "1 t\u00e0i li\u1ec7u li\u00ean quan", "search.result.other": "# t\u00e0i li\u1ec7u li\u00ean quan", "search.result.placeholder": "Nh\u1eadp \u0111\u1ec3 b\u1eaft \u0111\u1ea7u t\u00ecm ki\u1ebfm", "search.result.term.missing": "Kh\u00f4ng", "select.version": "Ch\u1ecdn phi\u00ean b\u1ea3n"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

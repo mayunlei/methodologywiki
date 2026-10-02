@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Eine Wissensdatenbank, die sich der systematischen Einführung, Erklärung und Anwendung verschiedener leistungsstarker Methodologien widmet und Menschen auf ihrem Weg zum Erfolg hilft.">
+        <meta name="description" content="Im Bereich der wissenschaftlichen Forschung zielt die experimentelle Forschung darauf ab, die Frage „Warum?“ zu beantworten">
       
       
         <meta name="author" content="methodologywiki">
@@ -21,8 +21,9 @@
         <link rel="next" href="../Experimental-Research-Tutorial-de/">
       
       
-      <link rel="icon" href="../../../../favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+        
+          <link rel="icon" href="../../../../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
@@ -30,10 +31,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -52,7 +53,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../overrides/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -70,8 +71,140 @@
 
     
     
-    
-  </head>
+  
+  <!-- 站点级结构化数据：实体只声明一次，统一指向根域，
+       各语言子站不再各自声明一个 WebSite 实体。页面级 Article 由
+       seo/postprocess.py 在构建后注入。 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Wiki der Weisheit der Methodologien : Weg zum Erfolg",
+    "url": "https://methodologywiki.com/",
+    "description": "Eine Wissensdatenbank, die sich der systematischen Einführung, Erklärung und Anwendung verschiedener leistungsstarker Methodologien widmet und Menschen auf ihrem Weg zum Erfolg hilft.",
+    "inLanguage": "de",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://methodologywiki.com/de/search/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MethodologyWiki",
+    "url": "https://methodologywiki.com/",
+    "logo": "https://methodologywiki.com/apple-touch-icon.png",
+    "sameAs": [
+      "https://github.com/mayunlei/methodologywiki"
+    ]
+  }
+  </script>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- SLS Web Tracking (Async, Non-blocking) -->
+  <script>
+  (function() {
+    'use strict';
+    try {
+      // --- Helper: generate random ID ---
+      function genId() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+          var r = Math.random() * 16 | 0;
+          return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
+      }
+
+      // --- Visitor ID (persistent across sessions) ---
+      var visitorId;
+      try {
+        visitorId = localStorage.getItem('_sls_vid');
+        if (!visitorId) { visitorId = genId(); localStorage.setItem('_sls_vid', visitorId); }
+      } catch(e) { visitorId = genId(); }
+
+      // --- Session ID (per browser session) ---
+      var sessionId;
+      try {
+        sessionId = sessionStorage.getItem('_sls_sid');
+        if (!sessionId) { sessionId = genId(); sessionStorage.setItem('_sls_sid', sessionId); }
+      } catch(e) { sessionId = genId(); }
+
+      // --- Parse site language from URL path ---
+      var pathParts = location.pathname.split('/').filter(Boolean);
+      var knownLangs = ['zh','es','ja','ko','ru','fr','de','pt','nl','vi','sv'];
+      var siteLang = (pathParts.length > 0 && knownLangs.indexOf(pathParts[0]) !== -1) ? pathParts[0] : 'en';
+
+      // --- Parse category from URL path ---
+      var category = '';
+      var catIndex = (siteLang === 'en') ? 1 : 2;
+      if (pathParts.length > catIndex) { category = decodeURIComponent(pathParts[catIndex]); }
+
+      // --- Build tracking params ---
+      var params = {
+        APIVersion: '0.6.0',
+        page_url: location.href,
+        page_path: location.pathname,
+        page_title: document.title || '',
+        referrer: document.referrer || '',
+        user_agent: navigator.userAgent || '',
+        screen_resolution: (screen.width || 0) + 'x' + (screen.height || 0),
+        language: navigator.language || '',
+        site_lang: siteLang,
+        timestamp: String(Date.now()),
+        session_id: sessionId,
+        visitor_id: visitorId,
+        event_type: 'pageview',
+        category: category
+      };
+
+      // --- Encode params ---
+      var qs = Object.keys(params).map(function(k) {
+        return encodeURIComponent(k) + '=' + encodeURIComponent(params[k]);
+      }).join('&');
+
+      var trackUrl = 'https://qrshare.cn-shanghai.log.aliyuncs.com/logstores/wise/track_ua.gif?' + qs;
+
+      // --- Send via GET (non-blocking, fire-and-forget) ---
+      var img = new Image(1, 1);
+      img.src = trackUrl;
+    } catch(e) {
+      // Silently fail — tracking should never break the page
+    }
+  })();
+  </script>
+
+  <!-- seo:begin -->
+<link rel="alternate" hreflang="de" href="https://methodologywiki.com/de/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-de/">
+<link rel="alternate" hreflang="en" href="https://methodologywiki.com/en/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-en/">
+<link rel="alternate" hreflang="es" href="https://methodologywiki.com/es/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-es/">
+<link rel="alternate" hreflang="fr" href="https://methodologywiki.com/fr/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-fr/">
+<link rel="alternate" hreflang="ja" href="https://methodologywiki.com/ja/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-ja/">
+<link rel="alternate" hreflang="ko" href="https://methodologywiki.com/ko/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-ko/">
+<link rel="alternate" hreflang="nl" href="https://methodologywiki.com/nl/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-nl/">
+<link rel="alternate" hreflang="pt" href="https://methodologywiki.com/pt/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-pt/">
+<link rel="alternate" hreflang="ru" href="https://methodologywiki.com/ru/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-ru/">
+<link rel="alternate" hreflang="sv" href="https://methodologywiki.com/sv/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-sv/">
+<link rel="alternate" hreflang="vi" href="https://methodologywiki.com/vi/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-vi/">
+<link rel="alternate" hreflang="zh" href="https://methodologywiki.com/zh/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-zh/">
+<link rel="alternate" hreflang="x-default" href="https://methodologywiki.com/en/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-en/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Wiki der Weisheit der Methodologien : Weg zum Erfolg">
+<meta property="og:title" content="Deskriptive Forschung">
+<meta property="og:description" content="Im Bereich der wissenschaftlichen Forschung zielt die experimentelle Forschung darauf ab, die Frage „Warum?“ zu beantworten">
+<meta property="og:url" content="https://methodologywiki.com/de/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-de/">
+<meta property="og:locale" content="de_DE">
+<meta property="og:image" content="https://methodologywiki.com/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Deskriptive Forschung">
+<meta name="twitter:description" content="Im Bereich der wissenschaftlichen Forschung zielt die experimentelle Forschung darauf ab, die Frage „Warum?“ zu beantworten">
+<meta name="twitter:image" content="https://methodologywiki.com/assets/og-cover.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Deskriptive Forschung","description":"Im Bereich der wissenschaftlichen Forschung zielt die experimentelle Forschung darauf ab, die Frage „Warum?“ zu beantworten","inLanguage":"de","url":"https://methodologywiki.com/de/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-de/","mainEntityOfPage":{"@type":"WebPage","@id":"https://methodologywiki.com/de/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-de/"},"image":"https://methodologywiki.com/assets/og-cover.png","author":{"@type":"Organization","name":"MethodologyWiki","url":"https://methodologywiki.com/"},"publisher":{"@type":"Organization","name":"MethodologyWiki","url":"https://methodologywiki.com/","logo":{"@type":"ImageObject","url":"https://methodologywiki.com/apple-touch-icon.png"}},"isPartOf":{"@type":"WebSite","name":"Wiki der Weisheit der Methodologien : Weg zum Erfolg","url":"https://methodologywiki.com/"}}</script>
+<!-- seo:end -->
+</head>
   
   
     
@@ -295,7 +428,7 @@
         <a href="https://github.com/mayunlei/methodologywiki" title="Zum Repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -537,7 +670,7 @@
       <a href="https://github.com/mayunlei/methodologywiki" title="Zum Repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -559,9 +692,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Startseite
+  
+
     
   </span>
+  
   
 
       </a>
@@ -616,9 +754,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Grundlagen
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -627,7 +770,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Grundlagen
+            
+  
+    Grundlagen
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -670,9 +817,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Grunddisziplinen
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -681,7 +833,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
-            Grunddisziplinen
+            
+  
+    Grunddisziplinen
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -697,9 +853,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Mixed-Methods-Forschung
+  
+
     
   </span>
+  
   
 
       </a>
@@ -720,9 +881,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Qualitative Forschung
+  
+
     
   </span>
+  
   
 
       </a>
@@ -743,9 +909,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Quantitative Forschung
+  
+
     
   </span>
+  
   
 
       </a>
@@ -799,9 +970,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Lernmethoden
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -810,7 +986,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
-            Lernmethoden
+            
+  
+    Lernmethoden
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -826,9 +1006,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Cornell-Notizmethode
+  
+
     
   </span>
+  
   
 
       </a>
@@ -849,9 +1034,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Feynman-Technik
+  
+
     
   </span>
+  
   
 
       </a>
@@ -905,9 +1095,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Logisches Denken
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -916,7 +1111,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
-            Logisches Denken
+            
+  
+    Logisches Denken
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -932,9 +1131,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     First-Principles-Denken
+  
+
     
   </span>
+  
   
 
       </a>
@@ -955,9 +1159,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Pyramidenprinzip
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1015,9 +1224,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Wissenschaftliches Forschungsparadigma
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1026,7 +1240,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
-            Wissenschaftliches Forschungsparadigma
+            
+  
+    Wissenschaftliches Forschungsparadigma
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1042,9 +1260,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Korrelationsforschung
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1074,9 +1297,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Deskriptive Forschung
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -1087,9 +1315,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Deskriptive Forschung
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1112,7 +1345,9 @@
         <li class="md-nav__item">
   <a href="#hauptzwecke-und-methoden-der-deskriptiven-forschung" class="md-nav__link">
     <span class="md-ellipsis">
-      Hauptzwecke und Methoden der deskriptiven Forschung
+      
+        Hauptzwecke und Methoden der deskriptiven Forschung
+      
     </span>
   </a>
   
@@ -1121,7 +1356,9 @@
         <li class="md-nav__item">
   <a href="#wie-man-eine-deskriptive-studie-durchfuhrt" class="md-nav__link">
     <span class="md-ellipsis">
-      Wie man eine deskriptive Studie durchführt
+      
+        Wie man eine deskriptive Studie durchführt
+      
     </span>
   </a>
   
@@ -1130,7 +1367,9 @@
         <li class="md-nav__item">
   <a href="#anwendungsbeispiele" class="md-nav__link">
     <span class="md-ellipsis">
-      Anwendungsbeispiele
+      
+        Anwendungsbeispiele
+      
     </span>
   </a>
   
@@ -1139,7 +1378,9 @@
         <li class="md-nav__item">
   <a href="#vorteile-und-grenzen-der-deskriptiven-forschung" class="md-nav__link">
     <span class="md-ellipsis">
-      Vorteile und Grenzen der deskriptiven Forschung
+      
+        Vorteile und Grenzen der deskriptiven Forschung
+      
     </span>
   </a>
   
@@ -1148,7 +1389,9 @@
         <li class="md-nav__item">
   <a href="#erweiterungen-und-verbindungen" class="md-nav__link">
     <span class="md-ellipsis">
-      Erweiterungen und Verbindungen
+      
+        Erweiterungen und Verbindungen
+      
     </span>
   </a>
   
@@ -1175,9 +1418,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Experimentelle Forschung
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1231,9 +1479,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Systemdenken
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1242,7 +1495,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
-            Systemdenken
+            
+  
+    Systemdenken
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1258,9 +1515,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Eisberg-Modell
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1281,9 +1543,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Systemdynamik
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1337,9 +1604,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Theorie und Praxis
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1348,7 +1620,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_6">
             <span class="md-nav__icon md-icon"></span>
-            Theorie und Praxis
+            
+  
+    Theorie und Praxis
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1364,9 +1640,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Aktionsforschung
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1387,9 +1668,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Grounded Theory
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1451,9 +1737,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Strategie und Business
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1462,7 +1753,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Strategie und Business
+            
+  
+    Strategie und Business
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1500,9 +1795,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Geschäftsmodell
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1511,7 +1811,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-            Geschäftsmodell
+            
+  
+    Geschäftsmodell
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1527,9 +1831,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Business Model Canvas
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1550,9 +1859,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Lean Canvas
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1607,9 +1921,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Qualität und Betrieb
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1618,7 +1937,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            Qualität und Betrieb
+            
+  
+    Qualität und Betrieb
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1634,9 +1957,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kaizen
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1657,9 +1985,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Lean Operations
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1680,9 +2013,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Six Sigma
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1703,9 +2041,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Total Quality Management
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1760,9 +2103,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Strategische Analyse
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1771,7 +2119,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
-            Strategische Analyse
+            
+  
+    Strategische Analyse
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1787,9 +2139,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     PESTEL-Analyse
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1810,9 +2167,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Porters Fünf Kräfte
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1833,9 +2195,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     SWOT-Analyse
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1856,9 +2223,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Wertschöpfungskettenanalyse
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1909,9 +2281,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Strategieumsetzung
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1920,7 +2297,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Strategieumsetzung
+            
+  
+    Strategieumsetzung
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1936,9 +2317,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Balanced Scorecard
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1959,9 +2345,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Blue Ocean Strategie
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2023,9 +2414,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Problemlösung und Entscheidungsfindung
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2034,7 +2430,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Problemlösung und Entscheidungsfindung
+            
+  
+    Problemlösung und Entscheidungsfindung
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2074,9 +2474,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Entscheidungsfindung
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2085,7 +2490,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
-            Entscheidungsfindung
+            
+  
+    Entscheidungsfindung
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2101,9 +2510,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kosten-Nutzen-Analyse
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2124,9 +2538,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Entscheidungsmatrix
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2147,9 +2566,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Pareto-Analyse
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2202,9 +2626,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Ideengenerierung
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2213,7 +2642,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
-            Ideengenerierung
+            
+  
+    Ideengenerierung
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2229,9 +2662,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Brainstorming
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2252,9 +2690,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Mind Mapping
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2275,9 +2718,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Sechs Denkhüte
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2338,9 +2786,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Problemlösung
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2349,7 +2802,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
-            Problemlösung
+            
+  
+    Problemlösung
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2365,9 +2822,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Fischgräten-Diagramm
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2388,9 +2850,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Fünf Warum
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2411,9 +2878,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Gap-Analyse
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2434,9 +2906,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Gemba Walk
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2457,9 +2934,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Logikbaum
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2480,9 +2962,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Problemlösung
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2503,9 +2990,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Sechs Denkhüte
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2556,9 +3048,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Ursachenanalyse
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2567,7 +3064,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_4">
             <span class="md-nav__icon md-icon"></span>
-            Ursachenanalyse
+            
+  
+    Ursachenanalyse
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2583,9 +3084,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Fünf Warum
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2606,9 +3112,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Fischgräten-Diagramm
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2672,9 +3183,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Produkt und Benutzer
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2683,7 +3199,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Produkt und Benutzer
+            
+  
+    Produkt und Benutzer
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2725,9 +3245,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Produktentwicklung
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2736,7 +3261,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_1">
             <span class="md-nav__icon md-icon"></span>
-            Produktentwicklung
+            
+  
+    Produktentwicklung
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2752,9 +3281,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Agile
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2775,9 +3309,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Design Thinking
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2798,9 +3337,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kanban
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2821,9 +3365,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Scrum
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2874,9 +3423,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Spezialisierte qualitative Methoden
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2885,7 +3439,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
-            Spezialisierte qualitative Methoden
+            
+  
+    Spezialisierte qualitative Methoden
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2901,9 +3459,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Fallstudie
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2924,9 +3487,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Ethnographie
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2979,9 +3547,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Test und Validierung
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2990,7 +3563,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_3">
             <span class="md-nav__icon md-icon"></span>
-            Test und Validierung
+            
+  
+    Test und Validierung
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3006,9 +3583,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     A/B-Test
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3029,9 +3611,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     MVP
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3052,9 +3639,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Usability-Test
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3105,9 +3697,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Zeitdimensionsdesign
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3116,7 +3713,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_4">
             <span class="md-nav__icon md-icon"></span>
-            Zeitdimensionsdesign
+            
+  
+    Zeitdimensionsdesign
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3132,9 +3733,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Querschnittsforschung
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3155,9 +3761,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Längsschnittforschung
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3210,9 +3821,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Benutzerforschung
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3221,7 +3837,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_5">
             <span class="md-nav__icon md-icon"></span>
-            Benutzerforschung
+            
+  
+    Benutzerforschung
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3237,9 +3857,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Empathie-Karte
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3260,9 +3885,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     User Journey Map
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3283,9 +3913,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Benutzer-Persona
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3351,9 +3986,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Persönliche und Team-Produktivität
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3362,7 +4002,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Persönliche und Team-Produktivität
+            
+  
+    Persönliche und Team-Produktivität
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3398,9 +4042,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Feedback-Techniken
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3409,7 +4058,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_1">
             <span class="md-nav__icon md-icon"></span>
-            Feedback-Techniken
+            
+  
+    Feedback-Techniken
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3425,9 +4078,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     SBI-Feedback-Modell
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3480,9 +4138,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Zielmanagement
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3491,7 +4154,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_2">
             <span class="md-nav__icon md-icon"></span>
-            Zielmanagement
+            
+  
+    Zielmanagement
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3507,9 +4174,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     KPI
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3530,9 +4202,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     OKR
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3553,9 +4230,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     SMART-Ziele
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3606,9 +4288,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Gewohnheitsbildung
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3617,7 +4304,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_3">
             <span class="md-nav__icon md-icon"></span>
-            Gewohnheitsbildung
+            
+  
+    Gewohnheitsbildung
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3633,9 +4324,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Die Gewohnheitsschleife
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3656,9 +4352,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Winzige Gewohnheiten
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3707,9 +4408,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Meeting-Effektivität
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3718,7 +4424,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
-            Meeting-Effektivität
+            
+  
+    Meeting-Effektivität
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3734,9 +4444,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     ORID-Fokussiertes Gespräch
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3785,9 +4500,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Teamzusammenarbeit
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3796,7 +4516,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_5">
             <span class="md-nav__icon md-icon"></span>
-            Teamzusammenarbeit
+            
+  
+    Teamzusammenarbeit
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3812,9 +4536,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     RACI-Matrix
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3867,9 +4596,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Zeitmanagement
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3878,7 +4612,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_6">
             <span class="md-nav__icon md-icon"></span>
-            Zeitmanagement
+            
+  
+    Zeitmanagement
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3894,9 +4632,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Eisenhower-Matrix
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3917,9 +4660,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     GTD
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3940,9 +4688,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Pomodoro-Technik
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3976,6 +4729,7 @@
           
           
             <div class="md-content" data-md-component="content">
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -3997,7 +4751,7 @@
 <li><strong>Trendidentifikation</strong>: Durchführung deskriptiver Forschung zu verschiedenen Zeitpunkten, um Veränderungstrends zu erkennen. Zum Beispiel die Entwicklung des Smartphone-Nutzungsverhaltens im letzten Jahrzehnt.</li>
 </ul>
 <p>Um diese Ziele zu erreichen, verwendet die deskriptive Forschung hauptsächlich die folgenden drei Datenerhebungsmethoden:</p>
-<p><img alt="Descriptive Research Diagram" src="Descriptive-Research-Tutorial-en-diagram.png" /></p>
+<p><img alt="Descriptive Research Diagram" src="/en/Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-en-diagram.png" /></p>
 <h2 id="wie-man-eine-deskriptive-studie-durchfuhrt">Wie man eine deskriptive Studie durchführt<a class="headerlink" href="#wie-man-eine-deskriptive-studie-durchfuhrt" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
@@ -4126,10 +4880,11 @@ Präsentieren Sie die Forschungsergebnisse abschließend klar und anschaulich mi
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

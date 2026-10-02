@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Une base de connaissances dédiée à l'introduction, l'explication et l'application systématiques de diverses méthodologies puissantes, aidant les gens sur leur chemin vers le succès.">
+        <meta name="description" content="Dans les premières étapes d&#x27;une startup, le plus grand risque n&#x27;est souvent pas « pouvons-nous construire le produit ? » mais « quelqu&#x27;un voudra-t-il">
       
       
         <meta name="author" content="methodologywiki">
@@ -21,8 +21,9 @@
         <link rel="next" href="../../quality_and_operations/Kaizen-Tutorial-fr/">
       
       
-      <link rel="icon" href="../../../../favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+        
+          <link rel="icon" href="../../../../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
@@ -30,10 +31,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -52,7 +53,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../overrides/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -70,8 +71,140 @@
 
     
     
-    
-  </head>
+  
+  <!-- 站点级结构化数据：实体只声明一次，统一指向根域，
+       各语言子站不再各自声明一个 WebSite 实体。页面级 Article 由
+       seo/postprocess.py 在构建后注入。 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Wiki de la Sagesse des Méthodologies : La Voie du Succès",
+    "url": "https://methodologywiki.com/",
+    "description": "Une base de connaissances dédiée à l'introduction, l'explication et l'application systématiques de diverses méthodologies puissantes, aidant les gens sur leur chemin vers le succès.",
+    "inLanguage": "fr",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://methodologywiki.com/fr/search/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MethodologyWiki",
+    "url": "https://methodologywiki.com/",
+    "logo": "https://methodologywiki.com/apple-touch-icon.png",
+    "sameAs": [
+      "https://github.com/mayunlei/methodologywiki"
+    ]
+  }
+  </script>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- SLS Web Tracking (Async, Non-blocking) -->
+  <script>
+  (function() {
+    'use strict';
+    try {
+      // --- Helper: generate random ID ---
+      function genId() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+          var r = Math.random() * 16 | 0;
+          return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
+      }
+
+      // --- Visitor ID (persistent across sessions) ---
+      var visitorId;
+      try {
+        visitorId = localStorage.getItem('_sls_vid');
+        if (!visitorId) { visitorId = genId(); localStorage.setItem('_sls_vid', visitorId); }
+      } catch(e) { visitorId = genId(); }
+
+      // --- Session ID (per browser session) ---
+      var sessionId;
+      try {
+        sessionId = sessionStorage.getItem('_sls_sid');
+        if (!sessionId) { sessionId = genId(); sessionStorage.setItem('_sls_sid', sessionId); }
+      } catch(e) { sessionId = genId(); }
+
+      // --- Parse site language from URL path ---
+      var pathParts = location.pathname.split('/').filter(Boolean);
+      var knownLangs = ['zh','es','ja','ko','ru','fr','de','pt','nl','vi','sv'];
+      var siteLang = (pathParts.length > 0 && knownLangs.indexOf(pathParts[0]) !== -1) ? pathParts[0] : 'en';
+
+      // --- Parse category from URL path ---
+      var category = '';
+      var catIndex = (siteLang === 'en') ? 1 : 2;
+      if (pathParts.length > catIndex) { category = decodeURIComponent(pathParts[catIndex]); }
+
+      // --- Build tracking params ---
+      var params = {
+        APIVersion: '0.6.0',
+        page_url: location.href,
+        page_path: location.pathname,
+        page_title: document.title || '',
+        referrer: document.referrer || '',
+        user_agent: navigator.userAgent || '',
+        screen_resolution: (screen.width || 0) + 'x' + (screen.height || 0),
+        language: navigator.language || '',
+        site_lang: siteLang,
+        timestamp: String(Date.now()),
+        session_id: sessionId,
+        visitor_id: visitorId,
+        event_type: 'pageview',
+        category: category
+      };
+
+      // --- Encode params ---
+      var qs = Object.keys(params).map(function(k) {
+        return encodeURIComponent(k) + '=' + encodeURIComponent(params[k]);
+      }).join('&');
+
+      var trackUrl = 'https://qrshare.cn-shanghai.log.aliyuncs.com/logstores/wise/track_ua.gif?' + qs;
+
+      // --- Send via GET (non-blocking, fire-and-forget) ---
+      var img = new Image(1, 1);
+      img.src = trackUrl;
+    } catch(e) {
+      // Silently fail — tracking should never break the page
+    }
+  })();
+  </script>
+
+  <!-- seo:begin -->
+<link rel="alternate" hreflang="de" href="https://methodologywiki.com/de/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-de/">
+<link rel="alternate" hreflang="en" href="https://methodologywiki.com/en/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-en/">
+<link rel="alternate" hreflang="es" href="https://methodologywiki.com/es/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-es/">
+<link rel="alternate" hreflang="fr" href="https://methodologywiki.com/fr/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-fr/">
+<link rel="alternate" hreflang="ja" href="https://methodologywiki.com/ja/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-ja/">
+<link rel="alternate" hreflang="ko" href="https://methodologywiki.com/ko/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-ko/">
+<link rel="alternate" hreflang="nl" href="https://methodologywiki.com/nl/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-nl/">
+<link rel="alternate" hreflang="pt" href="https://methodologywiki.com/pt/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-pt/">
+<link rel="alternate" hreflang="ru" href="https://methodologywiki.com/ru/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-ru/">
+<link rel="alternate" hreflang="sv" href="https://methodologywiki.com/sv/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-sv/">
+<link rel="alternate" hreflang="vi" href="https://methodologywiki.com/vi/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-vi/">
+<link rel="alternate" hreflang="zh" href="https://methodologywiki.com/zh/business_model/Lean-Canvas-Tutorial-zh/">
+<link rel="alternate" hreflang="x-default" href="https://methodologywiki.com/en/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-en/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Wiki de la Sagesse des Méthodologies : La Voie du Succès">
+<meta property="og:title" content="Canevas Lean">
+<meta property="og:description" content="Dans les premières étapes d&#x27;une startup, le plus grand risque n&#x27;est souvent pas « pouvons-nous construire le produit ? » mais « quelqu&#x27;un voudra-t-il">
+<meta property="og:url" content="https://methodologywiki.com/fr/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-fr/">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://methodologywiki.com/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Canevas Lean">
+<meta name="twitter:description" content="Dans les premières étapes d&#x27;une startup, le plus grand risque n&#x27;est souvent pas « pouvons-nous construire le produit ? » mais « quelqu&#x27;un voudra-t-il">
+<meta name="twitter:image" content="https://methodologywiki.com/assets/og-cover.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Canevas Lean","description":"Dans les premières étapes d'une startup, le plus grand risque n'est souvent pas « pouvons-nous construire le produit ? » mais « quelqu'un voudra-t-il","inLanguage":"fr","url":"https://methodologywiki.com/fr/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-fr/","mainEntityOfPage":{"@type":"WebPage","@id":"https://methodologywiki.com/fr/Strategy%20%26%20Business/business_model/Lean-Canvas-Tutorial-fr/"},"image":"https://methodologywiki.com/assets/og-cover.png","author":{"@type":"Organization","name":"MethodologyWiki","url":"https://methodologywiki.com/"},"publisher":{"@type":"Organization","name":"MethodologyWiki","url":"https://methodologywiki.com/","logo":{"@type":"ImageObject","url":"https://methodologywiki.com/apple-touch-icon.png"}},"isPartOf":{"@type":"WebSite","name":"Wiki de la Sagesse des Méthodologies : La Voie du Succès","url":"https://methodologywiki.com/"}}</script>
+<!-- seo:end -->
+</head>
   
   
     
@@ -295,7 +428,7 @@
         <a href="https://github.com/mayunlei/methodologywiki" title="Aller au dépôt" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -537,7 +670,7 @@
       <a href="https://github.com/mayunlei/methodologywiki" title="Aller au dépôt" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -559,9 +692,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Accueil
+  
+
     
   </span>
+  
   
 
       </a>
@@ -611,9 +749,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Fondations
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -622,7 +765,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Fondations
+            
+  
+    Fondations
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -662,9 +809,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Disciplines de base
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -673,7 +825,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
-            Disciplines de base
+            
+  
+    Disciplines de base
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -689,9 +845,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Recherche à méthodes mixtes
+  
+
     
   </span>
+  
   
 
       </a>
@@ -712,9 +873,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Recherche qualitative
+  
+
     
   </span>
+  
   
 
       </a>
@@ -735,9 +901,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Recherche quantitative
+  
+
     
   </span>
+  
   
 
       </a>
@@ -788,9 +959,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Méthodes d'apprentissage
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -799,7 +975,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
-            Méthodes d'apprentissage
+            
+  
+    Méthodes d'apprentissage
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -815,9 +995,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Méthode Cornell
+  
+
     
   </span>
+  
   
 
       </a>
@@ -838,9 +1023,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Technique Feynman
+  
+
     
   </span>
+  
   
 
       </a>
@@ -891,9 +1081,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Pensée logique
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -902,7 +1097,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
-            Pensée logique
+            
+  
+    Pensée logique
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -918,9 +1117,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Pensée des premiers principes
+  
+
     
   </span>
+  
   
 
       </a>
@@ -941,9 +1145,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Principe pyramidal
+  
+
     
   </span>
+  
   
 
       </a>
@@ -996,9 +1205,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Paradigme d'enquête scientifique
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1007,7 +1221,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
-            Paradigme d'enquête scientifique
+            
+  
+    Paradigme d'enquête scientifique
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1023,9 +1241,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Recherche corrélationnelle
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1046,9 +1269,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Recherche descriptive
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1069,9 +1297,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Recherche expérimentale
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1122,9 +1355,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Pensée systémique
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1133,7 +1371,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
-            Pensée systémique
+            
+  
+    Pensée systémique
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1149,9 +1391,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Modèle de l'iceberg
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1172,9 +1419,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Dynamique des systèmes
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1225,9 +1477,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Théorie et pratique
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1236,7 +1493,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_6">
             <span class="md-nav__icon md-icon"></span>
-            Théorie et pratique
+            
+  
+    Théorie et pratique
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1252,9 +1513,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Recherche-action
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1275,9 +1541,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Théorie ancrée
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1344,9 +1615,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Stratégie et affaires
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1355,7 +1631,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Stratégie et affaires
+            
+  
+    Stratégie et affaires
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1398,9 +1678,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Modèle d'affaires
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1409,7 +1694,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
-            Modèle d'affaires
+            
+  
+    Modèle d'affaires
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1425,9 +1714,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Canevas du modèle d'affaires
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1457,9 +1751,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Canevas Lean
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -1470,9 +1769,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Canevas Lean
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1495,7 +1799,9 @@
         <li class="md-nav__item">
   <a href="#les-neuf-blocs-de-lean-canvas" class="md-nav__link">
     <span class="md-ellipsis">
-      Les neuf blocs de Lean Canvas
+      
+        Les neuf blocs de Lean Canvas
+      
     </span>
   </a>
   
@@ -1504,7 +1810,9 @@
         <li class="md-nav__item">
   <a href="#comment-utiliser-lean-canvas" class="md-nav__link">
     <span class="md-ellipsis">
-      Comment utiliser Lean Canvas
+      
+        Comment utiliser Lean Canvas
+      
     </span>
   </a>
   
@@ -1513,7 +1821,9 @@
         <li class="md-nav__item">
   <a href="#cas-dapplication" class="md-nav__link">
     <span class="md-ellipsis">
-      Cas d'application
+      
+        Cas d'application
+      
     </span>
   </a>
   
@@ -1522,7 +1832,9 @@
         <li class="md-nav__item">
   <a href="#valeur-et-limites-de-lean-canvas" class="md-nav__link">
     <span class="md-ellipsis">
-      Valeur et limites de Lean Canvas
+      
+        Valeur et limites de Lean Canvas
+      
     </span>
   </a>
   
@@ -1531,7 +1843,9 @@
         <li class="md-nav__item">
   <a href="#extensions-et-connexions" class="md-nav__link">
     <span class="md-ellipsis">
-      Extensions et connexions
+      
+        Extensions et connexions
+      
     </span>
   </a>
   
@@ -1595,9 +1909,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Qualité et opérations
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1606,7 +1925,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            Qualité et opérations
+            
+  
+    Qualité et opérations
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1622,9 +1945,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kaizen
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1645,9 +1973,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Opérations Lean
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1668,9 +2001,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Six Sigma
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1691,9 +2029,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Gestion de la qualité totale
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1751,9 +2094,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Analyse stratégique
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1762,7 +2110,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
-            Analyse stratégique
+            
+  
+    Analyse stratégique
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1778,9 +2130,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Analyse PESTEL
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1801,9 +2158,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Cinq forces de Porter
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1824,9 +2186,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Analyse SWOT
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1847,9 +2214,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Analyse de la chaîne de valeur
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1903,9 +2275,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Exécution stratégique
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -1914,7 +2291,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
-            Exécution stratégique
+            
+  
+    Exécution stratégique
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1930,9 +2311,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Tableau de bord équilibré
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1953,9 +2339,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Stratégie de l'océan bleu
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2017,9 +2408,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Résolution de problèmes et prise de décision
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2028,7 +2424,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Résolution de problèmes et prise de décision
+            
+  
+    Résolution de problèmes et prise de décision
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2068,9 +2468,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Prise de décision
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2079,7 +2484,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
-            Prise de décision
+            
+  
+    Prise de décision
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2095,9 +2504,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Analyse coûts-avantages
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2118,9 +2532,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Matrice de décision
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2141,9 +2560,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Analyse de Pareto
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2196,9 +2620,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Génération d'idées
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2207,7 +2636,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
-            Génération d'idées
+            
+  
+    Génération d'idées
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2223,9 +2656,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Remue-méninges
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2246,9 +2684,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Carte mentale
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2269,9 +2712,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Six chapeaux de la pensée
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2332,9 +2780,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Résolution de problèmes
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2343,7 +2796,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_3">
             <span class="md-nav__icon md-icon"></span>
-            Résolution de problèmes
+            
+  
+    Résolution de problèmes
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2359,9 +2816,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Diagramme en arête de poisson
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2382,9 +2844,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Cinq pourquoi
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2405,9 +2872,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Analyse des écarts
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2428,9 +2900,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Marche Gemba
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2451,9 +2928,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Arbre logique
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2474,9 +2956,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Résolution de problèmes
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2497,9 +2984,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Six chapeaux de la pensée
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2550,9 +3042,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Analyse des causes profondes
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2561,7 +3058,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_4">
             <span class="md-nav__icon md-icon"></span>
-            Analyse des causes profondes
+            
+  
+    Analyse des causes profondes
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2577,9 +3078,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Cinq pourquoi
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2600,9 +3106,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Diagramme en arête de poisson
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2666,9 +3177,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Produit et utilisateur
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2677,7 +3193,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Produit et utilisateur
+            
+  
+    Produit et utilisateur
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2719,9 +3239,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Développement de produits
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2730,7 +3255,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_1">
             <span class="md-nav__icon md-icon"></span>
-            Développement de produits
+            
+  
+    Développement de produits
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2746,9 +3275,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Agile
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2769,9 +3303,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Design Thinking
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2792,9 +3331,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Kanban
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2815,9 +3359,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Scrum
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2868,9 +3417,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Méthodes qualitatives spécialisées
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2879,7 +3433,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
-            Méthodes qualitatives spécialisées
+            
+  
+    Méthodes qualitatives spécialisées
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2895,9 +3453,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Étude de cas
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2918,9 +3481,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Ethnographie
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2973,9 +3541,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Test et validation
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -2984,7 +3557,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_3">
             <span class="md-nav__icon md-icon"></span>
-            Test et validation
+            
+  
+    Test et validation
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3000,9 +3577,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Test A/B
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3023,9 +3605,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     MVP
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3046,9 +3633,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Test d'utilisabilité
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3099,9 +3691,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Conception de la dimension temporelle
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3110,7 +3707,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_4">
             <span class="md-nav__icon md-icon"></span>
-            Conception de la dimension temporelle
+            
+  
+    Conception de la dimension temporelle
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3126,9 +3727,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Recherche transversale
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3149,9 +3755,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Recherche longitudinale
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3204,9 +3815,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Recherche utilisateur
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3215,7 +3831,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_5">
             <span class="md-nav__icon md-icon"></span>
-            Recherche utilisateur
+            
+  
+    Recherche utilisateur
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3231,9 +3851,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Carte d'empathie
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3254,9 +3879,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Carte du parcours utilisateur
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3277,9 +3907,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Persona utilisateur
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3345,9 +3980,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Productivité personnelle et d'équipe
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3356,7 +3996,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Productivité personnelle et d'équipe
+            
+  
+    Productivité personnelle et d'équipe
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3392,9 +4036,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Techniques de feedback
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3403,7 +4052,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_1">
             <span class="md-nav__icon md-icon"></span>
-            Techniques de feedback
+            
+  
+    Techniques de feedback
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3419,9 +4072,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Modèle de feedback SBI
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3474,9 +4132,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Gestion des objectifs
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3485,7 +4148,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_2">
             <span class="md-nav__icon md-icon"></span>
-            Gestion des objectifs
+            
+  
+    Gestion des objectifs
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3501,9 +4168,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     KPI
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3524,9 +4196,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     OKR
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3547,9 +4224,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Objectifs SMART
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3600,9 +4282,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Formation des habitudes
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3611,7 +4298,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_3">
             <span class="md-nav__icon md-icon"></span>
-            Formation des habitudes
+            
+  
+    Formation des habitudes
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3627,9 +4318,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     La boucle des habitudes
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3650,9 +4346,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Micro-habitudes
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3701,9 +4402,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Efficacité des réunions
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3712,7 +4418,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_4">
             <span class="md-nav__icon md-icon"></span>
-            Efficacité des réunions
+            
+  
+    Efficacité des réunions
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3728,9 +4438,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Conversation focalisée ORID
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3779,9 +4494,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Collaboration d'équipe
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3790,7 +4510,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_5">
             <span class="md-nav__icon md-icon"></span>
-            Collaboration d'équipe
+            
+  
+    Collaboration d'équipe
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3806,9 +4530,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Matrice RACI
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3861,9 +4590,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Gestion du temps
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -3872,7 +4606,11 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_6">
             <span class="md-nav__icon md-icon"></span>
-            Gestion du temps
+            
+  
+    Gestion du temps
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3888,9 +4626,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Matrice d'Eisenhower
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3911,9 +4654,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     GTD
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3934,9 +4682,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Technique Pomodoro
+  
+
     
   </span>
+  
   
 
       </a>
@@ -3970,6 +4723,7 @@
           
           
             <div class="md-content" data-md-component="content">
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -4128,10 +4882,11 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
