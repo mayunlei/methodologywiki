@@ -16,7 +16,7 @@ On the path to achieving ultimate quality and operational efficiency, how can bu
 
 Six Sigma improvement projects strictly follow a five-phase roadmap called **DMAIC**. Each phase has clear objectives and key tools to be used.
 
-![Six Sigma DMAIC Improvement Cycle](./Six-Sigma-Tutorial-en-mermaid.png)
+![Six Sigma DMAIC Cycle](./Six-Sigma-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

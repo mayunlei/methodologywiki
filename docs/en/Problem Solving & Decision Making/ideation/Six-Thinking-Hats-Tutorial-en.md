@@ -1,5 +1,7 @@
 # Six Thinking Hats
 
+![Six Thinking Hats Diagram](./Six-Thinking-Hats-Tutorial-en-diagram.png)
+
 In team discussions or individual thinking, our minds often fall into chaos: on one hand, processing information; on the other, generating ideas; simultaneously engaging in critical thinking, and being influenced by various emotions. This "hodgepodge" thinking style is inefficient and highly prone to conflict and opposition. The **Six Thinking Hats**, designed by Dr. Edward de Bono, the "father of creative thinking," is an extremely powerful **Parallel Thinking** tool aimed at solving this dilemma. Its core lies in deliberately breaking down the thinking process into six different, independent "channels," each represented by a virtual "hat" of a specific color.
 
 The essence of parallel thinking is that it requires all participants, at the same time, to "wear" the same hat and think in the same direction. This completely changes the confrontational mode of traditional meetings, where "I oppose your view," into a collaborative mode of "let's all look at the risks of this issue (black hat)." It makes complex thinking processes orderly and efficient, and provides teams with a safe, structured way to comprehensively and thoroughly explore all aspects of a problem.

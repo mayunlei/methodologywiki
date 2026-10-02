@@ -1,5 +1,7 @@
 # The Habit Loop
 
+![The Habit Loop Diagram](The-Habit-Loop-Tutorial-en-diagram.png)
+
 Most of our behaviors in life, estimated to be over 40%, are not driven by conscious decisions but by **habits**. From brushing our teeth first thing in the morning, to automatically buckling our seatbelts when driving, to instinctively lighting a cigarette when stressed, these behaviors operate in our brains in an almost automatic mode. **The Habit Loop**, a powerful **neurological model explaining how habits form and operate**, was proposed by scientists at MIT and popularized by author Charles Duhigg in his book *The Power of Habit*.
 
 The core idea of this model is that any habit, whether good or bad, is composed of three interrelated, cyclical parts. Understanding the mechanism of this loop is the fundamental prerequisite for diagnosing and breaking a bad habit, or designing and cultivating a good one. It provides us with an "X-ray of habits," allowing us to clearly see the underlying code that drives our daily behavior at a subconscious level.

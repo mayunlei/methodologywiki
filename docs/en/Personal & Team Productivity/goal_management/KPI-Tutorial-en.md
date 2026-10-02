@@ -1,5 +1,7 @@
 # KPI (Key Performance Indicator)
 
+![KPI Diagram](KPI-Tutorial-en-diagram.png)
+
 In complex organizational operations, how can managers quickly and accurately assess the health of the business, the efficiency of processes, and the effectiveness of strategy execution? **KPI (Key Performance Indicator)** is a core management tool designed for this purpose. It is not an abstract concept, but a specific, quantifiable **measurement standard** used to continuously monitor and evaluate the performance of an organization, a team, or an employee in achieving their key business objectives. A KPI is like an airplane's cockpit dashboard; it translates complex operations into a few key, clear readings, allowing the pilot to understand the flight status in real-time and make timely adjustments.
 
 The essence of KPI lies in "**Key**." There can be thousands of measurable data points in an organization, but only those indicators that are closely linked to strategic goals and can truly reflect the core of performance can be called KPIs. It aims to direct the organization's attention to the most important things and provide an objective, unified data basis for performance management, goal setting, and continuous improvement. From measuring website visitor conversion rates to evaluating production line yield rates, and tracking customer service response times, KPIs are ubiquitous and an indispensable cornerstone of modern data-driven management.

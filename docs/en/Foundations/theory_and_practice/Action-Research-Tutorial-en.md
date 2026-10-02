@@ -1,5 +1,7 @@
 # Action Research
 
+![Action Research Diagram](Action-Research-Tutorial-en-diagram.png)
+
 In traditional research, researchers typically play the role of objective, detached "observers," while research subjects are passively "studied." **Action Research** completely breaks down this barrier. It is a cyclical inquiry process that tightly integrates **"research"** with **"practice,"** aiming to solve practical problems and drive change. Its core idea is that knowledge should not merely be "discovered" and left on the shelf, but should be "created" and "applied" in the action of solving real-world problems.
 
 Action research is not a "prescription" given by external experts to practitioners, but a systematic process of diagnosis, reflection, action, and evaluation of one's own work context (such as a classroom, a community, an organization), carried out by **practitioners themselves** (often in collaboration with researchers). The core question it answers is: "How can we improve our current work/situation?" Therefore, action research is characterized by its strong **contextuality, participation, collaboration, and cyclical nature**. It is both a process of understanding the world and, more importantly, a process of transforming the world.

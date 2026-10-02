@@ -8,7 +8,7 @@ The logic of cost-benefit analysis is straightforward: if the **total benefits o
 
 Conducting a comprehensive cost-benefit analysis requires identifying all relevant costs and benefits, including both explicit and implicit ones.
 
-![Cost-Benefit Analysis](./Cost-Benefit-Analysis-Tutorial-en-mermaid.png)
+![Cost-Benefit Analysis](./Cost-Benefit-Analysis-Tutorial-en-diagram.png)
 
 <!--
 ![Cost-Benefit-Analysis-Tutorial-en-mermaid-47a17d43.png](./Cost-Benefit-Analysis-Tutorial-en-mermaid-47a17d43.png)

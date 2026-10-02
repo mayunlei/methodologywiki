@@ -1,5 +1,7 @@
 # Eisenhower Matrix
 
+![Eisenhower Matrix Diagram](./Eisenhower-Matrix-Tutorial-en-diagram.png)
+
 In daily work and life, we often find ourselves overwhelmed by an endless sea of to-do lists, feeling incredibly busy yet seemingly accomplishing nothing. The root of this "busy but unproductive" state often lies in our confusion between **"urgent"** and **"important"** matters, and our habitual prioritization of those constantly "blaring" urgent tasks, while neglecting those truly important for long-term goals. The **Eisenhower Matrix**, also known as the **Urgent/Important Matrix**, is an extremely simple yet profound **personal priority management tool** designed to solve this common dilemma.
 
 The method is attributed to Dwight D. Eisenhower, the 34th President of the United States, who once said: "**I have two kinds of problems: the urgent and the important. The urgent are not important, and the important are never urgent.**" The core of the Eisenhower Matrix is to clearly divide all tasks into four quadrants based on the two dimensions of "**importance**" and "**urgency**," thereby helping us identify what truly deserves our time and effort, and formulate different handling strategies for different tasks. It is a powerful thinking framework that enables us to shift from "passive firefighting" to "proactive planning."

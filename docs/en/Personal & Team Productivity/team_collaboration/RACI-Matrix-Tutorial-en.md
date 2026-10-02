@@ -1,5 +1,7 @@
 # RACI Matrix
 
+![RACI Matrix Diagram](RACI-Matrix-Tutorial-en-diagram.png)
+
 In any project or process of even moderate scale, one of the most common and vexing problems is **unclear responsibilities**. When tasks are delayed, we find that several people thought someone else was responsible; when decisions need to be made, we can't find the person with the final authority; or a simple approval gets bogged down in layers of reporting, wasting a lot of time with irrelevant people. The **RACI Matrix**, also often called the **RACI Chart**, is a simple yet extremely effective **team collaboration and communication tool** designed to solve this common dilemma.
 
 The core objective of RACI is to clearly define and communicate, through a clear matrix, the relationship between various **tasks** and various **roles** within a project or process, ensuring that for every piece of work, its related responsibilities and authorities are clearly assigned to specific individuals. It aims to eliminate the ambiguity of "Whose job is this?" allowing everyone in the team to clearly understand their own and others' responsibilities, thereby greatly improving collaboration efficiency, reducing communication costs, and internal friction.

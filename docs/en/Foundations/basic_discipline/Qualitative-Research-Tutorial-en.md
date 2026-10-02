@@ -1,5 +1,7 @@
 # Qualitative Research
 
+![Qualitative Research Diagram](Qualitative-Research-Tutorial-en-diagram.png)
+
 Unlike quantitative research, which pursues objective measurement and statistical patterns, **Qualitative Research** is an exploratory journey towards understanding the deeper meanings of human experience. It is not satisfied with answers to "what is it" or "how much," but persistently asks "why" and "how." The core of qualitative research lies in deeply and comprehensively exploring the behavior, motivations, beliefs, and experiences of individuals or groups, aiming to discover meaning and construct theories from non-numerical, descriptive data (such as language, text, images, behavior).
 
 When you want to understand why users are confused by your product, or want to explore the internal logic of a specific socio-cultural phenomenon, qualitative research reveals its unique charm. It does not generalize with numbers but reveals with stories; it does not verify preconceived hypotheses but discovers new insights in rich real-world contexts.

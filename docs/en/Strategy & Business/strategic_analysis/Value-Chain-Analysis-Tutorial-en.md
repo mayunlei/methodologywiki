@@ -8,7 +8,7 @@ Unlike traditional analysis that focuses solely on the final output, value chain
 
 Michael Porter systematically breaks down a company's value-creating activities into nine interconnected categories, forming a universal value chain model.
 
-![Value Chain](./Value-Chain-Analysis-Tutorial-en-mermaid.png)
+![Value Chain Model](./Value-Chain-Analysis-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

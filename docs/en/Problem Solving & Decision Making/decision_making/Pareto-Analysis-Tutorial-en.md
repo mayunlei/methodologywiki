@@ -24,7 +24,7 @@ By observing this chart, we can quickly locate the steepest rising area of the c
 
 Suppose a restaurant analyzed all customer complaints from the last month:
 
-![Pareto Chart Example](./Pareto-Analysis-Tutorial-en-mermaid.png)
+![Pareto Chart Example](./Pareto-Analysis-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

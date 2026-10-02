@@ -1,5 +1,7 @@
 # Mixed-Methods Research
 
+![Mixed-Methods Research Diagram](Mixed-Methods-Research-Tutorial-en-diagram.png)
+
 In the field of research, there have long been two mainstream paradigms: **quantitative research**, which uses numbers and statistics as its weapons, striving for objective and systematic measurement of social and natural phenomena; and **qualitative research**, which focuses on language and context, exploring the deep meanings of human experience. The former pursues objectivity and universality, while the latter seeks depth and meaning. However, more and more researchers are finding that any single method is like a blind man touching an elephant, only touching a part of reality. **Mixed-Methods Research** emerged not as a simple addition of two methods, but as a more mature and wise research philosophy.
 
 Its core idea is to strategically and systematically integrate both quantitative and qualitative data and their analysis methods within a research project, in order to gain a more comprehensive, in-depth, and multi-dimensional understanding than any single method could provide. It believes that numbers can reveal the breadth of patterns, while stories can reveal the depth behind patterns. The combination of the two can make research conclusions more robust and insightful.
@@ -9,6 +11,7 @@ Its core idea is to strategically and systematically integrate both quantitative
 The charm of mixed-methods research lies in its ability to achieve a "1+1>2" synergistic effect. Depending on the purpose of integration, its core value is mainly reflected in the following aspects:
 
 *   **Triangulation**: This is the most common purpose. It involves using data from one method to verify or corroborate conclusions drawn from another method. If the results of a quantitative survey and the findings of qualitative interviews corroborate each other, the reliability of the research conclusions will be greatly enhanced.
+
 *   **Complementarity**: Using the strengths of one method to compensate for the weaknesses of another. For example, using qualitative interviews to deeply explain an unexpected statistical relationship found in a quantitative survey, allowing us to know not only "what" but also "why."
 *   **Development**: Using the findings of one method to guide the implementation of another. For example, conducting exploratory qualitative interviews first to identify key themes and variables, and then designing a more targeted large-scale survey questionnaire based on these findings.
 *   **Initiation**: When quantitative and qualitative research yield contradictory or paradoxical results, this itself is a valuable and significant discovery. It can challenge existing theories and inspire new thinking and deeper research.
@@ -18,12 +21,6 @@ The charm of mixed-methods research lies in its ability to achieve a "1+1>2" syn
 Mixed-methods research has various design patterns, among which the three core ones are:
 
 ![Mixed-Methods Designs](./Mixed-Methods-Research-Tutorial-en-mermaid.png)
-
-<!--
-![Mixed-Methods-Research-Tutorial-en-mermaid-d7142602.png](./Mixed-Methods-Research-Tutorial-en-mermaid-d7142602.png)
-
-<!--
-![Mixed-Methods-Research-Tutorial-en-mermaid-d7142602.png](./Mixed-Methods-Research-Tutorial-en-mermaid-d7142602.png)
 
 <!--
 ```mermaid

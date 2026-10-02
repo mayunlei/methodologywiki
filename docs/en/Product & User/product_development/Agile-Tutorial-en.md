@@ -23,7 +23,7 @@ These four values profoundly reflect the essence of Agile thinking: human-center
 
 ### Agile Development Iteration Cycle
 
-![Agile Development Iteration Cycle](./Agile-Tutorial-en-mermaid.png)
+![Agile Methodology Cycle](./Agile-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

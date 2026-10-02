@@ -4,6 +4,7 @@ Imagine a smooth, unimpeded river flowing effortlessly, delivering the source of
 
 Lean thinking originated from the "Toyota Production System (TPS)" of Toyota Motor Corporation, which completely revolutionized traditional large-scale, push-based production models. Lean Operations posits that any activity that consumes resources but does not add value for which the end customer is willing to pay is waste. By continuously examining the value stream and eliminating waste, organizations can create higher-quality products and services with fewer resources and in less time, thereby gaining a fundamental advantage in fierce market competition.
 
+![Five Principles of Lean](./Lean-Operations-Tutorial-en-diagram.png)
 ## Five Core Principles of Lean Thinking
 
 The practice of lean thinking revolves around five closely connected and cyclical core principles.

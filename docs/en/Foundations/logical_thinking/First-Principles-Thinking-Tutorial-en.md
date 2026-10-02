@@ -1,5 +1,7 @@
 # First Principles Thinking
 
+![First Principles Thinking Diagram](First-Principles-Thinking-Tutorial-en-diagram.png)
+
 When facing complex problems or seeking breakthrough innovations, most of us tend to think using **Thinking by Analogy**. We observe what others are doing, or how we've done things in the past, and then make small, incremental improvements based on that. While this approach is often efficient, it can also act as an invisible cage, confining our thinking within existing, proven frameworks, making true disruptive innovation difficult. **First Principles Thinking** offers a contrasting, more penetrating path to thinking.
 
 First principles, a concept originating from physics and philosophy, centers on **returning to the most basic, self-evident axioms or facts of a matter, and from there, logically deducing upwards, layer by layer, until a new, fundamental solution is found**. It's not about adjusting seasonings on an existing "recipe," but rather, like a chef, deconstructing a dish into its most basic molecules and elements (such as protein, fat, acid, sweetness), and then, starting from these foundational elements, creating an unprecedented dish. Elon Musk is the most famous advocate and practitioner of first principles in modern business, having used this thinking to completely disrupt traditional industries like aerospace and automotive.

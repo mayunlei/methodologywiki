@@ -1,5 +1,7 @@
 # The Iceberg Model
 
+![The Iceberg Model Diagram](Iceberg-Model-Tutorial-en-diagram.png)
+
 In daily work and life, our focus is often on the obvious, sudden "**events**": a server crash, a sudden loss of a customer, a sudden drop in sales. We are accustomed to dealing with these events quickly and reactively. However, systems thinking tells us that any isolated event is rarely truly isolated. It is merely the smallest tip of a huge iceberg floating above the water. The **Iceberg Model** is such a powerful and intuitive **systems thinking framework** that aims to guide us to penetrate the surface of events and explore deeper levels of **patterns, structures, and mental models** beneath the surface.
 
 The core idea of the Iceberg Model is that to fundamentally solve problems and achieve lasting change, we must gradually deepen our thinking from the "**reactive**" event level to the "**adaptive**" pattern level, the "**creative**" structure level, and finally the "**transformative**" mental model level. It provides a layered thinking path from "treating the symptoms" to "treating the root cause," helping us understand why problems recur and find intervention points that can produce higher leverage.

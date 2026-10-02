@@ -1,5 +1,7 @@
 # Tiny Habits
 
+![Tiny Habits Diagram](Tiny-Habits-Tutorial-en-diagram.png)
+
 We've all had ambitious goals: starting tomorrow, exercise for an hour daily, read 50 pages, meditate for 30 minutes. However, these grand plans often fail quickly after a few days due to their high barrier to execution and excessive reliance on willpower, ultimately trapping us in a negative cycle of "plan-fail-self-blame." **Tiny Habits** is an extremely simple yet exceptionally powerful behavior design method that overturns traditional habit formation thinking. Proposed by Dr. BJ Fogg, founder of the Stanford University Behavior Design Lab, its core idea is that **to cultivate a long-term, stable habit, the key is not how much willpower you have, but to make the behavior you want to adopt as "tiny" as possible, so tiny that you can almost not fail**.
 
 The essence of the Tiny Habits strategy is to bypass reliance on "motivation" and "willpower," and instead focus on **lowering the barrier to behavior**. It posits that any grand goal can be broken down into a trivial "tiny habit" that can be completed within 60 seconds. For example, reducing the daunting goal of "do 100 push-ups every day" to "**do just 1 push-up every day**." By consistently and easily performing this tiny behavior, which consumes almost no willpower, and immediately giving yourself positive emotional feedback, we can quietly lay a solid "neural pathway" for this new habit in our brains, allowing it to naturally grow and strengthen in the future.

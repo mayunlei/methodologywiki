@@ -6,6 +6,7 @@ The core of Blue Ocean Strategy is not technological innovation itself, but a st
 
 ## Core Analytical Tools of Blue Ocean Strategy
 
+![Blue Ocean Strategy vs Red Ocean Strategy](./Blue-Ocean-Strategy-Tutorial-en-diagram.png)
 Blue Ocean Strategy provides a set of systematic analytical tools to help companies systematically think about how to escape the red ocean and create a blue ocean.
 
 1.  **Strategy Canvas**

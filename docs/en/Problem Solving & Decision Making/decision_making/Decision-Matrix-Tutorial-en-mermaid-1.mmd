@@ -1,0 +1,35 @@
+graph TD
+    subgraph Decision Matrix: Choosing New CRM Software
+        A(<b>Decision Criteria</b>) --> B(<b>Weight (1-5)</b>);
+        B --> C(<b>Option A: Salesforce</b><br/>Score (1-10));
+        C --> D(<b>Option A: Weighted Score</b><br/>(Weight × Score));
+        D --> E(<b>Option B: HubSpot</b><br/>Score (1-10));
+        E --> F(<b>Option B: Weighted Score</b><br/>(Weight × Score));
+
+        subgraph Criterion 1
+            direction LR
+            A1(Feature Completeness) --> B1(5);
+            B1 --> C1(9) --> D1(45);
+            D1 --> E1(7) --> F1(35);
+        end
+        subgraph Criterion 2
+            direction LR
+            A2(Ease of Use) --> B2(4);
+            B2 --> C2(6) --> D2(24);
+            D2 --> E2(9) --> F2(36);
+        end
+        subgraph Criterion 3
+            direction LR
+            A3(Cost) --> B3(3);
+            B3 --> C3(5) --> D3(15);
+            D3 --> E3(8) --> F3(24);
+        end
+        subgraph Criterion 4
+            direction LR
+            A4(Customer Support) --> B4(4);
+            B4 --> C4(8) --> D4(32);
+            D4 --> E4(7) --> F4(28);
+        end
+
+        G(<b>Total Score</b>) --> H(...) --> I(<b>116</b>) --> J(...) --> K(<b>123</b>);
+    end

@@ -17,7 +17,7 @@ A standard A/B test consists of the following key parts:
 
 ### A/B Testing Workflow
 
-![A/B Testing Process](./AB-Testing-Tutorial-en-mermaid.png)
+![A/B Testing Process](./AB-Testing-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

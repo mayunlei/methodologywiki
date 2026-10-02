@@ -8,7 +8,7 @@ At its core, Design Thinking shifts the focus of innovation from "technical feas
 
 Stanford University's d.school classically summarizes the Design Thinking process into five non-linear, iterative stages.
 
-![The Five Stages of Design Thinking (d.school Model)](./Design-Thinking-Tutorial-en-mermaid.png)
+![The Five Stages of Design Thinking (d.school Model)](./Design-Thinking-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

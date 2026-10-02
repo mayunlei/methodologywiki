@@ -1,5 +1,7 @@
 # The Pyramid Principle
 
+![The Pyramid Principle Diagram](Pyramid-Principle-Tutorial-en-diagram.png)
+
 In business communication, writing, and presentations, we often encounter a dilemma: we feel we have a lot to say, but the audience is confused and misses the main points. The **Pyramid Principle**, proposed by former McKinsey consultant Barbara Minto, is an extremely powerful set of **structured thinking and expression methods** designed to improve communication efficiency and logical clarity. Its core idea is that any complex argument can be organized into a pyramid structure that is **conclusion-first, top-down, grouped, and logically progressive**, ensuring that your audience can easily, quickly, and accurately understand the core message you want to convey.
 
 The essence of the Pyramid Principle lies in its profound insight into how the human brain processes information: our brains automatically seek logic and structure in the fragmented information they receive. Instead of making your audience struggle to summarize your disorganized arguments, you proactively present your core conclusions and their supporting logical structure clearly from the outset. It is a powerful methodology that transforms your thinking and expression from "making others guess" to "making others understand."

@@ -1,5 +1,7 @@
 # GTD (Getting Things Done)
 
+![GTD Workflow Diagram](./GTD-Tutorial-en-diagram.png)
+
 Our brain is inherently an excellent "CPU" for **generating ideas**, but it is an extremely poor "hard drive" for **storing information**. When we try to use our brain to remember all our to-dos, appointments, ideas, and commitments, it becomes occupied with these "unfinished matters," leading to stress, anxiety, and mental clutter, making it impossible to focus on the task at hand. **GTD (Getting Things Done)**, created by productivity guru David Allen, is a globally renowned **personal productivity system and workflow management method**.
 
 The core philosophy of GTD is to achieve a **"Mind Like Water"** state of stress-free, highly focused, and efficient work by capturing all pending "stuff" from your mind into an **external, trustworthy system**, and then following a clear, rigorous process to **organize and process** it. It is not a simple time management trick, but a complete operating system designed to free your mind and enable you to calmly handle complex work and life.

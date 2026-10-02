@@ -1,5 +1,7 @@
 # OKR (Objectives and Key Results)
 
+![OKR Diagram](OKR-Tutorial-en-diagram.png)
+
 In rapidly changing, uncertain modern organizations, how can we ensure that everyone in the team moves in the same direction and works together? Traditional, top-down performance appraisals (KPIs) are often too rigid, easily leading employees to focus only on their metrics and neglect the ultimate goal. **OKR (Objectives and Key Results)** is a powerful, agile goal management framework born to address this challenge. It is not a performance appraisal tool, but a continuous communication and alignment tool designed to **unify thinking, focus priorities, promote collaboration, and unleash potential**.
 
 The core idea of OKR is to focus the organization's energy on the most important things. It clearly defines "where we want to go" and "how we know we are on the right track" by setting an inspiring, qualitative **Objective**, supplemented by 2-5 quantifiable **Key Results** used to measure the achievement of the Objective. It encourages transparency, collaboration, and bottom-up participation, allowing every team and individual to clearly see how their work contributes to the organization's grand vision, thereby stimulating intrinsic motivation.

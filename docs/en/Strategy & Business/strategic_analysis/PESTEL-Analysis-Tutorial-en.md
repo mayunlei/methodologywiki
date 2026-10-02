@@ -17,7 +17,7 @@ By systematically analyzing these six dimensions, organizations can better predi
 
 Each letter of PESTEL represents a series of external forces that need to be examined.
 
-![PESTEL-Analysis-Tutorial-en-mermaid.png](./PESTEL-Analysis-Tutorial-en-mermaid.png)
+[![PESTEL Analysis Factors](./PESTEL-Analysis-Tutorial-en-diagram.png)](./PESTEL-Analysis-Tutorial-en-mermaid.png)
 
 <!--
 ```mermaid

@@ -18,7 +18,7 @@ A standard user journey map typically resembles a horizontal swimlane diagram an
 
 ### User Journey Map Template
 
-![User Journey Map: Restaurant Reservation](./User-Journey-Map-Tutorial-en-mermaid.png)
+![User Journey Map Concept](./User-Journey-Map-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

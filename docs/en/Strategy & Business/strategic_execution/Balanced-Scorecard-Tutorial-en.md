@@ -8,7 +8,7 @@ The core idea of the Balanced Scorecard is "balance." It achieves a delicate bal
 
 The Balanced Scorecard systematically breaks down abstract strategies into concrete actions and measurable standards through four interconnected and causally linked perspectives.
 
-![The Four Perspectives of the Balanced Scorecard (Causal Relationship)](./Balanced-Scorecard-Tutorial-en-mermaid.png)
+![Balanced Scorecard Framework](./Balanced-Scorecard-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

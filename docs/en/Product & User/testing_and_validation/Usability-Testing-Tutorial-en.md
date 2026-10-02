@@ -17,7 +17,7 @@ A standard usability test typically includes the following key components:
 
 ### Usability Testing Process
 
-![Usability Testing Process](./Usability-Testing-Tutorial-en-mermaid.png)
+![Usability Testing Setup](./Usability-Testing-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

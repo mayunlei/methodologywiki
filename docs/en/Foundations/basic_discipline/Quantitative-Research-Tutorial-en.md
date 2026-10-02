@@ -1,5 +1,7 @@
 # Quantitative Research
 
+![Quantitative Research Diagram](Quantitative-Research-Tutorial-en-diagram.png)
+
 Among the many ways to explore the world, **Quantitative Research** is a core method that uses numbers and statistics as its language, striving to objectively and systematically measure social and natural phenomena. It is not simply about dealing with numbers; its essence is an empirical paradigm that verifies hypotheses, reveals patterns, and predicts future trends through quantifiable data. When you need to answer questions like "How many?", "How frequent?", or "Is there a significant relationship between the two?", quantitative research becomes an indispensable tool.
 
 It attempts to transform complex phenomena into measurable, comparable variables, and through rigorous statistical analysis, draw conclusions that are generalizable and verifiable. From testing drug efficacy in medicine to surveying consumer preferences in marketing, and analyzing macro trends in sociology, quantitative research provides solid logical and data support for us to understand and transform the world.

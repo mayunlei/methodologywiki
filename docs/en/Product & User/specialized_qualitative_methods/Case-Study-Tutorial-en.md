@@ -19,7 +19,7 @@ A "case" can be a person (e.g., a gifted child), an organization (e.g., a compan
 
 According to research purpose and the number of cases, case study can be divided into different types:
 
-![Case Study Design Types](./Case-Study-Tutorial-en-mermaid.png)
+![Case Study Research Process](./Case-Study-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

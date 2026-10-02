@@ -8,7 +8,7 @@ The core idea of the 5 Whys method is to continuously and iteratively ask "**Why
 
 The 5 Whys process builds a clear cause-and-effect chain from symptom to root cause. The answer to each "Why" forms the subject of the next "Why."
 
-![The Causal Chain of 5 Whys](./5-Whys-Tutorial-en-mermaid.png)
+![The Causal Chain of 5 Whys](./5-Whys-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

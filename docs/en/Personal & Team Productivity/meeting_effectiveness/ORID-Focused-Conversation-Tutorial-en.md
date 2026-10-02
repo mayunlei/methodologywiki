@@ -1,5 +1,7 @@
 # ORID Focused Conversation Method
 
+![ORID Focused Conversation Diagram](ORID-Focused-Conversation-Tutorial-en-diagram.png)
+
 In team meetings or debriefing discussions, we often encounter the dilemma where discussions quickly devolve into arguments over solutions, or become a "one-man show" by a few individuals, while many remain silent, leading to meetings that neither reach consensus nor generate true deep thinking. The **ORID Focused Conversation Method** is a powerful and elegant **structured facilitation technique** designed to solve this problem. It systematically guides a discussion through four logically progressive levels, ensuring that the team moves from **objective facts** to **subjective feelings**, then to **interpretive analysis**, and finally to **informed decisions**.
 
 ORID is an acronym for four levels, simulating the natural process of the human brain processing information and forming decisions:

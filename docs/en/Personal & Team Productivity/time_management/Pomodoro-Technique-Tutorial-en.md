@@ -1,5 +1,7 @@
 # Pomodoro Technique
 
+![Pomodoro Technique Diagram](./Pomodoro-Technique-Tutorial-en-diagram.png)
+
 We've all been there: facing a daunting and complex task, procrastinating on starting; or while working, our minds wander, easily interrupted by every phone vibration or casual chat from a colleague. As a result, we end the day exhausted, yet our efficiency is far from satisfactory. The **Pomodoro Technique** is an incredibly simple yet exceptionally effective time management method designed to solve this common dilemma.
 
 It doesn't require complex tools or profound theories. Its core lies in using a timer to divide work time into several 25-minute, highly focused "Pomodoros," interspersed with short breaks. This rhythmic cycle of "focus-break" aims to help us overcome procrastination, resist distractions, and maintain a highly efficient work state in a sustainable way.

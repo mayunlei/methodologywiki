@@ -16,7 +16,7 @@ Ethnographic researchers pursue a "thick description," not only recording what p
 
 ### Ethnographic Research Process
 
-![Ethnographic Research Process](./Ethnography-Tutorial-en-mermaid.png)
+![Ethnography Research Cycle](./Ethnography-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

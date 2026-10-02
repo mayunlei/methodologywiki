@@ -8,7 +8,7 @@ The charm of the Business Model Canvas lies in its ability to deconstruct a comp
 
 The core of the Business Model Canvas is a template with nine boxes, each representing a key aspect of the business model.
 
-![Business-Model-Canvas-Tutorial-en-mermaid-1bb53b6c.png](./Business-Model-Canvas-Tutorial-en-mermaid.png)
+![Business Model Canvas Template](./Business-Model-Canvas-Tutorial-en-diagram.png)
 
 <!--
 ![Business-Model-Canvas-Tutorial-en-mermaid-1bb53b6c.png](./Business-Model-Canvas-Tutorial-en-mermaid-1bb53b6c.png)

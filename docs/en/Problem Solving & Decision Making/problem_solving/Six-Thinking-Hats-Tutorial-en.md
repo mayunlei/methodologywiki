@@ -1,5 +1,7 @@
 # Six Thinking Hats Method Tutorial
 
+![Six Thinking Hats Diagram](./Six-Thinking-Hats-Tutorial-en-diagram.png)
+
 ## 1. What are the Six Thinking Hats?
 
 The **Six Thinking Hats** is a powerful thinking tool developed by Dr. Edward de Bono, the "father of creative thinking." It aims to improve communication efficiency and creativity in team meetings and discussions.

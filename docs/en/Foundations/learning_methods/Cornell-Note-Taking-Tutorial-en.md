@@ -1,5 +1,7 @@
 # Cornell Note-Taking Method
 
+![Cornell Note-Taking Method Diagram](Cornell-Note-Taking-Tutorial-en-diagram.png)
+
 When attending lectures, meetings, or reading, we often find ourselves in a dilemma: if we furiously write down everything, trying to capture all content, we often lose track of the main ideas and "miss the forest for the trees"; if we only listen without taking notes, we might forget most of the important information within hours or days. The **Cornell Note-Taking System**, designed by Professor Walter Pauk of Cornell University in the 1950s, is a globally renowned **highly efficient note-taking system** aimed at solving this problem.
 
 The essence of the Cornell Note-Taking Method is not "how to take notes," but to systematically integrate **recording, simplifying, reviewing, and reflecting** on key learning stages through a **unique page layout**. It clearly divides a page of notes into three (or four) different areas, each with its unique function. This structured approach forces us to actively think and process information while taking notes, thereby greatly improving learning efficiency, depth, and long-term knowledge retention.

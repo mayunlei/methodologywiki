@@ -1,5 +1,7 @@
 # Five Whys Root Cause Analysis Tutorial
 
+![Five Whys Diagram](./Five-Whys-Tutorial-en-diagram.png)
+
 ## 1. What is the Five Whys?
 
 The **Five Whys** is a simple yet powerful root cause analysis (RCA) technique that systematically explores the cause-and-effect chain of a problem by repeatedly asking "why?" until the root cause leading to the problem is found, rather than stopping at surface symptoms.

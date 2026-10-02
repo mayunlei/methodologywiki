@@ -1,5 +1,7 @@
 # The Feynman Technique
 
+![The Feynman Technique Diagram](Feynman-Technique-Tutorial-en-diagram.png)
+
 We often fall into the illusion of "knowing": we can recognize a concept, talk about it vaguely, and even highlight it in a book, mistakenly believing that we have truly mastered it. However, when we need to explain this concept clearly, in our own words, to others, we realize how fragmented and flawed our understanding is. The **Feynman Technique** is a powerful mental model and learning strategy designed to break this learning illusion and pursue **truly deep understanding**.
 
 This method is named after Nobel Prize-winning physicist Richard Feynman, who was renowned for his ability to explain extremely complex physics concepts in incredibly simple, intuitive language. The core idea of the Feynman Technique is that **the only criterion for truly understanding a piece of knowledge is whether you can successfully teach it to someone completely unfamiliar with the field, using the simplest, clearest language possible**. It is not a passive learning method, but an active, "learning by teaching" deep processing that forces us to confront all the ambiguities and logical gaps in our knowledge system.

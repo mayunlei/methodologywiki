@@ -39,6 +39,7 @@ This is the most fundamental and critical limitation when understanding cross-se
 **A classic example**: A cross-sectional study found that the computer proficiency of 60-year-olds was significantly lower than that of 20-year-olds. We cannot hastily conclude that "as people get older, their ability to learn computers declines" (age effect). This is because the two groups grew up in completely different eras: 20-year-olds are "digital natives" who grew up with computers, while 60-year-olds were exposed to computers only in adulthood. This difference caused by different backgrounds is the "cohort effect." The design of cross-sectional research itself cannot clearly separate these two effects.
 
 ## How to Conduct a Cross-Sectional Study
+![Cross-Sectional Study Design](./Cross-Sectional-Research-Tutorial-en-diagram.png)
 
 1.  **Define Research Questions and Groups**
     Clearly define what groups you want to compare and what variables you want to measure. For example, study "Are there differences in environmental awareness scores among adults with different educational levels (high school, bachelor's, master's)?"

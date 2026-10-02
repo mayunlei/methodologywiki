@@ -17,7 +17,7 @@ A standard decision matrix is mainly composed of the following parts:
 
 ### Decision Matrix Template
 
-![Decision Matrix Template](./Decision-Matrix-Tutorial-en-mermaid.png)
+![Decision Matrix Template](./Decision-Matrix-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

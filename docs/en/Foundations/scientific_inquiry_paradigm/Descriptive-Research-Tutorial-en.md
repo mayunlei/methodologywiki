@@ -1,5 +1,7 @@
 # Descriptive Research
 
+![Descriptive Research Diagram](Descriptive-Research-Tutorial-en-diagram.png)
+
 In the landscape of scientific inquiry, if experimental research aims to answer "why," then **descriptive research** focuses on answering a more fundamental but equally important question: "**What is it?**" It is a non-invasive research paradigm whose core objective is to systematically and accurately observe and portray the characteristics of a specific group, phenomenon, or situation, without any intervention or manipulation. It provides us with a "snapshot" or "portrait" of a certain aspect of the world.
 
 Descriptive research is the starting point for many scientific explorations. Before we can explain a phenomenon, we first need to clearly understand what it looks like. From describing the demographic structure of a country in a census, to understanding the consumption habits of target customers in market research, to recording the social behavior of a species in animal ethology, descriptive research provides us with fundamental facts and data to build our understanding of the world.

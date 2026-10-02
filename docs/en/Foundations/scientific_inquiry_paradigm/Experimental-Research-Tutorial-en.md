@@ -1,5 +1,7 @@
 # Experimental Research
 
+![Experimental Research Diagram](Experimental-Research-Tutorial-en-diagram.png)
+
 Among all scientific inquiry methods, **Experimental Research** is the gold standard closest to revealing the **Causality** of things. It does not simply observe the world, but actively and systematically intervenes in the world to verify whether a change in one factor "causes" a change in another. When you want to definitively answer questions like "Is it because of A that B occurred?", experimental research provides the most rigorous and powerful logical framework.
 
 Its core idea lies in **control**. Researchers precisely manipulate one or more **Independent Variables** in a highly controlled environment and observe the measurable effects of this manipulation on **Dependent Variables**, while strictly controlling or randomizing all other irrelevant variables that might have an influence. It is this precise control and manipulation of variables that enables experimental research to go beyond "correlation" and draw "causal" conclusions.

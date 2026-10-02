@@ -31,7 +31,7 @@ Depending on the industry of the analysis object, different classic models can b
     *   **4S**: Suppliers, Systems, Surroundings, Skills.
     *   **8P**: Product (product/service), Price, Place (channel), Promotion, People, Process, Physical Evidence, Productivity & Quality.
 
-![Fishbone Diagram (6M Model)](./Fishbone-Diagram-Tutorial-en-mermaid.png)
+![Fishbone Diagram (6M Model)](./Fishbone-Diagram-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

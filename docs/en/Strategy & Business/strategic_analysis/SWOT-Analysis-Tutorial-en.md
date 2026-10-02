@@ -18,7 +18,7 @@ The essence of SWOT analysis lies in its concise yet profound four-dimensional m
 
 To facilitate a more intuitive analysis, we typically use a 2x2 matrix to organize these ideas.
 
-![SWOT Analysis Matrix Template](./SWOT-Analysis-Tutorial-en-mermaid.png)
+![SWOT Analysis Matrix](./SWOT-Analysis-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

@@ -8,7 +8,7 @@ TQM is not a specific method or tool, but a management philosophy and organizati
 
 Total Quality Management is built upon a series of interconnected core principles that collectively form the cultural foundation of TQM.
 
-![Core Principles of Total Quality Management (TQM)](./Total-Quality-Management-Tutorial-en-mermaid.png)
+![Core Principles of Total Quality Management (TQM)](./Total-Quality-Management-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

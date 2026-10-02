@@ -1,5 +1,7 @@
 # Grounded Theory
 
+![Grounded Theory Diagram](Grounded-Theory-Tutorial-en-diagram.png)
+
 In the vast landscape of social science research, there are times when existing theories fall short in explaining complex social phenomena, or when we are exploring entirely new areas where no established theoretical framework exists. In such situations, simply verifying existing theories is insufficient; we need a method that allows us to **construct new theories directly from data**. **Grounded Theory** is precisely such a powerful qualitative research methodology. It is a systematic approach that emphasizes the **inductive generation of theory** from systematically collected and analyzed data, rather than starting with a pre-conceived hypothesis.
 
 Developed by sociologists Barney Glaser and Anselm Strauss in the 1960s, Grounded Theory's core philosophy is **"all is data."** It advocates for a continuous, iterative process of data collection, coding, and analysis, where theoretical concepts and relationships emerge directly from the data itself. This contrasts sharply with traditional deductive research, which begins with a theory and then tests it with data. Grounded Theory aims to produce a theory that is "grounded" in the empirical world, reflecting the realities and complexities of the phenomenon being studied. It is particularly suitable for exploring processes, interactions, and social structures in depth, providing rich, nuanced, and context-sensitive theoretical explanations.

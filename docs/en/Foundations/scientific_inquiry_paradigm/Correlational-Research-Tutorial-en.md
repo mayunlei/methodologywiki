@@ -1,5 +1,7 @@
 # Correlational Research
 
+![Correlational Research Diagram](Correlational-Research-Tutorial-en-diagram.png)
+
 In the journey of scientific exploration, we not only want to know "what things are like" (descriptive research) but also eagerly desire to understand how things are interconnected. **Correlational Research** is precisely such a research paradigm that aims to explore whether there is a **relationship** between two or more variables, as well as its **strength** and **direction**. The core question it answers is: "When A changes, does B also systematically change?"
 
 Correlational research is a non-experimental quantitative research method. Researchers do not manipulate any variables as they would in an experiment, but merely measure existing variables and then use statistical techniques to analyze the relationships between them. For example, a researcher might measure a group of students' "daily study hours" and their "exam scores," to explore whether there is a relationship between the two. This type of research in psychology, sociology, education, and market research and many other fields play a crucial role.

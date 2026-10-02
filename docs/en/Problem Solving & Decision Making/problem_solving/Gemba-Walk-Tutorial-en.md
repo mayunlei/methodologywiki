@@ -1,5 +1,7 @@
 # Gemba Walk Management Method Tutorial
 
+![Gemba Walk Diagram](./Gemba-Walk-Tutorial-en-diagram.png)
+
 ## 1. What is a Gemba Walk?
 
 **Gemba Walk** is a core management practice originating from Japanese Lean Manufacturing. "Gemba" (现场) in Japanese means "the real place," where value is created, such as a factory floor, a hospital ward, or a software development office.

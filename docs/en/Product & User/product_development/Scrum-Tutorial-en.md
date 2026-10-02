@@ -16,7 +16,7 @@ The entire Scrum framework is built upon three empirical pillars:
 
 Scrum's "rules of the game" can be concisely summarized as a "3-5-3" structure: 3 roles, 5 events, 3 artifacts.
 
-![Scrum Framework (3-5-3)](./Scrum-Tutorial-en-mermaid.png)
+![Scrum Framework](./Scrum-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

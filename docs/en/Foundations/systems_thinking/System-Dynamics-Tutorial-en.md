@@ -1,5 +1,7 @@
 # System Dynamics
 
+![System Dynamics Diagram](System-Dynamics-Tutorial-en-diagram.png)
+
 When faced with complex problems, we tend to analyze them with linear, cause-and-effect chain thinking: A leads to B, and B leads to C. However, in real business, social, and ecological systems, the interactions between things are far more complex. A small change can, after a series of delays and amplifications, trigger an unexpected "butterfly effect" at the other end of the system. **System Dynamics** is an interdisciplinary field and modeling method designed to understand and analyze such **complex system dynamic behaviors**.
 
 It was founded by Professor Jay W. Forrester of MIT in the 1950s. Its core idea is that a system's behavior patterns are primarily determined by its internal **feedback loops**, **time delays**, and **nonlinear relationships**, rather than external events. System Dynamics builds computer simulation models to simulate and experiment with these complex interactions, helping us understand why systems exhibit certain specific behaviors (such as exponential growth, oscillation, collapse) and find "high-leverage points" that can effectively intervene in the system to achieve desired outcomes.

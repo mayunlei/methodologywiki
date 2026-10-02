@@ -1,5 +1,7 @@
 # Gap Analysis Tutorial
 
+![Gap Analysis Diagram](./Gap-Analysis-Tutorial-en-diagram.png)
+
 ## 1. What is Gap Analysis?
 
 **Gap Analysis** is a strategic management tool that identifies the "**gap**" between an organization's **current state** and its **desired future state** by comparing the two.

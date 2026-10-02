@@ -1,12 +1,11 @@
 # Porter's Five Forces Model
-
+![Porter's Five Forces](./Porters-Five-Forces-Tutorial-en-diagram.png)
 In fierce business competition, the attractiveness and long-term profitability of an industry are not determined by a single competitor, but shaped by a broader competitive ecosystem. **Porter's Five Forces Model** is a revolutionary framework proposed by Michael E. Porter, a master of strategic management at Harvard Business School. It provides a powerful lens to help us systematically analyze the competitive structure of any industry and understand the five fundamental competitive forces that determine the average profit level of that industry.
 
 The core idea of this model is that corporate strategists must look beyond immediate direct competitors and examine the broader competitive arena. These five forces interact to determine the intensity of competition within the industry and how value is created and distributed in the industry chain. By understanding the strength of each force, companies can find their optimal position in the industry and formulate strategies that can avoid risks, leverage advantages, and ultimately gain sustainable competitive advantage.
 
 ## Analyzing the Five Competitive Forces
 
-Porter's Five Forces Model breaks down industry competition into five distinct dimensions, which together determine the "rules of the game" in the industry.
 
 ![Porters-Five-Forces-Tutorial-en-mermaid-9fca1c41.png](./Porters-Five-Forces-Tutorial-en-mermaid-9fca1c41.png)
 

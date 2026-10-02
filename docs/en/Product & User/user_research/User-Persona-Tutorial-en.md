@@ -19,7 +19,7 @@ A detailed and empathetic user persona typically includes the following key part
 
 Below is a typical user persona structure, which can be adjusted according to the specific project.
 
-![User Persona Template](./User-Persona-Tutorial-en-mermaid.png)
+![User Persona Template](./User-Persona-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

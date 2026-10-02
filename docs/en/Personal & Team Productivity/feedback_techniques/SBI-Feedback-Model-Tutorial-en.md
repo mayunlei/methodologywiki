@@ -1,5 +1,7 @@
 # SBI Feedback Model
 
+![SBI Feedback Model Diagram](SBI-Feedback-Model-Tutorial-en-diagram.png)
+
 In team collaboration and personal growth, **feedback** is indispensable fuel. However, inappropriate feedback methods often backfire. Vague feedback (e.g., "You did well") fails to provide specific guidance, while overly subjective or judgmental feedback (e.g., "You're too careless") easily triggers defensiveness and resistance in the recipient, turning what should be a constructive conversation into an unproductive argument. The **SBI Feedback Model (Situation-Behavior-Impact Model)** is a simple, clear, non-judgmental **structured feedback communication tool** designed to solve this problem.
 
 The SBI model, developed by the **Center for Creative Leadership (CCL)**, a leading global leadership development institution, focuses on clearly breaking down feedback into three logically sequential parts to ensure your feedback is **specific, objective, and focused on behavior and its impact**, rather than abstract judgments about personal character.

@@ -1,5 +1,7 @@
 # SMART Goals
 
+![SMART Goals Diagram](SMART-Goals-Tutorial-en-diagram.png)
+
 In the field of goal management, a common problem is that the goals we set are often too vague and unrealistic, ultimately leading them to be shelved, unable to be effectively executed and measured. For example, "I want to be healthier" or "Our company wants to enhance brand influence"—while these aspirations are good, they often fall by the wayside due to a lack of clear definition and feasible paths. The **SMART principle** is a widely applied and highly effective set of **goal-setting standards** designed to solve this problem. It provides a clear, five-dimensional checklist to guide us in setting high-quality, executable, and trackable goals.
 
 SMART is an acronym for five English words, requiring an effective goal to be:

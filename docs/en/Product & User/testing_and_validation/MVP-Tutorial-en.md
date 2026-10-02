@@ -16,7 +16,7 @@ The essence of MVP is that it transforms the traditional long linear process of 
 
 Imagine your goal is to build a car.
 
-![Comparison of MVP and Traditional Product Development Thinking](./MVP-Tutorial-en-mermaid.png)
+![Comparison of MVP and Traditional Product Development Thinking](./MVP-Tutorial-en-diagram.png)
 
 <!--
 ```mermaid

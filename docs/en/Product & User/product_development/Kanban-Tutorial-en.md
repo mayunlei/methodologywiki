@@ -22,7 +22,7 @@ Kanban's success relies on the continuous application of the following six core 
 
 ### Kanban Board Structure Example
 
-![Kanban Board Structure Example](./Kanban-Tutorial-en-mermaid.png)
+![Kanban Board Example](./Kanban-Tutorial-en-diagram.png)
 
 <!--
 ![Kanban-Tutorial-en-mermaid-de3d2164.png](./Kanban-Tutorial-en-mermaid-de3d2164.png)
