@@ -54,23 +54,7 @@ Logikbäume lassen sich hauptsächlich in zwei Typen unterteilen, die zur Lösun
 
 ### Fall 1: Problem-Baum - Analyse von "Warum sinkt der Gewinn des Restaurants?"
 
-<!--
-
-```mermaid
-graph TD
-    A(Restaurant Profit Decline) --> B(Revenue Decrease)
-    A --> C(Cost Increase)
-
-    B --> D(Fewer Customers)
-    B --> E(Lower Average Spend Per Customer)
-
-    C --> F(Increased Food Costs)
-    C --> G(Increased Operating Costs)
-
-    G --> H(Increased Labor Costs)
-    G --> I(Increased Rent/Utilities)
-```
--->
+<!-- mermaid 源文件：Logic-Tree-Tutorial-de-mermaid-src-1.mmd -->
 
 **Analyse**: Mit diesem Baumdiagramm können Manager die Hauptfaktoren für den Gewinnverlust klar erkennen und für jeden Ast (z. B. "Weniger Kunden") Daten sammeln, um eine tiefere Analyse durchzuführen.
 

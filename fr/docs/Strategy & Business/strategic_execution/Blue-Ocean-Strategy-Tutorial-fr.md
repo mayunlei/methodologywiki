@@ -16,16 +16,7 @@ La stratégie de l'océan bleu propose un ensemble d'outils analytiques systéma
 
     
 
-<!-- 
-```mermaid
-graph TD
-    subgraph Four Actions Framework
-            A(<b>Éliminer</b><br/>Quels facteurs que l'industrie considère comme allant de soi<br/>devraient être complètement éliminés ?) --> B(<b>Réduire</b><br/>À quels niveaux d'investissement devrait-on<br/>descendre bien en dessous de la norme industrielle ?);
-            B --> C(<b>Augmenter</b><br/>À quels niveaux d'investissement devrait-on<br/>monter bien au-dessus de la norme industrielle ?);
-            C --> D(<b>Créer</b><br/>Quels nouveaux facteurs, jamais offerts<br/>par l'industrie auparavant, devraient être créés ?);
-        end
-    ```
--->
+<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-fr-mermaid-src-1.mmd -->
 
     *   "Éliminer" et "Réduire" aident les entreprises à diminuer leur structure de coûts.
     *   "Augmenter" et "Créer" visent à améliorer la valeur perçue par les clients et à créer une nouvelle demande.

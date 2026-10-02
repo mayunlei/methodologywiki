@@ -10,17 +10,7 @@ The Balanced Scorecard systematically breaks down abstract strategies into concr
 
 ![Balanced Scorecard Framework](./Balanced-Scorecard-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph The Four Perspectives of the Balanced Scorecard (Causal Relationship)
-        direction LR
-        A(<b>Learning & Growth</b><br/><i>How can we continuously improve and create value?</i>) --> B(<b>Internal Process</b><br/><i>What processes must we excel at?</i>);
-        B --> C(<b>Customer</b><br/><i>How do we satisfy our customers?</i>);
-        C --> D(<b>Financial</b><br/><i>How do we create value for shareholders?</i>);
-    end
-```
--->
+<!-- mermaid 源文件：Balanced-Scorecard-Tutorial-en-mermaid-src-1.mmd -->
 
 1.  **Financial Perspective**
     *   **Core Question**: "To succeed financially, how should we appear to our shareholders?"

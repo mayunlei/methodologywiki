@@ -16,16 +16,7 @@ Strategi för blått hav erbjuder ett systematiskt sett analytiska verktyg som h
 
     
 
-<!-- 
-```mermaid
-graph TD
-    subgraph Fyra åtgärdsramverket
-            A(<b>Eliminera</b><br/>Vilka faktorer som branschen tar för givna<br/>bör elimineras helt?) --> B(<b>Reducera</b><br/>Vilka faktorers investeringsnivåer bör<br/>sänkas långt under branschens standard?);
-            B --> C(<b>Höj</b><br/>Vilka faktorers investeringsnivåer bör<br/>höjas långt över branschens standard?);
-            C --> D(<b>Skapa</b><br/>Vilka helt nya faktorer, aldrig tidigare erbjudna<br/>av branschen, bör skapas?);
-        end
-    ```
--->
+<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-sv-mermaid-src-1.mmd -->
     *   "Eliminera" och "Reducera" hjälper företag att sänka sina kostnadsstrukturer.
     *   "Höj" och "Skapa" syftar till att förbättra kundvärdet och skapa ny efterfrågan.
 

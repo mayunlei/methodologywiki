@@ -26,23 +26,7 @@ Suppose a restaurant analyzed all customer complaints from the last month:
 
 ![Pareto Chart Example](./Pareto-Analysis-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph Pareto Analysis of Customer Complaint Reasons
-        direction LR
-        subgraph X-axis (Cause Categories)
-            A(Slow Service) --> B(Food Taste) --> C(Service Attitude) --> D(Too Expensive) --> E(Noisy Environment);
-        end
-        subgraph Y-axis (Frequency and Cumulative Percentage)
-            F(Left Y-axis: Complaint Frequency) -- Right Y-axis: Cumulative Percentage --> G;
-        end
-        subgraph Chart Area
-            H["Bar Chart: Arranged by frequency from high to low<br/>(e.g., Slow Service: 50 times, Food Taste: 25 times...)<br/>Line Chart: Shows cumulative percentage<br/>(e.g., At 'Slow Service', cumulative percentage is 50%;<br/>At 'Food Taste', cumulative percentage is 75%...)"]
-        end
-    end
-```
--->
+<!-- mermaid 源文件：Pareto-Analysis-Tutorial-en-mermaid-src-1.mmd -->
 
 *   **Analysis**: From this (hypothetical) chart, the restaurant manager can clearly see that "slow service" and "food taste" might account for 75% of all complaints. Therefore, instead of spreading efforts to solve all problems, they should concentrate resources on prioritizing the optimization of kitchen service processes and dish development processes.
 

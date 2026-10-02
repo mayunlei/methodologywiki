@@ -10,20 +10,7 @@ Stanford University's d.school classically summarizes the Design Thinking proces
 
 ![The Five Stages of Design Thinking (d.school Model)](./Design-Thinking-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph The Five Stages of Design Thinking (d.school Model)
-        A(<b>1 Empathize</b><br/><i>Put yourself in their shoes, understand your users</i>) --> B(<b>2 Define</b><br/><i>Clearly define the core user problem</i>);
-        B --> C(<b>3 Ideate</b><br/><i>Brainstorm freely, generate many ideas</i>);
-        C --> D(<b>4 Prototype</b><br/><i>Hands-on, turn ideas into reality</i>);
-        D --> E(<b>5 Test</b><br/><i>Present prototype to users, get real feedback</i>);
-        E --> A;
-        E --> B;
-        E --> C;
-    end
-```
--->
+<!-- mermaid 源文件：Design-Thinking-Tutorial-en-mermaid-src-1.mmd -->
 
 *   **This is an iterative, not linear, process**: Feedback gained during the testing phase might lead you back to any previous stage to deepen empathy, redefine the problem, or generate new ideas.
 

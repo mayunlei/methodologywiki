@@ -17,31 +17,7 @@ Ein standardisiertes Mind Map folgt einigen einfachen, aber wesentlichen Zeichen
 
 ### Beispielstruktur eines Mind Maps
 
-<!--
-
-```mermaid
-graph TD
-    A(<b>Zentrales Thema</b><br/>z. B., Eine gelungene Geburtstagsfeier) --> B(<b>Hauptzweig 1: Gäste</b>);
-    A --> C(<b>Hauptzweig 2: Essen</b>);
-    A --> D(<b>Hauptzweig 3: Aktivitäten</b>);
-    A --> E(<b>Hauptzweig 4: Ort</b>);
-
-    B --> B1(Zweig: Familie);
-    B --> B2(Zweig: Freunde);
-    B2 --> B2a(Unterzweig: Studienkollegen);
-    B2 --> B2b(Unterzweig: Arbeitskollegen);
-
-    C --> C1(Zweig: Kuchen);
-    C --> C2(Zweig: Getränke);
-    C --> C3(Zweig: Hauptgericht);
-
-    D --> D1(Zweig: Musik);
-    D --> D2(Zweig: Spiele);
-
-    E --> E1(Zweig: Buchung);
-    E --> E2(Zweig: Dekoration);
-```
--->
+<!-- mermaid 源文件：Mind-Mapping-Tutorial-de-mermaid-src-1.mmd -->
 
 ## Wie man ein Mind Map erstellt
 

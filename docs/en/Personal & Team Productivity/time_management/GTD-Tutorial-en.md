@@ -10,16 +10,7 @@ The core philosophy of GTD is to achieve a **"Mind Like Water"** state of stress
 
 ![The Five Core Steps of GTD](./GTD-Tutorial-en-mermaid-1.png)
 
-<!--
-```mermaid
-graph TD
-    A["1 Capture/Collect<br/>Gather all 'stuff'"] --> B["2 Process/Clarify<br/>Clarify the essence of each item one by one"]
-    B --> C["3 Organize<br/>Put processed results into the correct 'buckets'"]
-    C --> D["4 Reflect/Review<br/>Regularly review and update your system"]
-    D --> E["5 Engage/Do<br/>Make wise action choices based on context"]
-    E --> A
-```
--->
+<!-- mermaid 源文件：GTD-Tutorial-en-mermaid-src-2.mmd -->
 
 1.  **Capture**: Immediately move anything that grabs your attention—whether it's a work task, a personal chore, a sudden inspiration, or a future appointment—out of your brain and into your "**Inbox**." The inbox can be physical (like a file tray, a notebook) or digital (like an email inbox, a to-do app). The key is to ensure your inboxes are as few as possible and can be 100% trusted and emptied.
 
@@ -48,27 +39,7 @@ graph TD
 
 ![GTD Workflow Processing Diagram](./GTD-Tutorial-en-mermaid-2.png)
 
-<!--
-```mermaid
-graph TD
-    A[Inbox] --> B{What is this?}
-    B --> C{Does it require action?}
-    C -- No --> D{Is it junk, reference, or future idea?}
-    D -- Junk --> E[Delete]
-    D -- Reference --> F[Archive]
-    D -- Future Idea --> G[Someday/Maybe list]
-    C -- Yes --> H{What's the next action?}
-    H --> I{Can it be done in 2 minutes?}
-    I -- Yes --> J[Do it now!]
-    I -- No --> K{Should I do it?}
-    K -- No --> L[Delegate<br/>Waiting For list]
-    K -- Yes --> M{Specific date/time?}
-    M -- Yes --> N[Calendar]
-    M -- No --> O[Next Actions list<br/>by context]
-    H -- Multiple actions --> P[Projects List]
-    O --> P
-```
--->
+<!-- mermaid 源文件：GTD-Tutorial-en-mermaid-src-1.mmd -->
 
 ## Application Cases
 

@@ -22,22 +22,7 @@ Mixed-methods research has various design patterns, among which the three core o
 
 ![Mixed-Methods Designs](./Mixed-Methods-Research-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph "Common Mixed-Methods Designs"
-        A[Start] --> B{Priority};
-        B -- "Equal" --> C{Sequence};
-        B -- "Qualitative" --> D{Sequence};
-        B -- "Quantitative" --> E{Sequence};
-
-        C -- "Concurrent" --> F["Convergent Parallel Design<br/>(QUAN + QUAL)<br/>- Collect both types of data simultaneously<br/>- Analyze separately<br/>- Compare/relate results"];
-        D -- "Sequential" --> G["Explanatory Sequential Design<br/>(QUAN -> qual)<br/>- First, collect and analyze quantitative data<br/>- Then, use qualitative data to explain<br/>the quantitative results in depth"];
-        E -- "Sequential" --> H["Exploratory Sequential Design<br/>(QUAL -> quan)<br/>- First, explore with qualitative data<br/>- Then, use findings to build a quantitative<br/>instrument or theory to test"];
-        D -- "Concurrent" --> I["Embedded Design<br/>(QUAN(qual) or QUAL(quan))<br/>- One type of data is embedded within a larger<br/>design of the other data type<br/>- e.g., A qualitative case study within a larger<br/>quantitative experiment"];
-    end
-```
--->
+<!-- mermaid 源文件：Mixed-Methods-Research-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Conduct Mixed-Methods Research
 

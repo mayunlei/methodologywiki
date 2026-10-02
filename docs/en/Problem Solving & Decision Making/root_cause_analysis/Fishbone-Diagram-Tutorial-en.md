@@ -33,41 +33,7 @@ Depending on the industry of the analysis object, different classic models can b
 
 ![Fishbone Diagram (6M Model)](./Fishbone-Diagram-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph Fishbone Diagram (6M Model)
-        direction LR
-        A(Man) --> F(Problem/Effect);
-        B(Machine) --> F;
-        C(Material) --> F;
-        D(Method) --> F;
-        E(Measurement) --> F;
-        G(Environment) --> F;
-
-        subgraph A Man
-            A1(Insufficient employee training) --> A;
-            A2(Unskilled operation) --> A1;
-        end
-        subgraph B Machine
-            B1(Aging equipment) --> B;
-            B2(Untimely maintenance) --> B;
-        end
-        subgraph C Material
-            C1(Supplier change) --> C;
-        end
-        subgraph D Method
-            D1(Outdated operating procedures) --> D;
-        end
-        subgraph E Measurement
-            E1(Measuring tools uncalibrated) --> E;
-        end
-        subgraph G Environment
-            G1(Insufficient workshop lighting) --> G;
-        end
-    end
-```
--->
+<!-- mermaid 源文件：Fishbone-Diagram-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Draw and Use a Fishbone Diagram
 

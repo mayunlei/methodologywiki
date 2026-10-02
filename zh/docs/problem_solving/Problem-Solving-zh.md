@@ -21,118 +21,22 @@
 
 
 
-![Problem-Solving-zh-diagram.png](./Problem-Solving-zh-diagram.png)
+### 问题解决的通用流程
 
-<!--
-```mermaid
-graph TD
-    A[问题解决工具箱] --> B[问题解决框架导论]
-    B --> C[核心问题解决工具]
-    B --> D[关键问题解决方法论]
-    B --> E[信息素养工具]
+无论用哪种工具，解决一个问题大致都要经过下面八个步骤。图中每一步都标出了本站对应的方法，可以按需选用：
 
-    C --> C1[探究与分析/判断]
+1.  **定义问题**：说清现象、影响和目标（[差距分析](Gap-Analysis-Tutorial-zh.md)、[SMART目标](../goal_management/SMART-Goals-Tutorial-zh.md)）
+2.  **拆解问题**：把大问题拆成可分析的小问题（[逻辑树](Logic-Tree-Tutorial-zh.md)）
+3.  **找根本原因**：先列出可能原因，再逐个深挖（[鱼骨图](../root_cause_analysis/Fishbone-Diagram-Tutorial-zh.md)、[五问法](../root_cause_analysis/5-Whys-Tutorial-zh.md)、[现场观察](Gemba-Walk-Tutorial-zh.md)）
+4.  **排优先级**：先解决影响最大的少数原因（[帕累托分析](../decision_making/Pareto-Analysis-Tutorial-zh.md)）
+5.  **生成方案**：尽可能多地提出备选方案（[头脑风暴](../ideation/Brainstorming-Tutorial-zh.md)、[六顶思考帽](../ideation/Six-Thinking-Hats-Tutorial-zh.md)）
+6.  **评估与决策**：按标准比较方案（[决策矩阵](../decision_making/Decision-Matrix-Tutorial-zh.md)、[成本效益分析](../decision_making/Cost-Benefit-Analysis-Tutorial-zh.md)）
+7.  **实施与验证**：小范围试行，用数据检验效果（[A/B测试](../testing_and_validation/AB-Testing-Tutorial-zh.md)）
+8.  **标准化与复盘**：问题解决后固化做法、总结经验（[改善](../quality_and_operations/Kaizen-Tutorial-zh.md)、[ORID聚焦对话](../meeting_effectiveness/ORID-Focused-Conversation-Tutorial-zh.md)）；如果没解决，就回到第 3 步或第 5 步。
 
-    D --> D1[欣赏式探究]
-    D --> D2[逻辑树]
-    D --> D3[实施解决方案]
-    D --> D4[基本问题解决技能与策略]
-    D --> D5[协作式问题解决]
-    D --> D6[系统分析]
-    D --> D7[设计思维]
-    D --> D8[人力绩效变异分析]
-    D --> D9[管理问题解决]
-    D --> D10[其他专业方法]
+![问题解决的通用流程：定义问题、拆解问题、找根本原因、排优先级、生成方案、评估与决策、实施与验证、标准化与复盘](./Problem-Solving-zh-diagram.png)
 
-    E --> E1[BUILD IT]
-
-    D2 --> D2a[如何树]
-    D2 --> D2b[五问法树]
-    D2 --> D2c[鱼骨图]
-
-    D3 --> D3a[DMAIC]
-
-    D9 --> D9a[五问法]
-    D9 --> D9b[差距分析]
-    D9 --> D9c[现场走动]
-    D9 --> D9d[波特五力模型]
-    D9 --> D9e[六顶思考帽]
-    D9 --> D9f[SWOT分析]
-
-    C1 -- 支持 --> D1
-    C1 -- 支持 --> D6
-    C1 -- 支持 --> D7
-
-    D1 -- 积极心理学 --> D
-    D7 -- 以人为本 --> D
-    D5 -- 协作 --> D
-    D8 -- 人为因素 --> D
-
-    D2 -- 结构化分析 --> D
-    D6 -- 结构化分析 --> D
-    D3a -- 数据驱动 --> D
-
-    E1 -- 提供资源 --> C1
-    E1 -- 提供资源 --> D
-
-    subgraph 常见问题解决步骤
-        F1[问题定义]
-        F2[根本原因识别]
-        F3[解决方案生成]
-        F4[实施]
-        F5[评估/持续改进]
-    end
-
-    D1 --> F1 & F2 & F3 & F4 & F5
-    D2 --> F1 & F2 & F3 & F4 & F5
-    D3 --> F1 & F2 & F3 & F4 & F5
-    D4 --> F1 & F2 & F3 & F4 & F5
-    D5 --> F1 & F2 & F3 & F4 & F5
-    D6 --> F1 & F2 & F3 & F4 & F5
-    D7 --> F1 & F2 & F3 & F4 & F5
-    D8 --> F1 & F2 & F3 & F4 & F5
-    D9 --> F1 & F2 & F3 & F4 & F5
-    D10 --> F1 & F2 & F3 & F4 & F5
-
-    F1 --> F2 --> F3 --> F4 --> F5
-    F5 --> F1
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:2px
-    style D fill:#bbf,stroke:#333,stroke-width:2px
-    style E fill:#bbf,stroke:#333,stroke-width:2px
-    style C1 fill:#ccf,stroke:#333,stroke-width:1px
-    style D1 fill:#cfc,stroke:#333,stroke-width:1px
-    style D2 fill:#cfc,stroke:#333,stroke-width:1px
-    style D3 fill:#cfc,stroke:#333,stroke-width:1px
-    style D4 fill:#cfc,stroke:#333,stroke-width:1px
-    style D5 fill:#cfc,stroke:#333,stroke-width:1px
-    style D6 fill:#cfc,stroke:#333,stroke-width:1px
-    style D7 fill:#cfc,stroke:#333,stroke-width:1px
-    style D8 fill:#cfc,stroke:#333,stroke-width:1px
-    style D9 fill:#cfc,stroke:#333,stroke-width:1px
-    style D10 fill:#cfc,stroke:#333,stroke-width:1px
-    style E1 fill:#ffc,stroke:#333,stroke-width:1px
-
-    style D2a fill:#eee,stroke:#333,stroke-width:1px
-    style D2b fill:#eee,stroke:#333,stroke-width:1px
-    style D2c fill:#eee,stroke:#333,stroke-width:1px
-    style D3a fill:#eee,stroke:#333,stroke-width:1px
-    style D9a fill:#eee,stroke:#333,stroke-width:1px
-    style D9b fill:#eee,stroke:#333,stroke-width:1px
-    style D9c fill:#eee,stroke:#333,stroke-width:1px
-    style D9d fill:#eee,stroke:#333,stroke-width:1px
-    style D9e fill:#eee,stroke:#333,stroke-width:1px
-    style D9f fill:#eee,stroke:#333,stroke-width:1px
-
-    style F1 fill:#fcc,stroke:#333,stroke-width:1px
-    style F2 fill:#fcc,stroke:#333,stroke-width:1px
-    style F3 fill:#fcc,stroke:#333,stroke-width:1px
-    style F4 fill:#fcc,stroke:#333,stroke-width:1px
-    style F5 fill:#fcc,stroke:#333,stroke-width:1px
-```
--->
+<!-- 流程图源文件：Problem-Solving-zh-diagram.mmd，修改后用 mmdc 重新生成 PNG -->
 
 ## 1. 问题解决框架导论
 

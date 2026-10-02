@@ -20,22 +20,7 @@ To facilitate a more intuitive analysis, we typically use a 2x2 matrix to organi
 
 ![SWOT Analysis Matrix](./SWOT-Analysis-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph SWOT Analysis Matrix
-        direction LR
-        subgraph Internal Factors (Internal)
-            S["<b>S - Strengths</b><br/>- What are we good at?<br/>- What unique resources do we have?<br/>- What are our core competencies?"]
-            W["<b>W - Weaknesses</b><br/>- What are we not doing well?<br/>- What are we lacking?<br/>- What are our competitors' strengths?"]
-        end
-        subgraph External Factors (External)
-            O["<b>O - Opportunities</b><br/>- What new market trends are there?<br/>- What favorable changes are there in policies and regulations?<br/>- What unmet needs exist?"]
-            T["<b>T - Threats</b><br/>- Who are the main competitors?<br/>- Is the market shrinking?<br/>- What challenges do technological changes bring?"]
-        end
-    end
-```
--->
+<!-- mermaid 源文件：SWOT-Analysis-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Conduct a SWOT Analysis
 

@@ -12,16 +12,7 @@ A complete habit loop consists of the following three logical steps, forming an 
 
 ![The Habit Loop](./The-Habit-Loop-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph The Habit Loop
-        A(<b>1. Cue / Trigger</b><br/><i>A signal that triggers the brain to enter "automatic mode"</i><br/>- It can be anything: a specific <b>time</b>,<br/>a <b>place</b>, an <b>emotion</b>, a group of <b>specific people</b>,<br/>or a <b>preceding action</b>.) --> B(<b>2. Routine</b><br/><i>The behavior you unconsciously perform</i><br/>- This is the actual, visible habitual behavior you exhibit,<br/>which can be physical, mental, or emotional.);
-        B --> C(<b>3. Reward</b><br/><i>The pleasure that makes your brain "love" this loop</i><br/>- The positive feedback from the behavior, which tells your brain:<br/>"This loop is worth remembering and repeating.");
-        C --> A;
-    end
-```
--->
+<!-- mermaid 源文件：The-Habit-Loop-Tutorial-en-mermaid-src-1.mmd -->
 
 1.  **Cue**
     *   **Function**: This is the "trigger" that initiates the entire habit loop. When the brain receives this specific cue, it automatically and unthinkingly begins to execute the associated routine.

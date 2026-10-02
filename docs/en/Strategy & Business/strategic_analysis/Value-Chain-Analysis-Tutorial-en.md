@@ -10,28 +10,7 @@ Michael Porter systematically breaks down a company's value-creating activities 
 
 ![Value Chain Model](./Value-Chain-Analysis-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph Value Chain
-        direction LR
-        subgraph Support Activities
-            direction TB
-            A(<b>Firm Infrastructure</b><br/>General management, planning, finance, legal, etc.)
-            B(<b>Human Resource Management</b><br/>Recruitment, training, compensation system)
-            C(<b>Technology Development</b><br/>R&D, process automation, product design)
-            D(<b>Procurement</b><br/>Purchasing raw materials, equipment, services)
-        end
-
-        subgraph Primary Activities
-            direction LR
-            E(<b>Inbound Logistics</b><br/>Receiving, warehousing, inventory management of raw materials) --> F(<b>Operations</b><br/>Processing, assembly, transforming inputs into final products) --> G(<b>Outbound Logistics</b><br/>Warehousing, order processing, transportation of finished goods) --> H(<b>Marketing and Sales</b><br/>Advertising, promotion, pricing, channel management) --> I(<b>Service</b><br/>Installation, repair, customer support, training);
-        end
-        I --> J([<b>Margin<br/>(Margin)</b>]);
-        A & B & C & D -.-> E & F & G & H & I;
-    end
-```
--->
+<!-- mermaid 源文件：Value-Chain-Analysis-Tutorial-en-mermaid-src-1.mmd -->
 
 1.  **Primary Activities**
     These are activities directly involved in the physical creation, sale, transfer to the buyer, and after-sales service of the product.

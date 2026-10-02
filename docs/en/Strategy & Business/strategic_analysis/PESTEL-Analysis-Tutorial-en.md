@@ -19,19 +19,7 @@ Each letter of PESTEL represents a series of external forces that need to be exa
 
 [![PESTEL Analysis Factors](./PESTEL-Analysis-Tutorial-en-diagram.png)](./PESTEL-Analysis-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph PESTEL Macro-Environmental Analysis Framework
-        A(<b>P - Political</b><br/>- Government policies and stability<br/>- Trade, fiscal, tax policies<br/>- International relations and political risks) --> B(<b>E - Economic</b><br/>- Economic growth rate, interest rates, exchange rates<br/>- Inflation rate, unemployment rate<br/>- Disposable income of residents);
-        B --> C(<b>S - Social</b><br/>- Demographic structure and growth rate<br/>- Lifestyles, consumption concepts<br/>- Education level, cultural values);
-        C --> D(<b>T - Technological</b><br/>- Development of new technologies, disruptive technologies<br/>- R&D investment and technological maturity<br/>- Automation and digitalization trends);
-        D --> E(<b>E - Environmental</b><br/>- Climate change and environmental regulations<br/>- Availability of energy, resources<br/>- Sustainable development requirements);
-        E --> F(<b>L - Legal</b><br/>- Labor laws, consumer protection laws<br/>- Industry regulatory laws, intellectual property laws<br/>- Data security and privacy regulations);
-        F --> A;
-    end
-```
--->
+<!-- mermaid 源文件：PESTEL-Analysis-Tutorial-en-mermaid-src-1.mmd -->
 -->
 
 ## How to Conduct a PESTEL Analysis

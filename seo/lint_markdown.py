@@ -47,5 +47,7 @@ if __name__ == "__main__":
                     iss = scan(os.path.join(dp, f), fix)
                     if iss:
                         files += 1; total += len(iss)
+                        for ln, msg in iss[:3]:
+                            print("  %s:%d %s" % (os.path.join(dp, f), ln, msg))
     print("%s：%d 个文件，%d 处" % ("已修复" if fix else "发现问题", files, total))
     sys.exit(1 if total and not fix else 0)

@@ -21,18 +21,7 @@ Lean thinking systematically categorizes waste in processes into eight types, co
 
 ![The Eight Wastes of Lean (DOWNTIME)](./Lean-Operations-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    A["D - Defects<br/>Errors, rework, repairs in products or services"] --> B["O - Overproduction<br/>Producing too much or too early, the root of all evil"]
-    B --> C["W - Waiting<br/>Idle waiting of people, machines, or information"]
-    C --> D["N - Non-Utilized Talent<br/>Failure to utilize employees' wisdom and creativity"]
-    D --> E["T - Transportation<br/>Unnecessary movement of items"]
-    E --> F["I - Inventory<br/>Any inventory beyond the minimum required"]
-    F --> G["M - Motion<br/>Unnecessary physical movement of people"]
-    G --> H["E - Extra-Processing<br/>Doing more work than required by the customer"]
-```
--->
+<!-- mermaid 源文件：Lean-Operations-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Implement Lean Operations
 

@@ -16,16 +16,7 @@
 
     
 
-<!--
-```mermaid
-graph TD
-    subgraph Four Actions Framework
-            A(<b>Eliminate</b><br/>Which factors that the industry takes for granted<br/>should be eliminated entirely?) --> B(<b>Reduce</b><br/>Which factors' investment levels should be<br/>reduced far below the industry standard?);
-            B --> C(<b>Raise</b><br/>Which factors' investment levels should be<br/>raised far above the industry standard?);
-            C --> D(<b>Create</b><br/>Which entirely new factors, never before offered<br/>by the industry, should be created?);
-        end
-    ```
--->
+<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-ja-mermaid-src-1.mmd -->
     *   「**排除**（Eliminate）」と「**削減**（Reduce）」により、企業はコスト構造を低減する。
     *   「**向上**（Raise）」と「**創造**（Create）」は、顧客価値を高め、新たな需要を生み出すことを目指す。
 

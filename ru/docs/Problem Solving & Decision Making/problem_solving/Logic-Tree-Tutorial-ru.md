@@ -54,23 +54,7 @@
 
 ### Пример 1: Дерево проблемы — анализ "Почему снижается прибыль ресторана?"
 
-<!--
-
-```mermaid
-graph TD
-    A(Restaurant Profit Decline) --> B(Revenue Decrease)
-    A --> C(Cost Increase)
-
-    B --> D(Fewer Customers)
-    B --> E(Lower Average Spend Per Customer)
-
-    C --> F(Increased Food Costs)
-    C --> G(Increased Operating Costs)
-
-    G --> H(Increased Labor Costs)
-    G --> I(Increased Rent/Utilities)
-```
--->
+<!-- mermaid 源文件：Logic-Tree-Tutorial-ru-mermaid-src-1.mmd -->
 
 **Анализ**: С помощью этой диаграммы менеджеры могут четко увидеть основные причины снижения прибыли и собрать данные по каждой ветви (например, "Меньше клиентов") для более глубокого анализа.
 

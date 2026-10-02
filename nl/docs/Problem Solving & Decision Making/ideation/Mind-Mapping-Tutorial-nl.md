@@ -17,31 +17,7 @@ Een standaard mindmap volgt een paar eenvoudige maar cruciale tekenregels.
 
 ### Voorbeeld van een mindmapstructuur
 
-<!--
-
-```mermaid
-graph TD
-    A(<b>Centraal Thema</b><br/>bijv., Een Succesvolle Verjaardagsfeest) --> B(<b>Hoofdtak 1: Gasten</b>);
-    A --> C(<b>Hoofdtak 2: Eten</b>);
-    A --> D(<b>Hoofdtak 3: Activiteiten</b>);
-    A --> E(<b>Hoofdtak 4: Locatie</b>);
-
-    B --> B1(Tak: Familie);
-    B --> B2(Tak: Vrienden);
-    B2 --> B2a(Subtak: Studiegenoten);
-    B2 --> B2b(Subtak: Collega's);
-
-    C --> C1(Tak: Taart);
-    C --> C2(Tak: Drankjes);
-    C --> C3(Tak: Hoofdgerecht);
-
-    D --> D1(Tak: Muziek);
-    D --> D2(Tak: Spelletjes);
-
-    E --> E1(Tak: Reservering);
-    E --> E2(Tak: Decoraties);
-```
--->
+<!-- mermaid 源文件：Mind-Mapping-Tutorial-nl-mermaid-src-1.mmd -->
 
 ## Hoe een mindmap te maken
 

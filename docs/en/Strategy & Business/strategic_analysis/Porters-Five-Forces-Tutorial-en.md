@@ -9,21 +9,7 @@ The core idea of this model is that corporate strategists must look beyond immed
 
 ![Porters-Five-Forces-Tutorial-en-mermaid-9fca1c41.png](./Porters-Five-Forces-Tutorial-en-mermaid-9fca1c41.png)
 
-<!--
-![Porters-Five-Forces-Tutorial-en-mermaid-9fca1c41.png](./Porters-Five-Forces-Tutorial-en-mermaid-9fca1c41.png)
-
-<!--
-```mermaid
-graph TD
-    subgraph Porter's Five Forces Model
-        A(<b>Bargaining Power of Suppliers</b><br/>Bargaining Power of Suppliers) --> C{<b>Rivalry Among<br/>Existing Competitors</b><br/>Rivalry Among<br/>Existing Competitors};
-        B(<b>Bargaining Power of Buyers</b><br/>Bargaining Power of Buyers) --> C;
-        D(<b>Threat of New Entrants</b><br/>Threat of New Entrants) --> C;
-        E(<b>Threat of Substitutes</b><br/>Threat of Substitutes) --> C;
-    end
-```
--->
--->
+<!-- mermaid 源文件：Porters-Five-Forces-Tutorial-en-mermaid-src-1.mmd -->
 
 1.  **Rivalry Among Existing Competitors**
     This is the core of the Five Forces Model, referring to the direct confrontation and intensity of competition among existing companies within the industry. When competition within the industry is fierce, companies often fall into price wars, advertising wars, and product innovation races, thereby lowering the overall profit level of the industry.

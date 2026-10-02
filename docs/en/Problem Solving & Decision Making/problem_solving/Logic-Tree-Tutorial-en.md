@@ -56,30 +56,7 @@ Logic trees are mainly divided into two types, used to solve problems of differe
 
 ![Problem Tree - Restaurant Profit Decline](./Logic-Tree-Tutorial-en-mermaid-1.png)
 
-<!--
-![Logic-Tree-Tutorial-en-mermaid-815d0cbf.png](./Logic-Tree-Tutorial-en-mermaid-815d0cbf.png)
-
-<!--
-![Logic-Tree-Tutorial-en-mermaid-815d0cbf.png](./Logic-Tree-Tutorial-en-mermaid-815d0cbf.png)
-
-<!--
-```mermaid
-graph TD
-    A(Restaurant Profit Decline) --> B(Revenue Decrease)
-    A --> C(Cost Increase)
-
-    B --> D(Fewer Customers)
-    B --> E(Lower Average Spend Per Customer)
-
-    C --> F(Increased Food Costs)
-    C --> G(Increased Operating Costs)
-
-    G --> H(Increased Labor Costs)
-    G --> I(Increased Rent/Utilities)
-```
--->
--->
--->
+<!-- mermaid 源文件：Logic-Tree-Tutorial-en-mermaid-src-2.mmd -->
 
 **Analysis**: Through this tree diagram, managers can clearly see the main drivers of profit decline and can collect data for each branch (e.g., "Fewer Customers") for deeper analysis.
 
@@ -87,23 +64,7 @@ graph TD
 
 ![How Tree - Improve Personal Work Efficiency](./Logic-Tree-Tutorial-en-mermaid-2.png)
 
-<!--
-```mermaid
-graph TD
-    A(Improve Personal Work Efficiency) --> B(Better Time Management)
-    A --> C(Optimize Workflow)
-    A --> D(Reduce Distractions)
-
-    B --> E(Use Pomodoro Technique)
-    B --> F(Create Daily Task List)
-
-    C --> G(Automate Repetitive Tasks)
-    C --> H(Use Templates and Tools)
-
-    D --> I(Turn Off Unnecessary Notifications)
-    D --> J(Set Fixed "Do Not Disturb" Work Hours)
-```
--->
+<!-- mermaid 源文件：Logic-Tree-Tutorial-en-mermaid-src-1.mmd -->
 
 **Analysis**: This tree diagram breaks down an abstract goal into a series of specific, actionable steps, helping individuals create clear improvement plans.
 

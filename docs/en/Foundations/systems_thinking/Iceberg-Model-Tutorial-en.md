@@ -12,31 +12,7 @@ The Iceberg Model divides our understanding of reality into four levels, from sh
 
 ![The Iceberg Model](./Iceberg-Model-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph The Iceberg Model
-        direction TB
-        A(<b>Event Level</b><br/><i>What happened?</i><br/>Isolated phenomena we observe) -- Deepen Thinking --> B(<b>Pattern Level</b><br/><i>What trends have occurred in the past?</i><br/>Trends and patterns formed by recurring events);
-        B -- Deepen Thinking --> C(<b>Structure Level</b><br/><i>What caused these patterns?</i><br/>Interrelationships and structures within the system that cause patterns to appear);
-        C -- Deepen Thinking --> D(<b>Mental Model Level</b><br/><i>What are our beliefs and assumptions about this?</i><br/>Deep-seated beliefs, values, and assumptions that support the operation of the entire system structure);
-
-        subgraph Above the Water (Visible)
-            A
-        end
-        subgraph Below the Water (Invisible)
-            B
-            C
-            D
-        end
-
-        note right of A: <b>Action: Reactive</b>
-        note right of B: <b>Action: Anticipatory/Adaptive</b>
-        note right of C: <b>Action: Design/Creative</b>
-        note right of D: <b>Action: Transformative</b>
-    end
-```
--->
+<!-- mermaid 源文件：Iceberg-Model-Tutorial-en-mermaid-src-1.mmd -->
 
 1.  **The Event Level**
     *   **Description**: This is the most visible part above the water. It refers to the isolated, specific occurrences we encounter every day.

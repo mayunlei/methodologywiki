@@ -18,23 +18,7 @@ The three parts of SBI together form a complete, persuasive feedback statement.
 
 ![SBI Feedback Model](./SBI-Feedback-Model-Tutorial-en-mermaid.png)
 
-<!--
-![SBI-Feedback-Model-Tutorial-en-mermaid-5dc2d672.png](./SBI-Feedback-Model-Tutorial-en-mermaid-5dc2d672.png)
-
-<!--
-![SBI-Feedback-Model-Tutorial-en-mermaid-5dc2d672.png](./SBI-Feedback-Model-Tutorial-en-mermaid-5dc2d672.png)
-
-<!--
-```mermaid
-graph TD
-    subgraph "Structure of the SBI Feedback Model"
-        A("<b>S - Situation</b><br/><i>When and where?</i><br/>- Clearly pinpoint the specific<br/>time and scenario the feedback refers to") --> B("<b>B - Behavior</b><br/><i>What exactly did you do/say?</i><br/>- Objectively, non-judgmentally describe<br/>the observable, specific actions or words");
-        B --> C("<b>I - Impact</b><br/><i>What impact did your behavior have on me/us?</i><br/>- Clearly articulate the specific, real impact or feeling<br/>that behavior had on you or others");
-    end
-```
--->
--->
--->
+<!-- mermaid 源文件：SBI-Feedback-Model-Tutorial-en-mermaid-src-1.mmd -->
 
 1.  **S - Situation**
     *   **Purpose**: To provide a clear context for the feedback, helping the recipient quickly recall the specific event you are referring to. This avoids vague generalizations and "bringing up old issues."

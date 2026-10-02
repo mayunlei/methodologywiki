@@ -17,22 +17,7 @@ The core idea of Kaizen is **not to seek revolutionary breakthroughs overnight, 
 
 ![Kaizen-Tutorial-en-mermaid-88181b79.png](./Kaizen-Tutorial-en-mermaid-88181b79.png)
 
-<!--
-![Kaizen-Tutorial-en-mermaid-88181b79.png](./Kaizen-Tutorial-en-mermaid-88181b79.png)
-
-<!--
-```mermaid
-graph TD
-    subgraph Two Ways of Change
-        A(<b>Kaizen</b>) --> A1(<b>Characteristics:</b><br/>- Small, gradual steps<br/>- Continuous<br/>- Full participation<br/>- Low risk); 
-        A1 --> A2(<b>Effect:</b><br/>Achieves long-term, significant progress<br/>through the accumulation of many small improvements);
-
-        B(<b>Innovation</b>) --> B1(<b>Characteristics:</b><br/>- Large, breakthrough steps<br/>- Intermittent<br/>- Often led by experts or specific teams<br/>- High risk);
-        B1 --> B2(<b>Effect:</b><br/>Achieves leapfrog, disruptive development<br/>through technological or business model revolution);
-    end
-```
--->
--->
+<!-- mermaid 源文件：Kaizen-Tutorial-en-mermaid-src-1.mmd -->
 
 *   **Relationship**: Kaizen and innovation are not mutually exclusive; rather, they are two capabilities that an excellent organization must possess simultaneously. Kaizen is responsible for continuously optimizing and consolidating existing systems, while innovation is responsible for creating entirely new systems.
 

@@ -16,16 +16,7 @@
 
     
 
-<!--
-```mermaid
-graph TD
-    subgraph Four Actions Framework
-            A(<b>Eliminate</b><br/>Which factors that the industry takes for granted<br/>should be eliminated entirely?) --> B(<b>Reduce</b><br/>Which factors' investment levels should be<br/>reduced far below the industry standard?);
-            B --> C(<b>Raise</b><br/>Which factors' investment levels should be<br/>raised far above the industry standard?);
-            C --> D(<b>Create</b><br/>Which entirely new factors, never before offered<br/>by the industry, should be created?);
-        end
-    ```
--->
+<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-ko-mermaid-src-1.mmd -->
     *   "제거(Eliminate)"와 "축소(Reduce)"는 기업의 비용 구조를 낮추는 데 도움을 줍니다.
     *   "향상(Raise)"와 "창출(Create)"은 고객 가치를 높이고 새로운 수요를 창출하는 데 목적이 있습니다.
 

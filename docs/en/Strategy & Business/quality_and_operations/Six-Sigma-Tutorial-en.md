@@ -18,15 +18,7 @@ Six Sigma improvement projects strictly follow a five-phase roadmap called **DMA
 
 ![Six Sigma DMAIC Cycle](./Six-Sigma-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    A["D - Define<br/>- Define project goals, scope, and customer needs<br/>- Draw high-level process map (SIPOC)<br/>- Form project team"] --> B["M - Measure<br/>- Measure current process performance baseline<br/>- Collect data, validate measurement system (MSA)<br/>- Calculate current sigma level"]
-    B --> C["A - Analyze<br/>- Analyze data, identify sources of variation<br/>- Use statistical tools to find the<br/>vital few root causes of the problem"]
-    C --> D["I - Improve<br/>- Develop, test, and implement innovative solutions<br/>for root causes<br/>- Use Design of Experiments (DOE) to optimize solutions"]
-    D --> E["C - Control<br/>- Establish monitoring system to ensure<br/>improvement results are sustained long-term<br/>- Standardize new processes and hand over<br/>to process owner"]
-```
--->
+<!-- mermaid 源文件：Six-Sigma-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Implement a Six Sigma Project
 

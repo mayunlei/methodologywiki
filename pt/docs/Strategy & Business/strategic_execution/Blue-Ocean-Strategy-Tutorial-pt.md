@@ -16,16 +16,7 @@ A Estratégia do Oceano Azul fornece um conjunto sistemático de ferramentas ana
 
     
 
-<!--
-```mermaid
-graph TD
-    subgraph Four Actions Framework
-            A(<b>Eliminate</b><br/>Which factors that the industry takes for granted<br/>should be eliminated entirely?) --> B(<b>Reduce</b><br/>Which factors' investment levels should be<br/>reduced far below the industry standard?);
-            B --> C(<b>Raise</b><br/>Which factors' investment levels should be<br/>raised far above the industry standard?);
-            C --> D(<b>Create</b><br/>Which entirely new factors, never before offered<br/>by the industry, should be created?);
-        end
-    ```
--->
+<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-pt-mermaid-src-1.mmd -->
     *   "Eliminar" e "Reduzir" ajudam as empresas a reduzirem sua estrutura de custos.
     *   "Elevar" e "Criar" visam aumentar o valor para o cliente e criar nova demanda.
 

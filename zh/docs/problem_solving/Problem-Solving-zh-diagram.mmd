@@ -1,0 +1,21 @@
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"PingFang SC, Microsoft YaHei, sans-serif","fontSize":"15px","primaryColor":"#e8f1fc","primaryBorderColor":"#2a78d6","primaryTextColor":"#0b0b0b","lineColor":"#52514e","secondaryColor":"#e6f6ef","tertiaryColor":"#fff7e0"}}}%%
+flowchart TD
+    A["① 定义问题<br/><small>现象、影响和目标分别是什么</small><br/><b>差距分析 · SMART</b>"]
+    B["② 拆解问题<br/><small>把大问题拆成可分析的小问题</small><br/><b>逻辑树 · MECE</b>"]
+    C["③ 找根本原因<br/><small>列出可能原因，再逐个深挖</small><br/><b>鱼骨图 · 五问法 · 现场观察</b>"]
+    D["④ 排优先级<br/><small>先解决影响最大的少数原因</small><br/><b>帕累托分析</b>"]
+    E["⑤ 生成方案<br/><small>尽可能多地提出备选方案</small><br/><b>头脑风暴 · 六顶思考帽</b>"]
+    F["⑥ 评估与决策<br/><small>按标准比较方案，做出选择</small><br/><b>决策矩阵 · 成本效益分析</b>"]
+    G["⑦ 实施与验证<br/><small>小范围试行，用数据检验效果</small><br/><b>PDCA · A/B 测试</b>"]
+    H{"问题解决了吗？"}
+    I["⑧ 标准化与复盘<br/><small>固化有效做法，总结经验</small><br/><b>改善 · ORID 复盘</b>"]
+    A --> B --> C --> D --> E --> F --> G --> H
+    H -- 是 --> I
+    H -- 否：原因没找对 --> C
+    H -- 否：方案不够好 --> E
+    classDef step fill:#e8f1fc,stroke:#2a78d6,stroke-width:1.5px,color:#0b0b0b;
+    classDef done fill:#e6f6ef,stroke:#1baf7a,stroke-width:1.5px,color:#0b0b0b;
+    classDef check fill:#fff7e0,stroke:#c98500,stroke-width:1.5px,color:#0b0b0b;
+    class A,B,C,D,E,F,G step;
+    class I done;
+    class H check;

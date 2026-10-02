@@ -19,25 +19,7 @@ The four levels of ORID, like a funnel, guide the discussion from the concrete, 
 
 ![The Four Levels of ORID Focused Conversation](./ORID-Focused-Conversation-Tutorial-en-mermaid.png)
 
-<!--
-![ORID-Focused-Conversation-Tutorial-en-mermaid-ff514c13.png](./ORID-Focused-Conversation-Tutorial-en-mermaid-ff514c13.png)
-
-<!--
-![ORID-Focused-Conversation-Tutorial-en-mermaid-ff514c13.png](./ORID-Focused-Conversation-Tutorial-en-mermaid-ff514c13.png)
-
-<!--
-```mermaid
-graph TD
-    subgraph The Four Levels of ORID Focused Conversation
-        direction TB
-        A(<b>O - Objective</b><br/><i>What facts did we see/hear?</i><br/>- Focus on external, sensory-perceptible objective facts<br/>- Keywords: see, hear, read, data, facts) --> B(<b>R - Reflective</b><br/><i>What are our feelings or associations about this?</i><br/>- Focus on internal, emotional, intuitive reactions<br/>- Keywords: feel, emotion, associate, surprise, like);
-        B --> C(<b>I - Interpretive</b><br/><i>What does this mean to me/us?</i><br/>- Focus on interpreting the meaning, value, and significance of facts and feelings<br/>- Keywords: meaning, value, importance, learned, insight);
-        C --> D(<b>D - Decisional</b><br/><i>What should we do next?</i><br/>- Focus on future, concrete, actionable steps or resolutions<br/>- Keywords: next step, action, decision, plan, commitment);
-    end
-```
--->
--->
--->
+<!-- mermaid 源文件：ORID-Focused-Conversation-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Design and Facilitate an ORID Discussion
 

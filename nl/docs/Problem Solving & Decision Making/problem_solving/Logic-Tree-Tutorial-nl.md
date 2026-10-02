@@ -54,23 +54,7 @@ Logische bomen worden voornamelijk verdeeld in twee soorten, die worden gebruikt
 
 ### Case 1: Probleemboom - Analyseren van "Waarom dalen de winsten van het restaurant?"
 
-<!--
-
-```mermaid
-graph TD
-    A(Restaurant Profit Decline) --> B(Revenue Decrease)
-    A --> C(Cost Increase)
-
-    B --> D(Fewer Customers)
-    B --> E(Lower Average Spend Per Customer)
-
-    C --> F(Increased Food Costs)
-    C --> G(Increased Operating Costs)
-
-    G --> H(Increased Labor Costs)
-    G --> I(Increased Rent/Utilities)
-```
--->
+<!-- mermaid 源文件：Logic-Tree-Tutorial-nl-mermaid-src-1.mmd -->
 
 **Analyse**: Via deze boomstructuur kunnen managers duidelijk de belangrijkste oorzaken van de winstdaling zien en data verzamelen voor elke tak (bijvoorbeeld "Minder klanten") voor verdere analyse.
 

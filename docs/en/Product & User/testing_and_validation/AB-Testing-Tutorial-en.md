@@ -19,22 +19,7 @@ A standard A/B test consists of the following key parts:
 
 ![A/B Testing Process](./AB-Testing-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    A["1 Observe Data, Formulate Hypothesis"] --> B["2 Create Experiment Group Version B"]
-    B --> C["3 Set Target Metric"]
-    C --> D["4 Randomly Allocate Traffic"]
-    D --> E["Control Group A<br/>Sees Original Version"]
-    D --> F["Experiment Group B<br/>Sees New Version"]
-    E --> G["5 Collect and Monitor Data"]
-    F --> G
-    G --> H["6 Perform Statistical Significance Test"]
-    H --> I["7 Analyze Results, Draw Conclusion"]
-    I --> J["8 Implement Winning Version"]
-    H --> K["7b Re-analyze or Abandon Hypothesis"]
-```
--->
+<!-- mermaid 源文件：AB-Testing-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Conduct an A/B Test
 

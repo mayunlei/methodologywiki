@@ -16,24 +16,7 @@ The commonality among all longitudinal studies is their tracking of "time," but 
 
 ![Longitudinal-Research-Tutorial-en-mermaid-7b288bdd.png](./Longitudinal-Research-Tutorial-en-mermaid-7b288bdd.png)
 
-<!--
-![Longitudinal-Research-Tutorial-en-mermaid-7b288bdd.png](./Longitudinal-Research-Tutorial-en-mermaid-7b288bdd.png)
-
-<!--
-```mermaid
-graph TD
-    subgraph Time Dimension of Research Design
-        A(<b>Longitudinal Research</b><br/>Longitudinal) --> A1(Repeatedly measure the <b>same sample</b><br/>at multiple time points);
-        A1 --> A2(<b>Advantages:</b><br/>- Can study dynamic changes and development<br/>- Can establish the temporal order of events<br/>- Can control for individual differences);
-        A2 --> A3(<b>Disadvantages:</b><br/>- Time-consuming, labor-intensive, high cost<br/>- Serious problem of sample attrition);
-
-        B(<b>Cross-Sectional Research</b><br/>Cross-Sectional) --> B1(Measure samples of <b>different ages/groups</b><br/>simultaneously at a single time point);
-        B1 --> B2(<b>Advantages:</b><br/>- Fast, economical, efficient<br/>- No sample attrition problem);
-        B2 --> B3(<b>Disadvantages:</b><br/>- Cannot study individual changes<br/>- Easily confuses age effects with cohort effects);
-    end
-```
--->
--->
+<!-- mermaid 源文件：Longitudinal-Research-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Conduct a Longitudinal Study
 

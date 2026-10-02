@@ -21,24 +21,7 @@ Below is a typical user persona structure, which can be adjusted according to th
 
 ![User Persona Template](./User-Persona-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph Persona: Li Jing (Project Manager)
-        direction LR
-        subgraph Basic Info
-            A["<b>Photo</b><br/><img src='https://i.pravatar.cc/150?img=12' width='100'/>"]
-            B["<b>Li Jing, 32</b><br/>Project Manager, Internet Industry<br/>Married, one child<br/><i>“I need a tool that can integrate team information and let me keep track of progress at all times.”</i>"]
-        end
-        subgraph Core Characteristics
-            C["<b>Goals</b><br/>- Deliver projects on time and with high quality<br/>- Keep team members in sync and communication smooth<br/>- Quickly and accurately report progress to management"]
-            D["<b>Frustrations</b><br/>- Information is scattered across emails, WeChat, and different documents, making it difficult to find<br/>- It's hard to track the actual progress and bottlenecks of each sub-task in real-time<br/>- Spends a lot of time in inefficient alignment meetings every day"]
-            E["<b>Behaviors</b><br/>- The first thing every morning is to check the project board and unread messages<br/>- Accustomed to using a calendar, to-do list, and spreadsheet simultaneously to manage work<br/>- Often needs to coordinate resources between different departments"]
-            F["<b>Motivations</b><br/>- Strong sense of responsibility, seeks a sense of control over projects<br/>- Hopes for work-life balance, reducing unnecessary overtime<br/>- Gains recognition from the team and leadership by successfully delivering projects"]
-        end
-    end
-```
--->
+<!-- mermaid 源文件：User-Persona-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Create Effective User Personas
 

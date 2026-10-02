@@ -20,17 +20,7 @@ A standard user journey map typically resembles a horizontal swimlane diagram an
 
 ![User Journey Map Concept](./User-Journey-Map-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    A["User Persona: Li Lei, 30, Internet Operations<br/>Scenario: Planning to book a romantic Western restaurant for his girlfriend's birthday"]
-    B["Awareness/Discovery"] --> C["Comparison/Consideration"] --> D["Reservation/Action"] --> E["Arrival/Experience"] --> F["Sharing/Recollection"]
-    G["Actions/Touchpoints<br/>- Search 'Western restaurant' on App<br/>- Browse restaurant list"] --> H["Actions/Touchpoints<br/>- Open 3 restaurant detail pages<br/>- View menu, pictures, reviews"] --> I["Actions/Touchpoints<br/>- Select one, click to reserve<br/>- Fill in reservation info<br/>- Receive confirmation SMS"] --> J["Actions/Touchpoints<br/>- Dine at the restaurant<br/>- Experience service and dishes"] --> K["Actions/Touchpoints<br/>- Share photos on social media<br/>- Write a good review for the restaurant"]
-    L["Thoughts<br/>'So many choices, which one is good?'<br/>'Hope to find a place with a good ambiance.'"] --> M["Thoughts<br/>'This one looks good, but reviews are a bit few.'<br/>'Menu pictures are so appealing.'"] --> N["Thoughts<br/>'Reservation process shouldn't be too complicated.'<br/>'Hope to add a note for birthday purpose.'"] --> O["Thoughts<br/>'The waiter was very attentive.'<br/>'This dish exceeded expectations!'"] --> P["Thoughts<br/>'This experience was great, must recommend to friends.'"]
-    Q["Emotional Curve<br/>(Stable)"] --> R["Emotional Curve<br/>(Slightly anxious)"] --> S["Emotional Curve<br/>(Anticipation)"] --> T["Emotional Curve<br/>(Peak Experience)"] --> U["Emotional Curve<br/>(Satisfied)"]
-    V["Pain Points/Opportunities<br/>Pain Point: Too many restaurants, information overload<br/>Opportunity: Provide 'Anniversary Selection' tag"] --> W["Pain Points/Opportunities<br/>Pain Point: Hard to judge authenticity of reviews<br/>Opportunity: Introduce 'Diner's Real Photos' feature"] --> X["Pain Points/Opportunities<br/>Pain Point: Cannot add special requests online<br/>Opportunity: Add reservation notes field"]
-```
--->
+<!-- mermaid 源文件：User-Journey-Map-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Create a User Journey Map
 

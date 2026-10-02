@@ -17,31 +17,7 @@ Một sơ đồ tư duy tiêu chuẩn tuân theo một vài quy tắc vẽ đơn
 
 ### Ví dụ về cấu trúc sơ đồ tư duy
 
-<!--
-
-```mermaid
-graph TD
-    A(<b>Chủ đề trung tâm</b><br/>ví dụ: Một bữa tiệc sinh nhật thành công) --> B(<b>Nhánh chính 1: Khách mời</b>);
-    A --> C(<b>Nhánh chính 2: Thức ăn</b>);
-    A --> D(<b>Nhánh chính 3: Hoạt động</b>);
-    A --> E(<b>Nhánh chính 4: Địa điểm</b>);
-
-    B --> B1(Nhánh: Gia đình);
-    B --> B2(Nhánh: Bạn bè);
-    B2 --> B2a(Nhánh phụ: Bạn cùng lớp đại học);
-    B2 --> B2b(Nhánh phụ: Đồng nghiệp);
-
-    C --> C1(Nhánh: Bánh kem);
-    C --> C2(Nhánh: Đồ uống);
-    C --> C3(Nhánh: Món chính);
-
-    D --> D1(Nhánh: Nhạc);
-    D --> D2(Nhánh: Trò chơi);
-
-    E --> E1(Nhánh: Đặt chỗ);
-    E --> E2(Nhánh: Trang trí);
-```
--->
+<!-- mermaid 源文件：Mind-Mapping-Tutorial-vi-mermaid-src-1.mmd -->
 
 ## Cách vẽ sơ đồ tư duy
 

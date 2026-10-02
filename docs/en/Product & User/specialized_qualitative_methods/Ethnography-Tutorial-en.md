@@ -18,18 +18,7 @@ Ethnographic researchers pursue a "thick description," not only recording what p
 
 ![Ethnography Research Cycle](./Ethnography-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    A[1 Define Research Community and Question] --> B(2 Enter the Field<br/>Build Trust);
-    B --> C{3 Long-term Immersion and Participant Observation};
-    C --> D(4 Continuously Record Detailed Field Notes);
-    C --> E(5 Conduct Informal and In-depth Interviews);
-    D & E --> F(6 Data Organization and Coding<br/>Identify Cultural Themes and Patterns);
-    F --> G(7 Write Ethnography<br/>Perform "Thick Description" and Cultural Interpretation);
-    G --> H(8 Ethical Reflection and Research Presentation);
-```
--->
+<!-- mermaid 源文件：Ethnography-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Conduct an Ethnographic Study
 

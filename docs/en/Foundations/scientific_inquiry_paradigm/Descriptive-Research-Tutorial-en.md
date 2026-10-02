@@ -19,20 +19,7 @@ To achieve these purposes, descriptive research primarily employs the following 
 
 ![Descriptive Research Methods Map](./Descriptive-Research-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    A(Descriptive Research) --> B(Core Objective: Answer "What is it?");
-    B --> B1(Portray Characteristics);
-    B --> B2(Statistical Frequency);
-    B --> B3(Perform Classification);
-
-    A --> C(Main Data Collection Methods);
-    C --> C1(<b>Observation Method</b><br/>Systematically observe and record behavior<br/>in natural or laboratory settings);
-    C --> C2(<b>Survey Method</b><br/>Collect information from a sample group<br/>through questionnaires or interviews);
-    C --> C3(<b>Case Study</b><br/>In-depth, comprehensive description<br/>of a single or a few instances);
-```
--->
+<!-- mermaid 源文件：Descriptive-Research-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Conduct a Descriptive Study
 

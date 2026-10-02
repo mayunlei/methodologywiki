@@ -10,18 +10,7 @@ The 5 Whys process builds a clear cause-and-effect chain from symptom to root ca
 
 ![The Causal Chain of 5 Whys](./5-Whys-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph The Causal Chain of 5 Whys
-        A(<b>Problem/Symptom</b><br/>e.g., Our website crashed) --> B(<b>Why? (Why 1)</b><br/>Direct cause);
-        B --> C(<b>Why? (Why 2)</b><br/>Second-level cause);
-        C --> D(<b>Why? (Why 3)</b><br/>...);
-        D --> E(<b>Why? (Why 4)</b><br/>...);
-        E --> F(<b>Why? (Why 5)</b><br/><b>Root Cause</b><br/>Often points to a flawed<br/><b>process, system, or standard</b>);
-    end
-```
--->
+<!-- mermaid 源文件：5-Whys-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Conduct a 5 Whys Analysis
 

@@ -19,23 +19,7 @@ description: 逻辑树把复杂问题按MECE原则逐层拆解成可分析、可
 
 ![Logic-Tree-Tutorial-zh-diagram.png](./Logic-Tree-Tutorial-zh-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    A(提升个人工作效率) --> B(更好的时间管理)
-    A --> C(优化工作流程)
-    A --> D(减少干扰)
-
-    B --> E(使用番茄工作法)
-    B --> F(创建每日任务清单)
-
-    C --> G(自动化重复任务)
-    C --> H(使用模板和工具)
-
-    D --> I(关闭不必要的通知)
-    D --> J(设置固定的请勿打扰工作时间)
-```
--->
+<!-- mermaid 源文件：Logic-Tree-Tutorial-zh-mermaid-src-1.mmd -->
 
 ## 什么是 MECE 原则
 

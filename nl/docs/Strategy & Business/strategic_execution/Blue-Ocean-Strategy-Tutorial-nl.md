@@ -16,16 +16,7 @@ De Blauwe Oceaan Strategie biedt een reeks systematische analysetools om bedrijv
 
     
 
-<!--
-```mermaid
-graph TD
-    subgraph Four Actions Framework
-            A(<b>Eliminate</b><br/>Which factors that the industry takes for granted<br/>should be eliminated entirely?) --> B(<b>Reduce</b><br/>Which factors' investment levels should be<br/>reduced far below the industry standard?);
-            B --> C(<b>Raise</b><br/>Which factors' investment levels should be<br/>raised far above the industry standard?);
-            C --> D(<b>Create</b><br/>Which entirely new factors, never before offered<br/>by the industry, should be created?);
-        end
-    ```
--->
+<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-nl-mermaid-src-1.mmd -->
     *   "Elimineren" en "Verlagen" helpen bedrijven hun kostenstructuur te verlagen.
     *   "Verhogen" en "Creëren" richten zich op het versterken van klantwaarde en het creëren van nieuwe vraag.
 

@@ -13,6 +13,9 @@ cd "$ROOT"
 python3 seo/lint_markdown.py docs/en */docs || {
   echo "✗ Markdown 有渲染问题，运行 python3 seo/lint_markdown.py --fix docs/en */docs 修复后重试"; exit 1; }
 
+# 检查每篇文章是否真的是所在目录的语言（防止漏翻、错放）
+python3 seo/lang_check.py || { echo "✗ 有页面语言与所在目录不符"; exit 1; }
+
 rm -rf "$OUT"
 mkdir -p "$OUT"
 

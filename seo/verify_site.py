@@ -55,6 +55,19 @@ for u in all_urls:
         if not os.path.exists(tf) and not os.path.exists(tf + "/index.html"):
             broken_href[unquote(urlparse(t).path)] += 1
 
+# mermaid 源码泄露到正文（例如注释被源码里的 --> 提前结束）
+leaks = []
+for u in all_urls:
+    body = open(url_to_file(u), encoding="utf-8", errors="ignore").read()
+    art = body[body.find("<article"):body.find("</article>")]
+    art = re.sub(r"<!--.*?-->|<pre\b.*?</pre>|<script\b.*?</script>", "", art, flags=re.S)
+    text = html.unescape(re.sub(r"<[^>]+>", " ", art))
+    if re.search(r"\b(graph (TD|LR|TB)|flowchart (TD|LR)|subgraph|classDef)\b|\w+ --> \w+", text):
+        leaks.append(u)
+print("mermaid 源码泄露到正文：%d 页" % len(leaks))
+for u in leaks[:5]: print("   ", unquote(u.replace(base, "")))
+if leaks: fails.append("%d 页正文里出现了 mermaid 源码" % len(leaks))
+
 dup = {d: n for d, n in descs.items() if n > 1}
 print("页面 %d：canonical 不一致 %d，重复描述 %d 组（涉及 %d 页），非法 JSON-LD %d"
       % (n_pages, len(bad_canon), len(dup), sum(dup.values()), bad_ld))

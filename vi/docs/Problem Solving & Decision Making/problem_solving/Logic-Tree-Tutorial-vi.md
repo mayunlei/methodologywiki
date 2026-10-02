@@ -54,23 +54,7 @@ Cây logic chủ yếu được chia thành hai loại, dùng để giải quy�
 
 ### Trường Hợp 1: Cây Vấn Đề - Phân Tích "Tại Sao Lợi Nhuận Nhà Hàng Giảm?"
 
-<!--
-
-```mermaid
-graph TD
-    A(Lợi Nhuận Nhà Hàng Giảm) --> B(Doanh Thu Giảm)
-    A --> C(Chi Phí Tăng)
-
-    B --> D(Số Khách Hàng Giảm)
-    B --> E(Trung Bình Chi Tiêu Trên Mỗi Khách Giảm)
-
-    C --> F(Chi Phí Thực Phẩm Tăng)
-    C --> G(Chi Phí Vận Hành Tăng)
-
-    G --> H(Chi Phí Nhân Công Tăng)
-    G --> I(Chi Phí Thuê Mặt Bằng/Tiện Ích Tăng)
-```
--->
+<!-- mermaid 源文件：Logic-Tree-Tutorial-vi-mermaid-src-1.mmd -->
 
 **Phân tích**: Thông qua sơ đồ cây này, các nhà quản lý có thể nhìn rõ các yếu tố chính dẫn đến việc lợi nhuận giảm và có thể thu thập dữ liệu cho từng nhánh (ví dụ: "Số Khách Hàng Giảm") để phân tích sâu hơn.
 

@@ -17,20 +17,7 @@ The essence of cross-sectional research is **comparison**. It infers patterns of
 
 ![Cross-Sectional Research vs. Longitudinal Research](./Cross-Sectional-Research-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph Time Dimension of Research Design
-        A(<b>Cross-Sectional Research</b><br/>Cross-Sectional) --> A1(<b>Time Point: </b> Single<br/><b>Sample: </b> Simultaneously draw samples from different ages/groups);
-        A1 --> A2(<b>Research Purpose:</b><br/>- Compare differences between different groups<br/>- Provide a "snapshot" of phenomena);
-        A2 --> A3(<b>Advantages:</b><br/>- Fast, economical, efficient<br/>- No sample attrition problem);
-
-        B(<b>Longitudinal Research</b><br/>Longitudinal) --> B1(<b>Time Points: </b> Multiple<br/><b>Sample: </b> Repeatedly measure the <b>same sample</b> at different time points);
-        B1 --> B2(<b>Research Purpose:</b><br/>- Study dynamic changes and development of individuals<br/>- Establish temporal order of events);
-        B2 --> B3(<b>Advantages:</b><br/>- Can truly study "development"<br/>- Controls for inherent individual differences);
-    end
-```
--->
+<!-- mermaid 源文件：Cross-Sectional-Research-Tutorial-en-mermaid-src-1.mmd -->
 
 ## Confounding of "Age Effect" and "Cohort Effect"
 

@@ -17,31 +17,7 @@ En standardiserad tankekartläggning följer några enkla men avgörande ritning
 
 ### Exempel på tankekartläggningsstruktur
 
-<!--
-
-```mermaid
-graph TD
-    A(<b>Central Tema</b><br/>t.ex., En Lyckad Födelsedagsfest) --> B(<b>Huvudgren 1: Gäster</b>);
-    A --> C(<b>Huvudgren 2: Mat</b>);
-    A --> D(<b>Huvudgren 3: Aktiviteter</b>);
-    A --> E(<b>Huvudgren 4: Plats</b>);
-
-    B --> B1(Gren: Familj);
-    B --> B2(Gren: Vänner);
-    B2 --> B2a(Undergren: Klasskamrater från Högskolan);
-    B2 --> B2b(Undergren: Kollegor);
-
-    C --> C1(Gren: Tårta);
-    C --> C2(Gren: Dryck);
-    C --> C3(Gren: Huvudrätt);
-
-    D --> D1(Gren: Musik);
-    D --> D2(Gren: Spel);
-
-    E --> E1(Gren: Bokning);
-    E --> E2(Gren: Dekoration);
-```
--->
+<!-- mermaid 源文件：Mind-Mapping-Tutorial-sv-mermaid-src-1.mmd -->
 
 ## Hur man ritar en tankekartläggning
 

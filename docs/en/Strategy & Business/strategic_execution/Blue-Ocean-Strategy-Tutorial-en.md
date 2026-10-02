@@ -17,16 +17,7 @@ Blue Ocean Strategy provides a set of systematic analytical tools to help compan
 
     ![Four Actions Framework](./Blue-Ocean-Strategy-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph Four Actions Framework
-            A(<b>Eliminate</b><br/>Which factors that the industry takes for granted<br/>should be eliminated entirely?) --> B(<b>Reduce</b><br/>Which factors' investment levels should be<br/>reduced far below the industry standard?);
-            B --> C(<b>Raise</b><br/>Which factors' investment levels should be<br/>raised far above the industry standard?);
-            C --> D(<b>Create</b><br/>Which entirely new factors, never before offered<br/>by the industry, should be created?);
-        end
-    ```
--->
+<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-en-mermaid-src-1.mmd -->
     *   "Eliminate" and "Reduce" help companies lower their cost structure.
     *   "Raise" and "Create" aim to enhance customer value and create new demand.
 

@@ -21,20 +21,7 @@ A standardized experimental study must include the following core components, wh
 
 ![True Experimental Design Flowchart](./Experimental-Research-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    A[1 Formulate Causal Hypothesis] --> B(2 Recruit Research Participants);
-    B --> C{3 Randomly Assign Participants};
-    C --> D(<b>Experimental Group</b><br/>Receives treatment/intervention);
-    C --> E(<b>Control Group</b><br/>Receives no treatment/placebo);
-    D --> F(4 Implement Independent Variable Manipulation);
-    E --> F;
-    F --> G(5 Measure Dependent Variable for All Groups);
-    G --> H(6 Statistical Analysis Group Differences);
-    H --> I{7 Test Hypothesis, Draw Causal Conclusion};
-```
---> 
+<!-- mermaid 源文件：Experimental-Research-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Design and Conduct an Experiment
 

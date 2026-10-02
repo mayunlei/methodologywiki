@@ -20,17 +20,7 @@ To ensure that brainstorming achieves its intended results, the following four b
 
 ![Brainstorming Process](./Brainstorming-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph A Successful Brainstorming Session
-        A(<b>1 Preparation Phase</b><br/>- Clearly define the focal problem<br/>- Assemble a diverse team<br/>- Select a suitable facilitator<br/>- Prepare materials: whiteboard, sticky notes) --> B(<b>2 Warm-up and Rule Explanation</b><br/>- Conduct a short creative warm-up activity<br/>- Facilitator reiterates the four basic principles);
-        B --> C(<b>3 Idea Generation Phase</b><br/>- Freely propose ideas around the focal problem<br/>- Facilitator guides, ensuring everyone participates<br/>- Strictly adhere to the "defer judgment" principle);
-        C --> D(<b>4 Idea Clarification and Grouping</b><br/>- After generation, clarify ambiguous ideas one by one<br/>- Group similar or related ideas<br/>to form "themes" or "categories");
-        D --> E(<b>5 Filtering and Evaluation</b><br/>- Team jointly sets evaluation criteria<br/>- Select the most promising few ideas<br/>through voting or other methods);
-    end
-```
--->
+<!-- mermaid 源文件：Brainstorming-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Organize an Effective Brainstorming Session
 

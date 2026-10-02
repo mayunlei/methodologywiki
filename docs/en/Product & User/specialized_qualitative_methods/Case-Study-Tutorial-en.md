@@ -21,18 +21,7 @@ According to research purpose and the number of cases, case study can be divided
 
 ![Case Study Research Process](./Case-Study-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph Case Study Design Types (Robert K. Yin)
-        A(Single Case vs. Multiple Cases) --> A1(<b>Single Case Study</b><br/>- Suitable for studying critical, unique, or revelatory cases<br/>- Higher risk, conclusions harder to generalize);
-        A1 --> A2(<b>Multiple Case Study</b><br/>- Through comparing multiple cases, conclusions are more robust<br/>- Can find common patterns across cases<br/>- High resource consumption);
-
-        B(Holistic vs. Embedded) --> B1(<b>Holistic Design</b><br/>- Analyzes the case as an indivisible whole);
-        B1 --> B2(<b>Embedded Design</b><br/>- In a holistic case, also focuses on one or more<br/>smaller units of analysis within it<br/>(e.g., different departments within a company));
-    end
-```
--->
+<!-- mermaid 源文件：Case-Study-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Conduct a Case Study
 

@@ -16,16 +16,7 @@ Die Blue Ocean Strategy stellt einen Satz systematischer Analysewerkzeuge bereit
 
     
 
-<!--
-```mermaid
-graph TD
-    subgraph Four Actions Framework
-            A(<b>Eliminate</b><br/>Which factors that the industry takes for granted<br/>should be eliminated entirely?) --> B(<b>Reduce</b><br/>Which factors' investment levels should be<br/>reduced far below the industry standard?);
-            B --> C(<b>Raise</b><br/>Which factors' investment levels should be<br/>raised far above the industry standard?);
-            C --> D(<b>Create</b><br/>Which entirely new factors, never before offered<br/>by the industry, should be created?);
-        end
-    ```
--->
+<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-de-mermaid-src-1.mmd -->
 
     *   „**Eliminieren**“ und „**Reduzieren**“ helfen Unternehmen dabei, ihre Kostenstruktur zu senken.
     *   „**Erhöhen**“ und „**Schaffen**“ zielen darauf ab, den Kundennutzen zu steigern und neue Nachfrage zu schaffen.

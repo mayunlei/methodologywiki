@@ -19,20 +19,7 @@ A standard usability test typically includes the following key components:
 
 ![Usability Testing Setup](./Usability-Testing-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph Usability Testing Process
-        A(1 Define Test Goals and Users) --> B(2 Design Test Tasks);
-        B --> C(3 Recruit Representative Users);
-        C --> D(4 Prepare Test Environment and Prototype);
-        D --> E(5 Facilitate and Execute Test<br/>- Introduction and Warm-up<br/>- Have users complete tasks (using Think Aloud Protocol)<br/>- Observe, Record, Ask Follow-up Questions);
-        E --> F(6 Post-Test Interview);
-        F --> G(7 Team Jointly Analyze Findings<br/>- Organize Usability Issue List);
-        G --> H(8 Write Report and Prioritize Improvements);
-    end
-```
--->
+<!-- mermaid 源文件：Usability-Testing-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Conduct a Usability Test
 

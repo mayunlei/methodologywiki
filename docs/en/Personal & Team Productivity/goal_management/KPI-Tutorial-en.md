@@ -19,24 +19,7 @@ Based on their content, KPIs can be divided into various types:
 
 ![Types of KPI](./KPI-Tutorial-en-mermaid.png)
 
-<!--
-![KPI-Tutorial-en-mermaid-d06ffbcf.png](./KPI-Tutorial-en-mermaid-d06ffbcf.png)
-
-<!--
-![KPI-Tutorial-en-mermaid-d06ffbcf.png](./KPI-Tutorial-en-mermaid-d06ffbcf.png)
-
-<!--
-```mermaid
-graph TD
-    subgraph Types of KPI
-        A(<b>Strategic/Outcome KPIs</b><br/>Measure ultimate business results<br/><i>e.g., Market share, Net profit</i>) --> B(<b>Operational/Process KPIs</b><br/>Measure efficiency and quality of daily processes<br/><i>e.g., Order processing time, Product pass rate</i>);
-        B --> C(<b>Leading Indicators</b><br/>Indicators that predict future results<br/><i>e.g., Number of new website registrations</i>);
-        C --> D(<b>Lagging Indicators</b><br/>Indicators that reflect past performance<br/><i>e.g., Last quarter's sales revenue</i>);
-    end
-```
--->
--->
--->
+<!-- mermaid 源文件：KPI-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Set and Use KPIs
 

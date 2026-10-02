@@ -54,23 +54,7 @@ As árvores lógicas são divididas principalmente em dois tipos, utilizados par
 
 ### Caso 1: Árvore do Problema - Analisando "Por que o lucro do restaurante está caindo?"
 
-<!--
-
-```mermaid
-graph TD
-    A(Restaurant Profit Decline) --> B(Revenue Decrease)
-    A --> C(Cost Increase)
-
-    B --> D(Fewer Customers)
-    B --> E(Lower Average Spend Per Customer)
-
-    C --> F(Increased Food Costs)
-    C --> G(Increased Operating Costs)
-
-    G --> H(Increased Labor Costs)
-    G --> I(Increased Rent/Utilities)
-```
--->
+<!-- mermaid 源文件：Logic-Tree-Tutorial-pt-mermaid-src-1.mmd -->
 
 **Análise**: Por meio deste diagrama em árvore, os gerentes podem visualizar claramente os principais fatores que levam à queda no lucro e podem coletar dados para cada ramo (por exemplo, "Menos Clientes") para análises mais profundas.
 

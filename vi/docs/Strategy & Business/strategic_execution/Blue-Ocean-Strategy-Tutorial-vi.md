@@ -16,16 +16,7 @@ Chiến lược Đại dương Xanh cung cấp một bộ công cụ phân tích
 
     
 
-<!--
-```mermaid
-graph TD
-    subgraph Four Actions Framework
-            A(<b>Loại bỏ</b><br/>Những yếu tố nào mà ngành đang mặc định<br/>nên được loại bỏ hoàn toàn?) --> B(<b>Giảm</b><br/>Mức đầu tư vào yếu tố nào nên được<br/>giảm xuống dưới mức trung bình ngành?);
-            B --> C(<b>Nâng cao</b><br/>Mức đầu tư vào yếu tố nào nên được<br/>tăng lên vượt trội so với mức trung bình ngành?);
-            C --> D(<b>Tạo ra</b><br/>Những yếu tố hoàn toàn mới nào, chưa từng được<br/>ngành cung cấp trước đây, nên được tạo ra?);
-        end
-    ```
--->
+<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-vi-mermaid-src-1.mmd -->
     *   "Loại bỏ" và "Giảm" giúp các công ty hạ thấp cấu trúc chi phí.
     *   "Nâng cao" và "Tạo ra" nhằm tăng giá trị cho khách hàng và tạo ra nhu cầu mới.
 

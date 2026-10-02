@@ -10,41 +10,7 @@ Lean Canvas retains the nine blocks of the Business Model Canvas but replaces fo
 
 ![Lean-Canvas-Tutorial-en-mermaid-c5b8fbd2.png](./Lean-Canvas-Tutorial-en-mermaid-c5b8fbd2.png)
 
-<!--
-![Lean-Canvas-Tutorial-en-mermaid-c5b8fbd2.png](./Lean-Canvas-Tutorial-en-mermaid-c5b8fbd2.png)
-
-<!--
-```mermaid
-graph TD
-    subgraph Lean Canvas
-        direction LR
-        subgraph Product
-            S(<b>3. Solution</b><br/><i>How do we solve these problems?</i>)
-            P(<b>1. Problem</b><br/><i>What are the top 1-3 problems for customers?</i>)
-            UVP(<b>4. Unique Value Proposition</b><br/><i>Why are we different?</i>)
-            KM(<b>8. Key Metrics</b><br/><i>How do we measure success?</i>)
-        end
-
-        subgraph Market
-            UA(<b>9. Unfair Advantage</b><br/><i>What advantages do we have that are hard to copy?</i>)
-            CH(<b>5. Channels</b><br/><i>How do we reach customers?</i>)
-            CS(<b>2. Customer Segments</b><br/><i>Who are our target customers?</i>)
-        end
-
-        P & S --> UVP;
-        UVP --> CH & CS;
-
-        subgraph Finances
-            C(<b>7. Cost Structure</b><br/><i>Where are our expenses?</i>)
-            R(<b>6. Revenue Streams</b><br/><i>How do we make money?</i>)
-        end
-
-        product -- Generates --> C;
-        market -- Generates --> R;
-    end
-```
--->
--->
+<!-- mermaid 源文件：Lean-Canvas-Tutorial-en-mermaid-src-1.mmd -->
 
 **Differences from Business Model Canvas:**
 

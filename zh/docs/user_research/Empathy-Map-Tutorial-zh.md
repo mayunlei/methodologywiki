@@ -17,33 +17,7 @@
 
 ![同理心地图 (四象限)](./Empathy-Map-Tutorial-zh-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph 同理心地图
-        subgraph 用户
-            A(<b>用户画像/人物</b><br/>我们在与谁共情？<br/>他/她需要完成什么？)
-        end
-
-        subgraph 外部世界
-            B(<b>1. 所看</b><br/>- 他在环境中看到了什么？<br/>- 他看到了谁？<br/>- 他在看什么？)
-            C(<b>2. 所听</b><br/>- 他的朋友和家人在说什么？<br/>- 谁在影响他？<br/>- 他从哪些渠道听到信息？)
-        end
-
-        subgraph 内心世界
-            D(<b>3. 所想与所感</b><br/>- <b>他真正关心的是什么？</b><br/>- 他的主要担忧、愿望和梦想是什么？<br/>- 是什么让他兴奋或焦虑？)
-            E(<b>4. 所说与所做</b><br/>- 他在公共场合的态度是什么？<br/>- 他的行为是什么？<br/>- 他可能会对别人说什么？)
-        end
-
-        subgraph 总结
-            F(<b>痛点</b><br/>- 他的恐惧、挫折和障碍是什么？)
-            G(<b>收益</b><br/>- 他的愿望、需求和成功标准是什么？)
-        end
-
-        A --> B & C & D & E;
-        D & E --> F & G;
-    end
-```![Empathy-Map-Tutorial-zh-diagram.png](./Empathy-Map-Tutorial-zh-diagram.png)
+<!-- mermaid 源文件：Empathy-Map-Tutorial-zh-mermaid-src-1.mmd -->
 
 ## 如何使用同理心地图
 

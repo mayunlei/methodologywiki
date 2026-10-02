@@ -54,23 +54,7 @@ Logikträd delas huvudsakligen in i två typer, som används för att lösa prob
 
 ### Exempel 1: Problemträd - Analys av "Varför sjunker restaurangens vinst?"
 
-<!--
-
-```mermaid
-graph TD
-    A(Restaurant Profit Decline) --> B(Revenue Decrease)
-    A --> C(Cost Increase)
-
-    B --> D(Fewer Customers)
-    B --> E(Lower Average Spend Per Customer)
-
-    C --> F(Increased Food Costs)
-    C --> G(Increased Operating Costs)
-
-    G --> H(Increased Labor Costs)
-    G --> I(Increased Rent/Utilities)
-```
--->
+<!-- mermaid 源文件：Logic-Tree-Tutorial-sv-mermaid-src-1.mmd -->
 
 **Analys**: Genom detta träddiagram kan chefer tydligt se de huvudsakliga drivkrafterna bakom vinstsjunkningen och kan samla in data för varje gren (t.ex. "Färre kunder") för vidare analys.
 

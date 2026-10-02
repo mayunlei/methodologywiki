@@ -22,25 +22,7 @@ Building a clear and solid pyramid structure requires adherence to the following
 
 ![Pyramid Principle Structure](./Pyramid-Principle-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph Pyramid Structure
-        A["1 Core Conclusion/Central Idea (Apex)"] --> B["2 Key Argument/Level 1 Argument A"]
-        A --> C["2 Key Argument/Level 1 Argument B"]
-        A --> D["2 Key Argument/Level 1 Argument C"]
-
-        B --> B1["3 Level 2 Argument A1"]
-        B --> B2["3 Level 2 Argument A2"]
-
-        C --> C1["3 Level 2 Argument B1"]
-        C --> C2["3 Level 2 Argument B2"]
-
-        D --> D1["3 Level 2 Argument C1"]
-        D --> D2["3 Level 2 Argument C2"]
-    end
-```
--->
+<!-- mermaid 源文件：Pyramid-Principle-Tutorial-en-mermaid-src-1.mmd -->
 
 *   **Vertical Structure**: Represents a "**question-answer**" type of dialogue. The central idea at the apex naturally raises questions from the reader (e.g., "Why is this so?" or "How exactly should this be done?"), and the key arguments in the next level are the answers to these questions.
 *   **Horizontal Structure**: Represents the logical relationship between arguments within the same group. This relationship can be **deductive reasoning** (e.g., major premise, minor premise, conclusion) or **inductive reasoning** (e.g., summarizing a common pattern based on multiple cases).

@@ -24,22 +24,7 @@ To understand System Dynamics, one must grasp its unique "language"—a set of c
 
 ![System Dynamics Model](./System-Dynamics-Tutorial-en-mermaid.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph Reinforcing Loop: Bank Deposit
-        A(Bank Deposit) -- Interest Rate --> B(Interest Income);
-        B -- + --> A;
-        note right of B: More deposits, more interest income;<br/>More interest income, faster deposit growth.<br/>This is an exponential growth like a "snowball."
-    end
-
-    subgraph Balancing Loop: Coffee for Alertness
-        C(Fatigue Level) -- + --> D(Coffee Consumption);
-        D -- - --> C;
-        note right of D: Higher fatigue, more coffee consumed;<br/>More coffee consumed, lower fatigue level.<br/>This is a regulating process that tries to<br/>reduce fatigue level to a target level. 
-    end
-```
--->
+<!-- mermaid 源文件：System-Dynamics-Tutorial-en-mermaid-src-1.mmd -->
 
 ## How to Conduct a System Dynamics Analysis
 

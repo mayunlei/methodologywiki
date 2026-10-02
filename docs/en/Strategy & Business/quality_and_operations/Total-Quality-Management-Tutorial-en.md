@@ -10,19 +10,7 @@ Total Quality Management is built upon a series of interconnected core principle
 
 ![Core Principles of Total Quality Management (TQM)](./Total-Quality-Management-Tutorial-en-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    A["1 Customer-Focused<br/>Meeting or exceeding customer expectations"] --> B["2 Total Employee Involvement<br/>Quality is everyone's responsibility"]
-    B --> C["3 Process-Centered<br/>Focus on controlling and optimizing processes"]
-    C --> D["4 Integrated System<br/>Break down silos, promote collaboration"]
-    D --> E["5 Strategic and Systematic Approach<br/>Quality as core strategy"]
-    E --> F["6 Continual Improvement<br/>Endless process of optimization"]
-    F --> G["7 Fact-Based Decision Making<br/>Based on objective data analysis"]
-    G --> H["8 Communications<br/>Open, effective multi-directional channels"]
-    H --> A
-```
--->
+<!-- mermaid 源文件：Total-Quality-Management-Tutorial-en-mermaid-src-1.mmd -->
 
 1.  **Customer-Focused**: The beginning and end of TQM are the customers. The survival and development of an organization ultimately depend on its ability to meet or even exceed customer expectations. Therefore, every aspect, from product design to after-sales service, must be guided by customer needs and satisfaction.
 

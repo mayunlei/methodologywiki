@@ -48,41 +48,7 @@ description: 鱼骨图（石川图）是找问题根本原因的可视化工具�
 
 ![Fishbone-Diagram-Tutorial-zh-diagram.png](./Fishbone-Diagram-Tutorial-zh-diagram.png)
 
-<!--
-```mermaid
-graph TD
-    subgraph 鱼骨图
-        direction LR
-        A(人) --> F(问题/结果);
-        B(机器) --> F;
-        C(物料) --> F;
-        D(方法) --> F;
-        E(测量) --> F;
-        G(环境) --> F;
-
-        subgraph A 人
-            A1(员工培训不足) --> A;
-            A2(操作不熟练) --> A1;
-        end
-        subgraph B 机器
-            B1(设备老化) --> B;
-            B2(保养不及时) --> B;
-        end
-        subgraph C 物料
-            C1(供应商更换) --> C;
-        end
-        subgraph D 方法
-            D1(操作规程过时) --> D;
-        end
-        subgraph E 测量
-            E1(测量工具未校准) --> E;
-        end
-        subgraph G 环境
-            G1(车间光线不足) --> G;
-        end
-    end
-```
--->
+<!-- mermaid 源文件：Fishbone-Diagram-Tutorial-zh-mermaid-src-1.mmd -->
 
 ## 如何绘制和使用鱼骨图
 

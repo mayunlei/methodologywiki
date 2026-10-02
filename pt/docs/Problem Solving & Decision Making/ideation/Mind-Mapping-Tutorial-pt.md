@@ -17,31 +17,7 @@ Um mapa mental padrão segue algumas regras simples, porém cruciais, de desenho
 
 ### Exemplo de Estrutura de Mapa Mental
 
-<!--
-
-```mermaid
-graph TD
-    A(<b>Central Theme</b><br/>e.g., A Successful Birthday Party) --> B(<b>Main Branch 1: Guests</b>);
-    A --> C(<b>Main Branch 2: Food</b>);
-    A --> D(<b>Main Branch 3: Activities</b>);
-    A --> E(<b>Main Branch 4: Venue</b>);
-
-    B --> B1(Branch: Family);
-    B --> B2(Branch: Friends);
-    B2 --> B2a(Sub-branch: College Classmates);
-    B2 --> B2b(Sub-branch: Colleagues);
-
-    C --> C1(Branch: Cake);
-    C --> C2(Branch: Drinks);
-    C --> C3(Branch: Main Course);
-
-    D --> D1(Branch: Music);
-    D --> D2(Branch: Games);
-
-    E --> E1(Branch: Booking);
-    E --> E2(Branch: Decorations);
-```
--->
+<!-- mermaid 源文件：Mind-Mapping-Tutorial-pt-mermaid-src-1.mmd -->
 
 ## Como Desenhar um Mapa Mental
 

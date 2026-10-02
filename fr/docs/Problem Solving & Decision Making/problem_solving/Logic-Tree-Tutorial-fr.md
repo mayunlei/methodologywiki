@@ -54,23 +54,7 @@ Les arbres logiques se divisent principalement en deux types, utilisés pour ré
 
 ### Cas 1 : Arbre à Problèmes - Analyser "Pourquoi les profits du restaurant baissent-ils ?"
 
-<!--
-
-```mermaid
-graph TD
-    A(Restaurant Profit Decline) --> B(Revenue Decrease)
-    A --> C(Cost Increase)
-
-    B --> D(Fewer Customers)
-    B --> E(Lower Average Spend Per Customer)
-
-    C --> F(Increased Food Costs)
-    C --> G(Increased Operating Costs)
-
-    G --> H(Increased Labor Costs)
-    G --> I(Increased Rent/Utilities)
-```
--->
+<!-- mermaid 源文件：Logic-Tree-Tutorial-fr-mermaid-src-1.mmd -->
 
 **Analyse** : Grâce à cet arbre, les gestionnaires peuvent clairement identifier les causes principales de la baisse des profits et collecter des données pour chaque branche (par exemple, "Fewer Customers") afin d'approfondir l'analyse.
 

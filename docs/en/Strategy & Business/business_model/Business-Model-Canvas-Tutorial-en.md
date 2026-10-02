@@ -10,44 +10,7 @@ The core of the Business Model Canvas is a template with nine boxes, each repres
 
 ![Business Model Canvas Template](./Business-Model-Canvas-Tutorial-en-diagram.png)
 
-<!--
-![Business-Model-Canvas-Tutorial-en-mermaid-1bb53b6c.png](./Business-Model-Canvas-Tutorial-en-mermaid-1bb53b6c.png)
-
-<!--
-```mermaid
-graph TD
-    subgraph Business Model Canvas
-        direction LR
-        subgraph Infrastructure
-            KP(<b>8. Key Partnerships</b><br/><i>Who can help us?</i>)
-            KA(<b>7. Key Activities</b><br/><i>What do we need to do?</i>)
-            KR(<b>6. Key Resources</b><br/><i>What do we need?</i>)
-        end
-
-        subgraph Offering
-            VP(<b>1. Value Propositions</b><br/><i>What value do we offer?</i>)
-        end
-
-        subgraph Customers
-            CR(<b>4. Customer Relationships</b><br/><i>How do we interact?</i>)
-            CH(<b>3. Channels</b><br/><i>How do we reach customers?</i>)
-            CS(<b>2. Customer Segments</b><br/><i>Who do we serve?</i>)
-        end
-
-        KP & KA & KR --> VP;
-        VP --> CR & CH & CS;
-
-        subgraph Finances
-            C(<b>9. Cost Structure</b><br/><i>What are our costs?</i>)
-            R(<b>5. Revenue Streams</b><br/><i>How do we make money?</i>)
-        end
-
-        infrastructure -- Generates --> C;
-        customers -- Generates --> R;
-    end
-```
--->
--->
+<!-- mermaid 源文件：Business-Model-Canvas-Tutorial-en-mermaid-src-1.mmd -->
 
 1.  **Value Propositions**: This is the core of the canvas. It describes the value you create for specific customer segments, what pain points you solve for them, or what needs you satisfy. It should be unique and distinctive.
 2.  **Customer Segments**: For whom are you creating value? Who are your most important customers? Here, one or more target customer groups can be defined.
