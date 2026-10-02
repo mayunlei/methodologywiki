@@ -1,0 +1,141 @@
+/* 多语言版本通用样式 */
+
+/* 确保导航样式一致 */
+.md-nav__title {
+    font-weight: 600;
+}
+
+/* 语言切换器样式 */
+.md-header__source {
+    display: flex;
+    align-items: center;
+}
+
+/* 确保内容区域样式一致 */
+.md-content {
+    max-width: 100%;
+}
+
+/* 表格样式 */
+.md-typeset table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.md-typeset table th,
+.md-typeset table td {
+    padding: 8px 12px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset table th {
+    background-color: var(--md-code-bg-color);
+    font-weight: 600;
+}
+
+/* 代码块样式 */
+.md-typeset code {
+    background-color: var(--md-code-bg-color);
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* 引用块样式 */
+.md-typeset blockquote {
+    border-left: 4px solid #2196F3;
+    padding-left: 16px;
+    margin: 16px 0;
+    color: var(--md-default-fg-color--light);
+}
+
+/* 警告框样式 */
+.md-typeset .admonition {
+    border-radius: 4px;
+    margin: 16px 0;
+}
+
+/* 确保响应式设计 */
+@media (max-width: 768px) {
+    .md-nav__title {
+        font-size: 0.9em;
+    }
+    
+    .md-content {
+        padding: 0 16px;
+    }
+}
+
+/* 多语言特定样式 */
+[lang="es"] .md-nav__title,
+[lang="zh"] .md-nav__title,
+[lang="en"] .md-nav__title {
+    font-family: inherit;
+}
+
+/* 确保图标和按钮样式一致 */
+.md-header__button {
+    color: inherit;
+}
+
+.md-search__input {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* 页脚样式 */
+.md-footer {
+    margin-top: 2rem;
+}
+
+/* 搜索框样式 */
+.md-search__input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+} 
+/* ---- 文末「相关方法论」卡片（由 seo/postprocess.py 注入，12 种语言共用） ---- */
+.md-typeset .mw-related {
+  margin-top: 2.4rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset .mw-related h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.05rem;
+}
+.md-typeset .mw-related ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  gap: 0.6rem;
+}
+/* 需压过主题的 [dir=ltr] .md-typeset ul li { margin-left } */
+[dir] .md-typeset .mw-related ul li {
+  margin: 0;
+}
+.md-typeset .mw-related li::before { content: none; }
+.md-typeset .mw-related a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  height: 100%;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  color: var(--md-typeset-color);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.md-typeset .mw-related a:hover,
+.md-typeset .mw-related a:focus-visible {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 1px var(--md-accent-fg-color);
+}
+.md-typeset .mw-related strong {
+  color: var(--md-typeset-a-color);
+  font-size: 0.82rem;
+}
+.md-typeset .mw-related span {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}

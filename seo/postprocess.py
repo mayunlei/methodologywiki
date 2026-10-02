@@ -25,6 +25,9 @@ import sys
 from datetime import datetime, timezone
 from urllib.parse import quote, unquote, urljoin, urlparse
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from related import ALIASES, HEADING, RELATED  # noqa: E402
+
 LANG_META = {
     "en": ("English", "en_US", "English"),
     "zh": ("中文", "zh_CN", "Chinese"),
@@ -92,7 +95,8 @@ def slug_of(url, lang):
     if not segs:
         return ""
     last = segs[-1]
-    return re.sub(r"-(%s|cn)$" % re.escape(lang), "", last, flags=re.I).lower()
+    key = re.sub(r"-(%s|cn)$" % re.escape(lang), "", last, flags=re.I).lower()
+    return ALIASES.get(key, key)
 
 
 def read_sitemap(path):
@@ -319,8 +323,53 @@ def fix_images(body, page_url, root, base_url, img_index, stats):
     return RE_IMG_TAG.sub(repl, body)
 
 
+CARD_DESC_LIMIT = {"zh": 34, "ja": 34, "ko": 40}
+
+
+def build_card_index(root, smap, base_url):
+    """(lang, slug) -> (url, 标题, 短描述)，供「相关方法论」卡片使用。"""
+    idx = {}
+    for slug, by_lang in smap.items():
+        if slug == "__home__":
+            continue
+        for lang, url in by_lang.items():
+            f = url_to_file(root, url, base_url)
+            if not os.path.exists(f):
+                continue
+            with open(f, encoding="utf-8", errors="ignore") as fh:
+                body = fh.read()
+            desc = first_paragraph(body, CARD_DESC_LIMIT.get(lang, 95))
+            if desc and not re.search(r"[。！？.!?…]$", desc):
+                desc = desc.rstrip("，、,;；：: ") + "…"
+            # 卡片标题用 H1：front-matter 里的搜索标题较长，不适合做卡片标题
+            h1 = re.search(r"<h1\b[^>]*>(.*?)</h1>", body, re.S | re.I)
+            name = html.unescape(RE_TAG.sub("", h1.group(1))).replace("¶", "").strip() if h1 else ""
+            idx[(lang, slug)] = (url, name or page_title(body, ""), desc)
+    return idx
+
+
+RE_RELATED = re.compile(r'<section class="mw-related".*?</section>', re.S)
+
+
+def related_block(lang, slug, card_index):
+    items = []
+    for target in RELATED.get(slug, []):
+        hit = card_index.get((lang, target))
+        if hit:
+            items.append(hit)
+    if not items:
+        return ""
+    e = lambda x: html.escape(x or "", quote=True)        # noqa: E731
+    lis = "".join(
+        '<li><a href="%s"><strong>%s</strong><span>%s</span></a></li>'
+        % (e(urlparse(u).path), e(t), e(d)) for u, t, d in items[:5])
+    return ('<section class="mw-related" aria-labelledby="mw-related-h">'
+            '<h2 id="mw-related-h">%s</h2><ul>%s</ul></section>'
+            % (e(HEADING.get(lang, HEADING["en"])), lis))
+
+
 def process_page(path, lang, smap, base_url, og_image, site_desc_by_lang, stats,
-                 root=None, img_index=None, secondary=None):
+                 root=None, img_index=None, secondary=None, card_index=None):
     with open(path, encoding="utf-8", errors="ignore") as fh:
         body = fh.read()
     if "</head>" not in body:
@@ -340,6 +389,13 @@ def process_page(path, lang, smap, base_url, og_image, site_desc_by_lang, stats,
         return
     if img_index is not None:
         body = fix_images(body, canonical, root, base_url, img_index, stats)
+    # 文末「相关方法论」：放在正文 article 内，跟随主题样式
+    body = RE_RELATED.sub("", body)
+    if card_index is not None and "</article>" in body:
+        block = related_block(lang, slug_of(canonical, lang), card_index)
+        if block:
+            body = body.replace("</article>", block + "</article>", 1)
+            stats["related"] += 1
     secondary = secondary or {}
     if canonical in secondary:
         # 次版本：canonical 改指主版本，不注入 hreflang（Google 会忽略非规范页的 hreflang）
@@ -661,6 +717,7 @@ def main():
     log("跨语言对齐 slug：%d 个；同语言重复文章次版本 %d 个（canonical 归并到主版本）"
         % (len(smap), len(secondary)))
     img_index = build_image_index(root)
+    card_index = build_card_index(root, smap, base_url)
 
     # 各语言的站点级描述，用来识别「全站共用描述」的页面
     site_desc_by_lang = {}
@@ -674,7 +731,8 @@ def main():
 
     og_image = base_url + "/assets/og-cover.png"
     stats = {"pages": 0, "desc_rewritten": 0, "hreflang": 0, "css_fixed": 0,
-             "no_canonical": 0, "img_fixed": 0, "img_missing": 0, "dup_canonicalized": 0}
+             "no_canonical": 0, "img_fixed": 0, "img_missing": 0, "dup_canonicalized": 0,
+             "related": 0}
     if not args.skip_pages:
         for lang in langs:
             for dirpath, _, files in os.walk(os.path.join(root, lang)):
@@ -682,13 +740,15 @@ def main():
                     if name.endswith(".html"):
                         process_page(os.path.join(dirpath, name), lang, smap,
                                      base_url, og_image, site_desc_by_lang, stats,
-                                     root=root, img_index=img_index, secondary=secondary)
+                                     root=root, img_index=img_index, secondary=secondary,
+                                     card_index=card_index)
         log("处理页面 %d 个：重写描述 %d、注入 hreflang %d、修复失效样式引用 %d、"
             "无 canonical 跳过 %d"
             % (stats["pages"], stats["desc_rewritten"], stats["hreflang"],
                stats["css_fixed"], stats["no_canonical"]))
         log("图片：修复失效引用 %d 处，全站无源文件 %d 处；重复文章 canonical 归并 %d 页"
             % (stats["img_fixed"], stats["img_missing"], stats["dup_canonicalized"]))
+        log("相关方法论互链：%d 页" % stats["related"])
         removed = drop_from_sitemaps(root, langs, secondary)
         per_lang = {l: [u for u in v if u not in secondary] for l, v in per_lang.items()}
         log("sitemap 移除次版本 %d 条" % removed)

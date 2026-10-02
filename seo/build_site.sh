@@ -8,6 +8,11 @@ OUT="${1:-_site}"
 case "$OUT" in /*) ;; *) OUT="$ROOT/$OUT" ;; esac
 
 cd "$ROOT"
+
+# 构建前检查会导致渲染错误的 Markdown 写法（列表前缺空行、--- 紧贴文字）
+python3 seo/lint_markdown.py docs/en */docs || {
+  echo "✗ Markdown 有渲染问题，运行 python3 seo/lint_markdown.py --fix docs/en */docs 修复后重试"; exit 1; }
+
 rm -rf "$OUT"
 mkdir -p "$OUT"
 

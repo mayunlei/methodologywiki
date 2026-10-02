@@ -89,6 +89,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - admonition
   - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - footnotes
   - toc:
       permalink: true
@@ -148,13 +150,10 @@ nav:
       - '思维导图': 'ideation/Mind-Mapping-Tutorial-zh.md'
       - '六顶思考帽': 'ideation/Six-Thinking-Hats-Tutorial-zh.md'
     - '问题解决':
-      - '鱼骨图': 'problem_solving/Fishbone-Diagram-Tutorial-zh.md'
-      - '五个为什么': 'problem_solving/Five-Whys-Tutorial-zh.md'
       - '差距分析': 'problem_solving/Gap-Analysis-Tutorial-zh.md'
       - '现场观察': 'problem_solving/Gemba-Walk-Tutorial-zh.md'
       - '逻辑树': 'problem_solving/Logic-Tree-Tutorial-zh.md'
       - '问题解决': 'problem_solving/Problem-Solving-zh.md'
-      - '六顶思考帽': 'problem_solving/Six-Thinking-Hats-Tutorial-zh.md'
     - '根本原因分析':
       - '五个为什么': 'root_cause_analysis/5-Whys-Tutorial-zh.md'
       - '鱼骨图': 'root_cause_analysis/Fishbone-Diagram-Tutorial-zh.md'

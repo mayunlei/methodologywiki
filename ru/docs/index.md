@@ -162,11 +162,8 @@
 *Практические инструменты для реальных проблем.*
 
 - [Обзор Решения Проблем](Problem Solving & Decision Making/problem_solving/Problem-Solving-ru.md)
-- [Диаграмма Рыбьей Кости](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-ru.md)
-- [Пять Почему](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-ru.md)
 - [Анализ Разрывов](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-ru.md)
 - [Прогулка Гемба](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-ru.md)
 - [Дерево Логики](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-ru.md)
 - [Пять Сил Портера](Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-ru.md)
 - [SWOT Анализ](Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-ru.md)
-- [Шесть Шляп Мышления](Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-ru.md)

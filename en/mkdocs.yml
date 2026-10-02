@@ -92,6 +92,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - admonition
   - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - footnotes
   - toc:
       permalink: true
@@ -163,13 +165,10 @@ nav:
           - "Mind Mapping": "Problem Solving & Decision Making/ideation/Mind-Mapping-Tutorial-en.md"
           - "Six Thinking Hats": "Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-en.md"
       - "Problem Solving":
-          - "Fishbone Diagram": "Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-en.md"
-          - "Five Whys": "Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-en.md"
           - "Gap Analysis": "Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-en.md"
           - "Gemba Walk": "Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-en.md"
           - "Logic Tree": "Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-en.md"
           - "Problem Solving": "Problem Solving & Decision Making/problem_solving/Problem-Solving-en.md"
-          - "Six Thinking Hats": "Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-en.md"
       - "Root Cause Analysis":
           - "5 Whys": "Problem Solving & Decision Making/root_cause_analysis/5-Whys-Tutorial-en.md"
           - "Fishbone Diagram": "Problem Solving & Decision Making/root_cause_analysis/Fishbone-Diagram-Tutorial-en.md"

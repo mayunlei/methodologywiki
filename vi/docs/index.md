@@ -87,8 +87,6 @@ Dù bạn là một chuyên gia đang tìm kiếm bước đột phá trong sự
 - [Sáu chiếc mũ tư duy](Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-vi.md)
 
 ### Giải quyết vấn đề
-- [Sơ đồ xương cá](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-vi.md)
-- [Năm tại sao](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-vi.md)
 - [Phân tích khoảng cách](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-vi.md)
 - [Đi bộ Gemba](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-vi.md)
 - [Cây logic](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-vi.md)

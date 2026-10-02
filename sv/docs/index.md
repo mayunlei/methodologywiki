@@ -87,8 +87,6 @@ Oavsett om du är en professionell som söker ett karriärgenombrott eller en l�
 - [Sex tänkande hattar](Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-sv.md)
 
 ### Problemlösning
-- [Fiskbensdiagram](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-sv.md)
-- [Fem varför](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-sv.md)
 - [Gap analys](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-sv.md)
 - [Gemba promenad](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-sv.md)
 - [Logikträd](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-sv.md)

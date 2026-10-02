@@ -162,11 +162,8 @@ Whether you are a professional seeking career breakthroughs or a learner eager t
 *Practical tools for real-world problems.*
 
 - [Problem Solving Overview](Problem Solving & Decision Making/problem_solving/Problem-Solving-en.md)
-- [Fishbone Diagram](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-en.md)
-- [Five Whys](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-en.md)
 - [Gap Analysis](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-en.md)
 - [Gemba Walk](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-en.md)
 - [Logic Tree](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-en.md)
 - [Porter's Five Forces](Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-en.md)
 - [SWOT Analysis](Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-en.md)
-- [Six Thinking Hats](Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-en.md)

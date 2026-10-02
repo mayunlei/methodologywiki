@@ -162,11 +162,8 @@
 *現実世界の問題のための実用的なツール。*
 
 - [問題解決概要](Problem Solving & Decision Making/problem_solving/Problem-Solving-ja.md)
-- [魚骨図](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-ja.md)
-- [5つのなぜ](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-ja.md)
 - [ギャップ分析](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-ja.md)
 - [現場歩行](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-ja.md)
 - [ロジックツリー](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-ja.md)
 - [ポーターの5つの力](Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-ja.md)
 - [SWOT分析](Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-ja.md)
-- [6つの思考帽子](Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-ja.md)

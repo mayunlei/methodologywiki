@@ -5,12 +5,31 @@
 // 3. 边缘缓存：源站是 GitHub Pages（max-age=600），Cloudflare 默认不缓存 HTML，
 //    命中率只有约 2%，真实用户加载 P75 4s+。HTML 在边缘缓存 1 小时，
 //    带内容哈希的静态资源缓存 30 天并允许浏览器长期缓存。
+// 4. 已合并的重复文章：旧地址 301 到主版本（映射见 redirects.json，按解码后的路径匹配）
 // 任何异常都回落到直连源站（passThroughOnException），不会因 Worker 出错导致站点不可用。
+
+import REDIRECTS from "./redirects.json" with { type: "json" };
 
 const HTML_EDGE_TTL = 3600;          // 1h：发布后最多 1 小时内全球生效
 const ASSET_EDGE_TTL = 30 * 86400;   // 30d
 const HASHED_ASSET = /\.[0-9a-f]{8,}\.min\.(css|js)$/i;  // mkdocs-material 产物：main.342714a4.min.css
 const STATIC_EXT = /\.(css|js|png|jpe?g|gif|svg|webp|ico|woff2?|ttf|json|xml|txt)$/i;
+
+function decodePath(p) {
+  try { return decodeURIComponent(p); } catch (e) { return p; }
+}
+
+function encodePath(p) {
+  return p.split("/").map(encodeURIComponent).join("/");
+}
+
+export function mergedTarget(pathname) {
+  let p = decodePath(pathname);
+  if (p.endsWith("/index.html")) p = p.slice(0, -"index.html".length);
+  if (!p.endsWith("/")) p += "/";
+  const hit = REDIRECTS[p];
+  return hit ? encodePath(hit) : null;
+}
 
 export function route(urlString) {
   const url = new URL(urlString);
@@ -21,6 +40,11 @@ export function route(urlString) {
   }
   if (url.pathname === "/en/en" || url.pathname.startsWith("/en/en/")) {
     url.pathname = url.pathname.slice(3);   // 去掉多出来的一层 /en
+    moved = true;
+  }
+  const target = mergedTarget(url.pathname);
+  if (target) {
+    url.pathname = target;
     moved = true;
   }
   // 多项同时命中也只跳一次，直接到最终地址

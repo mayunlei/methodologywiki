@@ -87,8 +87,6 @@ Seja você um profissional buscando um avanço na carreira ou um aprendiz desejo
 - [Seis Chapéus do Pensamento](Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-pt.md)
 
 ### Resolução de Problemas
-- [Diagrama de Espinha de Peixe](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-pt.md)
-- [Cinco Porquês](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-pt.md)
 - [Análise de Lacunas](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-pt.md)
 - [Caminhada Gemba](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-pt.md)
 - [Árvore Lógica](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-pt.md)

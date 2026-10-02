@@ -162,11 +162,8 @@ Ob Sie ein Fachmann sind, der Karrieredurchbrüche sucht, oder ein Lernender, de
 *Praktische Werkzeuge für reale Probleme.*
 
 - [Problemlösungsübersicht](Problem Solving & Decision Making/problem_solving/Problem-Solving-de.md)
-- [Fischgräten-Diagramm](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-de.md)
-- [Fünf Warum](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-de.md)
 - [Gap-Analyse](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-de.md)
 - [Gemba Walk](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-de.md)
 - [Logikbaum](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-de.md)
 - [Porters Fünf Kräfte](Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-de.md)
 - [SWOT-Analyse](Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-de.md)
-- [Sechs Denkhüte](Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-de.md)

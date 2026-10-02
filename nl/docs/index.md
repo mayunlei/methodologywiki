@@ -87,8 +87,6 @@ Of u nu een professional bent die een carrièredoorbraak zoekt of een leerling d
 - [Zes Denkhoeden](Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-nl.md)
 
 ### Probleemoplossing
-- [Visgraat Diagram](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-nl.md)
-- [Vijf Waaroms](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-nl.md)
 - [Gap Analyse](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-nl.md)
 - [Gemba Walk](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-nl.md)
 - [Logische Boom](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-nl.md)

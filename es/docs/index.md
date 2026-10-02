@@ -162,11 +162,8 @@ Ya seas un profesional que busca avances en su carrera o un estudiante ansioso p
 *Herramientas prácticas para problemas del mundo real.*
 
 - [Visión General de Resolución de Problemas](Problem Solving & Decision Making/problem_solving/Problem-Solving-es.md)
-- [Diagrama de Espina de Pescado](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-es.md)
-- [Cinco Por Qué](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-es.md)
 - [Análisis de Brechas](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-es.md)
 - [Caminata Gemba](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-es.md)
 - [Árbol Lógico](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-es.md)
 - [Cinco Fuerzas de Porter](Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-es.md)
 - [Análisis SWOT](Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-es.md)
-- [Seis Sombreros para Pensar](Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-es.md) 

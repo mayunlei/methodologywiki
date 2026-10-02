@@ -162,11 +162,8 @@
 *실제 문제를 위한 실용적 도구.*
 
 - [문제 해결 개요](Problem Solving & Decision Making/problem_solving/Problem-Solving-ko.md)
-- [어골도](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-ko.md)
-- [5가지 왜](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-ko.md)
 - [갭 분석](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-ko.md)
 - [겐바 워크](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-ko.md)
 - [로직 트리](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-ko.md)
 - [포터의 5가지 힘](Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-ko.md)
 - [SWOT 분석](Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-ko.md)
-- [6가지 사고 모자](Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-ko.md)

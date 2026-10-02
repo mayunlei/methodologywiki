@@ -162,11 +162,8 @@ Que vous soyez un professionnel cherchant des percées de carrière ou un appren
 *Outils pratiques pour les problèmes du monde réel.*
 
 - [Aperçu de la Résolution de Problèmes](Problem Solving & Decision Making/problem_solving/Problem-Solving-fr.md)
-- [Diagramme en Arête de Poisson](Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-fr.md)
-- [Cinq Pourquoi](Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-fr.md)
 - [Analyse des Écarts](Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-fr.md)
 - [Marche Gemba](Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-fr.md)
 - [Arbre Logique](Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-fr.md)
 - [Cinq Forces de Porter](Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-fr.md)
 - [Analyse SWOT](Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-fr.md)
-- [Six Chapeaux de la Pensée](Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-fr.md)

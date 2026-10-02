@@ -162,11 +162,8 @@
 *源于实践，解决实际问题。*
 
 - [问题解决总览](problem_solving/Problem-Solving-zh.md)
-- [鱼骨图](problem_solving/Fishbone-Diagram-Tutorial-zh.md)
-- [五问法](problem_solving/Five-Whys-Tutorial-zh.md)
 - [差距分析](problem_solving/Gap-Analysis-Tutorial-zh.md)
 - [现场走动](problem_solving/Gemba-Walk-Tutorial-zh.md)
 - [逻辑树](problem_solving/Logic-Tree-Tutorial-zh.md)
 - [波特五力模型](strategic_analysis/Porters-Five-Forces-Tutorial-zh.md)
 - [SWOT分析](strategic_analysis/SWOT-Analysis-Tutorial-zh.md)
-- [六顶思考帽](problem_solving/Six-Thinking-Hats-Tutorial-zh.md)
