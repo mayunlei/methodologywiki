@@ -1,3 +1,8 @@
+---
+title: "Experimental Research Design: Types, Steps, Examples and Validity"
+description: "Experimental research tests cause and effect by manipulating an independent variable and controlling other factors, ideally with random assignment. Learn the main designs, a planning template, threats to validity, how A/B tests fit in, and common mistakes."
+---
+
 # Experimental Research
 
 ![Experimental Research Diagram](Experimental-Research-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 Among all scientific inquiry methods, **Experimental Research** is the gold standard closest to revealing the **Causality** of things. It does not simply observe the world, but actively and systematically intervenes in the world to verify whether a change in one factor "causes" a change in another. When you want to definitively answer questions like "Is it because of A that B occurred?", experimental research provides the most rigorous and powerful logical framework.
 
 Its core idea lies in **control**. Researchers precisely manipulate one or more **Independent Variables** in a highly controlled environment and observe the measurable effects of this manipulation on **Dependent Variables**, while strictly controlling or randomizing all other irrelevant variables that might have an influence. It is this precise control and manipulation of variables that enables experimental research to go beyond "correlation" and draw "causal" conclusions.
+
+!!! abstract "Key takeaways"
+
+    - **Manipulate one thing, measure the effect, control the rest**: that's what makes causal claims possible.
+    - **Random assignment** to groups is the key ingredient of a true experiment.
+    - **Main designs**: true experiments, quasi-experiments, and within-subjects vs between-subjects designs.
+    - **Validity**: internal (did X really cause Y?) and external (does it generalize?).
+    - **[A/B testing](../../Product & User/testing_and_validation/AB-Testing-Tutorial-en.md)** is a randomized controlled experiment applied to products and marketing.
 
 ## Core Elements of Experimental Research
 
@@ -74,6 +87,68 @@ A standardized experimental study must include the following core components, wh
 *   **Ethical Constraints**: Many research questions (e.g., studying the impact of abuse on child development) are absolutely prohibited from using experimental methods due to ethical considerations.
 *   **Difficult to Implement and High Cost**: Designing and executing rigorous experimental research usually requires significant resources, time, and expertise.
 *   **Hawthorne Effect**: Participants may change their natural behavior patterns because they are aware of being studied, thereby affecting the experimental results.
+
+## Types of Experimental Designs
+
+| Design | Key feature | Example |
+| --- | --- | --- |
+| **Randomized controlled trial (true experiment)** | Random assignment to treatment and control | New teaching method vs standard method with randomly assigned classes |
+| **Quasi-experiment** | No random assignment (existing groups) | Comparing two schools where one adopted a new program |
+| **Between-subjects** | Each participant experiences one condition | Group A sees design 1, group B sees design 2 |
+| **Within-subjects (repeated measures)** | Each participant experiences all conditions | The same users try both designs, in counterbalanced order |
+| **Factorial** | Two or more independent variables at once | Price (2 levels) × message (2 levels) = 4 conditions |
+
+## Experiment Planning Template
+
+| Element | Content |
+| --- | --- |
+| Research question | |
+| Hypothesis (with direction) | "Changing X will increase Y" |
+| Independent variable(s) and levels | |
+| Dependent variable(s) and how measured | |
+| Control variables | |
+| Participants and sampling | |
+| Assignment method | Random / matched / existing groups |
+| Sample size (power analysis) | |
+| Procedure | Step by step, standardized |
+| Analysis plan | Test to be used, decided in advance |
+
+## Threats to Internal Validity
+
+| Threat | What it means | Mitigation |
+| --- | --- | --- |
+| Selection | Groups differ before treatment | Random assignment |
+| History | Outside events affect results | Control group exposed to the same events |
+| Maturation | Natural change over time | Control group |
+| Testing | A pre-test changes behavior | Post-test-only design or Solomon design |
+| Attrition | Different dropout rates between groups | Track and analyze dropouts |
+| Experimenter / placebo effects | Expectations influence results | Blinding, double-blinding |
+
+## Common Mistakes
+
+1.  **No control group.** Before/after comparisons without a control can't separate the treatment from everything else that changed.
+2.  **Too small a sample.** Underpowered experiments miss real effects or produce exaggerated ones. Do a power analysis.
+3.  **Changing several things at once.** If you change both price and design, you can't tell which caused the effect (unless you use a factorial design).
+4.  **Analysis decided after seeing the data.** Choosing tests or outcomes after the fact inflates false positives; pre-register the plan.
+5.  **Over-generalizing.** A lab result with students may not hold for other populations or real-world settings.
+
+## Frequently Asked Questions
+
+??? question "What is the difference between experimental and correlational research?"
+
+    Experimental research manipulates a variable and controls others, allowing causal conclusions. [Correlational research](Correlational-Research-Tutorial-en.md) measures variables as they naturally occur and can only show association.
+
+??? question "Why is random assignment so important?"
+
+    It makes groups equivalent on average in every respect, known and unknown, so differences in outcomes can be attributed to the treatment.
+
+??? question "What is a quasi-experiment?"
+
+    A study that tests an intervention but without random assignment, often because it's impractical or unethical. It's useful but more vulnerable to selection bias.
+
+??? question "Are A/B tests real experiments?"
+
+    Yes. A properly run A/B test randomly assigns users to versions and measures outcomes, making it a randomized controlled experiment.
 
 ## Extensions and Connections
 

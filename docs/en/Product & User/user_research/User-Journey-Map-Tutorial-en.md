@@ -1,8 +1,21 @@
+---
+title: "User Journey Map: Template, Examples and How to Create One"
+description: "A user journey map visualizes the steps, actions, touchpoints, thoughts and emotions a user goes through to reach a goal. Get a ready-to-use template, a step-by-step process, worked examples, the difference from service blueprints, and common mistakes."
+---
+
 # User Journey Map
 
 When we design a product or service, it's easy to get caught up in isolated thinking about individual features or interfaces, overlooking the complete, end-to-end experience of users interacting with us. The **User Journey Map** is a powerful visualization tool born to break this "tunnel vision." It systematically depicts, in a storytelling manner, the **complete process** of a specific **User Persona** interacting with your product, service, or brand to achieve a **specific goal**. It not only records the user's **behavioral steps** at each stage but, more importantly, profoundly reveals the user's **thoughts, feelings, and pain points** throughout the entire process.
 
 The core value of a user journey map lies in forcing us to examine and experience the services we provide from the **user's perspective**. It transforms an originally fragmented, invisible experience into a clear, intuitive, and empathetic visual map. Through this map, the team can easily identify highs and lows in the experience, find key obstacles leading to user churn, and discover innovative opportunities to enhance user satisfaction and loyalty. It is a bridge connecting the product to the user's true emotional world.
+
+!!! abstract "Key takeaways"
+
+    - **One persona, one scenario, one goal** per map; mixing them blurs insights.
+    - **Rows**: stages, actions, touchpoints, thoughts, emotions (a curve), pain points, opportunities.
+    - **Build it from research**: interviews, analytics, support tickets and observation.
+    - **The emotional low points** are usually the best opportunities.
+    - **Finish with owners**: each opportunity needs someone responsible for acting on it.
 
 ## Core Components of a User Journey Map
 
@@ -70,6 +83,66 @@ A standard user journey map typically resembles a horizontal swimlane diagram an
 *   **Representativeness Issues**: A single journey map usually represents only one user persona and one scenario, requiring multiple maps to cover a wider range of user groups.
 *   **Based on Real Research**: If there is a lack of real, in-depth user research as a foundation, the journey map may become a wishful "fantasy map."
 *   **Requires Continuous Updates**: As products and services iterate, user journeys also change, and journey maps need to be treated as "living documents" and updated regularly.
+
+## User Journey Map Template
+
+**Persona**: ______  **Scenario**: ______  **Goal**: ______
+
+| | Stage 1: Discover | Stage 2: Consider | Stage 3: Buy | Stage 4: Use | Stage 5: Get help |
+| --- | --- | --- | --- | --- | --- |
+| **Actions** | | | | | |
+| **Touchpoints** | | | | | |
+| **Thoughts / questions** | | | | | |
+| **Emotion (−2 to +2)** | | | | | |
+| **Pain points** | | | | | |
+| **Opportunities** | | | | | |
+| **Owner** | | | | | |
+
+Plot the emotion row as a line across the stages; the dips show where to focus.
+
+## Current-State vs. Future-State Maps
+
+| | Current-state map | Future-state map |
+| --- | --- | --- |
+| Purpose | Understand today's experience and its problems | Design the target experience |
+| Based on | Research and data | Insights from the current-state map plus design ideas |
+| Output | Prioritized pain points and opportunities | A vision and a roadmap of changes |
+
+Start with current state; future-state maps without evidence tend to describe the experience the team wishes it had.
+
+## Common Mistakes
+
+1.  **Mapping from assumptions.** A map built in a workshop without research reflects internal opinions. Validate with interviews and data.
+2.  **Mapping "everyone".** Different personas have different journeys. Make separate maps.
+3.  **Only mapping the digital channel.** Real journeys cross web, app, phone, email and in-person touchpoints.
+4.  **Too much detail.** A map with 30 steps is hard to act on. Group steps into 4–7 stages.
+5.  **A poster nobody uses.** Turn opportunities into backlog items with owners and dates.
+
+## Journey Map vs. Service Blueprint vs. Empathy Map
+
+| | User Journey Map | Service Blueprint | [Empathy Map](Empathy-Map-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Perspective | The user's experience over time | User experience plus front-stage and back-stage operations | The user's inner world at one moment |
+| Shows | Stages, actions, emotions, pain points | Customer actions, staff actions, support processes, systems | Says, thinks, does, feels |
+| Best for | Finding experience problems | Fixing the operational causes behind them | Building empathy after research |
+
+## Frequently Asked Questions
+
+??? question "What should a user journey map include?"
+
+    At minimum: a persona, a scenario and goal, the stages, user actions, touchpoints, emotions and pain points, and the opportunities identified. Thoughts and owners make it more useful.
+
+??? question "How is a user journey map different from a customer journey map?"
+
+    They're mostly used interchangeably. "Customer journey" often covers the whole relationship with a brand (from awareness to loyalty), while "user journey" sometimes focuses on using a specific product.
+
+??? question "How long does it take to create a journey map?"
+
+    A focused current-state map can be drafted in a one-day workshop once research is done; the research itself usually takes one to four weeks.
+
+??? question "What tools can I use?"
+
+    Sticky notes on a wall work well in workshops. Digitally, Miro, Figma/FigJam, Smaply or a simple spreadsheet are common choices.
 
 ## Extensions and Connections
 

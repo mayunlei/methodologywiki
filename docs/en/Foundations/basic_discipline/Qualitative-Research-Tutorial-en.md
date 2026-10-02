@@ -1,3 +1,8 @@
+---
+title: "Qualitative Research: Methods, Examples and How to Do It Well"
+description: "Qualitative research explores experiences, meanings and processes through interviews, observation and texts. Learn the main methods, sample sizes, how to ensure rigor, an interview guide template, how it differs from quantitative research, and common mistakes."
+---
+
 # Qualitative Research
 
 ![Qualitative Research Diagram](Qualitative-Research-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 Unlike quantitative research, which pursues objective measurement and statistical patterns, **Qualitative Research** is an exploratory journey towards understanding the deeper meanings of human experience. It is not satisfied with answers to "what is it" or "how much," but persistently asks "why" and "how." The core of qualitative research lies in deeply and comprehensively exploring the behavior, motivations, beliefs, and experiences of individuals or groups, aiming to discover meaning and construct theories from non-numerical, descriptive data (such as language, text, images, behavior).
 
 When you want to understand why users are confused by your product, or want to explore the internal logic of a specific socio-cultural phenomenon, qualitative research reveals its unique charm. It does not generalize with numbers but reveals with stories; it does not verify preconceived hypotheses but discovers new insights in rich real-world contexts.
+
+!!! abstract "Key takeaways"
+
+    - **Explores the "why" and "how"**: meanings, experiences and processes, not frequencies.
+    - **Main methods**: in-depth interviews, focus groups, observation and ethnography, document and content analysis.
+    - **Small, purposeful samples**: participants are chosen for the insight they can offer, until saturation.
+    - **Rigor means trustworthiness**: credibility, transferability, dependability and confirmability.
+    - **Combine with numbers** when you also need to know how common something is ([mixed methods](Mixed-Methods-Research-Tutorial-en.md)).
 
 ## Core Philosophy of Qualitative Research
 
@@ -73,6 +86,74 @@ Qualitative research is built on the philosophical foundations of interpretivism
 *   **Small Sample Size, Limited Generalizability**: Research conclusions usually cannot be directly generalized to larger populations.
 *   **Time and Labor Intensive**: Data collection and analysis processes are usually very time-consuming and demanding.
 *   **Difficult to Replicate**: Due to its contextual nature and researcher subjectivity, the research process is difficult to replicate precisely.
+
+## Main Qualitative Methods
+
+| Method | What it captures | Typical use |
+| --- | --- | --- |
+| In-depth interviews | Individual experiences, reasoning, language | User needs, employee experience |
+| Focus groups | Group norms, shared language, reactions | Concept testing, message testing |
+| Observation / [ethnography](../../Product & User/specialized_qualitative_methods/Ethnography-Tutorial-en.md) | What people actually do in context | Workflows, cultural practices |
+| Diary studies | Experiences over days or weeks | Habits, long processes |
+| Document / content analysis | Meanings in texts, media, records | Policy, social media, archives |
+| [Case study](../../Product & User/specialized_qualitative_methods/Case-Study-Tutorial-en.md) | A bounded case in depth, from multiple sources | Organizations, programs, events |
+
+## Semi-Structured Interview Guide Template
+
+| Section | Purpose | Example questions |
+| --- | --- | --- |
+| Warm-up (5 min) | Build rapport | "Tell me a bit about your role." |
+| Context (10 min) | Understand the situation | "Walk me through a typical week." |
+| Core topic (25 min) | Explore the research question | "Tell me about the last time you... What happened next?" |
+| Probes | Go deeper | "Why was that important?" "Can you give an example?" |
+| Wrap-up (5 min) | Catch what was missed | "Is there anything I should have asked?" |
+
+Ask about specific past events rather than opinions or hypotheticals; "tell me about the last time" yields richer, more reliable data than "what would you do if".
+
+## Ensuring Rigor (Trustworthiness)
+
+| Criterion | Question | Techniques |
+| --- | --- | --- |
+| Credibility | Do findings reflect participants' reality? | Member checking, prolonged engagement, triangulation |
+| Transferability | Could findings apply elsewhere? | Thick description of context and participants |
+| Dependability | Is the process consistent and traceable? | Audit trail, clear coding procedures |
+| Confirmability | Are findings grounded in data, not researcher bias? | Reflexive memos, quotes supporting each theme |
+
+## Common Mistakes
+
+1.  **Leading questions.** "Don't you find this frustrating?" plants the answer. Ask open, neutral questions.
+2.  **Reporting counts as findings.** "7 of 12 participants said..." can mislead; qualitative findings are about patterns and meanings, not prevalence.
+3.  **Cherry-picking quotes.** Choose quotes that represent a theme, and report contrasting cases too.
+4.  **Over-generalizing.** Findings from 15 interviews describe those people and contexts; claims about a whole population need other evidence.
+5.  **Skipping analysis rigor.** "We read the transcripts and found themes" is not a method. Document how codes and themes were developed.
+
+## Qualitative vs. Quantitative Research
+
+| | Qualitative | [Quantitative](Quantitative-Research-Tutorial-en.md) |
+| --- | --- | --- |
+| Question | Why? How? What does it mean? | How many? How much? Is there a relationship? |
+| Data | Words, observations, images | Numbers |
+| Sample | Small, purposeful | Large, ideally random |
+| Analysis | Coding, themes, interpretation | Statistics |
+| Output | Rich understanding, new concepts | Measurable, generalizable results |
+
+## Frequently Asked Questions
+
+??? question "How many participants does qualitative research need?"
+
+    It depends on the method and topic. Many interview studies reach saturation at around 12–30 participants; focused usability studies may need only 5–8 per user group.
+
+??? question "Is qualitative research less scientific than quantitative research?"
+
+    No, it answers different questions. Rigor in qualitative research comes from systematic data collection, transparent analysis and checks on trustworthiness rather than from statistical tests.
+
+??? question "What is thematic analysis?"
+
+    One of the most common ways to analyze qualitative data: coding the data, grouping codes into themes, reviewing them against the data and describing what each theme means.
+
+??? question "Can I use AI tools to analyze qualitative data?"
+
+    They can help with transcription and first-pass coding, but a researcher must review codes, check interpretations against the data and take responsibility for the conclusions.
 
 ## Extensions and Connections
 

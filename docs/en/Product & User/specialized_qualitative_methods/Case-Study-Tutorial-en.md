@@ -1,8 +1,21 @@
+---
+title: "Case Study Research: Types, Design, Examples and Common Mistakes"
+description: "Case study research examines a person, group, organization or event in depth and in its real-world context, using multiple sources of evidence. Learn the types (single, multiple, holistic, embedded), Yin's design steps, a case study protocol, examples and common pitfalls."
+---
+
 # Case Study
 
 When exploring complex social phenomena, sometimes what we need is not broad statistical regularities, but an incisive, in-depth analysis of a specific "story." **Case Study** is precisely such a qualitative research method that focuses on "particularity." It aims to deeply understand the case itself and gain insights into broader phenomena by conducting in-depth, comprehensive, and multi-faceted investigations of **single or a few** specific, bounded instances (i.e., "cases").
 
 A "case" can be a person (e.g., a gifted child), an organization (e.g., a company on the verge of bankruptcy), an event (e.g., a successful crisis public relations campaign), a decision-making process, or a community. The charm of case study lies in its "getting to the bottom" spirit; it is not satisfied with superficial variable relationships but attempts to reveal the complex processes and mechanisms of "how" and "why" in a real, dynamic context. When you want to answer questions like "Why did this startup succeed while others failed?" or "How was a new policy specifically implemented and impacted a certain community?" these questions, case study provides an unparalleled magnifying glass.
+
+!!! abstract "Key takeaways"
+
+    - **In-depth study of a bounded case** in its real-life context, when context and phenomenon are hard to separate.
+    - **Best for "how" and "why" questions** about events you can't control.
+    - **Multiple sources of evidence**: interviews, documents, observation, data (triangulation).
+    - **Generalize to theory, not to populations** (analytical generalization).
+    - **A clear case boundary and protocol** separate rigorous case studies from anecdotes.
 
 ## Core Characteristics of Case Study
 
@@ -78,6 +91,62 @@ Robert K. Yin, a renowned case study scholar, proposed a rigorous linear but ite
 *   **Generalizability of Conclusions**: This is the most common criticism of case studies. Due to the extremely small sample size, its research conclusions are difficult to directly generalize to other cases or broader populations. Case study pursues **analytical generalization** (i.e., generalizing empirical findings to theory), not **statistical generalization**.
 *   **Researcher Bias**: Researchers may unconsciously introduce personal biases in case selection, data collection, and analysis interpretation.
 *   **High Rigor Requirements**: To produce a high-quality case study, researchers need clear logic, rigorous protocols, and the ability to handle complex evidence; otherwise, it can easily become a "storytelling session" lacking analytical depth.
+
+## Case Study Protocol Template
+
+| Section | Content |
+| --- | --- |
+| Research questions | "How and why did...?" |
+| Propositions (if any) | Expectations derived from theory |
+| Case definition and boundaries | What's in and out (time, place, unit of analysis) |
+| Case selection rationale | Typical, extreme, critical, revelatory or comparative |
+| Data sources | Interviews (who), documents, archival records, observation, artifacts |
+| Field procedures | Access, scheduling, consent |
+| Analysis strategy | Pattern matching, explanation building, time-series, cross-case synthesis |
+| Quality checks | Triangulation, chain of evidence, case database, participant review |
+
+## Quality Criteria (Yin)
+
+| Test | Tactic |
+| --- | --- |
+| Construct validity | Multiple sources of evidence; chain of evidence; key informants review the draft |
+| Internal validity (explanatory cases) | Pattern matching; explanation building; addressing rival explanations |
+| External validity | Theory in single cases; replication logic in multiple cases |
+| Reliability | Case study protocol; case study database |
+
+## Common Mistakes
+
+1.  **Unclear case boundaries.** Without defining what the case is (and isn't), data collection sprawls.
+2.  **Relying on one source.** A case study based only on interviews misses what documents and observation reveal.
+3.  **Description without analysis.** A narrative of what happened isn't yet a finding; explain how and why.
+4.  **Over-generalizing.** One company's success doesn't prove a strategy works everywhere.
+5.  **Ignoring rival explanations.** Consider and test alternative explanations of what happened.
+
+## Case Study vs. Other Methods
+
+| | Case study | [Ethnography](Ethnography-Tutorial-en.md) | Survey |
+| --- | --- | --- | --- |
+| Depth vs. breadth | Deep, few cases | Deep immersion in a culture | Broad, many respondents |
+| Data | Multiple sources | Mainly participant observation | Questionnaires |
+| Best for | How/why questions about specific events or organizations | Understanding cultural practices | Prevalence and relationships |
+
+## Frequently Asked Questions
+
+??? question "Can you generalize from a case study?"
+
+    Not statistically to a population, but you can generalize analytically to theory: a case can confirm, challenge or extend a theory, and multiple cases can replicate findings.
+
+??? question "How many cases should a multiple-case study include?"
+
+    There's no fixed number; many studies use 4–10 cases. Choose them by replication logic (similar results expected) or theoretical contrast (different results expected for predictable reasons).
+
+??? question "What is the difference between a teaching case and a research case study?"
+
+    Teaching cases (e.g. Harvard Business School cases) are written to prompt discussion and may simplify or dramatize. Research case studies aim to produce valid knowledge and must follow rigorous procedures.
+
+??? question "Who are the key authors on case study research?"
+
+    Robert K. Yin (*Case Study Research and Applications*), Robert Stake (*The Art of Case Study Research*) and Kathleen Eisenhardt (building theory from case studies).
 
 ## Extensions and Connections
 

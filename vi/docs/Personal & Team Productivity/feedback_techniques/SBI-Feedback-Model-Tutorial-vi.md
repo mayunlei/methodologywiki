@@ -57,7 +57,7 @@ Việc sử dụng mô hình SBI không chỉ đơn thuần là áp dụng một
     *   **S**: "Trong buổi họp nhóm định kỳ hôm nay, khi chúng ta đang thảo luận mục thứ ba trong chương trình nghị sự, 'Kế hoạch Marketing Quý tới',"
     *   **B**: "Tôi nhận thấy khi bạn trình bày kế hoạch của mình, bạn giải thích rất chi tiết về thông tin bối cảnh của tất cả các hoạt động tương tự trước đây, điều này kéo dài khoảng 15 phút."
     *   **I**: "Điều này khiến tôi cảm thấy hơi lo lắng vì tôi lo rằng chúng ta sẽ không còn đủ thời gian để thảo luận kế hoạch của hai đồng nghiệp còn lại. Ngoài ra, tôi thấy hơi khó để nắm bắt những điểm cốt lõi trong kế hoạch của bạn."
-    *   ** (Mở đầu cuộc đối thoại)**: "Tôi muốn hiểu rõ hơn, bạn có phải đang cố gắng đảm bảo mọi người đều hiểu rõ bối cảnh lúc đó không?"
+    *   **Mở đầu cuộc đối thoại**: "Tôi muốn hiểu rõ hơn, bạn có phải đang cố gắng đảm bảo mọi người đều hiểu rõ bối cảnh lúc đó không?"
 
 **Trường hợp 2: Khen ngợi một nhân viên mới chủ động giúp đỡ người khác**
 
@@ -74,7 +74,7 @@ Việc sử dụng mô hình SBI không chỉ đơn thuần là áp dụng một
     *   **S**: "Sếp, trong buổi họp lập kế hoạch dự án của chúng ta vào thứ Tư,"
     *   **B**: "Vào cuối buổi họp, sếp giao cho tôi hai việc gấp mới cần hoàn thành trước thứ Sáu tuần này."
     *   **I**: "Điều này khiến tôi cảm thấy hơi bất ngờ vì tôi sẽ phải gác lại những công việc chính ưu tiên cao đã lên kế hoạch trước để hoàn thành chúng. Tôi lo rằng điều này có thể ảnh hưởng đến tiến độ công việc quan trọng của toàn bộ dự án."
-    *   ** (Mở đầu cuộc đối thoại)**: "Tôi muốn xác nhận lại với sếp xem liệu hai việc mới này có thực sự ưu tiên cao hơn những công việc chính tôi đang làm không? Hoặc chúng ta có thể điều chỉnh lịch trình như thế nào?"
+    *   **Mở đầu cuộc đối thoại**: "Tôi muốn xác nhận lại với sếp xem liệu hai việc mới này có thực sự ưu tiên cao hơn những công việc chính tôi đang làm không? Hoặc chúng ta có thể điều chỉnh lịch trình như thế nào?"
 
 ## Ưu điểm và thách thức của mô hình SBI
 

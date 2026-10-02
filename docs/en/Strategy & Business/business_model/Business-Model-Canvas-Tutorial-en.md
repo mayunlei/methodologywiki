@@ -1,8 +1,21 @@
+---
+title: "Business Model Canvas: 9 Building Blocks, Examples and Template"
+description: "The Business Model Canvas describes how a business creates, delivers and captures value on one page with nine building blocks. Learn the order to fill it in, questions for each block, three examples, how it compares with the Lean Canvas, and common mistakes."
+---
+
 # Business Model Canvas
 
 A business idea, no matter how exciting, if it cannot be transformed into a viable, sustainably profitable system, will remain a castle in the air. The **Business Model Canvas** is a revolutionary strategic management and entrepreneurial tool proposed by Alexander Osterwalder and Yves Pigneur. It provides a concise, intuitive "common language" that allows teams to clearly describe, design, evaluate, and iterate all core elements of a business model on a single chart.
 
 The charm of the Business Model Canvas lies in its ability to deconstruct a complex, dynamic business system into nine interconnected, logically clear building blocks. These nine building blocks cover four main areas of business: **customers, product/service, infrastructure, and financial viability**. By systematically presenting these building blocks on a single canvas, entrepreneurs and managers can get a bird's-eye view of the entire business model, identify its key drivers, potential risks, and innovation opportunities, thereby facilitating deeper strategic dialogue and more agile decision-making.
+
+!!! abstract "Key takeaways"
+
+    - **Nine blocks**: Customer Segments, Value Propositions, Channels, Customer Relationships, Revenue Streams, Key Resources, Key Activities, Key Partners, Cost Structure.
+    - **Right side = value and revenue, left side = efficiency and cost.** A sound model makes both sides fit together.
+    - **Fill it in starting from customers and value**, then work outward to revenue, operations and costs.
+    - **Use sticky notes**: the canvas is a thinking and discussion tool, meant to be rearranged and tested.
+    - **For early-stage startups**, the [Lean Canvas](Lean-Canvas-Tutorial-en.md) puts more weight on problems and risks.
 
 ## The Nine Building Blocks of the Canvas
 
@@ -90,6 +103,58 @@ The core of the Business Model Canvas is a template with nine boxes, each repres
 *   **Ignores Competition**: The canvas itself does not have a dedicated module for analyzing the competitive environment.
 *   **Static Snapshot**: It depicts the structure of the business model but does not fully show its dynamic evolution.
 *   **Needs to Be Combined with Other Tools**: To make more robust decisions, it usually needs to be combined with other tools like the Value Proposition Canvas and SWOT analysis.
+
+## Key Questions for Each Building Block
+
+| Block | Key questions |
+| --- | --- |
+| **Customer Segments** | For whom are we creating value? Who are our most important customers? |
+| **Value Propositions** | Which customer problem do we solve? What bundle of products and services do we offer each segment? |
+| **Channels** | How do customers find out about us, buy from us and get the product? Which channels work best and cost least? |
+| **Customer Relationships** | What relationship does each segment expect: self-service, personal assistance, community? |
+| **Revenue Streams** | What are customers willing to pay for, and how? One-off sales, subscription, usage fees, licensing? |
+| **Key Resources** | Which assets are essential: physical, intellectual, human, financial? |
+| **Key Activities** | What must we do well to deliver the value proposition? |
+| **Key Partners** | Who are our key suppliers and partners? Which activities or resources do they provide? |
+| **Cost Structure** | What are the biggest costs? Is the model cost-driven or value-driven? |
+
+**Recommended order**: Customer Segments → Value Propositions → Channels → Customer Relationships → Revenue Streams → Key Resources → Key Activities → Key Partners → Cost Structure.
+
+## Common Mistakes
+
+1.  **"Everyone" as a customer segment.** If the segment is too broad, the value proposition becomes vague. Name specific segments, and remember that a platform may have several (e.g. hosts and guests).
+2.  **Value propositions written as features.** "AI-powered dashboard" is a feature; "spot budget overruns before month end" is a value proposition.
+3.  **Filling in all nine blocks in one sitting and stopping.** The canvas is a set of hypotheses. Mark which items are validated and test the riskiest ones.
+4.  **Blocks that don't connect.** Each channel, relationship and revenue stream should map to a specific segment and value proposition. Color-coding sticky notes by segment helps.
+5.  **Ignoring the cost side.** An attractive right side with an unaffordable left side isn't a business model.
+6.  **Ignoring competition and environment.** The canvas doesn't cover them; pair it with [SWOT](../strategic_analysis/SWOT-Analysis-Tutorial-en.md) or [Porter's Five Forces](../strategic_analysis/Porters-Five-Forces-Tutorial-en.md).
+
+## Business Model Canvas vs. Lean Canvas
+
+| | Business Model Canvas | [Lean Canvas](Lean-Canvas-Tutorial-en.md) |
+| --- | --- | --- |
+| Created by | Alexander Osterwalder | Ash Maurya |
+| Best for | Established businesses and new units of existing companies | Early-stage startups facing high uncertainty |
+| Focus | A complete description of how the business works | The riskiest assumptions to test first |
+| Blocks that differ | Key Partners, Key Activities, Key Resources, Customer Relationships | Problem, Solution, Key Metrics, Unfair Advantage |
+
+## Frequently Asked Questions
+
+??? question "What are the nine building blocks of the Business Model Canvas?"
+
+    Customer Segments, Value Propositions, Channels, Customer Relationships, Revenue Streams, Key Resources, Key Activities, Key Partners and Cost Structure.
+
+??? question "Where should I start filling in the canvas?"
+
+    Usually with Customer Segments and Value Propositions, because everything else depends on who you serve and why they choose you. Existing businesses sometimes start by mapping the current model block by block.
+
+??? question "Can one canvas cover several customer segments?"
+
+    Yes. Use a different sticky-note color per segment so you can see which value propositions, channels and revenue streams belong to which segment. Multi-sided platforms always have at least two segments.
+
+??? question "How is the canvas different from a business plan?"
+
+    A business plan is a long document describing strategy, market, operations and finances in detail. The canvas fits the core logic onto one page, making it faster to create, discuss and change, which makes it ideal for exploring and testing options before writing a plan.
 
 ## Extensions and Connections
 

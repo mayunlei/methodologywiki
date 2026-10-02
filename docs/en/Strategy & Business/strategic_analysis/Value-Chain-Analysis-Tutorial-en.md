@@ -1,8 +1,21 @@
+---
+title: "Value Chain Analysis: Porter's Model, Steps, Examples and Template"
+description: "Michael Porter's value chain breaks a company into primary and support activities to find sources of cost advantage or differentiation. Learn the activities, a step-by-step method, a template, examples like IKEA and Starbucks, and common mistakes."
+---
+
 # Value Chain Analysis
 
 The fundamental reason why a company can make a profit is that the **value** it creates for customers exceeds its **cost** in the process of creating that value. **Value Chain Analysis** is a powerful analytical tool proposed by Michael Porter, a master of strategic management. It views a company as a "chain" composed of a series of value-creating activities, aiming to systematically examine and break down these activities to identify where the company's competitive advantage originates and in which links costs can be further optimized or differentiation created.
 
 Unlike traditional analysis that focuses solely on the final output, value chain analysis provides a "microscope" for in-depth examination of internal company operations. It divides all company activities into two major categories: **Primary Activities** and **Support Activities**. By analyzing these activities and their interconnections one by one, managers can clearly see how value flows and increases within the company, thereby finding the key to building and maintaining sustainable competitive advantage.
+
+!!! abstract "Key takeaways"
+
+    - **Primary activities**: inbound logistics, operations, outbound logistics, marketing and sales, service.
+    - **Support activities**: firm infrastructure, human resource management, technology development, procurement.
+    - **The goal**: find where you create value and where costs sit, to build cost leadership or differentiation.
+    - **Look at linkages**: advantage often comes from how activities fit together, not from one activity alone.
+    - **Use it with**: [Porter's Five Forces](Porters-Five-Forces-Tutorial-en.md) for the industry and [SWOT](SWOT-Analysis-Tutorial-en.md) to summarize strengths and weaknesses.
 
 ## Components of the Value Chain
 
@@ -89,6 +102,48 @@ The goal of conducting value chain analysis is usually to achieve two core compe
 *   **Difficulty in Data Acquisition**: Precisely allocating costs and assets to each value activity can be very difficult in practice.
 *   **Internal Bias**: The model itself focuses more on analyzing the company's internal operations, with relatively less attention to the role of customers in co-creating value.
 *   **Applicability Issues**: For some modern service industries or platform-based companies that rely heavily on network effects and knowledge sharing, the traditional linear value chain model may need adjustments and supplements.
+
+## Value Chain Analysis Template
+
+| Activity | What we do | Cost share | Value to customer (1–5) | Compared with competitors | Improvement idea |
+| --- | --- | --- | --- | --- | --- |
+| Inbound logistics | | | | | |
+| Operations | | | | | |
+| Outbound logistics | | | | | |
+| Marketing & sales | | | | | |
+| Service | | | | | |
+| Firm infrastructure | | | | | |
+| HR management | | | | | |
+| Technology development | | | | | |
+| Procurement | | | | | |
+
+Look for activities with **high cost but low customer value** (candidates for cost reduction or outsourcing) and activities with **high customer value where you outperform competitors** (sources of differentiation to protect and invest in).
+
+## Common Mistakes
+
+1.  **Mapping departments instead of activities.** The value chain is about what the firm does, not its org chart. One department may perform several activities.
+2.  **Describing without comparing.** Activities only reveal advantage when compared with competitors or benchmarks.
+3.  **Ignoring linkages.** Cutting cost in procurement may raise costs in operations or service. Analyze trade-offs across activities.
+4.  **Forcing a manufacturing model onto services or digital businesses.** Adapt the activity categories (e.g. a "value shop" or "value network" for consulting firms or platforms).
+5.  **No quantification.** Without at least rough cost shares, the analysis stays qualitative and hard to act on.
+
+## Frequently Asked Questions
+
+??? question "Who created the value chain model?"
+
+    Michael Porter introduced it in his 1985 book *Competitive Advantage: Creating and Sustaining Superior Performance*.
+
+??? question "What is the difference between a value chain and a supply chain?"
+
+    A supply chain covers the flow of materials and products between companies, from suppliers to customers. A value chain analyzes the activities inside one company and how each adds value or cost. Porter called the linked value chains of suppliers, firm, channels and buyers the "value system".
+
+??? question "Can value chain analysis be used for service companies?"
+
+    Yes, with adaptation. Service firms often reframe activities around client acquisition, problem solving, delivery and follow-up rather than physical logistics.
+
+??? question "How does value chain analysis relate to competitive strategy?"
+
+    Porter argued that competitive advantage comes either from performing activities at lower cost (cost leadership) or from performing them in a way that creates unique value (differentiation). The value chain shows where each is possible.
 
 ## Extensions and Connections
 

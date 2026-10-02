@@ -1,8 +1,21 @@
+---
+title: "A/B Testing: How to Run One, Sample Size, Metrics and Pitfalls"
+description: "A/B testing compares two versions of a page, feature or message by randomly splitting users and measuring the difference. Learn the step-by-step process, how to write a hypothesis, sample size and test duration, a test plan template, and the statistical pitfalls to avoid."
+---
+
 # A/B Testing
 
 In product design and marketing, we often face seemingly subjective choices: Is a red button more appealing, or a green one? Does "Buy Now" copy convert better, or "Add to Cart"? Instead of relying on intuition or endless debates in meeting rooms, it's better to let real users tell us the answer with their data. **A/B Testing**, also known as **Split Testing**, is a rigorous, powerful, and data-driven **online controlled experiment method**. Its core is to **randomly** divide user traffic into two or more groups and show them different versions of the same page (Version A and Version B) to compare and determine which version performs better in achieving specific goals (such as click-through rate, conversion rate).
 
 A/B testing's essence is to apply the logic of scientific experiments to product and marketing decisions. It introduces the key element of "**randomness**" to eliminate all other potential confounding factors (such as user source, access time, etc.), thereby ensuring that the observed differences in effects can be attributed with high confidence to the single change we made. It transforms subjective assumptions like "I guess this design is better" into objective conclusions like "data shows Version B has a 15% higher conversion rate than Version A, and it's statistically significant," making it an indispensable core tool for modern data-driven growth culture.
+
+!!! abstract "Key takeaways"
+
+    - **Randomly split users** between control (A) and variant (B), and compare one primary metric.
+    - **Start with a hypothesis**: what you'll change, what you expect and why.
+    - **Decide sample size and duration in advance**, and run for full weeks to cover weekly cycles.
+    - **Don't stop when it looks significant** ("peeking"); that inflates false positives.
+    - **Watch guardrail metrics** so a win on one metric doesn't hurt another.
 
 ## Core Components of A/B Testing
 
@@ -79,6 +92,66 @@ A standard A/B test consists of the following key parts:
 *   **Single Variable Limitation**: Sometimes, a combination of multiple changes may produce unexpected synergistic effects, which cannot be discovered in standard A/B tests (requires more complex multivariate testing).
 *   **"Local Optimum" Trap**: Continuously performing small A/B tests on existing pages may lead you into the "local optimum" trap, overlooking larger opportunities for disruptive, revolutionary redesigns.
 *   **Ignores Long-Term Impact**: A/B tests typically measure short-term effects (e.g., click-through rate). Certain changes may improve metrics in the short term, but may harm user trust or brand image in the long run.
+
+## A/B Test Plan Template
+
+| Field | Example |
+| --- | --- |
+| Hypothesis | If we show delivery dates on the product page, more visitors will add to cart because uncertainty about delivery causes drop-off |
+| Primary metric | Add-to-cart rate |
+| Guardrail metrics | Return rate, page load time, revenue per visitor |
+| Audience & split | All mobile visitors, 50/50 |
+| Baseline | 8.0% add-to-cart rate |
+| Minimum detectable effect | +0.5 percentage points (relative +6%) |
+| Sample size per variant | ~47,000 visitors (95% confidence, 80% power) |
+| Duration | 2 full weeks |
+| Decision rule | Ship B if the primary metric improves significantly and no guardrail worsens |
+
+## Sample Size Rules of Thumb
+
+| Baseline conversion | Relative lift to detect | Approx. visitors per variant* |
+| --- | --- | --- |
+| 2% | 10% | ~80,000 |
+| 5% | 10% | ~31,000 |
+| 10% | 10% | ~15,000 |
+| 10% | 20% | ~3,800 |
+
+*Two-sided test, 95% confidence, 80% power. Use an online calculator for your exact numbers: small effects on low baselines need very large samples.
+
+## Common Pitfalls
+
+1.  **Peeking and stopping early.** Checking results daily and stopping at the first significant result greatly inflates false positives. Fix the sample size or use a sequential testing method.
+2.  **Too many metrics.** Testing 20 metrics guarantees some "wins" by chance. Choose one primary metric in advance.
+3.  **Sample ratio mismatch.** If a 50/50 split produces 52/48, something in the assignment or tracking is broken; don't trust the results.
+4.  **Novelty effects.** Users may click a new design because it's new. Run long enough for the effect to settle.
+5.  **Underpowered tests.** Small tests can't detect realistic effects, and their "wins" are often exaggerated.
+6.  **Ignoring segments, or over-slicing them.** Check that key segments aren't harmed, but don't hunt through dozens of segments for a winner.
+
+## A/B Testing vs. Multivariate Testing vs. Usability Testing
+
+| | A/B testing | Multivariate testing | [Usability testing](Usability-Testing-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Compares | Two (or a few) versions | Combinations of several elements | One design, observed in depth |
+| Traffic needed | Moderate to high | Very high | Very low (5–8 users) |
+| Answers | Which version performs better? | Which combination of elements works best? | Why do users struggle? |
+
+## Frequently Asked Questions
+
+??? question "How long should an A/B test run?"
+
+    Until it reaches the planned sample size, and for at least one or two full weeks to include weekday and weekend behavior.
+
+??? question "What does statistical significance mean in an A/B test?"
+
+    At 95% confidence, if there were truly no difference, you would see a result this extreme less than 5% of the time. It doesn't tell you the size of the effect or guarantee it will last.
+
+??? question "Can I test more than two versions at once?"
+
+    Yes (A/B/n testing), but each extra variant needs more traffic and increases the chance of false positives unless you correct for multiple comparisons.
+
+??? question "What should I test first?"
+
+    Changes with a strong hypothesis on high-traffic, high-impact pages, such as checkout, sign-up and pricing, rather than cosmetic tweaks like button colors.
 
 ## Extensions and Connections
 

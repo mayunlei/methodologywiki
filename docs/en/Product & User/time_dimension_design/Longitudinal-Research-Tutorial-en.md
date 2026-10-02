@@ -1,8 +1,21 @@
+---
+title: "Longitudinal Study: Types, Examples, Design Tips and Pitfalls"
+description: "A longitudinal study follows the same subjects over time to observe change and development. Learn the main types (panel, cohort, retrospective), how it compares with cross-sectional designs, a planning template, ways to reduce attrition and common pitfalls."
+---
+
 # Longitudinal Research
 
 When exploring the long tapestry of human development, social change, and disease evolution, we need a research method capable of capturing the crucial dimension of "time." **Longitudinal Research** is precisely such a "camera," repeatedly and continuously observing and measuring the **same sample** over an extended period. Its core objective is to reveal how phenomena **change, develop, and evolve** over time, and to investigate the long-term impact of early events on later outcomes.
 
 Unlike cross-sectional studies, which offer only a "snapshot" at a single point in time, longitudinal research provides us with a "documentary." It allows us to observe the trajectory of individual growth, the process of conceptual shifts, and the entire course of a disease from its inception to full development. This enables us to more clearly establish the temporal sequence of events when exploring causal relationships. When you want to answer dynamic questions about processes and development, such as "How do childhood reading habits affect adult income levels?" or "What sustained impact has a policy reform had over the next decade?", longitudinal research becomes an indispensable and powerful tool.
+
+!!! abstract "Key takeaways"
+
+    - **Same subjects, repeated measurements**: observe how individuals change over time.
+    - **Main types**: panel studies, cohort studies and retrospective studies using existing records.
+    - **Stronger for causal questions** than cross-sectional studies, because you can see what came first.
+    - **Biggest risk is attrition**: losing participants over time, often not at random.
+    - **In product work**, cohort analysis of user retention is a lightweight longitudinal design.
 
 ## Core Characteristics and Types of Longitudinal Research
 
@@ -66,6 +79,71 @@ The commonality among all longitudinal studies is their tracking of "time," but 
 *   **Time-Consuming**: The output cycle of research results is very long, potentially taking years or even decades.
 *   **Sample Attrition**: This is the biggest "natural enemy" of longitudinal research. Over time, some participants may drop out of the study due to relocation, loss of contact, death, or loss of interest, which can lead to bias in the final sample.
 *   **Impact of Repeated Measurements**: Repeatedly undergoing the same tests or questionnaires may affect participants' behavior or responses, known as the "practice effect."
+
+## Types of Longitudinal Studies
+
+| Type | What it is | Example |
+| --- | --- | --- |
+| **Panel study** | The same individuals measured repeatedly | A household survey interviewing the same families every year |
+| **Cohort study** | A group sharing a defining experience (birth year, start date) followed over time | Everyone born in a given year in a country |
+| **Retrospective study** | Uses existing records to look back over time | Analyzing ten years of employee records for career paths |
+| **Product cohort analysis** | Users grouped by sign-up period, tracked over weeks or months | Week-1, week-4 and week-12 retention by sign-up month |
+
+## Study Planning Template
+
+| Element | Decision |
+| --- | --- |
+| Research question | What change or development are you studying? |
+| Cohort definition | Who is included, and what defines them? |
+| Measurement waves | How many, and how far apart? (Match the speed of the change.) |
+| Core measures | Which variables must stay identical across waves? |
+| Retention plan | Contact details, incentives, reminders, tracing procedures |
+| Attrition analysis | How will you check whether dropouts differ from stayers? |
+| Data management | Consistent IDs, versioned instruments, secure storage |
+
+## Reducing Attrition
+
+*   Collect multiple contact methods and a "friend or relative" contact at the start.
+*   Keep in touch between waves (birthday cards, short updates on findings).
+*   Offer meaningful incentives and keep each wave short.
+*   Make it easy to re-enter after missing a wave.
+*   Analyze who drops out and use weighting or multiple imputation where appropriate.
+
+## Common Pitfalls
+
+1.  **Changing the measures midway.** Even small wording changes can create artificial "change". Keep core items identical.
+2.  **Ignoring attrition bias.** If people with worse outcomes drop out, later waves look rosier than reality.
+3.  **Testing effects.** Answering the same questions repeatedly can change how people respond or behave.
+4.  **Confusing period and age effects.** A change between waves may reflect events in the world (e.g. a recession), not the passage of time for individuals.
+5.  **Waves too far apart (or too close).** Match intervals to how quickly the phenomenon changes.
+
+## Longitudinal vs. Cross-Sectional Research
+
+| | Longitudinal | [Cross-Sectional](Cross-Sectional-Research-Tutorial-en.md) |
+| --- | --- | --- |
+| Timing | Repeated over time | One point in time |
+| Shows individual change? | Yes | No |
+| Causal inference | Stronger (temporal order known) | Weak |
+| Cost and duration | High, long | Low, short |
+| Main risk | Attrition, testing effects | Cohort effects, reverse causality |
+
+## Frequently Asked Questions
+
+??? question "How long does a longitudinal study have to last?"
+
+    There's no minimum; what matters is repeated measurement of the same subjects. Studies range from a few weeks (e.g. diary studies) to decades (e.g. the Harvard Study of Adult Development, which began in 1938).
+
+??? question "What is the difference between a panel and a cohort study?"
+
+    A panel study follows the same individuals selected from a population; a cohort study follows a group defined by a shared characteristic or event. Many cohort studies are also panels.
+
+??? question "Is user retention analysis a longitudinal study?"
+
+    In a broad sense, yes: cohort retention tables track the same groups of users over time. It is a lightweight, data-driven longitudinal design.
+
+??? question "How do researchers analyze longitudinal data?"
+
+    Common methods include repeated-measures ANOVA, mixed-effects (multilevel) models, growth curve models and survival analysis for time-to-event outcomes.
 
 ## Extensions and Connections
 

@@ -1,3 +1,8 @@
+---
+title: "SMART Goals: Meaning, Examples and a Goal-Setting Template"
+description: "SMART goals are Specific, Measurable, Achievable, Relevant and Time-bound. See before-and-after examples for work and personal goals, a fill-in template, a checklist, how SMART compares with OKRs, and the most common mistakes."
+---
+
 # SMART Goals
 
 ![SMART Goals Diagram](SMART-Goals-Tutorial-en-diagram.png)
@@ -13,6 +18,14 @@ SMART is an acronym for five English words, requiring an effective goal to be:
 *   **T - Time-bound**
 
 Following the SMART principle is like installing a precise navigation system for our goals. It transforms a vague "wish" into a clear "destination" and a definite "roadmap," thereby greatly increasing the likelihood of achieving the goal.
+
+!!! abstract "Key takeaways"
+
+    - **S**pecific, **M**easurable, **A**chievable, **R**elevant, **T**ime-bound.
+    - **Turn wishes into commitments**: "get fitter" becomes "run 5 km in under 30 minutes by 30 June".
+    - **Measurable needs a baseline and a target**: you can't measure progress without knowing where you started.
+    - **Achievable is not the same as easy**: stretch, but stay realistic given resources.
+    - **SMART defines one goal well**; for ambitious team goals, see [OKR](OKR-Tutorial-en.md).
 
 ## Detailed Explanation of the Five Dimensions of SMART
 
@@ -111,6 +124,68 @@ Applying the SMART principle is a process of continuously clarifying and concret
 *   **May Inhibit Creativity and Flexibility**: For exploratory, hard-to-quantify innovation projects, over-emphasizing SMART might limit flexibility and imagination. In such cases, goals might need to be set with more direction than specificity.
 *   **Ignores Process, Focuses Only on Results**: Sometimes, excessive focus on final quantitative metrics can lead to short-sighted behaviors to achieve numbers, neglecting the quality and sustainability of the process.
 *   **Difficulty in Setting**: Breaking down a grand vision into a series of appropriate, interconnected SMART goals itself requires skill and experience.
+
+## Before and After: Making Goals SMART
+
+| Vague goal | SMART version |
+| --- | --- |
+| Improve customer satisfaction | Raise our post-support CSAT from 78% to 85% by the end of Q3 by cutting first-response time below 2 hours |
+| Get better at public speaking | Give three 10-minute talks at team meetings by December and get feedback using a standard form after each |
+| Grow the newsletter | Increase newsletter subscribers from 2,000 to 3,500 by 31 March through two guest posts and a sign-up incentive |
+| Learn data analysis | Complete an SQL course and build one dashboard used in our weekly review by 15 May |
+
+## SMART Goal Template
+
+| Element | Question | Your goal |
+| --- | --- | --- |
+| Specific | What exactly will be accomplished, and by whom? | |
+| Measurable | Which metric? What is the baseline and the target? | |
+| Achievable | Is it realistic with the time, skills and resources available? | |
+| Relevant | Why does it matter? Which bigger objective does it support? | |
+| Time-bound | What is the deadline? What are the milestones? | |
+| **Full statement** | "By [date], [who] will [action] from [baseline] to [target], in order to [reason]." | |
+
+**Checklist**
+
+- [ ] Someone reading it would know exactly what success looks like
+- [ ] The metric can actually be measured with available data
+- [ ] There is a deadline and at least one checkpoint before it
+- [ ] It is clearly connected to a team or personal priority
+
+## Common Mistakes
+
+1.  **Measuring activity instead of results.** "Make 50 sales calls a week" is an activity; "close 8 new deals this quarter" is a result. Activity goals can support result goals but shouldn't replace them.
+2.  **No baseline.** "Increase engagement by 20%" means little if no one knows the current figure.
+3.  **Too many SMART goals.** Ten perfectly worded goals dilute focus. Three to five priorities are easier to achieve.
+4.  **Set and forget.** A SMART goal without check-ins is just a sentence. Review progress at the milestones you defined.
+5.  **Making goals so achievable they don't matter.** "Achievable" should stretch you without being unrealistic.
+
+## SMART Goals vs. OKRs vs. KPIs
+
+| | SMART Goals | [OKR](OKR-Tutorial-en.md) | [KPI](KPI-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| What it is | A standard for writing a single good goal | A goal-setting system: inspiring objective + measurable key results | Ongoing metrics that track the health of a process or business |
+| Ambition | Realistic and achievable | Often deliberately ambitious (≈70% achievement is good) | Targets based on expected performance |
+| Time frame | Any, defined in the goal | Usually quarterly | Continuous |
+| Relationship | Each key result in an OKR should itself be SMART | Can use KPIs as key results | Feed into both |
+
+## Frequently Asked Questions
+
+??? question "What does SMART stand for?"
+
+    Specific, Measurable, Achievable, Relevant and Time-bound. Some versions use Attainable, Realistic or Time-limited; the meaning is the same.
+
+??? question "Who created SMART goals?"
+
+    The acronym was introduced by George T. Doran in a 1981 article in *Management Review*, "There's a S.M.A.R.T. way to write management's goals and objectives".
+
+??? question "Are SMART goals and OKRs the same?"
+
+    No. SMART is a checklist for writing a well-defined goal; OKR is a system that pairs an ambitious objective with measurable key results. Good key results usually meet the SMART criteria.
+
+??? question "What is SMARTER?"
+
+    An extended version adding Evaluate and Re-evaluate (or Reviewed), emphasizing regular review and adjustment of goals.
 
 ## Extensions and Connections
 

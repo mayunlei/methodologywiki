@@ -1,8 +1,21 @@
+---
+title: "Kanban Method: Board, WIP Limits, Metrics and Examples"
+description: "The Kanban method visualizes work on a board, limits work in progress and improves flow continuously. Learn the core practices, how to set WIP limits, key flow metrics like cycle time, a starter board template, how Kanban compares with Scrum, and common mistakes."
+---
+
 # Kanban
 
 When pursuing efficient, smooth workflows, we often encounter problems such as: work tasks piling up, unclear understanding of what everyone is busy with, unknown bottlenecks, and inability to accurately predict completion times. **Kanban**, a term derived from the Japanese word for "signal board," is a powerful, intuitive **visual workflow management method** designed to solve these problems. It is not a rigid framework like Scrum that prescribes roles and events, but a more flexible Agile practice and mindset focused on **optimizing the efficiency of value flow**.
 
 The core of the Kanban method is to make previously invisible workflows and tasks clear and completely transparent through a **Kanban Board**. Then, by **limiting Work in Progress (WIP)** and establishing a clear **Pull System**, it systematically identifies and eliminates bottlenecks in the process, allowing value to flow faster, smoother, and more predictably from "to-do" to "done." It aims to create a stable, sustainable work rhythm, preventing teams from falling into chaos and inefficiency due to task overload.
+
+!!! abstract "Key takeaways"
+
+    - **Visualize the work** on a board with columns for each stage.
+    - **Limit work in progress (WIP)**: finish work before starting new work.
+    - **Manage flow**: measure cycle time and throughput, and remove bottlenecks.
+    - **Make policies explicit**, such as what "done" means for each column.
+    - **Start with what you do now** and improve gradually; no new roles or sprints required.
 
 ## The Six Core Practices of the Kanban Method
 
@@ -92,6 +105,68 @@ graph TD
 *   **Easy to Become "Formalistic"**: If the team only implements "visualization" without strictly enforcing "limiting WIP" and "managing flow," Kanban becomes just a pretty "task board" and cannot exert its true power.
 *   **Requires Team Self-Discipline**: The pull system and WIP limits require a high degree of self-discipline and collaborative spirit from team members.
 *   **Misunderstanding of "No Time-Box"**: Although Kanban itself does not have fixed sprints like Scrum, this does not mean there is no planning and rhythm. Kanban teams also need to prioritize, forecast delivery times, and conduct regular reviews.
+
+## Starter Kanban Board
+
+| Backlog | Ready (WIP 5) | In progress (WIP 3) | Review (WIP 2) | Done |
+| --- | --- | --- | --- | --- |
+| Ideas and requests, not yet committed | Prioritized, clear enough to start | Being worked on | Waiting for review or testing | Delivered |
+
+**Explicit policies example**: an item can move to *Ready* only when it has acceptance criteria; *Review* requires a peer check; *Done* means released to users.
+
+## Setting WIP Limits
+
+*   **Start simple**: WIP limit ≈ number of people working in that column, or slightly fewer.
+*   **Watch the board**: if items pile up before a column, that column is the bottleneck.
+*   **Tighten gradually**: lower limits expose problems faster; raise them if people are idle for structural reasons.
+*   **Respect the limit**: when a column is full, help finish existing items instead of starting new ones.
+
+## Key Flow Metrics
+
+| Metric | Definition | Use |
+| --- | --- | --- |
+| **Cycle time** | Time from starting work on an item to finishing it | Predictability; "85% of items finish within 6 days" |
+| **Lead time** | Time from request to delivery | Customer-facing responsiveness |
+| **Throughput** | Items finished per week | Capacity planning |
+| **WIP** | Items in progress | Leading indicator of cycle time (Little's Law) |
+| **Cumulative flow diagram** | Count of items per stage over time | Spot bottlenecks and growing queues |
+
+## Common Mistakes
+
+1.  **A board without WIP limits.** That's a task board, not Kanban; the improvement comes from limiting work in progress.
+2.  **Too many columns.** Twelve stages make the board hard to read; merge or use sub-columns.
+3.  **Ignoring blocked items.** Mark blockers visibly and swarm on them.
+4.  **Never changing the process.** Kanban is about evolutionary improvement; review metrics and policies regularly.
+5.  **Measuring utilization instead of flow.** Keeping everyone 100% busy increases queues and slows delivery.
+
+## Kanban vs. Scrum
+
+| | Kanban | [Scrum](Scrum-Tutorial-en.md) |
+| --- | --- | --- |
+| Cadence | Continuous flow | Fixed-length sprints |
+| Roles | No required new roles | Product Owner, Scrum Master, Developers |
+| Limiting work | WIP limits per column | Sprint scope |
+| Change | Anytime | Usually between sprints |
+| Key metrics | Cycle time, throughput | Velocity, sprint burndown |
+| Best for | Operations, support, varied work with unpredictable arrivals | Product development with planned increments |
+
+## Frequently Asked Questions
+
+??? question "What is the difference between Kanban and a to-do list?"
+
+    A to-do list records tasks. Kanban visualizes how work flows through stages, limits work in progress and uses metrics to improve the process.
+
+??? question "Where does Kanban come from?"
+
+    Kanban ("signboard" in Japanese) originated in Toyota's production system as a pull signal for parts. David J. Anderson adapted it for knowledge work in the 2000s.
+
+??? question "Can Kanban and Scrum be combined?"
+
+    Yes. "Scrumban" uses Scrum's roles and events with Kanban's WIP limits and flow metrics.
+
+??? question "Does Kanban work for personal productivity?"
+
+    Yes. A simple personal Kanban with To do / Doing (WIP 2–3) / Done is one of the easiest ways to reduce multitasking.
 
 ## Extensions and Connections
 

@@ -1,3 +1,8 @@
+---
+title: "Pomodoro Technique: How It Works, Rules, Variations and Tips"
+description: "The Pomodoro Technique splits work into 25-minute focused intervals separated by short breaks. Learn the core rules, how to handle interruptions, variations like 50/10 and 90-minute blocks, a daily tracking template and the most common mistakes."
+---
+
 # Pomodoro Technique
 
 ![Pomodoro Technique Diagram](./Pomodoro-Technique-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 We've all been there: facing a daunting and complex task, procrastinating on starting; or while working, our minds wander, easily interrupted by every phone vibration or casual chat from a colleague. As a result, we end the day exhausted, yet our efficiency is far from satisfactory. The **Pomodoro Technique** is an incredibly simple yet exceptionally effective time management method designed to solve this common dilemma.
 
 It doesn't require complex tools or profound theories. Its core lies in using a timer to divide work time into several 25-minute, highly focused "Pomodoros," interspersed with short breaks. This rhythmic cycle of "focus-break" aims to help us overcome procrastination, resist distractions, and maintain a highly efficient work state in a sustainable way.
+
+!!! abstract "Key takeaways"
+
+    - **The basic cycle**: 25 minutes of focused work, a 5-minute break; after four pomodoros, a longer 15–30 minute break.
+    - **A pomodoro is indivisible**: if you're interrupted and must switch tasks, that pomodoro is void; start a new one.
+    - **Protect it with "inform, negotiate, call back"**: defer interruptions instead of reacting to them.
+    - **Track and estimate**: counting pomodoros per task makes your time estimates much more accurate.
+    - **Adjust the length**: 25/5 is a starting point; deep work often suits 50/10 or 90-minute blocks.
 
 ## The Core Cycle of the Pomodoro Technique
 
@@ -86,6 +99,79 @@ A designer needs to complete an event poster in one afternoon. The design proces
 
 *   **Ideal Scenarios**: Very suitable for independent tasks that can be clearly broken down and require high concentration, such as writing, coding, reviewing, processing reports, etc.
 *   **Challenging Scenarios**: For creative work that requires long periods of uninterrupted thinking (which might interrupt "flow"), or roles that require frequent collaboration and constant responsiveness, a strict 25-minute cycle might not be suitable. In these cases, the duration of the Pomodoro can be flexibly adjusted (e.g., 50 minutes of focus, 10 minutes of rest).
+
+## Handling Interruptions
+
+Interruptions are the main enemy of a pomodoro. Francesco Cirillo, the technique's creator, distinguishes two kinds:
+
+| Type | Example | What to do |
+| --- | --- | --- |
+| **Internal** (from yourself) | "I should check that email", "let me look this up" | Write it on an "unplanned" list and return to the task; deal with it in the break or a later pomodoro |
+| **External** (from others) | A colleague's question, a chat message, a call | **Inform** ("I'm in the middle of something"), **negotiate** ("can I get back to you in 20 minutes?"), **call back** as promised |
+
+If you truly must stop (an emergency), abandon the pomodoro and start a fresh one later rather than "pausing" it. The point is to protect uninterrupted blocks of attention.
+
+## Variations: Choosing an Interval Length
+
+| Rhythm | Best for | Notes |
+| --- | --- | --- |
+| **25 / 5** (classic) | Starting out, tasks you procrastinate on, admin work | Easy to begin; may be too short for deep creative work |
+| **50 / 10** | Writing, coding, design | Enough time to get into flow while still forcing regular breaks |
+| **90 / 20** | Deep work, research | Matches longer focus cycles; needs a protected calendar block |
+| **15 / 3** | Very low energy, restarting after a long break | Lowers the barrier to starting at all |
+
+Try one rhythm for a week before judging it, and use the same one for comparable tasks so your tracking stays meaningful.
+
+## Daily Pomodoro Tracking Template
+
+| Task | Estimated pomodoros | Actual pomodoros | Internal interruptions | External interruptions | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Draft quarterly report | 4 | ✗✗✗✗✗ (5) | ' ' | − | Data gathering took longer than expected |
+| Reply to client emails | 1 | ✗ (1) | | − | |
+| Review pull requests | 2 | ✗✗ (2) | ' | | |
+| *Unplanned & urgent* | | | | | Call vendor about invoice |
+
+Use `'` for each internal interruption and `−` for each external one. After a week, compare estimates with actuals: the gap shows where your planning is systematically optimistic.
+
+## Common Mistakes
+
+1.  **Working through breaks.** Skipping breaks feels productive but drains focus by mid-afternoon. The break is part of the method, so step away from the screen.
+2.  **Using breaks for social media or email.** These pull you into new tasks and the break becomes another interruption. Stretch, walk, get water, look out of the window.
+3.  **Letting a timer run while multitasking.** A pomodoro only counts if you worked on one task without switching. Background chat windows defeat the purpose.
+4.  **Applying it rigidly to everything.** Meetings, collaborative work and tasks that need long uninterrupted flow don't always fit. Use it where it helps.
+5.  **Treating the count as a score.** The goal isn't to "earn" as many pomodoros as possible but to understand and protect your attention. Quality of output still matters.
+6.  **Never adjusting the interval.** If you constantly break flow at minute 25, try 50/10. If you can't make it to 25, try 15.
+
+## Pomodoro Technique vs. Time Blocking vs. GTD
+
+| | Pomodoro Technique | Time Blocking | [GTD](GTD-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Main question | How do I stay focused right now? | When during the day will I do each thing? | What do I need to do, and what's next? |
+| Unit | 25-minute intervals | Calendar blocks of 30 min–several hours | Tasks, projects, contexts |
+| Strength | Starting, focus, rhythm of rest | Protects time for priorities | A trusted system that clears your head |
+| Works well with | Time blocking, GTD | Pomodoros inside each block | Pomodoros to execute next actions |
+
+## Frequently Asked Questions
+
+??? question "Why 25 minutes?"
+
+    It's the length Francesco Cirillo found worked for him as a student, timed with a tomato-shaped kitchen timer ("pomodoro" is Italian for tomato). It's short enough to start easily and long enough to make progress. Adjust it to your work.
+
+??? question "What should I do during the 5-minute break?"
+
+    Anything that rests your attention: stand up, stretch, drink water, look into the distance. Avoid email, messages and social media, which start new mental threads.
+
+??? question "What if I finish a task before the pomodoro ends?"
+
+    Use the remaining minutes to review or improve what you just did ("overlearning"), or plan the next step. Don't start a different task mid-pomodoro.
+
+??? question "Does the Pomodoro Technique help with procrastination?"
+
+    Yes. Committing to just 25 minutes lowers the barrier to starting, and starting is usually the hardest part. Many people find they keep going once the first pomodoro is done.
+
+??? question "Can teams use the Pomodoro Technique?"
+
+    Yes. Some teams synchronize pomodoros for pair programming or co-working sessions, sharing breaks. It works best when everyone agrees not to interrupt each other during a pomodoro.
 
 ## Extensions and Connections
 

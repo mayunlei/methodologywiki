@@ -1,4 +1,17 @@
+---
+title: "Problem Solving Toolbox: Process, Methods and When to Use Each"
+description: "A practical guide to structured problem solving: an 8-step process from defining the problem to standardizing the solution, and how to choose among tools such as logic trees, fishbone diagrams, the 5 Whys, Pareto analysis, brainstorming and decision matrices."
+---
+
 # Problem Solving Toolbox: Practical Methods and Strategy Tutorial
+
+!!! abstract "Key takeaways"
+
+    - **Eight steps**: define → break down → find root causes → prioritize → generate solutions → decide → implement and verify → standardize.
+    - **Match the tool to the step**: logic trees break problems down; fishbone and 5 Whys find causes; Pareto prioritizes; decision matrices choose.
+    - **Most failures come from step one**: a vague or solution-laden problem statement.
+    - **Verify with data** before and after implementing a solution.
+    - **Loop back** to root causes or solutions if the problem isn't solved.
 
 ## Tutorial Overview
 

@@ -1,8 +1,21 @@
+---
+title: "Balanced Scorecard: Four Perspectives, Strategy Map, Examples, Template"
+description: "The Balanced Scorecard translates strategy into objectives and measures across four perspectives: financial, customer, internal process, and learning and growth. Learn how to build one, a strategy map example, a scorecard template and common mistakes."
+---
+
 # Balanced Scorecard
 
 In traditional business management, financial indicators (such as revenue, profit, return on investment) were often the sole measure of success. However, these indicators are essentially "lagging indicators"; they reflect past operational results but cannot effectively guide future actions. To address this issue, the **Balanced Scorecard (BSC)** emerged. It is not merely a performance measurement tool, but a powerful and comprehensive strategic management system, whose core lies in translating an organization's vision and strategy into a coherent, measurable set of performance indicators covering four key dimensions.
 
 The core idea of the Balanced Scorecard is "balance." It achieves a delicate balance between financial and non-financial indicators, between lagging and leading indicators, between internal and external perspectives, and between short-term and long-term goals. In this way, it provides managers with a comprehensive view, much like an airplane cockpit dashboard, allowing them not only to see the current altitude and speed but also to understand the engine's condition and future direction, thereby ensuring that the entire organization can sail consistently towards strategic goals.
+
+!!! abstract "Key takeaways"
+
+    - **Four perspectives**: Financial, Customer, Internal Processes, Learning & Growth.
+    - **Balance**: financial results alongside the drivers that produce them.
+    - **Strategy map**: shows cause and effect, from learning and growth up to financial results.
+    - **For each objective**: a measure, a target and an initiative.
+    - **It's a management system**, not just a dashboard: review it regularly and use it to allocate resources.
 
 ## The Four Perspectives of the Balanced Scorecard
 
@@ -90,6 +103,52 @@ The Balanced Scorecard systematically breaks down abstract strategies into concr
 *   **Difficulty in Defining Measures**: It can be challenging to find appropriate, measurable indicators for all strategic objectives, especially for intangible assets.
 *   **Risk of Becoming a "Reporting Tool"**: If not properly integrated with strategic management, it can devolve into a mere reporting system without driving real change.
 *   **Requires Top Management Commitment**: Sustained success depends heavily on the continuous support and commitment of senior leadership.
+
+## Balanced Scorecard Template
+
+| Perspective | Strategic objective | Measure (KPI) | Target | Initiative | Owner |
+| --- | --- | --- | --- | --- | --- |
+| **Financial** | Grow recurring revenue | Annual recurring revenue | +25% | Launch annual plans | CFO |
+| **Customer** | Increase loyalty | Net revenue retention | 110% | Customer success program | VP Customers |
+| **Internal process** | Faster onboarding | Days to first value | < 7 | Self-serve setup wizard | Product lead |
+| **Learning & growth** | Strengthen data skills | % of staff certified in analytics | 60% | Internal academy | HR lead |
+
+## Strategy Map Example (Bottom-Up)
+
+| Level | Objective | Leads to |
+| --- | --- | --- |
+| Learning & growth | Skilled, data-literate teams | → better processes |
+| Internal processes | Fast onboarding; proactive support | → happier customers |
+| Customer | Customers achieve value quickly and stay | → more revenue |
+| Financial | Growing recurring revenue | (outcome) |
+
+Reading the map from bottom to top tests the logic of the strategy: if the lower objectives are achieved, do the upper ones follow?
+
+## Common Mistakes
+
+1.  **Using it as a KPI list.** A scorecard without strategic objectives and cause-and-effect links is just a dashboard.
+2.  **Too many measures.** 40 measures across four perspectives dilute focus. Aim for 15–25 for an organization.
+3.  **No initiatives or budget.** Targets without funded initiatives remain wishes.
+4.  **Built only by top management.** Without cascading to teams, the scorecard doesn't change daily work.
+5.  **Never revisiting the strategy map.** If measures move but outcomes don't, the assumed cause-and-effect may be wrong.
+
+## Frequently Asked Questions
+
+??? question "Who developed the Balanced Scorecard?"
+
+    Robert Kaplan and David Norton introduced it in a 1992 Harvard Business Review article; the strategy map was added in later work.
+
+??? question "What are the four perspectives?"
+
+    Financial (how do we look to shareholders?), Customer (how do customers see us?), Internal Processes (what must we excel at?) and Learning & Growth (how can we continue to improve and create value?).
+
+??? question "Can non-profits use the Balanced Scorecard?"
+
+    Yes. They often put the mission or the customer/beneficiary perspective at the top and treat financial health as an enabler rather than the ultimate goal.
+
+??? question "How is the Balanced Scorecard different from OKRs?"
+
+    The Balanced Scorecard gives a stable, comprehensive view of strategy across four perspectives. [OKRs](../../Personal & Team Productivity/goal_management/OKR-Tutorial-en.md) focus on a few ambitious priorities per quarter. Some organizations use the scorecard for strategy and OKRs for quarterly focus.
 
 ## Extensions and Connections
 

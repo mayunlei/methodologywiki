@@ -1,8 +1,21 @@
+---
+title: "User Persona: Template, Examples and How to Create One from Research"
+description: "A user persona is a research-based profile of a key user type, used to keep teams focused on real needs. Get a persona template, a step-by-step process from research to persona, examples, the difference between personas and segments, and common mistakes."
+---
+
 # User Persona
 
 In any user-centered design process, a recurring core challenge is: who exactly are we designing for? If team members have a vague, one-sided, or even contradictory understanding of the target users, product decisions can easily go astray. The **User Persona** is a powerful tool to solve this problem. It is not a simple user description, but a credible, fictional character model representing a specific user group, meticulously constructed based on real user research data.
 
 The fundamental purpose of a user persona is to transform abstract, cold user data into a "specific person" with a name, a face, a story, and emotions. This allows the design team to truly "walk in the user's world" and make more insightful design decisions based on empathy.
+
+!!! abstract "Key takeaways"
+
+    - **A persona represents a pattern** found in research, not an imagined ideal customer.
+    - **Core content**: goals, behaviors, pain points, context and a few telling quotes.
+    - **Demographics are secondary**: behaviors and motivations matter more than age or job title.
+    - **3–5 personas** is usually enough, with one primary persona to design for.
+    - **Use them in decisions**: "Would Maya use this?" is the test that keeps personas alive.
 
 ## Components of a User Persona
 
@@ -77,6 +90,64 @@ Creating user personas is a research process that moves from divergence to conve
 *   **Research Cost**: Creating high-quality user personas requires investment in real user research, which takes time and budget.
 *   **Risk of "Stereotyping"**: If research is insufficient or understanding is one-sided, it may lead to the creation of incorrect, stereotyped personas, thus misleading the product direction.
 *   **Timeliness**: Users and the market are constantly changing, and user personas also need to be regularly reviewed and updated, otherwise they become "living fossils."
+
+## User Persona Template
+
+| Section | Content |
+| --- | --- |
+| Name & photo | A realistic name and image (avoid stereotypes) |
+| One-line summary | "Busy team lead who needs status updates without chasing people" |
+| Context | Role, environment, tools used, constraints |
+| Goals | What they're trying to achieve (functional and emotional) |
+| Behaviors | How they currently do it; frequency; workarounds |
+| Pain points | Frustrations, obstacles, risks |
+| Quotes | 1–3 real quotes from research |
+| Key scenario | A typical situation in which they'd use your product |
+| What success looks like | How they'd judge that the problem is solved |
+| Evidence | Number of interviews, data sources behind this persona |
+
+## From Research to Personas
+
+1.  **Research**: interviews (often 10–20), observation, analytics and support data.
+2.  **Identify behavioral variables**: e.g. frequency of use, expertise, goals, attitude to risk.
+3.  **Map participants** along these variables and look for clusters.
+4.  **Describe each cluster** as a persona, using real details and quotes.
+5.  **Validate** with additional data or a quantitative survey where possible.
+6.  **Share and use**: put personas into design reviews, prioritization and roadmaps.
+
+## Common Mistakes
+
+1.  **Personas from assumptions.** Without research they encode the team's biases. Label any assumption-based "proto-personas" clearly and test them.
+2.  **Too much demographic detail.** Favorite color and hobbies rarely affect design decisions; goals and behaviors do.
+3.  **Too many personas.** Ten personas can't all be served; prioritize.
+4.  **Personas that never change.** Update them as you learn more and as your market changes.
+5.  **Designing for "everyone".** A primary persona forces trade-offs, which is the point.
+
+## Personas vs. Segments vs. Jobs-to-be-Done
+
+| | User Persona | Market Segment | Jobs-to-be-Done |
+| --- | --- | --- | --- |
+| Based on | Qualitative research into behaviors and goals | Quantitative data (demographics, purchase behavior) | The progress people are trying to make in a situation |
+| Answers | Who is this user and what do they need? | How big is this group and how valuable? | What job is the customer "hiring" the product for? |
+| Used by | Design and product teams | Marketing and strategy | Product strategy and innovation |
+
+## Frequently Asked Questions
+
+??? question "How many user personas should I create?"
+
+    Usually three to five, covering distinct behavior patterns, with one primary persona that the product is optimized for.
+
+??? question "What is the difference between a user persona and a buyer persona?"
+
+    A user persona describes the people who use the product; a buyer persona describes the people who make or influence the purchase decision. In B2B they're often different people.
+
+??? question "Who introduced personas in design?"
+
+    Alan Cooper popularized personas in interaction design, notably in *The Inmates Are Running the Asylum* (1999).
+
+??? question "How do personas relate to empathy maps and journey maps?"
+
+    An [empathy map](Empathy-Map-Tutorial-en.md) helps synthesize research about a user type; the persona summarizes who they are; a [journey map](User-Journey-Map-Tutorial-en.md) shows what that persona experiences over time.
 
 ## Extensions and Connections
 

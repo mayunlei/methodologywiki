@@ -30,6 +30,10 @@ def scan(path, fix=False):
             elif re.fullmatch(r"\s*-{3,}\s*", cur) and not LIST.match(prev):
                 issues.append((i + 1, "--- 紧贴文字（会变成标题）"))
                 if fix: out.append("")
+        if not in_fence and re.search(r"(?:(?<=\s)|^)\*\* (?=\S[^*\n]*?\*\*)", cur):
+            issues.append((i + 1, "粗体开头的 ** 后有空格（不会渲染成粗体）"))
+            if fix:
+                cur = re.sub(r"(?:(?<=\s)|^)\*\* (?=\S[^*\n]*?\*\*)", "**", cur)
         out.append(cur)
     if fix and issues:
         open(path, "w", encoding="utf-8").write("\n".join(out))

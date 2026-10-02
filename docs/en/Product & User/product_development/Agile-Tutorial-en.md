@@ -1,8 +1,21 @@
+---
+title: "Agile Methodology: Manifesto, Principles, Frameworks and Examples"
+description: "Agile is an approach to software and product development that delivers value in small increments, embraces change and relies on collaboration. Learn the Agile Manifesto, the twelve principles, how Scrum, Kanban and XP differ, agile vs waterfall, and common anti-patterns."
+---
+
 # Agile Development
 
 Before the 21st century, software development generally adopted the "**Waterfall Model**"—a linear, phase-by-phase process, much like building a bridge: spending months or even years on detailed requirements analysis and design, followed by lengthy development and testing, and finally delivering a "perfect" finished product to the client. However, in the internet era, where demands change rapidly and markets are full of uncertainty, the drawbacks of this model became increasingly apparent: it was slow to react, carried huge risks, and often resulted in the final product being delivered long after it had diverged from real user needs. **Agile Development** emerged as a revolutionary software development movement to address this challenge.
 
 Agile is not a specific method or process, but a set of **values and principles** aimed at embracing change, enhancing customer value, and promoting efficient collaboration. It originated from the "**Manifesto for Agile Software Development**" published in 2001. Its core idea is to abandon the obsession with "perfect plans" and instead continuously and rapidly deliver working software through **short-cycle, iterative, incremental** development processes, constantly gathering feedback and making adjustments along the way. It breaks down a large, unpredictable "big project" into a series of short, manageable "sprints," thereby maintaining development flexibility and adaptability in an ever-changing market.
+
+!!! abstract "Key takeaways"
+
+    - **Four values**: individuals and interactions, working software, customer collaboration, responding to change.
+    - **Deliver in small increments** and get feedback early and often.
+    - **Frameworks implement agile**: [Scrum](Scrum-Tutorial-en.md) (sprints), [Kanban](Kanban-Tutorial-en.md) (flow), XP (engineering practices).
+    - **Agile is a mindset, not a set of meetings**: ceremonies without empowerment are "agile theater".
+    - **Also used outside software**: marketing, HR, hardware and operations teams adopt agile practices.
 
 ## The Agile Software Development Manifesto
 
@@ -88,6 +101,51 @@ Agile is a set of philosophies, not a specific process. Under the guidance of Ag
 *   **Higher Demands on Individuals**: Members of Agile teams need stronger communication skills, collaborative spirit, and cross-functional skills.
 *   **Lack of Documentation**: If misunderstood, it can lead to a lack of necessary documentation, causing difficulties for future maintenance and handover.
 *   **Difficulty in Long-Term Forecasting**: Due to its nature of embracing change, Agile makes it difficult to provide precise, long-term delivery time and cost commitments at the beginning of a project.
+
+## Agile vs. Waterfall
+
+| | Agile | Waterfall |
+| --- | --- | --- |
+| Planning | Rolling, adaptive | Upfront, detailed |
+| Delivery | Small increments, frequently | One release at the end |
+| Change | Expected and welcomed | Controlled and costly |
+| Customer involvement | Continuous | Mainly at start and end |
+| Best for | Uncertain requirements, fast-changing markets | Stable, well-understood requirements, heavy regulation |
+
+## Comparing Agile Frameworks
+
+| Framework | Core idea | Key practices | Best for |
+| --- | --- | --- | --- |
+| [Scrum](Scrum-Tutorial-en.md) | Fixed-length sprints with defined roles and events | Sprint planning, daily scrum, review, retrospective | Product teams building in increments |
+| [Kanban](Kanban-Tutorial-en.md) | Continuous flow with WIP limits | Board, WIP limits, flow metrics | Operations, support, varied incoming work |
+| Extreme Programming (XP) | Engineering excellence | Pair programming, TDD, continuous integration | Software teams focused on quality |
+| SAFe / LeSS | Scaling agile across many teams | Program increments, coordinated planning | Large organizations |
+
+## Common Agile Anti-Patterns
+
+1.  **Agile theater.** Daily stand-ups and sprints, but decisions still made top-down and scope fixed in advance.
+2.  **Status-report stand-ups.** The daily meeting turns into reporting to a manager instead of team coordination.
+3.  **No real customer feedback.** Increments are delivered but nobody outside the team sees them until "launch".
+4.  **Skipping retrospectives.** Without them, the team stops improving its way of working.
+5.  **Agile as an excuse for no planning.** Agile plans continuously; it doesn't abandon planning.
+
+## Frequently Asked Questions
+
+??? question "What is the Agile Manifesto?"
+
+    A 2001 statement by 17 software practitioners: individuals and interactions over processes and tools; working software over comprehensive documentation; customer collaboration over contract negotiation; responding to change over following a plan.
+
+??? question "Is Scrum the same as agile?"
+
+    No. Agile is a set of values and principles; Scrum is one framework for putting them into practice.
+
+??? question "Can agile be used outside software development?"
+
+    Yes. Marketing, HR, product design and even hardware teams use agile practices such as short iterations, visual boards and retrospectives.
+
+??? question "How do I calculate the value of moving to agile?"
+
+    Compare cycle time, delivery frequency, defect rates and customer satisfaction before and after; the [Agile ROI Calculator](Agile-ROI-Calculator.md) page offers a simple model.
 
 ## Extensions and Connections
 

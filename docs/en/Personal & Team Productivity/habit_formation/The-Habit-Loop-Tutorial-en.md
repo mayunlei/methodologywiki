@@ -1,3 +1,8 @@
+---
+title: "The Habit Loop: Cue, Routine, Reward, and How to Change Habits"
+description: "The habit loop (cue, routine, reward) explains how habits form and how to change them. Learn how to identify your own loop, the Golden Rule of habit change, a habit-redesign worksheet, examples and common mistakes."
+---
+
 # The Habit Loop
 
 ![The Habit Loop Diagram](The-Habit-Loop-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 Most of our behaviors in life, estimated to be over 40%, are not driven by conscious decisions but by **habits**. From brushing our teeth first thing in the morning, to automatically buckling our seatbelts when driving, to instinctively lighting a cigarette when stressed, these behaviors operate in our brains in an almost automatic mode. **The Habit Loop**, a powerful **neurological model explaining how habits form and operate**, was proposed by scientists at MIT and popularized by author Charles Duhigg in his book *The Power of Habit*.
 
 The core idea of this model is that any habit, whether good or bad, is composed of three interrelated, cyclical parts. Understanding the mechanism of this loop is the fundamental prerequisite for diagnosing and breaking a bad habit, or designing and cultivating a good one. It provides us with an "X-ray of habits," allowing us to clearly see the underlying code that drives our daily behavior at a subconscious level.
+
+!!! abstract "Key takeaways"
+
+    - **Three parts**: a cue triggers a routine, which delivers a reward; repetition makes the loop automatic.
+    - **Craving drives the loop**: over time, you start anticipating the reward as soon as you see the cue.
+    - **Golden Rule of habit change**: keep the same cue and reward, and replace the routine.
+    - **Find the real reward by experimenting**: try different routines and notice which one satisfies the craving.
+    - **Plan for the cue**: write an "if (cue), then (new routine)" plan.
 
 ## The Three Components of the Habit Loop
 
@@ -89,6 +102,65 @@ The most powerful aspect of the Habit Loop model is that it provides us with a c
 *   **Provides a Diagnostic Tool**: Offers a clear, profound analytical framework for understanding and diagnosing our own and others' behavioral patterns.
 *   **Provides an Actionable Path to Change**: Clearly points out that the key to changing habits is to "replace the routine," rather than fighting the cue or giving up the reward.
 *   **Extremely Wide Applicability**: Can be used not only for personal growth but also in product design, marketing, organizational management, and many other fields, by designing effective "habit loops" to guide and shape user behavior.
+
+## Habit Redesign Worksheet
+
+| Step | Question | Example: afternoon snacking |
+| --- | --- | --- |
+| 1. Identify the routine | What exactly do you do? | Buy a cookie from the café around 3:30 pm |
+| 2. Identify the cue | Location, time, emotional state, other people, preceding action? | Time: around 3:30; state: bored and tired |
+| 3. Test the reward | Try different routines for a few days: which one removes the urge? | A 10-minute walk or chatting with a colleague removes it; eating an apple doesn't |
+| 4. Name the real reward | What craving was the routine satisfying? | A break and social contact, not hunger |
+| 5. Write the plan | "When (cue), I will (new routine) because it gives me (reward)." | "At 3:30, I'll walk to a colleague's desk and chat for 10 minutes." |
+
+## Five Types of Cues
+
+Almost every habit cue falls into one of these categories. When an urge appears, note all five:
+
+| Cue type | What to note |
+| --- | --- |
+| Location | Where are you? |
+| Time | What time is it? |
+| Emotional state | How do you feel? |
+| Other people | Who else is around? |
+| Preceding action | What did you just do? |
+
+After a few days, the column that stays constant is usually your cue.
+
+## Common Mistakes
+
+1.  **Relying on willpower alone.** Resisting a routine without changing the loop leaves the cue and craving in place, so the old habit returns when you're tired.
+2.  **Guessing the reward.** People often assume the reward (e.g. "I eat because I'm hungry") when the real reward is something else, like a break. Experiment before deciding.
+3.  **Changing too much at once.** Replacing several habits simultaneously overloads attention. Change one loop, let it stabilize, then move on.
+4.  **No plan for the cue.** If you haven't decided in advance what to do when the cue appears, the old routine wins by default.
+5.  **Ignoring environment.** Removing or adding cues (phone out of the bedroom, running shoes by the door) is often easier than fighting them.
+
+## Habit Loop vs. Tiny Habits vs. Atomic Habits
+
+| | Habit Loop | [Tiny Habits](Tiny-Habits-Tutorial-en.md) | Atomic Habits model |
+| --- | --- | --- | --- |
+| Author | Charles Duhigg | BJ Fogg | James Clear |
+| Core model | Cue → Routine → Reward | Behavior = Motivation × Ability × Prompt | Cue → Craving → Response → Reward |
+| Main advice | Keep cue and reward, change the routine | Make new habits tiny and anchor them to existing routines | Make it obvious, attractive, easy and satisfying |
+| Best for | Understanding and replacing existing habits | Starting new habits with minimal friction | A full system for building and breaking habits |
+
+## Frequently Asked Questions
+
+??? question "How long does it take to form a habit?"
+
+    The popular "21 days" figure has little support. A widely cited study by Lally et al. (2010) found an average of about 66 days, with a very wide range (18 to 254 days) depending on the person and the behavior.
+
+??? question "Can you delete a bad habit completely?"
+
+    Old loops are rarely erased; they are overridden. That is why the Golden Rule recommends replacing the routine while keeping the cue and reward, and why old habits can return under stress.
+
+??? question "What is the Golden Rule of habit change?"
+
+    From Charles Duhigg's *The Power of Habit*: you can't extinguish a bad habit, but you can change it by keeping the old cue and delivering the old reward with a new routine.
+
+??? question "Does the habit loop apply to organizations?"
+
+    Yes. Duhigg describes "keystone habits" in organizations, such as Alcoa's focus on worker safety, that trigger wider changes in routines and culture.
 
 ## Extensions and Connections
 

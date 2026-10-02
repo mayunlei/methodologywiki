@@ -1,8 +1,21 @@
+---
+title: "Mind Mapping: How to Make a Mind Map, Rules, Examples and Tools"
+description: "A mind map organizes ideas visually around a central topic with branching keywords. Learn Tony Buzan's rules, a step-by-step method, examples for notes, planning and brainstorming, how mind maps differ from concept maps and logic trees, and common mistakes."
+---
+
 # Mind Mapping
 
 Our brains, when thinking, are not linear and straightforward; instead, they are full of leaps, associations, and divergences. **Mind Mapping** is precisely such a powerful **visual thinking tool** that deeply aligns with our brain's natural working mode. Invented by British scholar Tony Buzan in the 1970s, its core lies in connecting keywords, ideas, images, and colors around a **central theme** in a **radial, progressively layered structure**, thereby organizing a complex topic or a scattered collection of information into a clear, orderly, easy-to-remember, and easy-to-understand "brain map."
 
 The charm of mind mapping lies in its **non-linear** characteristic. It encourages us to associate freely, capture fleeting inspirations, and organize them in an organic, interconnected way. It is not just a tool for recording information but a powerful thinking partner that stimulates creativity, clarifies logic, and enhances memory. From planning and taking reading notes to preparing presentations and brainstorming, mind mapping can greatly improve our thinking efficiency and depth.
+
+!!! abstract "Key takeaways"
+
+    - **Central topic in the middle**, main branches for key themes, sub-branches for details.
+    - **One keyword per branch**: short words trigger associations better than sentences.
+    - **Use color, images and curved lines** to make structure memorable.
+    - **Great for** notes, planning, studying and brainstorming.
+    - **For rigorous analysis**, convert a mind map into a MECE [logic tree](../problem_solving/Logic-Tree-Tutorial-en.md).
 
 ## Core Components of a Mind Map
 
@@ -80,6 +93,50 @@ A standard mind map follows a few simple but crucial drawing rules.
 *   **Highly Personalized**: Mind maps drawn by individuals can have strong subjectivity in their logic and keyword selection, and others may require some explanation to fully understand them initially.
 *   **Not Suitable for Presenting Final, Formal Documents**: It is an excellent tool for thinking and conceptualization, but its hand-drawn, non-linear style is generally not suitable for final, formal business reports or academic papers that require strict formatting.
 *   **Tool Limitations**: Although there are many mind mapping software tools, hand-drawing is generally considered the most creativity-stimulating way. However, hand-drawn maps are less convenient for modification and sharing than electronic versions.
+
+## Step-by-Step: Making a Mind Map
+
+1.  **Start in the center** of a landscape page with the topic, ideally as an image.
+2.  **Add 4–7 main branches** for the main themes, each in a different color.
+3.  **Write one keyword per branch**, on the line itself.
+4.  **Extend sub-branches** outward for details, examples and questions.
+5.  **Connect related ideas** across branches with arrows.
+6.  **Review and reorganize**: merge, move or prune branches until the structure is clear.
+
+## Mind Map vs. Concept Map vs. Logic Tree
+
+| | Mind map | Concept map | [Logic tree](../problem_solving/Logic-Tree-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Structure | Radial hierarchy from one center | Network with labeled relationships | Strict hierarchy, MECE at each level |
+| Links | Implicit (branching) | Explicit, labeled ("causes", "is part of") | Parent–child logic |
+| Best for | Brainstorming, notes, planning | Understanding how concepts relate | Analyzing problems, structuring arguments |
+| Rigor | Free | Medium | High |
+
+## Common Mistakes
+
+1.  **Full sentences on branches.** They clutter the map and reduce association; use keywords.
+2.  **Too many main branches.** More than seven makes the map hard to scan; group them.
+3.  **Unrelated items on the same branch.** Keep each branch about one theme.
+4.  **Never revisiting the map.** Its value for learning comes from reviewing and redrawing it.
+5.  **Treating a mind map as analysis.** It shows associations, not proof; check logic separately.
+
+## Frequently Asked Questions
+
+??? question "Who invented mind mapping?"
+
+    Tony Buzan popularized mind maps in the 1970s, notably through his BBC series and book *Use Your Head*, though radial diagrams have much older roots.
+
+??? question "What software can I use for mind mapping?"
+
+    Popular tools include XMind, MindMeister, MindNode, Miro and Coggle. Many people still prefer pen and paper for memory and creativity.
+
+??? question "Are mind maps good for studying?"
+
+    Yes. Building a mind map forces you to identify key ideas and their relationships, and redrawing it from memory is an effective way to review. Combine with the [Feynman Technique](../../Foundations/learning_methods/Feynman-Technique-Tutorial-en.md) for deep understanding.
+
+??? question "Can mind maps be used in teams?"
+
+    Yes, especially during brainstorming and planning: the facilitator captures ideas on a shared map, and the team then groups and prioritizes them.
 
 ## Extensions and Connections
 

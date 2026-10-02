@@ -1,3 +1,8 @@
+---
+title: "ORID Focused Conversation: Questions, Template and Facilitation Tips"
+description: "The ORID method guides a group through Objective, Reflective, Interpretive and Decisional questions to reach shared conclusions. Get question banks for each level, a retrospective template, facilitation tips, examples and common mistakes."
+---
+
 # ORID Focused Conversation Method
 
 ![ORID Focused Conversation Diagram](ORID-Focused-Conversation-Tutorial-en-diagram.png)
@@ -12,6 +17,14 @@ ORID is an acronym for four levels, simulating the natural process of the human 
 *   **D - Decisional**: About future actions and resolutions.
 
 By strictly following this "O-R-I-D" sequence in designing and guiding questions, the facilitator can ensure that every participant thinks on the same "channel," avoiding chaotic clashes of different thought levels. It creates a safe, in-depth discussion space, allowing the team's collective wisdom to truly emerge.
+
+!!! abstract "Key takeaways"
+
+    - **Four levels, always in order**: Objective (facts) → Reflective (feelings) → Interpretive (meaning) → Decisional (action).
+    - **Start with facts everyone can agree on**; this gives every participant the same starting point.
+    - **Don't skip Reflective**: unspoken emotions resurface later as resistance to decisions.
+    - **Prepare questions in advance** for each level, but adapt them as the conversation unfolds.
+    - **End with concrete decisions**: owners, actions and deadlines, not just insights.
 
 ## Detailed Explanation of the Four Levels of ORID
 
@@ -100,6 +113,68 @@ Successfully applying ORID hinges on the facilitator's ability to design a serie
 *   **High Demands on Facilitator**: The success of ORID heavily relies on the facilitator's proficiency in the process and careful design of questioning techniques. A good facilitator is the soul of an ORID discussion.
 *   **Time-Consuming**: An in-depth ORID discussion requires ample time and is not suitable for situations requiring quick, urgent decisions.
 *   **Requires Participant Commitment**: Requires all participants to be willing to follow the structure and engage in open, honest sharing.
+
+## ORID Question Bank
+
+| Level | Purpose | Sample questions |
+| --- | --- | --- |
+| **O – Objective** | Establish shared facts | What happened? What did you see or hear? Which numbers stand out? What words or moments do you remember? |
+| **R – Reflective** | Surface emotional reactions | What surprised you? What frustrated or pleased you? When did you feel most engaged, or most worried? |
+| **I – Interpretive** | Make sense of it together | What does this mean for us? Why do you think it happened? What have we learned? What patterns do you see? |
+| **D – Decisional** | Commit to action | What will we do differently? What's our first step? Who will own it, and by when? |
+
+## ORID Retrospective Template (60 minutes)
+
+| Time | Level | Activity |
+| --- | --- | --- |
+| 0–5 min | Opening | State the purpose and the ground rules (one person speaks at a time; no judging others' feelings) |
+| 5–15 min | Objective | Build a timeline of the project on the wall: milestones, metrics, key events |
+| 15–25 min | Reflective | Each person marks highs and lows on the timeline and shares one feeling |
+| 25–45 min | Interpretive | Cluster observations; discuss causes and lessons for the 2–3 biggest themes |
+| 45–58 min | Decisional | Agree on up to three actions, each with an owner and a deadline |
+| 58–60 min | Closing | Each person says one word about how they feel leaving the meeting |
+
+## Facilitation Tips
+
+*   **Ask open questions**, not yes/no ones: "What did you notice?" rather than "Did you notice the delay?"
+*   **Go round the room** at the Objective level so quieter participants speak early, which makes them more likely to contribute later.
+*   **Gently redirect level-jumping**: when someone offers a solution during the Objective stage, note it for later ("let's hold that for the decisions part").
+*   **Accept all feelings** at the Reflective level without debating them.
+*   **Summarize between levels** so the group sees how facts lead to meaning and then to action.
+
+## Common Mistakes
+
+1.  **Jumping straight to decisions.** Without shared facts and meaning, decisions are made on assumptions and are rarely owned by the group.
+2.  **Skipping the Reflective level** because it feels "soft". Emotions that aren't voiced often come back as objections later.
+3.  **Leading questions.** "Don't you think the plan was too ambitious?" signals the answer you want and shuts down honest input.
+4.  **Too many questions per level.** Two or three good questions are better than ten rushed ones.
+5.  **No follow-through.** Decisions without owners and dates turn the conversation into a pleasant chat with no effect.
+
+## ORID vs. Other Structured Conversation Tools
+
+| | ORID | [Six Thinking Hats](../../Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-en.md) | [SBI Feedback](../feedback_techniques/SBI-Feedback-Model-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Purpose | Reflect and reach shared decisions | Explore a topic from all angles | Give feedback to one person |
+| Structure | Facts → Feelings → Meaning → Decisions | Six modes of thinking in a chosen order | Situation → Behavior → Impact |
+| Best for | Retrospectives, debriefs, learning sessions | Evaluating proposals, generating ideas | One-to-one feedback |
+
+## Frequently Asked Questions
+
+??? question "What does ORID stand for?"
+
+    Objective, Reflective, Interpretive and Decisional, the four levels of the Focused Conversation Method developed by the Institute of Cultural Affairs (ICA).
+
+??? question "Can I use ORID on my own?"
+
+    Yes, for journaling or personal reflection: write down what happened, how you felt, what it means and what you'll do next. It is a simple structure for learning from experience.
+
+??? question "How long does an ORID conversation take?"
+
+    Anything from 15 minutes for a quick debrief to two hours for a major retrospective. Keep the four levels in proportion: the Interpretive and Decisional levels usually need the most time.
+
+??? question "What if the group gets stuck at one level?"
+
+    Summarize what has been said and ask a question from the next level to move on. If disagreement persists at the Interpretive level, record the different views and decide which actions make sense either way.
 
 ## Extensions and Connections
 

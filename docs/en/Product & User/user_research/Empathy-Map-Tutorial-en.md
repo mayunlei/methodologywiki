@@ -1,8 +1,21 @@
+---
+title: "Empathy Map: Template, Examples and How to Run a Workshop"
+description: "An empathy map captures what a user says, thinks, does and feels, plus their pains and gains, to build shared understanding in a team. Get a template, guiding questions for each quadrant, workshop steps, examples and common mistakes."
+---
+
 # Empathy Map
 
 In product design and user research, "empathy" is a core quality frequently mentioned but extremely difficult to truly achieve. How can we genuinely "walk in the user's shoes" and experience their world firsthand? The **Empathy Map** is a simple, intuitive, yet extremely powerful **collaborative empathy tool** designed for this very purpose. It aims to help teams move beyond the surface of user behavior and delve into their deeper world of **senses, thoughts, and emotions**, thereby forming a more comprehensive and multi-dimensional understanding of the user.
 
 The core of the Empathy Map lies in systematically organizing all scattered, qualitative observations and interview data about users into a visual framework. This framework is typically divided into four main quadrants: **Sees, Hears, Thinks & Feels, and Says & Does**. By collaboratively filling out this map, team members are forced to adopt the user's perspective, jointly building a shared understanding of the user's inner world and external environment. It is a mirror that clearly reflects the user's true situation and a catalyst for cultivating collective team empathy.
+
+!!! abstract "Key takeaways"
+
+    - **Quadrants**: Says, Thinks, Does, Feels (often with Sees and Hears), plus Pains and Gains.
+    - **Base it on research**: interviews, observations and data, not the team's assumptions.
+    - **One map per user type**: mixing several types produces a blurry, contradictory picture.
+    - **Look for contradictions**: gaps between what people say and what they do are where insights hide.
+    - **Use it early**: it feeds into personas, journey maps and problem statements in design thinking.
 
 ## Components of an Empathy Map
 
@@ -121,6 +134,61 @@ An Empathy Map is best used in a team workshop format.
 
 *   **Not a Substitute for User Personas**: An Empathy Map usually focuses on a user's state in a specific scenario, while a user persona describes a more complete, lasting character model. An Empathy Map is excellent input for creating user personas but cannot fully replace them.
 *   **Requires Real Data Support**: Like all user research tools, without real research data, an Empathy Map can become a "fictional story session" based on team members' subjective assumptions.
+
+## Empathy Map Template and Guiding Questions
+
+| Area | Guiding questions | Notes from research |
+| --- | --- | --- |
+| **Says** | What do they say out loud in interviews or to others? Direct quotes | |
+| **Thinks** | What occupies their mind but might not be said? What matters to them? | |
+| **Does** | What actions and behaviors did you observe? Workarounds? | |
+| **Feels** | What emotions do they experience: worried, excited, frustrated? | |
+| **Sees / Hears** | What do they see in their environment? Who and what influences them? | |
+| **Pains** | Fears, frustrations, obstacles | |
+| **Gains** | Wants, needs, measures of success | |
+
+## Running an Empathy Mapping Workshop (60–90 minutes)
+
+1.  **Prepare**: choose one user segment and bring research materials (interview notes, recordings, observation photos).
+2.  **Individual capture (15 min)**: each person writes observations on sticky notes, one per note, and places them in the quadrants.
+3.  **Cluster (15 min)**: group similar notes and remove duplicates.
+4.  **Find contradictions (15 min)**: where do Says and Does disagree? Where do Thinks and Feels diverge?
+5.  **Synthesize (15 min)**: write 3–5 insight statements: "Users need ___ because ___, but currently ___."
+6.  **Agree on next steps**: which insights need more research, which feed into a persona or journey map?
+
+## Common Mistakes
+
+1.  **Filling it in from assumptions.** Without real research, the map reflects the team's biases. Mark any assumption explicitly so it can be checked.
+2.  **Mapping "the average user".** Different segments have different needs; one map for everyone hides them.
+3.  **Treating Says and Thinks as the same.** People often say what is socially acceptable. The gap between the two is valuable.
+4.  **Stopping at the map.** The output should be insights and problem statements, not a filled-in poster.
+5.  **Never updating it.** As you learn more, revise the map; it's a living artifact.
+
+## Empathy Map vs. User Persona vs. Journey Map
+
+| | Empathy Map | [User Persona](User-Persona-Tutorial-en.md) | [User Journey Map](User-Journey-Map-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Question | What is this user experiencing inside? | Who is this user? | What does the user go through over time? |
+| Content | Says, thinks, does, feels, pains, gains | Goals, behaviors, background, needs | Stages, actions, touchpoints, emotions |
+| When | Right after research, to synthesize | After synthesis, to share a reference user | When designing or improving a specific experience |
+
+## Frequently Asked Questions
+
+??? question "What are the four quadrants of an empathy map?"
+
+    Says, Thinks, Does and Feels. Many versions add Sees, Hears, Pains and Gains, as in Dave Gray's updated empathy map.
+
+??? question "Who created the empathy map?"
+
+    Dave Gray of XPLANE created the original empathy map, and later updated it with a clearer goal section and more detailed prompts.
+
+??? question "When should I use an empathy map?"
+
+    Early in a project, right after user research, to synthesize what you learned and align the team before defining problems or designing solutions.
+
+??? question "Can an empathy map be used without user research?"
+
+    As a quick alignment exercise, yes, but label it as an "assumption map" and plan research to validate it. Otherwise it risks reinforcing the team's biases.
 
 ## Extensions and Connections
 

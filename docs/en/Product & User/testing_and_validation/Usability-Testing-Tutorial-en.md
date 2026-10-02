@@ -1,8 +1,21 @@
+---
+title: "Usability Testing: Methods, Task Script, Metrics and Examples"
+description: "Usability testing observes real users trying to complete tasks with a product to find where they struggle. Learn moderated vs unmoderated methods, how many users you need, a test script template, key metrics like SUS and task success, and common mistakes."
+---
+
 # Usability Testing
 
 We meticulously design a product interface that we believe is perfect, but when real users encounter it for the first time, they might completely fail to find that seemingly obvious button. **Usability Testing** is a core, user-centered **qualitative evaluation method** whose fundamental purpose is to discover usability issues in design and gather in-depth insights into user behavior and subjective feelings by **observing real users attempting to complete typical tasks using a product (or prototype)**.
 
 The essence of usability testing is not to "test users," but to "**let users test our design**." It's not about how smart users are, but about how intuitive, easy-to-use, and efficient our design is. It doesn't answer the question "How many users clicked this button?" but rather "**Why** didn't users click this button? What difficulties did they encounter? How did they feel at the time?" It is a mirror that clearly reflects design flaws and an essential path to creating a smooth and pleasant user experience.
+
+!!! abstract "Key takeaways"
+
+    - **Watch real users do real tasks**; don't ask what they think they'd do.
+    - **Five users per round** find most major problems; test again after fixing.
+    - **Write tasks as goals**, not instructions ("Find a hotel for two nights in Lisbon", not "Click the search bar").
+    - **Ask participants to think aloud** and don't help them.
+    - **Measure** task success, time on task, errors and satisfaction (e.g. SUS).
 
 ## Core Elements of Usability Testing
 
@@ -76,6 +89,65 @@ A standard usability test typically includes the following key components:
 *   **Qualitative, Not Quantitative**: It cannot tell you "how many" users encountered this problem, or "which design is better." Its conclusions are not statistically significant.
 *   **"Artificial Environment" Effect**: In a lab or observed environment, user behavior might differ slightly from completely natural conditions.
 *   **High Demands on Facilitator**: An excellent facilitator needs good communication skills, a neutral attitude, and keen observation skills to conduct a high-quality test.
+
+## Types of Usability Testing
+
+| Type | How it works | Best for |
+| --- | --- | --- |
+| **Moderated (in person or remote)** | A facilitator observes and asks follow-up questions live | Exploring why users struggle; early prototypes |
+| **Unmoderated remote** | Participants complete tasks alone; sessions are recorded | Larger samples, quick feedback, benchmarking |
+| **Guerrilla testing** | Quick tests with people in a café or hallway | Very early concepts, low budgets |
+| **Benchmark / summative testing** | Standardized tasks and metrics, often compared over time | Measuring improvement between versions |
+
+## Test Script Template
+
+| Section | Example |
+| --- | --- |
+| Welcome (2 min) | "We're testing the product, not you. There are no wrong answers." |
+| Consent & recording | Confirm permission to record screen and voice |
+| Background questions (3 min) | "How do you usually book travel?" |
+| Think-aloud instructions | "Please say what you're thinking as you go." |
+| Task 1 | "You're going to Lisbon for two nights next month. Find a hotel under €150 per night." |
+| Task 2 | "Change the dates of that booking to one week later." |
+| Post-task questions | "How easy or difficult was that, from 1 to 7?" |
+| Wrap-up (5 min) | SUS questionnaire; "What was most frustrating? Anything you liked?" |
+
+## Key Usability Metrics
+
+| Metric | What it measures |
+| --- | --- |
+| Task success rate | % of participants who complete the task |
+| Time on task | Efficiency |
+| Error rate | Mistakes and wrong paths |
+| Single Ease Question (SEQ) | Perceived difficulty of each task (1–7) |
+| System Usability Scale (SUS) | Overall usability score (0–100; ~68 is average) |
+
+## Common Mistakes
+
+1.  **Leading tasks.** Using the label of the button in the task ("Click *Book now*") tells users what to do.
+2.  **Helping participants.** Rescuing someone who's stuck hides the problem you're trying to find. Ask "What would you do if I weren't here?"
+3.  **Testing with the wrong people.** Colleagues and friends know too much. Recruit people who match your target users.
+4.  **Asking for opinions instead of observing behavior.** "Do you like it?" is less useful than watching what they do.
+5.  **Testing too late.** Testing a nearly finished product makes problems expensive to fix. Test early and often, even with paper prototypes.
+6.  **Reporting without prioritizing.** Rank problems by severity and frequency so the team knows what to fix first.
+
+## Frequently Asked Questions
+
+??? question "How many users do I need for a usability test?"
+
+    For qualitative testing, about five users per distinct user group typically reveal most major problems (Nielsen and Landauer). For benchmarking with statistics, you need larger samples, often 20 or more.
+
+??? question "What is the difference between usability testing and A/B testing?"
+
+    Usability testing observes a small number of users to understand *why* problems happen. [A/B testing](AB-Testing-Tutorial-en.md) compares versions with large numbers of users to measure *which* performs better.
+
+??? question "What is the think-aloud protocol?"
+
+    Participants verbalize their thoughts while doing tasks, revealing expectations, confusion and reasoning that you can't see from clicks alone.
+
+??? question "Can I run usability tests remotely?"
+
+    Yes. Remote moderated tests over video and unmoderated testing platforms are now common and allow you to reach participants anywhere.
 
 ## Extensions and Connections
 

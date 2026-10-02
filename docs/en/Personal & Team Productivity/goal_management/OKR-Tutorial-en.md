@@ -1,3 +1,8 @@
+---
+title: "OKRs (Objectives and Key Results): Examples, Template and How to Write Them"
+description: "OKRs pair an inspiring Objective with 3–5 measurable Key Results to focus teams on what matters most each quarter. See good and bad OKR examples, a template, the quarterly cycle, scoring, how OKRs differ from KPIs, and common mistakes."
+---
+
 # OKR (Objectives and Key Results)
 
 ![OKR Diagram](OKR-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 In rapidly changing, uncertain modern organizations, how can we ensure that everyone in the team moves in the same direction and works together? Traditional, top-down performance appraisals (KPIs) are often too rigid, easily leading employees to focus only on their metrics and neglect the ultimate goal. **OKR (Objectives and Key Results)** is a powerful, agile goal management framework born to address this challenge. It is not a performance appraisal tool, but a continuous communication and alignment tool designed to **unify thinking, focus priorities, promote collaboration, and unleash potential**.
 
 The core idea of OKR is to focus the organization's energy on the most important things. It clearly defines "where we want to go" and "how we know we are on the right track" by setting an inspiring, qualitative **Objective**, supplemented by 2-5 quantifiable **Key Results** used to measure the achievement of the Objective. It encourages transparency, collaboration, and bottom-up participation, allowing every team and individual to clearly see how their work contributes to the organization's grand vision, thereby stimulating intrinsic motivation.
+
+!!! abstract "Key takeaways"
+
+    - **Objective**: qualitative, inspiring, time-bound: where you want to go.
+    - **Key Results**: 3–5 measurable outcomes that show you got there, not a list of tasks.
+    - **Ambitious by design**: reaching about 70% of a stretch OKR is often considered a success.
+    - **Few and focused**: 2–4 objectives per team per quarter.
+    - **Transparent and reviewed weekly**: OKRs work when people see and discuss them regularly.
 
 ## The Two Components of OKR
 
@@ -88,6 +101,72 @@ OKR implementation is a continuous, rhythmic cyclical process, typically quarter
 *   **Easy to Confuse with KPI**: If OKRs are directly used as a tool for performance appraisal and linked to bonuses, all their advantages will be lost, and employees will be afraid to set challenging goals.
 *   **Requires Cultural Support**: The success of OKR highly depends on an open, trusting management culture that encourages experimentation.
 *   **Difficulty in Setting High-Quality OKRs**: Writing an OKR that is both inspiring and measurable requires repeated thought and practice. Especially important is distinguishing between "Key Results" and "Activities."
+
+## Good vs. Bad OKRs
+
+| | Weak | Strong |
+| --- | --- | --- |
+| Objective | "Improve marketing" | "Become the go-to resource for small-business accounting" |
+| Key result | "Publish more blog posts" (activity) | "Grow organic sign-ups from 1,200 to 2,000 per month" (outcome) |
+| Key result | "Launch the new onboarding" (task) | "Raise week-1 activation from 35% to 50%" |
+| Key result | "Improve customer satisfaction" (vague) | "Increase support CSAT from 82% to 90%" |
+
+## OKR Template
+
+**Objective**: ________________________________________________ (qualitative, inspiring)
+
+| Key Result | Baseline | Target | Owner | Confidence (1–10) | Progress |
+| --- | --- | --- | --- | --- | --- |
+| KR1 | | | | | |
+| KR2 | | | | | |
+| KR3 | | | | | |
+
+**Initiatives** (the work you'll do to move the key results): ___________________
+
+## The Quarterly OKR Cycle
+
+| When | Activity |
+| --- | --- |
+| 2–3 weeks before the quarter | Draft company OKRs; teams draft theirs, aligned but not purely cascaded |
+| Start of quarter | Finalize and publish all OKRs |
+| Weekly | Check-in: progress, confidence, blockers |
+| Mid-quarter | Review; adjust initiatives (rarely the OKRs themselves) |
+| End of quarter | Score (0.0–1.0), retrospective, carry lessons into the next cycle |
+
+## Common Mistakes
+
+1.  **Key results that are tasks.** "Launch feature X" says what you'll do, not what will change. Ask: "So that what happens?"
+2.  **Too many OKRs.** Ten objectives means no focus. If everything is a priority, nothing is.
+3.  **Tying OKRs directly to bonuses.** People then set safe targets, defeating the purpose of stretch goals.
+4.  **Set and forget.** Without weekly check-ins, OKRs become a planning ritual that nobody remembers by month two.
+5.  **Purely top-down cascading.** Teams should propose a large share of their own OKRs to create ownership.
+6.  **Using OKRs for business-as-usual metrics.** Ongoing health metrics belong in KPIs; OKRs are for change.
+
+## OKR vs. KPI vs. SMART Goals
+
+| | OKR | [KPI](KPI-Tutorial-en.md) | [SMART Goals](SMART-Goals-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Purpose | Drive focused change and stretch | Monitor ongoing performance | Define a single clear, achievable goal |
+| Ambition | High (≈70% achievement is good) | Expected performance | Realistic |
+| Cadence | Quarterly (sometimes annual) | Continuous | Defined per goal |
+
+## Frequently Asked Questions
+
+??? question "Who invented OKRs?"
+
+    Andy Grove developed OKRs at Intel in the 1970s, building on Peter Drucker's Management by Objectives. John Doerr introduced them to Google in 1999 and popularized them in his book *Measure What Matters*.
+
+??? question "How many key results should an objective have?"
+
+    Usually three to five. Fewer may not capture success; more dilutes focus.
+
+??? question "How are OKRs scored?"
+
+    Commonly from 0.0 to 1.0 per key result. For stretch OKRs, 0.6–0.7 is often considered good; consistently scoring 1.0 suggests goals aren't ambitious enough.
+
+??? question "Should individuals have OKRs?"
+
+    Many organizations limit OKRs to company and team levels to avoid bureaucracy and keep the focus on collaboration. Individual OKRs can work for personal development goals.
 
 ## Extensions and Connections
 

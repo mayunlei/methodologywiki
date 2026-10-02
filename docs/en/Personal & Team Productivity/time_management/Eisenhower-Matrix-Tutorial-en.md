@@ -1,3 +1,8 @@
+---
+title: "Eisenhower Matrix: Urgent vs Important, Template and Examples"
+description: "The Eisenhower Matrix sorts tasks by urgency and importance into four quadrants: do, schedule, delegate, delete. Learn how to tell urgent from important, a weekly planning template, examples, how it combines with GTD and Pomodoro, and common mistakes."
+---
+
 # Eisenhower Matrix
 
 ![Eisenhower Matrix Diagram](./Eisenhower-Matrix-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 In daily work and life, we often find ourselves overwhelmed by an endless sea of to-do lists, feeling incredibly busy yet seemingly accomplishing nothing. The root of this "busy but unproductive" state often lies in our confusion between **"urgent"** and **"important"** matters, and our habitual prioritization of those constantly "blaring" urgent tasks, while neglecting those truly important for long-term goals. The **Eisenhower Matrix**, also known as the **Urgent/Important Matrix**, is an extremely simple yet profound **personal priority management tool** designed to solve this common dilemma.
 
 The method is attributed to Dwight D. Eisenhower, the 34th President of the United States, who once said: "**I have two kinds of problems: the urgent and the important. The urgent are not important, and the important are never urgent.**" The core of the Eisenhower Matrix is to clearly divide all tasks into four quadrants based on the two dimensions of "**importance**" and "**urgency**," thereby helping us identify what truly deserves our time and effort, and formulate different handling strategies for different tasks. It is a powerful thinking framework that enables us to shift from "passive firefighting" to "proactive planning."
+
+!!! abstract "Key takeaways"
+
+    - **Quadrant 1 – Urgent & important**: do it now (crises, deadlines).
+    - **Quadrant 2 – Important, not urgent**: schedule it; this is where long-term results come from.
+    - **Quadrant 3 – Urgent, not important**: delegate or minimize (many interruptions and meetings).
+    - **Quadrant 4 – Neither**: delete or drop.
+    - **The real goal is to grow Quadrant 2** so fewer things become Quadrant 1 crises.
 
 ## The Four Quadrants of the Matrix
 
@@ -93,6 +106,60 @@ The Eisenhower Matrix divides all tasks into four logically clear quadrants, pro
 
 *   **Subjectivity of "Importance" Judgment**: If a person lacks clear long-term goals, it will be difficult for them to accurately judge whether something is "important," which may lead them to misjudge many Quadrant III tasks as Quadrant I.
 *   **Underestimating the Difficulty of Quadrant II Execution**: Knowing that Quadrant II is important is one thing, but in daily life, resisting the huge temptations of Quadrants I and III and truly investing time and energy in Quadrant II requires great self-discipline and willpower.
+
+## How to Tell Urgent from Important
+
+| Ask | Points to |
+| --- | --- |
+| Does it advance my goals or my team's priorities? | **Important** |
+| Will someone or something suffer if it's delayed past today or tomorrow? | **Urgent** |
+| Is it urgent only because someone else wants a fast answer? | Often **urgent but not important** |
+| Would I be glad, a month from now, that I spent time on this? | **Important** |
+
+## Weekly Planning Template
+
+| Quadrant | Tasks this week | Action |
+| --- | --- | --- |
+| **Q1** Urgent + important | | Do first, today |
+| **Q2** Important, not urgent | | Block time on the calendar (aim for most of your planned work) |
+| **Q3** Urgent, not important | | Delegate, batch, or say no |
+| **Q4** Not urgent, not important | | Drop |
+
+At the end of the week, ask: which Q1 items could have been prevented by Q2 work earlier?
+
+## Common Mistakes
+
+1.  **Treating everything as Quadrant 1.** If every task is urgent and important, nothing is prioritized. Be honest about what can wait.
+2.  **Ignoring Quadrant 2 because nothing forces you.** Planning, learning, relationships and prevention never shout. Schedule them or they won't happen.
+3.  **Feeling guilty about delegating.** Quadrant 3 tasks are often someone else's opportunity, or don't need doing at all.
+4.  **Doing the matrix once.** Priorities change; review it weekly, and quickly each morning.
+5.  **Confusing busy with productive.** A day full of Quadrant 3 feels hard-working but moves nothing important forward.
+
+## Eisenhower Matrix vs. Other Prioritization Methods
+
+| | Eisenhower Matrix | [Pareto Analysis](../../Problem Solving & Decision Making/decision_making/Pareto-Analysis-Tutorial-en.md) | [Decision Matrix](../../Problem Solving & Decision Making/decision_making/Decision-Matrix-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Question | What should I do first, and what not at all? | Which few items deliver most of the value? | Which option best meets several criteria? |
+| Criteria | Urgency and importance | Contribution to the result | Weighted criteria |
+| Best for | Daily and weekly task lists | Focusing improvement efforts | One-off choices between alternatives |
+
+## Frequently Asked Questions
+
+??? question "Why is it called the Eisenhower Matrix?"
+
+    It's named after U.S. President Dwight D. Eisenhower, who is quoted as saying, "What is important is seldom urgent and what is urgent is seldom important." Stephen Covey popularized the four-quadrant version in *The 7 Habits of Highly Effective People*.
+
+??? question "What goes in Quadrant 2?"
+
+    Important work without an immediate deadline: strategic planning, learning, building relationships, exercise, process improvement, preventive maintenance and time with family.
+
+??? question "What if I can't delegate Quadrant 3 tasks?"
+
+    Batch them (e.g. handle email twice a day), set limits on time spent, or negotiate deadlines. Some can simply be declined.
+
+??? question "Can teams use the Eisenhower Matrix?"
+
+    Yes. Sorting a team backlog into the four quadrants is a quick way to agree on priorities and expose work that nobody needs.
 
 ## Extensions and Connections
 

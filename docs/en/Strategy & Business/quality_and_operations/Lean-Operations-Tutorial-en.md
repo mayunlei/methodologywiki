@@ -1,3 +1,8 @@
+---
+title: "Lean Operations: Principles, 8 Wastes (DOWNTIME), Tools and Examples"
+description: "Lean operations maximize customer value by eliminating waste and improving flow. Learn the five lean principles, the eight wastes (DOWNTIME), core tools like value stream mapping, 5S and kanban, a waste-walk checklist, examples and common mistakes."
+---
+
 # Lean Operations
 
 Imagine a smooth, unimpeded river flowing effortlessly, delivering the source of value directly to the customer with minimal consumption and maximum speed. This is the ideal state that **Lean Operations** strives for. Lean Operations, often referred to as **Lean Production** or **Lean Thinking**, is both a powerful methodology for operational management and a profound organizational culture and management philosophy. Its core objective is to maximize customer value and achieve high-quality, low-cost, and high-speed operational efficiency by **systematically identifying and eliminating all non-value-adding activities (i.e., "waste," Muda) in operational processes**.
@@ -5,6 +10,14 @@ Imagine a smooth, unimpeded river flowing effortlessly, delivering the source of
 Lean thinking originated from the "Toyota Production System (TPS)" of Toyota Motor Corporation, which completely revolutionized traditional large-scale, push-based production models. Lean Operations posits that any activity that consumes resources but does not add value for which the end customer is willing to pay is waste. By continuously examining the value stream and eliminating waste, organizations can create higher-quality products and services with fewer resources and in less time, thereby gaining a fundamental advantage in fierce market competition.
 
 ![Five Principles of Lean](./Lean-Operations-Tutorial-en-diagram.png)
+!!! abstract "Key takeaways"
+
+    - **Five principles**: define value, map the value stream, create flow, establish pull, pursue perfection.
+    - **Eight wastes (DOWNTIME)**: Defects, Overproduction, Waiting, Non-utilized talent, Transportation, Inventory, Motion, Extra-processing.
+    - **Most lead time is waiting**: improving flow usually matters more than working faster.
+    - **Core tools**: value stream mapping, 5S, kanban, standard work, [kaizen](Kaizen-Tutorial-en.md).
+    - **Lean works in offices, hospitals and software**, not just factories.
+
 ## Five Core Principles of Lean Thinking
 
 The practice of lean thinking revolves around five closely connected and cyclical core principles.
@@ -39,15 +52,18 @@ Lean transformation is a deep cultural and operational change that relies on a s
 
 ## Application Cases
 
-**Case 1: Toyota's "One-Centimeter Improvement"**
+**Case 1: Value Stream Mapping in an Insurance Claims Process**
 
-*   **Scenario**: On Toyota's production line, Kaizen is part of its DNA.
-*   **Application**: A production line worker noticed that every time he picked up a screw from the parts bin, his wrist had to make a small but unnatural twisting motion. He suggested tilting the parts bin by 15 degrees. This seemingly insignificant improvement saved him a few seconds each day and reduced the risk of wrist injury. When this "one-centimeter improvement" was extended to thousands of workstations across the company, the accumulated time savings and improved safety were astonishing.
+*   **Problem**: Simple home-insurance claims took an average of 21 days to settle, and customers complained about the wait.
+*   **Lean Application**: A cross-functional team drew a **value stream map** of the process from claim receipt to payment. They found that the actual work on a claim took about 3 hours in total; the rest was waiting: in queues between departments, for a weekly approval meeting, and for documents requested one at a time.
+*   **Changes**: Requesting all documents in one checklist up front, giving adjusters authority to approve claims under a set amount, and replacing the weekly approval meeting with a daily one.
+*   **Result**: Average settlement time fell from 21 to 6 days with the same staff, because waiting, not work, had been the main constraint.
 
-**Case 2: A Hospital Nurses' Station**
+**Case 2: 5S and Pull Replenishment in a Warehouse**
 
-*   **Problem**: Nurses complained about spending a lot of time each day searching for commonly used medical supplies (e.g., gauze, tape).
-*   **Lean Application**: The head nurse organized a small Kaizen activity. Team members used the **5S methodology** to thoroughly **Sort** (discard unnecessary items), **Set in Order** (place frequently used items in easily accessible locations and label them clearly), **Shine**, **Standardize**, and **Sustain** the nurses' station cabinets. This activity took only one afternoon but significantly reduced the nurses' search time, allowing them to dedicate more energy to direct patient care.
+*   **Problem**: Pickers in an e-commerce warehouse walked long distances and often found shelves empty, while overflow stock piled up in aisles.
+*   **Lean Application**: The team applied **5S** (Sort, Set in order, Shine, Standardize, Sustain) to the picking area and moved the fastest-moving items closest to the packing stations. Replenishment switched from a fixed daily schedule to a **kanban pull signal**: when a bin reached a marked minimum, a card triggered refill from reserve stock.
+*   **Result**: Walking distance per order dropped markedly, stock-outs at pick locations became rare, and aisle clutter disappeared, improving both productivity and safety.
 
 **Case 3: Agile and Kanban Methods in Software Development**
 
@@ -71,6 +87,57 @@ Lean transformation is a deep cultural and operational change that relies on a s
 *   **High demands on the supply chain**: Just-in-Time (JIT) requires suppliers to deliver goods extremely punctually and with high quality, placing very high demands on supply chain stability.
 *   **Not suitable for all environments**: In industries with extremely unstable and volatile demand, implementing a purely pull-based system can be very difficult.
 *   **Resistance to cultural change**: Lean transformation requires a profound shift in mindset, which may be resisted by employees and managers accustomed to traditional work methods.
+
+## Core Lean Tools
+
+| Tool | Purpose |
+| --- | --- |
+| **Value stream mapping (VSM)** | Visualize the whole flow of material and information; separate value-adding time from waiting |
+| **5S** | Organize the workplace: Sort, Set in order, Shine, Standardize, Sustain |
+| **[Kanban](../../Product & User/product_development/Kanban-Tutorial-en.md) / pull systems** | Produce or replenish only what is needed, when it is needed |
+| **Standard work** | Document the current best way so improvements stick |
+| **Takt time** | Match the pace of work to customer demand |
+| **Poka-yoke (mistake-proofing)** | Design processes so errors can't happen or are caught immediately |
+| **SMED** | Reduce changeover times so small batches become economical |
+
+## Waste Walk Checklist
+
+| Waste | What to look for | Seen? |
+| --- | --- | --- |
+| Defects | Rework, corrections, complaints | |
+| Overproduction | Work done before it's needed, reports nobody reads | |
+| Waiting | Idle people or items, approvals, queues | |
+| Non-utilized talent | Ideas not asked for, skills not used | |
+| Transportation | Moving materials or information unnecessarily | |
+| Inventory | Piles of materials, backlogs, unread emails | |
+| Motion | Walking, searching, reaching | |
+| Extra-processing | Steps the customer doesn't value, duplicate data entry | |
+
+## Common Mistakes
+
+1.  **Using lean only to cut costs.** Lean is about customer value and flow; cutting heads without improving processes destroys trust and capability.
+2.  **Copying tools without the thinking.** 5S posters and kanban boards without problem-solving culture produce little.
+3.  **Improving one step in isolation.** Speeding up one department can just move the bottleneck. Look at the whole value stream.
+4.  **No standard work.** Without a defined current method, there's nothing stable to improve from.
+5.  **Leaders absent from the gemba.** Lean needs leaders who go and see ([Gemba Walk](../../Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-en.md)).
+
+## Frequently Asked Questions
+
+??? question "What are the eight wastes of lean?"
+
+    Defects, Overproduction, Waiting, Non-utilized talent, Transportation, Inventory, Motion and Extra-processing, often remembered as DOWNTIME. The first seven come from the Toyota Production System; "non-utilized talent" was added later.
+
+??? question "What is the difference between lean and Six Sigma?"
+
+    Lean focuses on eliminating waste and improving flow; [Six Sigma](Six-Sigma-Tutorial-en.md) focuses on reducing variation and defects with statistical methods. Lean Six Sigma combines both.
+
+??? question "Where does lean come from?"
+
+    From the Toyota Production System developed by Taiichi Ohno and others. The term "lean" was popularized by Womack, Jones and Roos in *The Machine That Changed the World* (1990).
+
+??? question "Can lean be applied to services and offices?"
+
+    Yes. Claims processing, hospitals, software development and public services all use lean to reduce waiting, rework and handoffs.
 
 ## Extensions and Connections
 

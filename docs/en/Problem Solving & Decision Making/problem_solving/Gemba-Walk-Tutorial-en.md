@@ -1,6 +1,19 @@
+---
+title: "Gemba Walk: Steps, Questions, Checklist and Examples"
+description: "A Gemba walk means leaders going to where the work happens to observe, ask questions and learn. Learn the steps, good questions to ask, an observation template, examples from manufacturing, offices and hospitals, and how it connects to kaizen."
+---
+
 # Gemba Walk Management Method Tutorial
 
 ![Gemba Walk Diagram](./Gemba-Walk-Tutorial-en-diagram.png)
+
+!!! abstract "Key takeaways"
+
+    - **Gemba** (現場) means "the real place": where value is created.
+    - **Go, see, ask why, show respect**: observe the process, not judge the people.
+    - **Ask open questions** and listen more than you talk.
+    - **Focus on one process or theme per walk**, and record what you see.
+    - **Follow up**: a walk without action teaches people that it's a ritual.
 
 ## 1. What is a Gemba Walk?
 
@@ -71,4 +84,58 @@ An effective Gemba Walk must include the following three core elements:
 -   **Do not** only talk to supervisors and ignore frontline employees.
 -   **Do not** conduct it without a clear purpose.
 
-By consistently conducting effective Gemba Walks, managers can step out of the "ivory tower of the office" and truly become catalysts for continuous organizational improvement.
+By consistently conducting effective Gemba Walks, managers can step out of the "ivory tower of the office" and truly become catalysts for continuous organizational improvement.## Good Questions to Ask on a Gemba Walk
+
+| Purpose | Questions |
+| --- | --- |
+| Understand the work | "Can you walk me through what you're doing?" "What does a normal day look like?" |
+| Standards | "How do you know this step is done correctly?" "Where is the standard written down?" |
+| Problems | "What gets in your way?" "What happened the last time something went wrong?" |
+| Flow | "Where do you wait?" "Where does work pile up?" |
+| Improvement | "If you could change one thing, what would it be?" "What help do you need from me?" |
+
+## Observation Template
+
+| Field | Notes |
+| --- | --- |
+| Date, area, process observed | |
+| Purpose of this walk | |
+| What I saw (facts) | |
+| Waste observed (waiting, motion, rework, inventory…) | |
+| What people told me | |
+| Questions to follow up | |
+| Agreed actions, owner, date | |
+
+## Examples
+
+**Example 1: Manufacturing line.** A plant manager walks the assembly line focusing on rework. She notices operators walking to a shared cabinet for a torque tool several times an hour. Asking why reveals the cabinet was moved during a layout change. A tool holder at each station cuts walking time and reduces skipped torque checks.
+
+**Example 2: Customer service office.** A support director sits with agents for an hour. He sees agents switching among four systems to answer one billing question. The follow-up is a single "customer view" screen, prioritized with IT, which shortens average handling time.
+
+**Example 3: Hospital ward.** A nurse manager observes the morning medication round and notices frequent trips to the pharmacy for missing items. The team introduces a pre-round checklist and a fixed restock time, reducing interruptions during the round.
+
+## Frequently Asked Questions
+
+??? question "What does gemba mean?"
+
+    "Gemba" (also spelled genba) is Japanese for "the actual place", the place where work happens: the factory floor, the call center, the ward, the code repository.
+
+??? question "How often should leaders do Gemba walks?"
+
+    Regularly and predictably, such as daily for team leaders, weekly for department managers and monthly for executives, with a clear purpose each time.
+
+??? question "Is a Gemba walk the same as management by walking around (MBWA)?"
+
+    They're related. MBWA emphasizes visibility and informal contact; a Gemba walk is more structured, focused on a specific process, waste and standards, and on supporting improvement.
+
+??? question "How does a Gemba walk relate to kaizen?"
+
+    Gemba walks reveal problems and improvement opportunities at their source; [kaizen](../../Strategy & Business/quality_and_operations/Kaizen-Tutorial-en.md) is the continuous effort to act on them.
+
+## Extensions and Connections
+
+*   **[Kaizen](../../Strategy & Business/quality_and_operations/Kaizen-Tutorial-en.md)**: Gemba walks are a primary source of improvement ideas for kaizen.
+*   **[Lean Operations](../../Strategy & Business/quality_and_operations/Lean-Operations-Tutorial-en.md)**: "Go and see" (genchi genbutsu) is a core principle of lean and the Toyota Production System.
+*   **[5 Whys](../root_cause_analysis/5-Whys-Tutorial-en.md)**: When you observe a problem at the gemba, the 5 Whys help trace it to a root cause on the spot.
+*   **[Ethnography](../../Product & User/specialized_qualitative_methods/Ethnography-Tutorial-en.md)**: Both rely on observing work in its natural setting rather than relying on reports.
+

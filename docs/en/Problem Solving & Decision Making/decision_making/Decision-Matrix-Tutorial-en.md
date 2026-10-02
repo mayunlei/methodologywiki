@@ -1,8 +1,21 @@
+---
+title: "Decision Matrix: Weighted Scoring Template, Steps and Examples"
+description: "A decision matrix (weighted scoring model) compares options against weighted criteria to support a clear, defensible choice. Learn the steps, how to set weights, a ready-to-use template, examples, sensitivity checks and common mistakes."
+---
+
 # Decision Matrix
 
 In personal life and business management, we often face the dilemma of making difficult choices among multiple seemingly good options: Which supplier should we choose? Which product feature should be prioritized for development? Which candidate should be hired? When decisions involve multiple complex criteria of varying importance, relying solely on intuition or a simple pros and cons list often makes it difficult to make the most rational and convincing decision. **Decision Matrix Analysis** is a systematic, visual decision-making tool designed to solve such problems.
 
 Its core idea is to identify the optimal option in a logically clear and relatively objective way by cross-evaluating all alternative solutions (Options) and all important decision criteria (Criteria) in a two-dimensional matrix, and assigning corresponding weights to each criterion, ultimately calculating a weighted total score for each solution. It transforms a complex, vague multi-criteria decision problem into a clear, quantifiable mathematical problem, greatly enhancing the transparency and rationality of the decision.
+
+!!! abstract "Key takeaways"
+
+    - **Options in rows, criteria in columns, weights for importance**; score, multiply, add.
+    - **Set criteria and weights before scoring** so you don't tailor them to a favorite option.
+    - **Use a consistent scale** (e.g. 1–5) with clear definitions for each score.
+    - **Check sensitivity**: if a small change in one weight flips the result, the decision is close; discuss it.
+    - **It supports judgment, not replaces it**: a surprising result is a signal to revisit criteria.
 
 ## Components of a Decision Matrix
 
@@ -74,6 +87,63 @@ A standard decision matrix is mainly composed of the following parts:
 *   **"Disguised Objectivity"**: The final result of a decision matrix heavily relies on the subjective inputs of weights and scores. If the initial definition of criteria and weights is biased, the entire matrix merely "mathematizes" this bias.
 *   **Difficulty in Criterion Selection**: Choosing a comprehensive, appropriate, and mutually exclusive set of decision criteria is inherently difficult.
 *   **Potential for Oversimplification**: For extremely complex, uncertain strategic decisions, simple weighted scoring might overlook dynamic, non-linear interactions between factors.
+
+## Weighted Decision Matrix Template
+
+| Criterion | Weight | Option A score (1–5) | A weighted | Option B score | B weighted | Option C score | C weighted |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Cost | 30% | 4 | 1.2 | 2 | 0.6 | 3 | 0.9 |
+| Quality | 25% | 3 | 0.75 | 5 | 1.25 | 4 | 1.0 |
+| Time to implement | 20% | 5 | 1.0 | 2 | 0.4 | 3 | 0.6 |
+| Risk (5 = lowest) | 15% | 3 | 0.45 | 4 | 0.6 | 4 | 0.6 |
+| Strategic fit | 10% | 2 | 0.2 | 5 | 0.5 | 3 | 0.3 |
+| **Total** | **100%** | | **3.60** | | **3.35** | | **3.40** |
+
+**Scoring rule example (Cost)**: 5 = under budget by more than 10%; 3 = on budget; 1 = more than 20% over budget.
+
+## How to Set Weights
+
+*   **100-point allocation**: each stakeholder distributes 100 points across the criteria; average the results.
+*   **Pairwise comparison**: compare criteria two at a time and count how often each wins; this is a light version of the Analytic Hierarchy Process (AHP).
+*   **Must-haves first**: remove options that fail a must-have criterion before scoring, instead of giving the criterion a huge weight.
+
+## Sensitivity Check
+
+After scoring, change each major weight by ±10 percentage points and see whether the ranking changes. In the example above, raising Strategic fit from 10% to 20% (and lowering Time to 10%) makes Option B the winner. That tells the team the real decision is about how much strategic fit matters, which is a better conversation than arguing about scores.
+
+## Common Mistakes
+
+1.  **Choosing criteria after you have a favorite.** It's easy to tune criteria and weights to justify a preferred option. Agree on them first.
+2.  **Overlapping criteria.** "Price" and "total cost" double-count the same thing and distort results.
+3.  **Vague scoring.** Without definitions for each score, people interpret "4" differently.
+4.  **Treating the total as the decision.** Small differences (3.60 vs 3.40) are within the margin of judgment. Discuss close results rather than declaring a winner.
+5.  **Too many criteria.** Ten or more criteria dilute each one. Five to seven is usually enough.
+
+## Decision Matrix vs. Related Tools
+
+| | Decision Matrix | [Cost-Benefit Analysis](Cost-Benefit-Analysis-Tutorial-en.md) | [Eisenhower Matrix](../../Personal & Team Productivity/time_management/Eisenhower-Matrix-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Purpose | Choose between options on several criteria | Decide whether benefits outweigh costs | Prioritize tasks by urgency and importance |
+| Output | Ranked options | Net benefit or ratio in monetary terms | Do / schedule / delegate / delete |
+| Best for | Vendor selection, location, product choices | Investments, policies | Daily and weekly task lists |
+
+## Frequently Asked Questions
+
+??? question "What is the difference between a decision matrix and a Pugh matrix?"
+
+    A Pugh matrix compares options against a baseline option, scoring each criterion as better (+), same (0) or worse (−). A weighted decision matrix scores every option on a numeric scale and multiplies by weights.
+
+??? question "How many options should I compare?"
+
+    Three to five is typical. With many options, screen them first with must-have criteria, then use the matrix for the shortlist.
+
+??? question "Can a decision matrix handle qualitative criteria?"
+
+    Yes, as long as each score has a clear description, for example for "team enthusiasm": 1 = strong resistance, 3 = neutral, 5 = strong support.
+
+??? question "What if two options end up with nearly the same score?"
+
+    Treat it as a tie. Run a sensitivity check, gather more information on the criteria that differ most, or consider whether a combination of options is possible.
 
 ## Extensions and Connections
 

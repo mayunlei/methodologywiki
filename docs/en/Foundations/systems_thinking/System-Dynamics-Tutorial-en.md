@@ -1,3 +1,8 @@
+---
+title: "System Dynamics: Feedback Loops, Stocks and Flows, Examples"
+description: "System dynamics models how complex systems behave over time through stocks, flows, feedback loops and delays. Learn the core concepts, how to draw causal loop diagrams, common system archetypes, examples like the bullwhip effect, and common modeling mistakes."
+---
+
 # System Dynamics
 
 ![System Dynamics Diagram](System-Dynamics-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 When faced with complex problems, we tend to analyze them with linear, cause-and-effect chain thinking: A leads to B, and B leads to C. However, in real business, social, and ecological systems, the interactions between things are far more complex. A small change can, after a series of delays and amplifications, trigger an unexpected "butterfly effect" at the other end of the system. **System Dynamics** is an interdisciplinary field and modeling method designed to understand and analyze such **complex system dynamic behaviors**.
 
 It was founded by Professor Jay W. Forrester of MIT in the 1950s. Its core idea is that a system's behavior patterns are primarily determined by its internal **feedback loops**, **time delays**, and **nonlinear relationships**, rather than external events. System Dynamics builds computer simulation models to simulate and experiment with these complex interactions, helping us understand why systems exhibit certain specific behaviors (such as exponential growth, oscillation, collapse) and find "high-leverage points" that can effectively intervene in the system to achieve desired outcomes.
+
+!!! abstract "Key takeaways"
+
+    - **Stocks and flows**: stocks accumulate (inventory, population, cash); flows change them.
+    - **Feedback loops**: reinforcing loops amplify change; balancing loops resist it.
+    - **Delays** cause oscillation and overshoot, as in the bullwhip effect.
+    - **Structure drives behavior**: recurring problems come from system structure, not one-off events.
+    - **Start with causal loop diagrams**, then build simulation models if you need numbers.
 
 ## Core Concepts of System Dynamics
 
@@ -73,6 +86,56 @@ To understand System Dynamics, one must grasp its unique "language"—a set of c
 *   **High Technical Threshold, Time-Consuming and Labor-Intensive**: Building a rigorous, credible quantitative simulation model requires specialized modeling knowledge, a large amount of data, and a long time frame.
 *   **Risk of "Precise Error"**: The model's results are highly dependent on its underlying structural assumptions and parameter settings. If the model's basic assumptions are wrong, it will only produce a "seemingly precise" wrong conclusion.
 *   **Difficulty in Data Acquisition**: Finding accurate quantitative data for all variables in the model can be very difficult in practice.
+
+## Causal Loop Diagram Basics
+
+| Element | Notation | Meaning |
+| --- | --- | --- |
+| Variable | A word or short phrase | Something that can increase or decrease |
+| Positive link | A → B (+) | A and B move in the same direction |
+| Negative link | A → B (−) | A and B move in opposite directions |
+| Reinforcing loop | R | Even number of negative links; growth or collapse accelerates |
+| Balancing loop | B | Odd number of negative links; the system moves toward a goal |
+| Delay | ‖ on the arrow | The effect takes time to appear |
+
+**Example (reinforcing)**: More users → more content → more value for new users → more users.
+**Example (balancing)**: More users → server load increases → slower app → fewer users.
+
+## Common System Archetypes
+
+| Archetype | Pattern | Typical example | Leverage |
+| --- | --- | --- | --- |
+| **Fixes that fail** | A quick fix relieves symptoms but creates side effects that worsen the problem | Overtime to meet deadlines → burnout → more delays | Address the underlying cause |
+| **Shifting the burden** | A symptomatic solution weakens the ability to use the fundamental solution | Hiring contractors instead of building team skills | Strengthen the fundamental solution |
+| **Limits to growth** | A reinforcing growth loop meets a balancing constraint | Fast sales growth stalls when support can't keep up | Remove or anticipate the limit |
+| **Tragedy of the commons** | Individuals overuse a shared resource | Shared CI servers overloaded by every team | Manage the commons collectively |
+| **Escalation** | Two parties react to each other's actions | Price wars | Find a way for both to win, or one to step back |
+
+## Common Mistakes
+
+1.  **Diagrams with no loops.** A chain of causes isn't a system; look for how effects feed back.
+2.  **Ignoring delays.** Many policy failures come from reacting to delayed signals and overcorrecting.
+3.  **Too much detail too early.** Start with the few variables that explain the problem behavior.
+4.  **Treating the model as the truth.** Models are tools to test thinking; validate them against real behavior over time.
+5.  **Unclear variable names.** Use nouns that can go up or down ("customer satisfaction", not "satisfy customers").
+
+## Frequently Asked Questions
+
+??? question "Who founded system dynamics?"
+
+    Jay W. Forrester at MIT in the 1950s, starting with industrial dynamics; later work includes *Urban Dynamics* and the model behind *The Limits to Growth* (1972).
+
+??? question "What is the difference between system dynamics and systems thinking?"
+
+    Systems thinking is a broad way of seeing wholes, relationships and patterns ([Iceberg Model](Iceberg-Model-Tutorial-en.md) is one tool). System dynamics is a specific, often quantitative, modeling method using stocks, flows and feedback loops.
+
+??? question "What software is used for system dynamics?"
+
+    Vensim, Stella/iThink, AnyLogic and Insight Maker are commonly used; simple causal loop diagrams can be drawn on paper or in Miro or Kumu.
+
+??? question "What is the bullwhip effect?"
+
+    Small changes in customer demand cause increasingly large swings in orders further up the supply chain, because of delays and each stage's reactions. It's a classic system dynamics example.
 
 ## Extensions and Connections
 

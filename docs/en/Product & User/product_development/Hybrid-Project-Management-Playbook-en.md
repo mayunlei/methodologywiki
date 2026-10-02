@@ -1,5 +1,6 @@
 ---
-description: A practical playbook for managing projects that mix Agile execution with Waterfall governance. Learn how to map Backlogs to Gantt charts and manage interface points.
+title: "Hybrid Project Management: Combining Agile Delivery with Waterfall Governance"
+description: "A practical playbook for projects that mix agile execution with waterfall governance. Learn when hybrid makes sense, how to map epics to milestones, run a weekly interface sync, manage buffers, and avoid water-scrum-fall."
 ---
 
 # Hybrid Project Management Playbook
@@ -10,6 +11,14 @@ description: A practical playbook for managing projects that mix Agile execution
 > **Time Required**: Ongoing (Weekly Sync)
 > **Participants**: Product Owner, Project Manager, Tech Lead
 > **Difficulty**: Advanced
+
+!!! abstract "Key takeaways"
+
+    - **Hybrid = agile teams inside waterfall governance**: sprints for delivery, milestones and budgets for executives.
+    - **Map epics, not stories, to milestones**: keep the Gantt chart at the level of features and phases.
+    - **Forecast with real velocity** and show a delivery range, not a single date.
+    - **Trigger trade-off conversations early** when the forecast range crosses a fixed milestone.
+    - **Avoid water-scrum-fall** by automating testing so sprints produce truly done increments.
 
 ## 🎯 Objective
 To successfully manage the "Interface" between Agile delivery teams (Scrum/Kanban) and Waterfall governance layers (Finance/Executive), ensuring compliance without sacrificing agility.
@@ -57,3 +66,42 @@ Hybrid is not a compromise; it's a **Risk Management Strategy**.
 *   **Waterfall** manages **Financial Risk** (Cost/Schedule).
 *   **Agile** manages **Technical/Market Risk** (Feasibility/Fit).
 *   The "Hybrid" model is simply the protocol for exchanging information between these two risk domains.
+## When Does Hybrid Make Sense?
+
+| Situation | Why hybrid helps |
+| --- | --- |
+| Fixed regulatory or contractual deadlines | Milestones are non-negotiable, but the work to reach them benefits from iteration |
+| Hardware + software projects | Hardware has long lead times and stage gates; software can iterate |
+| Large organizations with annual budgeting | Funding is approved by phase, while teams deliver in sprints |
+| Vendor-managed components | External parties work to fixed scopes and dates |
+
+## Interface Sync Agenda (30 minutes, weekly)
+
+| Time | Item |
+| --- | --- |
+| 5 min | Velocity trend and forecast range for each epic |
+| 10 min | Milestones at risk: where does the forecast range cross a fixed date? |
+| 10 min | Trade-offs: scope, date, or resources; decide or escalate |
+| 5 min | Update the risk register and the summary for the steering committee |
+
+## Frequently Asked Questions
+
+??? question "Is hybrid project management just a compromise?"
+
+    Not necessarily. Waterfall governance manages financial and schedule risk; agile delivery manages technical and market risk. Hybrid is a protocol for exchanging information between the two.
+
+??? question "What is water-scrum-fall?"
+
+    A pattern where requirements are fixed upfront (waterfall), development happens in sprints (scrum), and testing and release happen in a big batch at the end (waterfall again). It brings the overhead of agile without its benefits.
+
+??? question "How do I report agile progress to executives who expect Gantt charts?"
+
+    Map epics to milestone tasks, show percent complete by finished features rather than hours spent, and present a forecast range based on velocity.
+
+## Extensions and Connections
+
+*   **[Agile](Agile-Tutorial-en.md)**: The values and frameworks behind the delivery side of a hybrid model.
+*   **[Scrum](Scrum-Tutorial-en.md)**: Sprints, velocity and increments that feed milestone forecasts.
+*   **[Kanban](Kanban-Tutorial-en.md)**: An alternative delivery approach for teams with continuous incoming work.
+*   **[RACI Matrix](../../Personal & Team Productivity/team_collaboration/RACI-Matrix-Tutorial-en.md)**: Clarifying who decides at the interface between governance and delivery.
+

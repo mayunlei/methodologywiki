@@ -1,8 +1,21 @@
+---
+title: "Total Quality Management (TQM): Principles, PDCA, Tools and Examples"
+description: "Total Quality Management (TQM) is an organization-wide approach to continuous quality improvement led by customer focus and everyone's involvement. Learn the core principles, the PDCA cycle, the seven basic quality tools, an implementation checklist and common pitfalls."
+---
+
 # Total Quality Management
 
 In traditional production models, "quality" was often seen as a separate inspection step at the end of the production line, handled by a specialized quality control department. However, this "after-the-fact remedy" approach is costly and inefficient. **Total Quality Management (TQM)** proposes a revolutionary and distinctly different management philosophy. It advocates that **quality is everyone's responsibility, must permeate every corner and every link of organizational operations, and its ultimate criterion is customer satisfaction**.
 
 TQM is not a specific method or tool, but a management philosophy and organizational culture centered on **quality, total employee involvement, and continuous improvement**. It aims to continuously improve the quality of products, services, and processes by establishing a systematic, preventive quality assurance system, thereby gaining a sustainable competitive advantage in fierce market competition. It emphasizes that high quality not only does not increase costs, but actually significantly **reduces total costs** and improves profitability by reducing waste, rework, and customer complaints.
+
+!!! abstract "Key takeaways"
+
+    - **Quality is everyone's job**, not just the quality department's.
+    - **Customer focus**: quality is defined by the customer, internal and external.
+    - **Continuous improvement** through the PDCA cycle: Plan, Do, Check, Act.
+    - **Decisions based on facts**: use data and the basic quality tools.
+    - **Leadership commitment** is the make-or-break factor.
 
 ## Core Principles of TQM
 
@@ -94,6 +107,65 @@ Implementing TQM is a long-term, cultural change process, which can usually foll
 *   **Requires long-term cultural change**: TQM is not a "project" that yields quick results, but a profound, top-down organizational cultural change that takes several years to truly take root.
 *   **Continuity of top management commitment**: If top management's support wavers, TQM implementation will quickly become a mere formality.
 *   **Potential for bureaucracy**: If processes and documentation are overemphasized, new bureaucracy may arise, stifling flexibility and innovation.
+
+## The PDCA Cycle
+
+| Phase | What happens | Key questions |
+| --- | --- | --- |
+| **Plan** | Define the problem, analyze causes, plan a change | What are we trying to improve? What does the data say? |
+| **Do** | Try the change on a small scale | Did we carry it out as planned? |
+| **Check** | Measure results against expectations | Did it work? What did we learn? |
+| **Act** | Standardize what works, or adjust and repeat | Should we adopt, adapt or abandon the change? |
+
+PDCA (also called the Deming cycle, or PDSA with "Study") is the engine of continuous improvement in TQM, [Kaizen](Kaizen-Tutorial-en.md) and [Lean](Lean-Operations-Tutorial-en.md).
+
+## The Seven Basic Quality Tools
+
+| Tool | Use |
+| --- | --- |
+| Check sheet | Collect data systematically |
+| Histogram | See the distribution of a variable |
+| [Pareto chart](../../Problem Solving & Decision Making/decision_making/Pareto-Analysis-Tutorial-en.md) | Identify the vital few problems |
+| [Cause-and-effect (fishbone) diagram](../../Problem Solving & Decision Making/root_cause_analysis/Fishbone-Diagram-Tutorial-en.md) | Organize possible causes |
+| Scatter diagram | Check relationships between two variables |
+| Control chart | Monitor process stability over time |
+| Flowchart / stratification | Understand the process; separate data by source |
+
+## Implementation Checklist
+
+- [ ] Senior leaders have defined a quality vision and model it visibly
+- [ ] Customers' requirements (internal and external) are documented and measured
+- [ ] Key processes are mapped and have owners
+- [ ] Employees are trained in basic problem-solving and quality tools
+- [ ] Improvement teams meet regularly and have time allocated
+- [ ] Results are measured, shared and recognized
+- [ ] Suppliers are involved in quality goals
+
+## Common Pitfalls
+
+1.  **Treating TQM as a project with an end date.** It's a management philosophy; when the "program" ends, improvement stops.
+2.  **Delegating quality to the quality department.** Without line managers and front-line staff involved, it becomes paperwork.
+3.  **Training without application.** Employees who learn tools but never have time to use them become cynical.
+4.  **Measuring too much, acting too little.** Dashboards don't improve anything on their own.
+5.  **Ignoring the internal customer.** Poor hand-offs between departments are often the biggest source of defects.
+
+## Frequently Asked Questions
+
+??? question "What are the core principles of TQM?"
+
+    Commonly listed principles include customer focus, total employee involvement, process-centered thinking, an integrated system, a strategic approach, continuous improvement, fact-based decision-making and communication.
+
+??? question "Who are the key figures behind TQM?"
+
+    W. Edwards Deming, Joseph Juran, Philip Crosby, Armand Feigenbaum and Kaoru Ishikawa are the most influential quality thinkers associated with TQM.
+
+??? question "What is the difference between TQM and Six Sigma?"
+
+    TQM is a broad, culture-oriented philosophy involving everyone. [Six Sigma](Six-Sigma-Tutorial-en.md) is a more structured, project-based, statistical method run by trained specialists. Many organizations use Six Sigma projects within a TQM culture.
+
+??? question "How does TQM relate to ISO 9001?"
+
+    ISO 9001 specifies requirements for a quality management system and can be certified. TQM is a broader philosophy; an organization can be ISO-certified without practicing TQM, and vice versa.
 
 ## Extensions and Connections
 

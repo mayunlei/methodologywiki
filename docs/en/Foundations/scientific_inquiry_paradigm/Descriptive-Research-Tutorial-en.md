@@ -1,3 +1,8 @@
+---
+title: "Descriptive Research: Methods, Examples and How to Design a Study"
+description: "Descriptive research systematically describes what is happening in a population or phenomenon: who, what, when, where and how much. Learn the main methods (surveys, observation, case studies), a design template, how it differs from correlational and experimental research, and common mistakes."
+---
+
 # Descriptive Research
 
 ![Descriptive Research Diagram](Descriptive-Research-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 In the landscape of scientific inquiry, if experimental research aims to answer "why," then **descriptive research** focuses on answering a more fundamental but equally important question: "**What is it?**" It is a non-invasive research paradigm whose core objective is to systematically and accurately observe and portray the characteristics of a specific group, phenomenon, or situation, without any intervention or manipulation. It provides us with a "snapshot" or "portrait" of a certain aspect of the world.
 
 Descriptive research is the starting point for many scientific explorations. Before we can explain a phenomenon, we first need to clearly understand what it looks like. From describing the demographic structure of a country in a census, to understanding the consumption habits of target customers in market research, to recording the social behavior of a species in animal ethology, descriptive research provides us with fundamental facts and data to build our understanding of the world.
+
+!!! abstract "Key takeaways"
+
+    - **Describes, doesn't explain**: answers who, what, when, where and how much, not why.
+    - **Main methods**: surveys, observation, case studies, and analysis of existing records.
+    - **Precise definitions and representative samples** are what make descriptions trustworthy.
+    - **Often the first step** before correlational or experimental studies.
+    - **Results are only as good as the measures**: validated instruments beat improvised questions.
 
 ## Core Purposes and Methods of Descriptive Research
 
@@ -75,6 +88,53 @@ To achieve these purposes, descriptive research primarily employs the following 
 *   **Cannot Infer Causality**: This is its most fundamental limitation. It can only tell you "what is," but not "why it is." For example, you can describe that lung cancer incidence is higher among smokers, but you cannot conclude from this alone that smoking "causes" lung cancer.
 *   **Observer Bias**: In observational methods, the researcher's presence or subjective expectations may influence the behavior of the observed.
 *   **Sample Representativeness Issues**: If sampling is improper, the research results will not accurately reflect the true situation of the population.
+
+## Descriptive Study Design Template
+
+| Element | Decision | Example |
+| --- | --- | --- |
+| What to describe | Population, phenomenon, variables | Commuting habits of city residents |
+| Key questions | Who / what / when / where / how much | How do people commute, how long does it take, how does it vary by district? |
+| Method | Survey, observation, records, case study | Online survey plus transit card data |
+| Population & sample | Who, how selected, how many | Residents 18+, stratified by district, n ≈ 1,500 |
+| Measures | Exact definitions of each variable | "Commute time" = door to door, typical weekday |
+| Analysis | Frequencies, averages, distributions, cross-tabs | Median commute by district and mode |
+| Presentation | Tables, charts, maps | District map of median commute times |
+
+## Descriptive vs. Correlational vs. Experimental Research
+
+| | Descriptive | [Correlational](Correlational-Research-Tutorial-en.md) | [Experimental](Experimental-Research-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Question | What is the situation? | Are variables related? | Does X cause Y? |
+| Manipulation | None | None | Yes |
+| Typical output | Frequencies, averages, profiles | Correlation coefficients | Effect sizes from controlled comparisons |
+| Example | % of adults who exercise weekly | Exercise frequency vs. sleep quality | Exercise program vs. control group |
+
+## Common Mistakes
+
+1.  **Drawing causal conclusions.** Descriptive data can show that two things occur together, not that one causes the other.
+2.  **Vague definitions.** "Active user" or "frequent shopper" must be defined precisely, or results can't be compared.
+3.  **Unrepresentative samples.** Describing a population from a convenience sample produces confident but wrong numbers.
+4.  **Too many variables, no focus.** Collect what answers your questions; extra data adds cost and noise.
+5.  **Averages hiding distributions.** Report medians, ranges and subgroups, not just means.
+
+## Frequently Asked Questions
+
+??? question "What are examples of descriptive research?"
+
+    National censuses, opinion polls, customer satisfaction surveys, market sizing studies, observational studies of animal behavior and usage analytics dashboards.
+
+??? question "Is descriptive research qualitative or quantitative?"
+
+    It can be either. Surveys and records are usually quantitative; observation and case studies can be qualitative or mixed.
+
+??? question "Why is descriptive research important if it doesn't explain causes?"
+
+    You can't explain or change something you haven't accurately described. Descriptive findings define problems, set baselines and generate hypotheses for further research.
+
+??? question "What is the difference between descriptive and exploratory research?"
+
+    Exploratory research investigates a little-understood topic to find questions and ideas. Descriptive research measures and documents characteristics of something already reasonably defined.
 
 ## Extensions and Connections
 

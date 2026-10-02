@@ -1,8 +1,21 @@
+---
+title: "Scrum Framework: Roles, Events, Artifacts and How a Sprint Works"
+description: "Scrum is an agile framework that delivers value in short, fixed-length sprints using three accountabilities, five events and three artifacts. Learn how a sprint works, each role's responsibilities, a sprint cheat sheet, Scrum vs Kanban and common mistakes."
+---
+
 # Scrum
 
 In the vast world of Agile development, if Agile is a set of "values" guiding us to embrace change, then **Scrum** is the most popular and widely applied **lightweight framework** that puts these values into practice. Scrum is not a detailed process or method, but a **"rulebook" for the game** designed to help teams collaborate efficiently and continuously deliver value when developing complex products. It provides a simple, clear, yet powerful iterative work rhythm for teams by defining a series of clear **roles, events, and artifacts**.
 
 The name Scrum comes from the "scrum" action in rugby, emphasizing that the entire team works together as a cohesive unit, pushing towards a common goal. It acknowledges that when facing complex problems, we cannot have all the answers from the beginning. Therefore, the core of Scrum is to break down a large, uncertain problem into a series of small, manageable experiments through short, fixed-time iterations (i.e., "**Sprints**"). At the end of each sprint, the team delivers a usable product increment and reflects and adjusts, thereby learning from experience and moving forward amidst change.
+
+!!! abstract "Key takeaways"
+
+    - **Three accountabilities**: Product Owner, Scrum Master, Developers.
+    - **Five events**: the Sprint, Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective.
+    - **Three artifacts**: Product Backlog, Sprint Backlog, Increment, each with a commitment (Product Goal, Sprint Goal, Definition of Done).
+    - **Sprints are fixed-length** (one month or less) and produce a usable increment.
+    - **Empiricism**: transparency, inspection and adaptation.
 
 ## The Three Pillars of the Scrum Framework
 
@@ -82,6 +95,53 @@ Scrum's "rules of the game" can be concisely summarized as a "3-5-3" structure: 
 *   **Extremely High Demands on Product Owner**: The Product Owner needs to deeply understand the business, market, and customers, and possess excellent communication and decision-making skills.
 *   **Potential for "Scope Creep"**: If the Product Owner does not manage the backlog and stakeholder expectations well, it can lead to frequent changes in sprint goals.
 *   **Requires Team Maturity**: Self-organizing teams require members to have a high sense of responsibility, collaborative spirit, and cross-functional skills.
+
+## Scrum Events Cheat Sheet
+
+| Event | Timebox (1-month sprint) | Purpose | Who |
+| --- | --- | --- | --- |
+| **Sprint** | ≤ 1 month | Container for all other events; deliver an increment | Whole Scrum Team |
+| **Sprint Planning** | ≤ 8 hours | Decide why (Sprint Goal), what and how | Whole Scrum Team |
+| **Daily Scrum** | 15 minutes | Inspect progress toward the Sprint Goal; adapt the plan | Developers |
+| **Sprint Review** | ≤ 4 hours | Inspect the increment with stakeholders; adapt the backlog | Scrum Team + stakeholders |
+| **Sprint Retrospective** | ≤ 3 hours | Improve how the team works | Scrum Team |
+
+Timeboxes are shorter for shorter sprints.
+
+## Accountabilities at a Glance
+
+| Accountability | Responsible for |
+| --- | --- |
+| **Product Owner** | Maximizing product value; managing and ordering the Product Backlog; the Product Goal |
+| **Scrum Master** | Scrum effectiveness; coaching the team and organization; removing impediments |
+| **Developers** | Creating a usable increment each sprint; the Sprint Backlog; quality (Definition of Done) |
+
+## Common Mistakes
+
+1.  **The Daily Scrum as a status report.** It's for Developers to coordinate toward the Sprint Goal, not to report to a manager.
+2.  **No real Sprint Goal.** A list of unrelated tickets gives the team nothing to focus or trade off against.
+3.  **Changing sprint scope constantly.** Some adjustment is normal, but endangering the Sprint Goal mid-sprint undermines planning.
+4.  **A weak Definition of Done.** "Done except testing" leads to hidden work piling up.
+5.  **Product Owner as a proxy without authority.** If decisions must be escalated, the backlog can't be managed effectively.
+6.  **Skipping retrospectives.** The team stops improving; problems become permanent.
+
+## Frequently Asked Questions
+
+??? question "How long should a sprint be?"
+
+    One month or less; two weeks is the most common choice. Shorter sprints give faster feedback; longer ones reduce overhead but increase risk.
+
+??? question "What is the difference between Scrum and Agile?"
+
+    Agile is a set of values and principles; Scrum is a specific framework that implements them. See [Agile](Agile-Tutorial-en.md).
+
+??? question "Who wrote the Scrum framework?"
+
+    Ken Schwaber and Jeff Sutherland, who maintain *The Scrum Guide* (latest major revision 2020).
+
+??? question "Can Scrum be used outside software?"
+
+    Yes. Marketing, research, education and event teams use Scrum when work can be broken into increments and benefits from regular feedback.
 
 ## Extensions and Connections
 

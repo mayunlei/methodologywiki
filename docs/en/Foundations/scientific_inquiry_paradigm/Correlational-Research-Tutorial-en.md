@@ -1,3 +1,8 @@
+---
+title: "Correlational Research: Definition, Examples, Coefficients and Limits"
+description: "Correlational research measures how strongly two or more variables are related without manipulating them. Learn how to interpret correlation coefficients, the main types and methods, why correlation is not causation, a planning template and common mistakes."
+---
+
 # Correlational Research
 
 ![Correlational Research Diagram](Correlational-Research-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 In the journey of scientific exploration, we not only want to know "what things are like" (descriptive research) but also eagerly desire to understand how things are interconnected. **Correlational Research** is precisely such a research paradigm that aims to explore whether there is a **relationship** between two or more variables, as well as its **strength** and **direction**. The core question it answers is: "When A changes, does B also systematically change?"
 
 Correlational research is a non-experimental quantitative research method. Researchers do not manipulate any variables as they would in an experiment, but merely measure existing variables and then use statistical techniques to analyze the relationships between them. For example, a researcher might measure a group of students' "daily study hours" and their "exam scores," to explore whether there is a relationship between the two. This type of research in psychology, sociology, education, and market research and many other fields play a crucial role.
+
+!!! abstract "Key takeaways"
+
+    - **Measures relationships** between variables as they naturally occur, without manipulation.
+    - **The correlation coefficient (r)** ranges from −1 to +1: sign gives direction, size gives strength.
+    - **Correlation ≠ causation**: confounders, reverse causality and coincidence are always possible.
+    - **Useful for** prediction, exploring relationships and generating hypotheses when experiments are impossible.
+    - **Check the scatter plot**: a single r can hide non-linear patterns and outliers.
 
 ## Understanding the Core Concepts of Correlation
 
@@ -97,6 +110,65 @@ This is the golden rule that must be kept in mind when understanding correlation
 *   **Cannot Establish Causality**: This is its most fundamental and core limitation.
 *   **Easily Misinterpreted**: Media and the public often mistakenly interpret correlation as causation, leading to misinformation.
 *   **Only Reveals Linear Relationships**: Standard correlation coefficients can only measure linear relationships. If there is a nonlinear relationship between two variables (e.g., a U-shaped curve), the correlation coefficient may be very low, thereby masking the true strong association between them.
+
+## Interpreting the Correlation Coefficient
+
+| |r| | Typical interpretation (social sciences) |
+| --- | --- |
+| 0.00–0.09 | Negligible |
+| 0.10–0.29 | Weak |
+| 0.30–0.49 | Moderate |
+| 0.50–0.69 | Strong |
+| 0.70–1.00 | Very strong |
+
+These thresholds vary by field: in physics, r = 0.7 may be weak; in psychology, r = 0.3 can be meaningful. **r² (the coefficient of determination)** tells you the share of variance in one variable associated with the other; r = 0.5 means 25%.
+
+## Choosing a Correlation Method
+
+| Method | Data type | Use when |
+| --- | --- | --- |
+| Pearson's r | Two continuous variables, roughly linear, few outliers | Height and weight |
+| Spearman's rho | Ranked or non-normal data, monotonic relationship | Rankings, skewed income data |
+| Kendall's tau | Small samples, many tied ranks | Small ordinal datasets |
+| Point-biserial | One binary and one continuous variable | Pass/fail and study hours |
+| Partial correlation | Two variables controlling for a third | Exercise and mood, controlling for age |
+
+## Why Correlation Is Not Causation
+
+| Explanation | Example |
+| --- | --- |
+| **Confounding variable** | Ice-cream sales and drownings both rise in summer (heat drives both) |
+| **Reverse causality** | Do happy people exercise more, or does exercise make people happier? |
+| **Selection effects** | Hospital patients appear sicker because sick people go to hospitals |
+| **Coincidence** | With enough variables, some will correlate by chance (spurious correlations) |
+
+To move toward causal claims, use [experiments](Experimental-Research-Tutorial-en.md), [longitudinal designs](../../Product & User/time_dimension_design/Longitudinal-Research-Tutorial-en.md) or statistical techniques that control for confounders.
+
+## Common Mistakes
+
+1.  **Inferring cause from correlation.** The most common and most consequential error.
+2.  **Ignoring outliers.** One extreme point can create or hide a correlation; always plot the data.
+3.  **Assuming linearity.** A strong U-shaped relationship can have r ≈ 0.
+4.  **Restricted range.** Studying only top students hides the relationship between study time and grades that exists across all students.
+5.  **Confusing statistical significance with strength.** With large samples, tiny correlations become "significant" but may be practically meaningless.
+
+## Frequently Asked Questions
+
+??? question "What is the difference between correlational and experimental research?"
+
+    Correlational research observes variables without changing them and identifies relationships. Experimental research manipulates a variable and controls others to establish cause and effect.
+
+??? question "Can a correlation be negative?"
+
+    Yes. A negative correlation means that as one variable increases, the other tends to decrease, for example screen time before bed and sleep quality.
+
+??? question "What sample size do I need?"
+
+    It depends on the expected strength of the relationship. Detecting a moderate correlation (r ≈ 0.3) with 80% power typically needs about 85 participants; weak correlations need many more.
+
+??? question "Is regression the same as correlation?"
+
+    They're related. Correlation measures the strength and direction of a relationship; regression models how one variable predicts another and can include several predictors.
 
 ## Extensions and Connections
 

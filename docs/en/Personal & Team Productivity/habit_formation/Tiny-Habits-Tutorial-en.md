@@ -1,3 +1,8 @@
+---
+title: "Tiny Habits: The Fogg Behavior Model (B=MAP), Recipe and Examples"
+description: "BJ Fogg's Tiny Habits method builds lasting habits by making behaviors tiny, anchoring them to existing routines and celebrating immediately. Learn the B=MAP model, the ABC recipe, a habit-design template, examples and common mistakes."
+---
+
 # Tiny Habits
 
 ![Tiny Habits Diagram](Tiny-Habits-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 We've all had ambitious goals: starting tomorrow, exercise for an hour daily, read 50 pages, meditate for 30 minutes. However, these grand plans often fail quickly after a few days due to their high barrier to execution and excessive reliance on willpower, ultimately trapping us in a negative cycle of "plan-fail-self-blame." **Tiny Habits** is an extremely simple yet exceptionally powerful behavior design method that overturns traditional habit formation thinking. Proposed by Dr. BJ Fogg, founder of the Stanford University Behavior Design Lab, its core idea is that **to cultivate a long-term, stable habit, the key is not how much willpower you have, but to make the behavior you want to adopt as "tiny" as possible, so tiny that you can almost not fail**.
 
 The essence of the Tiny Habits strategy is to bypass reliance on "motivation" and "willpower," and instead focus on **lowering the barrier to behavior**. It posits that any grand goal can be broken down into a trivial "tiny habit" that can be completed within 60 seconds. For example, reducing the daunting goal of "do 100 push-ups every day" to "**do just 1 push-up every day**." By consistently and easily performing this tiny behavior, which consumes almost no willpower, and immediately giving yourself positive emotional feedback, we can quietly lay a solid "neural pathway" for this new habit in our brains, allowing it to naturally grow and strengthen in the future.
+
+!!! abstract "Key takeaways"
+
+    - **B = MAP**: a Behavior happens when Motivation, Ability and a Prompt converge at the same moment.
+    - **Make it tiny**: so easy you can do it even on your worst day (one push-up, floss one tooth).
+    - **Anchor it**: "After I [existing routine], I will [tiny behavior]."
+    - **Celebrate immediately**: a positive emotion right after the behavior wires in the habit.
+    - **Grow naturally**: once automatic, the behavior often expands on its own.
 
 ## Tiny Habits Behavior Model (B=MAP)
 
@@ -85,6 +98,65 @@ Designing a tiny habit requires following a clear "**ABC**" recipe.
 
 *   **Disdain for "Tiny"**: Many people, especially those accustomed to setting grand goals, might disdain this "ridiculously small" method, thinking it's "useless." Understanding the behavior design principles behind it is key to overcoming this mindset.
 *   **Forgetting to "Celebrate"**: People often perform the behavior but forget the crucial "celebration" step, thus preventing the neural pathway for the habit from being effectively strengthened.
+
+## Tiny Habits Recipe Template
+
+| Part | Your recipe | Example |
+| --- | --- | --- |
+| **Anchor** (existing routine) | After I ________ | After I pour my morning coffee |
+| **Tiny behavior** | I will ________ | I will write one sentence in my journal |
+| **Celebration** | Then I'll ________ | Then I'll smile and say "Nice!" |
+
+**Checklist for a good recipe**
+
+- [ ] The anchor happens every day at a reliable moment
+- [ ] The tiny behavior takes less than 30 seconds
+- [ ] The behavior fits physically right after the anchor (same place)
+- [ ] The celebration produces a genuine positive feeling
+
+## Troubleshooting with B = MAP
+
+| If the habit doesn't happen... | Likely missing | Fix |
+| --- | --- | --- |
+| You forget | Prompt | Choose a more reliable anchor, or add a visual cue |
+| It feels like a chore | Ability | Make it smaller |
+| You do it but it doesn't stick | Celebration | Find a celebration that genuinely feels good |
+| You don't want to | Motivation | Choose a behavior you actually want; don't rely on "should" |
+
+## Common Mistakes
+
+1.  **Starting too big.** "Run 5 km a day" depends on motivation, which fluctuates. Start with "put on running shoes".
+2.  **Vague anchors.** "In the morning" isn't an anchor; "after I turn off my alarm" is.
+3.  **Skipping the celebration.** It feels silly, but it's the part that builds the habit.
+4.  **Scaling up too early.** Let the habit become automatic before adding more.
+5.  **Self-blame.** If a habit fails, redesign it; the method treats failure as a design problem, not a character flaw.
+
+## Tiny Habits vs. the Habit Loop
+
+| | Tiny Habits | [The Habit Loop](The-Habit-Loop-Tutorial-en.md) |
+| --- | --- | --- |
+| Author | BJ Fogg | Charles Duhigg |
+| Model | Behavior = Motivation × Ability × Prompt | Cue → Routine → Reward |
+| Main use | Creating new habits with minimal friction | Understanding and replacing existing habits |
+| Key move | Shrink the behavior, anchor it, celebrate | Keep cue and reward, change the routine |
+
+## Frequently Asked Questions
+
+??? question "What is the Fogg Behavior Model?"
+
+    BJ Fogg's model states that a behavior occurs when motivation, ability and a prompt are present at the same moment (B = MAP). If a behavior isn't happening, at least one of the three is missing.
+
+??? question "Why does celebration matter so much?"
+
+    Fogg argues that emotions create habits: an immediate positive feeling right after the behavior helps the brain encode it as worth repeating.
+
+??? question "How long does it take for a tiny habit to become automatic?"
+
+    It varies by person and behavior; tiny, emotionally rewarded behaviors often feel automatic within days to a few weeks.
+
+??? question "Can Tiny Habits help break bad habits?"
+
+    Fogg's approach to bad habits focuses on redesigning prompts and ability (making the bad habit harder) and replacing it with a desirable tiny habit at the same anchor.
 
 ## Extensions and Connections
 

@@ -1,3 +1,8 @@
+---
+title: "Action Research: Cycle, Steps, Examples and a Planning Template"
+description: "Action research combines taking action and studying it in repeated cycles of plan, act, observe and reflect, usually with the people affected. Learn the cycle, a planning template, examples in education and organizations, quality criteria and common mistakes."
+---
+
 # Action Research
 
 ![Action Research Diagram](Action-Research-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 In traditional research, researchers typically play the role of objective, detached "observers," while research subjects are passively "studied." **Action Research** completely breaks down this barrier. It is a cyclical inquiry process that tightly integrates **"research"** with **"practice,"** aiming to solve practical problems and drive change. Its core idea is that knowledge should not merely be "discovered" and left on the shelf, but should be "created" and "applied" in the action of solving real-world problems.
 
 Action research is not a "prescription" given by external experts to practitioners, but a systematic process of diagnosis, reflection, action, and evaluation of one's own work context (such as a classroom, a community, an organization), carried out by **practitioners themselves** (often in collaboration with researchers). The core question it answers is: "How can we improve our current work/situation?" Therefore, action research is characterized by its strong **contextuality, participation, collaboration, and cyclical nature**. It is both a process of understanding the world and, more importantly, a process of transforming the world.
+
+!!! abstract "Key takeaways"
+
+    - **Research with people, not on them**: participants help define the problem and judge results.
+    - **A spiral of cycles**: plan → act → observe → reflect → revised plan.
+    - **Two goals at once**: improve a real situation and generate knowledge about it.
+    - **Common in** education, healthcare, community development and organizational change.
+    - **Rigor comes from** systematic data, documented reflection and multiple perspectives.
 
 ## The "Action-Reflection" Spiral Cycle of Action Research
 
@@ -65,6 +78,63 @@ The most classic action research spiral model was proposed by Kurt Lewin and has
 *   **Rigor and Objectivity**: Since the researcher is also a participant, maintaining the systematic nature of the research process and the objectivity of the analysis is an ongoing challenge. Detailed process recording and team collaboration are key to ensuring rigor.
 *   **Time and Effort Investment**: Action research requires practitioners to invest extra time and effort in learning, reflection, and discussion outside of their busy daily work.
 *   **Generalizability of Conclusions**: The conclusions of action research are usually highly contextualized, and their purpose is not to generate universal theories but to improve specific practices. Therefore, its research results are difficult to directly generalize to other contexts.
+
+## Action Research Cycle Planning Template
+
+| Element | Cycle 1 | Cycle 2 |
+| --- | --- | --- |
+| Problem / question | | |
+| Planned change | | |
+| Who is involved | | |
+| Data to collect (before, during, after) | | |
+| Timeframe | | |
+| What happened (observations) | | |
+| Reflection: what worked, what didn't, why | | |
+| Decision for next cycle | | |
+
+## Example: Reducing Handover Errors on a Hospital Ward
+
+*   **Plan**: Nurses and researchers noticed missing information at shift handovers. They agreed to try a standard handover checklist.
+*   **Act**: The checklist was used on one ward for four weeks.
+*   **Observe**: Researchers sat in on handovers, counted omissions and interviewed nurses.
+*   **Reflect**: Omissions fell, but handovers took longer and night staff found the checklist too long.
+*   **Revised plan (cycle 2)**: The team shortened the checklist to the five most-missed items and tested it again.
+
+## Judging Quality in Action Research
+
+| Criterion | Question |
+| --- | --- |
+| Outcome validity | Did the action actually resolve or improve the problem? |
+| Process validity | Was data collected and analyzed systematically? |
+| Democratic validity | Were the perspectives of all stakeholders included? |
+| Catalytic validity | Did participants gain new understanding and capacity to act? |
+| Dialogic validity | Have findings been tested through discussion with peers? |
+
+## Common Mistakes
+
+1.  **Calling any improvement project "action research".** Without systematic data collection and documented reflection, it's an improvement initiative, not research.
+2.  **Researchers deciding everything.** If participants aren't involved in defining problems and judging results, the participatory core is lost.
+3.  **Only one cycle.** Learning comes from iteration; the first cycle rarely gets it right.
+4.  **Weak documentation.** Without records of what was tried and why, others can't learn from or trust the findings.
+5.  **Ignoring power dynamics.** Hierarchies affect what people feel safe saying; create space for honest input.
+
+## Frequently Asked Questions
+
+??? question "Who developed action research?"
+
+    Social psychologist Kurt Lewin coined the term in the 1940s and described the cycle of planning, action and fact-finding about the results.
+
+??? question "How is action research different from traditional research?"
+
+    Traditional research usually studies a situation from the outside without changing it. Action research deliberately intervenes, studies the effects and involves participants as co-researchers.
+
+??? question "What is participatory action research (PAR)?"
+
+    A form of action research that emphasizes equal partnership with communities, especially marginalized ones, in every stage of the research, with the aim of social change.
+
+??? question "Can action research be used in business?"
+
+    Yes. Organizational change, process improvement and leadership development projects often follow action research cycles, similar in spirit to PDCA and [Kaizen](../../Strategy & Business/quality_and_operations/Kaizen-Tutorial-en.md).
 
 ## Extensions and Connections
 

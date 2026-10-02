@@ -1,8 +1,21 @@
+---
+title: "Brainstorming: Rules, Techniques, Session Agenda and Examples"
+description: "Brainstorming generates many ideas quickly by separating idea generation from evaluation. Learn Osborn's four rules, techniques like brainwriting and reverse brainstorming, a 60-minute session agenda, how to converge on the best ideas, and common mistakes."
+---
+
 # Brainstorming
 
 When seeking innovation and solving complex problems, our biggest enemy is often the deep-seated, restrictive mental models in our own minds. **Brainstorming** is a classic, powerful, and widely popular **group idea generation technique** designed to break these mental shackles. It was proposed by advertising executive Alex F. Osborn in the 1940s, and its core objective is to encourage participants to generate as many novel, diverse, and even seemingly impractical ideas as possible in a short period, by creating a completely open, free, and non-judgmental discussion atmosphere.
 
 The essence of brainstorming lies in **"quantity first, quality second."** It firmly believes that the quality of ideas can be fostered through the accumulation of quantity. By deferring judgment and encouraging wild ideas, brainstorming can effectively switch a team's creativity from a "critical mode" to a "generative mode," thereby exploring various unknown possibilities in a safe environment and providing rich, diverse raw material for subsequent filtering and deepening.
+
+!!! abstract "Key takeaways"
+
+    - **Four rules**: defer judgment, go for quantity, welcome wild ideas, build on others' ideas.
+    - **Separate diverging from converging**: generate first, evaluate later.
+    - **Start alone, then together**: brief silent individual ideation produces more and more diverse ideas.
+    - **Frame a clear question**, ideally as "How might we...?"
+    - **End with selection and next steps**, or the ideas will be forgotten.
 
 ## Four Basic Principles of Brainstorming
 
@@ -73,6 +86,65 @@ To ensure that brainstorming achieves its intended results, the following four b
 *   **"Free-Riding" Phenomenon**: In a team, some individuals might be less proactive and simply "free-ride," contributing fewer ideas.
 *   **Difficulty in Execution**: Strictly enforcing the "defer judgment" principle requires high skill from the facilitator and a mature team culture.
 *   **Lack of Follow-up Work**: Brainstorming itself is only responsible for generating ideas. Without subsequent, systematic filtering, evaluation, and execution mechanisms, even the best ideas remain castles in the air.
+
+## Brainstorming Techniques
+
+| Technique | How it works | Best for |
+| --- | --- | --- |
+| **Classic brainstorming** | Group calls out ideas, facilitator records them | Energizing groups, simple problems |
+| **Brainwriting (6-3-5)** | 6 people each write 3 ideas in 5 minutes, then pass sheets on to build on | Avoiding domination by loud voices |
+| **Reverse brainstorming** | "How could we make this problem worse?" then flip the answers | Breaking out of stuck thinking |
+| **Round robin** | Each person contributes one idea in turn | Ensuring everyone participates |
+| **Starbursting** | Generate questions (who, what, where, when, why, how) instead of answers | Exploring a new concept |
+| **SCAMPER** | Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse | Improving existing products |
+| **Crazy 8s** | Sketch 8 ideas in 8 minutes | Design and UI ideas |
+
+## 60-Minute Session Agenda
+
+| Time | Activity |
+| --- | --- |
+| 0–5 min | Explain the question ("How might we...?") and the four rules |
+| 5–10 min | Warm-up exercise (e.g. 20 uses for a paper clip) |
+| 10–20 min | Silent individual ideation on sticky notes |
+| 20–35 min | Share and build on ideas, one by one |
+| 35–45 min | Cluster similar ideas into themes |
+| 45–55 min | Dot voting or impact/effort matrix to shortlist |
+| 55–60 min | Assign owners to explore the top 2–3 ideas |
+
+## How to Converge
+
+| Method | How |
+| --- | --- |
+| **Dot voting** | Each person places 3–5 dots on favorite ideas |
+| **Impact / effort matrix** | Plot ideas on two axes; start with high impact, low effort |
+| **NUF test** | Rate each idea for New, Useful, Feasible |
+| **[Decision matrix](../decision_making/Decision-Matrix-Tutorial-en.md)** | Score shortlisted ideas against weighted criteria |
+
+## Common Mistakes
+
+1.  **Criticizing during generation.** Even a raised eyebrow shuts down ideas. Enforce deferred judgment.
+2.  **The HiPPO effect.** When the highest-paid person speaks first, others anchor on their idea. Leaders should speak last.
+3.  **Group-only ideation.** Production blocking and social loafing reduce output; individual brainwriting first helps.
+4.  **A vague question.** "Ideas for growth" is too broad; "How might we get first-time visitors to return within a week?" is better.
+5.  **No follow-up.** Dozens of sticky notes without owners and next steps produce nothing.
+
+## Frequently Asked Questions
+
+??? question "Who invented brainstorming?"
+
+    Advertising executive Alex Osborn introduced brainstorming in the 1940s and described its rules in *Applied Imagination* (1953).
+
+??? question "Is brainstorming effective?"
+
+    Research shows that groups talking together often produce fewer ideas than the same people working alone. Hybrid methods, with individual ideation first and group building afterward, address this.
+
+??? question "How many people should be in a brainstorming session?"
+
+    Typically 5–10. Larger groups can split into smaller teams and then share.
+
+??? question "How is brainstorming different from mind mapping?"
+
+    Brainstorming is a group process for generating ideas. A [mind map](Mind-Mapping-Tutorial-en.md) is a visual way of organizing ideas around a central topic, useful during or after brainstorming.
 
 ## Extensions and Connections
 

@@ -1,3 +1,8 @@
+---
+title: "Grounded Theory: Coding Steps, Examples and Practical Guide"
+description: "Grounded theory builds theory from qualitative data through open, axial and selective coding, constant comparison and theoretical sampling. Learn the steps, the main schools, a coding example, a memo template and common mistakes."
+---
+
 # Grounded Theory
 
 ![Grounded Theory Diagram](Grounded-Theory-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 In the vast landscape of social science research, there are times when existing theories fall short in explaining complex social phenomena, or when we are exploring entirely new areas where no established theoretical framework exists. In such situations, simply verifying existing theories is insufficient; we need a method that allows us to **construct new theories directly from data**. **Grounded Theory** is precisely such a powerful qualitative research methodology. It is a systematic approach that emphasizes the **inductive generation of theory** from systematically collected and analyzed data, rather than starting with a pre-conceived hypothesis.
 
 Developed by sociologists Barney Glaser and Anselm Strauss in the 1960s, Grounded Theory's core philosophy is **"all is data."** It advocates for a continuous, iterative process of data collection, coding, and analysis, where theoretical concepts and relationships emerge directly from the data itself. This contrasts sharply with traditional deductive research, which begins with a theory and then tests it with data. Grounded Theory aims to produce a theory that is "grounded" in the empirical world, reflecting the realities and complexities of the phenomenon being studied. It is particularly suitable for exploring processes, interactions, and social structures in depth, providing rich, nuanced, and context-sensitive theoretical explanations.
+
+!!! abstract "Key takeaways"
+
+    - **Theory from data, not data to test theory**: concepts emerge from interviews and observations rather than from prior hypotheses.
+    - **Coding in stages**: open coding (label), axial coding (relate), selective coding (integrate around a core category).
+    - **Constant comparison**: compare every new piece of data with existing codes and categories.
+    - **Theoretical sampling**: choose the next participants based on what the emerging theory needs, until saturation.
+    - **Write memos throughout**: they record your analytic thinking and become the backbone of the final theory.
 
 ## Core Principles and Process of Grounded Theory
 
@@ -78,6 +91,64 @@ Grounded Theory is characterized by its iterative and systematic nature, with se
 *   **Requires High Theoretical Sensitivity**: The quality of the emerging theory heavily depends on the researcher's ability to conceptualize and make connections in the data, which requires significant skill and experience.
 *   **Subjectivity and Rigor**: Critics sometimes question the objectivity and rigor of Grounded Theory due to its inductive nature and the researcher's central role in theory construction. However, proponents emphasize systematic procedures (like coding and memo-writing) to ensure rigor.
 *   **Difficulty in Replication**: Due to its emergent nature, replicating a Grounded Theory study exactly can be challenging.
+
+## A Coding Example
+
+Interview excerpt from a study on remote workers: *"I keep Slack open all evening. If my manager pings me and I don't answer in ten minutes, I feel like I'm failing."*
+
+| Stage | What you do | Result |
+| --- | --- | --- |
+| **Open coding** | Label meaningful fragments, staying close to the participant's words | "always-on availability", "response-time anxiety", "manager visibility" |
+| **Axial coding** | Relate codes: conditions, actions, consequences | Condition: no visible presence at home → Action: constant availability → Consequence: evening anxiety |
+| **Selective coding** | Integrate categories around a core category | Core category: *"performing presence"*: remote workers compensate for invisibility by over-signaling availability |
+
+## Memo Template
+
+| Field | Content |
+| --- | --- |
+| Date / memo number | 2026-03-14 / M-17 |
+| Code or category | "Performing presence" |
+| Definition so far | Behaviors through which remote workers make their effort visible |
+| Evidence | Interviews 4, 9, 12 (quotes) |
+| Comparison | Office workers in interviews 2 and 6 describe visibility as automatic |
+| Questions raised | Does this differ by manager style? → sample managers next |
+| Next sampling decision | Interview two managers with fully remote teams |
+
+## Main Schools of Grounded Theory
+
+| School | Key figures | Emphasis |
+| --- | --- | --- |
+| Classic (Glaserian) | Barney Glaser | Theory "emerges"; minimal prior literature review; theoretical coding |
+| Straussian | Anselm Strauss, Juliet Corbin | Structured procedures: open, axial and selective coding, coding paradigm |
+| Constructivist | Kathy Charmaz | Theory is co-constructed by researcher and participants; reflexivity |
+
+Choose one school and follow its procedures consistently; mixing them without explanation is a common criticism in peer review.
+
+## Common Mistakes
+
+1.  **Calling any thematic analysis "grounded theory".** Without theoretical sampling, constant comparison and a resulting theory, it is better described as thematic analysis.
+2.  **Collecting all data first, then analyzing.** Grounded theory interleaves collection and analysis; the analysis tells you whom to sample next.
+3.  **Stopping at description.** A list of themes is not a theory. Explain how categories relate and what process the core category captures.
+4.  **Claiming saturation too early.** Saturation means new data no longer adds properties to your categories, not just that interviews feel repetitive.
+5.  **Skipping memos.** Without memos the reasoning behind the theory is lost and hard to defend.
+
+## Frequently Asked Questions
+
+??? question "How many interviews does grounded theory need?"
+
+    There's no fixed number; you stop at theoretical saturation. Many studies reach it with 20–30 interviews, but it depends on how varied the phenomenon is and how focused the question is.
+
+??? question "Should I review the literature before a grounded theory study?"
+
+    Classic grounded theory advises delaying a detailed review to avoid forcing existing concepts onto the data. Straussian and constructivist approaches accept an early review, used to sensitize rather than to set hypotheses.
+
+??? question "What is the difference between grounded theory and thematic analysis?"
+
+    Thematic analysis identifies and describes patterns in data. Grounded theory aims further: to develop an explanatory theory of a process, using theoretical sampling and constant comparison.
+
+??? question "Can grounded theory use quantitative data?"
+
+    Glaser argued that "all is data", and grounded theory can incorporate numbers, documents or observations. In practice it is mostly used with qualitative data such as interviews and field notes.
 
 ## Extensions and Connections
 

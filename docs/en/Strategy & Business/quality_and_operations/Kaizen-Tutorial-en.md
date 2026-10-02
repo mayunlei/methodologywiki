@@ -1,8 +1,21 @@
+---
+title: "Kaizen: Continuous Improvement Principles, Events, Examples and Tips"
+description: "Kaizen is the Japanese philosophy of continuous, incremental improvement involving everyone. Learn its core principles, how kaizen events and daily kaizen work, a kaizen card template, PDCA, examples from Toyota to personal life, and common mistakes."
+---
+
 # Kaizen
 
 In many organizations, "improvement" is often seen as a major "project" requiring significant investment, led by experts, and driven top-down. However, there is a management philosophy that believes true, powerful, and lasting progress comes from the seemingly insignificant **small and continuous improvements** made every day by every employee. This is the essence of **Kaizen**. Kaizen is a Japanese word meaning "change for the better," and it is both a cultural philosophy pursuing perfection and a practical method that encourages full participation and bottom-up continuous improvement.
 
 The core idea of Kaizen is **not to seek revolutionary breakthroughs overnight, but to pursue endless gradual optimization**. It believes that frontline employees are the experts who best understand the actual situation in their positions, and they possess infinite wisdom and creativity. By establishing a culture that encourages problem-solving, rewards small innovations, and tolerates failure, organizations can harness the power of everyone, forming an unstoppable, continuously upward momentum. It is not a complex management tool, but a simple, unpretentious, yet profoundly effective way of working and thinking.
+
+!!! abstract "Key takeaways"
+
+    - **Small, continuous improvements** by everyone, every day, rather than occasional big changes.
+    - **Go to the gemba**: improve where the work actually happens ([Gemba Walk](../../Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-en.md)).
+    - **PDCA** is the improvement cycle: plan, do, check, act.
+    - **Two forms**: daily kaizen (ongoing small ideas) and kaizen events (focused 3–5 day workshops).
+    - **Standardize what works**, so improvements stick and become the new baseline.
 
 ## Core Principles of Kaizen
 
@@ -72,6 +85,62 @@ The key to practicing Kaizen is to create a culture and mechanism that encourage
 *   **Slow to show results, not easily noticeable**: Compared to radical "innovation," the effects of Kaizen are gradual and cumulative, and may not be obvious in the short term, requiring managers to have sufficient patience and a long-term vision.
 *   **Requires genuine full participation**: If it remains just a slogan, or only a few people participate, Kaizen activities cannot be sustained.
 *   **May fall into "local optimum"**: Over-focusing on small improvements to existing processes can sometimes overlook larger opportunities for disruptive, revolutionary innovation.
+
+## Daily Kaizen vs. Kaizen Events
+
+| | Daily kaizen | Kaizen event (blitz) |
+| --- | --- | --- |
+| Scale | Small ideas by individuals or teams | A focused improvement of one process |
+| Duration | Ongoing | Typically 3–5 days |
+| Who | Everyone | A cross-functional team with a facilitator |
+| Example | Moving a frequently used tool closer to the workstation | Redesigning the order-picking process to cut walking distance by 40% |
+
+## Kaizen Card Template
+
+| Field | Content |
+| --- | --- |
+| Problem / opportunity | |
+| Current situation (with data or a photo) | |
+| Improvement idea | |
+| Expected benefit | Time, quality, safety, cost |
+| Tried on (date) | |
+| Result (after) | |
+| Standardized? | Yes / no, and where documented |
+| Submitted by | |
+
+## Common Mistakes
+
+1.  **Treating kaizen as a suggestion box.** Ideas that disappear without feedback quickly stop coming. Respond to every idea fast.
+2.  **Only big events.** Kaizen events are useful, but the culture depends on daily small improvements.
+3.  **Not standardizing.** Without updated standard work, processes drift back to the old way.
+4.  **Management not at the gemba.** Leaders who only see reports miss problems and don't model the behavior.
+5.  **Using kaizen to cut jobs.** If improvement leads to layoffs, people stop improving. Many companies commit to redeploying freed-up capacity.
+
+## Kaizen vs. Kaikaku vs. Six Sigma
+
+| | Kaizen | Kaikaku | [Six Sigma](Six-Sigma-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Type of change | Small, incremental, continuous | Radical, breakthrough | Structured projects to reduce variation |
+| Who | Everyone | Leadership-driven | Trained specialists (belts) with teams |
+| Risk | Low | High | Medium |
+
+## Frequently Asked Questions
+
+??? question "What does kaizen mean?"
+
+    In Japanese, "kai" means change and "zen" means good; together, "change for the better". In management it refers to continuous improvement involving everyone.
+
+??? question "Who popularized kaizen in the West?"
+
+    Masaaki Imai's 1986 book *Kaizen: The Key to Japan's Competitive Success* introduced the concept widely outside Japan.
+
+??? question "Can kaizen be applied to personal life?"
+
+    Yes. Improving one small thing at a time, such as a morning routine or study habits, follows the same principle; see also [Tiny Habits](../../Personal & Team Productivity/habit_formation/Tiny-Habits-Tutorial-en.md).
+
+??? question "What is the relationship between kaizen and lean?"
+
+    Kaizen is a core practice of [Lean](Lean-Operations-Tutorial-en.md) and the Toyota Production System. Lean provides tools to identify waste; kaizen is the continuous effort to remove it.
 
 ## Extensions and Connections
 

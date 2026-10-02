@@ -1,3 +1,8 @@
+---
+title: "Cornell Note-Taking Method: Template, Steps, Examples and Tips"
+description: "The Cornell note-taking method divides a page into notes, cues and a summary to turn passive notes into active review. Get the page layout and template, the 5 R's process, examples for lectures, meetings and books, digital tips and common mistakes."
+---
+
 # Cornell Note-Taking Method
 
 ![Cornell Note-Taking Method Diagram](Cornell-Note-Taking-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 When attending lectures, meetings, or reading, we often find ourselves in a dilemma: if we furiously write down everything, trying to capture all content, we often lose track of the main ideas and "miss the forest for the trees"; if we only listen without taking notes, we might forget most of the important information within hours or days. The **Cornell Note-Taking System**, designed by Professor Walter Pauk of Cornell University in the 1950s, is a globally renowned **highly efficient note-taking system** aimed at solving this problem.
 
 The essence of the Cornell Note-Taking Method is not "how to take notes," but to systematically integrate **recording, simplifying, reviewing, and reflecting** on key learning stages through a **unique page layout**. It clearly divides a page of notes into three (or four) different areas, each with its unique function. This structured approach forces us to actively think and process information while taking notes, thereby greatly improving learning efficiency, depth, and long-term knowledge retention.
+
+!!! abstract "Key takeaways"
+
+    - **Page layout**: a wide notes column (right), a narrow cue column (left), a summary area (bottom).
+    - **During class**: take brief notes in the right column.
+    - **After class**: write questions and keywords in the cue column, then a 2–3 sentence summary.
+    - **Review by covering the notes** and answering the cue questions from memory.
+    - **The 5 R's**: Record, Reduce, Recite, Reflect, Review.
 
 ## Cornell Note Page Layout
 
@@ -84,6 +97,50 @@ The founder of the Cornell Note-Taking Method summarized its usage into five log
 *   **Requires Additional Time Investment**: Compared to simple linear notes, the Cornell Note-Taking Method requires you to invest extra time after class for organization and summarization.
 *   **Not Applicable to All Scenarios**: For highly divergent, unstructured discussions (like brainstorming), or subjects requiring extensive drawing (like architecture, art), the traditional Cornell Note-Taking Method might not be the best choice.
 *   **Requires Persistence and Self-Discipline**: Its greatest power is realized when the "5R" principles are fully and consistently executed. If only the first step "Record" is done, and subsequent organization and review are neglected, its effectiveness will be greatly reduced.
+
+## Cornell Page Template
+
+| Cue column (≈ 1/3 width) | Notes column (≈ 2/3 width) |
+| --- | --- |
+| Questions, keywords, prompts written **after** the lecture | Main ideas, facts, examples written **during** the lecture, in short phrases |
+| *e.g. "Why did the Tang lose control of the provinces?"* | *e.g. Jiedushi controlled troops + taxes + officials → independent power bases* |
+| **Summary (bottom, written after review):** 2–3 sentences in your own words capturing the main point of the page | |
+
+## The 5 R's
+
+| Step | When | What to do |
+| --- | --- | --- |
+| **Record** | During the lecture or reading | Capture key ideas in the notes column |
+| **Reduce** | Within 24 hours | Write questions and keywords in the cue column |
+| **Recite** | Same session | Cover the notes; answer the cues aloud from memory |
+| **Reflect** | After reciting | Connect to other ideas; write the summary |
+| **Review** | Weekly | Spend 10 minutes re-reciting older pages |
+
+## Common Mistakes
+
+1.  **Transcribing everything.** Writing full sentences during a lecture means you stop thinking. Use abbreviations and short phrases.
+2.  **Leaving the cue column empty.** Without it, Cornell notes are just ordinary notes with a margin.
+3.  **Skipping the summary.** The summary forces you to identify the main point; it's where much of the learning happens.
+4.  **Never reciting.** Re-reading feels productive but is far less effective than testing yourself.
+5.  **Waiting until exam week.** Reducing and reciting within a day of the lecture is what makes the method work.
+
+## Frequently Asked Questions
+
+??? question "Who created the Cornell note-taking method?"
+
+    Walter Pauk, an education professor at Cornell University, developed it in the 1950s and described it in *How to Study in College*.
+
+??? question "Can I use Cornell notes digitally?"
+
+    Yes. Use a two-column table in a document or a note-taking app template, or a tablet with a Cornell page template. Keep the cue questions and summary; they're the essential parts.
+
+??? question "Does the Cornell method work for meetings?"
+
+    Yes. Notes during the meeting, cues for decisions and open questions afterward, and a summary at the bottom that doubles as the meeting recap.
+
+??? question "How does Cornell note-taking relate to active recall?"
+
+    The cue column turns notes into self-test questions, which is active recall, one of the most effective learning techniques. Pair it with the [Feynman Technique](Feynman-Technique-Tutorial-en.md) for concepts you struggle to explain.
 
 ## Extensions and Connections
 

@@ -1,8 +1,21 @@
+---
+title: "Cross-Sectional Study: Design, Examples, Pros and Cons"
+description: "A cross-sectional study collects data from a population at a single point in time to describe it and compare groups. Learn when to use it, how it differs from longitudinal and case-control studies, sampling tips, a planning template and common pitfalls."
+---
+
 # Cross-Sectional Research
 
 In a fast-paced world, we often need to quickly and efficiently obtain a "snapshot" of a group's current status. **Cross-Sectional Research** is a research design created for this purpose. Its core lies in observing and measuring samples from **different groups** (usually different age groups) simultaneously at **a specific point in time**. It aims to describe and compare the characteristics, opinions, or behaviors of these different groups at the same moment, thereby providing us with a panoramic view of a cross-section of society.
 
 If longitudinal research is a "documentary" tracking the growth of a protagonist, then cross-sectional research is a "family photo" gathering three generations of people. Through this photo, we can clearly see the differences in appearance, clothing, and demeanor of people of different ages. When you want to quickly understand questions like "How do consumers of different age groups differ in their acceptance of new tech products?" or "What is the level of happiness among different income classes in society today?", cross-sectional research provides an extremely efficient solution.
+
+!!! abstract "Key takeaways"
+
+    - **A snapshot**: data from many people (or units) collected at one point in time.
+    - **Good for**: estimating prevalence, describing a population, comparing groups and generating hypotheses.
+    - **Cannot establish cause and effect**: exposure and outcome are measured together, so you can't tell which came first.
+    - **Watch out for cohort effects**: age differences in a snapshot may reflect generations, not aging.
+    - **Sampling decides quality**: a biased sample produces confident but wrong conclusions.
 
 ## Core Logic of Cross-Sectional Research
 
@@ -73,6 +86,60 @@ This is the most fundamental and critical limitation when understanding cross-se
 *   **Cannot Study Individual Changes**: It cannot tell us anything about how individuals change over time.
 *   **Weak Causal Inference Ability**: Cannot establish the temporal order of events, thus cannot be used to infer causality.
 *   **Confounding of Cohort Effects**: Its most fundamental flaw is the inability to distinguish between age effects and cohort effects, which may lead to misinterpretations of developmental trends.
+
+## Cross-Sectional vs. Longitudinal vs. Case-Control Studies
+
+| | Cross-sectional | [Longitudinal](Longitudinal-Research-Tutorial-en.md) | Case-control |
+| --- | --- | --- | --- |
+| Timing | One point in time | Same subjects followed over time | Looks back from an outcome |
+| Typical question | How common is X? How do groups differ? | How does X change? What predicts later outcomes? | What exposures are linked to this outcome? |
+| Causality | Weak: temporal order unknown | Stronger: change can be observed | Moderate, but prone to recall bias |
+| Cost and time | Low, fast | High, slow | Moderate |
+| Example | Survey of current smartphone use by age | Following a cohort of students for ten years | Comparing past diets of patients and non-patients |
+
+## Study Planning Template
+
+| Element | Decision | Example |
+| --- | --- | --- |
+| Research question | Descriptive or comparative? | What share of remote workers report burnout, by industry? |
+| Population | Who exactly? | Full-time remote employees in the country |
+| Sampling frame & method | How will you reach them, and how will you choose? | Panel provider, stratified by industry and region |
+| Sample size | Based on expected prevalence and margin of error | ~1,100 for ±3% at 95% confidence |
+| Key variables | Outcomes, exposures, confounders | Burnout score; hours worked; age, caregiving duties |
+| Instrument | Validated scales where possible | Standard burnout inventory + custom questions |
+| Timing | When will data be collected? | Two-week window in the same quarter |
+| Analysis plan | Prevalence, cross-tabs, regression | Weighted prevalence; logistic regression with controls |
+
+## Common Pitfalls
+
+1.  **Reading causation into correlation.** Finding that people who exercise more report less stress doesn't show exercise reduces stress; stressed people may simply exercise less.
+2.  **Confusing age effects with cohort effects.** Older respondents using fewer apps may reflect their generation's habits rather than aging itself.
+3.  **Unrepresentative samples.** Online convenience samples over-represent the young and digitally active. Weight results or use probability sampling when you need population estimates.
+4.  **Ignoring non-response.** If only the most engaged people answer, prevalence estimates are biased. Report response rates and compare responders with the population where possible.
+5.  **Treating a snapshot as a trend.** One survey can't show change. To track trends, repeat the cross-section with the same methods (a repeated cross-sectional design).
+6.  **Measuring too much.** Long questionnaires reduce response quality. Collect only variables you have a plan to analyze.
+
+## Frequently Asked Questions
+
+??? question "What is the main advantage of a cross-sectional study?"
+
+    Speed and cost. You can collect data from a large, diverse sample once and get a broad picture of a population, which makes it ideal for estimating prevalence and spotting patterns worth investigating further.
+
+??? question "Can a cross-sectional study show causation?"
+
+    Generally no. Because exposure and outcome are measured at the same time, you usually can't tell which came first. Use longitudinal or [experimental](../../Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-en.md) designs for causal questions.
+
+??? question "Is a survey always a cross-sectional study?"
+
+    Most one-off surveys are cross-sectional. If the same people are surveyed repeatedly over time, it becomes a longitudinal (panel) study.
+
+??? question "What is a repeated cross-sectional design?"
+
+    Running the same survey on new samples at several points in time. It shows how a population changes overall (for example, smoking rates by year) but not how individuals change.
+
+??? question "How large should the sample be?"
+
+    It depends on the expected prevalence, the margin of error you can accept and the subgroups you need to compare. As a rough guide, about 400 respondents gives ±5% at 95% confidence for a simple proportion; subgroup comparisons need more.
 
 ## Extensions and Connections
 

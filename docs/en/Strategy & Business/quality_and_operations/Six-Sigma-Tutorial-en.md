@@ -1,8 +1,21 @@
+---
+title: "Six Sigma: DMAIC, Belts, Tools and Examples Explained"
+description: "Six Sigma is a data-driven method for reducing defects and variation, aiming for 3.4 defects per million opportunities. Learn DMAIC with key tools for each phase, the belt system, a project charter template, how it compares with Lean, and common mistakes."
+---
+
 # Six Sigma
 
 On the path to achieving ultimate quality and operational efficiency, how can businesses reduce defects and variations in processes to a near-perfect level? **Six Sigma (6σ)** is a disciplined, data-driven, customer-centric **quality improvement methodology and management philosophy** designed for this very goal. Its core objective is to systematically identify and eliminate the root causes of process variation, thereby reducing the defect rate of products or services to an exceptional level of **only 3.4 defects per million opportunities**.
 
 "Sigma (σ)" is a statistical measure of data dispersion, representing the standard deviation. A higher sigma level for a process means it is more stable and consistent, with less fluctuation from the average, and fewer defects. The name "Six Sigma" itself represents an extreme pursuit of perfect quality. It is not just a collection of statistical tools, but a systematic way of thinking that solves complex problems and achieves breakthrough performance improvements through the structured project path of **DMAIC** (Define-Measure-Analyze-Improve-Control).
+
+!!! abstract "Key takeaways"
+
+    - **Goal**: reduce variation and defects; "six sigma" quality means 3.4 defects per million opportunities.
+    - **DMAIC** improves existing processes: Define, Measure, Analyze, Improve, Control.
+    - **Decisions are based on data**, not opinion: measure the baseline, prove root causes statistically.
+    - **Belts** (Yellow, Green, Black, Master Black) define roles and training levels.
+    - **Lean Six Sigma** combines waste removal ([Lean](Lean-Operations-Tutorial-en.md)) with variation reduction.
 
 ## Core Principles of Six Sigma
 
@@ -77,6 +90,74 @@ The successful implementation of Six Sigma relies on a clear system of roles and
 *   **May stifle innovation**: Overemphasis on controlling and optimizing existing processes can sometimes conflict with disruptive innovation that requires exploration and trial-and-error.
 *   **Risk of bureaucracy**: If implemented improperly, it can become a bureaucratic process filled with complex statistical tools and reports, "doing projects" for the sake of "doing projects."
 *   **Requires significant investment**: Successful Six Sigma implementation requires significant upfront investment from the company in training, project resources, and personnel.
+
+## Key Tools in Each DMAIC Phase
+
+| Phase | Purpose | Common tools |
+| --- | --- | --- |
+| **Define** | Clarify the problem, goal and scope | Project charter, SIPOC, voice of the customer (VOC), CTQ tree |
+| **Measure** | Establish the baseline | Data collection plan, measurement system analysis (MSA), process capability |
+| **Analyze** | Find and verify root causes | [Fishbone diagram](../../Problem Solving & Decision Making/root_cause_analysis/Fishbone-Diagram-Tutorial-en.md), [5 Whys](../../Problem Solving & Decision Making/root_cause_analysis/5-Whys-Tutorial-en.md), [Pareto chart](../../Problem Solving & Decision Making/decision_making/Pareto-Analysis-Tutorial-en.md), hypothesis tests, regression |
+| **Improve** | Develop and test solutions | Design of experiments (DOE), pilot tests, FMEA |
+| **Control** | Sustain the gains | Control charts, standard work, control plan |
+
+## Project Charter Template
+
+| Field | Content |
+| --- | --- |
+| Problem statement | What is wrong, where, since when, how big (no causes or solutions) |
+| Goal statement | Metric, baseline, target, deadline |
+| Business case | Why it matters: cost, customer, risk |
+| Scope | In scope / out of scope |
+| CTQs | Critical-to-quality characteristics from the customer's view |
+| Team | Champion, Black/Green Belt, members |
+| Timeline | Dates for each DMAIC phase gate |
+
+## Sigma Levels at a Glance
+
+| Sigma level | Defects per million opportunities (DPMO) | Yield |
+| --- | --- | --- |
+| 2σ | 308,537 | 69.1% |
+| 3σ | 66,807 | 93.3% |
+| 4σ | 6,210 | 99.38% |
+| 5σ | 233 | 99.977% |
+| 6σ | 3.4 | 99.99966% |
+
+(These figures include the conventional 1.5σ long-term shift.)
+
+## Common Mistakes
+
+1.  **Jumping to solutions in Define.** A charter that already names the fix skips Measure and Analyze and often fixes the wrong thing.
+2.  **Bad measurement systems.** If the measurement itself is unreliable, all later analysis is built on noise. Check it (MSA) before analyzing.
+3.  **Projects that are too large.** "Improve customer satisfaction" is a program, not a project. Scope projects to finish in 3–6 months.
+4.  **Statistics for their own sake.** Use the simplest tool that answers the question.
+5.  **Weak Control phase.** Without control charts, ownership and updated standards, processes drift back.
+
+## Six Sigma vs. Lean vs. TQM
+
+| | Six Sigma | [Lean](Lean-Operations-Tutorial-en.md) | [TQM](Total-Quality-Management-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Focus | Reducing variation and defects | Removing waste and improving flow | Organization-wide quality culture |
+| Approach | Structured projects (DMAIC) led by trained belts | Continuous improvement, value stream mapping | Philosophy with broad participation |
+| Main tools | Statistics, DOE, control charts | 5S, kanban, takt time, [kaizen](Kaizen-Tutorial-en.md) | Quality circles, PDCA, the seven basic quality tools |
+
+## Frequently Asked Questions
+
+??? question "What does Six Sigma mean?"
+
+    Sigma (σ) is the statistical symbol for standard deviation. A "six sigma" process has so little variation that six standard deviations fit between the mean and the nearest specification limit, which corresponds to about 3.4 defects per million opportunities.
+
+??? question "What is the difference between DMAIC and DMADV?"
+
+    DMAIC improves existing processes. DMADV (Define, Measure, Analyze, Design, Verify), also called Design for Six Sigma, is used to design new processes or products.
+
+??? question "What are the Six Sigma belts?"
+
+    Yellow Belts know the basics and support projects; Green Belts lead smaller projects part-time; Black Belts lead complex projects full-time and coach others; Master Black Belts train Black Belts and guide the overall program.
+
+??? question "Is Six Sigma only for manufacturing?"
+
+    No. It is widely used in finance, healthcare, logistics, IT and services, anywhere processes can be measured.
 
 ## Extensions and Connections
 

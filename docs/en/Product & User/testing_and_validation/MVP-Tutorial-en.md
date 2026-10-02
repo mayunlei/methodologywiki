@@ -1,8 +1,21 @@
+---
+title: "Minimum Viable Product (MVP): Types, Examples and How to Build One"
+description: "A minimum viable product (MVP) is the smallest thing you can build to test your riskiest assumption with real users. Learn the main MVP types, a hypothesis template, success metrics, classic examples like Dropbox and Zappos, and common mistakes."
+---
+
 # MVP (Minimum Viable Product)
 
 In the uncertain world of startups, many passionate teams spend months or even years, pouring all their resources into building a "ultimate product" that is powerful and perfectly designed in their minds. However, when the product is finally launched, it often faces a harsh reality: the market doesn't need it at all. **MVP (Minimum Viable Product)** is a core concept proposed in the Lean Startup methodology to avoid this kind of massive waste from "building in a vacuum."
 
 MVP is not a synonym for "shoddy" or "unfinished." Its definition is: **the version of a product with the fewest features that allows you to launch it to the market and validate its core value proposition with the lowest cost and and in the shortest time**. The fundamental purpose of MVP is not the "product itself," but a **learning process**. It is a tool for scientific experimentation, designed to quickly throw your core assumptions about "user problems" and "solutions" into the real market, and at minimal cost, gain the most valuable insights into "**Is this direction right?**"
+
+!!! abstract "Key takeaways"
+
+    - **An MVP is an experiment, not a cheap version 1.0**: its job is to test your riskiest assumption.
+    - **Start from a hypothesis**: "We believe [customers] will [behavior] because [reason]; we'll know if [metric]."
+    - **Many MVPs involve little or no code**: landing pages, videos, concierge and Wizard-of-Oz tests.
+    - **Decide success criteria before launching** so you can't rationalize any result.
+    - **Then build, measure, learn**: persevere, pivot or stop based on evidence.
 
 ## Core Idea of MVP
 
@@ -72,6 +85,64 @@ Imagine your goal is to build a car.
 *   **Misunderstanding of "Minimum"**: Teams can easily disagree on the definition of "minimum." MVP does not equal shoddy; it must be "viable," and deliver core value.
 *   **Negative User Feedback**: Ordinary users outside of early adopters may give bad reviews due to the MVP's overly simple features, which may have a certain negative impact on the brand.
 *   **Temptation of Perfectionism**: Founders and engineers often have an urge to polish the product to perfection. Resisting the temptation of "just one more feature" is one of the biggest challenges in building an MVP.
+
+## Types of MVP
+
+| Type | What it is | Tests | Example |
+| --- | --- | --- | --- |
+| **Landing page / smoke test** | A page describing the product with a sign-up or pre-order button | Demand, messaging | Buffer's plans page before the product existed |
+| **Explainer video** | A video showing how the product would work | Interest in the concept | Dropbox's demo video |
+| **Concierge MVP** | You deliver the service manually and openly to a few customers | Value of the solution | Personal shopping by hand before building software |
+| **Wizard of Oz** | Looks automated to the customer, but humans do the work behind the scenes | Whether customers use it as intended | Zappos photographing and buying shoes from local stores |
+| **Single-feature product** | One core feature done well | Retention and real usage | Early versions of many apps |
+| **Piecemeal MVP** | Combining existing tools (forms, spreadsheets, no-code) | End-to-end workflow | A marketplace run on forms and email |
+
+## MVP Hypothesis Template
+
+| Field | Content |
+| --- | --- |
+| Riskiest assumption | |
+| Hypothesis | We believe that [target customers] will [do something] because [reason]. |
+| Experiment (MVP type) | |
+| Metric | |
+| Success threshold | We will continue if [metric] reaches [value] within [time]. |
+| Cost / time budget | |
+| Decision after the test | Persevere / pivot / stop |
+
+## Common Mistakes
+
+1.  **Building too much.** Spending six months on "minimum" features defeats the purpose. Ask: what's the cheapest way to test the riskiest assumption?
+2.  **Testing the easy assumption.** Teams often test technical feasibility when the real risk is whether anyone wants the product.
+3.  **No success criteria.** Without a threshold set in advance, any result can be spun as encouraging.
+4.  **Vanity metrics.** Sign-ups and page views say little about value; look for behavior like repeat use or payment.
+5.  **Embarrassingly bad quality.** "Minimum" refers to scope, not to a broken experience. The core value must work.
+6.  **Not talking to users.** Numbers show what happened; conversations explain why.
+
+## MVP vs. Prototype vs. Proof of Concept
+
+| | Proof of Concept | Prototype | MVP |
+| --- | --- | --- | --- |
+| Question | Can it be built? | How should it work and look? | Will people use and value it? |
+| Audience | Internal team | Test users | Real customers in the market |
+| Output | Technical feasibility | Design feedback | Market evidence |
+
+## Frequently Asked Questions
+
+??? question "Who coined the term minimum viable product?"
+
+    Frank Robinson used it around 2001; Steve Blank and Eric Ries popularized it, especially through Ries's book *The Lean Startup* (2011).
+
+??? question "How minimal should an MVP be?"
+
+    Minimal enough to build quickly and cheaply, viable enough to deliver the core value and produce trustworthy learning about your riskiest assumption.
+
+??? question "Is an MVP the same as a beta version?"
+
+    No. A beta is a nearly finished product tested for bugs and polish. An MVP is an early experiment to test whether the product idea is worth pursuing at all.
+
+??? question "What comes after an MVP?"
+
+    Based on the results, you persevere and improve, pivot to a new hypothesis, or stop. The [Lean Canvas](../../Strategy & Business/business_model/Lean-Canvas-Tutorial-en.md) is a good place to record what you learned and decide the next experiment.
 
 ## Extensions and Connections
 

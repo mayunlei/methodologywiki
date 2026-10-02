@@ -1,3 +1,8 @@
+---
+title: "Mixed Methods Research: Designs, Examples and How to Integrate Data"
+description: "Mixed methods research combines quantitative and qualitative data in one study to get a fuller answer than either alone. Learn the core designs (convergent, explanatory sequential, exploratory sequential), how to integrate results, a planning template and common mistakes."
+---
+
 # Mixed-Methods Research
 
 ![Mixed-Methods Research Diagram](Mixed-Methods-Research-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 In the field of research, there have long been two mainstream paradigms: **quantitative research**, which uses numbers and statistics as its weapons, striving for objective and systematic measurement of social and natural phenomena; and **qualitative research**, which focuses on language and context, exploring the deep meanings of human experience. The former pursues objectivity and universality, while the latter seeks depth and meaning. However, more and more researchers are finding that any single method is like a blind man touching an elephant, only touching a part of reality. **Mixed-Methods Research** emerged not as a simple addition of two methods, but as a more mature and wise research philosophy.
 
 Its core idea is to strategically and systematically integrate both quantitative and qualitative data and their analysis methods within a research project, in order to gain a more comprehensive, in-depth, and multi-dimensional understanding than any single method could provide. It believes that numbers can reveal the breadth of patterns, while stories can reveal the depth behind patterns. The combination of the two can make research conclusions more robust and insightful.
+
+!!! abstract "Key takeaways"
+
+    - **Combine numbers and stories** in one study when neither alone answers the question.
+    - **Three core designs**: convergent, explanatory sequential (quan → qual) and exploratory sequential (qual → quan).
+    - **Integration is the point**: results must be connected, compared or built on, not just reported side by side.
+    - **Decide priority and timing** of each strand at the design stage.
+    - **Joint displays** (tables or charts that combine both kinds of findings) make integration visible.
 
 ## Why Mix? The Synergistic Effect of Research
 
@@ -92,6 +105,61 @@ Mixed-methods research has various design patterns, among which the three core o
 *   **Time and Labor Intensive**: Usually requires more time, resources, and budget than single-method research.
 *   **High Skill Requirements**: Requires researchers or research teams to be proficient in both quantitative and qualitative research paradigms.
 *   **Potentially Contradictory Results**: When the two methods yield inconsistent conclusions, how to explain and integrate them becomes a significant challenge (though it can also be an opportunity for major discoveries).
+
+## Core Mixed Methods Designs
+
+| Design | Sequence | Purpose | Example |
+| --- | --- | --- | --- |
+| **Convergent** | Quantitative and qualitative at the same time | Compare or corroborate results | Survey of 500 employees + 20 interviews on the same benefit program |
+| **Explanatory sequential** | Quantitative → qualitative | Explain surprising or important numbers | Analytics show churn spikes at month 3 → interviews explore why |
+| **Exploratory sequential** | Qualitative → quantitative | Build a measure or test qualitative findings at scale | Interviews identify needs → survey measures how common they are |
+
+## Planning Template
+
+| Element | Decision |
+| --- | --- |
+| Research question(s) | One overarching question plus strand-specific questions |
+| Rationale for mixing | Why one method isn't enough |
+| Design | Convergent / explanatory / exploratory |
+| Priority | Equal, or one strand dominant |
+| Quantitative strand | Sample, measures, analysis |
+| Qualitative strand | Participants, data collection, analysis |
+| Point of integration | Design, data collection, analysis or interpretation |
+| Integration method | Merging, connecting (one informs sampling of the other), building, joint display |
+
+## Joint Display Example
+
+| Theme from interviews | Survey finding | Interpretation |
+| --- | --- | --- |
+| "Benefits are hard to understand" | 62% could not name two benefits they're entitled to | Converges: awareness is a key barrier |
+| "Flexible hours matter more than perks" | Flexibility ranked #1 of 8 benefits | Converges |
+| "Gym subsidy is popular" | Only 9% use it | Diverges: valued in principle, rarely used → explore barriers |
+
+## Common Mistakes
+
+1.  **Parallel studies, no integration.** Reporting a survey chapter and an interview chapter separately isn't mixed methods.
+2.  **No rationale for mixing.** Adding interviews "for color" without a clear purpose weakens the design.
+3.  **Underestimating effort.** Mixed methods require skills and time for both strands.
+4.  **Ignoring contradictions.** When strands disagree, that's often the most interesting finding; investigate it.
+5.  **Mismatched samples.** In explanatory designs, interview participants should be selected based on the quantitative results.
+
+## Frequently Asked Questions
+
+??? question "When should I use mixed methods?"
+
+    When you need both breadth and depth: to measure how common something is and understand why, to explain unexpected numbers, or to build a survey grounded in real experiences.
+
+??? question "Who are the key authors on mixed methods?"
+
+    John W. Creswell and Vicki Plano Clark (*Designing and Conducting Mixed Methods Research*) are among the most cited; Abbas Tashakkori and Charles Teddlie also shaped the field.
+
+??? question "Is adding an open-ended question to a survey mixed methods?"
+
+    Usually not by itself. Mixed methods involve a planned qualitative strand with its own analysis, integrated with the quantitative results.
+
+??? question "How do product teams use mixed methods?"
+
+    Very often: analytics or A/B tests show what is happening, while interviews and [usability tests](../../Product & User/testing_and_validation/Usability-Testing-Tutorial-en.md) explain why, a classic explanatory sequential design.
 
 ## Extensions and Connections
 

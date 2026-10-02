@@ -1,3 +1,8 @@
+---
+title: "KPIs (Key Performance Indicators): How to Choose Them, Examples, Template"
+description: "Key Performance Indicators (KPIs) are the few metrics that show whether an organization or team is achieving its key objectives. Learn how to choose good KPIs, leading vs lagging indicators, a KPI definition template, examples by function and common mistakes."
+---
+
 # KPI (Key Performance Indicator)
 
 ![KPI Diagram](KPI-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 In complex organizational operations, how can managers quickly and accurately assess the health of the business, the efficiency of processes, and the effectiveness of strategy execution? **KPI (Key Performance Indicator)** is a core management tool designed for this purpose. It is not an abstract concept, but a specific, quantifiable **measurement standard** used to continuously monitor and evaluate the performance of an organization, a team, or an employee in achieving their key business objectives. A KPI is like an airplane's cockpit dashboard; it translates complex operations into a few key, clear readings, allowing the pilot to understand the flight status in real-time and make timely adjustments.
 
 The essence of KPI lies in "**Key**." There can be thousands of measurable data points in an organization, but only those indicators that are closely linked to strategic goals and can truly reflect the core of performance can be called KPIs. It aims to direct the organization's attention to the most important things and provide an objective, unified data basis for performance management, goal setting, and continuous improvement. From measuring website visitor conversion rates to evaluating production line yield rates, and tracking customer service response times, KPIs are ubiquitous and an indispensable cornerstone of modern data-driven management.
+
+!!! abstract "Key takeaways"
+
+    - **A KPI is a metric tied to a key objective**; not every metric is a KPI.
+    - **Fewer is better**: typically 3–7 per team or level.
+    - **Mix leading and lagging indicators**: lagging shows results, leading lets you act in time.
+    - **Define each KPI precisely**: formula, data source, owner, frequency, target.
+    - **Watch for gaming**: when a measure becomes a target, people optimize the number, not the outcome (Goodhart's law).
 
 ## Characteristics and Types of KPI
 
@@ -82,6 +95,75 @@ Based on their content, KPIs can be divided into various types:
 *   **One-Sidedness of Metrics**: If KPIs are set improperly, it may lead to "metricism" or short-sighted behavior. For example, if only "number of calls answered by the call center" is assessed, customer service representatives might sacrifice call quality to pursue quantity.
 *   **"What can be quantified is not necessarily important, and what is important is not necessarily quantifiable"**: Over-reliance on KPIs may overlook factors that are difficult to quantify but equally important, such as organizational culture, innovation spirit, etc.
 *   **Requires Dynamic Adjustment**: As strategies and market environments change, KPIs must be regularly reviewed and adjusted, otherwise they may become rigid and outdated.
+
+## Leading vs. Lagging Indicators
+
+| | Lagging indicator | Leading indicator |
+| --- | --- | --- |
+| Measures | Outcomes that have already happened | Activities or conditions that predict outcomes |
+| Example (sales) | Quarterly revenue | Qualified pipeline value, number of demos |
+| Example (customer service) | Customer churn rate | First-response time, unresolved tickets older than 48 h |
+| Strength | Clear link to goals | Allows timely action |
+| Weakness | Too late to change | Must actually predict the outcome |
+
+## KPI Definition Template
+
+| Field | Example |
+| --- | --- |
+| Name | Customer churn rate |
+| Objective it supports | Grow recurring revenue |
+| Formula | Customers lost in month ÷ customers at start of month |
+| Data source | Billing system |
+| Owner | Head of Customer Success |
+| Frequency | Monthly |
+| Baseline / target | 3.2% → 2.5% by Q4 |
+| Thresholds | Green ≤ 2.5%, amber 2.6–3.0%, red > 3.0% |
+| Related leading indicators | Product usage in last 14 days, support satisfaction |
+
+## Example KPIs by Function
+
+| Function | Example KPIs |
+| --- | --- |
+| Sales | Revenue vs. target, win rate, average deal size, sales cycle length |
+| Marketing | Cost per acquisition, marketing-qualified leads, conversion rate |
+| Customer service | First-contact resolution, CSAT, average handle time |
+| Operations | On-time delivery, defect rate, inventory turnover |
+| HR | Voluntary turnover, time to hire, engagement score |
+| Product | Active users, retention, feature adoption |
+
+## Common Mistakes
+
+1.  **Too many KPIs.** Twenty "key" indicators means nothing is key. Choose the vital few and track the rest as ordinary metrics.
+2.  **Vanity metrics.** Page views or social followers may look good while revenue falls. Choose metrics tied to real outcomes.
+3.  **Only lagging indicators.** By the time revenue drops, it's too late. Add leading indicators you can influence.
+4.  **Unclear definitions.** If finance and sales calculate "churn" differently, meetings become arguments about numbers.
+5.  **Rewarding the number alone.** Targets without context invite gaming (e.g. closing support tickets prematurely). Pair KPIs with quality checks.
+
+## KPIs vs. OKRs vs. SMART Goals
+
+| | KPI | [OKR](OKR-Tutorial-en.md) | [SMART Goals](SMART-Goals-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Purpose | Monitor ongoing performance | Drive change toward ambitious goals | Write a clear, achievable goal |
+| Time frame | Continuous | Usually quarterly | Defined per goal |
+| Typical use | Dashboards, health checks | Strategic priorities, focus | Individual and team goals |
+
+## Frequently Asked Questions
+
+??? question "What is the difference between a KPI and a metric?"
+
+    Every KPI is a metric, but not every metric is a KPI. A KPI is one of the few metrics directly linked to a key objective and used to steer decisions.
+
+??? question "How many KPIs should a team have?"
+
+    Usually three to seven. Enough to cover the most important outcomes and drivers, few enough to remember and act on.
+
+??? question "What is Goodhart's law?"
+
+    "When a measure becomes a target, it ceases to be a good measure." People optimize the number, sometimes in ways that harm the real goal. Balanced sets of KPIs and qualitative review reduce the risk.
+
+??? question "How do KPIs relate to the Balanced Scorecard?"
+
+    The [Balanced Scorecard](../../Strategy & Business/strategic_execution/Balanced-Scorecard-Tutorial-en.md) organizes KPIs into four perspectives (financial, customer, internal process, learning and growth) so that performance isn't judged on financial results alone.
 
 ## Extensions and Connections
 

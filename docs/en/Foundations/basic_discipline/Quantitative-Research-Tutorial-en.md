@@ -1,3 +1,8 @@
+---
+title: "Quantitative Research: Methods, Design Steps, Examples and Pitfalls"
+description: "Quantitative research collects numerical data and uses statistics to describe, find relationships and test hypotheses. Learn the main designs, the research process, sampling and measurement basics, a study plan template, how it compares with qualitative research and common mistakes."
+---
+
 # Quantitative Research
 
 ![Quantitative Research Diagram](Quantitative-Research-Tutorial-en-diagram.png)
@@ -5,6 +10,14 @@
 Among the many ways to explore the world, **Quantitative Research** is a core method that uses numbers and statistics as its language, striving to objectively and systematically measure social and natural phenomena. It is not simply about dealing with numbers; its essence is an empirical paradigm that verifies hypotheses, reveals patterns, and predicts future trends through quantifiable data. When you need to answer questions like "How many?", "How frequent?", or "Is there a significant relationship between the two?", quantitative research becomes an indispensable tool.
 
 It attempts to transform complex phenomena into measurable, comparable variables, and through rigorous statistical analysis, draw conclusions that are generalizable and verifiable. From testing drug efficacy in medicine to surveying consumer preferences in marketing, and analyzing macro trends in sociology, quantitative research provides solid logical and data support for us to understand and transform the world.
+
+!!! abstract "Key takeaways"
+
+    - **Numbers and statistics** to measure, compare and test hypotheses.
+    - **Main designs**: descriptive, correlational, experimental and quasi-experimental.
+    - **Quality rests on** valid measures, reliable instruments and representative samples.
+    - **Statistical significance is not practical importance**: report effect sizes and confidence intervals.
+    - **Combine with qualitative research** when you also need to understand why ([mixed methods](Mixed-Methods-Research-Tutorial-en.md)).
 
 ## Core Logic of Quantitative Research
 
@@ -90,6 +103,65 @@ graph TD
 *   **Simplifies Reality**: Reducing complex social phenomena to a limited number of variables may overlook the rich context and deeper reasons behind them.
 *   **Cannot Answer "Why"**: It can effectively reveal "what" and "how much," but often struggles to explain the motivations and processes behind phenomena in depth.
 *   **Measurement Error**: Questionnaire design and participant responses may have biases, affecting data accuracy.
+
+## Quantitative Research Designs
+
+| Design | Question | Example |
+| --- | --- | --- |
+| [Descriptive](../scientific_inquiry_paradigm/Descriptive-Research-Tutorial-en.md) | What is the situation? | Survey of remote-work prevalence |
+| [Correlational](../scientific_inquiry_paradigm/Correlational-Research-Tutorial-en.md) | Are variables related? | Study hours vs. exam scores |
+| [Experimental](../scientific_inquiry_paradigm/Experimental-Research-Tutorial-en.md) | Does X cause Y? | Randomized trial of a new teaching method |
+| Quasi-experimental | Does X seem to cause Y without random assignment? | Comparing schools before and after a policy change |
+| [Longitudinal](../../Product & User/time_dimension_design/Longitudinal-Research-Tutorial-en.md) | How does something change over time? | Panel survey following graduates for 10 years |
+
+## Study Plan Template
+
+| Element | Content |
+| --- | --- |
+| Research question & hypotheses | |
+| Variables and operational definitions | |
+| Design | |
+| Population, sampling method, sample size (power analysis) | |
+| Instruments (validated scales where possible) | |
+| Data collection procedure | |
+| Analysis plan (tests, decided in advance) | |
+| Validity threats and mitigations | |
+| Ethics (consent, privacy) | |
+
+## Reliability and Validity at a Glance
+
+| Concept | Question | Example check |
+| --- | --- | --- |
+| Reliability | Does the measure give consistent results? | Test-retest correlation, Cronbach's alpha |
+| Construct validity | Does it measure what it claims to? | Correlates with related measures, not with unrelated ones |
+| Internal validity | Can we trust causal conclusions? | Random assignment, control groups |
+| External validity | Do results generalize? | Representative sampling, replication |
+
+## Common Mistakes
+
+1.  **Asking the wrong question for the design.** Correlational data can't answer causal questions.
+2.  **Poorly designed questionnaires.** Leading, double-barreled or ambiguous questions produce precise-looking but meaningless numbers.
+3.  **P-hacking.** Trying many analyses until something is significant. Pre-register hypotheses and analysis plans.
+4.  **Ignoring effect sizes.** A statistically significant 0.2% difference may not matter in practice.
+5.  **Generalizing from convenience samples.** Online volunteers are rarely representative of the general population.
+
+## Frequently Asked Questions
+
+??? question "What is the difference between quantitative and qualitative research?"
+
+    Quantitative research measures and counts, using statistics to test hypotheses with larger samples. [Qualitative research](Qualitative-Research-Tutorial-en.md) explores meanings and experiences in depth with smaller samples.
+
+??? question "What sample size do I need?"
+
+    It depends on the design, expected effect size, desired confidence and power, and subgroup analyses. Use a power analysis rather than a fixed rule.
+
+??? question "What statistical software is commonly used?"
+
+    SPSS, Stata and SAS are traditional choices; R and Python are free and widely used; Excel handles simple descriptive and basic inferential statistics.
+
+??? question "What is a hypothesis in quantitative research?"
+
+    A specific, testable prediction about a relationship between variables, usually stated as a null hypothesis (no effect) and an alternative hypothesis.
 
 ## Extensions and Connections
 

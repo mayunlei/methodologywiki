@@ -1,8 +1,21 @@
+---
+title: "Ethnography: Methods, Field Notes, Examples and Practical Tips"
+description: "Ethnography studies people's behavior and culture in their natural settings through participant observation and interviews. Learn the core methods, a field-note template, how business and design teams use rapid ethnography, examples and ethical pitfalls."
+---
+
 # Ethnography
 
 To truly understand a culture, relying solely on questionnaires or interviews is far from enough; you must personally "jump into that river and swim." **Ethnography** is precisely such an in-depth qualitative research method that requires researchers to immerse themselves and empathize. Originating from cultural anthropology, its core lies in gaining a **holistic** understanding of a specific community's culture, social structure, and behavioral patterns by conducting **participant observation** within their daily lives over a relatively long period.
 
 Ethnographic researchers pursue a "thick description," not only recording what people "do" but also striving to reveal what these behaviors "mean" within specific cultural contexts. It is not about "studying" a group of people from the outside, but rather attempting to understand their worldview from within. When you want to explore an internal rules of a subculture, the implicit culture of an organization, or the real life of a community, ethnography offers unparalleled depth and authenticity.
+
+!!! abstract "Key takeaways"
+
+    - **Study people where they live and work**, over time, to understand behavior and meaning in context.
+    - **Participant observation** is the core method, supported by interviews and artifacts.
+    - **Thick description**: record not just what happened, but what it meant to the people involved.
+    - **Rapid or focused ethnography** adapts the method for product and design teams (days or weeks instead of months).
+    - **Ethics matter**: informed consent, privacy and your impact on the people you study.
 
 ## Core Concepts and Characteristics of Ethnography
 
@@ -74,6 +87,64 @@ Ethnographic researchers pursue a "thick description," not only recording what p
 *   **Researcher Subjectivity**: The researcher's personal background, biases, and interpretive abilities have a decisive impact on the research results.
 *   **Difficulty of Entry and Ethical Issues**: Entering some closed communities is very difficult, and the research process involves many ethical dilemmas (e.g., privacy, informed consent, researcher role conflict).
 *   **Difficult to Generalize**: Research conclusions usually apply only to the specific community studied and are difficult to directly generalize to other groups.
+
+## Field Note Template
+
+| Field | Content |
+| --- | --- |
+| Date, time, location | |
+| People present (roles, not names unless consented) | |
+| Setting | Physical layout, objects, sounds, atmosphere |
+| What happened | Chronological, concrete, as close to verbatim as possible |
+| Quotes | Exact words, marked with quotation marks |
+| My interpretation | Kept separate from description |
+| Questions / follow-ups | What to look for or ask next time |
+| Reflexive note | How my presence or assumptions may have influenced what I saw |
+
+Write up full notes within 24 hours; memory degrades quickly.
+
+## Ethnography in Business and Design
+
+| Format | Duration | Typical use |
+| --- | --- | --- |
+| Classic ethnography | Months to years | Academic study of communities and cultures |
+| Focused / rapid ethnography | Days to weeks | Understanding a specific practice, such as how nurses hand over shifts |
+| Contextual inquiry | 1–2 hours per participant | Observing and interviewing users while they work |
+| Digital ethnography | Ongoing | Studying online communities and platforms |
+
+## Common Mistakes
+
+1.  **Only interviewing.** Ethnography's value comes from seeing what people actually do, which often differs from what they say.
+2.  **Mixing observation and interpretation.** "The manager was annoyed" is an interpretation; "the manager sighed and closed the laptop" is an observation. Record both, separately.
+3.  **Going native without reflection.** Deep immersion is valuable, but keep reflexive notes to stay aware of your shifting perspective.
+4.  **Ignoring consent and privacy.** Participants should know what you're doing and how data will be used, especially in workplaces.
+5.  **Reporting anecdotes as findings.** Analyze notes systematically (coding, themes) before drawing conclusions.
+
+## Ethnography vs. Other Qualitative Methods
+
+| | Ethnography | Interviews | [Case Study](Case-Study-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Data | Observation in context + conversations | What people report | Multiple sources about one bounded case |
+| Time in the field | Long | Short | Varies |
+| Strength | Reveals tacit behavior and culture | Efficient access to experiences and views | Holistic understanding of a specific case |
+
+## Frequently Asked Questions
+
+??? question "What is participant observation?"
+
+    The researcher takes part in the daily life of the people studied, observing and sometimes participating, while recording what happens. The degree of participation ranges from complete observer to full participant.
+
+??? question "How long does ethnographic research take?"
+
+    Traditional ethnography may last a year or more. Focused ethnographies in organizations or product research can take a few days to a few weeks.
+
+??? question "Is ethnography useful for UX and product teams?"
+
+    Yes. Watching users in their real environment uncovers workarounds, constraints and needs that surveys and lab tests miss. Intel, Microsoft and many design firms have employed ethnographers.
+
+??? question "How do you analyze ethnographic data?"
+
+    By coding field notes and transcripts, identifying patterns and themes, and connecting them to the context, often using approaches from [grounded theory](../../Foundations/theory_and_practice/Grounded-Theory-Tutorial-en.md) or thematic analysis.
 
 ## Extensions and Connections
 

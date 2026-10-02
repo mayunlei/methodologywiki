@@ -1,8 +1,21 @@
+---
+title: "Lean Canvas: Template, Examples and How to Validate Your Startup"
+description: "The Lean Canvas adapts the Business Model Canvas for startups, focusing on problems, solutions, key metrics and unfair advantage. Learn how to fill it in, how to rank risks, how to run problem and solution interviews, examples and common mistakes."
+---
+
 # Lean Canvas
 
 In the early stages of a startup, the biggest risk is often not "can we build the product?" but "will anyone actually want the product we build?" Traditional business plans and business model canvases are excellent tools for mature companies, but for startups operating in high uncertainty, they can be overly complex and not sufficiently focused on the most critical risks. **Lean Canvas** was created to solve this problem; it is a brilliant adaptation of the Business Model Canvas, tailored specifically for **early-stage entrepreneurs**.
 
 Lean Canvas, proposed by Ash Maurya in his book *Running Lean*, inherits the simplicity and intuitiveness of the Business Model Canvas but shifts the focus from a "complete description of the business model" to **"systematically identifying and validating the highest-risk startup hypotheses."** It centers around **Problem-Solution** and adds attention to key metrics and competitive advantages, more deeply embodying the "build-measure-learn" cycle of Lean Startup. It is a risk-oriented battle map guiding entrepreneurs through the fog.
+
+!!! abstract "Key takeaways"
+
+    - **One page, nine boxes**, built around the problem and the customer rather than a finished business model.
+    - **Fill it in fast** (about 20 minutes) as Plan A, then treat every box as a hypothesis.
+    - **Rank risks**: customer and problem risk first, then product risk, then market risk.
+    - **Validate by talking to customers** with problem interviews before building, then solution interviews.
+    - **Update the canvas** after every experiment; it is a living record of what you've learned.
 
 ## The Nine Blocks of Lean Canvas
 
@@ -82,6 +95,55 @@ The process of using Lean Canvas is a continuous cycle of validation and iterati
 
 *   **Insufficient Attention to External Environment**: Like the Business Model Canvas, it does not inherently include analysis of competition and the macro-environment.
 *   **Not Applicable to All Businesses**: It is most suitable for high-uncertainty startups. For mature companies with validated business models, the Business Model Canvas might be a more comprehensive tool.
+
+## Recommended Order for Filling In the Lean Canvas
+
+| Order | Block | Tip |
+| --- | --- | --- |
+| 1 | Customer Segments | Identify early adopters, the people who feel the problem most |
+| 2 | Problem | List the top 1–3 problems and the existing alternatives people use today |
+| 3 | Unique Value Proposition | One clear sentence: why you're different and worth attention |
+| 4 | Solution | The simplest features that address each problem |
+| 5 | Channels | Free and paid paths to reach early adopters |
+| 6 | Revenue Streams | Pricing model; price is part of the product |
+| 7 | Cost Structure | Costs to reach break-even, including customer acquisition |
+| 8 | Key Metrics | The few numbers that show progress (often activation and retention) |
+| 9 | Unfair Advantage | Something that can't easily be copied or bought; leave blank if you don't have one yet |
+
+## Problem Interview Script (Short Version)
+
+1.  **Set the scene**: "We're researching how people handle [problem area]. There's nothing to sell."
+2.  **Collect background**: "Tell me about your role and how [area] fits into your week."
+3.  **Rank problems**: "Here are three problems others mention. How would you rank them for you?"
+4.  **Explore the top problem**: "Tell me about the last time this happened. What did you do? What did it cost you?"
+5.  **Existing alternatives**: "How do you deal with it today? What do you like and dislike about that?"
+6.  **Wrap up**: "Can we follow up when we have something to show? Who else should we talk to?"
+
+## Common Mistakes
+
+1.  **Starting with the solution.** Filling in the Solution box first leads you to look for customers who fit your idea. Start with customers and problems.
+2.  **Vague customer segments.** "Small businesses" is too broad; "independent cafés with 2–10 staff" can be found and interviewed.
+3.  **Vanity metrics.** Downloads or page views rarely indicate progress. Choose metrics tied to value delivered, such as weekly active use or retention.
+4.  **Faking an unfair advantage.** "Great team" or "first mover" is rarely unfair. It's fine to leave the box empty early on.
+5.  **Never updating it.** A canvas written once and never revised has stopped being a learning tool.
+
+## Frequently Asked Questions
+
+??? question "What is the difference between the Lean Canvas and the Business Model Canvas?"
+
+    The Lean Canvas replaces Key Partners, Key Activities, Key Resources and Customer Relationships with Problem, Solution, Key Metrics and Unfair Advantage, shifting the focus from describing a business to testing the riskiest assumptions of a startup.
+
+??? question "How long should it take to fill in a Lean Canvas?"
+
+    About 15–20 minutes for a first version. Speed is the point: capture your current assumptions, then spend your time testing them.
+
+??? question "What is an unfair advantage?"
+
+    Something that can't easily be copied or bought: insider information, a network effect, a community, exclusive access, or a dream team with rare expertise. Most early startups don't have one yet.
+
+??? question "Can existing companies use the Lean Canvas?"
+
+    Yes, for new products or ventures inside a company where uncertainty is high. For mature, validated businesses, the [Business Model Canvas](Business-Model-Canvas-Tutorial-en.md) is usually more appropriate.
 
 ## Extensions and Connections
 

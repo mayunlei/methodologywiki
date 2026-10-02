@@ -1,3 +1,8 @@
+---
+title: "RACI Matrix: Roles Explained, Template, Examples and Rules"
+description: "A RACI matrix clarifies who is Responsible, Accountable, Consulted and Informed for each task or decision. Get a ready-to-use template, the rules for assigning roles, how to check a chart for problems, variations like RASCI, and common mistakes."
+---
+
 # RACI Matrix
 
 ![RACI Matrix Diagram](RACI-Matrix-Tutorial-en-diagram.png)
@@ -12,6 +17,14 @@ RACI is an acronym for four different types of responsibility:
 *   **A - Accountable**
 *   **C - Consulted**
 *   **I - Informed**
+
+!!! abstract "Key takeaways"
+
+    - **R – Responsible**: does the work. **A – Accountable**: owns the outcome and signs off.
+    - **C – Consulted**: gives input before (two-way). **I – Informed**: kept up to date after (one-way).
+    - **Exactly one A per task**; at least one R.
+    - **Fewer Cs and Is speed things up**: consult only those whose input changes the outcome.
+    - **Use it for tasks and decisions where confusion actually happens**, not every trivial activity.
 
 ## Detailed Explanation of the Four RACI Roles
 
@@ -115,6 +128,62 @@ graph TD
 *   **Can Be Too Rigid**: If implemented too dogmatically, it may limit team flexibility and self-organization. RACI is a communication tool, not a bureaucratic process.
 *   **Does Not Solve All Problems**: It only defines "who does what," but not "how to do it" or "when to complete it." It needs to be used in conjunction with other tools like project plans and process flowcharts.
 *   **Creation and Maintenance Cost**: For very large and complex projects, creating and maintaining a detailed RACI matrix can be a significant undertaking in itself.
+
+## RACI Template
+
+| Task / decision | Product manager | Engineering lead | Designer | Marketing | Legal |
+| --- | --- | --- | --- | --- | --- |
+| Define requirements | A | C | C | C | I |
+| Technical design | C | A/R | I | | |
+| UI design | C | C | A/R | I | |
+| Launch messaging | C | I | C | A/R | C |
+| Terms of service update | I | | | I | A/R |
+| Go / no-go decision | A | R | I | I | C |
+
+## How to Check a RACI Chart
+
+| Pattern | Problem it signals |
+| --- | --- |
+| A row with **no A** | Nobody owns the outcome; decisions will stall |
+| A row with **more than one A** | Conflicting authority |
+| A row with **no R** | Work will not get done |
+| A column with **many As or Rs** | One person is a bottleneck or overloaded |
+| A column with **no empty cells** | That person is involved in everything, slowing decisions |
+| A row with **many Cs** | Too many people to consult; decisions will be slow |
+
+## RACI Variations
+
+| Variation | Adds | Use when |
+| --- | --- | --- |
+| **RASCI** | **S – Supportive**: provides resources or help to the R | Several people assist the main doer |
+| **RACI-VS** | **V – Verifier**, **S – Signatory** | Regulated work requiring verification and formal sign-off |
+| **DACI** | **D – Driver**, **A – Approver**, **C – Contributors**, **I – Informed** | Decision-making rather than task execution |
+
+## Common Mistakes
+
+1.  **Confusing R and A.** The person doing the work isn't necessarily the one accountable for the outcome; on small tasks they can be the same person (A/R).
+2.  **Making everyone a C.** "Consult everyone" feels inclusive but slows every decision.
+3.  **Listing people instead of roles.** Use roles so the chart survives staffing changes, and add names separately.
+4.  **Building it alone.** Create it with the team; disagreements surfaced while filling it in are the point.
+5.  **Never revisiting it.** Update the chart when projects change phase or people change roles.
+
+## Frequently Asked Questions
+
+??? question "Can one person be both Responsible and Accountable?"
+
+    Yes. For many tasks the same person does the work and owns the outcome; mark it "A/R".
+
+??? question "Why should there be only one Accountable person?"
+
+    Shared accountability tends to mean no accountability. A single A provides a clear decision-maker and point of escalation.
+
+??? question "What is the difference between Consulted and Informed?"
+
+    Consulted is two-way communication before the work or decision: their input is sought. Informed is one-way communication after: they're told the result.
+
+??? question "When is a RACI matrix most useful?"
+
+    In cross-functional projects, during reorganizations, and wherever there are repeated conflicts or dropped balls about who decides or who does what.
 
 ## Extensions and Connections
 
