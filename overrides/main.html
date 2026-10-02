@@ -2,14 +2,17 @@
 
 {% block extrahead %}
   {{ super() }}
-  <!-- Schema.org JSON-LD -->
+  <!-- 站点级结构化数据：实体只声明一次，统一指向根域，
+       各语言子站不再各自声明一个 WebSite 实体。页面级 Article 由
+       seo/postprocess.py 在构建后注入。 -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "{{ config.site_name }}",
-    "url": "{{ config.site_url }}",
+    "url": "https://methodologywiki.com/",
     "description": "{{ config.site_description }}",
+    "inLanguage": "{{ config.theme.language | default('en') }}",
     "potentialAction": {
       "@type": "SearchAction",
       "target": "{{ config.site_url }}search/?q={search_term_string}",
@@ -22,13 +25,14 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "MethodologyWiki",
-    "url": "{{ config.site_url }}",
-    "logo": "{{ config.site_url }}assets/logo.png",
+    "url": "https://methodologywiki.com/",
+    "logo": "https://methodologywiki.com/apple-touch-icon.png",
     "sameAs": [
       "{{ config.repo_url }}"
     ]
   }
   </script>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <!-- SLS Web Tracking (Async, Non-blocking) -->
   <script>

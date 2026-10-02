@@ -1,0 +1,10 @@
+name = "methodologywiki-edge"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+account_id = "45a5a39d0362d934a57de14b054ea4fd"
+workers_dev = false
+
+# 只挂在主站点，不影响 analytics.methodologywiki.com 等子域
+routes = [
+  { pattern = "methodologywiki.com/*", zone_name = "methodologywiki.com" },
+]

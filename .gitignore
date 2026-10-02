@@ -1,0 +1,10 @@
+# 构建产物
+_site/
+site/
+site_deploy/
+*/site/
+__pycache__/
+*.pyc
+.DS_Store
+edge/node_modules/
+edge/.wrangler/

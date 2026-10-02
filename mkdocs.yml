@@ -7,6 +7,7 @@ repo_url: https://github.com/mayunlei/methodologywiki
 
 theme:
   name: material
+  font: false
   custom_dir: overrides
   language: en
   # logo: assets/logo.ico # 我们稍后可以添加一个logo
@@ -29,14 +30,16 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - assets/js/calculators/roi-calculator.js
+
 extra:
   analytics:
     provider: google
     property: G-VQ6RTZVF1S
-  extra_css:
-    - stylesheets/extra.css
-  extra_javascript:
-    - assets/js/calculators/roi-calculator.js
   alternate:
     - name: English
       link: /
