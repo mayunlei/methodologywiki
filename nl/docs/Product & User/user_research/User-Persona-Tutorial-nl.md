@@ -77,6 +77,7 @@ Het maken van gebruikersprofielen is een onderzoeksproces dat van divergentie na
 ## Uitbreidingen en verbindingen
 
 Gebruikersprofielen zijn een kernonderdeel van de UX-ontwerptoolkit en worden vaak nauw verbonden met andere methoden:
+
 *   **Gebruikersreis-kaart**: Nadat "wie" (het gebruikersprofiel) is bepaald, beschrijft de gebruikersreiskaart het hele proces waarin deze persoon met het product interactie heeft om zijn doel te bereiken.
 *   **Empathy Map**: Dit is een instrument dat zich meer richt op het dieper verkennen van de zintuiglijke en emotionele ervaringen van de gebruiker, vaak gebruikt voor het verzamelen van materiaal en empathie-oefeningen in het vroege stadium van het maken van gebruikersprofielen.
 

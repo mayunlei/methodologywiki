@@ -33,6 +33,7 @@ graph TD
 ```
 -->
 -->
+
 *   **Relationship**: Kaizen and innovation are not mutually exclusive; rather, they are two capabilities that an excellent organization must possess simultaneously. Kaizen is responsible for continuously optimizing and consolidating existing systems, while innovation is responsible for creating entirely new systems.
 
 ## How to Practice Kaizen in an Organization

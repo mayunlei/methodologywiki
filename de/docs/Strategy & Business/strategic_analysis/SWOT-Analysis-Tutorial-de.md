@@ -76,6 +76,7 @@ Eine effektive SWOT-Analyse ist weit mehr als nur das Auflisten von Punkten; sie
 ## Erweiterungen und Verknüpfungen
 
 Für eine tiefergehende Analyse wird SWOT oft mit anderen Tools kombiniert:
+
 *   **PESTEL-Analyse**: Kann eine systematischere und makroökonomischere Perspektive für die Abschnitte „Chancen“ und „Gefahren“ der SWOT-Analyse liefern, indem sie externe Faktoren wie Politisch (P), Ökonomisch (E), Sozial (S), Technologisch (T), Umweltbedingt (E) und Legal (L) tiefgehend analysiert.
 *   **Porters Fünf-Kräfte-Modell**: Wenn „Gefahren“ hauptsächlich aus Wettbewerbsverhältnissen resultieren, kann dieses Modell ein präziseres Analyse-Framework liefern.
 *   **Wertschöpfungsanalyse (Value Chain Analysis)**: Nach der SWOT-Analyse kann die Wertschöpfungsanalyse dabei helfen, die Aktivitäten der Organisation systematisch zu untersuchen, um ihre Kern-„Stärken“ und „Schwächen“ genauer zu identifizieren.

@@ -77,6 +77,7 @@ Crear personas de usuario es un proceso de investigación que va de la divergenc
 ## Extensiones y Conexiones
 
 Las personas de usuario son una parte fundamental del conjunto de herramientas de diseño UX y suelen integrarse estrechamente con otros métodos:
+
 *   **Mapa del Viaje del Usuario**: Después de determinar "quién" (la persona de usuario), el mapa del viaje del usuario detalla todo el proceso en el que esta persona interactúa con el producto para alcanzar su objetivo.
 *   **Mapa de Empatía**: Es una herramienta que se enfoca más en explorar profundamente las experiencias sensoriales y emocionales del usuario, a menudo utilizada para recopilación de material y ejercicios de empatía en las primeras etapas de creación de personas de usuario.
 

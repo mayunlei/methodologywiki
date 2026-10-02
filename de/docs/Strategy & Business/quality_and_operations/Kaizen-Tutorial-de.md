@@ -25,6 +25,7 @@ graph TD
         B1 --> B2(<b>Wirkung:</b><br/>Erreicht sprunghafte, disruptive Entwicklung<br/>durch technologische oder Geschäftsmodell-Revolution);
     end
 ```
+
 *   **Beziehung**: Kaizen und Innovation schließen sich gegenseitig nicht aus; vielmehr sind sie zwei Fähigkeiten, die eine exzellente Organisation gleichzeitig besitzen muss. Kaizen ist dafür verantwortlich, bestehende Systeme kontinuierlich zu optimieren und zu festigen, während Innovation dafür sorgt, völlig neue Systeme zu schaffen.
 
 ## Wie man Kaizen in einer Organisation praktiziert

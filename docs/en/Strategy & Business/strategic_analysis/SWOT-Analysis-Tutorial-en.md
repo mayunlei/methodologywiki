@@ -93,6 +93,7 @@ An effective SWOT analysis is far more than just listing items; it is a complete
 ## Extensions and Connections
 
 To conduct a more in-depth analysis, SWOT is often combined with other tools:
+
 *   **PESTEL Analysis**: Can provide a more systematic and macro perspective for the "Opportunities" and "Threats" sections of SWOT, deeply analyzing external factors such as Political (P), Economic (E), Social (S), Technological (T), Environmental (E), and Legal (L).
 *   **Porter's Five Forces Model**: When "threats" mainly come from industry competition, this model can provide a more refined analytical framework.
 *   **Value Chain Analysis**: After the SWOT analysis, value chain analysis can help systematically examine the organization's activities to more accurately identify its core "strengths" and "weaknesses."

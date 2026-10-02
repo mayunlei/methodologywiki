@@ -77,6 +77,7 @@ Die Erstellung von Nutzer-Personas ist ein Forschungsprozess, der sich von Diver
 ## Erweiterungen und Verbindungen
 
 Nutzer-Personas sind ein zentraler Bestandteil des UX-Design-Toolkits und werden oft eng mit anderen Methoden kombiniert:
+
 *   **Nutzerreiseplan (User Journey Map)**: Nachdem „wer“ (die Nutzer-Persona) geklärt ist, beschreibt die Nutzerreise detailliert den gesamten Prozess, wie diese Person mit dem Produkt interagiert, um ihr Ziel zu erreichen.
 *   **Empathie-Map**: Dies ist ein Werkzeug, das sich stärker auf die tiefe Erforschung der sensorischen und emotionalen Erlebnisse des Nutzers konzentriert. Es wird häufig in frühen Phasen der Persona-Erstellung für Sammlung von Materialien und Empathie-Übungen verwendet.
 

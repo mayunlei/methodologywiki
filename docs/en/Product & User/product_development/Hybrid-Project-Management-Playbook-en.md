@@ -53,6 +53,7 @@ To successfully manage the "Interface" between Agile delivery teams (Scrum/Kanba
 
 ## 🧠 First Principles
 Hybrid is not a compromise; it's a **Risk Management Strategy**.
+
 *   **Waterfall** manages **Financial Risk** (Cost/Schedule).
 *   **Agile** manages **Technical/Market Risk** (Feasibility/Fit).
 *   The "Hybrid" model is simply the protocol for exchanging information between these two risk domains.

@@ -76,6 +76,7 @@ Een effectieve SWOT-analyse is veel meer dan simpelweg het opnoemen van punten; 
 ## Uitbreidingen en samenhang
 
 Voor een dieper analytisch inzicht wordt SWOT vaak gecombineerd met andere tools:
+
 *   **PESTEL-analyse**: Kan een meer systematisch en macroscopisch perspectief bieden voor de secties "Kansen" en "Bedreigingen" van SWOT, door externe factoren zoals Politiek (P), Economisch (E), Sociaal (S), Technologisch (T), Milieu (E) en Juridisch (L) diepgaand te analyseren.
 *   **Porter's Five Forces-model**: Wanneer "bedreigingen" voornamelijk voortkomen uit concurrentie in de sector, kan dit model een verfijnder analytisch kader bieden.
 *   **Waardeketenanalyse**: Na de SWOT-analyse kan waardeketenanalyse helpen bij een systematische evaluatie van de activiteiten van de organisatie om de kern "sterke punten" en "zwakke punten" nauwkeuriger te identificeren.

@@ -25,6 +25,7 @@ graph TD
         B1 --> B2(<b>Efeito:</b><br/>Alcança desenvolvimento disruptivo e por saltos<br/>por meio de revolução tecnológica ou de modelo de negócios);
     end
 ```
+
 *   **Relação**: Kaizen e inovação não são mutuamente exclusivos; ao contrário, são duas capacidades que uma organização excelente deve possuir simultaneamente. O Kaizen é responsável por otimizar e consolidar continuamente os sistemas existentes, enquanto a inovação é responsável por criar sistemas totalmente novos.
 
 ## Como Praticar o Kaizen em uma Organização

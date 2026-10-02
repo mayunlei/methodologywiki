@@ -9,6 +9,7 @@ Nó không yêu cầu công cụ phức tạp hay lý thuyết sâu xa. Cốt l�
 "Pomodoro" có nghĩa là "cà chua" trong tiếng Ý, tên gọi này bắt nguồn từ chiếc đồng hồ bếp có hình dạng cà chua mà người sáng tạo ra phương pháp này là Francesco Cirillo đã sử dụng khi còn học đại học. Quy trình của nó thanh lịch và súc tích, tạo thành một vòng lặp khép kín hoàn chỉnh.
 
 Triết lý cốt lõi của chu kỳ này là:
+
 *   **Giảm rào cản bắt đầu**: So với mục tiêu lớn lao là "Tôi sẽ làm việc cả ngày", cam kết "Tôi sẽ tập trung trong 25 phút trước" rõ ràng dễ bắt đầu hơn nhiều.
 *   **Bảo vệ sự tập trung**: Trong một "Pomodoro", sự tập trung là thiêng liêng và bất khả xâm phạm. Bất kỳ sự gián đoạn nào cũng đồng nghĩa với việc Pomodoro đó thất bại, buộc phải bắt đầu lại từ đầu. Điều này khiến chúng ta phải học cách nói "không" với các yếu tố xao nhãng.
 *   **Làm cho khoảng nghỉ trở nên thiết yếu**: Không giống thói quen của nhiều người là làm việc liên tục không nghỉ, kỹ thuật Pomodoro nhấn mạnh giá trị của khoảng nghỉ. Những khoảng nghỉ ngắn không phải là sự lãng phí thời gian; chúng là để tái tạo năng lượng cho giai đoạn tập trung tiếp theo, giữ cho bộ não sắc bén và hiệu quả.
@@ -43,6 +44,7 @@ Việc tích hợp kỹ thuật Pomodoro vào thói quen hàng ngày chỉ yêu 
 **Tình huống 1: Lập trình viên giải quyết một tính năng phức tạp**
 
 Một lập trình viên cần viết một mô-đun đồng bộ dữ liệu phức tạp cho ứng dụng mới. Nhiệm vụ này dường như rất đáng sợ. Anh ấy có thể sử dụng kỹ thuật Pomodoro để chia nhỏ nó ra:
+
 *   **Pomodoro 1-2**: Nghiên cứu tài liệu kỹ thuật, thiết kế kiến trúc mô-đun. (Sau đó nghỉ dài 20 phút)
 *   **Pomodoro 3**: Viết mã chuyển dữ liệu cốt lõi.
 *   **Pomodoro 4**: Viết mã xác thực dữ liệu.
@@ -51,6 +53,7 @@ Một lập trình viên cần viết một mô-đun đồng bộ dữ liệu ph
 **Tình huống 2: Sinh viên ôn thi cuối kỳ**
 
 Một sinh viên cần ôn lại toàn bộ cuốn giáo trình Kinh tế vĩ mô. Việc bắt đầu trực tiếp có thể khiến anh ta cảm thấy choáng ngợp do khối lượng nội dung khổng lồ.
+
 *   **Pomodoro 1**: Lướt nhanh chương đầu tiên để nắm bố cục.
 *   **Pomodoro 2**: Đọc và hiểu sâu phần đầu tiên của chương một, đồng thời ghi chú lại.
 *   **Pomodoro 3**: Hoàn thành các bài tập ở phần đầu tiên.
@@ -59,6 +62,7 @@ Một sinh viên cần ôn lại toàn bộ cuốn giáo trình Kinh tế vĩ m�
 **Tình huống 3: Nhà thiết kế hoàn thành một áp phích sự kiện**
 
 Một nhà thiết kế cần hoàn thành một áp phích sự kiện trong một buổi chiều. Quá trình thiết kế đầy rẫy những điều chưa chắc chắn.
+
 *   **Pomodoro 1**: Thu thập cảm hứng và tư liệu.
 *   **Pomodoro 2**: Suy nghĩ ý tưởng và phác thảo 3 bản bố cục khác nhau.
 *   **Pomodoro 3**: Chọn một bản phác thảo, tinh chỉnh và tô màu.
@@ -82,6 +86,7 @@ Một nhà thiết kế cần hoàn thành một áp phích sự kiện trong m�
 ## Mở rộng và kết nối
 
 Kỹ thuật Pomodoro có thể kết hợp hoàn hảo với các phương pháp quản lý thời gian và nâng cao hiệu suất khác:
+
 *   **GTD (Getting Things Done)**: GTD giúp bạn giải phóng tâm trí và tổ chức danh sách công việc; kỹ thuật Pomodoro là chiến thuật tuyệt vời để thực hiện các nhiệm vụ cụ thể trong danh sách đó.
 *   **Ma trận Eisenhower**: Khi quyết định nhiệm vụ nào sẽ hoàn thành trong ngày, bạn có thể sử dụng ma trận này để ưu tiên và quyết định nhiệm vụ nào xứng đáng để đầu tư các Pomodoro quý giá.
 

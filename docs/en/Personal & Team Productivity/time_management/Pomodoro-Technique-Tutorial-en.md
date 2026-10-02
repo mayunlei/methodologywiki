@@ -11,6 +11,7 @@ It doesn't require complex tools or profound theories. Its core lies in using a 
 "Pomodoro" means "tomato" in Italian, a name derived from the tomato-shaped kitchen timer used by the method's founder, Francesco Cirillo, during his university days. Its workflow is elegant and concise, forming a complete closed loop.
 
 The core philosophy of this cycle is:
+
 *   **Lowering the Barrier to Entry**: Compared to the grand goal of "I'm going to work all day," the commitment to "I'll focus for 25 minutes first" is clearly easier to get started with.
 *   **Protecting Focus**: Within a "Pomodoro," focus is sacred and inviolable. Any interruption means the failure of that Pomodoro, requiring a restart. This forces us to learn to say "no" to distractions.
 *   **Making Breaks Essential**: Unlike many people's habit of working straight through, the Pomodoro Technique emphasizes the value of breaks. Short breaks are not a waste of time; they are for recharging for the next focused period, keeping the brain sharp and efficient.
@@ -61,6 +62,7 @@ Integrating the Pomodoro Technique into your daily routine only requires followi
 **Scenario 1: Software Developer Tackling a Complex Feature**
 
 A developer needs to write a complex data synchronization module for a new application. This task seems daunting. He can use the Pomodoro Technique to break it down:
+
 *   **Pomodoro 1-2**: Research technical documentation, design the module's architecture. (After a 20-minute long break)
 *   **Pomodoro 3**: Write the core data transfer code.
 *   **Pomodoro 4**: Write the data validation code.
@@ -69,6 +71,7 @@ A developer needs to write a complex data synchronization module for a new appli
 **Scenario 2: Student Preparing for Final Exams**
 
 A student needs to review an entire textbook on Macroeconomics. Starting directly might feel overwhelming due to the sheer volume of content.
+
 *   **Pomodoro 1**: Quickly skim the first chapter to understand its outline.
 *   **Pomodoro 2**: Read and understand the first section of the first chapter in depth, and take notes.
 *   **Pomodoro 3**: Complete the exercises for the first section.
@@ -77,6 +80,7 @@ A student needs to review an entire textbook on Macroeconomics. Starting directl
 **Scenario 3: Designer Completing a Poster Design**
 
 A designer needs to complete an event poster in one afternoon. The design process is full of uncertainties.
+
 *   **Pomodoro 1**: Gather inspiration and materials.
 *   **Pomodoro 2**: Brainstorm and sketch 3 different layout drafts.
 *   **Pomodoro 3**: Select one draft, refine and color it.
@@ -100,6 +104,7 @@ A designer needs to complete an event poster in one afternoon. The design proces
 ## Extensions and Connections
 
 The Pomodoro Technique can be perfectly combined with other time management and efficiency methods:
+
 *   **GTD (Getting Things Done)**: GTD helps you clear your mind and organize your task list; the Pomodoro Technique is an excellent tactic for executing specific tasks on that list.
 *   **Eisenhower Matrix**: When deciding which tasks to complete today, you can use this matrix to help you prioritize and decide which tasks are worth investing valuable Pomodoros in.
 

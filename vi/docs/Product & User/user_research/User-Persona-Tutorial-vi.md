@@ -77,6 +77,7 @@ Việc tạo ra chân dung người dùng là một quá trình nghiên cứu ch
 ## Mở Rộng và Liên Kết
 
 Chân dung người dùng là một phần cốt lõi trong bộ công cụ thiết kế UX và thường được tích hợp chặt chẽ với các phương pháp khác:
+
 *   **Bản Đồ Hành Trình Người Dùng**: Sau khi xác định rõ "ai" (chân dung người dùng), bản đồ hành trình người dùng sẽ mô tả chi tiết toàn bộ quá trình tương tác của người này với sản phẩm để đạt được mục tiêu.
 *   **Bản Đồ Đồng Cảm**: Đây là công cụ tập trung hơn vào việc khám phá sâu sắc trải nghiệm cảm quan và cảm xúc của người dùng, thường được sử dụng để thu thập tư liệu và thực hành đồng cảm trong giai đoạn đầu tạo chân dung người dùng.
 

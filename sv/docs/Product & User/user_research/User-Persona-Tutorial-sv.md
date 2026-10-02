@@ -77,6 +77,7 @@ Att skapa användarpersonor är en forskningsprocess som går från divergens ti
 ## Utökningar och kopplingar
 
 Användarpersonor är en kärndel av UX-designverktygslådan och integreras ofta nära med andra metoder:
+
 *   **Användarresa (User Journey Map)**: När man har fastslagit "vem" (användarpersonan), beskriver användarresan hela processen för hur denna person interagerar med produkten för att uppnå sina mål.
 *   **Empatikarta (Empathy Map)**: Det är ett verktyg som fokuserar mer på att djupdyka i användarens sensoriska och emotionella upplevelser, ofta används det för insamling av material och empatiövningar i ett tidigt skede av skapandet av användarpersonor.
 

@@ -9,6 +9,7 @@ The essence of KPI lies in "**Key**." There can be thousands of measurable data 
 ## Characteristics and Types of KPI
 
 An effective KPI typically possesses the following characteristics:
+
 *   **Quantifiable**: Must be measurable with numbers.
 *   **Strategic**: Must be directly linked to the organization's strategic goals.
 *   **Actionable**: Changes in the indicator should clearly point to specific actions that need to be improved.

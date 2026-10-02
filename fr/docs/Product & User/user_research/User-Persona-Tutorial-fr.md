@@ -77,6 +77,7 @@ La création de personas utilisateur est un processus de recherche qui va de la 
 ## Extensions et Liens
 
 Les personas utilisateur constituent une partie centrale de la boîte à outils de conception UX et sont souvent étroitement intégrées à d'autres méthodes :
+
 *   **Carte du Parcours Utilisateur** : Une fois déterminé le « qui » (la persona utilisateur), la carte du parcours utilisateur détaille l'ensemble du processus par lequel cette personne interagit avec le produit pour atteindre son objectif.
 *   **Carte d'Empathie** : Outil davantage axé sur l'exploration approfondie des expériences sensorielles et émotionnelles de l'utilisateur, souvent utilisé pour la collecte de données et des exercices d'empathie lors des premières étapes de création des personas utilisateurs.
 

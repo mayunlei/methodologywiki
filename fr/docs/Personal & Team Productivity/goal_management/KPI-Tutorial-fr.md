@@ -7,6 +7,7 @@ L'essence du KPI réside dans le mot "**Clé**". Une organisation peut compter d
 ## Caractéristiques et Types de KPI
 
 Un KPI efficace possède généralement les caractéristiques suivantes :
+
 *   **Quantifiable** : Doit pouvoir être mesuré à l’aide de chiffres.
 *   **Stratégique** : Doit être directement lié aux objectifs stratégiques de l'organisation.
 *   **Actionnable** : Les variations de l'indicateur doivent clairement indiquer des actions spécifiques à améliorer.

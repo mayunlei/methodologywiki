@@ -76,6 +76,7 @@ Un análisis DAFO eficaz va mucho más allá de simplemente listar elementos; es
 ## Extensiones y Conexiones
 
 Para realizar un análisis más profundo, el DAFO a menudo se combina con otras herramientas:
+
 *   **Análisis PESTEL**: Puede proporcionar una perspectiva más sistemática y macro para las secciones de "Oportunidades" y "Amenazas" del DAFO, analizando profundamente factores externos como Políticos (P), Económicos (E), Sociales (S), Tecnológicos (T), Ambientales (E) y Legales (L).
 *   **Modelo de las Cinco Fuerzas de Porter**: Cuando las "amenazas" provienen principalmente de la competencia en la industria, este modelo puede proporcionar un marco analítico más refinado.
 *   **Análisis de la Cadena de Valor**: Tras el análisis DAFO, el análisis de la cadena de valor puede ayudar a examinar sistemáticamente las actividades de la organización para identificar con mayor precisión sus "fortalezas" y "debilidades" clave.

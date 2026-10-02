@@ -25,6 +25,7 @@ graph TD
         B1 --> B2(<b>Effect:</b><br/>Achieves leapfrog, disruptive development<br/>through technological or business model revolution);
     end
 ```
+
 *   **관계**: 가이젠과 혁신은 서로排他的인 개념이 아니라, 훌륭한 조직이 동시에 갖춰야 할 두 가지 능력입니다. 가이젠은 기존 시스템을 지속적으로 최적화하고 강화하는 역할을 하며, 혁신은 완전히 새로운 시스템을 창출하는 역할을 합니다.
 
 ## 조직에서 가이젠을 실천하는 방법

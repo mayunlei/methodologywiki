@@ -25,6 +25,7 @@ graph TD
         B1 --> B2(<b>Kết quả:</b><br/>Đạt được phát triển nhảy vọt và phá vỡ<br/>thông qua cách mạng công nghệ hoặc mô hình kinh doanh);
     end
 ```
+
 *   **Mối quan hệ**: Kaizen và đổi mới không loại trừ nhau; ngược lại, chúng là hai năng lực mà một tổ chức xuất sắc phải đồng thời sở hữu. Kaizen chịu trách nhiệm liên tục tối ưu hóa và củng cố hệ thống hiện có, trong khi đổi mới chịu trách nhiệm tạo ra các hệ thống hoàn toàn mới.
 
 ## Cách thực hành Kaizen trong tổ chức

@@ -25,6 +25,7 @@ graph TD
         B1 --> B2(<b>Effekt:</b><br/>Uppnår språngvis, stördande utveckling<br/>genom teknologisk eller affärsmodellsrevolution);
     end
 ```
+
 *   **Relation**: Kaizen och innovation utesluter inte varandra; snarare är de två förmågor som en utmärkt organisation måste besitta samtidigt. Kaizen ansvarar för att kontinuerligt optimera och konsolidera befintliga system, medan innovation ansvarar för att skapa helt nya system.
 
 ## Hur man praktiserar Kaizen i en organisation

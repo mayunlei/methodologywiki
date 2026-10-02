@@ -7,6 +7,7 @@ Das Wesen eines KPI liegt im **„Key“**. In einer Organisation können tausen
 ## Merkmale und Arten von KPIs
 
 Ein effektiver KPI weist typischerweise folgende Merkmale auf:
+
 *   **Messbar**: Muss mit Zahlen messbar sein.
 *   **Strategisch**: Muss direkt mit den strategischen Zielen der Organisation verbunden sein.
 *   **Handlungsorientiert**: Änderungen des Indikators sollten klar auf spezifische Verbesserungsmaßnahmen hinweisen.

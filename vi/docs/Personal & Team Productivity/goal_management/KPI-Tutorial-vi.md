@@ -7,6 +7,7 @@ Bản chất của KPI nằm ở từ "**Chính**". Có thể có hàng ngàn đ
 ## Đặc điểm và loại hình KPI
 
 Một KPI hiệu quả thường có các đặc điểm sau:
+
 *   **Có thể định lượng**: Phải có thể đo lường bằng con số.
 *   **Có tính chiến lược**: Phải gắn kết trực tiếp với các mục tiêu chiến lược của tổ chức.
 *   **Có thể hành động**: Những thay đổi của chỉ số phải rõ ràng để chỉ ra các hành động cần cải thiện.

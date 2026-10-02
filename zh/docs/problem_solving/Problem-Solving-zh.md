@@ -566,10 +566,10 @@ BUILD IT 是一个在线指南，提供获取相关资源和服务的途径 1。
 
 1. Inquiry & 分析/Judging - Problem Solving Toolbox - LibGuides at ..., accessed June 28, 2025, https://libguides.bellevue.edu/c.php?g=148652&p=973476
 2. Effective Problem-Solving 技术s in Business, accessed June 28, 2025, https://business.purdue.edu/master-of-business/online-masters-in-business-administration/posts/problem-solving-techniques-in-business.php
-3. What Is Appreciative Inquiry? (Definition, Examples & 模型) - Positive Psychology, accessed June 28, 2025, https://positivepsychology.com/appreciative-inquiry/
-4. Explaining the 4D Appreciative Inquiry 模型 - Leaderskill, accessed June 28, 2025, https://www.leaderskill.com.au/explaining-the-4d-appreciative-inquiry-model/
+3. What Is Appreciative Inquiry? (Definition, Examples & Model) - Positive Psychology, accessed June 28, 2025, https://positivepsychology.com/appreciative-inquiry/
+4. Explaining the 4D Appreciative Inquiry Model - Leaderskill, accessed June 28, 2025, https://www.leaderskill.com.au/explaining-the-4d-appreciative-inquiry-model/
 5. 12 Different Logic Trees and Reasoning Concepts | by Scott Millett - Medium, accessed June 28, 2025, https://scottmillett.medium.com/12-different-logic-trees-and-reasoning-concepts-fa3aebcbd6f0
-6. Pre-Work | Problem Solving 101 Root Cause 分析 & Logic Trees - Projects at Harvard, accessed June 28, 2025, https://projects.iq.harvard.edu/files/sila/files/fullerton_problem_solving_101_pre_reading.pdf
+6. Pre-Work | Problem Solving 101 Root Cause Analysis & Logic Trees - Projects at Harvard, accessed June 28, 2025, https://projects.iq.harvard.edu/files/sila/files/fullerton_problem_solving_101_pre_reading.pdf
 7. 17 Smart Problem-Solving Strategies: Master Complex Problems - Onethread, accessed June 28, 2025, https://www.onethreadapp.com/blog/problem-solving-techniques-strategies/
 8. 8-Step Problem Solving 流程 | University Human Resources, accessed June 28, 2025, https://hr.uiowa.edu/development/consultations-support/consultation-resources/8-step-problem-solving-process
 9. Problem Solving 框架: 7 技术s for Product Teams - Userpilot, accessed June 28, 2025, https://userpilot.com/blog/problem-solving-framework/

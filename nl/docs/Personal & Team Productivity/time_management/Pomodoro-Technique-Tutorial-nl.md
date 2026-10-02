@@ -9,6 +9,7 @@ Het vereist geen complexe tools of diepgaande theorieën. De kern ervan ligt in 
 "Pomodoro" betekent "tomaat" in het Italiaans, een naam die afgeleid is van de tomatenvormige keukentimer die de oprichter van de methode, Francesco Cirillo, gebruikte tijdens zijn studietijd. De werkwijze is elegant en duidelijk, en vormt een volledige gesloten lus.
 
 De kernfilosofie van deze cyclus is:
+
 *   **Lagere instapdrempel**: In vergelijking met het grote doel "ik ga de hele dag werken", is het zich verbinden aan "ik concentreer me eerst 25 minuten" duidelijk makkelijker om aan te beginnen.
 *   **Bescherming van concentratie**: Binnen een "Pomodoro" is concentratie heilig en onschendbaar. Elke onderbreking betekent het falen van dat Pomodoro, wat opnieuw starten vereist. Dit dwingt ons te leren "nee" zeggen tegen afleidingen.
 *   **Pauzes als essentieel beschouwen**: In tegenstelling tot de gewoonte van veel mensen om recht door te werken, benadrukt de Pomodoro-techniek de waarde van pauzes. Korte pauzes zijn geen tijdverspilling; ze zijn bedoeld om op te laden voor de volgende periode van concentratie en zo de hersenen scherp en efficiënt te houden.
@@ -43,6 +44,7 @@ Het integreren van de Pomodoro-techniek in je dagelijkse routine vereist slechts
 **Scenario 1: Softwareontwikkelaar die een complexe functie moet implementeren**
 
 Een ontwikkelaar moet een complexe datasynchronisatiemodule schrijven voor een nieuwe applicatie. Deze taak lijkt indrukwekkend. Hij kan de Pomodoro-techniek gebruiken om deze op te breken:
+
 *   **Pomodoro 1-2**: Technische documentatie bestuderen, architectuur van de module ontwerpen. (Na een 20-minuten lange pauze)
 *   **Pomodoro 3**: Kerncode voor datatransfer schrijven.
 *   **Pomodoro 4**: Code voor datavalidatie schrijven.
@@ -51,6 +53,7 @@ Een ontwikkelaar moet een complexe datasynchronisatiemodule schrijven voor een n
 **Scenario 2: Student die zich voorbereidt op eindexamens**
 
 Een student moet een volledig leerboek over macro-economie herzien. Beginnen met leren kan overweldigend aanvoelen door de omvang van de inhoud.
+
 *   **Pomodoro 1**: Snel de eerste hoofdstuk doorbladeren om de structuur te begrijpen.
 *   **Pomodoro 2**: De eerste sectie van het eerste hoofdstuk diepgaand lezen en aantekeningen maken.
 *   **Pomodoro 3**: Oefeningen van de eerste sectie maken.
@@ -59,6 +62,7 @@ Een student moet een volledig leerboek over macro-economie herzien. Beginnen met
 **Scenario 3: Designer die een affiche moet ontwerpen**
 
 Een designer moet in één middag een affiche voor een evenement ontwerpen. Het ontwerpproces zit vol onzekerheden.
+
 *   **Pomodoro 1**: Inspiratie en materiaal verzamelen.
 *   **Pomodoro 2**: Brainstormen en drie verschillende schetsen maken.
 *   **Pomodoro 3**: Een schets kiezen, verder uitwerken en kleuren.
@@ -82,6 +86,7 @@ Een designer moet in één middag een affiche voor een evenement ontwerpen. Het 
 ## Uitbreidingen en koppelingen
 
 De Pomodoro-techniek kan perfect worden gecombineerd met andere tijd- en efficiëntiebeheermethoden:
+
 *   **GTD (Getting Things Done)**: GTD helpt je hoofd leeg te maken en je takenlijst te organiseren; de Pomodoro-techniek is een uitstekende tactiek om specifieke taken van die lijst uit te voeren.
 *   **Eisenhower Matrix**: Bij het beslissen welke taken je vandaag moet uitvoeren, kun je deze matrix gebruiken om prioriteit te bepalen en te beslissen welke taken waardevol zijn om Pomodoroperioden aan te besteden.
 

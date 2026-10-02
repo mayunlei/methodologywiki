@@ -9,6 +9,7 @@ Sie benötigt keine komplexen Werkzeuge oder tiefgründigen Theorien. Ihr Kern b
 "Pomodoro" bedeutet auf Italienisch "Tomate" – ein Name, der von dem tomatenförmigen Küchenwecker stammt, den der Erfinder der Methode, Francesco Cirillo, während seiner Studienzeit benutzte. Der Arbeitsablauf ist elegant und prägnant und bildet einen vollständigen geschlossenen Zyklus.
 
 Die Kernphilosophie dieses Zyklus ist:
+
 *   **Hürde zum Start senken**: Im Vergleich zum großen Ziel "Ich werde den ganzen Tag arbeiten" ist das Versprechen "Ich konzentriere mich zuerst 25 Minuten" deutlich einfacher umzusetzen.
 *   **Schutz der Konzentration**: Innerhalb eines "Pomodoro" ist Konzentration heilig und unantastbar. Jede Unterbrechung bedeutet das Scheitern dieses Pomodoro, wodurch ein Neustart erforderlich wird. Dies zwingt uns, Ablenkungen bewusst zu widerstehen.
 *   **Pausen als essentielles Element**: Im Gegensatz zu der Gewohnheit vieler, durchzuarbeiten, betont die Pomodoro-Technik den Wert von Pausen. Kurze Pausen sind keine Zeitverschwendung; sie dienen der Erholung für den nächsten Fokussierungszeitraum und halten das Gehirn wach und effizient.
@@ -43,6 +44,7 @@ Um die Pomodoro-Technik in deinen Alltag zu integrieren, folge einfach diesen Sc
 **Szenario 1: Softwareentwickler bei der Arbeit an einer komplexen Funktion**
 
 Ein Entwickler muss ein komplexes Datensynchronisationsmodul für eine neue Anwendung schreiben. Diese Aufgabe erscheint beunruhigend. Er kann die Pomodoro-Technik nutzen, um sie aufzuteilen:
+
 *   **Pomodoro 1-2**: Recherche in der technischen Dokumentation, Entwurf der Modularchitektur. (Nach einer 20-minütigen langen Pause)
 *   **Pomodoro 3**: Schreiben des Kerncodes für den Datentransfer.
 *   **Pomodoro 4**: Schreiben des Codes für die Datensynchronisation.
@@ -51,6 +53,7 @@ Ein Entwickler muss ein komplexes Datensynchronisationsmodul für eine neue Anwe
 **Szenario 2: Student, der sich auf Abschlussprüfungen vorbereitet**
 
 Ein Student muss ein komplettes Lehrbuch zur Makroökonomie wiederholen. Der direkte Einstieg könnte aufgrund des Umfangs überwältigend wirken.
+
 *   **Pomodoro 1**: Schnelles Überfliegen des ersten Kapitels, um sich einen Überblick zu verschaffen.
 *   **Pomodoro 2**: Tiefgehendes Lesen und Verstehen des ersten Abschnitts des ersten Kapitels sowie das Anfertigen von Notizen.
 *   **Pomodoro 3**: Bearbeiten der Übungen zum ersten Abschnitt.
@@ -59,6 +62,7 @@ Ein Student muss ein komplettes Lehrbuch zur Makroökonomie wiederholen. Der dir
 **Szenario 3: Designer bei der Erstellung eines Plakats**
 
 Ein Designer muss ein Veranstaltungsplakat an einem Nachmittag erstellen. Der Gestaltungsprozess ist von Unsicherheiten geprägt.
+
 *   **Pomodoro 1**: Sammeln von Inspiration und Materialien.
 *   **Pomodoro 2**: Brainstorming und Skizzieren von drei verschiedenen Layout-Entwürfen.
 *   **Pomodoro 3**: Auswahl eines Entwurfs, Verfeinern und Einfärben.
@@ -82,6 +86,7 @@ Ein Designer muss ein Veranstaltungsplakat an einem Nachmittag erstellen. Der Ge
 ## Erweiterungen und Verknüpfungen
 
 Die Pomodoro-Technik kann perfekt mit anderen Zeitmanagement- und Effizienzmethoden kombiniert werden:
+
 *   **GTD (Getting Things Done)**: GTD hilft dir, deinen Kopf frei zu bekommen und deine Aufgabenliste zu organisieren; die Pomodoro-Technik ist eine hervorragende Taktik, um konkrete Aufgaben dieser Liste auszuführen.
 *   **Eisenhower-Matrix**: Wenn du entscheidest, welche Aufgaben du heute erledigen wirst, kannst du diese Matrix nutzen, um Prioritäten zu setzen und zu entscheiden, welche Aufgaben wertvoll genug sind, um wertvolle Pomodoros darauf zu investieren.
 

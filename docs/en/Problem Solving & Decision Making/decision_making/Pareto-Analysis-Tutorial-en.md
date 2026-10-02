@@ -43,6 +43,7 @@ graph TD
     end
 ```
 -->
+
 *   **Analysis**: From this (hypothetical) chart, the restaurant manager can clearly see that "slow service" and "food taste" might account for 75% of all complaints. Therefore, instead of spreading efforts to solve all problems, they should concentrate resources on prioritizing the optimization of kitchen service processes and dish development processes.
 
 ## How to Conduct a Pareto Analysis

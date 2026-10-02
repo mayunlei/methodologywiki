@@ -7,6 +7,7 @@ De essentie van een KPI ligt in het woord "**Key**". Er kunnen duizenden meetbar
 ## Kenmerken en typen KPI
 
 Een effectieve KPI heeft doorgaans de volgende kenmerken:
+
 *   **Kwantificeerbaar**: Moet meetbaar zijn met cijfers.
 *   **Strategisch**: Moet direct gekoppeld zijn aan de strategische doelen van de organisatie.
 *   **Actiegericht**: Veranderingen in de indicator moeten duidelijk wijzen op specifieke acties die verbeterd moeten worden.

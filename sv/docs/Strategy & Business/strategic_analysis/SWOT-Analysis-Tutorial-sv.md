@@ -76,6 +76,7 @@ En effektiv SWOT-analys är mycket mer än bara att lista upp punkter; det är e
 ## Utvidgningar och kopplingar
 
 För att genomföra en mer djupgående analys kombineras SWOT ofta med andra verktyg:
+
 *   **PESTEL-analys**: Kan ge ett mer systematiskt och makroperspektiv för SWOT:s avsnitt om "Möjligheter" och "Hot", och därmed analysera externa faktorer som Politiska (P), Ekonomiska (E), Sociala (S), Teknologiska (T), Miljömässiga (E) och Juridiska (L).
 *   **Porters fem krafter-modell**: När "hot" huvudsakligen kommer från branschkonkurrens kan denna modell ge ett mer precist analytiskt ramverk.
 *   **Värdekedjoranalys**: Efter SWOT-analys kan värdekedjoranalys hjälpa till att systematiskt undersöka organisationens aktiviteter för att mer exakt identifiera dess kärna "styrkor" och "svagheter".

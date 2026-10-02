@@ -7,6 +7,7 @@ Kern av KPI ligger i ordet "**nyckel**". Det kan finnas tusentals mätbara datap
 ## Egenskaper och typer av KPI
 
 En effektiv KPI har vanligtvis följande egenskaper:
+
 *   **Kvantifierbar**: Måste kunna mätas med siffror.
 *   **Strategisk**: Måste vara direkt kopplad till organisationens strategiska mål.
 *   **Åtgärdbar**: Förändringar i indikatorn bör tydligt peka på specifika åtgärder som behöver förbättras.

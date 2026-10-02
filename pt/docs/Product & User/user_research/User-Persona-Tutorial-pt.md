@@ -77,6 +77,7 @@ Criar personas de usuário é um processo de pesquisa que vai da divergência à
 ## Extensões e Conexões
 
 As personas do usuário são parte central do kit de ferramentas de design de experiência do usuário (UX) e frequentemente estão integradas de forma próxima com outros métodos:
+
 *   **Mapa da Jornada do Usuário**: Após determinar o "quem" (a persona do usuário), o mapa da jornada do usuário detalha todo o processo dessa pessoa interagindo com o produto para alcançar seu objetivo.
 *   **Mapa da Empatia**: Esta é uma ferramenta que se concentra mais na exploração profunda das experiências sensoriais e emocionais do usuário, frequentemente usada para coleta de material e exercícios de empatia nas etapas iniciais da criação de personas do usuário.
 

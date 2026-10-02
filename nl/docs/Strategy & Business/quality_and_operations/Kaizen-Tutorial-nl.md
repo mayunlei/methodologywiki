@@ -25,6 +25,7 @@ graph TD
         B1 --> B2(<b>Effect:</b><br/>Bereikt sprongsgewijze, verstoorde ontwikkeling<br/>door technologische of businessmodelrevoluties);
     end
 ```
+
 *   **Relatie**: Kaizen en innovatie sluiten elkaar niet uit; integendeel, ze zijn twee vaardigheden die een uitstekende organisatie tegelijkertijd moet bezitten. Kaizen zorgt voor continue optimalisatie en consolidering van bestaande systemen, terwijl innovatie verantwoordelijk is voor het creëren van volledig nieuwe systemen.
 
 ## Hoe Kaizen in een organisatie toe te passen

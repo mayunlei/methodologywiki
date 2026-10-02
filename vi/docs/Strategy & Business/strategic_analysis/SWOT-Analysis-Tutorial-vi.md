@@ -76,6 +76,7 @@ Một phân tích SWOT hiệu quả không chỉ đơn thuần là liệt kê c�
 ## Mở rộng và kết nối
 
 Để thực hiện phân tích sâu hơn, SWOT thường được kết hợp với các công cụ khác:
+
 *   **Phân tích PESTEL**: Có thể cung cấp một góc nhìn hệ thống và vĩ mô hơn cho phần "Cơ hội" và "Thách thức" của SWOT, phân tích sâu các yếu tố ngoại lai như Chính trị (P), Kinh tế (E), Xã hội (S), Công nghệ (T), Môi trường (E), và Pháp lý (L).
 *   **Mô hình Năm lực lượng cạnh tranh của Porter**: Khi "thách thức" chủ yếu đến từ cạnh tranh ngành, mô hình này có thể cung cấp một khuôn khổ phân tích tinh vi hơn.
 *   **Phân tích chuỗi giá trị**: Sau phân tích SWOT, phân tích chuỗi giá trị có thể giúp xem xét một cách hệ thống các hoạt động của tổ chức để xác định chính xác hơn các "điểm mạnh" và "điểm yếu" cốt lõi.

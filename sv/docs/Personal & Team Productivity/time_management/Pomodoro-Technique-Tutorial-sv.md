@@ -9,6 +9,7 @@ Den kräver inga komplexa verktyg eller djupgående teorier. Kärnan ligger i at
 "Pomodoro" betyder "tomat" på italienska, ett namn som kommer från den tomatformade kökstimern som metoden uppkallades efter av dess skapare, Francesco Cirillo, under hans studietid. Arbetsflödet är enkelt och elegant och bildar en komplett sluten loop.
 
 Den centrala filosofin i denna cykel är:
+
 *   **Lägre startbarriär**: Jämfört med det stora målet "Jag ska arbeta hela dagen" är åtagandet att "Jag ska fokusera i 25 minuter först" tydligt enklare att komma igång med.
 *   **Skyddar koncentrationen**: Under ett "Pomodoro" är koncentration helig och oantastlig. En störning innebär att Pomodorot misslyckas och måste börja om. Detta tvingar oss att lära oss säga "nej" till störningar.
 *   **Gör pauser till en nödvändighet**: Till skillnad från mångas vanliga sätt att arbeta rakt igenom betonar Pomodoro-tekniken pausers värde. Korta pauser är ingen tidsförspillning; de är för att ladda om inför nästa koncentrerade period och hålla hjärnan skarp och effektiv.
@@ -43,6 +44,7 @@ Att integrera Pomodoro-tekniken i din dagliga rutin kräver bara att du följer 
 **Scenario 1: Programutvecklare som arbetar med en komplex funktion**
 
 En utvecklare behöver skriva en komplex datasyncroniseringsmodul för en ny applikation. Uppgiften verkar skrämmande. Han kan använda Pomodoro-tekniken för att dela upp den:
+
 *   **Pomodoro 1-2**: Studera teknisk dokumentation, designa modulens arkitektur. (Efter en 20-minuters lång paus)
 *   **Pomodoro 3**: Skriv kärnkoden för datatransfer.
 *   **Pomodoro 4**: Skriv koden för datavalidering.
@@ -51,6 +53,7 @@ En utvecklare behöver skriva en komplex datasyncroniseringsmodul för en ny app
 **Scenario 2: Student som förbereder sig inför tentor**
 
 En student behöver repetera en hel lärobok i makroekonomi. Att direkt börja kan kännas överväldigande på grund av mängden innehåll.
+
 *   **Pomodoro 1**: Snabbgenomgång av första kapitlet för att förstå dess struktur.
 *   **Pomodoro 2**: Läs och förstå första avsnittet i första kapitlet i djupet, och gör anteckningar.
 *   **Pomodoro 3**: Lös övningarna för första avsnittet.
@@ -59,6 +62,7 @@ En student behöver repetera en hel lärobok i makroekonomi. Att direkt börja k
 **Scenario 3: Designer som slutför en affischdesign**
 
 En designer behöver slutföra en affisch för en händelse på en eftermiddag. Designprocessen är full av osäkerheter.
+
 *   **Pomodoro 1**: Samla inspiration och material.
 *   **Pomodoro 2**: Brainstorma och skissa tre olika layoutförslag.
 *   **Pomodoro 3**: Välj ett förslag, förfinna och färglägg det.
@@ -82,6 +86,7 @@ En designer behöver slutföra en affisch för en händelse på en eftermiddag. 
 ## Utökningar och kopplingar
 
 Pomodoro-tekniken kan perfekt kombineras med andra metoder för tidsstyrning och effektivitet:
+
 *   **GTD (Getting Things Done)**: GTD hjälper dig att tömma huvudet och organisera din uppgiftslista; Pomodoro-tekniken är en utmärkt taktik för att exekvera specifika uppgifter på den listan.
 *   **Eisenhower-matrisen**: När du bestämmer vilka uppgifter du ska slutföra idag kan du använda denna matris för att hjälpa dig att prioritera och bestämma vilka uppgifter som är värda att investera dina värdefulla Pomodoros i.
 

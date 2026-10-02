@@ -76,6 +76,7 @@ Uma análise SWOT eficaz vai muito além de simplesmente listar itens; é um pro
 ## Extensões e Conexões
 
 Para realizar uma análise mais aprofundada, a SWOT é frequentemente combinada com outras ferramentas:
+
 *   **Análise PESTEL**: Pode fornecer uma perspectiva mais sistemática e macro para as seções "Oportunidades" e "Ameaças" da SWOT, analisando profundamente fatores externos como Políticos (P), Econômicos (E), Sociais (S), Tecnológicos (T), Ambientais (E) e Legais (L).
 *   **Modelo das Cinco Forças de Porter**: Quando as "ameaças" provêm principalmente da concorrência no setor, este modelo pode fornecer uma estrutura analítica mais refinada.
 *   **Análise da Cadeia de Valor**: Após a análise SWOT, a análise da cadeia de valor pode ajudar a examinar sistematicamente as atividades da organização para identificar com mais precisão suas "forças" e "fraquezas" centrais.

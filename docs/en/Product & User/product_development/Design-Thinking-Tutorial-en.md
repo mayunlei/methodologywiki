@@ -24,6 +24,7 @@ graph TD
     end
 ```
 -->
+
 *   **This is an iterative, not linear, process**: Feedback gained during the testing phase might lead you back to any previous stage to deepen empathy, redefine the problem, or generate new ideas.
 
 1.  **Empathize**
