@@ -1,0 +1,13 @@
+graph TD
+    subgraph 帕累托分析示例
+        direction LR
+        subgraph X轴
+            A(服务缓慢) --> B(食物味道) --> C(服务态度) --> D(价格太贵) --> E(环境嘈杂);
+        end
+        subgraph Y轴
+            F(左Y轴: 投诉频率) -- 右Y轴: 累计百分比 --> G;
+        end
+        subgraph 图表区域
+            H[条形图: 按频率从高到低排列<br/>折线图: 显示累计百分比]
+        end
+    end

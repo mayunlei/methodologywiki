@@ -1,0 +1,198 @@
+site_name: "Wiki för Metodologins Visdom : Vägen till Framgång"
+site_description: 'En kunskapsbas tillägnad den systematiska introduktionen, förklaringen och tillämpningen av olika kraftfulla metodologier, som hjälper människor på deras väg till framgång.'
+site_author: 'methodologywiki'
+
+site_url: https://methodologywiki.com/sv/
+repo_url: https://github.com/mayunlei/methodologywiki
+
+docs_dir: docs
+
+theme:
+  name: material
+  font: false
+  custom_dir: ../overrides
+  language: sv
+  favicon: ../favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Byt till mörkt läge
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Byt till ljust läge
+
+extra_css:
+  - stylesheets/extra.css
+extra:
+  analytics:
+    provider: google
+    property: G-VQ6RTZVF1S
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+    - name: Español
+      link: /es/
+      lang: es
+    - name: 日本語
+      link: /ja/
+      lang: ja
+    - name: 한국어
+      link: /ko/
+      lang: ko
+    - name: Русский
+      link: /ru/
+      lang: ru
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: Deutsch
+      link: /de/
+      lang: de
+    - name: Português
+      link: /pt/
+      lang: pt
+    - name: Nederlands
+      link: /nl/
+      lang: nl
+    - name: Tiếng Việt
+      link: /vi/
+      lang: vi
+    - name: Svenska
+      link: /sv/
+      lang: sv
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mermaid2:
+      version: 10.0.2
+
+nav:
+  - 'Hem': 'index.md'
+  - 'Grunder':
+    - 'Grundläggande discipliner':
+      - 'Blandade metoder forskning': 'Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-sv.md'
+      - 'Kvalitativ forskning': 'Foundations/basic_discipline/Qualitative-Research-Tutorial-sv.md'
+      - 'Kvantitativ forskning': 'Foundations/basic_discipline/Quantitative-Research-Tutorial-sv.md'
+    - 'Inlärningsmetoder':
+      - 'Cornell anteckningsmetod': 'Foundations/learning_methods/Cornell-Note-Taking-Tutorial-sv.md'
+      - 'Feynman teknik': 'Foundations/learning_methods/Feynman-Technique-Tutorial-sv.md'
+    - 'Logiskt tänkande':
+      - 'Första principers tänkande': 'Foundations/logical_thinking/First-Principles-Thinking-Tutorial-sv.md'
+      - 'Pyramidprincipen': 'Foundations/logical_thinking/Pyramid-Principle-Tutorial-sv.md'
+    - 'Vetenskapligt forskningsparadigm':
+      - 'Korrelationsforskning': 'Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-sv.md'
+      - 'Beskrivande forskning': 'Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-sv.md'
+      - 'Experimentell forskning': 'Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-sv.md'
+    - 'Systemtänkande':
+      - 'Isbergsmodellen': 'Foundations/systems_thinking/Iceberg-Model-Tutorial-sv.md'
+      - 'Systemdynamik': 'Foundations/systems_thinking/System-Dynamics-Tutorial-sv.md'
+    - 'Teori och praktik':
+      - 'Aktionsforskning': 'Foundations/theory_and_practice/Action-Research-Tutorial-sv.md'
+      - 'Grundad teori': 'Foundations/theory_and_practice/Grounded-Theory-Tutorial-sv.md'
+  - 'Strategi och affärer':
+    - 'Affärsmodell':
+      - 'Affärsmodell Canvas': 'Strategy & Business/business_model/Business-Model-Canvas-Tutorial-sv.md'
+      - 'Lean Canvas': 'Strategy & Business/business_model/Lean-Canvas-Tutorial-sv.md'
+    - 'Kvalitet och drift':
+      - 'Kaizen': 'Strategy & Business/quality_and_operations/Kaizen-Tutorial-sv.md'
+      - 'Lean drift': 'Strategy & Business/quality_and_operations/Lean-Operations-Tutorial-sv.md'
+      - 'Six Sigma': 'Strategy & Business/quality_and_operations/Six-Sigma-Tutorial-sv.md'
+      - 'Total kvalitetsledning': 'Strategy & Business/quality_and_operations/Total-Quality-Management-Tutorial-sv.md'
+    - 'Strategisk analys':
+      - 'PESTEL analys': 'Strategy & Business/strategic_analysis/PESTEL-Analysis-Tutorial-sv.md'
+      - 'Porters fem krafter': 'Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-sv.md'
+      - 'SWOT analys': 'Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-sv.md'
+      - 'Värdekedjeanalys': 'Strategy & Business/strategic_analysis/Value-Chain-Analysis-Tutorial-sv.md'
+    - 'Strategisk genomförande':
+      - 'Balanserat styrkort': 'Strategy & Business/strategic_execution/Balanced-Scorecard-Tutorial-sv.md'
+      - 'Blå ocean strategi': 'Strategy & Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-sv.md'
+  - 'Problemlösning och beslutsfattande':
+    - 'Beslutsfattande':
+      - 'Kostnad-nytta analys': 'Problem Solving & Decision Making/decision_making/Cost-Benefit-Analysis-Tutorial-sv.md'
+      - 'Beslutsmatris': 'Problem Solving & Decision Making/decision_making/Decision-Matrix-Tutorial-sv.md'
+      - 'Pareto analys': 'Problem Solving & Decision Making/decision_making/Pareto-Analysis-Tutorial-sv.md'
+    - 'Idégenerering':
+      - 'Brainstorming': 'Problem Solving & Decision Making/ideation/Brainstorming-Tutorial-sv.md'
+      - 'Mindmapping': 'Problem Solving & Decision Making/ideation/Mind-Mapping-Tutorial-sv.md'
+      - 'Sex tänkande hattar': 'Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-sv.md'
+    - 'Problemlösning':
+      - 'Fiskbensdiagram': 'Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-sv.md'
+      - 'Fem varför': 'Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-sv.md'
+      - 'Gap analys': 'Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-sv.md'
+      - 'Gemba promenad': 'Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-sv.md'
+      - 'Logikträd': 'Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-sv.md'
+      - 'Problemlösning': 'Problem Solving & Decision Making/problem_solving/Problem-Solving-sv.md'
+      - 'Sex tänkande hattar': 'Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-sv.md'
+    - 'Grundorsaksanalys':
+      - 'Fem varför': 'Problem Solving & Decision Making/root_cause_analysis/5-Whys-Tutorial-sv.md'
+      - 'Fiskbensdiagram': 'Problem Solving & Decision Making/root_cause_analysis/Fishbone-Diagram-Tutorial-sv.md'
+  - 'Produkt och användare':
+    - 'Produktutveckling':
+      - 'Agile': 'Product & User/product_development/Agile-Tutorial-sv.md'
+      - 'Design Thinking': 'Product & User/product_development/Design-Thinking-Tutorial-sv.md'
+      - 'Kanban': 'Product & User/product_development/Kanban-Tutorial-sv.md'
+      - 'Scrum': 'Product & User/product_development/Scrum-Tutorial-sv.md'
+    - 'Specialiserade kvalitativa metoder':
+      - 'Fallstudie': 'Product & User/specialized_qualitative_methods/Case-Study-Tutorial-sv.md'
+      - 'Etnografi': 'Product & User/specialized_qualitative_methods/Ethnography-Tutorial-sv.md'
+    - 'Testning och validering':
+      - 'A/B testning': 'Product & User/testing_and_validation/AB-Testing-Tutorial-sv.md'
+      - 'MVP': 'Product & User/testing_and_validation/MVP-Tutorial-sv.md'
+      - 'Användbarhetstestning': 'Product & User/testing_and_validation/Usability-Testing-Tutorial-sv.md'
+    - 'Tidsdimensionsdesign':
+      - 'Tvärsnittsforskning': 'Product & User/time_dimension_design/Cross-Sectional-Research-Tutorial-sv.md'
+      - 'Longitudinell forskning': 'Product & User/time_dimension_design/Longitudinal-Research-Tutorial-sv.md'
+    - 'Användarforskning':
+      - 'Empati karta': 'Product & User/user_research/Empathy-Map-Tutorial-sv.md'
+      - 'Användarresa karta': 'Product & User/user_research/User-Journey-Map-Tutorial-sv.md'
+      - 'Användarpersona': 'Product & User/user_research/User-Persona-Tutorial-sv.md'
+  - 'Personlig och teamproduktivitet':
+    - 'Feedback tekniker':
+      - 'SBI feedback modell': 'Personal & Team Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-sv.md'
+    - 'Målhantering':
+      - 'KPI': 'Personal & Team Productivity/goal_management/KPI-Tutorial-sv.md'
+      - 'OKR': 'Personal & Team Productivity/goal_management/OKR-Tutorial-sv.md'
+      - 'SMART mål': 'Personal & Team Productivity/goal_management/SMART-Goals-Tutorial-sv.md'
+    - 'Vanutbildning':
+      - 'Vaneslinga': 'Personal & Team Productivity/habit_formation/The-Habit-Loop-Tutorial-sv.md'
+      - 'Små vanor': 'Personal & Team Productivity/habit_formation/Tiny-Habits-Tutorial-sv.md'
+    - 'Möteseffektivitet':
+      - 'ORID fokuserat samtal': 'Personal & Team Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-sv.md'
+    - 'Teamsamarbete':
+      - 'RACI matris': 'Personal & Team Productivity/team_collaboration/RACI-Matrix-Tutorial-sv.md'
+    - 'Tidshantering':
+      - 'Eisenhower matris': 'Personal & Team Productivity/time_management/Eisenhower-Matrix-Tutorial-sv.md'
+      - 'GTD': 'Personal & Team Productivity/time_management/GTD-Tutorial-sv.md'
+      - 'Pomodoro teknik': 'Personal & Team Productivity/time_management/Pomodoro-Technique-Tutorial-sv.md'
+

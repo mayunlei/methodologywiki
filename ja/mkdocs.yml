@@ -1,0 +1,198 @@
+site_name: "方法論の知恵ウィキ : 成功への道"
+site_description: '強力な方法論を体系的に紹介、説明、適用することに専念する知識ベースで、人々の成功への道を支援します。'
+site_author: 'methodologywiki'
+
+site_url: https://methodologywiki.com/ja/
+repo_url: https://github.com/mayunlei/methodologywiki
+
+docs_dir: docs
+
+theme:
+  name: material
+  font: false
+  custom_dir: ../overrides
+  language: ja
+  favicon: ../favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+
+extra_css:
+  - stylesheets/extra.css
+extra:
+  analytics:
+    provider: google
+    property: G-VQ6RTZVF1S
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+    - name: Español
+      link: /es/
+      lang: es
+    - name: 日本語
+      link: /ja/
+      lang: ja
+    - name: 한국어
+      link: /ko/
+      lang: ko
+    - name: Русский
+      link: /ru/
+      lang: ru
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: Deutsch
+      link: /de/
+      lang: de
+    - name: Português
+      link: /pt/
+      lang: pt
+    - name: Nederlands
+      link: /nl/
+      lang: nl
+    - name: Tiếng Việt
+      link: /vi/
+      lang: vi
+    - name: Svenska
+      link: /sv/
+      lang: sv
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mermaid2:
+      version: 10.0.2
+
+nav:
+  - 'ホーム': 'index.md'
+  - '基礎':
+    - '基礎学問':
+      - '混合方法研究': 'Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-ja.md'
+      - '質的研究': 'Foundations/basic_discipline/Qualitative-Research-Tutorial-ja.md'
+      - '量的研究': 'Foundations/basic_discipline/Quantitative-Research-Tutorial-ja.md'
+    - '学習方法':
+      - 'コーネル式ノート法': 'Foundations/learning_methods/Cornell-Note-Taking-Tutorial-ja.md'
+      - 'ファインマン・テクニック': 'Foundations/learning_methods/Feynman-Technique-Tutorial-ja.md'
+    - '論理的思考':
+      - '第一原理思考': 'Foundations/logical_thinking/First-Principles-Thinking-Tutorial-ja.md'
+      - 'ピラミッド原理': 'Foundations/logical_thinking/Pyramid-Principle-Tutorial-ja.md'
+    - '科学的探究パラダイム':
+      - '相関研究': 'Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-ja.md'
+      - '記述的研究': 'Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-ja.md'
+      - '実験研究': 'Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-ja.md'
+    - 'システム思考':
+      - '氷山モデル': 'Foundations/systems_thinking/Iceberg-Model-Tutorial-ja.md'
+      - 'システムダイナミクス': 'Foundations/systems_thinking/System-Dynamics-Tutorial-ja.md'
+    - '理論と実践':
+      - 'アクションリサーチ': 'Foundations/theory_and_practice/Action-Research-Tutorial-ja.md'
+      - 'グラウンデッド・セオリー': 'Foundations/theory_and_practice/Grounded-Theory-Tutorial-ja.md'
+  - '戦略とビジネス':
+    - 'ビジネスモデル':
+      - 'ビジネスモデルキャンバス': 'Strategy & Business/business_model/Business-Model-Canvas-Tutorial-ja.md'
+      - 'リーンキャンバス': 'Strategy & Business/business_model/Lean-Canvas-Tutorial-ja.md'
+    - '品質と運営':
+      - '改善': 'Strategy & Business/quality_and_operations/Kaizen-Tutorial-ja.md'
+      - 'リーン運営': 'Strategy & Business/quality_and_operations/Lean-Operations-Tutorial-ja.md'
+      - 'シックスシグマ': 'Strategy & Business/quality_and_operations/Six-Sigma-Tutorial-ja.md'
+      - '総合品質管理': 'Strategy & Business/quality_and_operations/Total-Quality-Management-Tutorial-ja.md'
+    - '戦略分析':
+      - 'PESTEL分析': 'Strategy & Business/strategic_analysis/PESTEL-Analysis-Tutorial-ja.md'
+      - 'ポーターの5つの力': 'Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-ja.md'
+      - 'SWOT分析': 'Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-ja.md'
+      - 'バリューチェーン分析': 'Strategy & Business/strategic_analysis/Value-Chain-Analysis-Tutorial-ja.md'
+    - '戦略実行':
+      - 'バランススコアカード': 'Strategy & Business/strategic_execution/Balanced-Scorecard-Tutorial-ja.md'
+      - 'ブルーオーシャン戦略': 'Strategy & Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-ja.md'
+  - '問題解決と意思決定':
+    - '意思決定':
+      - '費用便益分析': 'Problem Solving & Decision Making/decision_making/Cost-Benefit-Analysis-Tutorial-ja.md'
+      - '決定マトリックス': 'Problem Solving & Decision Making/decision_making/Decision-Matrix-Tutorial-ja.md'
+      - 'パレート分析': 'Problem Solving & Decision Making/decision_making/Pareto-Analysis-Tutorial-ja.md'
+    - 'アイデア創出':
+      - 'ブレインストーミング': 'Problem Solving & Decision Making/ideation/Brainstorming-Tutorial-ja.md'
+      - 'マインドマップ': 'Problem Solving & Decision Making/ideation/Mind-Mapping-Tutorial-ja.md'
+      - '6つの思考帽子': 'Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-ja.md'
+    - '問題解決':
+      - '魚骨図': 'Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-ja.md'
+      - '5つのなぜ': 'Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-ja.md'
+      - 'ギャップ分析': 'Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-ja.md'
+      - '現場歩行': 'Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-ja.md'
+      - 'ロジックツリー': 'Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-ja.md'
+      - '問題解決': 'Problem Solving & Decision Making/problem_solving/Problem-Solving-ja.md'
+      - '6つの思考帽子': 'Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-ja.md'
+    - '根本原因分析':
+      - '5つのなぜ': 'Problem Solving & Decision Making/root_cause_analysis/5-Whys-Tutorial-ja.md'
+      - '魚骨図': 'Problem Solving & Decision Making/root_cause_analysis/Fishbone-Diagram-Tutorial-ja.md'
+  - '製品とユーザー':
+    - '製品開発':
+      - 'アジャイル': 'Product & User/product_development/Agile-Tutorial-ja.md'
+      - 'デザイン思考': 'Product & User/product_development/Design-Thinking-Tutorial-ja.md'
+      - 'かんばん': 'Product & User/product_development/Kanban-Tutorial-ja.md'
+      - 'スクラム': 'Product & User/product_development/Scrum-Tutorial-ja.md'
+    - '専門的質的方法':
+      - 'ケーススタディ': 'Product & User/specialized_qualitative_methods/Case-Study-Tutorial-ja.md'
+      - 'エスノグラフィー': 'Product & User/specialized_qualitative_methods/Ethnography-Tutorial-ja.md'
+    - 'テストと検証':
+      - 'A/Bテスト': 'Product & User/testing_and_validation/AB-Testing-Tutorial-ja.md'
+      - 'MVP': 'Product & User/testing_and_validation/MVP-Tutorial-ja.md'
+      - 'ユーザビリティテスト': 'Product & User/testing_and_validation/Usability-Testing-Tutorial-ja.md'
+    - '時間次元設計':
+      - '横断的研究': 'Product & User/time_dimension_design/Cross-Sectional-Research-Tutorial-ja.md'
+      - '縦断的研究': 'Product & User/time_dimension_design/Longitudinal-Research-Tutorial-ja.md'
+    - 'ユーザー研究':
+      - '共感マップ': 'Product & User/user_research/Empathy-Map-Tutorial-ja.md'
+      - 'ユーザージャーニーマップ': 'Product & User/user_research/User-Journey-Map-Tutorial-ja.md'
+      - 'ユーザーペルソナ': 'Product & User/user_research/User-Persona-Tutorial-ja.md'
+  - '個人とチームの生産性':
+    - 'フィードバック技法':
+      - 'SBIフィードバックモデル': 'Personal & Team Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-ja.md'
+    - '目標管理':
+      - 'KPI': 'Personal & Team Productivity/goal_management/KPI-Tutorial-ja.md'
+      - 'OKR': 'Personal & Team Productivity/goal_management/OKR-Tutorial-ja.md'
+      - 'SMART目標': 'Personal & Team Productivity/goal_management/SMART-Goals-Tutorial-ja.md'
+    - '習慣形成':
+      - '習慣ループ': 'Personal & Team Productivity/habit_formation/The-Habit-Loop-Tutorial-ja.md'
+      - '小さな習慣': 'Personal & Team Productivity/habit_formation/Tiny-Habits-Tutorial-ja.md'
+    - '会議の効果':
+      - 'ORID集中対話': 'Personal & Team Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-ja.md'
+    - 'チーム協力':
+      - 'RACIマトリックス': 'Personal & Team Productivity/team_collaboration/RACI-Matrix-Tutorial-ja.md'
+    - '時間管理':
+      - 'アイゼンハワーマトリックス': 'Personal & Team Productivity/time_management/Eisenhower-Matrix-Tutorial-ja.md'
+      - 'GTD': 'Personal & Team Productivity/time_management/GTD-Tutorial-ja.md'
+      - 'ポモドーロテクニック': 'Personal & Team Productivity/time_management/Pomodoro-Technique-Tutorial-ja.md'
+

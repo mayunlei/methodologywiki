@@ -1,0 +1,198 @@
+site_name: "Wiki de la Sabiduría de las Metodologías : Camino al Éxito"
+site_description: 'Una base de conocimientos dedicada a la introducción, explicación y aplicación sistemática de varias metodologías poderosas, ayudando a las personas en su camino hacia el éxito.'
+site_author: 'methodologywiki'
+
+site_url: https://methodologywiki.com/es/
+repo_url: https://github.com/mayunlei/methodologywiki
+
+docs_dir: docs
+
+theme:
+  name: material
+  font: false
+  custom_dir: ../overrides
+  language: es
+  favicon: ../favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar al modo oscuro
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar al modo claro
+
+
+extra_css:
+  - stylesheets/extra.css
+extra:
+  analytics:
+    provider: google
+    property: G-VQ6RTZVF1S
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+    - name: Español
+      link: /es/
+      lang: es
+    - name: 日本語
+      link: /ja/
+      lang: ja
+    - name: 한국어
+      link: /ko/
+      lang: ko
+    - name: Русский
+      link: /ru/
+      lang: ru
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: Deutsch
+      link: /de/
+      lang: de
+    - name: Português
+      link: /pt/
+      lang: pt
+    - name: Nederlands
+      link: /nl/
+      lang: nl
+    - name: Tiếng Việt
+      link: /vi/
+      lang: vi
+    - name: Svenska
+      link: /sv/
+      lang: sv
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mermaid2:
+      version: 10.0.2
+
+nav:
+  - 'Inicio': 'index.md'
+  - 'Fundamentos':
+    - 'Disciplinas Básicas':
+      - 'Investigación de Métodos Mixtos': 'Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-es.md'
+      - 'Investigación Cualitativa': 'Foundations/basic_discipline/Qualitative-Research-Tutorial-es.md'
+      - 'Investigación Cuantitativa': 'Foundations/basic_discipline/Quantitative-Research-Tutorial-es.md'
+    - 'Métodos de Aprendizaje':
+      - 'Método Cornell': 'Foundations/learning_methods/Cornell-Note-Taking-Tutorial-es.md'
+      - 'Técnica Feynman': 'Foundations/learning_methods/Feynman-Technique-Tutorial-es.md'
+    - 'Pensamiento Lógico':
+      - 'Pensamiento de Primeros Principios': 'Foundations/logical_thinking/First-Principles-Thinking-Tutorial-es.md'
+      - 'Principio Piramidal': 'Foundations/logical_thinking/Pyramid-Principle-Tutorial-es.md'
+    - 'Paradigma de Investigación Científica':
+      - 'Investigación Correlacional': 'Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-es.md'
+      - 'Investigación Descriptiva': 'Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-es.md'
+      - 'Investigación Experimental': 'Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-es.md'
+    - 'Pensamiento Sistémico':
+      - 'Modelo del Iceberg': 'Foundations/systems_thinking/Iceberg-Model-Tutorial-es.md'
+      - 'Dinámica de Sistemas': 'Foundations/systems_thinking/System-Dynamics-Tutorial-es.md'
+    - 'Teoría y Práctica':
+      - 'Investigación-Acción': 'Foundations/theory_and_practice/Action-Research-Tutorial-es.md'
+      - 'Teoría Fundamentada': 'Foundations/theory_and_practice/Grounded-Theory-Tutorial-es.md'
+  - 'Estrategia y Negocios':
+    - 'Modelo de Negocio':
+      - 'Lienzo del Modelo de Negocio': 'Strategy & Business/business_model/Business-Model-Canvas-Tutorial-es.md'
+      - 'Lienzo Lean': 'Strategy & Business/business_model/Lean-Canvas-Tutorial-es.md'
+    - 'Calidad y Operaciones':
+      - 'Kaizen': 'Strategy & Business/quality_and_operations/Kaizen-Tutorial-es.md'
+      - 'Operaciones Lean': 'Strategy & Business/quality_and_operations/Lean-Operations-Tutorial-es.md'
+      - 'Seis Sigma': 'Strategy & Business/quality_and_operations/Six-Sigma-Tutorial-es.md'
+      - 'Gestión de Calidad Total': 'Strategy & Business/quality_and_operations/Total-Quality-Management-Tutorial-es.md'
+    - 'Análisis Estratégico':
+      - 'Análisis PESTEL': 'Strategy & Business/strategic_analysis/PESTEL-Analysis-Tutorial-es.md'
+      - 'Cinco Fuerzas de Porter': 'Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-es.md'
+      - 'Análisis SWOT': 'Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-es.md'
+      - 'Análisis de la Cadena de Valor': 'Strategy & Business/strategic_analysis/Value-Chain-Analysis-Tutorial-es.md'
+    - 'Ejecución Estratégica':
+      - 'Cuadro de Mando Integral': 'Strategy & Business/strategic_execution/Balanced-Scorecard-Tutorial-es.md'
+      - 'Estrategia del Océano Azul': 'Strategy & Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-es.md'
+  - 'Resolución de Problemas y Toma de Decisiones':
+    - 'Toma de Decisiones':
+      - 'Análisis Costo-Beneficio': 'Problem Solving & Decision Making/decision_making/Cost-Benefit-Analysis-Tutorial-es.md'
+      - 'Matriz de Decisión': 'Problem Solving & Decision Making/decision_making/Decision-Matrix-Tutorial-es.md'
+      - 'Análisis de Pareto': 'Problem Solving & Decision Making/decision_making/Pareto-Analysis-Tutorial-es.md'
+    - 'Generación de Ideas':
+      - 'Lluvia de Ideas': 'Problem Solving & Decision Making/ideation/Brainstorming-Tutorial-es.md'
+      - 'Mapa Mental': 'Problem Solving & Decision Making/ideation/Mind-Mapping-Tutorial-es.md'
+      - 'Seis Sombreros para Pensar': 'Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-es.md'
+    - 'Resolución de Problemas':
+      - 'Diagrama de Espina de Pescado': 'Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-es.md'
+      - 'Cinco Por Qué': 'Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-es.md'
+      - 'Análisis de Brechas': 'Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-es.md'
+      - 'Caminata Gemba': 'Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-es.md'
+      - 'Árbol Lógico': 'Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-es.md'
+      - 'Resolución de Problemas': 'Problem Solving & Decision Making/problem_solving/Problem-Solving-es.md'
+      - 'Seis Sombreros para Pensar': 'Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-es.md'
+    - 'Análisis de Causa Raíz':
+      - 'Cinco Por Qué': 'Problem Solving & Decision Making/root_cause_analysis/5-Whys-Tutorial-es.md'
+      - 'Diagrama de Espina de Pescado': 'Problem Solving & Decision Making/root_cause_analysis/Fishbone-Diagram-Tutorial-es.md'
+  - 'Producto y Usuario':
+    - 'Desarrollo de Productos':
+      - 'Agile': 'Product & User/product_development/Agile-Tutorial-es.md'
+      - 'Design Thinking': 'Product & User/product_development/Design-Thinking-Tutorial-es.md'
+      - 'Kanban': 'Product & User/product_development/Kanban-Tutorial-es.md'
+      - 'Scrum': 'Product & User/product_development/Scrum-Tutorial-es.md'
+    - 'Métodos Cualitativos Especializados':
+      - 'Estudio de Caso': 'Product & User/specialized_qualitative_methods/Case-Study-Tutorial-es.md'
+      - 'Etnografía': 'Product & User/specialized_qualitative_methods/Ethnography-Tutorial-es.md'
+    - 'Pruebas y Validación':
+      - 'Pruebas A/B': 'Product & User/testing_and_validation/AB-Testing-Tutorial-es.md'
+      - 'MVP': 'Product & User/testing_and_validation/MVP-Tutorial-es.md'
+      - 'Pruebas de Usabilidad': 'Product & User/testing_and_validation/Usability-Testing-Tutorial-es.md'
+    - 'Diseño de Dimensión Temporal':
+      - 'Investigación Transversal': 'Product & User/time_dimension_design/Cross-Sectional-Research-Tutorial-es.md'
+      - 'Investigación Longitudinal': 'Product & User/time_dimension_design/Longitudinal-Research-Tutorial-es.md'
+    - 'Investigación de Usuarios':
+      - 'Mapa de Empatía': 'Product & User/user_research/Empathy-Map-Tutorial-es.md'
+      - 'Mapa del Viaje del Usuario': 'Product & User/user_research/User-Journey-Map-Tutorial-es.md'
+      - 'Persona del Usuario': 'Product & User/user_research/User-Persona-Tutorial-es.md'
+  - 'Productividad Personal y de Equipo':
+    - 'Técnicas de Retroalimentación':
+      - 'Modelo de Retroalimentación SBI': 'Personal & Team Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-es.md'
+    - 'Gestión de Objetivos':
+      - 'KPI': 'Personal & Team Productivity/goal_management/KPI-Tutorial-es.md'
+      - 'OKR': 'Personal & Team Productivity/goal_management/OKR-Tutorial-es.md'
+      - 'Objetivos SMART': 'Personal & Team Productivity/goal_management/SMART-Goals-Tutorial-es.md'
+    - 'Formación de Hábitos':
+      - 'El Bucle del Hábito': 'Personal & Team Productivity/habit_formation/The-Habit-Loop-Tutorial-es.md'
+      - 'Micro-Hábitos': 'Personal & Team Productivity/habit_formation/Tiny-Habits-Tutorial-es.md'
+    - 'Efectividad de Reuniones':
+      - 'Conversación Enfocada ORID': 'Personal & Team Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-es.md'
+    - 'Colaboración de Equipo':
+      - 'Matriz RACI': 'Personal & Team Productivity/team_collaboration/RACI-Matrix-Tutorial-es.md'
+    - 'Gestión del Tiempo':
+      - 'Matriz de Eisenhower': 'Personal & Team Productivity/time_management/Eisenhower-Matrix-Tutorial-es.md'
+      - 'GTD': 'Personal & Team Productivity/time_management/GTD-Tutorial-es.md'
+      - 'Técnica Pomodoro': 'Personal & Team Productivity/time_management/Pomodoro-Technique-Tutorial-es.md'

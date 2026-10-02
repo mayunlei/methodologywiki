@@ -1,0 +1,198 @@
+site_name: "방법론의 지혜 위키 : 성공으로 가는 길"
+site_description: '강력한 방법론들을 체계적으로 소개하고, 설명하며, 적용하는 데 전념하는 지식 베이스로, 사람들이 성공으로 가는 길을 돕습니다.'
+site_author: 'methodologywiki'
+
+site_url: https://methodologywiki.com/ko/
+repo_url: https://github.com/mayunlei/methodologywiki
+
+docs_dir: docs
+
+theme:
+  name: material
+  font: false
+  custom_dir: ../overrides
+  language: ko
+  favicon: ../favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드로 전환
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드로 전환
+
+extra_css:
+  - stylesheets/extra.css
+extra:
+  analytics:
+    provider: google
+    property: G-VQ6RTZVF1S
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+    - name: Español
+      link: /es/
+      lang: es
+    - name: 日本語
+      link: /ja/
+      lang: ja
+    - name: 한국어
+      link: /ko/
+      lang: ko
+    - name: Русский
+      link: /ru/
+      lang: ru
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: Deutsch
+      link: /de/
+      lang: de
+    - name: Português
+      link: /pt/
+      lang: pt
+    - name: Nederlands
+      link: /nl/
+      lang: nl
+    - name: Tiếng Việt
+      link: /vi/
+      lang: vi
+    - name: Svenska
+      link: /sv/
+      lang: sv
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mermaid2:
+      version: 10.0.2
+
+nav:
+  - '홈': 'index.md'
+  - '기초':
+    - '기초 학문':
+      - '혼합 방법 연구': 'Foundations/basic_discipline/Mixed-Methods-Research-Tutorial-ko.md'
+      - '질적 연구': 'Foundations/basic_discipline/Qualitative-Research-Tutorial-ko.md'
+      - '양적 연구': 'Foundations/basic_discipline/Quantitative-Research-Tutorial-ko.md'
+    - '학습 방법':
+      - '코넬 노트 필기법': 'Foundations/learning_methods/Cornell-Note-Taking-Tutorial-ko.md'
+      - '파인만 기법': 'Foundations/learning_methods/Feynman-Technique-Tutorial-ko.md'
+    - '논리적 사고':
+      - '제1원리 사고': 'Foundations/logical_thinking/First-Principles-Thinking-Tutorial-ko.md'
+      - '피라미드 원리': 'Foundations/logical_thinking/Pyramid-Principle-Tutorial-ko.md'
+    - '과학적 탐구 패러다임':
+      - '상관 연구': 'Foundations/scientific_inquiry_paradigm/Correlational-Research-Tutorial-ko.md'
+      - '기술적 연구': 'Foundations/scientific_inquiry_paradigm/Descriptive-Research-Tutorial-ko.md'
+      - '실험 연구': 'Foundations/scientific_inquiry_paradigm/Experimental-Research-Tutorial-ko.md'
+    - '시스템 사고':
+      - '빙산 모델': 'Foundations/systems_thinking/Iceberg-Model-Tutorial-ko.md'
+      - '시스템 다이내믹스': 'Foundations/systems_thinking/System-Dynamics-Tutorial-ko.md'
+    - '이론과 실천':
+      - '액션 리서치': 'Foundations/theory_and_practice/Action-Research-Tutorial-ko.md'
+      - '근거 이론': 'Foundations/theory_and_practice/Grounded-Theory-Tutorial-ko.md'
+  - '전략과 비즈니스':
+    - '비즈니스 모델':
+      - '비즈니스 모델 캔버스': 'Strategy & Business/business_model/Business-Model-Canvas-Tutorial-ko.md'
+      - '린 캔버스': 'Strategy & Business/business_model/Lean-Canvas-Tutorial-ko.md'
+    - '품질과 운영':
+      - '카이젠': 'Strategy & Business/quality_and_operations/Kaizen-Tutorial-ko.md'
+      - '린 운영': 'Strategy & Business/quality_and_operations/Lean-Operations-Tutorial-ko.md'
+      - '식스 시그마': 'Strategy & Business/quality_and_operations/Six-Sigma-Tutorial-ko.md'
+      - '전사적 품질 관리': 'Strategy & Business/quality_and_operations/Total-Quality-Management-Tutorial-ko.md'
+    - '전략 분석':
+      - 'PESTEL 분석': 'Strategy & Business/strategic_analysis/PESTEL-Analysis-Tutorial-ko.md'
+      - '포터의 5가지 힘': 'Strategy & Business/strategic_analysis/Porters-Five-Forces-Tutorial-ko.md'
+      - 'SWOT 분석': 'Strategy & Business/strategic_analysis/SWOT-Analysis-Tutorial-ko.md'
+      - '가치 사슬 분석': 'Strategy & Business/strategic_analysis/Value-Chain-Analysis-Tutorial-ko.md'
+    - '전략 실행':
+      - '균형 성과표': 'Strategy & Business/strategic_execution/Balanced-Scorecard-Tutorial-ko.md'
+      - '블루오션 전략': 'Strategy & Business/strategic_execution/Blue-Ocean-Strategy-Tutorial-ko.md'
+  - '문제 해결과 의사 결정':
+    - '의사 결정':
+      - '비용 편익 분석': 'Problem Solving & Decision Making/decision_making/Cost-Benefit-Analysis-Tutorial-ko.md'
+      - '의사 결정 매트릭스': 'Problem Solving & Decision Making/decision_making/Decision-Matrix-Tutorial-ko.md'
+      - '파레토 분석': 'Problem Solving & Decision Making/decision_making/Pareto-Analysis-Tutorial-ko.md'
+    - '아이디어 생성':
+      - '브레인스토밍': 'Problem Solving & Decision Making/ideation/Brainstorming-Tutorial-ko.md'
+      - '마인드 맵': 'Problem Solving & Decision Making/ideation/Mind-Mapping-Tutorial-ko.md'
+      - '6가지 사고 모자': 'Problem Solving & Decision Making/ideation/Six-Thinking-Hats-Tutorial-ko.md'
+    - '문제 해결':
+      - '어골도': 'Problem Solving & Decision Making/problem_solving/Fishbone-Diagram-Tutorial-ko.md'
+      - '5가지 왜': 'Problem Solving & Decision Making/problem_solving/Five-Whys-Tutorial-ko.md'
+      - '갭 분석': 'Problem Solving & Decision Making/problem_solving/Gap-Analysis-Tutorial-ko.md'
+      - '겐바 워크': 'Problem Solving & Decision Making/problem_solving/Gemba-Walk-Tutorial-ko.md'
+      - '로직 트리': 'Problem Solving & Decision Making/problem_solving/Logic-Tree-Tutorial-ko.md'
+      - '문제 해결': 'Problem Solving & Decision Making/problem_solving/Problem-Solving-ko.md'
+      - '6가지 사고 모자': 'Problem Solving & Decision Making/problem_solving/Six-Thinking-Hats-Tutorial-ko.md'
+    - '근본 원인 분석':
+      - '5가지 왜': 'Problem Solving & Decision Making/root_cause_analysis/5-Whys-Tutorial-ko.md'
+      - '어골도': 'Problem Solving & Decision Making/root_cause_analysis/Fishbone-Diagram-Tutorial-ko.md'
+  - '제품과 사용자':
+    - '제품 개발':
+      - '애자일': 'Product & User/product_development/Agile-Tutorial-ko.md'
+      - '디자인 씽킹': 'Product & User/product_development/Design-Thinking-Tutorial-ko.md'
+      - '칸반': 'Product & User/product_development/Kanban-Tutorial-ko.md'
+      - '스크럼': 'Product & User/product_development/Scrum-Tutorial-ko.md'
+    - '전문 질적 방법':
+      - '사례 연구': 'Product & User/specialized_qualitative_methods/Case-Study-Tutorial-ko.md'
+      - '민족지학': 'Product & User/specialized_qualitative_methods/Ethnography-Tutorial-ko.md'
+    - '테스트와 검증':
+      - 'A/B 테스트': 'Product & User/testing_and_validation/AB-Testing-Tutorial-ko.md'
+      - 'MVP': 'Product & User/testing_and_validation/MVP-Tutorial-ko.md'
+      - '사용성 테스트': 'Product & User/testing_and_validation/Usability-Testing-Tutorial-ko.md'
+    - '시간 차원 설계':
+      - '횡단면 연구': 'Product & User/time_dimension_design/Cross-Sectional-Research-Tutorial-ko.md'
+      - '종단면 연구': 'Product & User/time_dimension_design/Longitudinal-Research-Tutorial-ko.md'
+    - '사용자 연구':
+      - '공감 지도': 'Product & User/user_research/Empathy-Map-Tutorial-ko.md'
+      - '사용자 여정 지도': 'Product & User/user_research/User-Journey-Map-Tutorial-ko.md'
+      - '사용자 페르소나': 'Product & User/user_research/User-Persona-Tutorial-ko.md'
+  - '개인 및 팀 생산성':
+    - '피드백 기법':
+      - 'SBI 피드백 모델': 'Personal & Team Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-ko.md'
+    - '목표 관리':
+      - 'KPI': 'Personal & Team Productivity/goal_management/KPI-Tutorial-ko.md'
+      - 'OKR': 'Personal & Team Productivity/goal_management/OKR-Tutorial-ko.md'
+      - 'SMART 목표': 'Personal & Team Productivity/goal_management/SMART-Goals-Tutorial-ko.md'
+    - '습관 형성':
+      - '습관 루프': 'Personal & Team Productivity/habit_formation/The-Habit-Loop-Tutorial-ko.md'
+      - '작은 습관': 'Personal & Team Productivity/habit_formation/Tiny-Habits-Tutorial-ko.md'
+    - '회의 효과성':
+      - 'ORID 집중 대화': 'Personal & Team Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-ko.md'
+    - '팀 협업':
+      - 'RACI 매트릭스': 'Personal & Team Productivity/team_collaboration/RACI-Matrix-Tutorial-ko.md'
+    - '시간 관리':
+      - '아이젠하워 매트릭스': 'Personal & Team Productivity/time_management/Eisenhower-Matrix-Tutorial-ko.md'
+      - 'GTD': 'Personal & Team Productivity/time_management/GTD-Tutorial-ko.md'
+      - '포모도로 기법': 'Personal & Team Productivity/time_management/Pomodoro-Technique-Tutorial-ko.md'
+

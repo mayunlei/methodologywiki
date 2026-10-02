@@ -1,0 +1,106 @@
+graph TD
+    A[问题解决工具箱] --> B[问题解决框架导论]
+    B --> C[核心问题解决工具]
+    B --> D[关键问题解决方法论]
+    B --> E[信息素养工具]
+
+    C --> C1[探究与分析/判断]
+
+    D --> D1[欣赏式探究]
+    D --> D2[逻辑树]
+    D --> D3[实施解决方案]
+    D --> D4[基本问题解决技能与策略]
+    D --> D5[协作式问题解决]
+    D --> D6[系统分析]
+    D --> D7[设计思维]
+    D --> D8[人力绩效变异分析]
+    D --> D9[管理问题解决]
+    D --> D10[其他专业方法]
+
+    E --> E1[BUILD IT]
+
+    D2 --> D2a[如何树]
+    D2 --> D2b[五问法树]
+    D2 --> D2c[鱼骨图]
+
+    D3 --> D3a[DMAIC]
+
+    D9 --> D9a[五问法]
+    D9 --> D9b[差距分析]
+    D9 --> D9c[现场走动]
+    D9 --> D9d[波特五力模型]
+    D9 --> D9e[六顶思考帽]
+    D9 --> D9f[SWOT分析]
+
+    C1 -- 支持 --> D1
+    C1 -- 支持 --> D6
+    C1 -- 支持 --> D7
+
+    D1 -- 积极心理学 --> D
+    D7 -- 以人为本 --> D
+    D5 -- 协作 --> D
+    D8 -- 人为因素 --> D
+
+    D2 -- 结构化分析 --> D
+    D6 -- 结构化分析 --> D
+    D3a -- 数据驱动 --> D
+
+    E1 -- 提供资源 --> C1
+    E1 -- 提供资源 --> D
+
+    subgraph 常见问题解决步骤
+        F1[问题定义]
+        F2[根本原因识别]
+        F3[解决方案生成]
+        F4[实施]
+        F5[评估/持续改进]
+    end
+
+    D1 --> F1 & F2 & F3 & F4 & F5
+    D2 --> F1 & F2 & F3 & F4 & F5
+    D3 --> F1 & F2 & F3 & F4 & F5
+    D4 --> F1 & F2 & F3 & F4 & F5
+    D5 --> F1 & F2 & F3 & F4 & F5
+    D6 --> F1 & F2 & F3 & F4 & F5
+    D7 --> F1 & F2 & F3 & F4 & F5
+    D8 --> F1 & F2 & F3 & F4 & F5
+    D9 --> F1 & F2 & F3 & F4 & F5
+    D10 --> F1 & F2 & F3 & F4 & F5
+
+    F1 --> F2 --> F3 --> F4 --> F5
+    F5 --> F1
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style C1 fill:#ccf,stroke:#333,stroke-width:1px
+    style D1 fill:#cfc,stroke:#333,stroke-width:1px
+    style D2 fill:#cfc,stroke:#333,stroke-width:1px
+    style D3 fill:#cfc,stroke:#333,stroke-width:1px
+    style D4 fill:#cfc,stroke:#333,stroke-width:1px
+    style D5 fill:#cfc,stroke:#333,stroke-width:1px
+    style D6 fill:#cfc,stroke:#333,stroke-width:1px
+    style D7 fill:#cfc,stroke:#333,stroke-width:1px
+    style D8 fill:#cfc,stroke:#333,stroke-width:1px
+    style D9 fill:#cfc,stroke:#333,stroke-width:1px
+    style D10 fill:#cfc,stroke:#333,stroke-width:1px
+    style E1 fill:#ffc,stroke:#333,stroke-width:1px
+
+    style D2a fill:#eee,stroke:#333,stroke-width:1px
+    style D2b fill:#eee,stroke:#333,stroke-width:1px
+    style D2c fill:#eee,stroke:#333,stroke-width:1px
+    style D3a fill:#eee,stroke:#333,stroke-width:1px
+    style D9a fill:#eee,stroke:#333,stroke-width:1px
+    style D9b fill:#eee,stroke:#333,stroke-width:1px
+    style D9c fill:#eee,stroke:#333,stroke-width:1px
+    style D9d fill:#eee,stroke:#333,stroke-width:1px
+    style D9e fill:#eee,stroke:#333,stroke-width:1px
+    style D9f fill:#eee,stroke:#333,stroke-width:1px
+
+    style F1 fill:#fcc,stroke:#333,stroke-width:1px
+    style F2 fill:#fcc,stroke:#333,stroke-width:1px
+    style F3 fill:#fcc,stroke:#333,stroke-width:1px
+    style F4 fill:#fcc,stroke:#333,stroke-width:1px
+    style F5 fill:#fcc,stroke:#333,stroke-width:1px

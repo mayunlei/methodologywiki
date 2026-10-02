@@ -1,0 +1,21 @@
+graph TD
+    subgraph Scrum框架
+        subgraph 3个角色
+            A(<b>产品负责人</b><br/>负责最大化产品价值)
+            B(<b>Scrum Master</b><br/>负责确保Scrum被正确实践)
+            C(<b>开发者</b><br/>负责交付产品增量)
+        end
+
+        subgraph 5个事件
+            D(<b>冲刺</b><br/>核心事件, 1-4周迭代周期) --> E(<b>冲刺计划</b>);
+            E --> F(<b>每日站会</b>);
+            F --> G(<b>冲刺评审</b>);
+            G --> H(<b>冲刺回顾</b>);
+        end
+
+        subgraph 3个工件
+            I(<b>产品待办列表</b><br/>总体需求列表)
+            J(<b>冲刺待办列表</b><br/>当前冲刺的任务列表)
+            K(<b>增量</b><br/>当前冲刺完成的可用产品部分)
+        end
+    end

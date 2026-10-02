@@ -1,0 +1,198 @@
+site_name: "方法论智慧百科 : 成功之路"
+site_description: '一个致力于系统介绍、解释和应用各种强大方法论的知识库，帮助人们在成功之路上前行。'
+site_author: 'methodologywiki'
+
+site_url: https://methodologywiki.com/zh/
+repo_url: https://github.com/mayunlei/methodologywiki
+
+docs_dir: docs
+
+theme:
+  name: material
+  font: false
+  custom_dir: ../overrides
+  language: zh
+  favicon: ../favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+
+extra_css:
+  - stylesheets/extra.css
+extra:
+  analytics:
+    provider: google
+    property: G-VQ6RTZVF1S
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+    - name: Español
+      link: /es/
+      lang: es
+    - name: 日本語
+      link: /ja/
+      lang: ja
+    - name: 한국어
+      link: /ko/
+      lang: ko
+    - name: Русский
+      link: /ru/
+      lang: ru
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: Deutsch
+      link: /de/
+      lang: de
+    - name: Português
+      link: /pt/
+      lang: pt
+    - name: Nederlands
+      link: /nl/
+      lang: nl
+    - name: Tiếng Việt
+      link: /vi/
+      lang: vi
+    - name: Svenska
+      link: /sv/
+      lang: sv
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mermaid2:
+      version: 10.0.2
+
+nav:
+  - '首页': 'index.md'
+  - '基础学科':
+    - '基础学科':
+      - '混合方法研究': 'basic_discipline/Mixed-Methods-Research-Tutorial-zh.md'
+      - '定性研究': 'basic_discipline/Qualitative-Research-Tutorial-zh.md'
+      - '定量研究': 'basic_discipline/Quantitative-Research-Tutorial-zh.md'
+    - '学习方法':
+      - '康奈尔笔记法': 'learning_methods/Cornell-Note-Taking-Tutorial-zh.md'
+      - '费曼技巧': 'learning_methods/Feynman-Technique-Tutorial-zh.md'
+    - '逻辑思维':
+      - '第一性原理思维': 'logical_thinking/First-Principles-Thinking-Tutorial-zh.md'
+      - '金字塔原理': 'logical_thinking/Pyramid-Principle-Tutorial-zh.md'
+    - '科学探究范式':
+      - '相关性研究': 'scientific_inquiry_paradigm/Correlational-Research-Tutorial-zh.md'
+      - '描述性研究': 'scientific_inquiry_paradigm/Descriptive-Research-Tutorial-zh.md'
+      - '实验研究': 'scientific_inquiry_paradigm/Experimental-Research-Tutorial-zh.md'
+    - '系统思维':
+      - '冰山模型': 'systems_thinking/Iceberg-Model-Tutorial-zh.md'
+      - '系统动力学': 'systems_thinking/System-Dynamics-Tutorial-zh.md'
+    - '理论与实践':
+      - '行动研究': 'theory_and_practice/Action-Research-Tutorial-zh.md'
+      - '扎根理论': 'theory_and_practice/Grounded-Theory-Tutorial-zh.md'
+  - '战略与商业':
+    - '商业模式':
+      - '商业模式画布': 'business_model/Business-Model-Canvas-Tutorial-zh.md'
+      - '精益画布': 'business_model/Lean-Canvas-Tutorial-zh.md'
+    - '质量与运营':
+      - '改善': 'quality_and_operations/Kaizen-Tutorial-zh.md'
+      - '精益运营': 'quality_and_operations/Lean-Operations-Tutorial-zh.md'
+      - '六西格玛': 'quality_and_operations/Six-Sigma-Tutorial-zh.md'
+      - '全面质量管理': 'quality_and_operations/Total-Quality-Management-Tutorial-zh.md'
+    - '战略分析':
+      - 'PESTEL分析': 'strategic_analysis/PESTEL-Analysis-Tutorial-zh.md'
+      - '波特五力模型': 'strategic_analysis/Porters-Five-Forces-Tutorial-zh.md'
+      - 'SWOT分析': 'strategic_analysis/SWOT-Analysis-Tutorial-zh.md'
+      - '价值链分析': 'strategic_analysis/Value-Chain-Analysis-Tutorial-zh.md'
+    - '战略执行':
+      - '平衡计分卡': 'strategic_execution/Balanced-Scorecard-Tutorial-zh.md'
+      - '蓝海战略': 'strategic_execution/Blue-Ocean-Strategy-Tutorial-zh.md'
+  - '问题解决与决策制定':
+    - '决策制定':
+      - '成本效益分析': 'decision_making/Cost-Benefit-Analysis-Tutorial-zh.md'
+      - '决策矩阵': 'decision_making/Decision-Matrix-Tutorial-zh.md'
+      - '帕累托分析': 'decision_making/Pareto-Analysis-Tutorial-zh.md'
+    - '创意生成':
+      - '头脑风暴': 'ideation/Brainstorming-Tutorial-zh.md'
+      - '思维导图': 'ideation/Mind-Mapping-Tutorial-zh.md'
+      - '六顶思考帽': 'ideation/Six-Thinking-Hats-Tutorial-zh.md'
+    - '问题解决':
+      - '鱼骨图': 'problem_solving/Fishbone-Diagram-Tutorial-zh.md'
+      - '五个为什么': 'problem_solving/Five-Whys-Tutorial-zh.md'
+      - '差距分析': 'problem_solving/Gap-Analysis-Tutorial-zh.md'
+      - '现场观察': 'problem_solving/Gemba-Walk-Tutorial-zh.md'
+      - '逻辑树': 'problem_solving/Logic-Tree-Tutorial-zh.md'
+      - '问题解决': 'problem_solving/Problem-Solving-zh.md'
+      - '六顶思考帽': 'problem_solving/Six-Thinking-Hats-Tutorial-zh.md'
+    - '根本原因分析':
+      - '五个为什么': 'root_cause_analysis/5-Whys-Tutorial-zh.md'
+      - '鱼骨图': 'root_cause_analysis/Fishbone-Diagram-Tutorial-zh.md'
+  - '产品与用户':
+    - '产品开发':
+      - '敏捷开发': 'product_development/Agile-Tutorial-zh.md'
+      - '设计思维': 'product_development/Design-Thinking-Tutorial-zh.md'
+      - '看板': 'product_development/Kanban-Tutorial-zh.md'
+      - 'Scrum': 'product_development/Scrum-Tutorial-zh.md'
+    - '专业定性方法':
+      - '案例研究': 'specialized_qualitative_methods/Case-Study-Tutorial-zh.md'
+      - '民族志': 'specialized_qualitative_methods/Ethnography-Tutorial-zh.md'
+    - '测试与验证':
+      - 'A/B测试': 'testing_and_validation/AB-Testing-Tutorial-zh.md'
+      - '最小可行产品': 'testing_and_validation/MVP-Tutorial-zh.md'
+      - '可用性测试': 'testing_and_validation/Usability-Testing-Tutorial-zh.md'
+    - '时间维度设计':
+      - '横断面研究': 'time_dimension_design/Cross-Sectional-Research-Tutorial-zh.md'
+      - '纵向研究': 'time_dimension_design/Longitudinal-Research-Tutorial-zh.md'
+    - '用户研究':
+      - '同理心地图': 'user_research/Empathy-Map-Tutorial-zh.md'
+      - '用户旅程图': 'user_research/User-Journey-Map-Tutorial-zh.md'
+      - '用户画像': 'user_research/User-Persona-Tutorial-zh.md'
+  - '个人与团队生产力':
+    - '反馈技巧':
+      - 'SBI反馈模型': 'feedback_techniques/SBI-Feedback-Model-Tutorial-zh.md'
+    - '目标管理':
+      - '关键绩效指标': 'goal_management/KPI-Tutorial-zh.md'
+      - '目标与关键成果': 'goal_management/OKR-Tutorial-zh.md'
+      - 'SMART目标': 'goal_management/SMART-Goals-Tutorial-zh.md'
+    - '习惯养成':
+      - '习惯循环': 'habit_formation/The-Habit-Loop-Tutorial-zh.md'
+      - '微习惯': 'habit_formation/Tiny-Habits-Tutorial-zh.md'
+    - '会议效率':
+      - 'ORID聚焦对话': 'meeting_effectiveness/ORID-Focused-Conversation-Tutorial-zh.md'
+    - '团队协作':
+      - 'RACI矩阵': 'team_collaboration/RACI-Matrix-Tutorial-zh.md'
+    - '时间管理':
+      - '艾森豪威尔矩阵': 'time_management/Eisenhower-Matrix-Tutorial-zh.md'
+      - 'GTD': 'time_management/GTD-Tutorial-zh.md'
+      - '番茄工作法': 'time_management/Pomodoro-Technique-Tutorial-zh.md' 
