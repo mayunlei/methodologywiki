@@ -1,0 +1,106 @@
+graph TD
+    A[Bộ Công Cụ Giải Quyết Vấn Đề] --> B[Giới Thiệu Về Các Khung Giải Quyết Vấn Đề]
+    B --> C[Các Công Cụ Giải Quyết Vấn Đề Cốt Lõi]
+    B --> D[Các Phương Pháp Giải Quyết Vấn Đề Chính]
+    B --> E[Các Công Cụ Văn Hóa Thông Tin]
+
+    C --> C1[Khảo Sát & Phân Tích/Đánh Giá]
+
+    D --> D1[Khám Phá Định Hướng (AI)]
+    D --> D2[Cây Logic]
+    D --> D3[Thực Thi Giải Pháp]
+    D --> D4[Các Kỹ Năng & Chiến Lược Giải Quyết Vấn Đề Cốt Lõi]
+    D --> D5[Giải Quyết Vấn Đề Hợp Tác]
+    D --> D6[Phân Tích Hệ Thống]
+    D --> D7[Tư Duy Thiết Kế]
+    D --> D8[Phân Tích Biến Động Hiệu Suất Con Người (HPVA)]
+    D --> D9[Giải Quyết Vấn Đề Quản Lý]
+    D --> D10[Các Phương Pháp Chuyên Sâu Khác]
+
+    E --> E1[BUILD IT]
+
+    D2 --> D2a["Cây Cách Làm"]
+    D2 --> D2b[Cây Năm Tại Sao]
+    D2 --> D2c[Sơ Đồ Xương Cá]
+
+    D3 --> D3a[DMAIC (Sáu Sigma)]
+
+    D9 --> D9a[Năm Tại Sao]
+    D9 --> D9b[Phân Tích Khoảng Cách]
+    D9 --> D9c[Chuyến Đi Thăm Làm Việc (Gemba Walk)]
+    D9 --> D9d[Năm Lực Cạnh Tranh Của Porter]
+    D9 --> D9e[Sáu Chiếc Mũ Tư Duy]
+    D9 --> D9f[Phân Tích SWOT]
+
+    C1 -- Hỗ Trợ --> D1
+    C1 -- Hỗ Trợ --> D6
+    C1 -- Hỗ Trợ --> D7
+
+    D1 -- Tâm Lý Học Tích Cực --> D
+    D7 -- Lấy Con Người Làm Trung Tâm --> D
+    D5 -- Hợp Tác --> D
+    D8 -- Yếu Tố Con Người --> D
+
+    D2 -- Phân Tích Có Cấu Trúc --> D
+    D6 -- Phân Tích Có Cấu Trúc --> D
+    D3a -- Dựa Trên Dữ Liệu --> D
+
+    E1 -- Cung Cấp Tài Nguyên --> C1
+    E1 -- Cung Cấp Tài Nguyên --> D
+
+    subgraph Các Bước Giải Quyết Vấn Đề Phổ Biến (Theo Nhiều Khung)
+        F1[Xác Định Vấn Đề]
+        F2[Xác Định Nguyên Nhân Gốc]
+        F3[Đề Xuất Giải Pháp]
+        F4[Thực Thi]
+        F5[Đánh Giá/Cải Tiến Liên Tục]
+    end
+
+    D1 --> F1 & F2 & F3 & F4 & F5
+    D2 --> F1 & F2 & F3 & F4 & F5
+    D3 --> F1 & F2 & F3 & F4 & F5
+    D4 --> F1 & F2 & F3 & F4 & F5
+    D5 --> F1 & F2 & F3 & F4 & F5
+    D6 --> F1 & F2 & F3 & F4 & F5
+    D7 --> F1 & F2 & F3 & F4 & F5
+    D8 --> F1 & F2 & F3 & F4 & F5
+    D9 --> F1 & F2 & F3 & F4 & F5
+    D10 --> F1 & F2 & F3 & F4 & F5
+
+    F1 --> F2 --> F3 --> F4 --> F5
+    F5 --> F1(Cải Tiến Lặp Lại)
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style C1 fill:#ccf,stroke:#333,stroke-width:1px
+    style D1 fill:#cfc,stroke:#333,stroke-width:1px
+    style D2 fill:#cfc,stroke:#333,stroke-width:1px
+    style D3 fill:#cfc,stroke:#333,stroke-width:1px
+    style D4 fill:#cfc,stroke:#333,stroke-width:1px
+    style D5 fill:#cfc,stroke:#333,stroke-width:1px
+    style D6 fill:#cfc,stroke:#333,stroke-width:1px
+    style D7 fill:#cfc,stroke:#333,stroke-width:1px
+    style D8 fill:#cfc,stroke:#333,stroke-width:1px
+    style D9 fill:#cfc,stroke:#333,stroke-width:1px
+    style D10 fill:#cfc,stroke:#333,stroke-width:1px
+    style E1 fill:#ffc,stroke:#333,stroke-width:1px
+
+    style D2a fill:#eee,stroke:#333,stroke-width:1px
+    style D2b fill:#eee,stroke:#333,stroke-width:1px
+    style D2c fill:#eee,stroke:#333,stroke-width:1px
+    style D3a fill:#eee,stroke:#333,stroke-width:1px
+    style D9a fill:#eee,stroke:#333,stroke-width:1px
+    style D9b fill:#eee,stroke:#333,stroke-width:1px
+    style D9c fill:#eee,stroke:#333,stroke-width:1px
+    style D9d fill:#eee,stroke:#333,stroke-width:1px
+    style D9e fill:#eee,stroke:#333,stroke-width:1px
+    style D9f fill:#eee,stroke:#333,stroke-width:1px
+
+    style F1 fill:#fcc,stroke:#333,stroke-width:1px
+    style F2 fill:#fcc,stroke:#333,stroke-width:1px
+    style F3 fill:#fcc,stroke:#333,stroke-width:1px
+    style F4 fill:#fcc,stroke:#333,stroke-width:1px
+    style F5 fill:#fcc,stroke:#333,stroke-width:1px

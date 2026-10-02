@@ -1,0 +1,106 @@
+graph TD
+    A[Решение проблем] --> B[Введение в методологии решения проблем]
+    B --> C[Базовые инструменты решения проблем]
+    B --> D[Ключевые методологии решения проблем]
+    B --> E[Инструменты информационной грамотности]
+
+    C --> C1[Исследование и анализ/Оценка]
+
+    D --> D1[Аппрециативный анализ (AI)]
+    D --> D2[Логическое дерево]
+    D --> D3[Реализация решений]
+    D --> D4[Ключевые навыки и стратегии решения проблем]
+    D --> D5[Совместное решение проблем]
+    D --> D6[Анализ систем]
+    D --> D7[Дизайнерское мышление]
+    D --> D8[Анализ вариаций человеческой производительности (HPVA)]
+    D --> D9[Управленческое решение проблем]
+    D --> D10[Другие специализированные методы]
+
+    E --> E1[BUILD IT]
+
+    D2 --> D2a["Как-то" дерево]
+    D2 --> D2b[Пять "почему" дерево]
+    D2 --> D2c[Диаграмма Исикавы]
+
+    D3 --> D3a[DMAIC (Six Sigma)]
+
+    D9 --> D9a[Пять "почему"]
+    D9 --> D9b[Анализ разрыва]
+    D9 --> D9c[Посещение рабочего места (Gemba Walk)]
+    D9 --> D9d[Пять сил Портера]
+    D9 --> D9e[Шесть мыслительных шляп]
+    D9 --> D9f[SWOT-анализ]
+
+    C1 -- Поддерживает --> D1
+    C1 -- Поддерживает --> D6
+    C1 -- Поддерживает --> D7
+
+    D1 -- Позитивная психология --> D
+    D7 -- Ориентированность на человека --> D
+    D5 -- Сотрудничество --> D
+    D8 -- Человеческие факторы --> D
+
+    D2 -- Структурированный анализ --> D
+    D6 -- Структурированный анализ --> D
+    D3a -- Основанный на данных --> D
+
+    E1 -- Предоставляет ресурсы --> C1
+    E1 -- Предоставляет ресурсы --> D
+
+    subgraph Общие этапы решения проблем (межфреймворк)
+        F1[Определение проблемы]
+        F2[Идентификация корневой причины]
+        F3[Генерация решений]
+        F4[Реализация]
+        F5[Оценка/Непрерывное улучшение]
+    end
+
+    D1 --> F1 & F2 & F3 & F4 & F5
+    D2 --> F1 & F2 & F3 & F4 & F5
+    D3 --> F1 & F2 & F3 & F4 & F5
+    D4 --> F1 & F2 & F3 & F4 & F5
+    D5 --> F1 & F2 & F3 & F4 & F5
+    D6 --> F1 & F2 & F3 & F4 & F5
+    D7 --> F1 & F2 & F3 & F4 & F5
+    D8 --> F1 & F2 & F3 & F4 & F5
+    D9 --> F1 & F2 & F3 & F4 & F5
+    D10 --> F1 & F2 & F3 & F4 & F5
+
+    F1 --> F2 --> F3 --> F4 --> F5
+    F5 --> F1(Итеративное улучшение)
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style C1 fill:#ccf,stroke:#333,stroke-width:1px
+    style D1 fill:#cfc,stroke:#333,stroke-width:1px
+    style D2 fill:#cfc,stroke:#333,stroke-width:1px
+    style D3 fill:#cfc,stroke:#333,stroke-width:1px
+    style D4 fill:#cfc,stroke:#333,stroke-width:1px
+    style D5 fill:#cfc,stroke:#333,stroke-width:1px
+    style D6 fill:#cfc,stroke:#333,stroke-width:1px
+    style D7 fill:#cfc,stroke:#333,stroke-width:1px
+    style D8 fill:#cfc,stroke:#333,stroke-width:1px
+    style D9 fill:#cfc,stroke:#333,stroke-width:1px
+    style D10 fill:#cfc,stroke:#333,stroke-width:1px
+    style E1 fill:#ffc,stroke:#333,stroke-width:1px
+
+    style D2a fill:#eee,stroke:#333,stroke-width:1px
+    style D2b fill:#eee,stroke:#333,stroke-width:1px
+    style D2c fill:#eee,stroke:#333,stroke-width:1px
+    style D3a fill:#eee,stroke:#333,stroke-width:1px
+    style D9a fill:#eee,stroke:#333,stroke-width:1px
+    style D9b fill:#eee,stroke:#333,stroke-width:1px
+    style D9c fill:#eee,stroke:#333,stroke-width:1px
+    style D9d fill:#eee,stroke:#333,stroke-width:1px
+    style D9e fill:#eee,stroke:#333,stroke-width:1px
+    style D9f fill:#eee,stroke:#333,stroke-width:1px
+
+    style F1 fill:#fcc,stroke:#333,stroke-width:1px
+    style F2 fill:#fcc,stroke:#333,stroke-width:1px
+    style F3 fill:#fcc,stroke:#333,stroke-width:1px
+    style F4 fill:#fcc,stroke:#333,stroke-width:1px
+    style F5 fill:#fcc,stroke:#333,stroke-width:1px

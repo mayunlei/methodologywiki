@@ -1,0 +1,21 @@
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Helvetica Neue, Arial, sans-serif","fontSize":"15px","primaryColor":"#e8f1fc","primaryBorderColor":"#2a78d6","primaryTextColor":"#0b0b0b","lineColor":"#52514e"}}}%%
+flowchart TD
+    A["① Define the problem<br/><small>What is happening, how big is the impact, what is the goal?</small><br/><b>Gap Analysis · SMART</b>"]
+    B["② Break it down<br/><small>Split the big problem into analyzable parts</small><br/><b>Logic Tree · MECE</b>"]
+    C["③ Find root causes<br/><small>List possible causes, then dig into each</small><br/><b>Fishbone · 5 Whys · Gemba Walk</b>"]
+    D["④ Prioritize<br/><small>Fix the vital few causes first</small><br/><b>Pareto Analysis</b>"]
+    E["⑤ Generate solutions<br/><small>Come up with as many options as possible</small><br/><b>Brainstorming · Six Thinking Hats</b>"]
+    F["⑥ Evaluate and decide<br/><small>Compare options against criteria</small><br/><b>Decision Matrix · Cost-Benefit Analysis</b>"]
+    G["⑦ Implement and verify<br/><small>Pilot on a small scale, check results with data</small><br/><b>PDCA · A/B Testing</b>"]
+    H{"Is the problem solved?"}
+    I["⑧ Standardize and review<br/><small>Lock in what works, capture lessons</small><br/><b>Kaizen · ORID Retrospective</b>"]
+    A --> B --> C --> D --> E --> F --> G --> H
+    H -- Yes --> I
+    H -- "No: wrong cause" --> C
+    H -- "No: weak solution" --> E
+    classDef step fill:#e8f1fc,stroke:#2a78d6,stroke-width:1.5px,color:#0b0b0b;
+    classDef done fill:#e6f6ef,stroke:#1baf7a,stroke-width:1.5px,color:#0b0b0b;
+    classDef check fill:#fff7e0,stroke:#c98500,stroke-width:1.5px,color:#0b0b0b;
+    class A,B,C,D,E,F,G step;
+    class I done;
+    class H check;
