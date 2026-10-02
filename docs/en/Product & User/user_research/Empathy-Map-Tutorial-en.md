@@ -124,8 +124,8 @@ An Empathy Map is best used in a team workshop format.
 
 ## Extensions and Connections
 
-*   **User Persona**: The Empathy Map is a **key prerequisite step** for building a flesh-and-blood, emotionally rich user persona. Through the analysis of the Empathy Map, it can provide extremely vivid material for the "Pains," "Goals," and other modules of a user persona.
-*   **User Journey Map**: At each stage of the journey map, a mini Empathy Map can be used to deeply analyze the user's thoughts, feelings, and actions at that stage, thereby more accurately identifying pain points at each step.
+*   **[User Persona](User-Persona-Tutorial-en.md)**: The Empathy Map is a **key prerequisite step** for building a flesh-and-blood, emotionally rich user persona. Through the analysis of the Empathy Map, it can provide extremely vivid material for the "Pains," "Goals," and other modules of a user persona.
+*   **[User Journey Map](User-Journey-Map-Tutorial-en.md)**: At each stage of the journey map, a mini Empathy Map can be used to deeply analyze the user's thoughts, feelings, and actions at that stage, thereby more accurately identifying pain points at each step.
 
 ---
 *Source Reference: The Empathy Map was originally proposed by Dave Gray, founder of XPLANE (now part of Deloitte), and has been widely applied in Design Thinking and Agile development practices. It is a fundamental and core empathy tool in user-centered design processes.*

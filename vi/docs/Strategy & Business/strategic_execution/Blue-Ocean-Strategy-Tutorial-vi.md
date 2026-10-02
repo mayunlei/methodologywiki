@@ -16,7 +16,7 @@ Chiến lược Đại dương Xanh cung cấp một bộ công cụ phân tích
 
     
 
-<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-vi-mermaid-src-1.mmd -->
+    <!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-vi-mermaid-src-1.mmd -->
     *   "Loại bỏ" và "Giảm" giúp các công ty hạ thấp cấu trúc chi phí.
     *   "Nâng cao" và "Tạo ra" nhằm tăng giá trị cho khách hàng và tạo ra nhu cầu mới.
 

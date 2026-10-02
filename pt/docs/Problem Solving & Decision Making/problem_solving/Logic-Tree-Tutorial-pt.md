@@ -60,21 +60,9 @@ As árvores lógicas são divididas principalmente em dois tipos, utilizados par
 
 ### Caso 2: Árvore do "Como" - Planejando "Como Melhorar a Eficiência no Trabalho Pessoal?"
 
-```mermaid
-graph TD
-    A(Improve Personal Work Efficiency) --> B(Better Time Management)
-    A --> C(Optimize Workflow)
-    A --> D(Reduce Distractions)
+![Logic Tree Tutorial pt](./Logic-Tree-Tutorial-pt-mermaid-live-1.png)
 
-    B --> E(Use Pomodoro Technique)
-    B --> F(Create Daily Task List)
-
-    C --> G(Automate Repetitive Tasks)
-    C --> H(Use Templates and Tools)
-
-    D --> I(Turn Off Unnecessary Notifications)
-    D --> J(Set Fixed "Do Not Disturb" Work Hours)
-```
+<!-- mermaid 源文件：Logic-Tree-Tutorial-pt-mermaid-live-1.mmd -->
 
 **Análise**: Este diagrama em árvore decompõe um objetivo abstrato em uma série de etapas específicas e exequíveis, ajudando indivíduos a criar planos claros de melhoria.
 

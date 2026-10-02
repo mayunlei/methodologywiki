@@ -86,7 +86,7 @@ Conducting a comprehensive cost-benefit analysis requires identifying all releva
 
 ## Extensions and Connections
 
-*   **Decision Matrix**: When decision criteria cannot be fully monetized, a decision matrix provides a more flexible alternative.
+*   **[Decision Matrix](Decision-Matrix-Tutorial-en.md)**: When decision criteria cannot be fully monetized, a decision matrix provides a more flexible alternative.
 *   **Cost-Effectiveness Analysis (CEA)**: When project benefits are difficult to monetize (e.g., in healthcare), but their effectiveness can be measured by a consistent non-monetary unit (e.g., "number of successfully cured patients," "life-years gained"), CEA can be used. It calculates "how much it costs to achieve one unit of effect."
 
 ---

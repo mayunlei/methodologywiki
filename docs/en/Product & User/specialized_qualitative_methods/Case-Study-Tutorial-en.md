@@ -81,9 +81,9 @@ Robert K. Yin, a renowned case study scholar, proposed a rigorous linear but ite
 
 ## Extensions and Connections
 
-*   **Qualitative Research**: Case study is a core methodology in qualitative research.
-*   **Ethnography**: When a case itself is a community or organization, and the researcher employs long-term immersive observation, case study highly overlaps with ethnography.
-*   **Grounded Theory**: Can serve as a powerful analytical strategy in case studies for analyzing data and building theories from the bottom up.
+*   **[Qualitative Research](../../Foundations/basic_discipline/Qualitative-Research-Tutorial-en.md)**: Case study is a core methodology in qualitative research.
+*   **[Ethnography](Ethnography-Tutorial-en.md)**: When a case itself is a community or organization, and the researcher employs long-term immersive observation, case study highly overlaps with ethnography.
+*   **[Grounded Theory](../../Foundations/theory_and_practice/Grounded-Theory-Tutorial-en.md)**: Can serve as a powerful analytical strategy in case studies for analyzing data and building theories from the bottom up.
 
 ---
 *Source Reference: Robert K. Yin's "Case Study Research: Design and Methods" is the most authoritative and widely cited classic work in this field, it provides systematic operational guidelines for conducting rigorous case studies. Robert E. Stake's "The Art of Case Study Research" offers a different perspective from a qualitative, interpretive angle.*

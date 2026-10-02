@@ -8,35 +8,9 @@ Lean Canvas, vorgestellt von Ash Maurya in seinem Buch *Running Lean*, übernimm
 
 Lean Canvas behält die neun Blöcke des Business Model Canvas bei, ersetzt jedoch vier davon, um es handlungsorientierter und risikofokussierter zu gestalten.
 
-```mermaid
-graph TD
-    subgraph Lean Canvas
-        direction LR
-        subgraph Product
-            S(<b>3. Lösung</b><br/><i>Wie lösen wir diese Probleme?</i>)
-            P(<b>1. Problem</b><br/><i>Was sind die wichtigsten 1-3 Probleme für Kunden?</i>)
-            UVP(<b>4. Einzigartiger Mehrwert</b><br/><i>Warum sind wir anders?</i>)
-            KM(<b>8. Schlüsselmetriken</b><br/><i>Wie messen wir Erfolg?</i>)
-        end
+![Lean Canvas](./Lean-Canvas-Tutorial-de-mermaid-live-1.png)
 
-        subgraph Market
-            UA(<b>9. Unfairer Vorteil</b><br/><i>Welche Vorteile haben wir, die schwer zu kopieren sind?</i>)
-            CH(<b>5. Kanäle</b><br/><i>Wie erreichen wir Kunden?</i>)
-            CS(<b>2. Kundensegmente</b><br/><i>Wer sind unsere Zielkunden?</i>)
-        end
-
-        P & S --> UVP;
-        UVP --> CH & CS;
-
-        subgraph Finances
-            C(<b>7. Kostenstruktur</b><br/><i>Wo liegen unsere Ausgaben?</i>)
-            R(<b>6. Einnahmequellen</b><br/><i>Wie verdienen wir Geld?</i>)
-        end
-
-        product -- Generiert --> C;
-        market -- Generiert --> R;
-    end
-```
+<!-- mermaid 源文件：Lean-Canvas-Tutorial-de-mermaid-live-1.mmd -->
 
 **Unterschiede zum Business Model Canvas:**
 

@@ -68,9 +68,9 @@ The most classic action research spiral model was proposed by Kurt Lewin and has
 
 ## Extensions and Connections
 
-*   **Qualitative Research**: Action research extensively uses qualitative methods such as interviews and observations in data collection.
+*   **[Qualitative Research](../basic_discipline/Qualitative-Research-Tutorial-en.md)**: Action research extensively uses qualitative methods such as interviews and observations in data collection.
 *   **Critical Theory**: Some schools of action research (e.g., critical action research) have a strong social critique, aiming to reveal and challenge unequal power structures and promote social liberation.
-*   **Lean and Agile**: In enterprise management, the PDCA (Plan-Do-Check-Act) cycle in Lean thinking and the iterative thinking in Agile development are highly consistent with the spiral cycle concept of action research.
+*   **[Lean and Agile](../../Product & User/product_development/Agile-Tutorial-en.md)**: In enterprise management, the PDCA (Plan-Do-Check-Act) cycle in Lean thinking and the iterative thinking in Agile development are highly consistent with the spiral cycle concept of action research.
 
 ---
 *Reference: Kurt Lewin, a Gestalt psychologist, is widely considered the "father of action research." The works of Stephen Kemmis and Robin McTaggart have significantly developed the theoretical and practical models of action research. In the field of education, John Elliott and Lawrence Stenhouse are key figures in promoting the "teacher as researcher" movement.*

@@ -85,7 +85,7 @@ The process of using Lean Canvas is a continuous cycle of validation and iterati
 
 ## Extensions and Connections
 
-*   **Business Model Canvas**: Lean Canvas is an important variation and development of the Business Model Canvas in the context of Lean Startup.
+*   **[Business Model Canvas](Business-Model-Canvas-Tutorial-en.md)**: Lean Canvas is an important variation and development of the Business Model Canvas in the context of Lean Startup.
 *   **Customer Development**: A methodology proposed by Steve Blank, emphasizing "getting out of the building" to validate hypotheses, which serves as a guiding principle for Lean Canvas at the action level.
 *   **Value Proposition Canvas**: Can serve as a deepening tool for the "Problem," "Solution," and "Unique Value Proposition" blocks in Lean Canvas, helping entrepreneurs refine the product-market fit more precisely.
 

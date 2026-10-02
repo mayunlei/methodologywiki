@@ -88,8 +88,8 @@ Designing a tiny habit requires following a clear "**ABC**" recipe.
 
 ## Extensions and Connections
 
-*   **The Habit Loop**: The "anchor-tiny behavior-celebration" recipe of Tiny Habits is an extremely subtle and practical application of the Habit Loop's "cue-routine-reward" theory.
-*   **GTD (Getting Things Done)**: The "Two-Minute Rule" in GTD (if a task can be done in two minutes, do it immediately) is highly consistent with the Tiny Habits' idea of "lowering the barrier to action."
+*   **[The Habit Loop](The-Habit-Loop-Tutorial-en.md)**: The "anchor-tiny behavior-celebration" recipe of Tiny Habits is an extremely subtle and practical application of the Habit Loop's "cue-routine-reward" theory.
+*   **[GTD (Getting Things Done)](../time_management/GTD-Tutorial-en.md)**: The "Two-Minute Rule" in GTD (if a task can be done in two minutes, do it immediately) is highly consistent with the Tiny Habits' idea of "lowering the barrier to action."
 
 ---
 *Reference: Dr. BJ Fogg's book "Tiny Habits: The Small Changes That Change Everything" is the sole and most authoritative source for this method. The book elaborates on the underlying B=MAP behavior model and how to systematically design and apply tiny habits to change all aspects of life.*

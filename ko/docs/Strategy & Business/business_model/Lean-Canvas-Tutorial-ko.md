@@ -8,35 +8,9 @@
 
 리ーン 캔버스는 비즈니스 모델 캔버스의 9개 블록 구조를 유지하지만, 4개의 블록을 교체하여 실행 가능하고 위험 중심으로 재구성하였습니다.
 
-```mermaid
-graph TD
-    subgraph Lean Canvas
-        direction LR
-        subgraph Product
-            S(<b>3. 해결책</b><br/><i>이 문제들을 어떻게 해결할 것인가?</i>)
-            P(<b>1. 문제</b><br/><i>고객이 겪는 상위 1~3개의 문제는 무엇인가?</i>)
-            UVP(<b>4. 독특한 가치 제안</b><br/><i>왜 우리가 다를까?</i>)
-            KM(<b>8. 핵심 지표</b><br/><i>우리의 성공을 어떻게 측정할까?</i>)
-        end
+![Lean Canvas](./Lean-Canvas-Tutorial-ko-mermaid-live-1.png)
 
-        subgraph Market
-            UA(<b>9. 불공정한 우위</b><br/><i>복제하기 어려운 우리의 우위는 무엇인가?</i>)
-            CH(<b>5. 유통 채널</b><br/><i>고객에게 어떻게 도달할까?</i>)
-            CS(<b>2. 고객 세분화</b><br/><i>우리의 타겟 고객은 누구인가?</i>)
-        end
-
-        P & S --> UVP;
-        UVP --> CH & CS;
-
-        subgraph Finances
-            C(<b>7. 비용 구조</b><br/><i>우리의 지출은 어디에 있는가?</i>)
-            R(<b>6. 수익 창출</b><br/><i>우리는 어떻게 돈을 벌까?</i>)
-        end
-
-        product -- 생성함 --> C;
-        market -- 생성함 --> R;
-    end
-```
+<!-- mermaid 源文件：Lean-Canvas-Tutorial-ko-mermaid-live-1.mmd -->
 
 **비즈니스 모델 캔버스와의 차이점:**
 

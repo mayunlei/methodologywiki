@@ -77,9 +77,9 @@ Ethnographic researchers pursue a "thick description," not only recording what p
 
 ## Extensions and Connections
 
-*   **Qualitative Research**: Ethnography is one of the most representative qualitative research methods, emphasizing immersive experience.
+*   **[Qualitative Research](../../Foundations/basic_discipline/Qualitative-Research-Tutorial-en.md)**: Ethnography is one of the most representative qualitative research methods, emphasizing immersive experience.
 *   **Participatory Design**: In the design field, ethnographic insights are often used as a basis for inviting users to participate in the design process.
-*   **Grounded Theory**: The large amount of field notes collected through ethnography is excellent ground for systematically generating new theories using the grounded theory method.
+*   **[Grounded Theory](../../Foundations/theory_and_practice/Grounded-Theory-Tutorial-en.md)**: The large amount of field notes collected through ethnography is excellent ground for systematically generating new theories using the grounded theory method.
 
 ---
 *Source Reference: The founders of ethnography are cultural anthropologists Bronisław Malinowski and Franz Boas. Clifford Geertz's "The Interpretation of Cultures," especially its discussion of "thick description," is a classic must-read for understanding modern ethnographic thought.*

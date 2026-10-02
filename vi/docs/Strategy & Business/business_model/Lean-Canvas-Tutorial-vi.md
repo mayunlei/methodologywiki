@@ -8,35 +8,9 @@ Lean Canvas, do Ash Maurya đề xuất trong cuốn sách *Running Lean* của 
 
 Lean Canvas giữ lại chín khối của Business Model Canvas nhưng thay thế bốn khối để làm cho nó dễ hành động hơn và tập trung vào rủi ro.
 
-```mermaid
-graph TD
-    subgraph Lean Canvas
-        direction LR
-        subgraph Sản phẩm
-            S(<b>3. Giải Pháp</b><br/><i>Chúng ta giải quyết các vấn đề này như thế nào?</i>)
-            P(<b>1. Vấn Đề</b><br/><i>Đâu là 1-3 vấn đề hàng đầu mà khách hàng gặp phải?</i>)
-            UVP(<b>4. Giá Trị Khác Biệt</b><br/><i>Tại sao chúng ta khác biệt?</i>)
-            KM(<b>8. Chỉ Số Chính</b><br/><i>Chúng ta đo lường thành công như thế nào?</i>)
-        end
+![Lean Canvas](./Lean-Canvas-Tutorial-vi-mermaid-live-1.png)
 
-        subgraph Thị Trường
-            UA(<b>9. Lợi Thế Không Công Bằng</b><br/><i>Chúng ta có lợi thế nào khó sao chép?</i>)
-            CH(<b>5. Kênh Phân Phối</b><br/><i>Chúng ta tiếp cận khách hàng như thế nào?</i>)
-            CS(<b>2. Phân Khúc Khách Hàng</b><br/><i>Khách hàng mục tiêu của chúng ta là ai?</i>)
-        end
-
-        P & S --> UVP;
-        UVP --> CH & CS;
-
-        subgraph Tài Chính
-            C(<b>7. Cấu Trúc Chi Phí</b><br/><i>Chi phí của chúng ta nằm ở đâu?</i>)
-            R(<b>6. Dòng Thu Nhập</b><br/><i>Chúng ta kiếm tiền như thế nào?</i>)
-        end
-
-        product -- Tạo ra --> C;
-        market -- Tạo ra --> R;
-    end
-```
+<!-- mermaid 源文件：Lean-Canvas-Tutorial-vi-mermaid-live-1.mmd -->
 
 **Những điểm khác biệt so với Business Model Canvas:**
 

@@ -1,8 +1,21 @@
+---
+title: "Porter's Five Forces: Explanation, Steps, Examples and Template"
+description: "Porter's Five Forces analyzes industry competition through rivalry, new entrants, substitutes, supplier power and buyer power. Includes a scoring template, four industry examples, how it differs from SWOT and PESTEL, and common mistakes."
+---
+
 # Porter's Five Forces Model
 ![Porter's Five Forces](./Porters-Five-Forces-Tutorial-en-diagram.png)
 In fierce business competition, the attractiveness and long-term profitability of an industry are not determined by a single competitor, but shaped by a broader competitive ecosystem. **Porter's Five Forces Model** is a revolutionary framework proposed by Michael E. Porter, a master of strategic management at Harvard Business School. It provides a powerful lens to help us systematically analyze the competitive structure of any industry and understand the five fundamental competitive forces that determine the average profit level of that industry.
 
 The core idea of this model is that corporate strategists must look beyond immediate direct competitors and examine the broader competitive arena. These five forces interact to determine the intensity of competition within the industry and how value is created and distributed in the industry chain. By understanding the strength of each force, companies can find their optimal position in the industry and formulate strategies that can avoid risks, leverage advantages, and ultimately gain sustainable competitive advantage.
+
+!!! abstract "Key takeaways"
+
+    - **The five forces**: rivalry among existing competitors, threat of new entrants, threat of substitutes, bargaining power of suppliers, bargaining power of buyers.
+    - **It analyzes an industry, not a company**: it answers "is this industry profitable, and why?"
+    - **Focus on the strongest one or two forces**: they cap industry profits and are what your strategy should try to change.
+    - **Steps**: define the industry → identify the players in each force → rate each force → conclude about the industry → choose a position.
+    - **Use it with**: [PESTEL](PESTEL-Analysis-Tutorial-en.md) for the macro environment and [SWOT](SWOT-Analysis-Tutorial-en.md) to bring it back to your own company.
 
 ## Analyzing the Five Competitive Forces
 
@@ -77,6 +90,15 @@ The core idea of this model is that corporate strategists must look beyond immed
 *   **Bargaining Power of Buyers**: **Strong**. Consumers have many choices, and switching costs are zero.
 *   **Conclusion**: The competitive structure of the high-end restaurant industry is poor, and profitability is very difficult. The key to success lies in building unique brands, dishes, and experiences to reduce buyers' bargaining power and intra-industry competition.
 
+**Case 4: China's Electric Vehicle Industry**
+
+- **Rivalry**: **Extremely intense**. Legacy automakers, EV start-ups and tech companies all compete, model cycles are short and price wars are frequent.
+- **Threat of new entrants**: **Medium**. Capital, manufacturing capability and licensing requirements are high barriers, yet well-funded newcomers keep arriving, and many start-ups have also exited.
+- **Threat of substitutes**: **Medium**. Combustion cars, hybrids and public transport remain options, though policy and running costs are making them less attractive.
+- **Supplier power**: **Strong**. Supply of core components such as battery cells is concentrated among a few leading makers and makes up a large share of vehicle cost.
+- **Buyer power**: **Strong**. Buyers have many models to choose from, prices are transparent and buyers are very price-sensitive.
+- **Conclusion**: The market is growing fast, but most automakers' margins are under pressure. Leaders respond exactly as the model suggests: **vertical integration** (in-house batteries and chips) to weaken supplier power, and brand and software experience to reduce buyer price sensitivity.
+
 ## Value and Limitations of the Five Forces Model
 
 **Core Value**
@@ -91,11 +113,67 @@ The core idea of this model is that corporate strategists must look beyond immed
 *   **Ignores the "Sixth Force"**: Some scholars argue that the model ignores the role of **Complements**. For example, software and hardware are complements; they create value together.
 *   **Blurred Industry Boundaries**: In today's integrated business ecosystem, clearly defining industry boundaries is becoming increasingly difficult.
 
+## Five Forces Analysis Template
+
+Copy this table into a document or spreadsheet and fill it in. Score each force from 1 (very weak) to 5 (very strong); **a higher score means more pressure on industry profits**.
+
+| Force | Key factors to assess | Score (1–5) | Evidence / data | Effect on industry profit |
+| --- | --- | --- | --- | --- |
+| Rivalry among existing competitors | Number and size of rivals, industry growth, differentiation, exit barriers | | | |
+| Threat of new entrants | Capital requirements, economies of scale, brand, distribution, regulation, patents | | | |
+| Threat of substitutes | Price-performance of substitutes, switching costs | | | |
+| Bargaining power of suppliers | Supplier concentration, uniqueness of inputs, switching costs | | | |
+| Bargaining power of buyers | Buyer concentration, price sensitivity, product standardization | | | |
+| **Industry conclusion** | Which one or two forces are strongest? How attractive is the industry? | | | |
+| **Strategic implication** | How can we weaken the forces working against us? | | | |
+
+## Common Mistakes
+
+1.  **Using it to analyze a single company.** The Five Forces describe **industry structure**. "Our suppliers have strong power" should be "suppliers in this industry have strong power". To assess your own company, use [SWOT](SWOT-Analysis-Tutorial-en.md) or [value chain analysis](Value-Chain-Analysis-Tutorial-en.md).
+2.  **Defining the industry wrongly.** Too broad and the forces blur together; too narrow and you'll treat real substitutes as "another industry" and ignore them. A useful test: which products do customers compare when they choose?
+3.  **Confusing competitors with substitutes.** Other brands of the same product are competitors; different ways of meeting the same need are substitutes.
+4.  **Listing without rating.** Naming the players in each force without judging strength or drawing a conclusion doesn't help any decision. Always answer: is this industry attractive, and which force matters most?
+5.  **Treating the result as permanent.** Technology, regulation and business-model innovation reshape industries. Update the analysis regularly and watch which force is getting stronger.
+6.  **Ignoring complements.** Many industries' profits depend on complements (consoles and games, EVs and charging networks). Consider them as a "sixth force" where relevant.
+
+## Five Forces vs. SWOT vs. PESTEL
+
+| | Porter's Five Forces | [SWOT Analysis](SWOT-Analysis-Tutorial-en.md) | [PESTEL Analysis](PESTEL-Analysis-Tutorial-en.md) |
+| --- | --- | --- | --- |
+| Subject | An industry | A company or project | The macro environment |
+| Core question | Is this industry profitable? Who captures the profit? | What are our strengths, weaknesses, opportunities and threats? | Which external trends will affect us? |
+| Perspective | External, industry level | Internal + external | External, macro level |
+| Typical use | Deciding whether to enter an industry; finding a favorable position | Company strategy, project evaluation | Spotting long-term trends and risks |
+
+They are often used outside-in: **PESTEL for the big picture → Five Forces for the industry → SWOT for your own company**.
+
+## Frequently Asked Questions
+
+??? question "Can Porter's Five Forces be used to analyze a specific company?"
+
+    Not directly. The model analyzes an industry's competitive structure and average profitability. To analyze a company, first use the Five Forces to understand its industry, then SWOT or value chain analysis to assess its position.
+
+??? question "What is the difference between Porter's Five Forces and SWOT?"
+
+    The Five Forces look only at the external competitive structure of an industry. SWOT combines internal strengths and weaknesses with external opportunities and threats. Five Forces conclusions often feed SWOT's opportunities and threats.
+
+??? question "Is the Five Forces model outdated?"
+
+    No, but it needs to be applied flexibly. In the digital economy, network effects, platform ecosystems and data become new entry barriers, and complements matter more. Fold these into your assessment of each force and the framework still works.
+
+??? question "What is the "sixth force"?"
+
+    Usually complements; some people use it for government or regulation. Porter himself treats both as factors that influence the five forces rather than a separate sixth force.
+
+??? question "Do I need to score each force?"
+
+    It isn't required, but it helps. Scoring forces the analyst to commit to a judgment and write down the evidence, makes team disagreements visible, and lets you compare the industry over time.
+
 ## Extensions and Connections
 
-*   **PESTEL Analysis**: Can be used to analyze the broader macro-environmental factors that influence the five forces.
-*   **Value Chain Analysis**: After the Five Forces Model analyzes how the industry "pie" is divided, value chain analysis helps companies think about how to create more "pie" within their own activities.
+*   **[PESTEL Analysis](PESTEL-Analysis-Tutorial-en.md)**: Can be used to analyze the broader macro-environmental factors that influence the five forces.
+*   **[Value Chain Analysis](Value-Chain-Analysis-Tutorial-en.md)**: After the Five Forces Model analyzes how the industry "pie" is divided, value chain analysis helps companies think about how to create more "pie" within their own activities.
 *   **Strategic Group Analysis**: When analyzing intra-industry competition, companies within the industry can be divided into different strategic groups based on strategic similarities for more refined analysis.
 
 ---
-*Source Reference: Michael Porter systematically elaborated the Five Forces Model in his classic article "How Competitive Forces Shape Strategy," published in Harvard Business Review in 1979, and his subsequent book "Competitive Strategy." The model remains an unshakable cornerstone in the field of strategic management today.*
+*Source Reference: Michael Porter systematically elaborated the Five Forces Model in his classic article "How Competitive Forces Shape Strategy," published in Harvard Business Review in 1979, and his subsequent book "Competitive Strategy." In 2008 he updated the model in the Harvard Business Review article "The Five Competitive Forces That Shape Strategy." The model remains a cornerstone of strategic management today.*

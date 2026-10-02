@@ -80,8 +80,8 @@ The successful implementation of Six Sigma relies on a clear system of roles and
 
 ## Extensions and Connections
 
-*   **Lean Manufacturing**: The core of Six Sigma is **reducing variation and improving quality**; the core of Lean is **eliminating waste and improving speed**. The two have different focuses but are highly complementary. In practice, they are often combined to form the more powerful **Lean Six Sigma**, aiming to achieve high quality, high efficiency, and low cost simultaneously.
-*   **Total Quality Management (TQM)**: TQM provides a macro management philosophy that is customer-centric and involves full participation, while Six Sigma provides more specific, project-based, and data-driven micro-operational methods for achieving TQM goals.
+*   **[Lean Manufacturing](Lean-Operations-Tutorial-en.md)**: The core of Six Sigma is **reducing variation and improving quality**; the core of Lean is **eliminating waste and improving speed**. The two have different focuses but are highly complementary. In practice, they are often combined to form the more powerful **Lean Six Sigma**, aiming to achieve high quality, high efficiency, and low cost simultaneously.
+*   **[Total Quality Management (TQM)](Total-Quality-Management-Tutorial-en.md)**: TQM provides a macro management philosophy that is customer-centric and involves full participation, while Six Sigma provides more specific, project-based, and data-driven micro-operational methods for achieving TQM goals.
 
 ---
 *Source Reference: Six Sigma was first proposed by Motorola engineer Bill Smith in the 1980s and became famous for its successful implementation in companies like General Electric (GE) and AlliedSignal. Mikel Harry and Richard Schroeder's book "Six Sigma: The Breakthrough Management Strategy Revolutionizing the World's Top Corporations" is a classic text in this field.*

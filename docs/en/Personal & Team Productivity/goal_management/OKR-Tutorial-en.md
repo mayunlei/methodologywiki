@@ -91,8 +91,8 @@ OKR implementation is a continuous, rhythmic cyclical process, typically quarter
 
 ## Extensions and Connections
 
-*   **SMART Principle**: Is the golden standard that must be followed when setting a good "Key Result." A KR must be Specific, Measurable, Achievable, Relevant, and Time-bound.
-*   **KPI (Key Performance Indicator)**: OKR and KPI are not mutually exclusive but can complement each other. KPIs can be used to monitor regular "business dashboard" metrics that need to be maintained at a healthy level (e.g., website uptime, customer service response time), while OKRs guide directions that require breakthroughs and innovation.
+*   **[SMART Principle](SMART-Goals-Tutorial-en.md)**: Is the golden standard that must be followed when setting a good "Key Result." A KR must be Specific, Measurable, Achievable, Relevant, and Time-bound.
+*   **[KPI (Key Performance Indicator)](KPI-Tutorial-en.md)**: OKR and KPI are not mutually exclusive but can complement each other. KPIs can be used to monitor regular "business dashboard" metrics that need to be maintained at a healthy level (e.g., website uptime, customer service response time), while OKRs guide directions that require breakthroughs and innovation.
 
 ---
 *Reference: OKR was first proposed by Andy Grove, the legendary CEO of Intel, and later introduced and popularized at Google by John Doerr, an early investor in Google. John Doerr's book "Measure What Matters" is the most core and authoritative literature promoting and popularizing OKR.*

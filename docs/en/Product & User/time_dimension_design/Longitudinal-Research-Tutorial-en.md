@@ -69,7 +69,7 @@ The commonality among all longitudinal studies is their tracking of "time," but 
 
 ## Extensions and Connections
 
-*   **Cross-Sectional Research**: Often serves as a low-cost, quick alternative to longitudinal research. However, it is important to be aware of its inability to distinguish between age effects and cohort effects.
+*   **[Cross-Sectional Research](Cross-Sectional-Research-Tutorial-en.md)**: Often serves as a low-cost, quick alternative to longitudinal research. However, it is important to be aware of its inability to distinguish between age effects and cohort effects.
 *   **Survival Analysis**: A statistical method commonly used in longitudinal research, specifically for analyzing the duration until an event (e.g., recovery, churn, death) occurs and its influencing factors.
 
 ---

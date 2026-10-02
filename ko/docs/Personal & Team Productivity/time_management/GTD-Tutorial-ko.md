@@ -33,25 +33,9 @@ GTD의 핵심 철학은 뇌 속에 있는 모든 미완료된 "일거리(stuff)"
 
 ### GTD 워크플로 처리 다이어그램
 
-```mermaid
-graph TD
-    A[Inbox] --> B{What is this?}
-    B --> C{Does it require action?}
-    C -- No --> D{Is it junk, reference, or future idea?}
-    D -- Junk --> E[Delete]
-    D -- Reference --> F[Archive]
-    D -- Future Idea --> G[Someday/Maybe list]
-    C -- Yes --> H{What's the next action?}
-    H --> I{Can it be done in 2 minutes?}
-    I -- Yes --> J[Do it now!]
-    I -- No --> K{Should I do it?}
-    K -- No --> L[Delegate<br/>Waiting For list]
-    K -- Yes --> M{Specific date/time?}
-    M -- Yes --> N[Calendar]
-    M -- No --> O[Next Actions list<br/>by context]
-    H -- Multiple actions --> P[Projects List]
-    O --> P
-```
+![GTD Tutorial ko](./GTD-Tutorial-ko-mermaid-live-1.png)
+
+<!-- mermaid 源文件：GTD-Tutorial-ko-mermaid-live-1.mmd -->
 
 ## 적용 사례
 

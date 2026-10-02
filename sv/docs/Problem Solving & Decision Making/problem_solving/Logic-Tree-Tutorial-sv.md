@@ -60,21 +60,9 @@ Logikträd delas huvudsakligen in i två typer, som används för att lösa prob
 
 ### Exempel 2: "Hur"-träd - Planering av "Hur kan man förbättra sin personliga arbetsproduktivitet?"
 
-```mermaid
-graph TD
-    A(Improve Personal Work Efficiency) --> B(Better Time Management)
-    A --> C(Optimize Workflow)
-    A --> D(Reduce Distractions)
+![Logic Tree Tutorial sv](./Logic-Tree-Tutorial-sv-mermaid-live-1.png)
 
-    B --> E(Use Pomodoro Technique)
-    B --> F(Create Daily Task List)
-
-    C --> G(Automate Repetitive Tasks)
-    C --> H(Use Templates and Tools)
-
-    D --> I(Turn Off Unnecessary Notifications)
-    D --> J(Set Fixed "Do Not Disturb" Work Hours)
-```
+<!-- mermaid 源文件：Logic-Tree-Tutorial-sv-mermaid-live-1.mmd -->
 
 **Analys**: Detta träddiagram bryter ner ett abstrakt mål till en serie konkreta, genomförbara steg, vilket hjälper individen att skapa tydliga förbättningsplaner.
 

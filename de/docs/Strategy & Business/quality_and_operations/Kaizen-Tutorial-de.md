@@ -15,16 +15,9 @@ Die Kernidee von Kaizen besteht darin, **nicht nach revolutionären Durchbrüche
 
 ### Kaizen vs. Innovation
 
-```mermaid
-graph TD
-    subgraph Two Ways of Change
-        A(<b>Kaizen</b>) --> A1(<b>Merkmale:</b><br/>- Kleine, schrittweise Schritte<br/>- Kontinuierlich<br/>- Vollständige Beteiligung<br/>- Geringes Risiko); 
-        A1 --> A2(<b>Wirkung:</b><br/>Erreicht langfristige, bedeutende Fortschritte<br/>durch die Akkumulation vieler kleiner Verbesserungen);
+![Two Ways of Change](./Kaizen-Tutorial-de-mermaid-live-1.png)
 
-        B(<b>Innovation</b>) --> B1(<b>Merkmale:</b><br/>- Große, bahnbrechende Schritte<br/>- Gelegentlich<br/>- Wird oft von Experten oder speziellen Teams geleitet<br/>- Hohes Risiko);
-        B1 --> B2(<b>Wirkung:</b><br/>Erreicht sprunghafte, disruptive Entwicklung<br/>durch technologische oder Geschäftsmodell-Revolution);
-    end
-```
+<!-- mermaid 源文件：Kaizen-Tutorial-de-mermaid-live-1.mmd -->
 
 *   **Beziehung**: Kaizen und Innovation schließen sich gegenseitig nicht aus; vielmehr sind sie zwei Fähigkeiten, die eine exzellente Organisation gleichzeitig besitzen muss. Kaizen ist dafür verantwortlich, bestehende Systeme kontinuierlich zu optimieren und zu festigen, während Innovation dafür sorgt, völlig neue Systeme zu schaffen.
 

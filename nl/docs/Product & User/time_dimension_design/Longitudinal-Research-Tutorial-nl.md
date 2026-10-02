@@ -14,18 +14,9 @@ De gemeenschappelijke factor in alle longitudinale studies is hun tracking van "
 
 ### Vergelijking van longitudinaal en cross-sectioneel onderzoek
 
-```mermaid
-graph TD
-    subgraph Tijdsdimensie van onderzoeksopzet
-        A(<b>Langdurig onderzoek</b><br/>Longitudinaal) --> A1(Herhaald meten van de <b>dezelfde steekproef</b><br/>op meerdere tijdstippen);
-        A1 --> A2(<b>Voordelen:</b><br/>- Kan dynamische veranderingen en ontwikkelingen bestuderen<br/>- Kan de tijdelijke volgorde van gebeurtenissen vaststellen<br/>- Kan individuele verschillen controleren);
-        A2 --> A3(<b>Nadelen:</b><br/>- Tijdrovend, arbeidsintensief, hoge kosten<br/>- Ernstig probleem van steekproefverlies);
+![Tijdsdimensie van onderzoeksopzet](./Longitudinal-Research-Tutorial-nl-mermaid-live-1.png)
 
-        B(<b>Cross-sectioneel onderzoek</b><br/>Cross-sectioneel) --> B1(Meting van steekproeven van <b>verschillende leeftijden/groepen</b><br/>tegelijkertijd op één tijdstip);
-        B1 --> B2(<b>Voordelen:</b><br/>- Snel, goedkoop, efficiënt<br/>- Geen probleem van steekproefverlies);
-        B2 --> B3(<b>Nadelen:</b><br/>- Kan geen individuele veranderingen bestuderen<br/>- Verward gemakkelijk leeftijdseffecten met cohorteffecten);
-    end
-```
+<!-- mermaid 源文件：Longitudinal-Research-Tutorial-nl-mermaid-live-1.mmd -->
 
 ## Hoe een longitudinale studie uitvoeren
 

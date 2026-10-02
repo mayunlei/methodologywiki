@@ -75,8 +75,8 @@ Stanford University's d.school classically summarizes the Design Thinking proces
 
 ## Extensions and Connections
 
-*   **Lean Startup**: Design Thinking and Lean Startup are highly complementary in philosophy. The "prototype-test" cycle of Design Thinking is similar to the "build-measure-learn" cycle of Lean Startup. Typically, Design Thinking can be used to ensure you are "**doing the thing right**," while Lean Startup ensures you are "**doing the right thing**."
-*   **Agile Development**: Design Thinking is an excellent partner for the front-end of Agile development—"What should we develop?" User stories generated and validated through Design Thinking can directly enter the Agile team's development backlog.
+*   **[Lean Startup](../testing_and_validation/MVP-Tutorial-en.md)**: Design Thinking and Lean Startup are highly complementary in philosophy. The "prototype-test" cycle of Design Thinking is similar to the "build-measure-learn" cycle of Lean Startup. Typically, Design Thinking can be used to ensure you are "**doing the thing right**," while Lean Startup ensures you are "**doing the right thing**."
+*   **[Agile Development](Agile-Tutorial-en.md)**: Design Thinking is an excellent partner for the front-end of Agile development—"What should we develop?" User stories generated and validated through Design Thinking can directly enter the Agile team's development backlog.
 
 ---
 *Reference: The roots of Design Thinking can be traced back to the Scandinavian participatory design movement in the 1960s. Modern Design Thinking methodologies are primarily promoted and popularized by David Kelley and Tim Brown, founders of IDEO, and Stanford University's d.school. Tim Brown's book "Change by Design" is an essential classic in this field.*

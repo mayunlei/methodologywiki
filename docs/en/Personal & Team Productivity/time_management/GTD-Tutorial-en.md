@@ -90,8 +90,8 @@ The core philosophy of GTD is to achieve a **"Mind Like Water"** state of stress
 
 ## Extensions and Connections
 
-*   **Eisenhower Matrix**: Can be used in the "Engage" step of GTD as an effective thinking model for judging "priority."
-*   **Pomodoro Technique**: Is an excellent specific tactic for executing tasks from the GTD "Next Actions List" that require high concentration.
+*   **[Eisenhower Matrix](Eisenhower-Matrix-Tutorial-en.md)**: Can be used in the "Engage" step of GTD as an effective thinking model for judging "priority."
+*   **[Pomodoro Technique](Pomodoro-Technique-Tutorial-en.md)**: Is an excellent specific tactic for executing tasks from the GTD "Next Actions List" that require high concentration.
 
 ---
 *Reference: David Allen's global bestseller "Getting Things Done: The Art of Stress-Free Productivity" is the sole and most authoritative source for understanding the complete philosophy, process, and best practices behind the GTD method.*

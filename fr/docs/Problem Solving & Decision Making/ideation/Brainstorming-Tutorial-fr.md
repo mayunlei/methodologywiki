@@ -18,15 +18,9 @@ Afin de garantir que le brainstorming atteigne les résultats escomptés, les qu
 
 ### Processus du brainstorming
 
-```mermaid
-graph TD
-    subgraph A Successful Brainstorming Session
-        A(<b>1 Préparation</b><br/>- Définir clairement le problème central<br/>- Constituer une équipe diversifiée<br/>- Choisir un facilitateur approprié<br/>- Préparer le matériel : tableau blanc, post-it) --> B(<b>2 Échauffement et explication des règles</b><br/>- Réaliser une activité brève pour stimuler la créativité<br/>- Le facilitateur répète les quatre principes fondamentaux);
-        B --> C(<b>3 Génération des idées</b><br/>- Proposer librement des idées autour du problème central<br/>- Le facilitateur guide et s'assure que tout le monde participe<br/>- Respecter strictement le principe du "reporter le jugement");
-        C --> D(<b>4 Clarification et regroupement des idées</b><br/>- Après la génération, clarifier une par une les idées ambiguës<br/>- Regrouper les idées similaires ou liées pour former des "thèmes" ou des "catégories");
-        D --> E(<b>5 Filtrage et évaluation</b><br/>- L'équipe définit collectivement les critères d'évaluation<br/>- Sélectionner les quelques idées les plus prometteuses par vote ou autres méthodes);
-    end
-```
+![A Successful Brainstorming Session](./Brainstorming-Tutorial-fr-mermaid-live-1.png)
+
+<!-- mermaid 源文件：Brainstorming-Tutorial-fr-mermaid-live-1.mmd -->
 
 ## Comment organiser une séance de brainstorming efficace
 

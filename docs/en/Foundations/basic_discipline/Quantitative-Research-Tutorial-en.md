@@ -93,9 +93,9 @@ graph TD
 
 ## Extensions and Connections
 
-*   **Qualitative Research**: Qualitative research perfectly complements quantitative research. After quantitative research discovers macro patterns, qualitative research can be used to explore the underlying reasons in depth.
-*   **Mixed Methods Research**: Combines quantitative and qualitative research to gain the most comprehensive and in-depth understanding of a problem.
-*   **Correlational Research** and **Experimental Research**: Both are specific types of quantitative research; the former focuses on relationships between variables, while the latter aims to establish causality.
+*   **[Qualitative Research](Qualitative-Research-Tutorial-en.md)**: Qualitative research perfectly complements quantitative research. After quantitative research discovers macro patterns, qualitative research can be used to explore the underlying reasons in depth.
+*   **[Mixed Methods Research](Mixed-Methods-Research-Tutorial-en.md)**: Combines quantitative and qualitative research to gain the most comprehensive and in-depth understanding of a problem.
+*   **[Correlational Research](../scientific_inquiry_paradigm/Correlational-Research-Tutorial-en.md)** and **Experimental Research**: Both are specific types of quantitative research; the former focuses on relationships between variables, while the latter aims to establish causality.
 
 ---
 *Reference: The methodology of quantitative research is rooted in positivist philosophy, and its statistical foundations were laid by statisticians like Karl Pearson. Earl Babbie's "The Practice of Social Research" is a classic textbook in this field.*

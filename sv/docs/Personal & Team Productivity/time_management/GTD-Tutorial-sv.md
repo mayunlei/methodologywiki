@@ -33,25 +33,9 @@ Kärnfilosofin i GTD är att uppnå ett tillstånd av **"hjärna som vatten"** �
 
 ### GTD arbetsflödesdiagram
 
-```mermaid
-graph TD
-    A[Inkorg] --> B{Vad är detta?}
-    B --> C{Kräver det åtgärd?}
-    C -- Nej --> D{Är det skräp, referens eller framtida idé?}
-    D -- Skräp --> E[Radera]
-    D -- Referens --> F[Arkiv]
-    D -- Främmande idé --> G[Vid behov/Kanske-lista]
-    C -- Ja --> H{Vad är nästa åtgärd?}
-    H --> I{Kan det göras på 2 minuter?}
-    I -- Ja --> J[Gör det nu!]
-    I -- Nej --> K{Ska jag göra det?}
-    K -- Nej --> L[Delegera<br/>Väntar på-lista]
-    K -- Ja --> M{Specifikt datum/tid?}
-    M -- Ja --> N[Kalender]
-    M -- Nej --> O[Nästa åtgärder-lista<br/>efter sammanhang]
-    H -- Flera åtgärder --> P[Projektlista]
-    O --> P
-```
+![GTD Tutorial sv](./GTD-Tutorial-sv-mermaid-live-1.png)
+
+<!-- mermaid 源文件：GTD-Tutorial-sv-mermaid-live-1.mmd -->
 
 ## Användningsfall
 

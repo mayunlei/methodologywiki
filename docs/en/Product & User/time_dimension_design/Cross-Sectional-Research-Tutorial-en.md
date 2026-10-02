@@ -76,7 +76,7 @@ This is the most fundamental and critical limitation when understanding cross-se
 
 ## Extensions and Connections
 
-*   **Longitudinal Research**: Is the best method to overcome the limitations of cross-sectional research. Many research projects first conduct an exploratory cross-sectional study, and if interesting differences are found, then design a longitudinal study to delve deeper into the development process.
+*   **[Longitudinal Research](Longitudinal-Research-Tutorial-en.md)**: Is the best method to overcome the limitations of cross-sectional research. Many research projects first conduct an exploratory cross-sectional study, and if interesting differences are found, then design a longitudinal study to delve deeper into the development process.
 *   **Sequential Design**: A more complex mixed design that combines the characteristics of cross-sectional and longitudinal research, attempting to separate age effects and cohort effects by tracking multiple age cohorts at different time points.
 
 ---

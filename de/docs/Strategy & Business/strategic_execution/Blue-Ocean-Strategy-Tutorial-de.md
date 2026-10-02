@@ -16,7 +16,7 @@ Die Blue Ocean Strategy stellt einen Satz systematischer Analysewerkzeuge bereit
 
     
 
-<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-de-mermaid-src-1.mmd -->
+    <!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-de-mermaid-src-1.mmd -->
 
     *   „**Eliminieren**“ und „**Reduzieren**“ helfen Unternehmen dabei, ihre Kostenstruktur zu senken.
     *   „**Erhöhen**“ und „**Schaffen**“ zielen darauf ab, den Kundennutzen zu steigern und neue Nachfrage zu schaffen.

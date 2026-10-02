@@ -95,8 +95,8 @@ graph TD
 
 ## Extensions and Connections
 
-*   **Scrum**: Kanban and Scrum are the two most mainstream methods in the Agile world. Scrum is based on a "time-box" iteration rhythm, while Kanban is based on a "continuous flow" pull rhythm. Both have their advantages and disadvantages and are suitable for different scenarios. **Scrumban** is a hybrid method that combines the advantages of both.
-*   **Lean Thinking**: The Kanban method is the most core and direct application of Lean thinking in knowledge work. It perfectly embodies core Lean principles such as "visualization," "pull system," "eliminating waste," and "continuous improvement."
+*   **[Scrum](Scrum-Tutorial-en.md)**: Kanban and Scrum are the two most mainstream methods in the Agile world. Scrum is based on a "time-box" iteration rhythm, while Kanban is based on a "continuous flow" pull rhythm. Both have their advantages and disadvantages and are suitable for different scenarios. **Scrumban** is a hybrid method that combines the advantages of both.
+*   **[Lean Thinking](../../Strategy & Business/quality_and_operations/Lean-Operations-Tutorial-en.md)**: The Kanban method is the most core and direct application of Lean thinking in knowledge work. It perfectly embodies core Lean principles such as "visualization," "pull system," "eliminating waste," and "continuous improvement."
 *   **Theory of Constraints (TOC)**: By exposing bottlenecks, the Kanban method aligns highly with TOC's idea of "identifying and optimizing constraints."
 
 ---

@@ -91,8 +91,8 @@ A designer needs to complete an event poster in one afternoon. The design proces
 
 The Pomodoro Technique can be perfectly combined with other time management and efficiency methods:
 
-*   **GTD (Getting Things Done)**: GTD helps you clear your mind and organize your task list; the Pomodoro Technique is an excellent tactic for executing specific tasks on that list.
-*   **Eisenhower Matrix**: When deciding which tasks to complete today, you can use this matrix to help you prioritize and decide which tasks are worth investing valuable Pomodoros in.
+*   **[GTD (Getting Things Done)](GTD-Tutorial-en.md)**: GTD helps you clear your mind and organize your task list; the Pomodoro Technique is an excellent tactic for executing specific tasks on that list.
+*   **[Eisenhower Matrix](Eisenhower-Matrix-Tutorial-en.md)**: When deciding which tasks to complete today, you can use this matrix to help you prioritize and decide which tasks are worth investing valuable Pomodoros in.
 
 ---
 *Reference: Francesco Cirillo's official book "The Pomodoro Technique" is the best resource for understanding the complete philosophy and practical details behind this method.*

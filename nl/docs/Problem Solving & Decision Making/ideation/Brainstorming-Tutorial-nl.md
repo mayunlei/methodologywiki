@@ -18,15 +18,9 @@ Om ervoor te zorgen dat brainstormen het gewenste resultaat bereikt, moeten de v
 
 ### Brainstormproces
 
-```mermaid
-graph TD
-    subgraph Een succesvolle brainstormsessie
-        A(<b>1 Voorbereidingsfase</b><br/>- Definieer duidelijk het centrale probleem<br/>- Stel een divers team samen<br/>- Kies een geschikte facilitator<br/>- Bereid materialen voor: whiteboard, post-its) --> B(<b>2 Opwarmen en regels uitleggen</b><br/>- Voer een korte creatieve opwarmactiviteit uit<br/>- Facilitator herhaalt de vier basisprincipes);
-        B --> C(<b>3 Ideeëngenererende fase</b><br/>- Stel vrij ideeën voor rondom het centrale probleem<br/>- Facilitator leidt en zorgt dat iedereen deelneemt<br/>- Houdt strikt het principe "stel oordeel uit");
-        C --> D(<b>4 Ideeclarificatie en groepering</b><br/>- Clarificeer na generatie onduidelijke ideeën één voor één<br/>- Gropeer vergelijkbare of gerelateerde ideeën<br/>om "thema's" of "categorieën" te vormen);
-        D --> E(<b>5 Selectie en evaluatie</b><br/>- Het team stelt gezamenlijk evaluatiecriteria vast<br/>- Selecteer de meest veelbelovende ideeën<br/>via stemming of andere methoden);
-    end
-```
+![Een succesvolle brainstormsessie](./Brainstorming-Tutorial-nl-mermaid-live-1.png)
+
+<!-- mermaid 源文件：Brainstorming-Tutorial-nl-mermaid-live-1.mmd -->
 
 ## Hoe een effectieve brainstormsessie te organiseren
 

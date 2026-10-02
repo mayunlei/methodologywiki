@@ -15,16 +15,9 @@ De kerngedachte van Kaizen is **niet op zoek te gaan naar revolutionaire doorbra
 
 ### Kaizen vs. Innovatie
 
-```mermaid
-graph TD
-    subgraph Two Ways of Change
-        A(<b>Kaizen</b>) --> A1(<b>Kenmerken:</b><br/>- Kleine, geleidelijke stappen<br/>- Continu<br/>- Volledige participatie<br/>- Weinig risico); 
-        A1 --> A2(<b>Effect:</b><br/>Bereikt langdurige, aanzienlijke vooruitgang<br/>door de accumulatie van vele kleine verbeteringen);
+![Two Ways of Change](./Kaizen-Tutorial-nl-mermaid-live-1.png)
 
-        B(<b>Innovatie</b>) --> B1(<b>Kenmerken:</b><br/>- Grote, doorbraakstappen<br/>- Tussenpozen<br/>- Vaak geleid door experts of specifieke teams<br/>- Hoge risico's);
-        B1 --> B2(<b>Effect:</b><br/>Bereikt sprongsgewijze, verstoorde ontwikkeling<br/>door technologische of businessmodelrevoluties);
-    end
-```
+<!-- mermaid 源文件：Kaizen-Tutorial-nl-mermaid-live-1.mmd -->
 
 *   **Relatie**: Kaizen en innovatie sluiten elkaar niet uit; integendeel, ze zijn twee vaardigheden die een uitstekende organisatie tegelijkertijd moet bezitten. Kaizen zorgt voor continue optimalisatie en consolidering van bestaande systemen, terwijl innovatie verantwoordelijk is voor het creëren van volledig nieuwe systemen.
 

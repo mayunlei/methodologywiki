@@ -92,8 +92,8 @@ The goal of conducting value chain analysis is usually to achieve two core compe
 
 ## Extensions and Connections
 
-*   **Porter's Five Forces Model**: After the Five Forces Model analyzes the overall profit potential of an industry, value chain analysis further explores how a company can gain profit within the industry through its unique activities.
-*   **SWOT Analysis**: Value chain analysis is the most powerful tool for identifying internal **Strengths** and **Weaknesses** when conducting SWOT analysis.
+*   **[Porter's Five Forces Model](Porters-Five-Forces-Tutorial-en.md)**: After the Five Forces Model analyzes the overall profit potential of an industry, value chain analysis further explores how a company can gain profit within the industry through its unique activities.
+*   **[SWOT Analysis](SWOT-Analysis-Tutorial-en.md)**: Value chain analysis is the most powerful tool for identifying internal **Strengths** and **Weaknesses** when conducting SWOT analysis.
 *   **Value System**: A company's value chain does not exist in isolation; it is embedded in a larger value system, this system also includes the value chains of upstream suppliers, downstream channels, and ultimately customers. Analyzing the entire value system can reveal broader opportunities for cooperation and optimization.
 
 ---

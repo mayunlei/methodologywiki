@@ -114,8 +114,8 @@ Applying the SMART principle is a process of continuously clarifying and concret
 
 ## Extensions and Connections
 
-*   **OKR (Objectives and Key Results)**: The SMART principle is the golden standard for setting a high-quality **Key Result**. Every KR should be a SMART goal.
-*   **KPI (Key Performance Indicator)**: A KPI itself is a measurable indicator (M). Combining a KPI with a specific target value (Target) and time limit (T) forms a SMART performance goal.
+*   **[OKR (Objectives and Key Results)](OKR-Tutorial-en.md)**: The SMART principle is the golden standard for setting a high-quality **Key Result**. Every KR should be a SMART goal.
+*   **[KPI (Key Performance Indicator)](KPI-Tutorial-en.md)**: A KPI itself is a measurable indicator (M). Combining a KPI with a specific target value (Target) and time limit (T) forms a SMART performance goal.
 *   **Project Management**: In the initiation phase of project management, applying the SMART principle to define project deliverables and milestones is fundamental to project success.
 
 ---

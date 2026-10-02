@@ -78,8 +78,8 @@ Applying the Iceberg Model is a process of continuously asking deeper questions 
 
 ## Extensions and Connections
 
-*   **System Dynamics**: The Iceberg Model is a prelude and simplified version of learning and applying system dynamics. After identifying key feedback loops at the "structure level," system dynamics modeling tools can be used for more refined, quantitative simulation and analysis.
-*   **5 Whys**: A simple tool that can be used for "drilling down" in the Iceberg Model. By continuously asking "Why?", it can help us gradually explore from the event level to the structure level.
+*   **[System Dynamics](System-Dynamics-Tutorial-en.md)**: The Iceberg Model is a prelude and simplified version of learning and applying system dynamics. After identifying key feedback loops at the "structure level," system dynamics modeling tools can be used for more refined, quantitative simulation and analysis.
+*   **[5 Whys](../../Problem Solving & Decision Making/root_cause_analysis/5-Whys-Tutorial-en.md)**: A simple tool that can be used for "drilling down" in the Iceberg Model. By continuously asking "Why?", it can help us gradually explore from the event level to the structure level.
 
 ---
 *Source Reference: The Iceberg Model is a widely used teaching and thinking tool in the field of systems thinking. Its ideas are rooted in system dynamics and have been promoted and popularized by thinkers such as Peter Senge and Dennis Sherwood. It has become a basic introductory framework for learning organizations and systems thinking practitioners.*

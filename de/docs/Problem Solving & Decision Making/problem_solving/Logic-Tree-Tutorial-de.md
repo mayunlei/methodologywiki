@@ -60,21 +60,9 @@ Logikbäume lassen sich hauptsächlich in zwei Typen unterteilen, die zur Lösun
 
 ### Fall 2: "Wie"-Baum - Planung von "Wie kann man die persönliche Arbeitsproduktivität verbessern?"
 
-```mermaid
-graph TD
-    A(Improve Personal Work Efficiency) --> B(Better Time Management)
-    A --> C(Optimize Workflow)
-    A --> D(Reduce Distractions)
+![Logic Tree Tutorial de](./Logic-Tree-Tutorial-de-mermaid-live-1.png)
 
-    B --> E(Use Pomodoro Technique)
-    B --> F(Create Daily Task List)
-
-    C --> G(Automate Repetitive Tasks)
-    C --> H(Use Templates and Tools)
-
-    D --> I(Turn Off Unnecessary Notifications)
-    D --> J(Set Fixed "Do Not Disturb" Work Hours)
-```
+<!-- mermaid 源文件：Logic-Tree-Tutorial-de-mermaid-live-1.mmd -->
 
 **Analyse**: Dieses Diagramm zerlegt ein abstraktes Ziel in eine Reihe konkreter, umsetzbarer Schritte und hilft Einzelpersonen dabei, klare Verbesserungspläne zu erstellen.
 

@@ -16,7 +16,7 @@ A Estratégia do Oceano Azul fornece um conjunto sistemático de ferramentas ana
 
     
 
-<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-pt-mermaid-src-1.mmd -->
+    <!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-pt-mermaid-src-1.mmd -->
     *   "Eliminar" e "Reduzir" ajudam as empresas a reduzirem sua estrutura de custos.
     *   "Elevar" e "Criar" visam aumentar o valor para o cliente e criar nova demanda.
 

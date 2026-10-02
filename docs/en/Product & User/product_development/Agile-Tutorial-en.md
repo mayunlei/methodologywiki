@@ -91,8 +91,8 @@ Agile is a set of philosophies, not a specific process. Under the guidance of Ag
 
 ## Extensions and Connections
 
-*   **The Lean Startup**: Highly aligned with Agile thinking, the "build-measure-learn" feedback loop of Lean Startup can be seen as the application of Agile development at the business model validation level.
-*   **DevOps**: Is an extension of Agile thinking in the fields of software development (Dev) and IT operations (Ops). It aims to break down barriers between development and operations through changes in culture, practices, and tools, achieving faster, more reliable software delivery and deployment.
+*   **[The Lean Startup](../testing_and_validation/MVP-Tutorial-en.md)**: Highly aligned with Agile thinking, the "build-measure-learn" feedback loop of Lean Startup can be seen as the application of Agile development at the business model validation level.
+*   **[DevOps](../../Technology/DevOps/intro-to-devops-en.md)**: Is an extension of Agile thinking in the fields of software development (Dev) and IT operations (Ops). It aims to break down barriers between development and operations through changes in culture, practices, and tools, achieving faster, more reliable software delivery and deployment.
 
 ---
 *Reference: The "Manifesto for Agile Software Development" is the common source and guiding charter for all Agile practices. Signatories of the manifesto, such as Kent Beck, Martin Fowler, and Jeff Sutherland, are among the most important masters and thinkers in the Agile field.*

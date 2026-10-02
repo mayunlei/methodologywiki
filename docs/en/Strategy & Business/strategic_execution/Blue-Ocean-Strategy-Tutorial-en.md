@@ -1,8 +1,21 @@
+---
+title: "Blue Ocean Strategy: Four Actions Framework, Strategy Canvas and Examples"
+description: "Blue Ocean Strategy creates uncontested market space through value innovation. Learn the strategy canvas, the Four Actions Framework (Eliminate-Reduce-Raise-Create), the Six Paths and three tiers of noncustomers, with an ERRC template, four examples and common mistakes."
+---
+
 # Blue Ocean Strategy
 
 In the business world, the vast majority of companies are fighting in a "**red ocean**." A red ocean represents all currently known market space, where industry boundaries are clear, rules of the game are defined, and companies try to grab more limited market share by beating competitors. As competitors increase, the market becomes extremely crowded, and the space for profit and growth shrinks, this ocean is "stained" red by fierce competition. **Blue Ocean Strategy** offers a completely different path; it does not advocate bloody head-on competition with rivals in the red ocean, but rather aims to **create new, uncontested "blue ocean" market space, thereby making competition irrelevant**.
 
 The core of Blue Ocean Strategy is not technological innovation itself, but a strategic logic called **Value Innovation**. Value innovation is the intersection where companies achieve "having their cake and eating it too" by simultaneously pursuing the seemingly contradictory goals of **differentiation** and **low cost**. It is not about making trade-offs between existing value and cost, but rather breaking this trade-off to create a leap in value for both customers and the company itself. By reconstructing industry elements, Blue Ocean Strategy aims to provide customers with a new, distinctive value, thereby opening up an unprecedented vast market.
+
+!!! abstract "Key takeaways"
+
+    - **The core logic is value innovation**: pursue differentiation and low cost at the same time instead of choosing one.
+    - **Two core tools**: the strategy canvas (what the industry competes on) and the Four Actions Framework (Eliminate, Reduce, Raise, Create).
+    - **Where to look**: the Six Paths (across industries, strategic groups, buyer chains and more) and the three tiers of noncustomers.
+    - **Three marks of a good strategy**: focus, divergence and a compelling tagline.
+    - **Caveat**: blue oceans turn red as imitators arrive, so value innovation has to continue.
 
 ## Core Analytical Tools of Blue Ocean Strategy
 
@@ -15,11 +28,37 @@ Blue Ocean Strategy provides a set of systematic analytical tools to help compan
 2.  **Four Actions Framework**
     This is the core thinking tool for breaking the "differentiation-cost" trade-off and reconstructing the value curve. It challenges the long-standing entrenched strategic logic and business model of an industry by asking four key questions:
 
+    *   **Eliminate**: Which factors that the industry takes for granted should be eliminated?
+    *   **Reduce**: Which factors should be reduced well below the industry standard?
+    *   **Raise**: Which factors should be raised well above the industry standard?
+    *   **Create**: Which factors should be created that the industry has never offered?
+
+    "Eliminate" and "Reduce" lower the cost structure; "Raise" and "Create" increase buyer value and create new demand.
+
     ![Four Actions Framework](./Blue-Ocean-Strategy-Tutorial-en-mermaid.png)
 
-<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-en-mermaid-src-1.mmd -->
-    *   "Eliminate" and "Reduce" help companies lower their cost structure.
-    *   "Raise" and "Create" aim to enhance customer value and create new demand.
+    <!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-en-mermaid-src-1.mmd -->
+
+3.  **Six Paths Framework**
+
+    Blue oceans rarely appear from nowhere; they tend to lie just beyond the boundaries an industry takes for granted. The Six Paths are six systematic directions to look:
+
+    *   **Look across alternative industries**: how do customers satisfy the same need elsewhere?
+    *   **Look across strategic groups within the industry**: what makes customers pay for both the premium and the budget ends?
+    *   **Look across the chain of buyers**: shift focus from the purchaser to the user or the influencer.
+    *   **Look across complementary products and services**: what do customers need before, during and after using the product?
+    *   **Look across functional and emotional appeal**: add emotional value to functional industries, or the reverse.
+    *   **Look across time**: how will clear long-term trends change what customers value?
+
+4.  **Three Tiers of Noncustomers**
+
+    Red-ocean companies focus on existing customers; blue-ocean companies study noncustomers:
+
+    *   **First tier – "soon-to-be" noncustomers**: on the edge of the market, using you minimally and ready to leave.
+    *   **Second tier – "refusing" noncustomers**: they considered the industry and consciously chose not to use it.
+    *   **Third tier – "unexplored" noncustomers**: never seen as potential customers by the industry at all.
+
+    What these three tiers have in common often reveals demand far larger than the existing market.
 
 ## How to Create a Blue Ocean
 
@@ -66,6 +105,16 @@ Blue Ocean Strategy provides a set of systematic analytical tools to help compan
     *   **Increase/Create**: Created an easy-drinking fruity taste, easily recognizable packaging (kangaroo logo), and the convenience of being easily purchased in ordinary supermarkets.
 *   **Result**: Yellow Tail quickly became the number one imported wine brand in the US, it attracted consumers who typically drank beer or cocktails, successfully converting "non-wine drinkers" into its customers.
 
+**Case 4: Budget Hotel Chains**
+
+- **Background**: Lodging used to be polarized: full-service hotels that were expensive, and cheap guesthouses where cleanliness and safety were unpredictable. Large numbers of business and leisure travelers sat in between.
+- **Blue ocean strategy**:
+  - **Eliminate**: Grand lobbies, leisure facilities, banquet halls and multiple restaurants.
+  - **Reduce**: Room size, staffed services beyond the front desk, decorative luxury.
+  - **Raise**: Standardized bed and bathroom quality, convenient locations, consistent quality across the chain.
+  - **Create**: Membership programs and unified online booking, so guests can expect the same experience in any city.
+- **Result**: Budget chains delivered what guests cared about most, a clean, safe room and a good night's sleep, at a fraction of full-service prices, and grew into a large new category. Many imitators followed, the ocean turned red, and the leading brands then moved to the mid-scale segment in search of a new value curve.
+
 ## Value and Challenges of Blue Ocean Strategy
 
 **Core Value**
@@ -80,9 +129,76 @@ Blue Ocean Strategy provides a set of systematic analytical tools to help compan
 *   **Organizational Resistance**: Implementing a blue ocean strategy often requires significant adjustments to the company's existing operations, culture, and mindset, which may encounter internal resistance.
 *   **Blue Ocean May Turn Red**: Any successful blue ocean will eventually attract imitators and followers, causing the blue ocean to gradually turn red. Therefore, companies need the ability to continuously innovate value.
 
+## Red Ocean vs. Blue Ocean Strategy
+
+| Red Ocean Strategy | Blue Ocean Strategy |
+| --- | --- |
+| Compete in existing market space | Create uncontested market space |
+| Beat the competition | Make the competition irrelevant |
+| Exploit existing demand | Create and capture new demand |
+| Make the value–cost trade-off | Break the value–cost trade-off |
+| Align the whole company with differentiation **or** low cost | Align the whole company with differentiation **and** low cost |
+
+## Blue Ocean Templates
+
+**1. Strategy canvas data table**
+
+List the key factors of competition, score yourself and your main competitors on each (1–5), then plot each row as a line: that line is the value curve.
+
+| Factor of competition | Competitor A | Competitor B | Us (today) | Us (blue ocean plan) |
+| --- | --- | --- | --- | --- |
+| Price | | | | |
+| Factor 2 | | | | |
+| Factor 3 | | | | |
+| … | | | | |
+| Newly created factor | 0 | 0 | 0 | |
+
+**2. ERRC grid (Eliminate–Reduce–Raise–Create)**
+
+| Eliminate | Raise |
+| --- | --- |
+| Which factors don't customers really care about? | Which factors do customers care about that the industry under-delivers? |
+| | |
+| **Reduce** | **Create** |
+| Which factors does the industry over-deliver? | What do customers need that the industry has never offered? |
+| | |
+
+When you're done, check: do the savings from Eliminate and Reduce pay for the investments in Raise and Create? If only the right-hand column is filled in, you have differentiation, not value innovation.
+
+## Common Mistakes
+
+1.  **Equating blue oceans with technology innovation.** Many blue oceans need no new technology, as Cirque du Soleil and Yellow Tail show. The key is redefining buyer value, not building a more advanced product.
+2.  **Only adding things.** Thinking only about Raise and Create drives costs up and produces a pricier differentiated product, not value innovation. Real blue oceans involve bold Eliminate and Reduce decisions.
+3.  **Mistaking a niche for a blue ocean.** Carving a narrower segment out of an existing market and competing there is still red-ocean thinking. Blue Ocean Strategy is about converting noncustomers and expanding the market.
+4.  **Only researching current customers.** Existing customers tend to ask for "the same, but better and cheaper". New demand is more likely to be found among the three tiers of noncustomers.
+5.  **Stopping at the canvas.** The strategy canvas and ERRC grid are thinking tools. Without testing buyer utility, price, cost and adoption, a blue-ocean idea stays on paper.
+6.  **Assuming the ocean stays blue.** Success attracts imitators. Keep monitoring whether your value curve is converging with theirs.
+
+## Frequently Asked Questions
+
+??? question "How is Blue Ocean Strategy different from a differentiation strategy?"
+
+    A differentiation strategy accepts that more value means more cost and charges a premium to cover it. Blue Ocean Strategy tries to break that trade-off: it removes or reduces factors the industry over-invests in to cut cost, while adding what buyers truly value, achieving differentiation and low cost together.
+
+??? question "Is Blue Ocean Strategy suitable for small businesses?"
+
+    Yes, and often more so. Small firms rarely win head-on resource battles with large ones, and redefining buyer value is one of the few ways to punch above your weight. The Four Actions Framework and noncustomer analysis cost almost nothing to apply.
+
+??? question "Is Blue Ocean Strategy the same as disruptive innovation?"
+
+    No. Disruptive innovation usually enters at the low end or in a new foothold with a simpler, cheaper offering and gradually displaces incumbents. Blue Ocean Strategy can happen at any price level; its focus is creating new demand through value innovation.
+
+??? question "How can I tell whether I'm in a red ocean?"
+
+    Draw a strategy canvas. If your value curve almost overlaps with your main competitors', everyone competes on the same factors, and price is the main weapon, you are in a red ocean.
+
+??? question "Does Blue Ocean Strategy contradict Porter's Five Forces?"
+
+    No, they take different perspectives. [Porter's Five Forces](../strategic_analysis/Porters-Five-Forces-Tutorial-en.md) helps you understand and position yourself within an existing industry structure; Blue Ocean Strategy tries to change the industry's boundaries. A common approach is to use the Five Forces to see the red ocean clearly, then blue-ocean tools to find a way out.
+
 ## Extensions and Connections
 
-*   **Business Model Canvas**: An excellent tool for designing and planning how to transform a blue ocean strategy idea into a viable, profitable business model.
+*   **[Business Model Canvas](../business_model/Business-Model-Canvas-Tutorial-en.md)**: An excellent tool for designing and planning how to transform a blue ocean strategy idea into a viable, profitable business model.
 *   **Value Proposition Canvas**: Can help you deeply consider how your new product or service creates value for customers, solves their pain points, and brings gains.
 *   **Disruptive Innovation**: Related to but different from Blue Ocean Strategy. Disruptive innovation usually refers to entering the market from the low end or a new foothold by providing simpler, cheaper solutions, and ultimately disrupting existing market leaders. Blue Ocean Strategy is not limited to this; it can occur at any market level.
 

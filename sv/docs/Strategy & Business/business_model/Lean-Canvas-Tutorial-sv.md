@@ -8,35 +8,9 @@ Lean Canvas, föreslagen av Ash Maurya i hans bok *Running Lean*, ärver enkelhe
 
 Lean Canvas behåller de nio blocken från Affärsmodell Canvas men ersätter fyra av dem för att göra den mer handlingsorienterad och riskfokuserad.
 
-```mermaid
-graph TD
-    subgraph Lean Canvas
-        direction LR
-        subgraph Produkt
-            S(<b>3. Lösning</b><br/><i>Hur löser vi dessa problem?</i>)
-            P(<b>1. Problem</b><br/><i>Vilka är de främsta 1-3 problemen för kunderna?</i>)
-            UVP(<b>4. Unikt värdeförslag</b><br/><i>Varför är vi olika?</i>)
-            KM(<b>8. Nyckelmått</b><br/><i>Hur mäter vi framgång?</i>)
-        end
+![Lean Canvas](./Lean-Canvas-Tutorial-sv-mermaid-live-1.png)
 
-        subgraph Marknad
-            UA(<b>9. Orättvis fördel</b><br/><i>Vilka fördelar har vi som är svåra att kopiera?</i>)
-            CH(<b>5. Kanaler</b><br/><i>Hur når vi kunderna?</i>)
-            CS(<b>2. Kundsegment</b><br/><i>Vem är våra målkunder?</i>)
-        end
-
-        P & S --> UVP;
-        UVP --> CH & CS;
-
-        subgraph Finanser
-            C(<b>7. Kostnadsstruktur</b><br/><i>Där är våra kostnader?</i>)
-            R(<b>6. Intäktsströmmar</b><br/><i>Hur tjänar vi pengar?</i>)
-        end
-
-        produkt -- Genererar --> C;
-        marknad -- Genererar --> R;
-    end
-```
+<!-- mermaid 源文件：Lean-Canvas-Tutorial-sv-mermaid-live-1.mmd -->
 
 **Skillnader från Affärsmodell Canvas:**
 

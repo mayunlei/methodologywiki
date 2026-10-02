@@ -16,7 +16,7 @@
 
     
 
-<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-ko-mermaid-src-1.mmd -->
+    <!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-ko-mermaid-src-1.mmd -->
     *   "제거(Eliminate)"와 "축소(Reduce)"는 기업의 비용 구조를 낮추는 데 도움을 줍니다.
     *   "향상(Raise)"와 "창출(Create)"은 고객 가치를 높이고 새로운 수요를 창출하는 데 목적이 있습니다.
 

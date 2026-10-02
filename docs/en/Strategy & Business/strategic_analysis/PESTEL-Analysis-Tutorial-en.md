@@ -89,8 +89,8 @@ Each letter of PESTEL represents a series of external forces that need to be exa
 
 ## Extensions and Connections
 
-*   **SWOT Analysis**: PESTEL analysis is an excellent starting point for SWOT analysis. The results of PESTEL analysis can directly serve as input for the **Opportunities** and **Threats** sections in SWOT.
-*   **Porter's Five Forces Model**: PESTEL focuses on the broader macro-environment affecting the entire business ecosystem, while Porter's Five Forces Model focuses more on the "micro" competitive environment within the specific industry where the organization operates. Combining the two can form a complete view of the external environment.
+*   **[SWOT Analysis](SWOT-Analysis-Tutorial-en.md)**: PESTEL analysis is an excellent starting point for SWOT analysis. The results of PESTEL analysis can directly serve as input for the **Opportunities** and **Threats** sections in SWOT.
+*   **[Porter's Five Forces Model](Porters-Five-Forces-Tutorial-en.md)**: PESTEL focuses on the broader macro-environment affecting the entire business ecosystem, while Porter's Five Forces Model focuses more on the "micro" competitive environment within the specific industry where the organization operates. Combining the two can form a complete view of the external environment.
 
 ---
 *Source Reference: The PESTEL framework was first proposed by Harvard University Professor Francis Aguilar in 1967 in the form of ETPS. After decades of evolution and expansion, it gradually formed the widely known PEST or PESTEL model today. It is one of the most basic and core analytical tools in strategic management and marketing.*

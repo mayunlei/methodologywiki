@@ -87,8 +87,8 @@ The founder of the Cornell Note-Taking Method summarized its usage into five log
 
 ## Extensions and Connections
 
-*   **Mind Mapping**: For highly interconnected, non-linear topics, you can first use mind mapping to brainstorm and organize ideas, and then organize the core content into structured Cornell notes for easier memorization and review.
-*   **Feynman Technique**: The "recite" stage in the Cornell Note-Taking Method aligns perfectly with the core idea of "teaching a child" in the Feynman Technique, both using "output" to test and consolidate "input."
+*   **[Mind Mapping](../../Problem Solving & Decision Making/ideation/Mind-Mapping-Tutorial-en.md)**: For highly interconnected, non-linear topics, you can first use mind mapping to brainstorm and organize ideas, and then organize the core content into structured Cornell notes for easier memorization and review.
+*   **[Feynman Technique](Feynman-Technique-Tutorial-en.md)**: The "recite" stage in the Cornell Note-Taking Method aligns perfectly with the core idea of "teaching a child" in the Feynman Technique, both using "output" to test and consolidate "input."
 
 ---
 *Reference: Dr. Walter Pauk first introduced the Cornell Note-Taking Method to the world in his 1962 bestseller "How to Study in College." This method is still recommended by universities and educational institutions worldwide as one of the most effective and scientific note-taking methods.*

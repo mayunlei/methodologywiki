@@ -75,8 +75,8 @@ The key to practicing Kaizen is to create a culture and mechanism that encourage
 
 ## Extensions and Connections
 
-*   **Lean Operations**: Kaizen is one of the core pillars of lean thinking and the fundamental way to achieve the principle of "pursuing perfection."
-*   **Total Quality Management (TQM)**: Kaizen is the most direct and vivid embodiment of the "continuous improvement" principle in TQM.
+*   **[Lean Operations](Lean-Operations-Tutorial-en.md)**: Kaizen is one of the core pillars of lean thinking and the fundamental way to achieve the principle of "pursuing perfection."
+*   **[Total Quality Management (TQM)](Total-Quality-Management-Tutorial-en.md)**: Kaizen is the most direct and vivid embodiment of the "continuous improvement" principle in TQM.
 *   **PDCA Cycle**: It is the most commonly used and fundamental scientific thinking and action framework when practicing Kaizen.
 
 ---

@@ -60,21 +60,9 @@
 
 ### Пример 2: Дерево "Как" — планирование "Как повысить личную рабочую эффективность?"
 
-```mermaid
-graph TD
-    A(Improve Personal Work Efficiency) --> B(Better Time Management)
-    A --> C(Optimize Workflow)
-    A --> D(Reduce Distractions)
+![Logic Tree Tutorial ru](./Logic-Tree-Tutorial-ru-mermaid-live-1.png)
 
-    B --> E(Use Pomodoro Technique)
-    B --> F(Create Daily Task List)
-
-    C --> G(Automate Repetitive Tasks)
-    C --> H(Use Templates and Tools)
-
-    D --> I(Turn Off Unnecessary Notifications)
-    D --> J(Set Fixed "Do Not Disturb" Work Hours)
-```
+<!-- mermaid 源文件：Logic-Tree-Tutorial-ru-mermaid-live-1.mmd -->
 
 **Анализ**: Эта диаграмма разбивает абстрактную цель на ряд конкретных и реализуемых шагов, что помогает людям создать четкие планы улучшения.
 

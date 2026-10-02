@@ -78,8 +78,8 @@ To ensure that brainstorming achieves its intended results, the following four b
 
 *   **Reverse Brainstorming**: An interesting variation. Instead of asking "How can we succeed?", it asks "How can we completely mess this up?" By identifying all factors that could lead to failure, the team can then think in reverse to devise preventive measures.
 *   **Brainwriting**: To prevent eloquent speakers from dominating the discussion, written forms can be used. For example, the 6-3-5 method, where 6 participants each write 3 ideas in 5 minutes, then pass the paper to the next person for inspiration and extension.
-*   **Six Thinking Hats**: Can serve as a structured tool for the subsequent "evaluation" phase of brainstorming, guiding the team to comprehensively examine filtered ideas from different angles.
-*   **Mind Mapping**: An excellent visual tool for organizing and structuring brainstorming results.
+*   **[Six Thinking Hats](Six-Thinking-Hats-Tutorial-en.md)**: Can serve as a structured tool for the subsequent "evaluation" phase of brainstorming, guiding the team to comprehensively examine filtered ideas from different angles.
+*   **[Mind Mapping](Mind-Mapping-Tutorial-en.md)**: An excellent visual tool for organizing and structuring brainstorming results.
 
 ---
 *Reference: Alex F. Osborn first systematically elaborated on the principles and methods of brainstorming in his 1953 book "Applied Imagination." It remains one of the most widely used idea generation techniques globally today.*

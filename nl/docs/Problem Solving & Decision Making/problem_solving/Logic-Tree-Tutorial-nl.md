@@ -60,21 +60,9 @@ Logische bomen worden voornamelijk verdeeld in twee soorten, die worden gebruikt
 
 ### Case 2: "Hoe" Boom - Plannen van "Hoe kan ik mijn persoonlijke werkefficiëntie verbeteren?"
 
-```mermaid
-graph TD
-    A(Improve Personal Work Efficiency) --> B(Better Time Management)
-    A --> C(Optimize Workflow)
-    A --> D(Reduce Distractions)
+![Logic Tree Tutorial nl](./Logic-Tree-Tutorial-nl-mermaid-live-1.png)
 
-    B --> E(Use Pomodoro Technique)
-    B --> F(Create Daily Task List)
-
-    C --> G(Automate Repetitive Tasks)
-    C --> H(Use Templates and Tools)
-
-    D --> I(Turn Off Unnecessary Notifications)
-    D --> J(Set Fixed "Do Not Disturb" Work Hours)
-```
+<!-- mermaid 源文件：Logic-Tree-Tutorial-nl-mermaid-live-1.mmd -->
 
 **Analyse**: Deze boomstructuur breekt een abstract doel op in een reeks specifieke, uitvoerbare stappen, en helpt individuen om duidelijke verbeterplannen op te stellen.
 

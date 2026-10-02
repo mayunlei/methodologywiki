@@ -100,8 +100,8 @@ This is the golden rule that must be kept in mind when understanding correlation
 
 ## Extensions and Connections
 
-*   **Descriptive Research**: The basis of correlational research; we must first be able to describe variables before we can study the relationships between them.
-*   **Experimental Research**: Once correlational research finds an interesting association, rigorous experimental research can be used to test whether there is a causal mechanism behind it.
+*   **[Descriptive Research](Descriptive-Research-Tutorial-en.md)**: The basis of correlational research; we must first be able to describe variables before we can study the relationships between them.
+*   **[Experimental Research](Experimental-Research-Tutorial-en.md)**: Once correlational research finds an interesting association, rigorous experimental research can be used to test whether there is a causal mechanism behind it.
 *   **Regression Analysis**: An extension and upgrade of correlational research. When there are multiple independent variables, regression analysis can not only reveal their relationship with the dependent variable but also analyze the relative importance or unique predictive power of each independent variable.
 
 ---

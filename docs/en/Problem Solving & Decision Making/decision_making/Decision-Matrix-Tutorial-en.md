@@ -77,7 +77,7 @@ A standard decision matrix is mainly composed of the following parts:
 
 ## Extensions and Connections
 
-*   **Cost-Benefit Analysis**: When decision criteria can primarily be categorized into "costs" and "benefits," a decision matrix evolves into a more specific cost-benefit analysis.
+*   **[Cost-Benefit Analysis](Cost-Benefit-Analysis-Tutorial-en.md)**: When decision criteria can primarily be categorized into "costs" and "benefits," a decision matrix evolves into a more specific cost-benefit analysis.
 *   **Analytic Hierarchy Process (AHP)**: A more complex and precise multi-criteria decision analysis method. It determines weights through pairwise comparisons and performs consistency checks, suitable for higher-risk, more significant decision scenarios.
 
 ---

@@ -78,7 +78,7 @@ A standardized experimental study must include the following core components, wh
 ## Extensions and Connections
 
 *   **Quasi-Experimental Research**: When complete random assignment is not possible (e.g., studying differences between students in two different classes), researchers use quasi-experimental designs. It still involves manipulation and control, but the strength of causal inference is weaker than true experiments.
-*   **Correlational Research**: When experiments cannot be conducted, correlational research can be an alternative to find associations between variables, but it cannot draw causal conclusions.
+*   **[Correlational Research](Correlational-Research-Tutorial-en.md)**: When experiments cannot be conducted, correlational research can be an alternative to find associations between variables, but it cannot draw causal conclusions.
 
 ---
 *Source Reference: The philosophical foundations of experimental methods were laid by philosophers such as David Hume and John Stuart Mill. Donald T. Campbell and Julian C. Stanley's "Experimental and Quasi-Experimental Designs for Research" is a landmark work in this field.*

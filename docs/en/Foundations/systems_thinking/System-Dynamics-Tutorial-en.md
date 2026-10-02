@@ -76,8 +76,8 @@ To understand System Dynamics, one must grasp its unique "language"—a set of c
 
 ## Extensions and Connections
 
-*   **Systems Thinking**: System Dynamics is the most core and quantitative methodology for practicing and applying systems thinking. Tools like causal loop diagrams are excellent starting points for developing systems thinking skills.
-*   **Iceberg Model**: A basic framework for systems thinking. System Dynamics, through its models, aims to reveal how the "structure" at the lower level of the iceberg produces the "patterns" and "events" at the upper level.
+*   **[Systems Thinking](Iceberg-Model-Tutorial-en.md)**: System Dynamics is the most core and quantitative methodology for practicing and applying systems thinking. Tools like causal loop diagrams are excellent starting points for developing systems thinking skills.
+*   **[Iceberg Model](Iceberg-Model-Tutorial-en.md)**: A basic framework for systems thinking. System Dynamics, through its models, aims to reveal how the "structure" at the lower level of the iceberg produces the "patterns" and "events" at the upper level.
 *   **Scenario Planning**: System Dynamics models can provide strong support for scenario planning by simulating different external environmental changes (e.g., energy prices, policy changes) to help organizations develop more robust strategies.
 
 ---

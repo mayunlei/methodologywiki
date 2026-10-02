@@ -85,8 +85,8 @@ Scrum's "rules of the game" can be concisely summarized as a "3-5-3" structure: 
 
 ## Extensions and Connections
 
-*   **Agile Development**: Scrum is a specific, mainstream **framework** for realizing Agile values and principles.
-*   **Kanban**: Another popular Agile method. Unlike Scrum's rhythm based on "time-box (sprints)," Kanban focuses more on "continuous flow." In practice, many teams combine the two; for example, using Kanban within a Scrum sprint to visualize and manage the flow of tasks, which is called "Scrumban."
+*   **[Agile Development](Agile-Tutorial-en.md)**: Scrum is a specific, mainstream **framework** for realizing Agile values and principles.
+*   **[Kanban](Kanban-Tutorial-en.md)**: Another popular Agile method. Unlike Scrum's rhythm based on "time-box (sprints)," Kanban focuses more on "continuous flow." In practice, many teams combine the two; for example, using Kanban within a Scrum sprint to visualize and manage the flow of tasks, which is called "Scrumban."
 *   **Extreme Programming (XP)**: Scrum provides the "management framework," while XP provides a set of excellent "engineering practices." Integrating XP practices (such as Test-Driven Development, Pair Programming) into the Scrum framework can greatly improve the technical quality of product increments.
 
 ---

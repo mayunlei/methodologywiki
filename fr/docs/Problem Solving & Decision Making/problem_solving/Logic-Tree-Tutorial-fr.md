@@ -60,21 +60,9 @@ Les arbres logiques se divisent principalement en deux types, utilisés pour ré
 
 ### Cas 2 : Arbre du "Comment" - Planifier "Comment améliorer l'efficacité de mon travail personnel ?"
 
-```mermaid
-graph TD
-    A(Improve Personal Work Efficiency) --> B(Better Time Management)
-    A --> C(Optimize Workflow)
-    A --> D(Reduce Distractions)
+![Logic Tree Tutorial fr](./Logic-Tree-Tutorial-fr-mermaid-live-1.png)
 
-    B --> E(Use Pomodoro Technique)
-    B --> F(Create Daily Task List)
-
-    C --> G(Automate Repetitive Tasks)
-    C --> H(Use Templates and Tools)
-
-    D --> I(Turn Off Unnecessary Notifications)
-    D --> J(Set Fixed "Do Not Disturb" Work Hours)
-```
+<!-- mermaid 源文件：Logic-Tree-Tutorial-fr-mermaid-live-1.mmd -->
 
 **Analyse** : Cet arbre décompose un objectif abstrait en une série d'étapes spécifiques et réalisables, aidant les individus à créer des plans d'amélioration clairs.
 

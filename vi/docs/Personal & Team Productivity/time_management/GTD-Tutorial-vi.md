@@ -33,25 +33,9 @@ Triết lý cốt lõi của GTD là đạt được trạng thái làm việc *
 
 ### Sơ Đồ Quy Trình Xử Lý GTD
 
-```mermaid
-graph TD
-    A[Hộp Thư Đến] --> B{Đây là việc gì?}
-    B --> C{Cần hành động không?}
-    C -- Không --> D{Là rác, tài liệu tham khảo hay ý tưởng tương lai?}
-    D -- Rác --> E[Xóa]
-    D -- Tài liệu tham khảo --> F[Lưu trữ]
-    D -- Ý tưởng tương lai --> G[Danh sách Có Thể/Làm Sau]
-    C -- Có --> H{Hành động tiếp theo là gì?}
-    H --> I{Có thể hoàn thành trong 2 phút không?}
-    I -- Có --> J[Làm ngay!]
-    I -- Không --> K{Bạn nên tự làm không?}
-    K -- Không --> L[Giao việc<br/>Danh sách Chờ Phản Hồi]
-    K -- Có --> M{Có ngày/giờ cụ thể không?}
-    M -- Có --> N[Lịch]
-    M -- Không --> O[Danh sách Việc Cần Làm Tiếp Theo<br/>theo bối cảnh]
-    H -- Nhiều hành động --> P[Danh sách Dự Án]
-    O --> P
-```
+![GTD Tutorial vi](./GTD-Tutorial-vi-mermaid-live-1.png)
+
+<!-- mermaid 源文件：GTD-Tutorial-vi-mermaid-live-1.mmd -->
 
 ## Các Trường Hợp Ứng Dụng
 

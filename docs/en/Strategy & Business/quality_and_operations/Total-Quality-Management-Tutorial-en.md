@@ -97,8 +97,8 @@ Implementing TQM is a long-term, cultural change process, which can usually foll
 
 ## Extensions and Connections
 
-*   **Six Sigma**: Can be seen as a more specific, data-driven, and project-oriented implementation methodology for the "fact-based decision making" and "continuous improvement" principles within TQM. TQM provides the philosophy and culture, while Six Sigma provides the statistical tools and project roadmap.
-*   **Lean Operations**: Shares common philosophical foundations with TQM in terms of eliminating waste, focusing on processes, and continuous improvement. The two are often combined to form "Lean Six Sigma."
+*   **[Six Sigma](Six-Sigma-Tutorial-en.md)**: Can be seen as a more specific, data-driven, and project-oriented implementation methodology for the "fact-based decision making" and "continuous improvement" principles within TQM. TQM provides the philosophy and culture, while Six Sigma provides the statistical tools and project roadmap.
+*   **[Lean Operations](Lean-Operations-Tutorial-en.md)**: Shares common philosophical foundations with TQM in terms of eliminating waste, focusing on processes, and continuous improvement. The two are often combined to form "Lean Six Sigma."
 *   **ISO 9000 Quality Management System**: An internationally standardized, certifiable framework for TQM principles. An organization can demonstrate its establishment of a quality management system compliant with TQM principles by obtaining ISO 9001 certification.
 
 ---

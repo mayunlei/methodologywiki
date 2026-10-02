@@ -76,8 +76,8 @@ Qualitative research is built on the philosophical foundations of interpretivism
 
 ## Extensions and Connections
 
-*   **Quantitative Research**: Qualitative research perfectly complements quantitative research. After quantitative research discovers macro patterns, qualitative research can be used to explore the underlying reasons in depth.
-*   **Mixed Methods Research**: Combining qualitative and quantitative research is a mainstream trend in current research, aiming to achieve complementary advantages.
+*   **[Quantitative Research](Quantitative-Research-Tutorial-en.md)**: Qualitative research perfectly complements quantitative research. After quantitative research discovers macro patterns, qualitative research can be used to explore the underlying reasons in depth.
+*   **[Mixed Methods Research](Mixed-Methods-Research-Tutorial-en.md)**: Combining qualitative and quantitative research is a mainstream trend in current research, aiming to achieve complementary advantages.
 
 ---
 *Reference: The roots of qualitative research can be traced back to Max Weber's "interpretive sociology." "The SAGE Handbook of Qualitative Research," edited by Norman K. Denzin and Yvonna S. Lincoln, is one of the most authoritative and comprehensive references in this field.*

@@ -92,7 +92,7 @@ The most powerful aspect of the Habit Loop model is that it provides us with a c
 
 ## Extensions and Connections
 
-*   **Tiny Habits**: BJ Fogg's Tiny Habits model can be seen as an extremely subtle and practical development of the Habit Loop theory. Its "anchor-tiny behavior-celebration" recipe is one of the most effective applications of the "cue-routine-reward" loop, efficiently building new neural pathways by making the "routine" extremely tiny and designing an immediate "celebration" (internal reward).
+*   **[Tiny Habits](Tiny-Habits-Tutorial-en.md)**: BJ Fogg's Tiny Habits model can be seen as an extremely subtle and practical development of the Habit Loop theory. Its "anchor-tiny behavior-celebration" recipe is one of the most effective applications of the "cue-routine-reward" loop, efficiently building new neural pathways by making the "routine" extremely tiny and designing an immediate "celebration" (internal reward).
 
 ---
 *Reference: Charles Duhigg's global bestseller "The Power of Habit: Why We Do What We Do in Life and Business" is the most core and authoritative literature popularizing and explaining the "Habit Loop" model. The book synthesizes extensive neuroscience research and vivid business and social cases, profoundly revealing the immense power of habits in our lives.*

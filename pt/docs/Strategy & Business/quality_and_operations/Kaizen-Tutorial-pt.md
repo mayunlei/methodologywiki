@@ -15,16 +15,9 @@ A ideia central do Kaizen é **não buscar avanços revolucionários da noite pa
 
 ### Kaizen vs. Inovação
 
-```mermaid
-graph TD
-    subgraph Two Ways of Change
-        A(<b>Kaizen</b>) --> A1(<b>Características:</b><br/>- Pequenos passos graduais<br/>- Contínuo<br/>- Participação total<br/>- Baixo risco); 
-        A1 --> A2(<b>Efeito:</b><br/>Alcança progresso significativo e de longo prazo<br/>através do acúmulo de muitas pequenas melhorias);
+![Two Ways of Change](./Kaizen-Tutorial-pt-mermaid-live-1.png)
 
-        B(<b>Inovação</b>) --> B1(<b>Características:</b><br/>- Grandes passos e avanços<br/>- Intermitente<br/>- Frequentemente liderado por especialistas ou equipes específicas<br/>- Alto risco);
-        B1 --> B2(<b>Efeito:</b><br/>Alcança desenvolvimento disruptivo e por saltos<br/>por meio de revolução tecnológica ou de modelo de negócios);
-    end
-```
+<!-- mermaid 源文件：Kaizen-Tutorial-pt-mermaid-live-1.mmd -->
 
 *   **Relação**: Kaizen e inovação não são mutuamente exclusivos; ao contrário, são duas capacidades que uma organização excelente deve possuir simultaneamente. O Kaizen é responsável por otimizar e consolidar continuamente os sistemas existentes, enquanto a inovação é responsável por criar sistemas totalmente novos.
 

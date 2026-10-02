@@ -83,7 +83,7 @@ A standard mind map follows a few simple but crucial drawing rules.
 
 ## Extensions and Connections
 
-*   **Brainstorming**: Mind mapping is an ideal tool for conducting and organizing brainstorming results. Scattered ideas generated during brainstorming can be categorized and structured in real-time using a mind map.
+*   **[Brainstorming](Brainstorming-Tutorial-en.md)**: Mind mapping is an ideal tool for conducting and organizing brainstorming results. Scattered ideas generated during brainstorming can be categorized and structured in real-time using a mind map.
 *   **Concept Map**: Similar to a mind map, but focuses more on precisely expressing the **specific relationships** between different concepts (e.g., using text on connecting lines to explain "A causes B" or "B is part of C"). It is more logically rigorous, while mind maps focus more on free association and brainstorming.
 
 ---

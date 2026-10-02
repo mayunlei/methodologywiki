@@ -94,7 +94,7 @@ The Balanced Scorecard systematically breaks down abstract strategies into concr
 ## Extensions and Connections
 
 *   **Strategy Map**: An integral part of the Balanced Scorecard, visually depicting the cause-and-effect relationships between objectives across the four perspectives.
-*   **Key Performance Indicators (KPIs)**: The Balanced Scorecard provides a framework for selecting and organizing KPIs that are aligned with strategic objectives.
+*   **[Key Performance Indicators (KPIs)](../../Personal & Team Productivity/goal_management/KPI-Tutorial-en.md)**: The Balanced Scorecard provides a framework for selecting and organizing KPIs that are aligned with strategic objectives.
 *   **Management by Objectives (MBO)**: While MBO focuses on setting individual goals, the Balanced Scorecard provides a broader strategic context for these goals, ensuring they contribute to overall organizational success.
 
 ---

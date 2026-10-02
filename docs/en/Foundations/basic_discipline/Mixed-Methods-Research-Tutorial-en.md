@@ -95,7 +95,7 @@ Mixed-methods research has various design patterns, among which the three core o
 
 ## Extensions and Connections
 
-*   **Quantitative Research** and **Qualitative Research**: Are the two basic constituent modules of mixed-methods research. Understanding the philosophical foundations and technical details of both is a prerequisite for conducting mixed-methods research.
+*   **[Quantitative Research](Quantitative-Research-Tutorial-en.md)** and **Qualitative Research**: Are the two basic constituent modules of mixed-methods research. Understanding the philosophical foundations and technical details of both is a prerequisite for conducting mixed-methods research.
 
 ---
 *Reference: John W. Creswell is one of the most important and prolific scholars in the field of mixed-methods research. His works, such as "Research Design: Qualitative, Quantitative, and Mixed Methods Approaches," are essential introductory and advanced readings in this field.*

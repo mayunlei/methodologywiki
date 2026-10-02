@@ -33,25 +33,9 @@ Die Kernphilosophie von GTD besteht darin, einen Zustand von **„Geist wie Wass
 
 ### GTD-Workflow-Verarbeitungsdiagramm
 
-```mermaid
-graph TD
-    A[Inbox] --> B{Was ist das?}
-    B --> C{Erfordert es eine Handlung?}
-    C -- Nein --> D{Ist es Müll, Referenz oder zukünftige Idee?}
-    D -- Müll --> E[Löschen]
-    D -- Referenz --> F[Archivieren]
-    D -- Zukünftige Idee --> G[Someday/Maybe-Liste]
-    C -- Ja --> H{Was ist die nächste Aktion?}
-    H --> I{Kann sie in 2 Minuten erledigt werden?}
-    I -- Ja --> J[Jetzt erledigen!]
-    I -- Nein --> K{Sollte ich sie erledigen?}
-    K -- Nein --> L[Delegieren<br/>Warten auf-Liste]
-    K -- Ja --> M{Gibt es ein bestimmtes Datum/Uhrzeit?}
-    M -- Ja --> N[Kalender]
-    M -- Nein --> O[Nächste-Aktionen-Liste<br/>nach Kontext]
-    H -- Mehrere Aktionen --> P[Projektliste]
-    O --> P
-```
+![GTD Tutorial de](./GTD-Tutorial-de-mermaid-live-1.png)
+
+<!-- mermaid 源文件：GTD-Tutorial-de-mermaid-live-1.mmd -->
 
 ## Anwendungsbeispiele
 

@@ -15,16 +15,9 @@ Kärnoidén i Kaizen är **inte att sträva efter revolutionerande genombrott ö
 
 ### Kaizen vs. Innovation
 
-```mermaid
-graph TD
-    subgraph Two Ways of Change
-        A(<b>Kaizen</b>) --> A1(<b>Egenskaper:</b><br/>- Små, gradvisa steg<br/>- Kontinuerligt<br/>- Full medverkan<br/>- Låg risk); 
-        A1 --> A2(<b>Effekt:</b><br/>Uppnår långsiktig, betydande framgång<br/>genom ackumulering av många små förbättringar);
+![Two Ways of Change](./Kaizen-Tutorial-sv-mermaid-live-1.png)
 
-        B(<b>Innovation</b>) --> B1(<b>Egenskaper:</b><br/>- Stora, genombrottssteg<br/>- Oregelbundet<br/>- Ofta ledd av experter eller särskilda team<br/>- Hög risk);
-        B1 --> B2(<b>Effekt:</b><br/>Uppnår språngvis, stördande utveckling<br/>genom teknologisk eller affärsmodellsrevolution);
-    end
-```
+<!-- mermaid 源文件：Kaizen-Tutorial-sv-mermaid-live-1.mmd -->
 
 *   **Relation**: Kaizen och innovation utesluter inte varandra; snarare är de två förmågor som en utmärkt organisation måste besitta samtidigt. Kaizen ansvarar för att kontinuerligt optimera och konsolidera befintliga system, medan innovation ansvarar för att skapa helt nya system.
 

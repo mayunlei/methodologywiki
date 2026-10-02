@@ -85,12 +85,12 @@ Based on their content, KPIs can be divided into various types:
 
 ## Extensions and Connections
 
-*   **OKR (Objectives and Key Results)**: KPI and OKR are two complementary tools in modern goal management.
+*   **[OKR (Objectives and Key Results)](OKR-Tutorial-en.md)**: KPI and OKR are two complementary tools in modern goal management.
     *   **KPI** is more like a car's "dashboard," used to monitor routine metrics that need to be kept at a healthy level long-term (e.g., profit margin, customer satisfaction). Its goal is usually to "maintain" or "slightly optimize."
-    *   **OKR** is more like a car's "navigation system," used to guide challenging, directional goals that require breakthroughs and innovation (e.g., "successfully enter a new market"). Its goal is to "achieve" a completely new state.
+    *   **[OKR](OKR-Tutorial-en.md)** is more like a car's "navigation system," used to guide challenging, directional goals that require breakthroughs and innovation (e.g., "successfully enter a new market"). Its goal is to "achieve" a completely new state.
     *   In practice, a team's dashboard KPIs (e.g., "website crash rate must be below 0.1%") are the foundation for its normal operation, while their OKRs are the mountains they need to focus on conquering this quarter.
 
-*   **Balanced Scorecard**: KPIs are the basic elements for building a Balanced Scorecard. The Balanced Scorecard provides a comprehensive framework to ensure that the KPIs you choose are balanced across the four perspectives: financial, customer, internal processes, and learning & growth.
+*   **[Balanced Scorecard](../../Strategy & Business/strategic_execution/Balanced-Scorecard-Tutorial-en.md)**: KPIs are the basic elements for building a Balanced Scorecard. The Balanced Scorecard provides a comprehensive framework to ensure that the KPIs you choose are balanced across the four perspectives: financial, customer, internal processes, and learning & growth.
 
 ---
 *Reference: The concept of KPI is rooted in modern management accounting and performance management theory. Robert S. Kaplan and David P. Norton, in developing the Balanced Scorecard, greatly promoted the application of KPIs in strategic management. In the digital age, KPIs have become a core component of data-driven decision-making culture.*

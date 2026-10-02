@@ -96,8 +96,8 @@ The Eisenhower Matrix divides all tasks into four logically clear quadrants, pro
 
 ## Extensions and Connections
 
-*   **GTD (Getting Things Done)**: GTD provides a more comprehensive and systematic workflow management system for clearing and organizing all your "stuff." The Eisenhower Matrix, on the other hand, can serve as a powerful thinking tool for prioritizing in the "Engage" step of GTD.
-*   **Pareto Analysis (80/20 Rule)**: Highly consistent with the philosophy of the Eisenhower Matrix. Typically, the 20% of key activities that yield 80% of the returns are located in Quadrant II.
+*   **[GTD (Getting Things Done)](GTD-Tutorial-en.md)**: GTD provides a more comprehensive and systematic workflow management system for clearing and organizing all your "stuff." The Eisenhower Matrix, on the other hand, can serve as a powerful thinking tool for prioritizing in the "Engage" step of GTD.
+*   **[Pareto Analysis (80/20 Rule)](../../Problem Solving & Decision Making/decision_making/Pareto-Analysis-Tutorial-en.md)**: Highly consistent with the philosophy of the Eisenhower Matrix. Typically, the 20% of key activities that yield 80% of the returns are located in Quadrant II.
 
 ---
 *Reference: Although this methodology is widely attributed to Dwight D. Eisenhower, it was systematically refined and popularized by the renowned management expert Stephen R. Covey. In his global bestseller "The 7 Habits of Highly Effective People," he elaborates on this matrix in detail and presents it as a practical tool for the core habit of "Put First Things First."*

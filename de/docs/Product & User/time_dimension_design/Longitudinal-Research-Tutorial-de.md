@@ -14,18 +14,9 @@ Die Gemeinsamkeit aller Längsschnittstudien ist ihre Erfassung der „Zeit“, 
 
 ### Vergleich von Längsschnitt- und Querschnittsforschung
 
-```mermaid
-graph TD
-    subgraph Zeitliche Dimension des Forschungsdesigns
-        A(<b>Längsschnittforschung</b><br/>Longitudinal) --> A1(Wiederholte Messung der <b>selben Stichprobe</b><br/>zu mehreren Zeitpunkten);
-        A1 --> A2(<b>Vorteile:</b><br/>- Kann dynamische Veränderungen und Entwicklungen untersuchen<br/>- Kann die zeitliche Abfolge von Ereignissen feststellen<br/>- Kann individuelle Unterschiede kontrollieren);
-        A2 --> A3(<b>Nachteile:</b><br/>- Zeitaufwendig, arbeitsintensiv, hohe Kosten<br/>- Schwere Problem der Stichprobenverluste);
+![Zeitliche Dimension des Forschungsdesigns](./Longitudinal-Research-Tutorial-de-mermaid-live-1.png)
 
-        B(<b>Querschnittsforschung</b><br/>Cross-Sectional) --> B1(Messung von Stichproben <b>unterschiedlicher Altersgruppen/Gruppen</b><br/>gleichzeitig zu einem Zeitpunkt);
-        B1 --> B2(<b>Vorteile:</b><br/>- Schnell, kostengünstig, effizient<br/>- Kein Problem des Stichprobenverlusts);
-        B2 --> B3(<b>Nachteile:</b><br/>- Kann individuelle Veränderungen nicht untersuchen<br/>- Verwechselt Alterswirkungen leicht mit Kohortenwirkungen);
-    end
-```
+<!-- mermaid 源文件：Longitudinal-Research-Tutorial-de-mermaid-live-1.mmd -->
 
 ## Wie man eine Längsschnittstudie durchführt
 

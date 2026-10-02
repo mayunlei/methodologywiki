@@ -33,25 +33,9 @@ De kernfilosofie van GTD is om een **"Mind Like Water"**-toestand te bereiken: s
 
 ### GTD Workflow Verwerkingsdiagram
 
-```mermaid
-graph TD
-    A[Inbox] --> B{Wat is dit?}
-    B --> C{Vereist het actie?}
-    C -- Nee --> D{Is het afval, referentie of toekomstig idee?}
-    D -- Afval --> E[Verwijderen]
-    D -- Referentie --> F[Archiveren]
-    D -- Toekomstig idee --> G[Someday/Maybe-lijst]
-    C -- Ja --> H{Wat is de volgende actie?}
-    H --> I{Kan het binnen 2 minuten worden gedaan?}
-    I -- Ja --> J[Doe het nu!]
-    I -- Nee --> K{Moet ik het doen?}
-    K -- Nee --> L[Delegueren<br/>Wachten op-lijst]
-    K -- Ja --> M{Specifieke datum/tijd?}
-    M -- Ja --> N[Agenda]
-    M -- Nee --> O[Volgende acties-lijst<br/>per context]
-    H -- Meerdere acties --> P[Projectenlijst]
-    O --> P
-```
+![GTD Tutorial nl](./GTD-Tutorial-nl-mermaid-live-1.png)
+
+<!-- mermaid 源文件：GTD-Tutorial-nl-mermaid-live-1.mmd -->
 
 ## Toepassingsgevallen
 

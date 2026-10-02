@@ -14,18 +14,9 @@ Không giống như các nghiên cứu cắt ngang (cross-sectional), chỉ cung
 
 ### So sánh nghiên cứu dọc và nghiên cứu cắt ngang
 
-```mermaid
-graph TD
-    subgraph Thời kích của Thiết kế Nghiên cứu
-        A(<b>Nghiên cứu Dọc</b><br/>Longitudinal) --> A1(Đo lường lặp lại <b>cùng một mẫu</b><br/>tại nhiều thời điểm khác nhau);
-        A1 --> A2(<b>Ưu điểm:</b><br/>- Có thể nghiên cứu sự thay đổi và phát triển động<br/>- Có thể xác định trình tự thời gian của các sự kiện<br/>- Có thể kiểm soát khác biệt cá nhân);
-        A2 --> A3(<b>Nhược điểm:</b><br/>- Tốn thời gian, công sức và chi phí cao<br/>- Vấn đề mất mẫu nghiêm trọng);
+![Thời kích của Thiết kế Nghiên cứu](./Longitudinal-Research-Tutorial-vi-mermaid-live-1.png)
 
-        B(<b>Nghiên cứu Cắt ngang</b><br/>Cross-Sectional) --> B1(Đo lường mẫu <b>các độ tuổi/nhóm khác nhau</b><br/>đồng thời tại một thời điểm duy nhất);
-        B1 --> B2(<b>Ưu điểm:</b><br/>- Nhanh chóng, tiết kiệm, hiệu quả<br/>- Không gặp vấn đề mất mẫu);
-        B2 --> B3(<b>Nhược điểm:</b><br/>- Không thể nghiên cứu sự thay đổi cá nhân<br/>- Dễ nhầm lẫn giữa hiệu ứng tuổi và hiệu ứng nhóm đồng hành);
-    end
-```
+<!-- mermaid 源文件：Longitudinal-Research-Tutorial-vi-mermaid-live-1.mmd -->
 
 ## Cách thực hiện một nghiên cứu dọc
 

@@ -14,18 +14,9 @@ Gemensamt för alla långitudinella studier är deras spårning av "tid", men de
 
 ### Jämförelse mellan långitudinell och tvärsnittsforskning
 
-```mermaid
-graph TD
-    subgraph Tidsdimension i forskningsdesign
-        A(<b>Långitudinell forskning</b><br/>Longitudinal) --> A1(Upprepade mätningar av <b>samma stickprov</b><br/>vid flera tidpunkter);
-        A1 --> A2(<b>Fördelar:</b><br/>- Kan studera dynamiska förändringar och utveckling<br/>- Kan etablera händelsernas tidsordning<br/>- Kan kontrollera för individuella skillnader);
-        A2 --> A3(<b>Nackdelar:</b><br/>- Tidskrävande, arbetsintensiv, hög kostnad<br/>- Allvarligt problem med stickprovsförlust);
+![Tidsdimension i forskningsdesign](./Longitudinal-Research-Tutorial-sv-mermaid-live-1.png)
 
-        B(<b>Tvärsnittsforskning</b><br/>Cross-Sectional) --> B1(Mäter stickprov av <b>olika åldrar/grupper</b><br/>samtidigt vid en tidpunkt);
-        B1 --> B2(<b>Fördelar:</b><br/>- Snabb, ekonomisk, effektiv<br/>- Inget problem med stickprovsförlust);
-        B2 --> B3(<b>Nackdelar:</b><br/>- Kan inte studera individuella förändringar<br/>- Förväxlar lätt ålders-effekter med kohort-effekter);
-    end
-```
+<!-- mermaid 源文件：Longitudinal-Research-Tutorial-sv-mermaid-live-1.mmd -->
 
 ## Hur man genomför en långitudinell studie
 

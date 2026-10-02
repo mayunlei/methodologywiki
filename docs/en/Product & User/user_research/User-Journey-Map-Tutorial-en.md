@@ -73,9 +73,9 @@ A standard user journey map typically resembles a horizontal swimlane diagram an
 
 ## Extensions and Connections
 
-*   **User Persona**: Is the **prerequisite** for creating a user journey map. Without a clear user persona, the journey map loses its protagonist.
+*   **[User Persona](User-Persona-Tutorial-en.md)**: Is the **prerequisite** for creating a user journey map. Without a clear user persona, the journey map loses its protagonist.
 *   **Service Blueprint**: Can be seen as the "backstage view" of the user journey map. While the journey map depicts the user's front-stage experience, the service blueprint extends further downward, detailing how backend personnel, systems, and processes operate and interact to support these front-stage experiences.
-*   **Empathy Map**: This is a tool more focused on deeply exploring the inner world of a single user, often used for material collection and empathy exercises in the early stages of creating user personas and journey maps.
+*   **[Empathy Map](Empathy-Map-Tutorial-en.md)**: This is a tool more focused on deeply exploring the inner world of a single user, often used for material collection and empathy exercises in the early stages of creating user personas and journey maps.
 
 ---
 *Reference: The user journey map, as a core tool in the field of User Experience (UX) design, its concepts and practices are constantly evolving. Jesse James Garrett, co-founder of Adaptive Path, laid the theoretical foundation in his book "The Elements of User Experience." Authoritative organizations such as Nielsen Norman Group (NN/g) have extensive practical guides and articles on how to create and use user journey maps.*

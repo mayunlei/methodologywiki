@@ -16,7 +16,7 @@ Strategi för blått hav erbjuder ett systematiskt sett analytiska verktyg som h
 
     
 
-<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-sv-mermaid-src-1.mmd -->
+    <!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-sv-mermaid-src-1.mmd -->
     *   "Eliminera" och "Reducera" hjälper företag att sänka sina kostnadsstrukturer.
     *   "Höj" och "Skapa" syftar till att förbättra kundvärdet och skapa ny efterfrågan.
 

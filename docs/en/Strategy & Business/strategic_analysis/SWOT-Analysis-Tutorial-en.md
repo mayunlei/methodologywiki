@@ -1,6 +1,19 @@
+---
+title: "SWOT Analysis: How to Do It, TOWS Matrix, Template and Examples"
+description: "SWOT analysis maps strengths, weaknesses, opportunities and threats, and the TOWS matrix turns them into SO, WO, ST and WT strategies. Includes a fill-in template, good vs. vague examples, business and personal cases and common mistakes."
+---
+
 # SWOT Analysis
 
 SWOT analysis is an extremely classic and powerful strategic planning framework designed to help an organization, project, or even an individual systematically examine their internal **Strengths (S)** and **Weaknesses (W)**, and evaluate external **Opportunities (O)** and **Threats (T)**. Its core value lies in providing a solid foundation for formulating precise and practical future strategies by clearly presenting these four dimensions, answering the fundamental questions of "Where are we now?" and "Where are we going in the future?"
+
+!!! abstract "Key takeaways"
+
+    - **S and W are internal** (resources and capabilities you control); **O and T are external** (changes in the environment you don't control).
+    - **Strengths and weaknesses are relative to competitors.** "We have a team" isn't a strength; "we deliver in half the industry's lead time" is.
+    - **Listing four boxes is only half the job.** Cross them in a TOWS matrix to get strategies: SO attack, WO improve, ST defend, WT retreat.
+    - **3–5 key factors per box** is enough; more makes it hard to see what matters.
+    - **Pair it with other tools**: use [PESTEL](PESTEL-Analysis-Tutorial-en.md) and [Porter's Five Forces](Porters-Five-Forces-Tutorial-en.md) for opportunities and threats, [value chain analysis](Value-Chain-Analysis-Tutorial-en.md) for strengths and weaknesses.
 
 ## Understanding the Four Dimensions of SWOT
 
@@ -61,6 +74,16 @@ An effective SWOT analysis is far more than just listing items; it is a complete
 *   **Background**: This manager has rich experience in brand promotion and networking resources (strength), but is unfamiliar with emerging data analysis and algorithmic recommendation technologies (weakness). Currently, digital marketing field has a surge in demand for composite talent who understand both branding and data (opportunity), while many young job seekers, though technologically new, lack strategic vision (threat).
 *   **WO Strategy**: Enroll in a systematic data science course (opportunity) to compensate for shortcomings in data analysis (weakness), thereby becoming a scarce, high-end composite talent in the market.
 
+**Case 4: A Fresh Graduate Choosing a First Job**
+
+*   **Strengths**: Two data-analysis internships with portfolio projects; fluent English.
+*   **Weaknesses**: No full-time experience; weak presentation skills.
+*   **Opportunities**: Strong demand for junior analysts in e-commerce; two target companies run graduate programs.
+*   **Threats**: Hiring freezes in the candidate's preferred finance sector; many applicants with similar degrees.
+*   **SO Strategy**: Lead applications with the portfolio and target e-commerce analytics roles, where demand is strongest.
+*   **WO Strategy**: Use the graduate programs' structured training to build presentation skills, and join a public-speaking club before starting.
+*   **WT Strategy**: Don't wait for the finance sector to reopen; treat it as a second-step move after two years of analytics experience.
+
 ## Value and Limitations of SWOT Analysis
 
 **Core Value**
@@ -75,13 +98,74 @@ An effective SWOT analysis is far more than just listing items; it is a complete
 *   **Simplification Tendency**: Sometimes, in order to fit complex problems into the matrix, there may be a risk of oversimplification, ignoring the dynamic relationships between factors.
 *   **Lack of Action Guidance**: If it merely stops at listing S, W, O, T, without subsequent TOWS strategic analysis, then SWOT is just a checklist and cannot automatically generate solutions.
 
+## SWOT Analysis Template
+
+**Step 1: The four boxes** (3–5 items each, written as specific, verifiable facts)
+
+| | Helpful | Harmful |
+| --- | --- | --- |
+| **Internal** | **Strengths (S)**<br>1.<br>2.<br>3. | **Weaknesses (W)**<br>1.<br>2.<br>3. |
+| **External** | **Opportunities (O)**<br>1.<br>2.<br>3. | **Threats (T)**<br>1.<br>2.<br>3. |
+
+**Step 2: The TOWS cross matrix**
+
+| | Opportunities (O) | Threats (T) |
+| --- | --- | --- |
+| **Strengths (S)** | **SO strategies**: which strengths can capture which opportunities? | **ST strategies**: which strengths can counter which threats? |
+| **Weaknesses (W)** | **WO strategies**: which opportunities can help fix which weaknesses? | **WT strategies**: how do we limit losses where weaknesses meet threats? |
+
+## What a Good SWOT Entry Looks Like
+
+The most common reason a SWOT fails is vague entries. Compare:
+
+| Dimension | Vague | Specific |
+| --- | --- | --- |
+| Strength | Great team | Core R&D team averages 8 years of industry experience, zero attrition in two years |
+| Strength | High-quality product | Return rate of 0.8% vs. an industry average of 3% |
+| Weakness | Low brand awareness | Only 12% of surveyed people in target cities have heard of us |
+| Opportunity | Huge market potential | Three new business parks nearby will bring about 20,000 employees next year |
+| Threat | Intense competition | A leading chain has confirmed it will open a store 500 m away |
+
+Specific entries have two benefits: the team is less likely to disagree about them, and in the TOWS step they suggest concrete actions directly.
+
+## Common Mistakes
+
+1.  **Mixing internal and external.** "Competitors are weak" is an external opportunity, not your strength; "we plan to expand overseas" is a plan, not an opportunity. Ask: "Is this something we decide?" If yes, it's S or W.
+2.  **Vague entries.** "Great team" or "big market" could be written by anyone and helps no decision. Use data or specific facts.
+3.  **Strengths without a reference point.** If every competitor has a capability, it isn't a strength; it's the price of entry.
+4.  **Listing the boxes but skipping the cross-analysis.** Without TOWS, SWOT is an inventory, not a strategy.
+5.  **Doing it alone.** Self-assessment tends to overrate strengths and underrate weaknesses. Involve other departments, or even customers.
+6.  **Doing it once and using it for years.** Update SWOT at least once a year, and immediately after major changes.
+
+## Frequently Asked Questions
+
+??? question "What does SWOT stand for?"
+
+    Strengths, Weaknesses, Opportunities and Threats. The first two are internal factors; the last two are external.
+
+??? question "What is the difference between SWOT and TOWS?"
+
+    SWOT is the framework for listing the four types of factors. TOWS is the next step: pairing internal and external factors to generate SO, WO, ST and WT strategies.
+
+??? question "How do I write a personal SWOT analysis?"
+
+    Start with a goal (a job search, career change, promotion). For strengths and weaknesses, list your skills, experience, traits and resources against the target role's requirements. For opportunities and threats, look at industry trends, hiring demand and competition. Then use TOWS to decide what to do in the next year.
+
+??? question "How many items should each box have?"
+
+    Three to five key factors. Brainstorm more, then keep only those with the biggest impact on your goal. Too many items blur the cross-analysis.
+
+??? question "How does SWOT fit with PESTEL and Porter's Five Forces?"
+
+    PESTEL analyzes the macro environment and the Five Forces analyze industry competition; their conclusions feed the opportunities and threats boxes. Value chain analysis and competitor comparison feed the strengths and weaknesses.
+
 ## Extensions and Connections
 
 To conduct a more in-depth analysis, SWOT is often combined with other tools:
 
-*   **PESTEL Analysis**: Can provide a more systematic and macro perspective for the "Opportunities" and "Threats" sections of SWOT, deeply analyzing external factors such as Political (P), Economic (E), Social (S), Technological (T), Environmental (E), and Legal (L).
-*   **Porter's Five Forces Model**: When "threats" mainly come from industry competition, this model can provide a more refined analytical framework.
-*   **Value Chain Analysis**: After the SWOT analysis, value chain analysis can help systematically examine the organization's activities to more accurately identify its core "strengths" and "weaknesses."
+*   **[PESTEL Analysis](PESTEL-Analysis-Tutorial-en.md)**: Can provide a more systematic and macro perspective for the "Opportunities" and "Threats" sections of SWOT, deeply analyzing external factors such as Political (P), Economic (E), Social (S), Technological (T), Environmental (E), and Legal (L).
+*   **[Porter's Five Forces Model](Porters-Five-Forces-Tutorial-en.md)**: When "threats" mainly come from industry competition, this model can provide a more refined analytical framework.
+*   **[Value Chain Analysis](Value-Chain-Analysis-Tutorial-en.md)**: After the SWOT analysis, value chain analysis can help systematically examine the organization's activities to more accurately identify its core "strengths" and "weaknesses."
 
 ---
 *Source Reference: Heinz Weihrich's classic paper "The TOWS Matrix—A Tool for Situational Analysis" (1982) first systematically combined the SWOT matrix with strategy formulation.*

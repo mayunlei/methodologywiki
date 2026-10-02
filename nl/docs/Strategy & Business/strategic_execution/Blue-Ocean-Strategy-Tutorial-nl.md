@@ -16,7 +16,7 @@ De Blauwe Oceaan Strategie biedt een reeks systematische analysetools om bedrijv
 
     
 
-<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-nl-mermaid-src-1.mmd -->
+    <!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-nl-mermaid-src-1.mmd -->
     *   "Elimineren" en "Verlagen" helpen bedrijven hun kostenstructuur te verlagen.
     *   "Verhogen" en "Creëren" richten zich op het versterken van klantwaarde en het creëren van nieuwe vraag.
 

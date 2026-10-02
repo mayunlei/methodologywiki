@@ -14,18 +14,9 @@ A característica comum de todos os estudos longitudinais é o acompanhamento ao
 
 ### Comparação entre Pesquisa Longitudinal e Pesquisa Transversal
 
-```mermaid
-graph TD
-    subgraph Dimensão Temporal do Desenho da Pesquisa
-        A(<b>Pesquisa Longitudinal</b><br/>Longitudinal) --> A1(Medir repetidamente a <b>mesma amostra</b><br/>em múltiplos momentos no tempo);
-        A1 --> A2(<b>Vantagens:</b><br/>- Permite estudar mudanças e desenvolvimento dinâmicos<br/>- Permite estabelecer a ordem temporal dos eventos<br/>- Permite controlar diferenças individuais);
-        A2 --> A3(<b>Desvantagens:</b><br/>- Demora, exige esforço e custo elevado<br/>- Problema sério de perda de amostra);
+![Dimensão Temporal do Desenho da Pesquisa](./Longitudinal-Research-Tutorial-pt-mermaid-live-1.png)
 
-        B(<b>Pesquisa Transversal</b><br/>Cross-Sectional) --> B1(Medir amostras de <b>idades/grupos diferentes</b><br/>simultaneamente em um único momento no tempo);
-        B1 --> B2(<b>Vantagens:</b><br/>- Rápida, econômica e eficiente<br/>- Não há problema de perda de amostra);
-        B2 --> B3(<b>Desvantagens:</b><br/>- Não permite estudar mudanças individuais<br/>- Confunde facilmente efeitos de idade com efeitos de coorte);
-    end
-```
+<!-- mermaid 源文件：Longitudinal-Research-Tutorial-pt-mermaid-live-1.mmd -->
 
 ## Como Realizar um Estudo Longitudinal
 

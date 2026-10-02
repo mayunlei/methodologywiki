@@ -16,7 +16,7 @@
 
     
 
-<!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-ja-mermaid-src-1.mmd -->
+    <!-- mermaid 源文件：Blue-Ocean-Strategy-Tutorial-ja-mermaid-src-1.mmd -->
     *   「**排除**（Eliminate）」と「**削減**（Reduce）」により、企業はコスト構造を低減する。
     *   「**向上**（Raise）」と「**創造**（Create）」は、顧客価値を高め、新たな需要を生み出すことを目指す。
 

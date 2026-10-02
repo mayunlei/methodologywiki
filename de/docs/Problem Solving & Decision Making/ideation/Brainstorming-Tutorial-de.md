@@ -18,15 +18,9 @@ Um sicherzustellen, dass Brainstorming seine beabsichtigten Ergebnisse erzielt, 
 
 ### Brainstorming-Prozess
 
-```mermaid
-graph TD
-    subgraph A Successful Brainstorming Session
-        A(<b>1 Vorbereitungsphase</b><br/>- Das zentrale Problem klar definieren<br/>- Ein vielfältiges Team zusammenstellen<br/>- Einen geeigneten Moderator auswählen<br/>- Materialien vorbereiten: Whiteboard, Haftnotizen) --> B(<b>2 Aufwärm- und Regelerklärung</b><br/>- Kurze kreative Aufwärmaufgabe durchführen<br/>- Moderator wiederholt die vier Grundprinzipien);
-        B --> C(<b>3 Ideenfindungsphase</b><br/>- Frei Ideen zum zentralen Problem vorschlagen<br/>- Moderator leitet, stellt sicher, dass alle teilnehmen<br/>- Das Prinzip „Urteile zurückstellen“ strikt einhalten);
-        C --> D(<b>4 Ideenklärung und Gruppierung</b><br/>- Nach der Ideenfindung unklare Ideen einzeln klären<br/>- Ähnliche oder verwandte Ideen gruppieren<br/>um „Themen“ oder „Kategorien“ zu bilden);
-        D --> E(<b>5 Filterung und Bewertung</b><br/>- Team legt gemeinsam Bewertungskriterien fest<br/>- Aus den Ideen die vielversprechendsten durch<br/>Abstimmung oder andere Methoden auswählen);
-    end
-```
+![A Successful Brainstorming Session](./Brainstorming-Tutorial-de-mermaid-live-1.png)
+
+<!-- mermaid 源文件：Brainstorming-Tutorial-de-mermaid-live-1.mmd -->
 
 ## Wie man eine effektive Brainstorming-Session organisiert
 

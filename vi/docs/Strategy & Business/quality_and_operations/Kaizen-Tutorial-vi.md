@@ -15,16 +15,9 @@ Trong nhiều tổ chức, "cải tiến" thường được nhìn nhận như m
 
 ### Kaizen và Đổi mới
 
-```mermaid
-graph TD
-    subgraph Two Ways of Change
-        A(<b>Kaizen</b>) --> A1(<b>Đặc điểm:</b><br/>- Bước nhỏ, từ từ<br/>- Liên tục<br/>- Toàn bộ nhân viên tham gia<br/>- Rủi ro thấp); 
-        A1 --> A2(<b>Kết quả:</b><br/>Đạt được tiến bộ dài hạn và đáng kể<br/>thông qua việc tích lũy nhiều cải tiến nhỏ);
+![Two Ways of Change](./Kaizen-Tutorial-vi-mermaid-live-1.png)
 
-        B(<b>Đổi mới</b>) --> B1(<b>Đặc điểm:</b><br/>- Bước lớn, đột phá<br/>- Ngắt quãng<br/>- Thường do chuyên gia hoặc nhóm cụ thể dẫn dắt<br/>- Rủi ro cao);
-        B1 --> B2(<b>Kết quả:</b><br/>Đạt được phát triển nhảy vọt và phá vỡ<br/>thông qua cách mạng công nghệ hoặc mô hình kinh doanh);
-    end
-```
+<!-- mermaid 源文件：Kaizen-Tutorial-vi-mermaid-live-1.mmd -->
 
 *   **Mối quan hệ**: Kaizen và đổi mới không loại trừ nhau; ngược lại, chúng là hai năng lực mà một tổ chức xuất sắc phải đồng thời sở hữu. Kaizen chịu trách nhiệm liên tục tối ưu hóa và củng cố hệ thống hiện có, trong khi đổi mới chịu trách nhiệm tạo ra các hệ thống hoàn toàn mới.
 

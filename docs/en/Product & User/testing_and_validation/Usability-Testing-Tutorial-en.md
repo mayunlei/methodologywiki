@@ -79,9 +79,9 @@ A standard usability test typically includes the following key components:
 
 ## Extensions and Connections
 
-*   **A/B Testing**: Usability testing and A/B testing are a golden pair. Usability testing answers the "**why**" question, helping you generate improvement **hypotheses**; while A/B testing answers the "**which is better**" question, using **quantitative** data to verify the effectiveness of these hypotheses.
+*   **[A/B Testing](AB-Testing-Tutorial-en.md)**: Usability testing and A/B testing are a golden pair. Usability testing answers the "**why**" question, helping you generate improvement **hypotheses**; while A/B testing answers the "**which is better**" question, using **quantitative** data to verify the effectiveness of these hypotheses.
 *   **Heuristic Evaluation**: A method where usability experts evaluate an interface based on a set of recognized design principles ("heuristics"). It is faster and less costly than usability testing, but its drawback is the lack of direct feedback from real users.
-*   **User Persona** and **User Journey Map**: A clear user persona is a prerequisite for recruiting "representative users." And the pain points discovered in usability testing are key materials for enriching and validating user journey maps.
+*   **[User Persona](../user_research/User-Persona-Tutorial-en.md)** and **User Journey Map**: A clear user persona is a prerequisite for recruiting "representative users." And the pain points discovered in usability testing are key materials for enriching and validating user journey maps.
 
 ---
 *Reference: Jakob Nielsen, known as the "king of usability," is a pioneer in usability testing. His book "Usability Engineering" is a foundational work in the field. Another master, Steve Krug, popularized the core ideas of usability testing in a more relaxed and practical way in his book "Don't Make Me Think."*

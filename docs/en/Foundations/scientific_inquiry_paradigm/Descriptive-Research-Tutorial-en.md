@@ -78,7 +78,7 @@ To achieve these purposes, descriptive research primarily employs the following 
 
 ## Extensions and Connections
 
-*   **Correlational Research**: Descriptive research is the basis of correlational research. After describing the two variables (e.g., "study time" and "exam scores") respectively, correlational research will further explore whether there is a relationship between them.
+*   **[Correlational Research](Correlational-Research-Tutorial-en.md)**: Descriptive research is the basis of correlational research. After describing the two variables (e.g., "study time" and "exam scores") respectively, correlational research will further explore whether there is a relationship between them.
 *   **Case Study in Qualitative Research**: Case study is both a descriptive research method and an important qualitative research method, emphasizing an in-depth, holistic description of a single case.
 
 ---

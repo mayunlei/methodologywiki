@@ -82,8 +82,8 @@ Creating user personas is a research process that moves from divergence to conve
 
 User personas are a core part of the UX design toolkit and are often closely integrated with other methods:
 
-*   **User Journey Map**: After determining "who" (the user persona), the user journey map details the entire process of this person interacting with the product to achieve their goal.
-*   **Empathy Map**: This is a tool that focuses more on deeply exploring the user's sensory and emotional experiences, often used for material collection and empathy exercises in the early stages of creating user personas.
+*   **[User Journey Map](User-Journey-Map-Tutorial-en.md)**: After determining "who" (the user persona), the user journey map details the entire process of this person interacting with the product to achieve their goal.
+*   **[Empathy Map](Empathy-Map-Tutorial-en.md)**: This is a tool that focuses more on deeply exploring the user's sensory and emotional experiences, often used for material collection and empathy exercises in the early stages of creating user personas.
 
 ---
 *Reference: Alan Cooper first introduced the User Persona as a formal design method in the software development field in his pioneering book "About Face: The Essentials of Interaction Design."*

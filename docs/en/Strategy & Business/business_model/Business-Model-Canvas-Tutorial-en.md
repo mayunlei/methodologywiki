@@ -93,9 +93,9 @@ The core of the Business Model Canvas is a template with nine boxes, each repres
 
 ## Extensions and Connections
 
-*   **Lean Canvas**: A variation of the Business Model Canvas, more suitable for early-stage startup projects with high uncertainty. It replaces "Key Partnerships," "Key Activities," "Key Resources," and "Customer Relationships" with modules that focus more on problems and solutions.
+*   **[Lean Canvas](Lean-Canvas-Tutorial-en.md)**: A variation of the Business Model Canvas, more suitable for early-stage startup projects with high uncertainty. It replaces "Key Partnerships," "Key Activities," "Key Resources," and "Customer Relationships" with modules that focus more on problems and solutions.
 *   **Value Proposition Canvas**: Can be seen as an amplification and deepening of the "Value Propositions" and "Customer Segments" modules in the Business Model Canvas, helping you refine the product-market fit more precisely.
-*   **Blue Ocean Strategy**: After conceiving a new value curve using the Four Actions Framework of Blue Ocean Strategy, the Business Model Canvas can be used to systematically design the business model that supports this new strategy.
+*   **[Blue Ocean Strategy](../strategic_execution/Blue-Ocean-Strategy-Tutorial-en.md)**: After conceiving a new value curve using the Four Actions Framework of Blue Ocean Strategy, the Business Model Canvas can be used to systematically design the business model that supports this new strategy.
 
 ---
 *Reference: Alexander Osterwalter and Yves Pigneur's book "Business Model Generation" is the authoritative guide to this tool, containing numerous case studies and detailed usage instructions.*

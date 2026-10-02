@@ -81,8 +81,8 @@ Grounded Theory is characterized by its iterative and systematic nature, with se
 
 ## Extensions and Connections
 
-*   **Qualitative Research**: Grounded Theory is a prominent methodology within qualitative research, often used alongside or in conjunction with other qualitative methods like phenomenology or ethnography.
-*   **Case Study**: Grounded Theory can be applied within a case study design to develop a theory specific to that case, or to generate a more general theory from multiple cases.
+*   **[Qualitative Research](../basic_discipline/Qualitative-Research-Tutorial-en.md)**: Grounded Theory is a prominent methodology within qualitative research, often used alongside or in conjunction with other qualitative methods like phenomenology or ethnography.
+*   **[Case Study](../../Product & User/specialized_qualitative_methods/Case-Study-Tutorial-en.md)**: Grounded Theory can be applied within a case study design to develop a theory specific to that case, or to generate a more general theory from multiple cases.
 
 ---
 *Reference: The foundational texts for Grounded Theory are "The Discovery of Grounded Theory" (1967) by Glaser and Strauss, and subsequent works by both authors, particularly "Basics of Qualitative Research: Techniques and Procedures for Developing Grounded Theory" (1990) by Strauss and Corbin, which provided more explicit procedural guidelines.*

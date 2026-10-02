@@ -103,7 +103,7 @@ Successfully applying ORID hinges on the facilitator's ability to design a serie
 
 ## Extensions and Connections
 
-*   **Action Research**: ORID is an extremely effective practical tool for the "**Reflect**" stage in action research.
+*   **[Action Research](../../Foundations/theory_and_practice/Action-Research-Tutorial-en.md)**: ORID is an extremely effective practical tool for the "**Reflect**" stage in action research.
 *   **Appreciative Inquiry**: ORID can be combined with the principles of Appreciative Inquiry by designing positive ORID questions focused on strengths and successful experiences to guide a positive, empowering discussion.
 
 ---

@@ -1,0 +1,106 @@
+graph TD
+    A[Problem Solving Toolbox] --> B[Introduktion till problemlösningsramverk]
+    B --> C[Grundläggande problemlösningsverktyg]
+    B --> D[Nyckelmetoder för problemlösning]
+    B --> E[Informationskompetensverktyg]
+
+    C --> C1[Undersökning & Analys/Domstol]
+
+    D --> D1[Appreciative Inquiry (AI)]
+    D --> D2[Logikträd]
+    D --> D3[Implementering av lösningar]
+    D --> D4[Nödvändiga problemlösningsfärdigheter och strategier]
+    D --> D5[Samarbetsbaserad problemlösning]
+    D --> D6[Systemanalys]
+    D --> D7[Design Thinking]
+    D --> D8[Human Performance Variation Analysis (HPVA)]
+    D --> D9[Problemlösning inom ledning]
+    D --> D10[Andra specialiserade metoder]
+
+    E --> E1[BUILD IT]
+
+    D2 --> D2a["Hur gör man"-träd]
+    D2 --> D2b[Fem varför-träd]
+    D2 --> D2c[Fiskbensdiagram]
+
+    D3 --> D3a[DMAIC (Six Sigma)]
+
+    D9 --> D9a[Fem varför]
+    D9 --> D9b[Gapanalys]
+    D9 --> D9c[Gemba Walk]
+    D9 --> D9d[Porters femkraftsmodell]
+    D9 --> D9e[Sex tänkande hattar]
+    D9 --> D9f[SWOT-analys]
+
+    C1 -- Stödjer --> D1
+    C1 -- Stödjer --> D6
+    C1 -- Stödjer --> D7
+
+    D1 -- Positiv psykologi --> D
+    D7 -- Människocentrerad --> D
+    D5 -- Samarbet --> D
+    D8 -- Mänskliga faktorer --> D
+
+    D2 -- Strukturerad analys --> D
+    D6 -- Strukturerad analys --> D
+    D3a -- Datastyrd --> D
+
+    E1 -- Tillhandahåller resurser --> C1
+    E1 -- Tillhandahåller resurser --> D
+
+    subgraph Vanliga steg i problemlösning (tvärgående ramverk)
+        F1[Problemdefinition]
+        F2[Identifiering av rotorsak]
+        F3[Lösningsskapande]
+        F4[Implementering]
+        F5[Utvärdering/Kontinuerlig förbättring]
+    end
+
+    D1 --> F1 & F2 & F3 & F4 & F5
+    D2 --> F1 & F2 & F3 & F4 & F5
+    D3 --> F1 & F2 & F3 & F4 & F5
+    D4 --> F1 & F2 & F3 & F4 & F5
+    D5 --> F1 & F2 & F3 & F4 & F5
+    D6 --> F1 & F2 & F3 & F4 & F5
+    D7 --> F1 & F2 & F3 & F4 & F5
+    D8 --> F1 & F2 & F3 & F4 & F5
+    D9 --> F1 & F2 & F3 & F4 & F5
+    D10 --> F1 & F2 & F3 & F4 & F5
+
+    F1 --> F2 --> F3 --> F4 --> F5
+    F5 --> F1(Iterativ förbättring)
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style C1 fill:#ccf,stroke:#333,stroke-width:1px
+    style D1 fill:#cfc,stroke:#333,stroke-width:1px
+    style D2 fill:#cfc,stroke:#333,stroke-width:1px
+    style D3 fill:#cfc,stroke:#333,stroke-width:1px
+    style D4 fill:#cfc,stroke:#333,stroke-width:1px
+    style D5 fill:#cfc,stroke:#333,stroke-width:1px
+    style D6 fill:#cfc,stroke:#333,stroke-width:1px
+    style D7 fill:#cfc,stroke:#333,stroke-width:1px
+    style D8 fill:#cfc,stroke:#333,stroke-width:1px
+    style D9 fill:#cfc,stroke:#333,stroke-width:1px
+    style D10 fill:#cfc,stroke:#333,stroke-width:1px
+    style E1 fill:#ffc,stroke:#333,stroke-width:1px
+
+    style D2a fill:#eee,stroke:#333,stroke-width:1px
+    style D2b fill:#eee,stroke:#333,stroke-width:1px
+    style D2c fill:#eee,stroke:#333,stroke-width:1px
+    style D3a fill:#eee,stroke:#333,stroke-width:1px
+    style D9a fill:#eee,stroke:#333,stroke-width:1px
+    style D9b fill:#eee,stroke:#333,stroke-width:1px
+    style D9c fill:#eee,stroke:#333,stroke-width:1px
+    style D9d fill:#eee,stroke:#333,stroke-width:1px
+    style D9e fill:#eee,stroke:#333,stroke-width:1px
+    style D9f fill:#eee,stroke:#333,stroke-width:1px
+
+    style F1 fill:#fcc,stroke:#333,stroke-width:1px
+    style F2 fill:#fcc,stroke:#333,stroke-width:1px
+    style F3 fill:#fcc,stroke:#333,stroke-width:1px
+    style F4 fill:#fcc,stroke:#333,stroke-width:1px
+    style F5 fill:#fcc,stroke:#333,stroke-width:1px

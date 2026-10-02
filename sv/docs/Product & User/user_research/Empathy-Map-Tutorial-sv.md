@@ -8,32 +8,9 @@ Kärnan i Empathikartan ligger i att systematiskt organisera alla spridda, kvali
 
 En klassisk Empathikarta är användarcentrerad och utvecklas kring fyra kärnkvadranter av yttre och inre upplevelser.
 
-```mermaid
-graph TD
-    subgraph Empathy Map
-        subgraph User
-            A(<b>User Persona/Figure</b><br/>Who are we empathizing with?<br/>He/she needs to accomplish what?)
-        end
+![Empathy Map](./Empathy-Map-Tutorial-sv-mermaid-live-1.png)
 
-        subgraph External World
-            B(<b>1. SEES</b><br/>- What does he see in the environment?<br/>- Who does he see?<br/>- What is he looking at?)
-            C(<b>2. HEARS</b><br/>- What are his friends and family saying?<br/>- Who influences him?<br/>- From what channels does he hear information?)
-        end
-
-        subgraph Internal World
-            D(<b>3. THINKS & FEELS</b><br/>- <b>What is he truly concerned about?</b><br/>- What are his main worries, desires, and dreams?<br/>- What makes him excited or anxious?)
-            E(<b>4. SAYS & DOES</b><br/>- What is his attitude in public?<br/>- What are his actions?<br/>- What might he say to others?)
-        end
-
-        subgraph Summary
-            F(<b>PAINS</b><br/>- What are his fears, frustrations, and obstacles?)
-            G(<b>GAINS</b><br/>- What are his wishes, needs, and criteria for success?)
-        end
-
-        A --> B & C & D & E;
-        D & E --> F & G;
-    end
-```
+<!-- mermaid 源文件：Empathy-Map-Tutorial-sv-mermaid-live-1.mmd -->
 
 *   **Ser**: Beskriver vad användaren ser med sina egna ögon i sin omgivning. Till exempel, vad gör de människor som omger honom/henne? Vilken marknadsinformation stöter de på dagligen?
 *   **Hör**: Beskriver den information som användaren får från den yttre världen. Vad säger hans/v hennes vänner, familj och kollegor? Vilka åsiktsledare eller medier påverkar honom/henne?

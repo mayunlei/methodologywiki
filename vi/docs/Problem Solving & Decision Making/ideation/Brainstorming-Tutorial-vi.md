@@ -18,15 +18,9 @@ Bản chất của brainstorming nằm ở nguyên tắc **"số lượng trư�
 
 ### Quy Trình Brainstorming
 
-```mermaid
-graph TD
-    subgraph A Successful Brainstorming Session
-        A(<b>1 Giai Đoạn Chuẩn Bị</b><br/>- Xác định rõ ràng vấn đề trọng tâm<br/>- Thành lập nhóm đa dạng thành viên<br/>- Chọn người điều phối phù hợp<br/>- Chuẩn bị vật dụng: bảng trắng, giấy ghi chú) --> B(<b>2 Khởi Động Và Giải Thích Quy Tắc</b><br/>- Thực hiện hoạt động khởi động sáng tạo ngắn<br/>- Người điều phối nhắc lại bốn nguyên tắc cơ bản);
-        B --> C(<b>3 Giai Đoạn Đề Xuất Ý Tưởng</b><br/>- Tự do đề xuất ý tưởng xung quanh vấn đề trọng tâm<br/>- Người điều phối hướng dẫn, đảm bảo mọi người tham gia<br/>- Tuân thủ nghiêm ngặt nguyên tắc "hoãn lại phán xét");
-        C --> D(<b>4 Làm Rõ Và Nhóm Các Ý Tưởng</b><br/>- Sau khi đề xuất, làm rõ từng ý tưởng mơ hồ<br/>- Nhóm các ý tưởng tương đồng<br/>thành "chủ đề" hoặc "nhóm");
-        D --> E(<b>5 Lọc Và Đánh Giá</b><br/>- Nhóm cùng xác lập tiêu chí đánh giá<br/>- Chọn ra vài ý tưởng tiềm năng nhất<br/>bằng cách bỏ phiếu hoặc phương pháp khác);
-    end
-```
+![A Successful Brainstorming Session](./Brainstorming-Tutorial-vi-mermaid-live-1.png)
+
+<!-- mermaid 源文件：Brainstorming-Tutorial-vi-mermaid-live-1.mmd -->
 
 ## Cách Tổ Chức Một Buổi Brainstorming Hiệu Quả
 

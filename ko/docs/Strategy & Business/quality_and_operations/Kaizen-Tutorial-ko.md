@@ -15,16 +15,9 @@
 
 ### 가이젠 vs. 혁신
 
-```mermaid
-graph TD
-    subgraph Two Ways of Change
-        A(<b>Kaizen</b>) --> A1(<b>Characteristics:</b><br/>- Small, gradual steps<br/>- Continuous<br/>- Full participation<br/>- Low risk); 
-        A1 --> A2(<b>Effect:</b><br/>Achieves long-term, significant progress<br/>through the accumulation of many small improvements);
+![Two Ways of Change](./Kaizen-Tutorial-ko-mermaid-live-1.png)
 
-        B(<b>Innovation</b>) --> B1(<b>Characteristics:</b><br/>- Large, breakthrough steps<br/>- Intermittent<br/>- Often led by experts or specific teams<br/>- High risk);
-        B1 --> B2(<b>Effect:</b><br/>Achieves leapfrog, disruptive development<br/>through technological or business model revolution);
-    end
-```
+<!-- mermaid 源文件：Kaizen-Tutorial-ko-mermaid-live-1.mmd -->
 
 *   **관계**: 가이젠과 혁신은 서로排他的인 개념이 아니라, 훌륭한 조직이 동시에 갖춰야 할 두 가지 능력입니다. 가이젠은 기존 시스템을 지속적으로 최적화하고 강화하는 역할을 하며, 혁신은 완전히 새로운 시스템을 창출하는 역할을 합니다.
 

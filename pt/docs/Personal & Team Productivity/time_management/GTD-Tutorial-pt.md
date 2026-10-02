@@ -33,25 +33,9 @@ A filosofia central do GTD é alcançar um estado de trabalho **"mente como a á
 
 ### Diagrama de Processamento do Fluxo de Trabalho GTD
 
-```mermaid
-graph TD
-    A[Inbox] --> B{O que é isso?}
-    B --> C{Requer ação?}
-    C -- Não --> D{É lixo, referência ou ideia futura?}
-    D -- Lixo --> E[Excluir]
-    D -- Referência --> F[Arquivar]
-    D -- Ideia Futura --> G[Someday/Maybe list]
-    C -- Sim --> H{Qual é a próxima ação?}
-    H --> I{Pode ser feito em 2 minutos?}
-    I -- Sim --> J[Faça agora!]
-    I -- Não --> K{Você deve fazê-lo?}
-    K -- Não --> L[Delegar<br/>Lista Waiting For]
-    K -- Sim --> M{Tem data/hora específica?}
-    M -- Sim --> N[Calendário]
-    M -- Não --> O[Lista de Próximas Ações<br/>por contexto]
-    H -- Várias ações --> P[Lista de Projetos]
-    O --> P
-```
+![GTD Tutorial pt](./GTD-Tutorial-pt-mermaid-live-1.png)
+
+<!-- mermaid 源文件：GTD-Tutorial-pt-mermaid-live-1.mmd -->
 
 ## Casos de Aplicação
 

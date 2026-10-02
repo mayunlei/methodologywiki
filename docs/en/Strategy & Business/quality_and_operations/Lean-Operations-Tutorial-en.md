@@ -74,8 +74,8 @@ Lean transformation is a deep cultural and operational change that relies on a s
 
 ## Extensions and Connections
 
-*   **Six Sigma**: Lean focuses on **speed and efficiency (eliminating waste)**, while Six Sigma focuses on **quality and consistency (reducing variation)**. In practice, the two are often combined into **Lean Six Sigma**, forming a more comprehensive operational improvement methodology that can both eliminate waste and reduce variation.
-*   **Total Quality Management (TQM)**: Highly consistent with lean in terms of customer focus, full participation, continuous improvement, and other philosophical aspects. Lean provides a unique perspective and toolset more focused on "eliminating waste."
+*   **[Six Sigma](Six-Sigma-Tutorial-en.md)**: Lean focuses on **speed and efficiency (eliminating waste)**, while Six Sigma focuses on **quality and consistency (reducing variation)**. In practice, the two are often combined into **Lean Six Sigma**, forming a more comprehensive operational improvement methodology that can both eliminate waste and reduce variation.
+*   **[Total Quality Management (TQM)](Total-Quality-Management-Tutorial-en.md)**: Highly consistent with lean in terms of customer focus, full participation, continuous improvement, and other philosophical aspects. Lean provides a unique perspective and toolset more focused on "eliminating waste."
 *   **Theory of Constraints (TOC)**: Focuses on identifying and managing "bottlenecks" in a system to improve the output of the entire system. Can be combined with lean methods to guide the focus of improvement activities.
 
 ---

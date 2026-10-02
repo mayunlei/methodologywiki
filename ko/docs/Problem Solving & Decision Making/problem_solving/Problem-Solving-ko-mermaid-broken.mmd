@@ -1,0 +1,106 @@
+graph TD
+    A[문제 해결 도구상자] --> B[문제 해결 프레임워크 소개]
+    B --> C[핵심 문제 해결 도구]
+    B --> D[주요 문제 해결 방법론]
+    B --> E[정보 리터러시 도구]
+
+    C --> C1[문의 및 분석/판단]
+
+    D --> D1[감사적 탐색 (AI)]
+    D --> D2[논리 트리]
+    D --> D3[해결책 실행]
+    D --> D4[필수 문제 해결 기술 및 전략]
+    D --> D5[협업 문제 해결]
+    D --> D6[시스템 분석]
+    D --> D7[디자인 씽킹]
+    D --> D8[인간 성과 변동 분석 (HPVA)]
+    D --> D9[경영 문제 해결]
+    D --> D10[기타 전문 방법]
+
+    E --> E1[BUILD IT]
+
+    D2 --> D2a["어떻게" 트리]
+    D2 --> D2b[5WHY 트리]
+    D2 --> D2c[피시본 다이어그램]
+
+    D3 --> D3a[DMAIC (6시그마)]
+
+    D9 --> D9a[5WHY]
+    D9 --> D9b[갭 분석]
+    D9 --> D9c[점바 걷기(Gemba Walk)]
+    D9 --> D9d[포터의 5 Forces]
+    D9 --> D9e[6가지 생각 모자]
+    D9 --> D9f[SWOT 분석]
+
+    C1 -- 지원함 --> D1
+    C1 -- 지원함 --> D6
+    C1 -- 지원함 --> D7
+
+    D1 -- 긍정 심리학 --> D
+    D7 -- 인간 중심 --> D
+    D5 -- 협업 --> D
+    D8 -- 인간 요소 --> D
+
+    D2 -- 구조적 분석 --> D
+    D6 -- 구조적 분석 --> D
+    D3a -- 데이터 기반 --> D
+
+    E1 -- 자원 제공 --> C1
+    E1 -- 자원 제공 --> D
+
+    subgraph 일반적인 문제 해결 단계 (프레임워크 간)
+        F1[문제 정의]
+        F2[근본 원인 식별]
+        F3[해결책 생성]
+        F4[실행]
+        F5[평가/지속적 개선]
+    end
+
+    D1 --> F1 & F2 & F3 & F4 & F5
+    D2 --> F1 & F2 & F3 & F4 & F5
+    D3 --> F1 & F2 & F3 & F4 & F5
+    D4 --> F1 & F2 & F3 & F4 & F5
+    D5 --> F1 & F2 & F3 & F4 & F5
+    D6 --> F1 & F2 & F3 & F4 & F5
+    D7 --> F1 & F2 & F3 & F4 & F5
+    D8 --> F1 & F2 & F3 & F4 & F5
+    D9 --> F1 & F2 & F3 & F4 & F5
+    D10 --> F1 & F2 & F3 & F4 & F5
+
+    F1 --> F2 --> F3 --> F4 --> F5
+    F5 --> F1(반복적 개선)
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style C1 fill:#ccf,stroke:#333,stroke-width:1px
+    style D1 fill:#cfc,stroke:#333,stroke-width:1px
+    style D2 fill:#cfc,stroke:#333,stroke-width:1px
+    style D3 fill:#cfc,stroke:#333,stroke-width:1px
+    style D4 fill:#cfc,stroke:#333,stroke-width:1px
+    style D5 fill:#cfc,stroke:#333,stroke-width:1px
+    style D6 fill:#cfc,stroke:#333,stroke-width:1px
+    style D7 fill:#cfc,stroke:#333,stroke-width:1px
+    style D8 fill:#cfc,stroke:#333,stroke-width:1px
+    style D9 fill:#cfc,stroke:#333,stroke-width:1px
+    style D10 fill:#cfc,stroke:#333,stroke-width:1px
+    style E1 fill:#ffc,stroke:#333,stroke-width:1px
+
+    style D2a fill:#eee,stroke:#333,stroke-width:1px
+    style D2b fill:#eee,stroke:#333,stroke-width:1px
+    style D2c fill:#eee,stroke:#333,stroke-width:1px
+    style D3a fill:#eee,stroke:#333,stroke-width:1px
+    style D9a fill:#eee,stroke:#333,stroke-width:1px
+    style D9b fill:#eee,stroke:#333,stroke-width:1px
+    style D9c fill:#eee,stroke:#333,stroke-width:1px
+    style D9d fill:#eee,stroke:#333,stroke-width:1px
+    style D9e fill:#eee,stroke:#333,stroke-width:1px
+    style D9f fill:#eee,stroke:#333,stroke-width:1px
+
+    style F1 fill:#fcc,stroke:#333,stroke-width:1px
+    style F2 fill:#fcc,stroke:#333,stroke-width:1px
+    style F3 fill:#fcc,stroke:#333,stroke-width:1px
+    style F4 fill:#fcc,stroke:#333,stroke-width:1px
+    style F5 fill:#fcc,stroke:#333,stroke-width:1px

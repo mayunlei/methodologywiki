@@ -19,7 +19,26 @@ This tutorial aims to provide a comprehensive set of problem-solving tools and m
 | BUILD IT                 | Information Literacy, Resource Acquisition     | Providing access to resources for problem-solving.                                 |
 
 
-![](./Problem-Solving-en-mermaid.png)
+### The General Problem-Solving Process
+
+Whatever tools you use, solving a problem usually goes through the eight steps below. Each step in the diagram names the methods on this site that fit it:
+
+1.  **Define the problem**: what is happening, how big is the impact, what is the goal ([Gap Analysis](Gap-Analysis-Tutorial-en.md), [SMART Goals](../../Personal & Team Productivity/goal_management/SMART-Goals-Tutorial-en.md))
+2.  **Break it down**: split the big problem into analyzable parts ([Logic Tree](Logic-Tree-Tutorial-en.md))
+3.  **Find root causes**: list possible causes, then dig into each ([Fishbone Diagram](../root_cause_analysis/Fishbone-Diagram-Tutorial-en.md), [5 Whys](../root_cause_analysis/5-Whys-Tutorial-en.md), [Gemba Walk](Gemba-Walk-Tutorial-en.md))
+4.  **Prioritize**: fix the vital few causes first ([Pareto Analysis](../decision_making/Pareto-Analysis-Tutorial-en.md))
+5.  **Generate solutions**: come up with as many options as possible ([Brainstorming](../ideation/Brainstorming-Tutorial-en.md), [Six Thinking Hats](../ideation/Six-Thinking-Hats-Tutorial-en.md))
+6.  **Evaluate and decide**: compare options against criteria ([Decision Matrix](../decision_making/Decision-Matrix-Tutorial-en.md), [Cost-Benefit Analysis](../decision_making/Cost-Benefit-Analysis-Tutorial-en.md))
+7.  **Implement and verify**: pilot on a small scale and check the results with data ([A/B Testing](../../Product & User/testing_and_validation/AB-Testing-Tutorial-en.md))
+8.  **Standardize and review**: lock in what works and capture lessons ([Kaizen](../../Strategy & Business/quality_and_operations/Kaizen-Tutorial-en.md), [ORID Focused Conversation](../../Personal & Team Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-en.md)); if the problem isn't solved, go back to step 3 or step 5.
+
+![The general problem-solving process: define, break down, find root causes, prioritize, generate solutions, evaluate and decide, implement and verify, standardize and review](./Problem-Solving-en-diagram.png)
+
+<!-- mermaid 源文件：Problem-Solving-en-diagram.mmd -->
+
+**Overview of the tools covered in this tutorial:**
+
+![Overview of the problem-solving tools covered in this tutorial](./Problem-Solving-en-mermaid.png)
 <!-- mermaid 源文件：Problem-Solving-en-mermaid-src-1.mmd -->
 
 ## 1. Introduction to Problem Solving Frameworks

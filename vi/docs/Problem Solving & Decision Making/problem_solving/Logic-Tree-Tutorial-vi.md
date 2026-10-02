@@ -60,21 +60,9 @@ Cây logic chủ yếu được chia thành hai loại, dùng để giải quy�
 
 ### Trường Hợp 2: Cây "Làm Thế Nào" - Lập Kế Hoạch "Làm Thế Nào Để Cải Thiện Hiệu Suất Làm Việc Cá Nhân?"
 
-```mermaid
-graph TD
-    A(Cải Thiện Hiệu Suất Làm Việc Cá Nhân) --> B(Quản Lý Thời Gian Tốt Hơn)
-    A --> C(Tối Ưu Hóa Quy Trình Làm Việc)
-    A --> D(Giảm Thiểu Các Yếu Tố Gây Xao Nhãng)
+![Logic Tree Tutorial vi](./Logic-Tree-Tutorial-vi-mermaid-live-1.png)
 
-    B --> E(Sử Dụng Kỹ Thuật Pomodoro)
-    B --> F(Lập Danh Sách Công Việc Hàng Ngày)
-
-    C --> G(Tự Động Hóa Các Công Việc Lặp Lại)
-    C --> H(Sử Dụng Mẫu Và Công Cụ Hỗ Trợ)
-
-    D --> I(Tắt Thông Báo Không Cần Thiết)
-    D --> J(Thiết Lập Khung Giờ Làm Việc Không Bị Quấy Rầy)
-```
+<!-- mermaid 源文件：Logic-Tree-Tutorial-vi-mermaid-live-1.mmd -->
 
 **Phân tích**: Sơ đồ cây này chia nhỏ một mục tiêu trừu tượng thành chuỗi các bước cụ thể, có thể hành động được, giúp cá nhân xây dựng kế hoạch cải thiện rõ ràng.
 

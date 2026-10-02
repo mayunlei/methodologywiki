@@ -76,8 +76,8 @@ Imagine your goal is to build a car.
 ## Extensions and Connections
 
 *   **The Lean Startup**: MVP is a core practical component of the "**Build-Measure-Learn**" feedback loop in the Lean Startup methodology.
-*   **Design Thinking**: The concept of "**Prototype**" in Design Thinking is highly related to MVP. Typically, before developing an MVP, lower-fidelity prototypes are created for internal and user testing.
-*   **Agile Development**: Agile's iterative development model provides perfect engineering practice support for continuously and incrementally building and iterating MVPs.
+*   **[Design Thinking](../product_development/Design-Thinking-Tutorial-en.md)**: The concept of "**Prototype**" in Design Thinking is highly related to MVP. Typically, before developing an MVP, lower-fidelity prototypes are created for internal and user testing.
+*   **[Agile Development](../product_development/Agile-Tutorial-en.md)**: Agile's iterative development model provides perfect engineering practice support for continuously and incrementally building and iterating MVPs.
 
 ---
 *Source Reference: The concept of MVP was first proposed by Frank Robinson, and developed by Steve Blank in his "Customer Development" model. Finally, Eric Ries popularized it in his global bestseller "The Lean Startup," making it a standard term in the modern tech startup world.*
