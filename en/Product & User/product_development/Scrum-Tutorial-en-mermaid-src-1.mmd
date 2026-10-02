@@ -1,0 +1,21 @@
+graph TD
+    subgraph Scrum Framework (3-5-3)
+        subgraph 3 Roles
+            A(<b>Product Owner</b><br/><i>Responsible for maximizing product value</i>)
+            B(<b>Scrum Master</b><br/><i>Responsible for ensuring Scrum is properly practiced</i>)
+            C(<b>Developers</b><br/><i>Responsible for delivering product increments</i>)
+        end
+
+        subgraph 5 Events
+            D(<b>Sprint</b><br/><i>Core event, 1-4 week iteration cycle</i>) --> E(<b>Sprint Planning</b>);
+            E --> F(<b>Daily Scrum</b>);
+            F --> G(<b>Sprint Review</b>);
+            G --> H(<b>Sprint Retrospective</b>);
+        end
+
+        subgraph 3 Artifacts
+            I(<b>Product Backlog</b><br/><i>Overall requirements list</i>)
+            J(<b>Sprint Backlog</b><br/><i>Task list for current sprint</i>)
+            K(<b>Increment</b><br/><i>Usable product portion completed in current sprint</i>)
+        end
+    end

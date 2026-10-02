@@ -1,0 +1,106 @@
+graph TD
+    A[Problem Solving Toolbox] --> B[Introduction to Problem Solving Frameworks]
+    B --> C[Core Problem Solving Tools]
+    B --> D[Key Problem Solving Methodologies]
+    B --> E[Information Literacy Tools]
+
+    C --> C1[Inquiry & Analysis/Judging]
+
+    D --> D1[Appreciative Inquiry (AI)]
+    D --> D2[Logic Tree]
+    D --> D3[Implementing Solutions]
+    D --> D4[Essential Problem Solving Skills & Strategies]
+    D --> D5[Collaborative Problem Solving]
+    D --> D6[Systems Analysis]
+    D --> D7[Design Thinking]
+    D --> D8[Human Performance Variation Analysis (HPVA)]
+    D --> D9[Management Problem Solving]
+    D --> D10[Other Specialized Methods]
+
+    E --> E1[BUILD IT]
+
+    D2 --> D2a["How-to" Tree]
+    D2 --> D2b[Five Whys Tree]
+    D2 --> D2c[Fishbone Diagram]
+
+    D3 --> D3a[DMAIC (Six Sigma)]
+
+    D9 --> D9a[Five Whys]
+    D9 --> D9b[Gap Analysis]
+    D9 --> D9c[Gemba Walk]
+    D9 --> D9d[Porter's Five Forces]
+    D9 --> D9e[Six Thinking Hats]
+    D9 --> D9f[SWOT Analysis]
+
+    C1 -- Supports --> D1
+    C1 -- Supports --> D6
+    C1 -- Supports --> D7
+
+    D1 -- Positive Psychology --> D
+    D7 -- Human-Centered --> D
+    D5 -- Collaboration --> D
+    D8 -- Human Factors --> D
+
+    D2 -- Structured Analysis --> D
+    D6 -- Structured Analysis --> D
+    D3a -- Data-Driven --> D
+
+    E1 -- Provides Resources --> C1
+    E1 -- Provides Resources --> D
+
+    subgraph Common Problem Solving Steps (Cross-Framework)
+        F1[Problem Definition]
+        F2[Root Cause Identification]
+        F3[Solution Generation]
+        F4[Implementation]
+        F5[Evaluation/Continuous Improvement]
+    end
+
+    D1 --> F1 & F2 & F3 & F4 & F5
+    D2 --> F1 & F2 & F3 & F4 & F5
+    D3 --> F1 & F2 & F3 & F4 & F5
+    D4 --> F1 & F2 & F3 & F4 & F5
+    D5 --> F1 & F2 & F3 & F4 & F5
+    D6 --> F1 & F2 & F3 & F4 & F5
+    D7 --> F1 & F2 & F3 & F4 & F5
+    D8 --> F1 & F2 & F3 & F4 & F5
+    D9 --> F1 & F2 & F3 & F4 & F5
+    D10 --> F1 & F2 & F3 & F4 & F5
+
+    F1 --> F2 --> F3 --> F4 --> F5
+    F5 --> F1(Iterative Improvement)
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style C1 fill:#ccf,stroke:#333,stroke-width:1px
+    style D1 fill:#cfc,stroke:#333,stroke-width:1px
+    style D2 fill:#cfc,stroke:#333,stroke-width:1px
+    style D3 fill:#cfc,stroke:#333,stroke-width:1px
+    style D4 fill:#cfc,stroke:#333,stroke-width:1px
+    style D5 fill:#cfc,stroke:#333,stroke-width:1px
+    style D6 fill:#cfc,stroke:#333,stroke-width:1px
+    style D7 fill:#cfc,stroke:#333,stroke-width:1px
+    style D8 fill:#cfc,stroke:#333,stroke-width:1px
+    style D9 fill:#cfc,stroke:#333,stroke-width:1px
+    style D10 fill:#cfc,stroke:#333,stroke-width:1px
+    style E1 fill:#ffc,stroke:#333,stroke-width:1px
+
+    style D2a fill:#eee,stroke:#333,stroke-width:1px
+    style D2b fill:#eee,stroke:#333,stroke-width:1px
+    style D2c fill:#eee,stroke:#333,stroke-width:1px
+    style D3a fill:#eee,stroke:#333,stroke-width:1px
+    style D9a fill:#eee,stroke:#333,stroke-width:1px
+    style D9b fill:#eee,stroke:#333,stroke-width:1px
+    style D9c fill:#eee,stroke:#333,stroke-width:1px
+    style D9d fill:#eee,stroke:#333,stroke-width:1px
+    style D9e fill:#eee,stroke:#333,stroke-width:1px
+    style D9f fill:#eee,stroke:#333,stroke-width:1px
+
+    style F1 fill:#fcc,stroke:#333,stroke-width:1px
+    style F2 fill:#fcc,stroke:#333,stroke-width:1px
+    style F3 fill:#fcc,stroke:#333,stroke-width:1px
+    style F4 fill:#fcc,stroke:#333,stroke-width:1px
+    style F5 fill:#fcc,stroke:#333,stroke-width:1px
