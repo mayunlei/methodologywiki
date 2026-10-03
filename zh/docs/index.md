@@ -59,6 +59,7 @@
 #### 商业模式 (Business Model)
 - [商业模式画布 (Business Model Canvas)](business_model/Business-Model-Canvas-Tutorial-zh.md)
 - [精益画布 (Lean Canvas)](business_model/Lean-Canvas-Tutorial-zh.md)
+- [价值主张画布 (Value Proposition Canvas)](business_model/Value-Proposition-Canvas-Tutorial-zh.md)
 
 #### 决策制定 (Decision Making)
 - [决策矩阵 (Decision Matrix)](decision_making/Decision-Matrix-Tutorial-zh.md)
@@ -75,6 +76,8 @@
 - [六西格玛 (Six Sigma)](quality_and_operations/Six-Sigma-Tutorial-zh.md)
 - [精益运营 (Lean Operations)](quality_and_operations/Lean-Operations-Tutorial-zh.md)
 - [改善 (Kaizen)](quality_and_operations/Kaizen-Tutorial-zh.md)
+- [PDCA循环 (PDCA Cycle)](quality_and_operations/PDCA-Cycle-Tutorial-zh.md)
+- [价值流图 (Value Stream Mapping)](quality_and_operations/Value-Stream-Mapping-Tutorial-zh.md)
 
 ---
 
@@ -86,6 +89,7 @@
 - [用户画像 (Persona)](user_research/User-Persona-Tutorial-zh.md)
 - [用户旅程图 (User Journey Map)](user_research/User-Journey-Map-Tutorial-zh.md)
 - [同理心地图 (Empathy Map)](user_research/Empathy-Map-Tutorial-zh.md)
+- [KANO模型 (Kano Model)](user_research/Kano-Model-Tutorial-zh.md)
 
 #### 创意构想 (Ideation)
 - [头脑风暴 (Brainstorming)](ideation/Brainstorming-Tutorial-zh.md)
@@ -97,6 +101,7 @@
 - [Scrum](product_development/Scrum-Tutorial-zh.md)
 - [看板 (Kanban)](product_development/Kanban-Tutorial-zh.md)
 - [设计思维 (Design Thinking)](product_development/Design-Thinking-Tutorial-zh.md)
+- [精益创业 (Lean Startup)](product_development/Lean-Startup-Tutorial-zh.md)
 
 #### 测试与验证 (Testing & Validation)
 - [A/B测试 (A/B Testing)](testing_and_validation/AB-Testing-Tutorial-zh.md)
@@ -112,6 +117,7 @@
 #### 逻辑思维 (Logical Thinking)
 - [第一性原理 (First Principles Thinking)](logical_thinking/First-Principles-Thinking-Tutorial-zh.md)
 - [金字塔原理 (Pyramid Principle)](logical_thinking/Pyramid-Principle-Tutorial-zh.md)
+- [SCQA框架 (SCQA Framework)](logical_thinking/SCQA-Framework-Tutorial-zh.md)
 
 #### 系统思维 (Systems Thinking)
 - [系统动力学 (System Dynamics)](systems_thinking/System-Dynamics-Tutorial-zh.md)
@@ -129,9 +135,11 @@
 
 #### 会议提效 (Meeting Effectiveness)
 - [ORID焦点讨论法](meeting_effectiveness/ORID-Focused-Conversation-Tutorial-zh.md)
+- [复盘 (After Action Review)](meeting_effectiveness/After-Action-Review-Tutorial-zh.md)
 
 #### 反馈技巧 (Feedback Techniques)
 - [SBI反馈模型](feedback_techniques/SBI-Feedback-Model-Tutorial-zh.md)
+- [STAR法则 (STAR Method)](feedback_techniques/STAR-Method-Tutorial-zh.md)
 
 #### 团队协作 (Team Collaboration)
 - [RACI责任分配矩阵](team_collaboration/RACI-Matrix-Tutorial-zh.md)

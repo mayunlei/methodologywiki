@@ -59,6 +59,7 @@ Whether you are a professional seeking career breakthroughs or a learner eager t
 #### Business Model
 - [Business Model Canvas](Strategy & Business/business_model/Business-Model-Canvas-Tutorial-en.md)
 - [Lean Canvas](Strategy & Business/business_model/Lean-Canvas-Tutorial-en.md)
+- [Value Proposition Canvas](Strategy & Business/business_model/Value-Proposition-Canvas-Tutorial-en.md)
 
 #### Decision Making
 - [Decision Matrix](Problem Solving & Decision Making/decision_making/Decision-Matrix-Tutorial-en.md)
@@ -75,6 +76,8 @@ Whether you are a professional seeking career breakthroughs or a learner eager t
 - [Six Sigma](Strategy & Business/quality_and_operations/Six-Sigma-Tutorial-en.md)
 - [Lean Operations](Strategy & Business/quality_and_operations/Lean-Operations-Tutorial-en.md)
 - [Kaizen](Strategy & Business/quality_and_operations/Kaizen-Tutorial-en.md)
+- [PDCA Cycle](Strategy & Business/quality_and_operations/PDCA-Cycle-Tutorial-en.md)
+- [Value Stream Mapping](Strategy & Business/quality_and_operations/Value-Stream-Mapping-Tutorial-en.md)
 
 ---
 
@@ -86,6 +89,7 @@ Whether you are a professional seeking career breakthroughs or a learner eager t
 - [User Persona](Product & User/user_research/User-Persona-Tutorial-en.md)
 - [User Journey Map](Product & User/user_research/User-Journey-Map-Tutorial-en.md)
 - [Empathy Map](Product & User/user_research/Empathy-Map-Tutorial-en.md)
+- [Kano Model](Product & User/user_research/Kano-Model-Tutorial-en.md)
 
 #### Ideation
 - [Brainstorming](Problem Solving & Decision Making/ideation/Brainstorming-Tutorial-en.md)
@@ -97,6 +101,7 @@ Whether you are a professional seeking career breakthroughs or a learner eager t
 - [Scrum](Product & User/product_development/Scrum-Tutorial-en.md)
 - [Kanban](Product & User/product_development/Kanban-Tutorial-en.md)
 - [Design Thinking](Product & User/product_development/Design-Thinking-Tutorial-en.md)
+- [Lean Startup](Product & User/product_development/Lean-Startup-Tutorial-en.md)
 
 #### Testing & Validation
 - [A/B Testing](Product & User/testing_and_validation/AB-Testing-Tutorial-en.md)
@@ -112,6 +117,7 @@ Whether you are a professional seeking career breakthroughs or a learner eager t
 #### Logical Thinking
 - [First Principles Thinking](Foundations/logical_thinking/First-Principles-Thinking-Tutorial-en.md)
 - [Pyramid Principle](Foundations/logical_thinking/Pyramid-Principle-Tutorial-en.md)
+- [SCQA Framework](Foundations/logical_thinking/SCQA-Framework-Tutorial-en.md)
 
 #### Systems Thinking
 - [System Dynamics](Foundations/systems_thinking/System-Dynamics-Tutorial-en.md)
@@ -129,9 +135,11 @@ Whether you are a professional seeking career breakthroughs or a learner eager t
 
 #### Meeting Effectiveness
 - [ORID Focused Conversation](Personal & Team Productivity/meeting_effectiveness/ORID-Focused-Conversation-Tutorial-en.md)
+- [After Action Review](Personal & Team Productivity/meeting_effectiveness/After-Action-Review-Tutorial-en.md)
 
 #### Feedback Techniques
 - [SBI Feedback Model](Personal & Team Productivity/feedback_techniques/SBI-Feedback-Model-Tutorial-en.md)
+- [STAR Method](Personal & Team Productivity/feedback_techniques/STAR-Method-Tutorial-en.md)
 
 #### Team Collaboration
 - [RACI Matrix](Personal & Team Productivity/team_collaboration/RACI-Matrix-Tutorial-en.md)

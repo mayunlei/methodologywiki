@@ -113,6 +113,7 @@ nav:
     - '逻辑思维':
       - '第一性原理思维': 'logical_thinking/First-Principles-Thinking-Tutorial-zh.md'
       - '金字塔原理': 'logical_thinking/Pyramid-Principle-Tutorial-zh.md'
+      - 'SCQA框架': 'logical_thinking/SCQA-Framework-Tutorial-zh.md'
     - '科学探究范式':
       - '相关性研究': 'scientific_inquiry_paradigm/Correlational-Research-Tutorial-zh.md'
       - '描述性研究': 'scientific_inquiry_paradigm/Descriptive-Research-Tutorial-zh.md'
@@ -127,11 +128,14 @@ nav:
     - '商业模式':
       - '商业模式画布': 'business_model/Business-Model-Canvas-Tutorial-zh.md'
       - '精益画布': 'business_model/Lean-Canvas-Tutorial-zh.md'
+      - '价值主张画布': 'business_model/Value-Proposition-Canvas-Tutorial-zh.md'
     - '质量与运营':
       - '改善': 'quality_and_operations/Kaizen-Tutorial-zh.md'
       - '精益运营': 'quality_and_operations/Lean-Operations-Tutorial-zh.md'
       - '六西格玛': 'quality_and_operations/Six-Sigma-Tutorial-zh.md'
       - '全面质量管理': 'quality_and_operations/Total-Quality-Management-Tutorial-zh.md'
+      - 'PDCA循环': 'quality_and_operations/PDCA-Cycle-Tutorial-zh.md'
+      - '价值流图': 'quality_and_operations/Value-Stream-Mapping-Tutorial-zh.md'
     - '战略分析':
       - 'PESTEL分析': 'strategic_analysis/PESTEL-Analysis-Tutorial-zh.md'
       - '波特五力模型': 'strategic_analysis/Porters-Five-Forces-Tutorial-zh.md'
@@ -163,6 +167,7 @@ nav:
       - '设计思维': 'product_development/Design-Thinking-Tutorial-zh.md'
       - '看板': 'product_development/Kanban-Tutorial-zh.md'
       - 'Scrum': 'product_development/Scrum-Tutorial-zh.md'
+      - '精益创业': 'product_development/Lean-Startup-Tutorial-zh.md'
     - '专业定性方法':
       - '案例研究': 'specialized_qualitative_methods/Case-Study-Tutorial-zh.md'
       - '民族志': 'specialized_qualitative_methods/Ethnography-Tutorial-zh.md'
@@ -177,9 +182,11 @@ nav:
       - '同理心地图': 'user_research/Empathy-Map-Tutorial-zh.md'
       - '用户旅程图': 'user_research/User-Journey-Map-Tutorial-zh.md'
       - '用户画像': 'user_research/User-Persona-Tutorial-zh.md'
+      - 'KANO模型': 'user_research/Kano-Model-Tutorial-zh.md'
   - '个人与团队生产力':
     - '反馈技巧':
       - 'SBI反馈模型': 'feedback_techniques/SBI-Feedback-Model-Tutorial-zh.md'
+      - 'STAR法则': 'feedback_techniques/STAR-Method-Tutorial-zh.md'
     - '目标管理':
       - '关键绩效指标': 'goal_management/KPI-Tutorial-zh.md'
       - '目标与关键成果': 'goal_management/OKR-Tutorial-zh.md'
@@ -189,6 +196,7 @@ nav:
       - '微习惯': 'habit_formation/Tiny-Habits-Tutorial-zh.md'
     - '会议效率':
       - 'ORID聚焦对话': 'meeting_effectiveness/ORID-Focused-Conversation-Tutorial-zh.md'
+      - '复盘（AAR）': 'meeting_effectiveness/After-Action-Review-Tutorial-zh.md'
     - '团队协作':
       - 'RACI矩阵': 'team_collaboration/RACI-Matrix-Tutorial-zh.md'
     - '时间管理':
