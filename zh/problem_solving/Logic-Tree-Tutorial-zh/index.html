@@ -15,7 +15,7 @@
 <title>逻辑树分析法：MECE原则、问题树与“如何”树、拆解方法与案例 - 方法论智慧百科 : 成功之路</title>
 <link href="../../assets/stylesheets/main.484c7ddc.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
-<link href="../../stylesheets/extra.css" rel="stylesheet"/>
+<link href="../../stylesheets/extra.4c649c404ffd.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-VQ6RTZVF1S"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-VQ6RTZVF1S",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-VQ6RTZVF1S",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
 <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
@@ -2270,6 +2270,23 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="logic-tree">逻辑树（Logic Tree）分析法<a class="headerlink" href="#logic-tree" title="Permanent link">¶</a></h1>
+<nav aria-label="目录">
+<details class="mw-mobile-toc">
+<summary>目录</summary>
+<ul>
+<li><a href="#mece">什么是 MECE 原则</a></li>
+<li><a href="#_1">逻辑树的三种类型</a></li>
+<li><a href="#_2">五种常用的拆解方法</a></li>
+<li><a href="#_3">如何构建逻辑树</a></li>
+<li><a href="#_7">实践案例</a></li>
+<li><a href="#_10">逻辑树模板</a></li>
+<li><a href="#_11">常见误区</a></li>
+<li><a href="#_12">逻辑树、鱼骨图和思维导图的区别</a></li>
+<li><a href="#_13">常见问题</a></li>
+<li><a href="#_14">延伸与关联</a></li>
+</ul>
+</details>
+</nav>
 <p>面对“为什么利润下降了”“怎么把用户量翻一倍”这样的问题，很多人的第一反应是凭经验抛出几个原因或办法。问题在于，凭经验想到的往往只是自己熟悉的那几个方向，真正的原因或最好的办法可能恰好落在盲区里。<strong>逻辑树（Logic Tree）</strong> 是一种强大的、可视化的分析工具，用于将一个复杂的问题或议题系统性地分解为更小、更易于管理的部分，直到每一部分都可以被数据验证、或者可以被直接执行。</p>
 <p>它的核心原则是 <strong>MECE（Mutually Exclusive, Collectively Exhaustive）</strong>，即“<strong>相互独立，完全穷尽</strong>”：拆出来的各个部分彼此不重叠，合起来又没有遗漏。逻辑树是麦肯锡等咨询公司的看家本领，也是产品经理、运营和管理者最实用的结构化思考工具之一。</p>
 <div class="admonition abstract">

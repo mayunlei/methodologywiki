@@ -7,8 +7,13 @@
 
 /* 语言切换器样式 */
 .md-header__source {
-    display: flex;
     align-items: center;
+}
+
+@media (min-width: 60em) {
+    .md-header__source {
+        display: flex;
+    }
 }
 
 /* 确保内容区域样式一致 */
@@ -53,17 +58,6 @@
 .md-typeset .admonition {
     border-radius: 4px;
     margin: 16px 0;
-}
-
-/* 确保响应式设计 */
-@media (max-width: 768px) {
-    .md-nav__title {
-        font-size: 0.9em;
-    }
-    
-    .md-content {
-        padding: 0 16px;
-    }
 }
 
 /* 多语言特定样式 */
@@ -138,4 +132,262 @@
   color: var(--md-default-fg-color--light);
   font-size: 0.72rem;
   line-height: 1.5;
+}
+
+/* The integrated desktop TOC lives in the drawer on phones. Keep a local,
+   keyboard-accessible disclosure beside the page title as well. */
+.md-typeset .mw-mobile-toc {
+  display: none;
+}
+
+@media screen and (max-width: 59.984375em) {
+  .md-header__inner {
+    min-height: 56px;
+    padding: 4px max(8px, env(safe-area-inset-right)) 4px max(8px, env(safe-area-inset-left));
+  }
+
+  .md-header__button {
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    padding: 10px;
+  }
+
+  [dir] .md-header__title {
+    min-width: 0;
+    margin: 0 8px;
+    font-size: 16px;
+  }
+
+  .md-search__input {
+    font-size: 16px;
+  }
+
+  .md-select__inner {
+    max-height: calc(100dvh - 72px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-radius: 12px;
+  }
+
+  .md-select__link {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .md-nav--primary .md-nav__link {
+    align-items: center;
+    min-height: 44px;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .md-main__inner {
+    margin-top: 0;
+  }
+
+  .md-content {
+    padding: 0;
+  }
+
+  .md-content__inner {
+    margin: 0 max(20px, env(safe-area-inset-right)) 32px max(20px, env(safe-area-inset-left));
+    padding-top: 24px;
+  }
+
+  .md-content__inner::before {
+    display: none;
+  }
+
+  .md-typeset {
+    font-size: 16px;
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+  }
+
+  .md-typeset h1 {
+    margin-bottom: 20px;
+    color: var(--md-default-fg-color);
+    font-size: clamp(26px, 5vw, 32px);
+    font-weight: 650;
+    line-height: 1.35;
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+
+  .md-typeset h2 {
+    margin-top: 32px;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.45;
+    text-wrap: balance;
+  }
+
+  .md-typeset h3 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .md-typeset :is(h1, h2, h3, h4) {
+    scroll-margin-top: 80px;
+  }
+
+  [dir] .md-typeset :is(ul, ol) {
+    margin-inline-start: 0;
+    padding-inline-start: 22px;
+  }
+
+  [dir] .md-typeset :is(ul, ol) li {
+    margin-inline-start: 0;
+    margin-bottom: 10px;
+  }
+
+  .md-typeset .mw-mobile-toc {
+    display: block;
+    margin: 0 0 24px;
+    padding: 0;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 12px;
+    background: var(--md-code-bg-color);
+    box-shadow: none;
+    font-size: 15px;
+  }
+
+  [dir] .md-typeset .mw-mobile-toc > summary {
+    min-height: 48px;
+    margin: 0;
+    padding: 10px 44px 10px 16px;
+    border-radius: 12px;
+    background: transparent;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .md-typeset .mw-mobile-toc > summary::before {
+    display: none;
+  }
+
+  .md-typeset .mw-mobile-toc > summary::after {
+    top: 14px;
+    right: 16px;
+  }
+
+  [dir] .md-typeset .mw-mobile-toc ul {
+    margin: 0;
+    padding: 0 16px 12px;
+    list-style: none;
+  }
+
+  [dir] .md-typeset .mw-mobile-toc li {
+    margin: 0;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+  }
+
+  .md-typeset .mw-mobile-toc a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 10px 0;
+    line-height: 1.5;
+  }
+
+  .md-typeset :is(.admonition, details):not(.mw-mobile-toc) {
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .md-typeset blockquote {
+    padding-inline-start: 14px;
+    font-size: 15px;
+  }
+
+  /* Confine wide content to its own scroller instead of widening the page. */
+  .md-typeset__scrollwrap {
+    margin-inline: 0;
+    border-radius: 10px;
+    overscroll-behavior-x: contain;
+  }
+
+  .md-typeset__table {
+    display: block;
+    padding: 0;
+  }
+
+  .md-typeset .md-typeset__table table:not([class]) {
+    display: table;
+    min-width: 100%;
+    max-width: none;
+    overflow: visible;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .md-typeset table :is(th, td) {
+    min-width: 112px;
+    padding: 12px;
+    overflow-wrap: normal;
+  }
+
+  .md-typeset pre {
+    max-width: 100%;
+    overflow-x: auto;
+    border-radius: 10px;
+    overscroll-behavior-x: contain;
+  }
+
+  .md-content__inner > pre {
+    margin-inline: 0;
+  }
+
+  .md-typeset pre code {
+    font-size: 13px;
+    line-height: 1.7;
+    overflow-wrap: normal;
+  }
+
+  .md-typeset :is(input[type="number"], input[type="text"], select, textarea) {
+    max-width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    background: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    font-size: 16px;
+  }
+
+  .md-typeset .mermaid {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .md-typeset .mw-related ul {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+    gap: 12px;
+    padding: 0;
+  }
+
+  .md-typeset .mw-related a {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .md-typeset .mw-related strong {
+    font-size: 16px;
+  }
+
+  .md-typeset .mw-related span {
+    font-size: 14px;
+  }
+
+  .md-footer-meta__inner {
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+  }
 }
