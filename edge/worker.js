@@ -12,6 +12,8 @@ import REDIRECTS from "./redirects.json" with { type: "json" };
 
 const HTML_EDGE_TTL = 3600;          // 1h：发布后最多 1 小时内全球生效
 const ASSET_EDGE_TTL = 30 * 86400;   // 30d
+// Bump after a site deployment to refresh HTML without cache-purge credentials.
+const HTML_CACHE_VERSION = "07a09019";
 const HASHED_ASSET = /\.[0-9a-f]{8,}\.min\.(css|js)$/i;  // mkdocs-material 产物：main.342714a4.min.css
 const STATIC_EXT = /\.(css|js|png|jpe?g|gif|svg|webp|ico|woff2?|ttf|json|xml|txt)$/i;
 
@@ -53,6 +55,13 @@ export function route(urlString) {
            isStatic: STATIC_EXT.test(url.pathname) };
 }
 
+export function originRequest(request, isStatic) {
+  if (isStatic) return request;
+  const url = new URL(request.url);
+  url.searchParams.set("__mw_release", HTML_CACHE_VERSION);
+  return new Request(url, request);
+}
+
 export default {
   async fetch(request, env, ctx) {
     ctx.passThroughOnException();
@@ -64,7 +73,7 @@ export default {
       return fetch(request);
     }
     const ttl = r.isStatic ? ASSET_EDGE_TTL : HTML_EDGE_TTL;
-    const resp = await fetch(request, {
+    const resp = await fetch(originRequest(request, r.isStatic), {
       cf: {
         cacheEverything: true,
         // 错误页只短暂缓存，避免把源站抖动放大

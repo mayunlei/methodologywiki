@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { route } from "./worker.js";
+import worker, { originRequest, route } from "./worker.js";
 const B = "https://methodologywiki.com";
 const cases = [
   ["http://methodologywiki.com/zh/", { redirect: B + "/zh/" }],
@@ -31,3 +31,37 @@ assert.equal(route(B + "/zh/stylesheets/extra.css").hashed, false);
 assert.equal(route(B + "/zh/stylesheets/extra.css").isStatic, true);
 assert.equal(route(B + "/zh/").isStatic, false);
 console.log("worker route 测试全部通过（%d 个用例 + 4 个缓存分类断言）", cases.length);
+
+const article = new Request(B + "/zh/?q=SWOT", {
+  method: "HEAD", headers: { "Accept-Language": "zh-CN" },
+});
+const origin = originRequest(article, false);
+assert.equal(origin.method, "HEAD");
+assert.equal(origin.headers.get("Accept-Language"), "zh-CN");
+assert.equal(new URL(origin.url).pathname, "/zh/");
+assert.equal(new URL(origin.url).searchParams.get("q"), "SWOT");
+assert.equal(new URL(origin.url).searchParams.get("__mw_release"), "07a09019");
+const asset = new Request(B + "/zh/stylesheets/extra.4c649c404ffd.css");
+assert.equal(originRequest(asset, true), asset);
+
+const realFetch = globalThis.fetch;
+let forwarded;
+globalThis.fetch = async (request, options) => {
+  forwarded = { request, options };
+  return new Response("ok");
+};
+try {
+  const ctx = { passThroughOnException() {} };
+  await worker.fetch(article, {}, ctx);
+  assert.equal(forwarded.request.url, origin.url);
+  assert.equal(forwarded.options.cf.cacheTtlByStatus["200-299"], 3600);
+  await worker.fetch(asset, {}, ctx);
+  assert.equal(forwarded.request, asset);
+  const post = new Request(B + "/submit", { method: "POST", body: "example" });
+  await worker.fetch(post, {}, ctx);
+  assert.equal(forwarded.request, post);
+  assert.equal(forwarded.options, undefined);
+} finally {
+  globalThis.fetch = realFetch;
+}
+console.log("worker release cache tests passed: query, headers, HEAD, assets and POST forwarding");
