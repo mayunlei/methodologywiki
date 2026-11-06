@@ -1,5 +1,32 @@
 {% extends "base.html" %}
 
+{% block content %}
+  {% set content = super() %}
+  {% if page and page.toc %}
+    {% set headings = page.toc %}
+    {% set first_heading = page.toc | first %}
+    {% if page.toc | length == 1 and first_heading.level == 1 %}
+      {% set headings = first_heading.children %}
+    {% endif %}
+    {% if headings %}
+      {% set mobile_toc %}
+        <nav aria-label="{{ lang.t('toc') }}">
+          <details class="mw-mobile-toc">
+            <summary>{{ lang.t('toc') }}</summary>
+            <ul>
+              {% for heading in headings %}
+                <li><a href="{{ heading.url }}">{{ heading.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </details>
+        </nav>
+      {% endset %}
+      {% set content = content | replace('</h1>', '</h1>' ~ mobile_toc, 1) %}
+    {% endif %}
+  {% endif %}
+  {{ content }}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
   <!-- 站点级结构化数据：实体只声明一次，统一指向根域，

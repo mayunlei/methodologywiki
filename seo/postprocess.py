@@ -17,6 +17,7 @@
 用法：python3 seo/postprocess.py <构建产物根目录> [--base-url https://methodologywiki.com]
 """
 import argparse
+import hashlib
 import html
 import json
 import os
@@ -454,6 +455,41 @@ def process_page(path, lang, smap, base_url, og_image, site_desc_by_lang, stats,
 
 # ------------------------------------------------------------ 根目录产物
 
+def fingerprint_stylesheets(root, langs):
+    """Use content-based URLs so edge and browser caches pick up style changes."""
+    names = {}
+    for lang in langs:
+        source = os.path.join(root, lang, "stylesheets", "extra.css")
+        if not os.path.isfile(source):
+            continue
+        with open(source, "rb") as fh:
+            css = fh.read()
+        name = "extra.%s.css" % hashlib.sha256(css).hexdigest()[:12]
+        with open(os.path.join(os.path.dirname(source), name), "wb") as fh:
+            fh.write(css)
+        names[lang] = name
+    changed = 0
+    for dirpath, _, files in os.walk(root):
+        for filename in files:
+            if not filename.endswith(".html"):
+                continue
+            path = os.path.join(dirpath, filename)
+            lang = os.path.relpath(path, root).split(os.sep)[0]
+            # The root 404 is copied from the English site.
+            name = names.get(lang, names.get(DEFAULT_LANG))
+            if not name:
+                continue
+            with open(path, encoding="utf-8") as fh:
+                body = fh.read()
+            updated = re.sub(r"(?<=stylesheets/)extra(?:\.[0-9a-f]{12})?\.css\b",
+                             name, body)
+            if updated != body:
+                with open(path, "w", encoding="utf-8") as fh:
+                    fh.write(updated)
+                changed += 1
+    log("样式缓存版本化：%d 个语言版本，更新 %d 页" % (len(names), changed))
+
+
 def write_sitemap_index(root, langs, base_url, per_lang):
     """根 sitemap 原本是空 urlset，改成指向各语言 sitemap 的 index。"""
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -615,12 +651,27 @@ h2{font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut)
 .langs a{display:inline-block;padding:9px 16px;border:1px solid var(--line);border-radius:999px;
  color:var(--fg);text-decoration:none;font-size:15px}
 .langs a:hover{border-color:var(--acc);color:var(--acc)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%%,240px),1fr));gap:10px 24px}
 .grid a{color:var(--fg);text-decoration:none;padding:7px 0;border-bottom:1px solid var(--line);
  font-size:15px}
 .grid a:hover{color:var(--acc)}
+a:focus-visible{outline:2px solid var(--acc);outline-offset:4px;border-radius:4px}
 footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);color:var(--mut);font-size:14px}
 footer a{color:var(--mut)}
+@media(max-width:600px){
+ .wrap{padding:32px max(20px,env(safe-area-inset-right)) 48px max(20px,env(safe-area-inset-left))}
+ h1{font-size:30px;line-height:1.3;text-wrap:balance;overflow-wrap:anywhere}
+ .lede{font-size:16px;line-height:1.75;margin-bottom:28px}
+ h2{margin:32px 0 14px;font-size:13px}
+ .langs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .langs a{display:flex;align-items:center;justify-content:center;min-height:48px;padding:10px 12px;
+  border-radius:12px;background:var(--bg);overflow-wrap:anywhere}
+ .grid{gap:0}
+ .grid a{display:flex;align-items:center;min-height:52px;padding:12px 4px;font-size:16px;
+  line-height:1.5;overflow-wrap:anywhere}
+ footer{margin-top:36px;padding-bottom:env(safe-area-inset-bottom)}
+ footer a{display:inline-flex;align-items:center;min-height:44px}
+}
 </style>
 </head>
 <body>
@@ -753,6 +804,7 @@ def main():
         per_lang = {l: [u for u in v if u not in secondary] for l, v in per_lang.items()}
         log("sitemap 移除次版本 %d 条" % removed)
 
+        fingerprint_stylesheets(root, langs)
     total = write_sitemap_index(root, langs, base_url, per_lang)
     write_robots(root, base_url)
     write_icons(root)
